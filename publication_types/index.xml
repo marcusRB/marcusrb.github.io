@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://marcusrb.github.io/publication_types/</link>
+    <description>Recent content in Publication_types on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    
+	<atom:link href="https://marcusrb.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

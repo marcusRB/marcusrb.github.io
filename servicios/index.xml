@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servicios on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://marcusrb.github.io/servicios/</link>
+    <description>Recent content in Servicios on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 29 Apr 2018 18:43:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://marcusrb.github.io/servicios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Consultoría en Google Analytics</title>
+      <link>https://marcusrb.github.io/servicios/consultoria-google-analytics/</link>
+      <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
+      
+      <guid>https://marcusrb.github.io/servicios/consultoria-google-analytics/</guid>
+      <description>Como realizar una consultoría o auditoría de Google Analytics ¿Necesita ayuda con Google Analytics? Permita que le muestre cómo utilizar los datos analíticos para cuantificar sus esfuerzos de SEO, aumentar el tráfico web, convertir a más visitantes en clientes potenciales y mejorar de forma mensurable su desempeño de marketing.
+¿Qué es Google Analytics? Google Analytics es una herramienta de análisis web que es extremadamente poderosa, además de ser gratuita. Los propietarios de negocios, ejecutivos de marketing y webmasters pueden usarlo para: medir y rastrear la actividad del sitio web, optimizar el rendimiento del sitio web, mejorar las tasas de conversión (por ejemplo, visitante a líder o visitante a venta) e incluso mejorar el rendimiento del marketing offline.</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Google Tag Manager</title>
+      <link>https://marcusrb.github.io/servicios/consultoria-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
+      
+      <guid>https://marcusrb.github.io/servicios/consultoria-google-tag-manager/</guid>
+      <description>Realizar una consultoría y/o auditoría de Google Tag Manager Google Tag Manager, la herramienta más utilizada para etiquetar eventos e interacciones, será el rol más importante para detectar nuevos insight en tu negocio, tener claro desde principio que medir y como medirlo,
+El Administrador de etiquetas de Google es una gran herramienta para que los dueños de negocios o los equipos de marketing vean cómo funciona su sitio web: qué áreas están funcionando, qué rendimiento tiene bajo rendimiento, qué funciones no se están usando como creía, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
