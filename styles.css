@@ -396,7 +396,7 @@ a[data-fancybox] img {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 110px 0 10px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
