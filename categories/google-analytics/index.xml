@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Analytics on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>https://marcusrb.github.io/categories/google-analytics/</link>
+    <link>/categories/google-analytics/</link>
     <description>Recent content in Google Analytics on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 26 May 2018 16:01:24 +0000</lastBuildDate>
     
-	<atom:link href="https://marcusrb.github.io/categories/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/google-analytics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>¿Buscas las respuestas del examen de Google Analytics 2018?</title>
-      <link>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</link>
+      <link>/buscas-las-respuestas-del-examen-de-google-analytics/</link>
       <pubDate>Sat, 26 May 2018 16:01:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
+      <guid>/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
       <description>Despúes de crear la entrada de las respuestas de la certificación oficial de Google AdWords fundamentales y avanzado, no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones
 en mi canal de YouTube, aquí os daré algunas de las preguntas del examen de Google Analytics.
 No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los exámenes, ni las hago para los demás a cambio de dinero, simplemente es una demostración que Google necesita comerciales y cuanto más somos mejor&amp;#8230;era broma.</description>
@@ -25,10 +25,10 @@ No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los ex
     
     <item>
       <title>Webinar: Aprende a integrar Google Analytics con Tag Manager</title>
-      <link>https://marcusrb.github.io/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
+      <link>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
       <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
+      <guid>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
       <description>## El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición
 y descubrir nuevos insight dentro de la analítica web, esta vez se hablará de Google Tag Manager y como integrarlo dentro del plan de implementación.
 Os dejo con el post oficial a continuación y para su inscripción GRATUITA:
@@ -37,28 +37,28 @@ Con este webinar vamos a aprender cómo efectuar correctamente un plan de implem
     
     <item>
       <title>Medición formularios Contact Form7 de WordPress con Tag Manager</title>
-      <link>https://marcusrb.github.io/medicion-formularios-contactform7-con-tag-manager/</link>
+      <link>/medicion-formularios-contactform7-con-tag-manager/</link>
       <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/medicion-formularios-contactform7-con-tag-manager/</guid>
+      <guid>/medicion-formularios-contactform7-con-tag-manager/</guid>
       <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica. Normalmente seguimos siempre unos pasos para hacerlo, pero casi siempre que nos encontramos con un teléfono o correo electrónico, enlaces salientes del tipo social, o eventos de interacciones del usuario en el sitio web, llegamos al punto más crítico, el hacer mediciones de interacciones de formulario.</description>
     </item>
     
     <item>
       <title>Integrar Google Optimize con Tag Manager – Experimentos con Analytics parte 1</title>
-      <link>https://marcusrb.github.io/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
+      <link>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
       <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
+      <guid>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
       <description>Hola a tod@s con un nuevo post, y esta semana hablaré de una gran herramienta gratuita para &amp;#8220;test A/B&amp;#8221; que anteriormente solo se podía gestionar a través de Google Analytics: &amp;#8220;Experimentos&amp;#8221;. Google Optimize no ha tardado en salir en formato BETA hace unos años y integrado con Google Tag Manager a través de una etiqueta que al parecer es fácil de implementar. Hay que mencionar que Google Tag Manager, el sistema de etiquetado más utilizado (y gratuito) del momento, y de la gran familia Google, nos permitía integrar en nuestros sitios web experimentos de landing page tipo:</description>
     </item>
     
     <item>
       <title>Nuevas variables y activadores para medir los {{videos}} en Tag Manager • Parte I</title>
-      <link>https://marcusrb.github.io/medir-videos-tag-manager-parte-1/</link>
+      <link>/medir-videos-tag-manager-parte-1/</link>
       <pubDate>Sun, 24 Sep 2017 15:15:09 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/medir-videos-tag-manager-parte-1/</guid>
+      <guid>/medir-videos-tag-manager-parte-1/</guid>
       <description>Como se venía anunciando hace muchos meses, finalmente Google Tag Manager activó la posibilidad de medir los eventos del tipo &amp;#8220;videos&amp;#8221; directamente con variables propias.
 Desde que comencé a enamorarme de Tag Manager, fue en 2013, y gracias a la comunidad de Analytics de habla inglesa, la única posibilidad era a través de customHTML, es decir Javascript personalizados con jQuery. Hace mención particular a los desarrolladores de Lunametrics y sus fantásticos repositorios que sigo utilizando y personalizando.</description>
     </item>

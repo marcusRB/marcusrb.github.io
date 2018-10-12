@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>https://marcusrb.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://marcusrb.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>¿Cuánto cuesta el marketing de los medios sociales?</title>
-      <link>https://marcusrb.github.io/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
+      <link>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
       <pubDate>Wed, 15 Aug 2018 15:13:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/cuanto-cuesta-el-marketing-de-los-medios-sociales/</guid>
+      <guid>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</guid>
       <description>¿Sabes cuánto cuesta una campaña de marketing influyente ? ¿Cuánto deberías pagarle a un influencer? Si no estás seguro, no te preocupes, hay más de uno que no conoce la respuesta, y yo entre ellos! No sabía mucho antes de hacer la investigación para esta publicación en el blog, y exactamente hace una semana cuando compartí este post que me llamó mucho la atención:   
 Y, en verdad, no hay una ciencia exacta para calcular cuánto se debe pagar a influyentes, como le explicó un ejecutivo de medios sociales a Digiday</description>
     </item>
     
     <item>
       <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
-      <link>https://marcusrb.github.io/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <link>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
       <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <guid>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
       <description>Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager. Seguramente ya te puesto a buscar y rebuscar sin éxito, o directamente pedir ayuda a un desarrollador.
 Es lo mismo que me ha pasado a mí en más de una ocasión, hasta encontrar con varias respuestas y opciones, y gracias a Lunametrics, Simo Avaha y Measureschool, finalmente yo también puedo redactar un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager a Google Analytics o pixel de terceros.</description>
     </item>
     
     <item>
       <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
-      <link>https://marcusrb.github.io/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <link>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
       <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <guid>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
       <description>Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas. Si estás aquí significa que ya has oído hablar del servicio CookieBot para administrar el GDPR en su sitio y le gustaría instalarlo con el Administrador de etiquetas de Google Tag Manager.
 Tengo que darte dos noticias, una buena (¡hurra!) y una mala (¡doh!).</description>
     </item>
     
     <item>
       <title>¿Buscas las respuestas del examen de Google Analytics 2018?</title>
-      <link>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</link>
+      <link>/buscas-las-respuestas-del-examen-de-google-analytics/</link>
       <pubDate>Sat, 26 May 2018 16:01:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
+      <guid>/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
       <description>Despúes de crear la entrada de las respuestas de la certificación oficial de Google AdWords fundamentales y avanzado, no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones
 en mi canal de YouTube, aquí os daré algunas de las preguntas del examen de Google Analytics.
 No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los exámenes, ni las hago para los demás a cambio de dinero, simplemente es una demostración que Google necesita comerciales y cuanto más somos mejor&amp;#8230;era broma.</description>
@@ -55,68 +55,68 @@ No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los ex
     
     <item>
       <title>¿Por qué tengo pocas visitas?</title>
-      <link>https://marcusrb.github.io/por-que-tengo-pocas-visitas/</link>
+      <link>/por-que-tengo-pocas-visitas/</link>
       <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/por-que-tengo-pocas-visitas/</guid>
+      <guid>/por-que-tengo-pocas-visitas/</guid>
       <description>Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes. Comprender la importancia y seriedad que conlleva un proyecto en Internet es vital para alcanzar el éxito, se requiere que intervenga varias disciplinas, entre ellas la analítica web.
 Algunas de las clásicas preguntas de clientes o propietarios de sitios web:</description>
     </item>
     
     <item>
       <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
-      <link>https://marcusrb.github.io/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
+      <link>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
       <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
+      <guid>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
       <description>Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing Google Tag Manager es una de las herramientas más innovadoras en la web para una gestión avanzada de nuestro análisis de marketing . Para aquellos que nunca han oído hablar de él, es una herramienta principalmente dedicada a los analistas de marketing y gerentes de marketing, que le permite llevar la Optimización de la tasa de conversión o CRO (Conversion Rate Optimization), la optimización de los procesos de conversión dentro de un sitio web en un nivel que de otro modo solo se puede alcanzar mediante el uso de herramientas a menudo bastante costosas.</description>
     </item>
     
     <item>
       <title>[Tutorial] Creación de un CRM con Google Sheets y Google Tag Manager</title>
-      <link>https://marcusrb.github.io/creacion-crm-google-sheets-google-tag-manager/</link>
+      <link>/creacion-crm-google-sheets-google-tag-manager/</link>
       <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <guid>/creacion-crm-google-sheets-google-tag-manager/</guid>
       <description>¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos? Será un tutorial dividido en dos partes, la primera la explicación de como crear en Tag Manager variables, personalizadas y dinámicas, ejemplo al enviar un formulario para Leads, y de otro lado enlazando Google Sheet y tener toda la información (excluyo la información sensible en virtud de la nueva ley GDPR no haré mención a datos sensibles), además a tener en cuenta que tampoco llevaré estos datos a Google Analytics para evitar penalizaciones (nunca me ha pasado y tampoco quiero arriesgarme).</description>
     </item>
     
     <item>
       <title>Realizando auditoría y optimización AdWords:Reparación Móviles</title>
-      <link>https://marcusrb.github.io/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
+      <link>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
       <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
+      <guid>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
       <description>¿Quieres ver como he realizado una optimización de una cuenta AdWords para el sector de reparaciones móviles y pantallas de smartphones? No te pierdas mi próximo webinar de una hora de duración el próximo
  Jueves 10 de Mayo 2018 a las 19:00h   . Se comentará en directo de cómo extraer datos de una cuenta de AdWords y desde Analytics, crear patrones para organizar mejor los grupos de anuncios, las campañas y las palabras claves.</description>
     </item>
     
     <item>
       <title>Como efectuar correctamente una migración a Google Tag Manager</title>
-      <link>https://marcusrb.github.io/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <link>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
       <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <guid>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
       <description>Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;administrador de etiquetas&amp;#8220;.
 Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir código &amp;#8220;a saco&amp;#8221; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:</description>
     </item>
     
     <item>
       <title>Preguntas y test examen de Google AdWords avanzado de Búsqueda</title>
-      <link>https://marcusrb.github.io/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
+      <link>/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
       <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
+      <guid>/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
       <description>## Después del post con las preguntas del examen de Google AdWords fundamentos, en este hay algunos de los test con las preguntas de Google Adwords Avanzado.
 Hace más de cinco años que realizo test para la certificación oficial de Google AdWords, además de otros cursos para Google Partners, que ahora se llama Academy For Ads. Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.</description>
     </item>
     
     <item>
       <title>Como crear eventos dinámicos con Google Tag Manager</title>
-      <link>https://marcusrb.github.io/como-crear-eventos-dinamicos-con-google-tag-manager/</link>
+      <link>/como-crear-eventos-dinamicos-con-google-tag-manager/</link>
       <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/como-crear-eventos-dinamicos-con-google-tag-manager/</guid>
+      <guid>/como-crear-eventos-dinamicos-con-google-tag-manager/</guid>
       <description>Este post sería un resumen en formato texto, de un vídeo anterior realizado en YouTube y está pensado como memoria para aquellos que quieren seguir todos los pasos de una creación de eventos dinámicos con Google Tag Manager. El nivel de este tutorial es intermedio. Así que cualquier duda pueden ver primero el vídeo explicativo Google Tag Manager en 30 minutos y luego este
 &amp;nbsp;
 Definición de evento Vamos directo al grano, primero definimos que es un evento.</description>
@@ -124,10 +124,10 @@ Definición de evento Vamos directo al grano, primero definimos que es un evento
     
     <item>
       <title>Webinar: Aprende a integrar Google Analytics con Tag Manager</title>
-      <link>https://marcusrb.github.io/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
+      <link>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
       <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
+      <guid>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
       <description>## El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición
 y descubrir nuevos insight dentro de la analítica web, esta vez se hablará de Google Tag Manager y como integrarlo dentro del plan de implementación.
 Os dejo con el post oficial a continuación y para su inscripción GRATUITA:
@@ -136,20 +136,20 @@ Con este webinar vamos a aprender cómo efectuar correctamente un plan de implem
     
     <item>
       <title>El Machine Learning aplicado a Google AdWords</title>
-      <link>https://marcusrb.github.io/el-machine-learning-aplicado-a-google-adwords/</link>
+      <link>/el-machine-learning-aplicado-a-google-adwords/</link>
       <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/el-machine-learning-aplicado-a-google-adwords/</guid>
+      <guid>/el-machine-learning-aplicado-a-google-adwords/</guid>
       <description>Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático,  solo que cuando se puso de &amp;#8220;moda&amp;#8221; este término es donde ahora comenzamos a ver un poco más la luz a este tema tan complicado.
 Entre muchos &amp;#8220;profesionales&amp;#8221; del sector PPC, y quién ya trabaja con estas herramienta ya hace años, sabemos que entre muchas dificultades que AdWords conlleva, el auto-aprendizaje se venía realizando a través de script personalizados, autogestionales o bien con reglas automatizadas.</description>
     </item>
     
     <item>
       <title>Webinar MarketingDirectoSchool – Detectando las necesidades de la analítica web</title>
-      <link>https://marcusrb.github.io/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</link>
+      <link>/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</link>
       <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</guid>
+      <guid>/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</guid>
       <description>El pasado Jueves 22 de Marzo se emitió en directo el primer webinar de analítica web con la colaboración de MarketingDirectoSchool y por la ocasión he hablado de las oportunidades que una buena medición y una meticulosa configuración de la herramienta de Analytics, por ejemplo, podemos detectar muchas necesidades, o insights.
 Aquí el vídeo que habla además de una checklist ideal para tenerlo siempre a la mano:
 &amp;nbsp;
@@ -159,58 +159,58 @@ Aquí el vídeo que habla además de una checklist ideal para tenerlo siempre a 
     
     <item>
       <title>¿Buscas las respuestas del examen de Google AdWords fundamentales?</title>
-      <link>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</link>
+      <link>/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</link>
       <pubDate>Tue, 27 Mar 2018 14:02:53 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</guid>
+      <guid>/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</guid>
       <description>Hace más de cinco años que realizo test para la certificación oficial de Google AdWords fundamentales, además de Google Avanzado, y más de Google Partners que ahora se llama Academy For Ads. Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.</description>
     </item>
     
     <item>
       <title>Medición formularios Contact Form7 de WordPress con Tag Manager</title>
-      <link>https://marcusrb.github.io/medicion-formularios-contactform7-con-tag-manager/</link>
+      <link>/medicion-formularios-contactform7-con-tag-manager/</link>
       <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/medicion-formularios-contactform7-con-tag-manager/</guid>
+      <guid>/medicion-formularios-contactform7-con-tag-manager/</guid>
       <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica. Normalmente seguimos siempre unos pasos para hacerlo, pero casi siempre que nos encontramos con un teléfono o correo electrónico, enlaces salientes del tipo social, o eventos de interacciones del usuario en el sitio web, llegamos al punto más crítico, el hacer mediciones de interacciones de formulario.</description>
     </item>
     
     <item>
       <title>El perfil del analista de datos y del analista digital y sus requisitos</title>
-      <link>https://marcusrb.github.io/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
+      <link>/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
       <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
+      <guid>/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
       <description>Hace mucho tiempo que tenía gana de redactar un artículo sobre esta tema, y durante más de algunas clases impartidas de analítica web, se comentaba que requisitos ha de tener un analista web y que diferencia tiene con el analista de datos mencionando el rol que desempeña.
 Está claro que por analista web no estamos hablando de realizar un curso de Google Analytics y fin, y que espero hoy en día todo el mundo conoce, pero era de ir profundizando el rol que tiene este perfil con el analista de datos.</description>
     </item>
     
     <item>
       <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
-      <link>https://marcusrb.github.io/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <link>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
       <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <guid>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
       <description>Hola, en este post, gracias a un comentario propuesto por vosotros a mi canal de YouTube https://www.youtube.com/c/Marcusrb, dedicaré a un tutorial de como realizar un etiquetado correcto de nuestra web gracias a Google Tag Manager para los eventos de Google Analytics. Hay que tener en cuenta muchos factores, y en esto lo tenemos tener claro a través de un diseño de un plan, el plan de medición.
 Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado, así llamado también S.</description>
     </item>
     
     <item>
       <title>6 años cumplidos como docente de Marketing Digital en España</title>
-      <link>https://marcusrb.github.io/6-anos-cumplidos-docente-marketing-digital-espana/</link>
+      <link>/6-anos-cumplidos-docente-marketing-digital-espana/</link>
       <pubDate>Mon, 05 Mar 2018 22:53:10 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/6-anos-cumplidos-docente-marketing-digital-espana/</guid>
+      <guid>/6-anos-cumplidos-docente-marketing-digital-espana/</guid>
       <description>Pues si, este mes (Junio 2018) he cumplido exactamente 6 años desde cuando he comenzado con la aventura de impartir mis primeros cursos y programas de posgrados, el Máster de SEO y SEM en Aula Creactiva y sigo teniendo muy buenos recuerdos.
 Aquí mi resumen de todos los cursos realizados, másters y programas de postgrado en empresas de educación superior, escuelas de negocios y PP.AA. : (Cámara de Madrid y de Alcalá de Henares, EAE Business School, Adveischool, KPI&amp;rsquo;s escuela digital, IIM Instituto Internacional de Marketing, DigitalBrain, IEDGE Business School, IEBS Business School&amp;hellip;)</description>
     </item>
     
     <item>
       <title>¿Profesor, docente o formador?</title>
-      <link>https://marcusrb.github.io/profesor-docente-formador-marketing-digital/</link>
+      <link>/profesor-docente-formador-marketing-digital/</link>
       <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/profesor-docente-formador-marketing-digital/</guid>
+      <guid>/profesor-docente-formador-marketing-digital/</guid>
       <description>Primero, para no confundir con el título y con el contenido voy primero aclarando unas cuantas cosas.
 A enero 2018 he cumplido 5 años y medio como formador y docente, aunque es verdad que en muchos puestos también como profesor. Buscando y rebuscando con el fin de interpretar mejor la información proporcionada en mis curriculum y presentación, realmente hay diferencia entre una cosa y otra.
 Googleando me sale este primer resultado, que bien finalmente alguien que lo aclare:</description>
@@ -218,85 +218,85 @@ Googleando me sale este primer resultado, que bien finalmente alguien que lo acl
     
     <item>
       <title>Encuesta: ¿Qué te gustaría aprender más en este momento?</title>
-      <link>https://marcusrb.github.io/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</link>
+      <link>/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</link>
       <pubDate>Thu, 01 Mar 2018 16:59:59 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</guid>
+      <guid>/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</guid>
       <description>Cargando&amp;#8230; </description>
     </item>
     
     <item>
       <title>Integrar Google Optimize con Tag Manager – Experimentos con Analytics parte 1</title>
-      <link>https://marcusrb.github.io/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
+      <link>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
       <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
+      <guid>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
       <description>Hola a tod@s con un nuevo post, y esta semana hablaré de una gran herramienta gratuita para &amp;#8220;test A/B&amp;#8221; que anteriormente solo se podía gestionar a través de Google Analytics: &amp;#8220;Experimentos&amp;#8221;. Google Optimize no ha tardado en salir en formato BETA hace unos años y integrado con Google Tag Manager a través de una etiqueta que al parecer es fácil de implementar. Hay que mencionar que Google Tag Manager, el sistema de etiquetado más utilizado (y gratuito) del momento, y de la gran familia Google, nos permitía integrar en nuestros sitios web experimentos de landing page tipo:</description>
     </item>
     
     <item>
       <title>[Guía] Implementar Comercio electrónico en Google Tag Manager para sitios web</title>
-      <link>https://marcusrb.github.io/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
+      <link>/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
       <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
+      <guid>/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
       <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente, especialmente si queremos realizarlo integramente en proyectos personalizados, sitios web ad-hoc donde no utilizan especificamente plugin o módulos free, ejemplo un híbrido de Magento, Prestashop o similar.
 La cuestión es ir explicar paso a paso como grabar los eventos más utilizados de un comercio electrónico, y no solo transacciones.</description>
     </item>
     
     <item>
       <title>Nuevas variables y activadores para medir los {{videos}} en Tag Manager • Parte I</title>
-      <link>https://marcusrb.github.io/medir-videos-tag-manager-parte-1/</link>
+      <link>/medir-videos-tag-manager-parte-1/</link>
       <pubDate>Sun, 24 Sep 2017 15:15:09 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/medir-videos-tag-manager-parte-1/</guid>
+      <guid>/medir-videos-tag-manager-parte-1/</guid>
       <description>Como se venía anunciando hace muchos meses, finalmente Google Tag Manager activó la posibilidad de medir los eventos del tipo &amp;#8220;videos&amp;#8221; directamente con variables propias.
 Desde que comencé a enamorarme de Tag Manager, fue en 2013, y gracias a la comunidad de Analytics de habla inglesa, la única posibilidad era a través de customHTML, es decir Javascript personalizados con jQuery. Hace mención particular a los desarrolladores de Lunametrics y sus fantásticos repositorios que sigo utilizando y personalizando.</description>
     </item>
     
     <item>
       <title>Qué es Google Tag Manager y sus beneficios</title>
-      <link>https://marcusrb.github.io/que-es-google-tag-manager-y-sus-beneficios/</link>
+      <link>/que-es-google-tag-manager-y-sus-beneficios/</link>
       <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/que-es-google-tag-manager-y-sus-beneficios/</guid>
+      <guid>/que-es-google-tag-manager-y-sus-beneficios/</guid>
       <description>Mi primer post para Tag Manager es hablar sobre ella de manera sencilla, cual es su utilidad y porque todos marketero necesita formarse. Se habla mucho de analítica web, de objetivos, de kpi, experiencia de usuario y siempre caemos en lo de siempre, muchos datos y no tenemos maneras de separar los datos buenos de los malos, muchas veces datos que ni sirven, o interpretaciones mal de los datos.</description>
     </item>
     
     <item>
       <title>MCC vs cuenta personal – técnicas y consejos de google AdWords</title>
-      <link>https://marcusrb.github.io/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</link>
+      <link>/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</link>
       <pubDate>Sun, 23 Jul 2017 09:40:22 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</guid>
+      <guid>/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</guid>
       <description>Hola, seguramente habrás leído mucho sobre AdWords y quizá si estás aquí es porqué estabas buscando trucos o consejos de Google AdWords, bueno esta era la idea de crear esta categoría, “Consejos&amp;Trucos de Adwords” Sobre AdWords hay mucho, pero muchisimo material online, así que pongamos un poco de orden al todo. Los consejos, trucos y técnicas van en orden del básico a las más avanzadas, así que no te preocupes.  Sabías que existe además de la cuenta clásica de Adwords, una cuenta especial denominada MCC o Mi Centro clientes?</description>
     </item>
     
     <item>
       <title>Puja CPC Manual o Automática – maximizar clics?</title>
-      <link>https://marcusrb.github.io/puja-cpc-manual-automatica-maximizar-clics/</link>
+      <link>/puja-cpc-manual-automatica-maximizar-clics/</link>
       <pubDate>Fri, 23 Jun 2017 09:38:00 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/puja-cpc-manual-automatica-maximizar-clics/</guid>
+      <guid>/puja-cpc-manual-automatica-maximizar-clics/</guid>
       <description>Si hablamos tanto de Google AdWords o Microsoft Bing AdCenter, después estudiar la competencia, nuestro target, palabras claves , crear las diferentes landing page y pensar al budget diario y/o mensual, hay una parte muy interesante relacionado con la configuración de la puja de nuestra palabras claves: automática o manual. Cómo funciona una puja?  Realmente es interesante saber como funciona, porqué es desde momento que entran en juego mucho elementos para que nuestros anuncios sean visualizados al usuario y que hagan clic, pero sobretodo aqui se decide cuanto finalmente pagamos para cada clic.</description>
     </item>
     
     <item>
       <title>No Tengo Conversiones, Que Hago?</title>
-      <link>https://marcusrb.github.io/no-conversiones-hago/</link>
+      <link>/no-conversiones-hago/</link>
       <pubDate>Tue, 23 May 2017 09:34:43 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/no-conversiones-hago/</guid>
+      <guid>/no-conversiones-hago/</guid>
       <description>Heading
  &amp;lt;h2&amp;gt;Si estás leyendo esta entrada seguramente eres uno de ellos. Noo? Mejor, pero seguramente quieres saber algo más sobre Analítica Web y conversiones. &amp;lt;/h2&amp;gt; Es una de las preguntas que más oigo a muchos posibles clientes, que me llaman o me envian mail y alumnos. Que pasa cuando no hay conversiones? Que más tengo que hacer, o estrategia tengo que seguir? Que estoy haciendo mal? Todas a estas y más preguntas, existen unas respuestas estándar y otras de sugerencias para detectar el mejor camino.</description>
     </item>
     
     <item>
       <title>Auditoría SEO de un Sitio Web: Puntos de Análisis</title>
-      <link>https://marcusrb.github.io/auditoria-seo-sitio-web-puntos-analisis/</link>
+      <link>/auditoria-seo-sitio-web-puntos-analisis/</link>
       <pubDate>Thu, 23 Mar 2017 08:38:32 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/auditoria-seo-sitio-web-puntos-analisis/</guid>
+      <guid>/auditoria-seo-sitio-web-puntos-analisis/</guid>
       <description>A través de ésta infografia, se muestra de forma básica qué aspectos on site y off site pueden ser considerados en un primer análisis a un sitio web, con ésto, va a permitir identificar carencias y puntos de mejora De forma más elaborada Geoff Keyton en “Technical Site Audit Checklist” propone un checklist más elaborado para llevar a cabo una auditoría técnica sobre el sitio web, los principales puntos de control son:  1.</description>
     </item>
     

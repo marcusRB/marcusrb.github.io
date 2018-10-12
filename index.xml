@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MarcusRB: consultor &amp; docente Analítica de Datos on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>https://marcusrb.github.io/</link>
+    <link>/</link>
     <description>Recent content in MarcusRB: consultor &amp; docente Analítica de Datos on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>¿Cuánto cuesta el marketing de los medios sociales?</title>
-      <link>https://marcusrb.github.io/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
+      <link>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
       <pubDate>Wed, 15 Aug 2018 15:13:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/cuanto-cuesta-el-marketing-de-los-medios-sociales/</guid>
+      <guid>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</guid>
       <description>
 
 &lt;h2 id=&#34;sabes-cuánto-cuesta-una-campaña-de-marketing-influyente-cuánto-deberías-pagarle-a-un-influencer&#34;&gt;¿Sabes cuánto cuesta una campaña de marketing influyente ? ¿Cuánto deberías pagarle a un influencer?&lt;/h2&gt;
@@ -232,10 +232,10 @@ El alcance orgánico de Facebook es notoriamente malo, así que no tiene ningún
     
     <item>
       <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
-      <link>https://marcusrb.github.io/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <link>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
       <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <guid>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
       <description>
 
 &lt;h2 id=&#34;un-post-sobre-la-medición-de-eventos-cuales-clicks-conversiones-formularios-transacciones-desde-un-iframe-con-google-tag-manager&#34;&gt;Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager.&lt;/h2&gt;
@@ -452,10 +452,10 @@ El alcance orgánico de Facebook es notoriamente malo, así que no tiene ningún
     
     <item>
       <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
-      <link>https://marcusrb.github.io/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <link>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
       <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <guid>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
       <description>
 
 &lt;h2 id=&#34;aquí-la-configuración-optima-para-estar-protegido-desde-el-25-de-mayo-2018-con-la-nueva-ley-de-protección-de-datos-y-no-tener-problemas&#34;&gt;Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas.&lt;/h2&gt;
@@ -775,10 +775,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>¿Buscas las respuestas del examen de Google Analytics 2018?</title>
-      <link>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</link>
+      <link>/buscas-las-respuestas-del-examen-de-google-analytics/</link>
       <pubDate>Sat, 26 May 2018 16:01:24 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
+      <guid>/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
       <description>&lt;p&gt;Despúes de crear la entrada de las respuestas de la  &lt;strong&gt;certificación oficial de Google AdWords fundamentales y&lt;/strong&gt; &lt;strong&gt;avanzado, &lt;/strong&gt;no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones&lt;/p&gt;
 
 &lt;p&gt;en &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, aquí os daré algunas de las preguntas del examen de Google Analytics.&lt;/p&gt;
@@ -794,17 +794,17 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google Analytics 2018 &amp;#8211; parte 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google Analytics 2018 &amp;#8211; parte 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Test preguntas examen Certificación Google Analytics parte_1</title>
-      <link>https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</link>
+      <link>/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</link>
       <pubDate>Fri, 25 May 2018 16:44:56 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</guid>
+      <guid>/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</guid>
       <description>&lt;p&gt;Aquí una muestra de las preguntas de la certificación del examen de Google Analytics y actualizado al primer trimestre 2018. Se ha realizado también el video con las preguntas y mis respuestas 100% válidas (2017) y otro en 2018 (95%).&lt;/p&gt;
 
 &lt;p&gt;Esta 1ª parte del test de certificación, compuesto de 20 preguntas con una valoración de 10 puntos para las correctas. Válido para el examen oficial de Google Analytics en Academy For Ads. Para más informaciones pueden acceder al mismo examen: &lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34;  target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34; target=&#34;_blank&#34;&gt;https://academy.exceedlms.com/student/path/2934&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -816,10 +816,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>¿Por qué tengo pocas visitas?</title>
-      <link>https://marcusrb.github.io/por-que-tengo-pocas-visitas/</link>
+      <link>/por-que-tengo-pocas-visitas/</link>
       <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/por-que-tengo-pocas-visitas/</guid>
+      <guid>/por-que-tengo-pocas-visitas/</guid>
       <description>
 
 &lt;h2 id=&#34;un-sitio-web-de-comercio-electrónico-o-la-presencia-de-una-empresa-en-internet-no-es-un-juego-los-principales-objetivos-siguen-siendo-el-incremento-de-ventas-la-reducción-de-costes-y-la-fidelización-de-clientes&#34;&gt;Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes.&lt;/h2&gt;
@@ -930,10 +930,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
-      <link>https://marcusrb.github.io/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
+      <link>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
       <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
+      <guid>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
       <description>
 
 &lt;h2 id=&#34;web-analytics-10-razones-para-usar-tag-manager-en-su-análisis-de-marketing&#34;&gt;Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing&lt;/h2&gt;
@@ -1070,10 +1070,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>[Tutorial] Creación de un CRM con Google Sheets y Google Tag Manager</title>
-      <link>https://marcusrb.github.io/creacion-crm-google-sheets-google-tag-manager/</link>
+      <link>/creacion-crm-google-sheets-google-tag-manager/</link>
       <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <guid>/creacion-crm-google-sheets-google-tag-manager/</guid>
       <description>
 
 &lt;h2 id=&#34;quiéres-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-dinámicos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos&#34;&gt;¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos?&lt;/h2&gt;
@@ -1291,10 +1291,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>“Recetas” de Google Tag Manager</title>
-      <link>https://marcusrb.github.io/recursos/recetas-de-google-tag-manager/</link>
+      <link>/recursos/recetas-de-google-tag-manager/</link>
       <pubDate>Wed, 02 May 2018 13:03:09 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/recursos/recetas-de-google-tag-manager/</guid>
+      <guid>/recursos/recetas-de-google-tag-manager/</guid>
       <description>
 
 &lt;h2 id=&#34;por-qué-recetas&#34;&gt;¿Por qué “recetas”?&lt;/h2&gt;
@@ -1365,7 +1365,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 
 &lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://marcusrb.github.io/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&#34;&gt;/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&#34;&gt;/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/comercio-electronico-mejorado-tag-manager-analytics.jpg&#34; alt=&#34;eventos-comercio-electronico-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
 
@@ -1402,7 +1402,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Con este script puedes borrar completamente y &amp;ldquo;limpiar&amp;rdquo; tu contenedor como nuevo&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Consigue la &lt;a href=&#34;https://marcusrb.github.io/recetas-de-google-tag-manager/limpia-tu-contenedor-de-google-tag-manager/&#34;&gt;receta ahora mismo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Consigue la &lt;a href=&#34;/recetas-de-google-tag-manager/limpia-tu-contenedor-de-google-tag-manager/&#34;&gt;receta ahora mismo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sigues todas las novedades subscribiendote al boletín
 &lt;!-- Begin MailChimp Signup Form --&gt;
@@ -1430,10 +1430,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Realizando auditoría y optimización AdWords:Reparación Móviles</title>
-      <link>https://marcusrb.github.io/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
+      <link>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
       <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
+      <guid>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
       <description>
 
 &lt;h2 id=&#34;quieres-ver-como-he-realizado-una-optimización-de-una-cuenta-adwords-para-el-sector-de-reparaciones-móviles-y-pantallas-de-smartphones&#34;&gt;¿Quieres ver como he realizado una optimización de una cuenta AdWords para el sector de reparaciones móviles y pantallas de smartphones?&lt;/h2&gt;
@@ -1454,10 +1454,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Como efectuar correctamente una migración a Google Tag Manager</title>
-      <link>https://marcusrb.github.io/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <link>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
       <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <guid>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
       <description>
 
 &lt;h2 id=&#34;durante-más-de-5-años-he-estado-utilizando-google-tag-manager-en-auditorias-de-analítica-web-a-mis-clientes-y-sobre-todo-actualizándome-constantemente&#34;&gt;Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente&lt;/h2&gt;
@@ -1573,10 +1573,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Consultoría en Google Analytics</title>
-      <link>https://marcusrb.github.io/servicios/consultoria-google-analytics/</link>
+      <link>/servicios/consultoria-google-analytics/</link>
       <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/servicios/consultoria-google-analytics/</guid>
+      <guid>/servicios/consultoria-google-analytics/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png&#34; alt=&#34;logo_lockup_analytics_icon_vertical_black_2x&#34;/&gt;&lt;/p&gt;
@@ -1601,10 +1601,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Consultoría en Google Tag Manager</title>
-      <link>https://marcusrb.github.io/servicios/consultoria-google-tag-manager/</link>
+      <link>/servicios/consultoria-google-tag-manager/</link>
       <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/servicios/consultoria-google-tag-manager/</guid>
+      <guid>/servicios/consultoria-google-tag-manager/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png&#34; alt=&#34;plantilla-gtm-analytics&#34;/&gt;&lt;/p&gt;
@@ -1653,10 +1653,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Preguntas y test examen de Google AdWords avanzado de Búsqueda</title>
-      <link>https://marcusrb.github.io/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
+      <link>/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
       <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
+      <guid>/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
       <description>&lt;p&gt;## Después del post con las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34; target=&#34;_blank&#34;&gt;preguntas del examen de Google AdWords fundamentos&lt;/a&gt;, en este hay algunos de los test con las &lt;strong&gt;preguntas de Google Adwords Avanzado.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Hace más de cinco años que realizo test para la &lt;strong&gt;certificación oficial de Google AdWords&lt;/strong&gt;, además de otros cursos para Google Partners, que ahora se llama &lt;strong&gt;&lt;a href=&#34;https://landing.google.com/academyforads/#?modal_active=none&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academy For Ads&lt;/a&gt;.&lt;/strong&gt; Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.&lt;/p&gt;
@@ -1676,9 +1676,9 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 3&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 3&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;/p&gt;
@@ -1687,10 +1687,10 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Test preguntas examen Certificación Google AdWords – Avanzado de Búsqueda parte 3</title>
-      <link>https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</link>
+      <link>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</link>
       <pubDate>Thu, 26 Apr 2018 15:45:04 +0000</pubDate>
       
-      <guid>https://marcusrb.github.io/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</guid>
+      <guid>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</guid>
       <description>&lt;p&gt;Aquí una muestra de las preguntas de la certificación del examen de Google AdWords para 2018, es la tercera parte de 3 módulos de Avanzado de Búsqueda. Se ha realizado también el video con las preguntas y mis respuestas 100% válidas&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
