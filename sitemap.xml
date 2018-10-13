@@ -4,8 +4,32 @@
     
     <url>
     
+      <loc>/publication/py001-tipo-de-datos/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/py002-cadenas-python/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/py003-tuplas-python/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
     </url>
     
   
@@ -13,7 +37,7 @@
     <url>
     
       <loc>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
     </url>
     
   
@@ -21,7 +45,7 @@
     <url>
     
       <loc>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
     </url>
     
   
@@ -29,7 +53,7 @@
     <url>
     
       <loc>/buscas-las-respuestas-del-examen-de-google-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
     </url>
     
   
@@ -37,7 +61,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-25T16:44:56+00:00</lastmod>
     </url>
     
   
@@ -45,7 +69,7 @@
     <url>
     
       <loc>/por-que-tengo-pocas-visitas/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-15T13:20:27+00:00</lastmod>
     </url>
     
   
@@ -53,7 +77,7 @@
     <url>
     
       <loc>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-08T15:19:14+00:00</lastmod>
     </url>
     
   
@@ -61,7 +85,7 @@
     <url>
     
       <loc>/creacion-crm-google-sheets-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:32:16+00:00</lastmod>
     </url>
     
   
@@ -69,7 +93,7 @@
     <url>
     
       <loc>/recursos/recetas-de-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:03:09+00:00</lastmod>
     </url>
     
   
@@ -77,7 +101,7 @@
     <url>
     
       <loc>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
     </url>
     
   
@@ -85,7 +109,7 @@
     <url>
     
       <loc>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
     </url>
     
   
@@ -93,7 +117,7 @@
     <url>
     
       <loc>/servicios/consultoria-google-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T18:43:20+00:00</lastmod>
     </url>
     
   
@@ -101,7 +125,7 @@
     <url>
     
       <loc>/servicios/consultoria-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T18:31:41+00:00</lastmod>
     </url>
     
   
@@ -109,7 +133,7 @@
     <url>
     
       <loc>/test-examen-de-google-adwords-avanzado-de-busqueda/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:47:41+00:00</lastmod>
     </url>
     
   
@@ -117,7 +141,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:45:04+00:00</lastmod>
     </url>
     
   
@@ -125,7 +149,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:42:23+00:00</lastmod>
     </url>
     
   
@@ -133,7 +157,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:40:55+00:00</lastmod>
     </url>
     
   
@@ -141,7 +165,7 @@
     <url>
     
       <loc>/como-crear-eventos-dinamicos-con-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-22T21:34:51+00:00</lastmod>
     </url>
     
   
@@ -149,7 +173,7 @@
     <url>
     
       <loc>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-17T17:08:28+00:00</lastmod>
     </url>
     
   
@@ -157,7 +181,7 @@
     <url>
     
       <loc>/el-machine-learning-aplicado-a-google-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
     </url>
     
   
@@ -165,7 +189,7 @@
     <url>
     
       <loc>/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-05T14:47:15+00:00</lastmod>
     </url>
     
   
@@ -173,7 +197,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-fundamentales-parte-3/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-03T13:21:09+00:00</lastmod>
     </url>
     
   
@@ -181,7 +205,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-fundamentales-parte-2/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-03T13:19:26+00:00</lastmod>
     </url>
     
   
@@ -189,7 +213,7 @@
     <url>
     
       <loc>/recursos/test-preguntas-examen-certificacion-google-adwords-fundamentales-parte-1/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-03T13:17:56+00:00</lastmod>
     </url>
     
   
@@ -197,7 +221,7 @@
     <url>
     
       <loc>/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-27T14:02:53+00:00</lastmod>
     </url>
     
   
@@ -205,7 +229,7 @@
     <url>
     
       <loc>/medicion-formularios-contactform7-con-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-25T20:24:42+00:00</lastmod>
     </url>
     
   
@@ -213,7 +237,7 @@
     <url>
     
       <loc>/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-18T19:11:45+00:00</lastmod>
     </url>
     
   
@@ -221,7 +245,7 @@
     <url>
     
       <loc>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-08T11:48:16+00:00</lastmod>
     </url>
     
   
@@ -229,7 +253,7 @@
     <url>
     
       <loc>/6-anos-cumplidos-docente-marketing-digital-espana/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
     </url>
     
   
@@ -237,7 +261,7 @@
     <url>
     
       <loc>/profesor-docente-formador-marketing-digital/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-04T17:15:13+00:00</lastmod>
     </url>
     
   
@@ -245,7 +269,7 @@
     <url>
     
       <loc>/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-01T16:59:59+00:00</lastmod>
     </url>
     
   
@@ -253,7 +277,7 @@
     <url>
     
       <loc>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-02-05T12:04:22+00:00</lastmod>
     </url>
     
   
@@ -261,7 +285,7 @@
     <url>
     
       <loc>/guia-implementar-comercio-electronico-en-google-tag-manager-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-01-05T14:58:24+00:00</lastmod>
     </url>
     
   
@@ -269,7 +293,7 @@
     <url>
     
       <loc>/medir-videos-tag-manager-parte-1/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-09-24T15:15:09+00:00</lastmod>
     </url>
     
   
@@ -277,7 +301,7 @@
     <url>
     
       <loc>/que-es-google-tag-manager-y-sus-beneficios/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-08-22T16:24:13+00:00</lastmod>
     </url>
     
   
@@ -285,7 +309,7 @@
     <url>
     
       <loc>/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-07-23T09:40:22+00:00</lastmod>
     </url>
     
   
@@ -293,7 +317,7 @@
     <url>
     
       <loc>/puja-cpc-manual-automatica-maximizar-clics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-06-23T09:38:00+00:00</lastmod>
     </url>
     
   
@@ -301,7 +325,7 @@
     <url>
     
       <loc>/no-conversiones-hago/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-05-23T09:34:43+00:00</lastmod>
     </url>
     
   
@@ -309,7 +333,7 @@
     <url>
     
       <loc>/auditoria-seo-sitio-web-puntos-analisis/</loc>
-      <lastmod>2018-10-09T21:43:33+02:00</lastmod>
+      <lastmod>2017-03-23T08:38:32+00:00</lastmod>
     </url>
     
   
@@ -317,7 +341,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -325,7 +349,7 @@
     <url>
     
       <loc>/publication/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -333,7 +357,7 @@
     <url>
     
       <loc>/talk/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -341,7 +365,7 @@
     <url>
     
       <loc>/project/test/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -349,7 +373,16 @@
     <url>
     
       <loc>/project/youtube-channel/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/6/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -357,7 +390,7 @@
     <url>
     
       <loc>/categories/anal%C3%ADtica-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -366,7 +399,7 @@
     <url>
     
       <loc>/categories/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -375,7 +408,7 @@
     <url>
     
       <loc>/categories/data-science-amp-big-data/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-18T19:11:45+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -384,7 +417,7 @@
     <url>
     
       <loc>/categories/digital-marketing/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -393,7 +426,7 @@
     <url>
     
       <loc>/categories/formacion/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -402,7 +435,7 @@
     <url>
     
       <loc>/categories/gener%C3%ADcos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-01T16:59:59+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -411,7 +444,7 @@
     <url>
     
       <loc>/categories/google-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -420,7 +453,7 @@
     <url>
     
       <loc>/categories/google-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -429,7 +462,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-07-23T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -438,7 +471,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -447,6 +480,7 @@
     <url>
     
       <loc>/publication_types/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -455,7 +489,7 @@
     <url>
     
       <loc>/recursos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-25T16:44:56+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -464,7 +498,7 @@
     <url>
     
       <loc>/servicios/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T18:43:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -473,7 +507,7 @@
     <url>
     
       <loc>/categories/tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -490,7 +524,7 @@
     <url>
     
       <loc>/tags/tests/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -499,7 +533,7 @@
     <url>
     
       <loc>/tags/webinars/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -508,7 +542,7 @@
     <url>
     
       <loc>/tags/administrador-de-etiquetas/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-08T11:48:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -517,7 +551,16 @@
     <url>
     
       <loc>/tags/adwords-certificaci%C3%B3n-2018/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:47:41+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/algoritmos-python/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -526,7 +569,7 @@
     <url>
     
       <loc>/tags/analitica-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-15T13:20:27+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -535,7 +578,7 @@
     <url>
     
       <loc>/tags/analytics-eventos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-22T21:34:51+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -544,7 +587,7 @@
     <url>
     
       <loc>/tags/analytics-iframe-sitio-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -553,7 +596,7 @@
     <url>
     
       <loc>/tags/anal%C3%ADtica-digital/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -562,7 +605,7 @@
     <url>
     
       <loc>/tags/auditoria-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -571,7 +614,7 @@
     <url>
     
       <loc>/tags/auditoria-seo/</loc>
-      <lastmod>2018-10-09T21:43:33+02:00</lastmod>
+      <lastmod>2017-03-23T08:38:32+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -580,7 +623,7 @@
     <url>
     
       <loc>/tags/beneficios-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-08-22T16:24:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -589,7 +632,7 @@
     <url>
     
       <loc>/tags/certificaci%C3%B3n-academyforads/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -598,7 +641,7 @@
     <url>
     
       <loc>/tags/certificaci%C3%B3n-analytics-2018/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -607,7 +650,7 @@
     <url>
     
       <loc>/tags/checklist-seo/</loc>
-      <lastmod>2018-10-09T21:43:33+02:00</lastmod>
+      <lastmod>2017-03-23T08:38:32+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -616,7 +659,7 @@
     <url>
     
       <loc>/tags/comercio-electr%C3%B3nico-mejorado/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-01-05T14:58:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -625,7 +668,7 @@
     <url>
     
       <loc>/tags/comprar-seguidores-instagram/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -634,7 +677,7 @@
     <url>
     
       <loc>/tags/configuraci%C3%B3n-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-08T15:19:14+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -643,7 +686,7 @@
     <url>
     
       <loc>/tags/contact-form-7-formulario/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-25T20:24:42+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -652,7 +695,7 @@
     <url>
     
       <loc>/tags/contactform-wordpress/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-25T20:24:42+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -661,7 +704,7 @@
     <url>
     
       <loc>/tags/conversiones-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-05-23T09:34:43+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -670,7 +713,7 @@
     <url>
     
       <loc>/tags/cookie/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -679,7 +722,7 @@
     <url>
     
       <loc>/tags/cookiebot/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -688,7 +731,7 @@
     <url>
     
       <loc>/tags/crear-eventos-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-22T21:34:51+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -697,7 +740,7 @@
     <url>
     
       <loc>/tags/cuenta-adwords-agencia/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-07-23T09:40:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -706,7 +749,7 @@
     <url>
     
       <loc>/tags/cuenta-adwords-mcc/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-07-23T09:40:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -715,7 +758,7 @@
     <url>
     
       <loc>/tags/cuenta-adwords-personal/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-07-23T09:40:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -724,7 +767,7 @@
     <url>
     
       <loc>/tags/diferencia-entre-big-data-analyst-y-business-analyst/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-18T19:11:45+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -733,7 +776,7 @@
     <url>
     
       <loc>/tags/diferencias-formador-y-profesor/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-04T17:15:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -742,7 +785,7 @@
     <url>
     
       <loc>/tags/ense%C3%B1anza-anal%C3%ADtica-digital/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -751,7 +794,7 @@
     <url>
     
       <loc>/tags/estrategias-pujas-inteligentes/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -760,7 +803,7 @@
     <url>
     
       <loc>/tags/etiquetas-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -769,7 +812,7 @@
     <url>
     
       <loc>/tags/eventos-din%C3%A1micos-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-22T21:34:51+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -778,7 +821,7 @@
     <url>
     
       <loc>/tags/eventos-google-analytics-y-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-08T11:48:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -787,7 +830,7 @@
     <url>
     
       <loc>/tags/eventos-iframe-gtm/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -796,7 +839,7 @@
     <url>
     
       <loc>/tags/examen-de-adwords-fundamentales/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:47:41+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -805,7 +848,7 @@
     <url>
     
       <loc>/tags/examen-google-academy-ads/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -814,7 +857,7 @@
     <url>
     
       <loc>/tags/examen-google-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -823,7 +866,7 @@
     <url>
     
       <loc>/tags/examen-google-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -832,7 +875,7 @@
     <url>
     
       <loc>/tags/experimentos-google-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-02-05T12:04:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -841,7 +884,7 @@
     <url>
     
       <loc>/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:32:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -850,7 +893,7 @@
     <url>
     
       <loc>/tags/formaci%C3%B3n-escuela-negocio/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -859,7 +902,7 @@
     <url>
     
       <loc>/tags/formador-y-docencia/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-04T17:15:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -868,7 +911,7 @@
     <url>
     
       <loc>/tags/gdpr/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -877,7 +920,7 @@
     <url>
     
       <loc>/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -886,7 +929,7 @@
     <url>
     
       <loc>/tags/google-analytics-ecommerce/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-01-05T14:58:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -895,7 +938,7 @@
     <url>
     
       <loc>/tags/google-optimize/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-02-05T12:04:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -904,7 +947,7 @@
     <url>
     
       <loc>/tags/google-sheet-y-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:32:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -913,7 +956,16 @@
     <url>
     
       <loc>/tags/google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/grafos/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -922,7 +974,7 @@
     <url>
     
       <loc>/tags/guia-oficial-alerta/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -931,7 +983,7 @@
     <url>
     
       <loc>/tags/implementar-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-08T11:48:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -940,7 +992,7 @@
     <url>
     
       <loc>/tags/influencers-en-snapchat/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -949,7 +1001,7 @@
     <url>
     
       <loc>/tags/insight/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-05T14:47:15+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -958,7 +1010,7 @@
     <url>
     
       <loc>/tags/integrar-google-script-apps-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:32:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -967,7 +1019,16 @@
     <url>
     
       <loc>/tags/integrar-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/inteligencia-artificial/</loc>
+      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -976,7 +1037,7 @@
     <url>
     
       <loc>/tags/inteligencia-artificial-google/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -985,7 +1046,7 @@
     <url>
     
       <loc>/tags/machine-learning-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -994,7 +1055,7 @@
     <url>
     
       <loc>/tags/macro-conversiones/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-05-23T09:34:43+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1003,7 +1064,7 @@
     <url>
     
       <loc>/tags/marketing-influencer/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1012,7 +1073,7 @@
     <url>
     
       <loc>/tags/marketingdirecto/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-05T14:47:15+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1021,7 +1082,7 @@
     <url>
     
       <loc>/tags/medici%C3%B3n-contact-form-7/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-25T20:24:42+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1030,7 +1091,7 @@
     <url>
     
       <loc>/tags/micro-conversiones/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-05-23T09:34:43+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1039,7 +1100,7 @@
     <url>
     
       <loc>/tags/migraci%C3%B3n-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1048,7 +1109,7 @@
     <url>
     
       <loc>/tags/objetivos-a-trackear/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-05-23T09:34:43+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1057,7 +1118,7 @@
     <url>
     
       <loc>/tags/optimizaci%C3%B3n-cuenta-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1066,7 +1127,7 @@
     <url>
     
       <loc>/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-02T13:32:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1075,7 +1136,7 @@
     <url>
     
       <loc>/tags/pasos-comercio-electronico-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-01-05T14:58:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1084,7 +1145,7 @@
     <url>
     
       <loc>/tags/perfil-analista-de-datos/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-18T19:11:45+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1093,7 +1154,7 @@
     <url>
     
       <loc>/tags/plan-an%C3%A1lisis-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1102,7 +1163,7 @@
     <url>
     
       <loc>/tags/plan-implementaci%C3%B3n/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1111,7 +1172,7 @@
     <url>
     
       <loc>/tags/plan-medici%C3%B3n-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1120,7 +1181,7 @@
     <url>
     
       <loc>/tags/plan-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-29T21:18:03+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1129,7 +1190,7 @@
     <url>
     
       <loc>/tags/preguntas-certificaci%C3%B3n-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:47:41+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1138,7 +1199,7 @@
     <url>
     
       <loc>/tags/preguntas-respuestas-academy-for-ads-2018/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-26T15:47:41+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1147,7 +1208,7 @@
     <url>
     
       <loc>/tags/preguntas-respuestas-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1156,7 +1217,7 @@
     <url>
     
       <loc>/tags/profesor-de-digital-marketing/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-04T17:15:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1165,7 +1226,7 @@
     <url>
     
       <loc>/tags/programa-formaci%C3%B3n/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1174,7 +1235,7 @@
     <url>
     
       <loc>/tags/pujas-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-06-23T09:38:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1183,7 +1244,7 @@
     <url>
     
       <loc>/tags/pujas-automatica/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-06-23T09:38:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1192,7 +1253,7 @@
     <url>
     
       <loc>/tags/pujas-big-query/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1201,7 +1262,7 @@
     <url>
     
       <loc>/tags/pujas-inteligentes/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1210,7 +1271,7 @@
     <url>
     
       <loc>/tags/pujas-manuales/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-06-23T09:38:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1219,7 +1280,7 @@
     <url>
     
       <loc>/tags/que-es-una-etiqueta/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-08T11:48:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1228,7 +1289,7 @@
     <url>
     
       <loc>/tags/razones-para-utilizar-gtm/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-08T15:19:14+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1237,7 +1298,7 @@
     <url>
     
       <loc>/tags/rdgp/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-29T21:35:20+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1246,7 +1307,7 @@
     <url>
     
       <loc>/tags/rol-analista-digital/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-18T19:11:45+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1255,7 +1316,7 @@
     <url>
     
       <loc>/categories/seo-sem/</loc>
-      <lastmod>2018-10-09T21:43:33+02:00</lastmod>
+      <lastmod>2017-03-23T08:38:32+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1264,7 +1325,7 @@
     <url>
     
       <loc>/tags/sesiones-web/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-15T13:20:27+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1273,7 +1334,7 @@
     <url>
     
       <loc>/tags/smart-bidding/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-08T20:25:16+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1282,7 +1343,7 @@
     <url>
     
       <loc>/tags/suscriptores-redes-sociales/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1291,7 +1352,7 @@
     <url>
     
       <loc>/tags/tag-management-system-utilidades/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-08-22T16:24:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1300,7 +1361,7 @@
     <url>
     
       <loc>/tags/tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1309,7 +1370,7 @@
     <url>
     
       <loc>/tags/tag-manager-google/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-22T21:34:51+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1318,7 +1379,7 @@
     <url>
     
       <loc>/tags/tag-manager-y-formulario-ajax/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-03-25T20:24:42+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1327,7 +1388,7 @@
     <url>
     
       <loc>/tags/tag-manager-y-optimize/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-02-05T12:04:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1336,7 +1397,7 @@
     <url>
     
       <loc>/tags/test-ab-google-optimize/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-02-05T12:04:22+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1345,7 +1406,7 @@
     <url>
     
       <loc>/tags/tracking-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-09-24T15:15:09+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1354,7 +1415,7 @@
     <url>
     
       <loc>/tags/trafico/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-15T13:20:27+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1363,7 +1424,7 @@
     <url>
     
       <loc>/tags/ventajas-de-google-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-08-22T16:24:13+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1372,7 +1433,7 @@
     <url>
     
       <loc>/tags/videos-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-09-24T15:15:09+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1381,7 +1442,7 @@
     <url>
     
       <loc>/tags/visitas/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-05-15T13:20:27+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1390,7 +1451,7 @@
     <url>
     
       <loc>/tags/visualizaciones-youtube/</loc>
-      <lastmod>2018-10-12T21:42:05+02:00</lastmod>
+      <lastmod>2018-09-13T15:13:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1399,7 +1460,7 @@
     <url>
     
       <loc>/tags/webinar/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-05T14:47:15+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1408,7 +1469,7 @@
     <url>
     
       <loc>/tags/webinar-marketindirecto/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-17T17:08:28+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1417,7 +1478,7 @@
     <url>
     
       <loc>/tags/webinar-optimizaci%C3%B3n-adwords/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-30T15:17:17+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1426,7 +1487,7 @@
     <url>
     
       <loc>/tags/webinar-tag-manager/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2018-04-17T17:08:28+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1435,7 +1496,7 @@
     <url>
     
       <loc>/tags/youtube-analytics/</loc>
-      <lastmod>2018-10-09T18:39:53+02:00</lastmod>
+      <lastmod>2017-09-24T15:15:09+00:00</lastmod>
       <priority>0</priority>
     </url>
     

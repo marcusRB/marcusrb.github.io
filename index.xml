@@ -11,6 +11,98 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>py001 - Tipo de datos</title>
+      <link>/publication/py001-tipo-de-datos/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py001-tipo-de-datos/</guid>
+      <description>&lt;p&gt;Python provee dos datos predefinidos de tipo entero, estos son: &lt;em&gt;int&lt;/em&gt; y &lt;em&gt;bool&lt;/em&gt;.
+Una expresión booleana con valor &lt;em&gt;True&lt;/em&gt; es equivalente a otra con valor 1 y al tener valor &lt;em&gt;False&lt;/em&gt; equivale a otra con valor 0, o sea &lt;em&gt;True&lt;/em&gt; = 1 y &lt;em&gt;False&lt;/em&gt; = 0; es por ello que los tipos boleanos son considerados enteros.
+[1]&lt;/p&gt;
+
+&lt;p&gt;El tamaño de un entero solo se encuentra limitado por la memoria del ordenador, resulta más lento de lo que sería con enteros que pueden representarse nativamente por el procesador del ordenador.&lt;/p&gt;
+
+&lt;p&gt;El tipo de dato &lt;em&gt;bool&lt;/em&gt; puede ser llamado a modo de función; cuando se llama sin argumentos retorna &lt;em&gt;False&lt;/em&gt;, con un argumento &lt;em&gt;bool&lt;/em&gt; retorna una copia del argumento y con cualquier otro tipo de argumento intenta realizar una conversión del mismo a &lt;em&gt;bool&lt;/em&gt;.
+[2a]
+[2b]&lt;/p&gt;
+
+&lt;p&gt;Python provee tres operadores lógicos: &lt;em&gt;and, or, not&lt;/em&gt;. Los dos primeros son binarios, el último es unario.&lt;/p&gt;
+
+&lt;p&gt;Existen tres tipos de datos de punto flotante: el predefinido &lt;em&gt;float&lt;/em&gt;, el tipo de complejo y el tipo decimal de la librería estándar. Se escriben con punto decimal o en notación exponencial.&lt;/p&gt;
+
+&lt;pre&gt;
+  0.0, 2., 1.4, -0.5, -1e9, 6.9e-5
+&lt;/pre&gt;
+
+&lt;p&gt;Datos de complejo es un tipo inmutable que almacena un par de datos de punto flotante, uno representando la parte real y otro la parte imaginaria.
+[3]&lt;/p&gt;
+
+&lt;p&gt;Cuando se requiere exactitud en los cálculos se puede utilizar el tipo inmutable Decimal que se encuentra en el módulo del mismo nombre
+[4]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/8d6722dc491e17784fadeb902a4ab22d.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>py002 - Cadenas Python</title>
+      <link>/publication/py002-cadenas-python/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py002-cadenas-python/</guid>
+      <description>&lt;p&gt;La función &lt;em&gt;str()&lt;/em&gt; puede usarse como una función de conversión, su primer argumento debe ser una cadena o algo convertible a una.&lt;/p&gt;
+
+&lt;p&gt;Una &lt;em&gt;cadena&lt;/em&gt; es una secuencia finita de símbolos tomados de un alfabeto. Las listas de caracteres se representan mediante el tipo inmutable &lt;em&gt;str&lt;/em&gt; que almacena una secuencia de caracteres &lt;em&gt;Unicode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se puede llamar sin especificar argumentos, retorna la cadena vacía, indicando un argumento que no sea cadena retorna la representación en &lt;em&gt;str&lt;/em&gt; de dicho argumento y definiendo un argumento cadena retorna una copia de ella misma.
+[1]&lt;/p&gt;
+
+&lt;p&gt;Los literales se crean utilizando comillas, simple o dobles, a principio a final. Además podemos tener tres comillas para incorporar otras subcadenas que incorporan comillas simples o dobles.
+Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;También para dividir en dos líneas de código, o utilizar doble comillas para que sea interpretado una sola linea.
+[2]
+[3]&lt;/p&gt;
+
+&lt;p&gt;Utilizamos también caracteres &lt;em&gt;Unicode&lt;/em&gt; ya que por defecto es interpretado correctamente y por defecto Python.&lt;/p&gt;
+
+&lt;p&gt;[4]
+[5]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fa237f4f1a37480d6b9bd11f399ca13a.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>py003 - Tuplas Python</title>
+      <link>/publication/py003-tuplas-python/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py003-tuplas-python/</guid>
+      <description>&lt;p&gt;La función &lt;em&gt;str()&lt;/em&gt; puede usarse como una función de conversión, su primer argumento debe ser una cadena o algo convertible a una.&lt;/p&gt;
+
+&lt;p&gt;Una &lt;em&gt;cadena&lt;/em&gt; es una secuencia finita de símbolos tomados de un alfabeto. Las listas de caracteres se representan mediante el tipo inmutable &lt;em&gt;str&lt;/em&gt; que almacena una secuencia de caracteres &lt;em&gt;Unicode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se puede llamar sin especificar argumentos, retorna la cadena vacía, indicando un argumento que no sea cadena retorna la representación en &lt;em&gt;str&lt;/em&gt; de dicho argumento y definiendo un argumento cadena retorna una copia de ella misma.
+[1]&lt;/p&gt;
+
+&lt;p&gt;Los literales se crean utilizando comillas, simple o dobles, a principio a final. Además podemos tener tres comillas para incorporar otras subcadenas que incorporan comillas simples o dobles.
+Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;También para dividir en dos líneas de código, o utilizar doble comillas para que sea interpretado una sola linea.
+[2]
+[3]&lt;/p&gt;
+
+&lt;p&gt;Utilizamos también caracteres &lt;em&gt;Unicode&lt;/em&gt; ya que por defecto es interpretado correctamente y por defecto Python.&lt;/p&gt;
+
+&lt;p&gt;[4]
+[5]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fa237f4f1a37480d6b9bd11f399ca13a.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>¿Cuánto cuesta el marketing de los medios sociales?</title>
       <link>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
       <pubDate>Wed, 15 Aug 2018 15:13:24 +0000</pubDate>
@@ -1596,106 +1688,6 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Si eres como la mayoría de los dueños de negocios, pones Google Analytics en tu sitio web, lo miras por unos meses y luego te ocupas de otras cosas. ¿Quién tiene tiempo para ver toda esta información? ¿Suena familiar? Únete a la multitud. Una de las quejas más comunes que tienen los propietarios de negocios locales sobre los datos de análisis de marketing y Google Analytics en particular es que hay una tonelada de datos: demasiados datos y no suficientes conocimientos procesables. ¡No necesita otro informe para analizar ni una hoja de cálculo para interpretar!&lt;/p&gt;
 
 &lt;p&gt;MarcusRB ofrece una solución de &amp;ldquo;hágalo por mí&amp;rdquo; que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! También ofrecemos servicios de consultoría y capacitación de Google Tag Manager para empresas de todos los tamaños.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Consultoría en Google Tag Manager</title>
-      <link>/servicios/consultoria-google-tag-manager/</link>
-      <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
-      
-      <guid>/servicios/consultoria-google-tag-manager/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png&#34; alt=&#34;plantilla-gtm-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;realizar-una-consultoría-y-o-auditoría-de-google-tag-manager&#34;&gt;Realizar una consultoría y/o auditoría de Google Tag Manager&lt;/h2&gt;
-
-&lt;p&gt;Google Tag Manager, la herramienta más utilizada para etiquetar eventos e interacciones, será el rol más importante para detectar nuevos insight en tu negocio, tener claro desde principio que medir y como medirlo,&lt;/p&gt;
-
-&lt;p&gt;El Administrador de etiquetas de Google es una gran herramienta para que los dueños de negocios o los equipos de marketing vean cómo funciona su sitio web: qué áreas están funcionando, qué rendimiento tiene bajo rendimiento, qué funciones no se están usando como creía, etc. Lo vemos como una excelente forma de recopilar datos de experiencia de usuario UX &lt;b&gt;&amp;ldquo;User Experience&amp;rdquo;&lt;/b&gt;, y mejorar el ratio de conversión, CRO &lt;b&gt;&amp;ldquo;Conversion Rate Optimization&amp;rdquo;&lt;/b&gt; en vivo en su sitio de clientes reales.&lt;/p&gt;
-
-&lt;p&gt;Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, &lt;b&gt;¿qué valor tiene?&lt;/b&gt; datos proporcionan en sí mismo para obtener más de su sitio web?).&lt;/p&gt;
-
-&lt;p&gt;### ¿Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/p&gt;
-
-&lt;p&gt;Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    Auditoría de sitios web y mapeo de etiquetas&amp;lt;br /&amp;gt;
-    Configuración y configuración&amp;lt;br /&amp;gt;
-    Aplicación y monitoreo&amp;lt;br /&amp;gt;
-    Formación&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;plan-de-implementación-de-tag-manager&#34;&gt;Plan de implementación de Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Google Tag Manager permite el etiquetado inmediato y la inserción de fragmentos de código a su sitio web, pero sin un experto en la mejor forma de configurarlo o vincularlo con su seguimiento actual de Google Analytics, puede parecer perdido. Realizaré la configuración y la migración de datos del Administrador de etiquetas de Google, lo que permite un seguimiento y generación de informes analíticos eficientes. En caso de ayuda, podré necesitaré apoyo de vustro departamento IT.&lt;/p&gt;
-
-&lt;p&gt;Os asesoraré para que el Administrador de etiquetas de Google será realizado de la mejor configuración junto con el mapeo de las etiquetas en función del objetivo de su sitio (lo que le permite realizar un seguimiento de todo, desde diferentes formularios de captura de clientes hasta clics de enlaces específicos).&lt;/p&gt;
-
-&lt;h3 id=&#34;auditoría-de-google-tag-manager&#34;&gt;Auditoría de Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, AdWords, FacebookAds u otros pixel de conversiones, además de todos los puntos de contacto llamados &lt;b&gt;micro-conversiones&lt;/b&gt;, pasos previo a su conversión.&lt;/p&gt;
-
-&lt;h3 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Si tiene un equipo de marketing familiarizado con Google Analytics y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de Google, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
-
-&lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas en un máximo de 8 - 12 horas, siendo posible más horas a distancia via streaming, u online a través de la plataforma Moodle de propiedad de una escuela digital.&lt;/p&gt;
-
-&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-tag-manager&#34;&gt;¿Está interesado en consultar o capacitarse en Google Tag Manager?&lt;/h4&gt;
-
-&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Google Tag Manager&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Preguntas y test examen de Google AdWords avanzado de Búsqueda</title>
-      <link>/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
-      <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
-      
-      <guid>/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
-      <description>&lt;p&gt;## Después del post con las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34; target=&#34;_blank&#34;&gt;preguntas del examen de Google AdWords fundamentos&lt;/a&gt;, en este hay algunos de los test con las &lt;strong&gt;preguntas de Google Adwords Avanzado.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hace más de cinco años que realizo test para la &lt;strong&gt;certificación oficial de Google AdWords&lt;/strong&gt;, además de otros cursos para Google Partners, que ahora se llama &lt;strong&gt;&lt;a href=&#34;https://landing.google.com/academyforads/#?modal_active=none&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academy For Ads&lt;/a&gt;.&lt;/strong&gt; Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.&lt;/p&gt;
-
-&lt;p&gt;Decidí en junio 2017 abrir una lista de reproducciones a &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, hasta aquella fecha abierta hace años y ni utilizada, y puse online mis primeras grabaciones de los exámenes, para &amp;#8220;facilitar&amp;#8221; aquellos estudiantes de mis cursos a aprobarlos, obtener así la certificación, además de aprender la teoría, y muy bien aprendida, con mis &lt;a href=&#34;https://www.kpischool.eu/programa-curso-online-google-adwords-avanzado.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos online de AdWords&lt;/a&gt;, efectivamente era, y sigue siendo una buena manera de obtener la certificación.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No pido dinero a cambio&lt;/strong&gt;, ni lo hago por publicidad (encima con los cambios actuales de YouTube tampoco monetizo). Lo hacía por pura diversión con la idea de compartir recursos, lo aprendido y ser de una manera reconocido en este &amp;#8220;mundillo&amp;#8221;, que ya llevo bastante años la verdad, casi 10 y solo que he cambiado de dominios (muy mal para el SEO, ya sé).&lt;/p&gt;
-
-&lt;p&gt;He recibido amenazas, denuncias, me banearon&amp;#8230;pero sigo allí, y no me importa quien me reputa como &amp;#8220;estafador&amp;#8221;, justamente hablan muchos quien cobra por ello, o tiene agencias grande que se dedican a esto (a vender los exámenes, si, esto!).  Y no me importa, luchar contra el grande Google, que gracias a estos exámenes está llevando a la ruina un sistema que ellos mismos crearon tantos comerciales, tantos vendedores de sus productos&amp;#8230;y con creces que sigan estafando a muchos pequeños clientes y no solo, que otro día lo explicaré.&lt;/p&gt;
-
-&lt;p&gt;Así comparto las &lt;strong&gt;preguntas de los exámenes oficiales&lt;/strong&gt;, a través de páginas en Google Form, que normalmente realizo durante mis cursos. Son varios módulos, de momento las tres partes de Google Avanzado, y seguiré añadiendo Google Shopping, Mobile, YouTube, Display y las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-analytics/&#34; target=&#34;_blank&#34;&gt;Preguntas de Google Analytics 2018&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;De momento pueden tener acceso a las preguntas&amp;#8230;y para las respuestas puedes seguir uno de &lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyK-xDs0FDpc3MeDpBpGdpP9&amp;sub_confirmation=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mis vídeos a esta lista y SUBSCRÍBETE&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Gracias y Good Luck!&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 3&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Test preguntas examen Certificación Google AdWords – Avanzado de Búsqueda parte 3</title>
-      <link>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</link>
-      <pubDate>Thu, 26 Apr 2018 15:45:04 +0000</pubDate>
-      
-      <guid>/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/</guid>
-      <description>&lt;p&gt;Aquí una muestra de las preguntas de la certificación del examen de Google AdWords para 2018, es la tercera parte de 3 módulos de Avanzado de Búsqueda. Se ha realizado también el video con las preguntas y mis respuestas 100% válidas&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfCON8uIIFsAs5qCbAk5ktrbk2sZN9WL8KDJCJA3nRS3Kgb6w/viewform?embedded=true&#34; width=&#34;760&#34; height=&#34;10000&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34;&gt;Cargando&amp;#8230;&lt;/iframe&gt;
-&lt;/p&gt;
 </description>
     </item>
     
