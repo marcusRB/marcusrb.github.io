@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FacebookAds on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/categories/facebookads/</link>
+    <description>Recent content in FacebookAds on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 14 Oct 2018 13:00:19 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/facebookads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
+      <link>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      
+      <guid>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <description>¿Qué es y a que sirve el píxel de Facebook? Tal como indicando en la web oficial de Facebook:
+ El píxel de Facebook es una herramienta de análisis con la que podrás medir la eficacia de tu publicidad. Puedes usar el píxel de Facebook para conocer las acciones que las personas realizan en el sitio web y llegar a los públicos que te interesan
+ Si pensamos que normalmente se utilizan diferentes píxeles de conversiones, para medir la eficacia de acciones de marketing (Tradedoubler, Doubleclick, Google Ads, Remarketing), acciones de experiencia de usuario y CRO (Hotjar, CrazyEgg, Mouseflow, VWO), además de pixel de seguimiento de otras interacciones y de performance, su implementación podría ser un obstáculo, entre la solicitud al departamento de IT, o su personalización constante, entraríamos en un campo minado.</description>
+    </item>
+    
+  </channel>
+</rss>

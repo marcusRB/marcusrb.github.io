@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</loc>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/py001-tipo-de-datos/</loc>
       <lastmod>2018-10-13T13:05:02+02:00</lastmod>
     </url>
@@ -425,6 +433,15 @@
     
     <url>
     
+      <loc>/categories/facebookads/</loc>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/categories/formacion/</loc>
       <lastmod>2018-03-05T22:53:10+00:00</lastmod>
       <priority>0</priority>
@@ -507,7 +524,7 @@
     <url>
     
       <loc>/categories/tag-manager/</loc>
-      <lastmod>2018-06-30T08:26:33+00:00</lastmod>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -723,6 +740,15 @@
     
       <loc>/tags/cookiebot/</loc>
       <lastmod>2018-05-29T21:35:20+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/creaci%C3%B3n-eventos/</loc>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -956,7 +982,7 @@
     <url>
     
       <loc>/tags/google-tag-manager/</loc>
-      <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1146,6 +1172,15 @@
     
       <loc>/tags/perfil-analista-de-datos/</loc>
       <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/pixel-facebook-ads/</loc>
+      <lastmod>2018-10-14T13:00:19+02:00</lastmod>
       <priority>0</priority>
     </url>
     

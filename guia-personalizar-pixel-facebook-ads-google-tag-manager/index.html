@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  
+  <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager | MarcusRB</title>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="MarcusRB">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="La guía completa de como personalizar el pixel de Facebook Ads a través de Google Tag Manager y sus variables de comercio electrónico mejorado.">
+
+  <meta name="robots" content="index, follow">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="/guia-personalizar-pixel-facebook-ads-google-tag-manager/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+  
+  
+  
+  <script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager',
+      categories:''
+    });
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+  
+  
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/guia-personalizar-pixel-facebook-ads-google-tag-manager/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@https://twitter.com/rb_marcus">
+  <meta property="twitter:creator" content="@https://twitter.com/rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:url" content="/guia-personalizar-pixel-facebook-ads-google-tag-manager/">
+  <meta property="og:title" content="[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager | MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:description" content="La guía completa de como personalizar el pixel de Facebook Ads a través de Google Tag Manager y sus variables de comercio electrónico mejorado.">
+  <meta property="og:locale" content="es-ES">
+  
+  <meta property="article:published_time" content="2018-10-14T13:00:19&#43;02:00">
+  
+  <meta property="article:modified_time" content="2018-10-14T13:00:19&#43;02:00">
+  
+
+  
+
+  
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+  
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Barra de navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">MarcusRB</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Inicio</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Servicios</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Recursos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Formación</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contactos</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">MarcusRB</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-10-14 13:00:19 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2018-10-14 13:00:19 &#43;0200 CEST" itemprop="dateModified">
+      Oct 14, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MarcusRB">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    11 min de lectura
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/guia-personalizar-pixel-facebook-ads-google-tag-manager/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/tag-manager/">Tag Manager</a>, 
+    
+    <a href="/categories/facebookads/">FacebookAds</a>
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%5bGu%c3%ada%5d%20Personalizar%20el%20pixel%20de%20Facebook%20Ads%20en%20Google%20Tag%20Manager&amp;url=%2fguia-personalizar-pixel-facebook-ads-google-tag-manager%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fguia-personalizar-pixel-facebook-ads-google-tag-manager%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fguia-personalizar-pixel-facebook-ads-google-tag-manager%2f&amp;title=%5bGu%c3%ada%5d%20Personalizar%20el%20pixel%20de%20Facebook%20Ads%20en%20Google%20Tag%20Manager"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fguia-personalizar-pixel-facebook-ads-google-tag-manager%2f&amp;title=%5bGu%c3%ada%5d%20Personalizar%20el%20pixel%20de%20Facebook%20Ads%20en%20Google%20Tag%20Manager"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%5bGu%c3%ada%5d%20Personalizar%20el%20pixel%20de%20Facebook%20Ads%20en%20Google%20Tag%20Manager&amp;body=%2fguia-personalizar-pixel-facebook-ads-google-tag-manager%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="qué-es-y-a-que-sirve-el-píxel-de-facebook-span">¿Qué es y a que sirve el píxel de Facebook?</span></h2>
+
+<p>Tal como indicando en la web oficial de Facebook:</p>
+
+<blockquote>
+<p><em>El píxel de Facebook es una herramienta de análisis con la que podrás medir la eficacia de tu publicidad. Puedes usar el píxel de Facebook para conocer las acciones que las personas realizan en el sitio web y llegar a los públicos que te interesan</em></p>
+</blockquote>
+
+<p>Si pensamos que normalmente se utilizan diferentes píxeles de conversiones, para medir la eficacia de <strong>acciones de marketing</strong> (Tradedoubler, Doubleclick, Google Ads, Remarketing), acciones de <strong>experiencia de usuario y CRO</strong> (Hotjar, CrazyEgg, Mouseflow, VWO), además de pixel de seguimiento de otras interacciones y de performance, su implementación podría ser un obstáculo, entre la solicitud al departamento de IT, o su personalización constante, entraríamos en un campo minado.</p>
+
+<p>Como siempre digo y lo repito, por suerte que los administradores de etiquetas, cómo <strong>Google Tag Manager</strong>, fueron creados para realizar nuestras tareas más sencillas*, ahorrar tiempo y manejar con total autonomía tareas también más complejas de medición y de seguimiento. No estoy hablando solo de conversiones, también gestión más avanzadas de estudio de datos de experiencia de usuario y mejora del CRO.</p>
+
+<p><small><em>*Hablando de &ldquo;sencillas&rdquo; obviamente daré por hecho que se necesita conocimiento más que un nivel básico de diseño web, hoja de estilo CSS, y JavaScript, en caso contrario va a ser complicado. No se trata solo de copiar y pegar códigos, sino entender su funcionamiento</em></small>.</p>
+
+<h3 id="más-informaciones-sobre-el-píxel-de-facebook-ads">Más informaciones sobre el píxel de Facebook Ads</h3>
+
+<p><a href="https://www.facebook.com/business/help/651294705016616?helpref=faq_content" target="_blank">Configurando el píxel de Facebook</a> es colocar su código en el encabezado del sitio web. Cuando alguien visita tu sitio web y realiza una acción (por ejemplo, completar una compra), el píxel de Facebook se activa y registra esta acción. De esta forma, sabrás cuándo un cliente realiza una acción y podrás llegar a él de nuevo a través de futuros anuncios de Facebook.</p>
+
+<h4 id="las-ventajas-de-utilizar-el-pixel-de-conversiones">Las ventajas de utilizar el pixel de conversiones</h4>
+
+<p>Existen varias formas de usar los datos obtenidos con el seguimiento del píxel de Facebook para perfeccionar la estrategia publicitaria en Facebook.</p>
+
+<p>El píxel de Facebook permite hacer lo siguiente:</p>
+
+<ul>
+<li>Llegar a las personas adecuadas</li>
+<li>Encuentra nuevos clientes o personas que visitaron una página específica o realizaron una acción que te interesa en tu sitio web. Además, crea públicos similares para llegar a más personas que son parecidas a tus mejores clientes.</li>
+<li>Genera más ventas</li>
+<li>Configura pujas automáticas para dirigirte a personas con mayor probabilidad de realizar alguna acción relevante para ti, por ejemplo, hacer una compra.</li>
+<li>Medir los resultados de los anuncios</li>
+<li>Mira cuánto éxito tuvo el anuncio según los resultados que generó. Puedes consultar información como las conversiones y las ventas obtenidas.</li>
+</ul>
+
+<h3 id="vamos-con-la-implementación-del-pixel-principal-de-evento-page-views">Vamos con la implementación del pixel principal de evento Page Views</h3>
+
+<p>Para que todo funcione correctamente, y con esto digo que recoge las variables dinámicamente y no dejando a medias el potencial que pueda tener el pixel, pero incluso su peligro de proporcionar muchos datos a Facebook, vamos por pasos.</p>
+
+<p>Necesitamos el pixel base que será la principal de páginas vistas y su implementación recomendada es <a href="https://www.facebook.com/business/help/651294705016616" target="_blank">como se muestra</a>.</p>
+
+<p>Siempre optamos por una implementación a medida, y no guiada, no queremos bajo ningún concepto <em>ser ayudados</em> por Facebook, ya que compartir inclusos más datos desde Tag Manager, no es una buena idea.</p>
+
+<p>Una vez en nuestro contenedor de Tag Manager comienza la parte más divertida:</p>
+
+<ul>
+<li>Creamos una etiqueta tipo <strong>HTML personalizado</strong> y añadimos nuestro pixel, ya sabes porque, verdad? De momento FacebookAds no tiene ningún acuerdo con Google sobre tag de 3rd party, así que tenemos que personalizarlo cómo uno script se tratara.</li>
+</ul>
+
+<script src="https://gist.github.com/marcusRB/bac26533364f9a016708eee3be66c119.js"></script>
+
+<ul>
+<li>Y no olvidar de realizar dos tareas más, sacar el noscript en una <strong>etiqueta Imágen personalizada</strong> y la otra indicar que solo se podrá realizar cuando el javascript está deshabilitado. Esta parte la explicaré con calma en otra ocasión.</li>
+</ul>
+
+<p>También podemos personalizar nuestro <em>pixel ID</em> con una variable del tipo <strong>constante</strong> y así tener más <em>dinamismo</em> en nuestras personalizaciones.</p>
+
+<p><strong>TRIGGER o Activador</strong>
+Todas las páginas vistas</p>
+
+<h3 id="eventos-estándar">Eventos estándar</h3>
+
+<p>Tal como nos sugiere la misma guía de Facebook Developers, ahora podemos utilizar nuestras personalizaciones con la función</p>
+
+<pre>
+  fbq('track')
+</pre>
+
+<p>y nuestros eventos tendrán un nombre ya asignados según como se muestra en esta <a href="https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking" target="_blank">tabla</a> que mostraré a continuación.</p>
+
+<p>Cada uno de los eventos tendrá <strong>propiedades</strong> tipo obligatorias y otras opcionales, sirven basicamente para recoger informaciones de nuestros usuarios (comportamientos, usabilidad, conversiones, comercio electrónico, etc), obviamente si lo mismo lo recogemos desde el Enhancend Ecommerce (Comercio Electrónico mejorado) para Google Analytics, las mismas variables serán enviadas a Facebook Analytics. Lógico, no?</p>
+
+<p><strong><em>Algo muy importante</em></strong>
+Cada una de las siguientes etiquetas personalizadas, tendrá que tener una lógica de secuencialidad:
+ - Cada etiqueta tendrá que cargarse <strong>DESPUÉS</strong> de la principal, ya que el <em>core</em> del código sigue teniendola la anterior, mientras en la personalizada solo tendrá una porción del código y sus variables.</p>
+
+<p><a href="/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png"><img class="aligncenter" src="/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png" alt="" width="992" height="607" src set="/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 992w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-300x184.png 300w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 768w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 239w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 50w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 123w" sizes="(max-width: 992px) 100vw, 992px" /></a></p>
+
+<p>&nbsp;</p>
+
+<h3 id="creación-de-variables-personalizadas">Creación de variables personalizadas</h3>
+
+<p>Una cosa no meno importante es crear ahoras las <strong>variables personalizadas</strong>, en mi caso de comercio electrónico, que para utilizarlas en todas las etiquetas con los parámetros, más o menos se <em>reciclarán</em> las mismas una y otra vez para el resto de eventos.</p>
+
+<ul>
+<li><strong>value</strong>: será el valor del producto / servicio. será tratado como FLOAT (con decimales), y no tendrá comillas. Su código tendrá un aspecto similar (depende de nuestro dataLayer):</li>
+</ul>
+
+<script src="https://gist.github.com/marcusRB/d4832b2ee910ddcffe74d566f7a339f4.js"></script>
+
+<ul>
+<li><strong>currency</strong>: por defecto será la moneda utilizada en el comercio electrónico, y en caso de multidivisa, entonces podemos crear una regla, normalmente este valor variable retornará un valor único, EUR, USD, GBP, JPY, etc.
+Podemos crear algo así:</li>
+</ul>
+
+<p><strong>1a</strong>
+<pre>
+  var dlv = window.google_tag_manager[&ldquo;{{Container ID}}&rdquo;].dataLayer.get(&lsquo;ecommerce&rsquo;);
+  return (dlv.currencyCode);
+</pre></p>
+
+<p>o con la captura de exepciones sería:</p>
+
+<pre>
+  try{
+    var dlv = window.google_tag_manager["{{Container ID}}"].dataLayer.get('ecommerce');
+    return (dlv.currencyCode);
+  }catch(e){
+    window.console(e);
+  }
+}
+</pre>
+
+<p><strong>2</strong>
+o mejor todavía con la <strong>variable dataLayer</strong> (variable de capa de datos):</p>
+
+<blockquote>
+<p>ecommerce.currencyCode</p>
+</blockquote>
+
+<p>Como puedes ver existen muchas formas de extraer las variables, recuerdas de nombrarlas correctamente</p>
+
+<ol>
+<li>cJS - currencyCode</li>
+<li>DLV - currencyCode</li>
+</ol>
+
+<p>Fácil verdad? :-)</p>
+
+<ul>
+<li><strong>productName</strong>: Capturar el nombre de producto, será sencillo con la regla de dataLayer, pero cuando se trata de recoger más valores y inserirlo en un listado podemos utilizar un algoritmo. No todas los sitios web son iguales, ni las estructuras de URLs son iguales, así que en mi caso he utilizado esta función:</li>
+</ul>
+
+<script src="https://gist.github.com/marcusRB/90fd00fb8faa641448862b6daaa3f4e9.js"></script>
+
+<p><small>La explicación sobre el cómo está construido depende también de otros factores, por decirlo de una manera si queremos utilizar la misma función para una tarea o varias (yo he optado para la segunda opción y una regla para el resto, para no triplicar el trabajo.)</small></p>
+
+<ul>
+<li><strong>categoyName</strong>: Al igual que el anterior, aquí recogemos los nombres de las categorías:
+<script src="https://gist.github.com/marcusRB/7b7653f959ee0584fcceb808e4e87518.js"></script></li>
+</ul>
+
+<p><small>Al igual que en productos, depende como se tiene la estructura del dataLayer, las variables de URLs o la estructura del sitio web para recoger unos valores u optar por otra manera de <em>scraping</em></small></p>
+
+<ul>
+<li><strong>productID</strong>: repitiendo lo mismo concepto, utilizando otro parámetro, esta vez extraemos el valor ID del producto, y sucesivamente para la categoría.</li>
+</ul>
+
+<script src="https://gist.github.com/marcusRB/fd9902fc57ea7f978a3747f66973c718.js"></script>
+
+<ul>
+<li><strong>categoryList</strong>: esta variable tendrá un formato con separador por parentesis angular &lsquo;&gt;&rsquo;, en lugar de comas &lsquo;,&rsquo;, así que en este caso creamos un listado y al final juntamos las categorías de varios niveles (en mi caso hasta 6), con este símbolo.</li>
+</ul>
+
+<script src="https://gist.github.com/marcusRB/b0c22584e96c3054f9866976dab09df7.js"></script>
+
+<p>El resto de variables personalizadas serán del tipo:
+- addToCart
+- removeFromCart
+- checkoutEvents (AddPaymentInfo, DeliveryMethod, checkoutStep, DiscountCode, etc.)</p>
+
+<p>Existen otras variables, las que definen reglas para nuestro Analytics de Facebook.</p>
+
+<p>La primera será:
+- <strong>product_catalog_id</strong>, esta será creada en nuestro Administrador de publicidad de FacebookAds como repositorio de varios pixel y creatividades. Directamente cremos una variable del tipo constante y le añadimos el valor correspondiente, será una alfanumerico, y nada más.</p>
+
+<p>La otra:
+- <strong>content_type</strong>: será por defecto marcado por Facebook cuál <em>product</em> o <em>product_group</em></p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-productlist">Evento estándar ProductList</h4>
+
+<p>Cómo el principal que muestra todas las páginas vistas, apunto donde está el pixel principal, este evento mostrará los elementos visualizados en una página de servicios o de productos. Al igual que las impresiones del comercio electrónico utilizaremos exactamente el mismo trigger, aunque tendríamos que trabajar con las variables anteriormente creadas.</p>
+
+<script src="https://gist.github.com/marcusRB/903eac8f254425bb352a6ab453abae4a.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+Todas las páginas que incluyen listados de productos y/o categorías. También podemos utilizar una evento personalizado de <em>impressions</em> pero sería crear más reglas y condiciones. Recuerdas que tienes que adaptar la etiqueta y variables, así como los activadores a tu sitio web, y en este último caso, si ti es imposible realizarlo, hay que utilizar el sentido común de un buen desarrollador: NO LO HAGAS complicado.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-viewcontent">Evento estándar ViewContent</h4>
+
+<p>En este caso será la ficha de nuestro producto o servicio seleccionado, al tener ya un evento personalizado en Tag Manager que está recogiendo esta acción, utilizaremos la misma.</p>
+
+<script src="https://gist.github.com/marcusRB/4a8c784930fb38f910c056adb88b314a.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+El activador será el evento personalizado ya declarado del comercio electrónico mejorado <em>productClick</em>. En caso de no tenerlo correctamente configurado desde el dataLayer, tenemos que crear una regla del tipo <strong>clickEvent</strong> o <strong>linkClick</strong>. En todos casos recuerdes que tener el dataLayer del enhanced ecommerce bien implementado te ahorras mucho trabajo.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-addtocart">Evento estándar AddToCart</h4>
+
+<p>Este será un evento personalizado ya creado en Comercio Electrónico Mejorado, <em>addToCart</em>, así que recuperaremos este y lo enviaremos a Facebook Ads en su activador. Puede verificarse tanto en Página inicial, de categorías, de productos, de búsqueda, incluso en páginas de MyAccount (listado de favoritos, compras recientes, etc.)</p>
+
+<script src="https://gist.github.com/marcusRB/bd3c095398f52c2553c005f2ccb42c65.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+Reutilizar el Custom Event <em>addToCart</em>, este se producirá siempre y cuando hay un evento en un botón en &lsquo;Añadir al Carrito&rsquo;.
+Activadores &gt; Eventos personalizados &gt; addToCart (fijarse en las letras capitalizadas desde tu consola)</p>
+
+<p>En caso no lo tengas, podrías utilizar un método de <em>scraping</em> de evento <strong>clickEvent</strong>, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-addtowishlist">Evento estándar AddToWishlist</h4>
+
+<p>Este evento no existe como tal en Comercio Electrónico mejorado, así que será un evento de captura de acciones, a través de <strong>linkClick</strong> o <strong>clickEvent</strong>. Las condiciones pueden ser diferentes, las reglas y variables dependen de como esté tu botón, así que utilizando el metodo <em>scraping</em>, podemos realizarlo.</p>
+
+<script src="https://gist.github.com/marcusRB/d406d83e291c2f9c610920470c806978.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+En caso que no tengas un evento personalizado, podrías utilizar un método de <em>scraping</em> de <strong>clickEvent</strong>, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE. Es importante bypassare también la información del nombre producto, categoría, ID, precio, variación&hellip;así que esta tarea te llevará un buen rato para recoger todas las informaciones. Además es reutilizable para el resto de etiquetas de conversiones de terceros, además para trabajos de CRO y UX.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-search">Evento estándar Search</h4>
+
+<p>Este evento que tampoco existe en Google Tag Manager ya heredado del comercio eletrónico mejorado, será un evento personalizado sobre el uso del buscador interno.</p>
+
+<script src="https://gist.github.com/marcusRB/4fbd25f6c0f349576862be1d19077846.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+El activador será sencillo. Si tenemos la URL con <em>?q=texto_introducido_buscador_interno</em> o similar, donde el parámetros de consulta será en mi caso la <strong>&lsquo;q&rsquo;</strong>, u otro parecido, tenemos que crear primero la variable personalizada del tipo URL y con parámetro CONSULTA. Y si este parámetro se encontrará en la URL, devolverá el valor, en este caso el término buscado. Listo!</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-initiatecheckout">Evento estándar InitiateCheckout</h4>
+
+<p>Este evento se produce en el momento exacto que pasamos en la <em>fase 1</em> del checkout. Si está implementado desde el comercio electrónico mejorado, tendríamos que tener un evento personalizado desde el dataLayer <strong>checkout</strong>. Sucesivamente, el primer paso será recogido de la siguiente manera con la <strong>variable dataLayer</strong>:
+<pre>
+  ecommerce.checkout.actionField.step
+</pre></p>
+
+<script src="https://gist.github.com/marcusRB/b9887a3007f3c80e041dcc436a5ad7b8.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+Evento personalizado <strong>checkout</strong> y que la condición de la variable dataLayer <strong>STEP</strong> sea <em>1</em>.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-addpaymentinfo">Evento estándar AddPaymentInfo</h4>
+
+<p>El evento de recogida del método de pago seguramente estará también recogido en el dataLayer, al igual que el anterior, este podrá ser <strong>stepX</strong>, dependiendo si estará situado al punto 3, 4 o lo que fuera. En caso de no tener pasos durante la fase de checkout, podemos también adoptar sistemas de recogidas a través de <em>páginas virtuales</em>, con elementos .css o #id.</p>
+
+<script src="https://gist.github.com/marcusRB/d7f2f9dfa5eb0a42e6bcbd9370385c8e.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+Evento personalizado <strong>checkoutOption</strong> y que la condición de la variable dataLayer <strong>STEP</strong> sea <em>X</em>. Donde por <em>X</em> será el paso que lo corresponde. En caso de no tener este evento declarado en el dataLayer, podemos crear un activador de tipo <strong>linkClick</strong> o de <strong>clickEvent</strong>.</p>
+
+<p>&nbsp;</p>
+
+<h4 id="evento-estándar-purchase">Evento estándar Purchase</h4>
+
+<p>El evento de transacción finalizada será nuestra páginas de <em>gracias</em> o lo que corresponda. En caso de tener el evento de comercio electrónico <strong>transaction</strong> o <strong>purchase</strong>, o crear uno a medida. Muchas tiendas online o páginas de servicios del tipo ecommerce, también puede estar recogiendo las informaciones de transacciones finalizadas a través del <strong>Protocolo de Medición</strong> y podemos nosotros crear un dataLayer personalizado.</p>
+
+<script src="https://gist.github.com/marcusRB/e7f1ef540c3e12d5e28e8d1b03223a71.js"></script>
+
+<p><strong>TRIGGER o Activador</strong>
+Evento personalizado <strong>transaction</strong> o <strong>purchase</strong> o donde se verifique la página <em>thankYouPage</em>. Cuidado con esta página, tiene que tener la información de transacción y sus parámetros configurados.</p>
+
+<p>&nbsp;</p>
+
+<p>Existen otros eventos estándares para los registros, login, leads, contactos, pero estamos siempre hablando de etiquetas personalizadas que tendrán su activador un <strong>evento personalizado</strong>. Seguramente si estás recogiendo eventos en Google Analytics u otra plataforma, entonces simplemente puedes replicar el mismo <em>trigger</em>.</p>
+
+<p>En caso de dudas, problemas con los activadores, condiciones, variables personalizadas, puedes consultarme o directamente hablarlo con el desarrollador para que pueda implementar la mayoría en un dataLayer por tí.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="/tags/pixel-facebook-ads/">pixel facebook ads</a>
+  
+  <a class="label label-default" href="/tags/google-tag-manager/">google tag manager</a>
+  
+  <a class="label label-default" href="/tags/creaci%C3%B3n-eventos/">creación eventos</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Relacionado</h3>
+      <ul>
+        
+        <li><a href="/google-tag-manager-10-buenas-razones-para-usarlo-bien/">Google Tag Manager: 10 buenas razones para usarlo bien</a></li>
+        
+        <li><a href="/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/">Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/cuanto-cuesta-el-marketing-de-los-medios-sociales/" rel="prev">¿Cuánto cuesta el marketing de los medios sociales?</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "MarcusRB" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Citar</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//MarcusRB.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "",
+        'no_results': ""
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Conferencias"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
