@@ -33,11 +33,11 @@ Disallow: /*.js?
 Disallow: /*.gif
 
 # Directories
-Disallow: /tags/
+Disallow: /tags?/
 Disallow: /categories/
 Disallow: /category/
-Disallow: /scripts/
-Disallow: /themes/
+Disallow: /scripts?/
+Disallow: /themes?/
 # Files
 Disallow: /CHANGELOG.txt
 Disallow: /cron.php
