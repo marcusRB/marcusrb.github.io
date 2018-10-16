@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analítica Web on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/categories/anal%C3%ADtica-web/</link>
+    <description>Recent content in Analítica Web on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 29 May 2018 21:35:20 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/anal%C3%ADtica-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
+      <link>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      
+      <guid>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <description>Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas. Si estás aquí significa que ya has oído hablar del servicio CookieBot para administrar el GDPR en su sitio y le gustaría instalarlo con el Administrador de etiquetas de Google Tag Manager.
+Tengo que darte dos noticias, una buena (¡hurra!) y una mala (¡doh!).</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué tengo pocas visitas?</title>
+      <link>/por-que-tengo-pocas-visitas/</link>
+      <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
+      
+      <guid>/por-que-tengo-pocas-visitas/</guid>
+      <description>Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes. Comprender la importancia y seriedad que conlleva un proyecto en Internet es vital para alcanzar el éxito, se requiere que intervenga varias disciplinas, entre ellas la analítica web.
+Algunas de las clásicas preguntas de clientes o propietarios de sitios web:</description>
+    </item>
+    
+    <item>
+      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
+      <link>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      
+      <guid>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <description>Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;administrador de etiquetas&amp;#8220;.
+Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir código &amp;#8220;a saco&amp;#8221; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:</description>
+    </item>
+    
+    <item>
+      <title>Webinar MarketingDirectoSchool – Detectando las necesidades de la analítica web</title>
+      <link>/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      
+      <guid>/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</guid>
+      <description>El pasado Jueves 22 de Marzo se emitió en directo el primer webinar de analítica web con la colaboración de MarketingDirectoSchool y por la ocasión he hablado de las oportunidades que una buena medición y una meticulosa configuración de la herramienta de Analytics, por ejemplo, podemos detectar muchas necesidades, o insights.
+Aquí el vídeo que habla además de una checklist ideal para tenerlo siempre a la mano:
+&amp;nbsp;
+&amp;nbsp;
+  &amp;rdquo;&amp;lsquo;YouTube&amp;rdquo;&amp;rsquo; (pronunciación [[Alfabeto Fonético Internacional|AFI]] {{IPA|[ˈjuːtjuːb]}}) es un [[sitio web]] dedicado a compartir [[vídeo]]s.</description>
+    </item>
+    
+    <item>
+      <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
+      <link>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      
+      <guid>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <description>Hola, en este post, gracias a un comentario propuesto por vosotros a mi canal de YouTube https://www.youtube.com/c/Marcusrb, dedicaré a un tutorial de como realizar un etiquetado correcto de nuestra web gracias a Google Tag Manager para los eventos de Google Analytics. Hay que tener en cuenta muchos factores, y en esto lo tenemos tener claro a través de un diseño de un plan, el plan de medición.
+Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado, así llamado también S.</description>
+    </item>
+    
+    <item>
+      <title>No Tengo Conversiones, Que Hago?</title>
+      <link>/no-conversiones-hago/</link>
+      <pubDate>Tue, 23 May 2017 09:34:43 +0000</pubDate>
+      
+      <guid>/no-conversiones-hago/</guid>
+      <description>Heading
+ &amp;lt;h2&amp;gt;Si estás leyendo esta entrada seguramente eres uno de ellos. Noo? Mejor, pero seguramente quieres saber algo más sobre Analítica Web y conversiones. &amp;lt;/h2&amp;gt; Es una de las preguntas que más oigo a muchos posibles clientes, que me llaman o me envian mail y alumnos. Que pasa cuando no hay conversiones? Que más tengo que hacer, o estrategia tengo que seguir? Que estoy haciendo mal? Todas a estas y más preguntas, existen unas respuestas estándar y otras de sugerencias para detectar el mejor camino.</description>
+    </item>
+    
+  </channel>
+</rss>

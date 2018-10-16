@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plan tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/tags/plan-tag-manager/</link>
+    <description>Recent content in plan tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 29 Apr 2018 21:18:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/plan-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
+      <link>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      
+      <guid>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <description>Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;administrador de etiquetas&amp;#8220;.
+Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir código &amp;#8220;a saco&amp;#8221; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:</description>
+    </item>
+    
+  </channel>
+</rss>

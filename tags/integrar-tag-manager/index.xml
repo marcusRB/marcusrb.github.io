@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>integrar tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/tags/integrar-tag-manager/</link>
+    <description>Recent content in integrar tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 17 Apr 2018 17:08:28 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/integrar-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webinar: Aprende a integrar Google Analytics con Tag Manager</title>
+      <link>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
+      <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
+      
+      <guid>/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
+      <description>## El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición
+y descubrir nuevos insight dentro de la analítica web, esta vez se hablará de Google Tag Manager y como integrarlo dentro del plan de implementación.
+Os dejo con el post oficial a continuación y para su inscripción GRATUITA:
+Con este webinar vamos a aprender cómo efectuar correctamente un plan de implementación, integrando Google Analytics con Tag Manager para que podamos recolectar datos y enviarlos.</description>
+    </item>
+    
+  </channel>
+</rss>

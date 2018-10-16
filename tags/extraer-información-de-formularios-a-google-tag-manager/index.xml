@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extraer información de formularios a google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</link>
+    <description>Recent content in extraer información de formularios a google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 02 May 2018 13:32:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Tutorial] Creación de un CRM con Google Sheets y Google Tag Manager</title>
+      <link>/creacion-crm-google-sheets-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      
+      <guid>/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <description>¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos? Será un tutorial dividido en dos partes, la primera la explicación de como crear en Tag Manager variables, personalizadas y dinámicas, ejemplo al enviar un formulario para Leads, y de otro lado enlazando Google Sheet y tener toda la información (excluyo la información sensible en virtud de la nueva ley GDPR no haré mención a datos sensibles), además a tener en cuenta que tampoco llevaré estos datos a Google Analytics para evitar penalizaciones (nunca me ha pasado y tampoco quiero arriesgarme).</description>
+    </item>
+    
+  </channel>
+</rss>

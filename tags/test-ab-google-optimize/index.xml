@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test ab google optimize on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/tags/test-ab-google-optimize/</link>
+    <description>Recent content in test ab google optimize on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 05 Feb 2018 12:04:22 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/test-ab-google-optimize/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrar Google Optimize con Tag Manager – Experimentos con Analytics parte 1</title>
+      <link>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      
+      <guid>/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
+      <description>Hola a tod@s con un nuevo post, y esta semana hablaré de una gran herramienta gratuita para &amp;#8220;test A/B&amp;#8221; que anteriormente solo se podía gestionar a través de Google Analytics: &amp;#8220;Experimentos&amp;#8221;. Google Optimize no ha tardado en salir en formato BETA hace unos años y integrado con Google Tag Manager a través de una etiqueta que al parecer es fácil de implementar. Hay que mencionar que Google Tag Manager, el sistema de etiquetado más utilizado (y gratuito) del momento, y de la gran familia Google, nos permitía integrar en nuestros sitios web experimentos de landing page tipo:</description>
+    </item>
+    
+  </channel>
+</rss>

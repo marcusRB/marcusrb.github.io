@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MarcusRB: consultor &amp; docente Analítica de Datos on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>/</link>
+    <description>Recent content in MarcusRB: consultor &amp; docente Analítica de Datos on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
+      <link>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      
+      <guid>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <description>
+
+&lt;h2&gt;Índice&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#qué-es-y-a-que-sirve-el-píxel-de-facebook-span&#34;&gt;¿Qué es y a que sirve el píxel de Facebook?&lt;/span&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#más-informaciones-sobre-el-píxel-de-facebook-ads&#34;&gt;Más informaciones sobre el píxel de Facebook Ads&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#las-ventajas-de-utilizar-el-pixel-de-conversiones&#34;&gt;Las ventajas de utilizar el pixel de conversiones&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vamos-con-la-implementación-del-pixel-principal-de-evento-page-views&#34;&gt;Vamos con la implementación del pixel principal de evento Page Views&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#eventos-estándar&#34;&gt;Eventos estándar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creación-de-variables-personalizadas&#34;&gt;Creación de variables personalizadas&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-productlist&#34;&gt;Evento estándar ProductList&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-viewcontent&#34;&gt;Evento estándar ViewContent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-addtocart&#34;&gt;Evento estándar AddToCart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-addtowishlist&#34;&gt;Evento estándar AddToWishlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-search&#34;&gt;Evento estándar Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-initiatecheckout&#34;&gt;Evento estándar InitiateCheckout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-addpaymentinfo&#34;&gt;Evento estándar AddPaymentInfo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evento-estándar-purchase&#34;&gt;Evento estándar Purchase&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;h2 id=&#34;qué-es-y-a-que-sirve-el-píxel-de-facebook-span&#34;&gt;¿Qué es y a que sirve el píxel de Facebook?&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Tal como indicando en la web oficial de Facebook:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;El píxel de Facebook es una herramienta de análisis con la que podrás medir la eficacia de tu publicidad. Puedes usar el píxel de Facebook para conocer las acciones que las personas realizan en el sitio web y llegar a los públicos que te interesan&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si pensamos que normalmente se utilizan diferentes píxeles de conversiones, para medir la eficacia de &lt;strong&gt;acciones de marketing&lt;/strong&gt; (Tradedoubler, Doubleclick, Google Ads, Remarketing), acciones de &lt;strong&gt;experiencia de usuario y CRO&lt;/strong&gt; (Hotjar, CrazyEgg, Mouseflow, VWO), además de pixel de seguimiento de otras interacciones y de performance, su implementación podría ser un obstáculo, entre la solicitud al departamento de IT, o su personalización constante, entraríamos en un campo minado.&lt;/p&gt;
+
+&lt;p&gt;Como siempre digo y lo repito, por suerte que los administradores de etiquetas, cómo &lt;strong&gt;Google Tag Manager&lt;/strong&gt;, fueron creados para realizar nuestras tareas más sencillas*, ahorrar tiempo y manejar con total autonomía tareas también más complejas de medición y de seguimiento. No estoy hablando solo de conversiones, también gestión más avanzadas de estudio de datos de experiencia de usuario y mejora del CRO.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;em&gt;*Hablando de &amp;ldquo;sencillas&amp;rdquo; obviamente daré por hecho que se necesita conocimiento más que un nivel básico de diseño web, hoja de estilo CSS, y JavaScript, en caso contrario va a ser complicado. No se trata solo de copiar y pegar códigos, sino entender su funcionamiento&lt;/em&gt;&lt;/small&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;más-informaciones-sobre-el-píxel-de-facebook-ads&#34;&gt;Más informaciones sobre el píxel de Facebook Ads&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/business/help/651294705016616?helpref=faq_content&#34; target=&#34;_blank&#34;&gt;Configurando el píxel de Facebook&lt;/a&gt; es colocar su código en el encabezado del sitio web. Cuando alguien visita tu sitio web y realiza una acción (por ejemplo, completar una compra), el píxel de Facebook se activa y registra esta acción. De esta forma, sabrás cuándo un cliente realiza una acción y podrás llegar a él de nuevo a través de futuros anuncios de Facebook.&lt;/p&gt;
+
+&lt;h4 id=&#34;las-ventajas-de-utilizar-el-pixel-de-conversiones&#34;&gt;Las ventajas de utilizar el pixel de conversiones&lt;/h4&gt;
+
+&lt;p&gt;Existen varias formas de usar los datos obtenidos con el seguimiento del píxel de Facebook para perfeccionar la estrategia publicitaria en Facebook.&lt;/p&gt;
+
+&lt;p&gt;El píxel de Facebook permite hacer lo siguiente:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Llegar a las personas adecuadas&lt;/li&gt;
+&lt;li&gt;Encuentra nuevos clientes o personas que visitaron una página específica o realizaron una acción que te interesa en tu sitio web. Además, crea públicos similares para llegar a más personas que son parecidas a tus mejores clientes.&lt;/li&gt;
+&lt;li&gt;Genera más ventas&lt;/li&gt;
+&lt;li&gt;Configura pujas automáticas para dirigirte a personas con mayor probabilidad de realizar alguna acción relevante para ti, por ejemplo, hacer una compra.&lt;/li&gt;
+&lt;li&gt;Medir los resultados de los anuncios&lt;/li&gt;
+&lt;li&gt;Mira cuánto éxito tuvo el anuncio según los resultados que generó. Puedes consultar información como las conversiones y las ventas obtenidas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vamos-con-la-implementación-del-pixel-principal-de-evento-page-views&#34;&gt;Vamos con la implementación del pixel principal de evento Page Views&lt;/h3&gt;
+
+&lt;p&gt;Para que todo funcione correctamente, y con esto digo que recoge las variables dinámicamente y no dejando a medias el potencial que pueda tener el pixel, pero incluso su peligro de proporcionar muchos datos a Facebook, vamos por pasos.&lt;/p&gt;
+
+&lt;p&gt;Necesitamos el pixel base que será la principal de páginas vistas y su implementación recomendada es &lt;a href=&#34;https://www.facebook.com/business/help/651294705016616&#34; target=&#34;_blank&#34;&gt;como se muestra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Siempre optamos por una implementación a medida, y no guiada, no queremos bajo ningún concepto &lt;em&gt;ser ayudados&lt;/em&gt; por Facebook, ya que compartir inclusos más datos desde Tag Manager, no es una buena idea.&lt;/p&gt;
+
+&lt;p&gt;Una vez en nuestro contenedor de Tag Manager comienza la parte más divertida:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creamos una etiqueta tipo &lt;strong&gt;HTML personalizado&lt;/strong&gt; y añadimos nuestro pixel, ya sabes porque, verdad? De momento FacebookAds no tiene ningún acuerdo con Google sobre tag de 3rd party, así que tenemos que personalizarlo cómo uno script se tratara.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/bac26533364f9a016708eee3be66c119.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y no olvidar de realizar dos tareas más, sacar el noscript en una &lt;strong&gt;etiqueta Imágen personalizada&lt;/strong&gt; y la otra indicar que solo se podrá realizar cuando el javascript está deshabilitado. Esta parte la explicaré con calma en otra ocasión.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;También podemos personalizar nuestro &lt;em&gt;pixel ID&lt;/em&gt; con una variable del tipo &lt;strong&gt;constante&lt;/strong&gt; y así tener más &lt;em&gt;dinamismo&lt;/em&gt; en nuestras personalizaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Todas las páginas vistas&lt;/p&gt;
+
+&lt;h3 id=&#34;eventos-estándar&#34;&gt;Eventos estándar&lt;/h3&gt;
+
+&lt;p&gt;Tal como nos sugiere la misma guía de Facebook Developers, ahora podemos utilizar nuestras personalizaciones con la función&lt;/p&gt;
+
+&lt;pre&gt;
+  fbq(&#39;track&#39;)
+&lt;/pre&gt;
+
+&lt;p&gt;y nuestros eventos tendrán un nombre ya asignados según como se muestra en esta &lt;a href=&#34;https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking&#34; target=&#34;_blank&#34;&gt;tabla&lt;/a&gt; que mostraré a continuación.&lt;/p&gt;
+
+&lt;p&gt;Cada uno de los eventos tendrá &lt;strong&gt;propiedades&lt;/strong&gt; tipo obligatorias y otras opcionales, sirven basicamente para recoger informaciones de nuestros usuarios (comportamientos, usabilidad, conversiones, comercio electrónico, etc), obviamente si lo mismo lo recogemos desde el Enhancend Ecommerce (Comercio Electrónico mejorado) para Google Analytics, las mismas variables serán enviadas a Facebook Analytics. Lógico, no?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Algo muy importante&lt;/em&gt;&lt;/strong&gt;
+Cada una de las siguientes etiquetas personalizadas, tendrá que tener una lógica de secuencialidad:
+ - Cada etiqueta tendrá que cargarse &lt;strong&gt;DESPUÉS&lt;/strong&gt; de la principal, ya que el &lt;em&gt;core&lt;/em&gt; del código sigue teniendola la anterior, mientras en la personalizada solo tendrá una porción del código y sus variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png&#34; alt=&#34;&#34; width=&#34;992&#34; height=&#34;607&#34; src set=&#34;/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 992w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-300x184.png 300w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 768w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 239w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 50w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 123w&#34; sizes=&#34;(max-width: 992px) 100vw, 992px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;creación-de-variables-personalizadas&#34;&gt;Creación de variables personalizadas&lt;/h3&gt;
+
+&lt;p&gt;Una cosa no meno importante es crear ahoras las &lt;strong&gt;variables personalizadas&lt;/strong&gt;, en mi caso de comercio electrónico, que para utilizarlas en todas las etiquetas con los parámetros, más o menos se &lt;em&gt;reciclarán&lt;/em&gt; las mismas una y otra vez para el resto de eventos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt;: será el valor del producto / servicio. será tratado como FLOAT (con decimales), y no tendrá comillas. Su código tendrá un aspecto similar (depende de nuestro dataLayer):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d4832b2ee910ddcffe74d566f7a339f4.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;currency&lt;/strong&gt;: por defecto será la moneda utilizada en el comercio electrónico, y en caso de multidivisa, entonces podemos crear una regla, normalmente este valor variable retornará un valor único, EUR, USD, GBP, JPY, etc.
+Podemos crear algo así:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;1a&lt;/strong&gt;
+&lt;pre&gt;
+  var dlv = window.google_tag_manager[&amp;ldquo;{{Container ID}}&amp;rdquo;].dataLayer.get(&amp;lsquo;ecommerce&amp;rsquo;);
+  return (dlv.currencyCode);
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;o con la captura de exepciones sería:&lt;/p&gt;
+
+&lt;pre&gt;
+  try{
+    var dlv = window.google_tag_manager[&#34;{{Container ID}}&#34;].dataLayer.get(&#39;ecommerce&#39;);
+    return (dlv.currencyCode);
+  }catch(e){
+    window.console(e);
+  }
+}
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt;
+o mejor todavía con la &lt;strong&gt;variable dataLayer&lt;/strong&gt; (variable de capa de datos):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ecommerce.currencyCode&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Como puedes ver existen muchas formas de extraer las variables, recuerdas de nombrarlas correctamente&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;cJS - currencyCode&lt;/li&gt;
+&lt;li&gt;DLV - currencyCode&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fácil verdad? :-)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;productName&lt;/strong&gt;: Capturar el nombre de producto, será sencillo con la regla de dataLayer, pero cuando se trata de recoger más valores y inserirlo en un listado podemos utilizar un algoritmo. No todas los sitios web son iguales, ni las estructuras de URLs son iguales, así que en mi caso he utilizado esta función:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/90fd00fb8faa641448862b6daaa3f4e9.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;small&gt;La explicación sobre el cómo está construido depende también de otros factores, por decirlo de una manera si queremos utilizar la misma función para una tarea o varias (yo he optado para la segunda opción y una regla para el resto, para no triplicar el trabajo.)&lt;/small&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;categoyName&lt;/strong&gt;: Al igual que el anterior, aquí recogemos los nombres de las categorías:
+&lt;script src=&#34;https://gist.github.com/marcusRB/7b7653f959ee0584fcceb808e4e87518.js&#34;&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;small&gt;Al igual que en productos, depende como se tiene la estructura del dataLayer, las variables de URLs o la estructura del sitio web para recoger unos valores u optar por otra manera de &lt;em&gt;scraping&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;productID&lt;/strong&gt;: repitiendo lo mismo concepto, utilizando otro parámetro, esta vez extraemos el valor ID del producto, y sucesivamente para la categoría.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fd9902fc57ea7f978a3747f66973c718.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;categoryList&lt;/strong&gt;: esta variable tendrá un formato con separador por parentesis angular &amp;lsquo;&amp;gt;&amp;rsquo;, en lugar de comas &amp;lsquo;,&amp;rsquo;, así que en este caso creamos un listado y al final juntamos las categorías de varios niveles (en mi caso hasta 6), con este símbolo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/b0c22584e96c3054f9866976dab09df7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;El resto de variables personalizadas serán del tipo:
+- addToCart
+- removeFromCart
+- checkoutEvents (AddPaymentInfo, DeliveryMethod, checkoutStep, DiscountCode, etc.)&lt;/p&gt;
+
+&lt;p&gt;Existen otras variables, las que definen reglas para nuestro Analytics de Facebook.&lt;/p&gt;
+
+&lt;p&gt;La primera será:
+- &lt;strong&gt;product_catalog_id&lt;/strong&gt;, esta será creada en nuestro Administrador de publicidad de FacebookAds como repositorio de varios pixel y creatividades. Directamente cremos una variable del tipo constante y le añadimos el valor correspondiente, será una alfanumerico, y nada más.&lt;/p&gt;
+
+&lt;p&gt;La otra:
+- &lt;strong&gt;content_type&lt;/strong&gt;: será por defecto marcado por Facebook cuál &lt;em&gt;product&lt;/em&gt; o &lt;em&gt;product_group&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-productlist&#34;&gt;Evento estándar ProductList&lt;/h4&gt;
+
+&lt;p&gt;Cómo el principal que muestra todas las páginas vistas, apunto donde está el pixel principal, este evento mostrará los elementos visualizados en una página de servicios o de productos. Al igual que las impresiones del comercio electrónico utilizaremos exactamente el mismo trigger, aunque tendríamos que trabajar con las variables anteriormente creadas.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/903eac8f254425bb352a6ab453abae4a.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Todas las páginas que incluyen listados de productos y/o categorías. También podemos utilizar una evento personalizado de &lt;em&gt;impressions&lt;/em&gt; pero sería crear más reglas y condiciones. Recuerdas que tienes que adaptar la etiqueta y variables, así como los activadores a tu sitio web, y en este último caso, si ti es imposible realizarlo, hay que utilizar el sentido común de un buen desarrollador: NO LO HAGAS complicado.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-viewcontent&#34;&gt;Evento estándar ViewContent&lt;/h4&gt;
+
+&lt;p&gt;En este caso será la ficha de nuestro producto o servicio seleccionado, al tener ya un evento personalizado en Tag Manager que está recogiendo esta acción, utilizaremos la misma.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/4a8c784930fb38f910c056adb88b314a.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+El activador será el evento personalizado ya declarado del comercio electrónico mejorado &lt;em&gt;productClick&lt;/em&gt;. En caso de no tenerlo correctamente configurado desde el dataLayer, tenemos que crear una regla del tipo &lt;strong&gt;clickEvent&lt;/strong&gt; o &lt;strong&gt;linkClick&lt;/strong&gt;. En todos casos recuerdes que tener el dataLayer del enhanced ecommerce bien implementado te ahorras mucho trabajo.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addtocart&#34;&gt;Evento estándar AddToCart&lt;/h4&gt;
+
+&lt;p&gt;Este será un evento personalizado ya creado en Comercio Electrónico Mejorado, &lt;em&gt;addToCart&lt;/em&gt;, así que recuperaremos este y lo enviaremos a Facebook Ads en su activador. Puede verificarse tanto en Página inicial, de categorías, de productos, de búsqueda, incluso en páginas de MyAccount (listado de favoritos, compras recientes, etc.)&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/bd3c095398f52c2553c005f2ccb42c65.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Reutilizar el Custom Event &lt;em&gt;addToCart&lt;/em&gt;, este se producirá siempre y cuando hay un evento en un botón en &amp;lsquo;Añadir al Carrito&amp;rsquo;.
+Activadores &amp;gt; Eventos personalizados &amp;gt; addToCart (fijarse en las letras capitalizadas desde tu consola)&lt;/p&gt;
+
+&lt;p&gt;En caso no lo tengas, podrías utilizar un método de &lt;em&gt;scraping&lt;/em&gt; de evento &lt;strong&gt;clickEvent&lt;/strong&gt;, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addtowishlist&#34;&gt;Evento estándar AddToWishlist&lt;/h4&gt;
+
+&lt;p&gt;Este evento no existe como tal en Comercio Electrónico mejorado, así que será un evento de captura de acciones, a través de &lt;strong&gt;linkClick&lt;/strong&gt; o &lt;strong&gt;clickEvent&lt;/strong&gt;. Las condiciones pueden ser diferentes, las reglas y variables dependen de como esté tu botón, así que utilizando el metodo &lt;em&gt;scraping&lt;/em&gt;, podemos realizarlo.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d406d83e291c2f9c610920470c806978.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+En caso que no tengas un evento personalizado, podrías utilizar un método de &lt;em&gt;scraping&lt;/em&gt; de &lt;strong&gt;clickEvent&lt;/strong&gt;, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE. Es importante bypassare también la información del nombre producto, categoría, ID, precio, variación&amp;hellip;así que esta tarea te llevará un buen rato para recoger todas las informaciones. Además es reutilizable para el resto de etiquetas de conversiones de terceros, además para trabajos de CRO y UX.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-search&#34;&gt;Evento estándar Search&lt;/h4&gt;
+
+&lt;p&gt;Este evento que tampoco existe en Google Tag Manager ya heredado del comercio eletrónico mejorado, será un evento personalizado sobre el uso del buscador interno.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/4fbd25f6c0f349576862be1d19077846.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+El activador será sencillo. Si tenemos la URL con &lt;em&gt;?q=texto_introducido_buscador_interno&lt;/em&gt; o similar, donde el parámetros de consulta será en mi caso la &lt;strong&gt;&amp;lsquo;q&amp;rsquo;&lt;/strong&gt;, u otro parecido, tenemos que crear primero la variable personalizada del tipo URL y con parámetro CONSULTA. Y si este parámetro se encontrará en la URL, devolverá el valor, en este caso el término buscado. Listo!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-initiatecheckout&#34;&gt;Evento estándar InitiateCheckout&lt;/h4&gt;
+
+&lt;p&gt;Este evento se produce en el momento exacto que pasamos en la &lt;em&gt;fase 1&lt;/em&gt; del checkout. Si está implementado desde el comercio electrónico mejorado, tendríamos que tener un evento personalizado desde el dataLayer &lt;strong&gt;checkout&lt;/strong&gt;. Sucesivamente, el primer paso será recogido de la siguiente manera con la &lt;strong&gt;variable dataLayer&lt;/strong&gt;:
+&lt;pre&gt;
+  ecommerce.checkout.actionField.step
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/b9887a3007f3c80e041dcc436a5ad7b8.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;checkout&lt;/strong&gt; y que la condición de la variable dataLayer &lt;strong&gt;STEP&lt;/strong&gt; sea &lt;em&gt;1&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addpaymentinfo&#34;&gt;Evento estándar AddPaymentInfo&lt;/h4&gt;
+
+&lt;p&gt;El evento de recogida del método de pago seguramente estará también recogido en el dataLayer, al igual que el anterior, este podrá ser &lt;strong&gt;stepX&lt;/strong&gt;, dependiendo si estará situado al punto 3, 4 o lo que fuera. En caso de no tener pasos durante la fase de checkout, podemos también adoptar sistemas de recogidas a través de &lt;em&gt;páginas virtuales&lt;/em&gt;, con elementos .css o #id.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d7f2f9dfa5eb0a42e6bcbd9370385c8e.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;checkoutOption&lt;/strong&gt; y que la condición de la variable dataLayer &lt;strong&gt;STEP&lt;/strong&gt; sea &lt;em&gt;X&lt;/em&gt;. Donde por &lt;em&gt;X&lt;/em&gt; será el paso que lo corresponde. En caso de no tener este evento declarado en el dataLayer, podemos crear un activador de tipo &lt;strong&gt;linkClick&lt;/strong&gt; o de &lt;strong&gt;clickEvent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-purchase&#34;&gt;Evento estándar Purchase&lt;/h4&gt;
+
+&lt;p&gt;El evento de transacción finalizada será nuestra páginas de &lt;em&gt;gracias&lt;/em&gt; o lo que corresponda. En caso de tener el evento de comercio electrónico &lt;strong&gt;transaction&lt;/strong&gt; o &lt;strong&gt;purchase&lt;/strong&gt;, o crear uno a medida. Muchas tiendas online o páginas de servicios del tipo ecommerce, también puede estar recogiendo las informaciones de transacciones finalizadas a través del &lt;strong&gt;Protocolo de Medición&lt;/strong&gt; y podemos nosotros crear un dataLayer personalizado.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/e7f1ef540c3e12d5e28e8d1b03223a71.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;transaction&lt;/strong&gt; o &lt;strong&gt;purchase&lt;/strong&gt; o donde se verifique la página &lt;em&gt;thankYouPage&lt;/em&gt;. Cuidado con esta página, tiene que tener la información de transacción y sus parámetros configurados.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Existen otros eventos estándares para los registros, login, leads, contactos, pero estamos siempre hablando de etiquetas personalizadas que tendrán su activador un &lt;strong&gt;evento personalizado&lt;/strong&gt;. Seguramente si estás recogiendo eventos en Google Analytics u otra plataforma, entonces simplemente puedes replicar el mismo &lt;em&gt;trigger&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;En caso de dudas, problemas con los activadores, condiciones, variables personalizadas, puedes consultarme o directamente hablarlo con el desarrollador para que pueda implementar la mayoría en un dataLayer por tí.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>py001 - Tipo de datos</title>
+      <link>/publication/py001-tipo-de-datos/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py001-tipo-de-datos/</guid>
+      <description>&lt;p&gt;Python provee dos datos predefinidos de tipo entero, estos son: &lt;em&gt;int&lt;/em&gt; y &lt;em&gt;bool&lt;/em&gt;.
+Una expresión booleana con valor &lt;em&gt;True&lt;/em&gt; es equivalente a otra con valor 1 y al tener valor &lt;em&gt;False&lt;/em&gt; equivale a otra con valor 0, o sea &lt;em&gt;True&lt;/em&gt; = 1 y &lt;em&gt;False&lt;/em&gt; = 0; es por ello que los tipos boleanos son considerados enteros.
+[1]&lt;/p&gt;
+
+&lt;p&gt;El tamaño de un entero solo se encuentra limitado por la memoria del ordenador, resulta más lento de lo que sería con enteros que pueden representarse nativamente por el procesador del ordenador.&lt;/p&gt;
+
+&lt;p&gt;El tipo de dato &lt;em&gt;bool&lt;/em&gt; puede ser llamado a modo de función; cuando se llama sin argumentos retorna &lt;em&gt;False&lt;/em&gt;, con un argumento &lt;em&gt;bool&lt;/em&gt; retorna una copia del argumento y con cualquier otro tipo de argumento intenta realizar una conversión del mismo a &lt;em&gt;bool&lt;/em&gt;.
+[2a]
+[2b]&lt;/p&gt;
+
+&lt;p&gt;Python provee tres operadores lógicos: &lt;em&gt;and, or, not&lt;/em&gt;. Los dos primeros son binarios, el último es unario.&lt;/p&gt;
+
+&lt;p&gt;Existen tres tipos de datos de punto flotante: el predefinido &lt;em&gt;float&lt;/em&gt;, el tipo de complejo y el tipo decimal de la librería estándar. Se escriben con punto decimal o en notación exponencial.&lt;/p&gt;
+
+&lt;pre&gt;
+  0.0, 2., 1.4, -0.5, -1e9, 6.9e-5
+&lt;/pre&gt;
+
+&lt;p&gt;Datos de complejo es un tipo inmutable que almacena un par de datos de punto flotante, uno representando la parte real y otro la parte imaginaria.
+[3]&lt;/p&gt;
+
+&lt;p&gt;Cuando se requiere exactitud en los cálculos se puede utilizar el tipo inmutable Decimal que se encuentra en el módulo del mismo nombre
+[4]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/8d6722dc491e17784fadeb902a4ab22d.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>py002 - Cadenas Python</title>
+      <link>/publication/py002-cadenas-python/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py002-cadenas-python/</guid>
+      <description>&lt;p&gt;La función &lt;em&gt;str()&lt;/em&gt; puede usarse como una función de conversión, su primer argumento debe ser una cadena o algo convertible a una.&lt;/p&gt;
+
+&lt;p&gt;Una &lt;em&gt;cadena&lt;/em&gt; es una secuencia finita de símbolos tomados de un alfabeto. Las listas de caracteres se representan mediante el tipo inmutable &lt;em&gt;str&lt;/em&gt; que almacena una secuencia de caracteres &lt;em&gt;Unicode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se puede llamar sin especificar argumentos, retorna la cadena vacía, indicando un argumento que no sea cadena retorna la representación en &lt;em&gt;str&lt;/em&gt; de dicho argumento y definiendo un argumento cadena retorna una copia de ella misma.
+[1]&lt;/p&gt;
+
+&lt;p&gt;Los literales se crean utilizando comillas, simple o dobles, a principio a final. Además podemos tener tres comillas para incorporar otras subcadenas que incorporan comillas simples o dobles.
+Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;También para dividir en dos líneas de código, o utilizar doble comillas para que sea interpretado una sola linea.
+[2]
+[3]&lt;/p&gt;
+
+&lt;p&gt;Utilizamos también caracteres &lt;em&gt;Unicode&lt;/em&gt; ya que por defecto es interpretado correctamente y por defecto Python.&lt;/p&gt;
+
+&lt;p&gt;[4]
+[5]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fa237f4f1a37480d6b9bd11f399ca13a.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>py003 - Tuplas Python</title>
+      <link>/publication/py003-tuplas-python/</link>
+      <pubDate>Sat, 13 Oct 2018 13:05:02 +0200</pubDate>
+      
+      <guid>/publication/py003-tuplas-python/</guid>
+      <description>&lt;p&gt;La función &lt;em&gt;str()&lt;/em&gt; puede usarse como una función de conversión, su primer argumento debe ser una cadena o algo convertible a una.&lt;/p&gt;
+
+&lt;p&gt;Una &lt;em&gt;cadena&lt;/em&gt; es una secuencia finita de símbolos tomados de un alfabeto. Las listas de caracteres se representan mediante el tipo inmutable &lt;em&gt;str&lt;/em&gt; que almacena una secuencia de caracteres &lt;em&gt;Unicode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se puede llamar sin especificar argumentos, retorna la cadena vacía, indicando un argumento que no sea cadena retorna la representación en &lt;em&gt;str&lt;/em&gt; de dicho argumento y definiendo un argumento cadena retorna una copia de ella misma.
+[1]&lt;/p&gt;
+
+&lt;p&gt;Los literales se crean utilizando comillas, simple o dobles, a principio a final. Además podemos tener tres comillas para incorporar otras subcadenas que incorporan comillas simples o dobles.
+Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;También para dividir en dos líneas de código, o utilizar doble comillas para que sea interpretado una sola linea.
+[2]
+[3]&lt;/p&gt;
+
+&lt;p&gt;Utilizamos también caracteres &lt;em&gt;Unicode&lt;/em&gt; ya que por defecto es interpretado correctamente y por defecto Python.&lt;/p&gt;
+
+&lt;p&gt;[4]
+[5]&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fa237f4f1a37480d6b9bd11f399ca13a.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page</title>
+      <link>/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Cuánto cuesta el marketing de los medios sociales?</title>
+      <link>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</link>
+      <pubDate>Wed, 15 Aug 2018 15:13:24 +0000</pubDate>
+      
+      <guid>/cuanto-cuesta-el-marketing-de-los-medios-sociales/</guid>
+      <description>
+
+&lt;h2 id=&#34;sabes-cuánto-cuesta-una-campaña-de-marketing-influyente-cuánto-deberías-pagarle-a-un-influencer&#34;&gt;¿Sabes cuánto cuesta una campaña de marketing influyente ? ¿Cuánto deberías pagarle a un influencer?&lt;/h2&gt;
+
+&lt;p&gt;Si no estás seguro, no te preocupes, hay más de uno que no conoce la respuesta, y yo entre ellos! No sabía mucho antes de hacer la investigación para esta publicación en el blog, y exactamente hace una semana cuando compartí este post que me llamó mucho la atención:
+&lt;center&gt;
+&lt;iframe src=&#34;https://www.linkedin.com/embed/feed/update/urn:li:share:6433742105461485568&#34; width=&#34;504&#34; height=&#34;520&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Y, en verdad, no hay una ciencia exacta para calcular cuánto se debe pagar a influyentes, como le explicó un ejecutivo de &lt;a href=&#34;href=&amp;quot;https://digiday.com/marketing/marketer-cheatsheet-state-influencer-marketing/&#34; target=&#34;_blank&#34;&gt;medios sociales a Digiday&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;No tenemos idea de qué pagarles. Ese es el problema.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Y con esto estamos todos de acuerdo.&lt;/p&gt;
+
+&lt;p&gt;Si bien no hay una respuesta clara a esta pregunta, hay algunas pautas utilizadas por los comerciales, agencias y personas influyentes. Incluso hay herramientas para ayudarnos a calcular cuánto pagarle a personas influyentes específicas.
+Vamos a compartir todo esto en esta publicación de blog. Si estás interesado, vamos a ello.&lt;/p&gt;
+
+&lt;h2 id=&#34;6-factores-que-afectan-el-costo-de-marketing-de-influencers&#34;&gt;6 factores que afectan el costo de marketing de influencers&lt;/h2&gt;
+
+&lt;p&gt;Antes de profundizar en las pautas utilizadas por los especialistas en marketing, las agencias y las personas influyentes, me gustaría cubrir brevemente los factores que afectan el costo de cada campaña de &lt;strong&gt;marketing para influencer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esto se debe a que las pautas a continuación no siempre se pueden aplicar a su campaña de marketing de influencer. Comprender estos factores le permite ajustar sus tarifas en consecuencia para que pueda encontrar un precio que funcione tanto para usted como para el influencer.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-plataforma-de-redes-sociales&#34;&gt;1. Plataforma de redes sociales&lt;/h3&gt;
+
+&lt;p&gt;La plataforma de redes sociales elegida para la campaña es uno de los factores clave que influyen en el costo. Cómo leerá a continuación , el costo del marketing influyente varía según los canales. Es como si cada plataforma de medios sociales tuviera su propia tasa de &amp;#8220;mercado&amp;#8221; .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instagram&lt;/strong&gt; tiende a ser la mejor opción para el marketing de influyentes en redes sociales, seguido de YouTube y Snapchat. En general, el marketing influyente es menos común en Facebook y Twitter.&lt;/p&gt;
+
+&lt;p&gt;Musical.ly , una plataforma de medios sociales aún menos conocida pero masiva, se está volviendo más popular para el marketing de influencers. Compañías como Coca-Cola se han asociado con influencers en musical.ly para sus campañas.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-seguidores&#34;&gt;2. Seguidores&lt;/h3&gt;
+
+&lt;p&gt;Tradicionalmente, las marcas miran el alcance potencial de un canal de publicidad para decidir cuánto pagar por un anuncio. Por lo tanto, el número de &lt;strong&gt;seguidores de un influencer&lt;/strong&gt; se convirtió en una consideración al decidir cuánto pagarle a un influencer. La idea es que cuantos más seguidores tenga un influencer, más personas podrían alcanzar la marca. Por lo tanto, las personas influyentes con un mayor número de personas generalmente cobrarán más.&lt;/p&gt;
+
+&lt;p&gt;Según el estado del informe de marketing influyente de Digiday, &amp;#8220;El número de seguidores sigue siendo el estándar de oro para la &amp;#8216;influencia&amp;#8217; de una estrella social &amp;#8216;  .&lt;/p&gt;
+
+&lt;p&gt;Pero cómo es posible que la gente compre &lt;a href=&#34;https://seguidores.shop/comprar/seguidores-followers-instagram/&#34; target=&#34;_blank&#34;&gt;seguidores tanto en redes como Instagram&lt;/a&gt; o &lt;a href=&#34;https://seguidores.shop/comprar/visitas-youtube/&#34; target=&#34;_blank&#34;&gt;comprar visitas en Youtube&lt;/a&gt; para inflar su conteo de seguidores, las marcas también están buscando otras métricas para valorar su campaña de mercadeo de influenciadores.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-compromiso&#34;&gt;3. Compromiso&lt;/h3&gt;
+
+&lt;p&gt;El compromiso es una de las métricas alternativas que las marcas han estado usando. Si bien es fácil comprar seguidores, es más difícil comprar un compromiso falso (aunque no es imposible). Cuando los influencers pueden lograr que sus seguidores interactúen con sus publicaciones en las redes sociales, la campaña de marketing influyente se vuelve más efectiva para la marca, ya que estos seguidores están esencialmente comprometidos con la marca.&lt;/p&gt;
+
+&lt;p&gt;Además, los &lt;strong&gt;algoritmos de las redes sociales&lt;/strong&gt; están dando prioridad al compromiso . Mientras más participación positiva tenga una publicación, más personas verán la publicación. Los influencers que tienen una mayor tasa de interacción tienen más probabilidades de tener un mayor alcance.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto, cuanto mayor sea la tasa de participación que obtiene el influencer, más cara será la campaña .&lt;/p&gt;
+
+&lt;h3 id=&#34;4-producto&#34;&gt;4. Producto&lt;/h3&gt;
+
+&lt;p&gt;El producto que está vendiendo (o la industria en la que se encuentra) también puede afectar el costo de su campaña de marketing de influencias. Por lo general, contratar a un influencer para promocionar un auto deportivo costará más que contratar a un influencer para promocionar un producto de gaming, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;Una buena regla empírica es que cuanto más caro sea su producto, más cara será la campaña.&lt;/p&gt;
+
+&lt;h3 id=&#34;5-asociación-directa-o-a-través-de-una-agencia&#34;&gt;5. Asociación directa o a través de una agencia&lt;/h3&gt;
+
+&lt;p&gt;Chelsea Naftelberg, directora asociada de contenido y asociaciones para la agencia de medios sociales, Attention, compartió con Digiday que &amp;#8220;si trabajas con un agente de talentos en lugar de directamente con un influencer, espera pagar un poco más para tener en cuenta sus honorarios&amp;#8221;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Trabajar con una agencia de talentos es más costoso que trabajar directamente con un influencer._&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esto se debe a que la agencia de talentos suele cobrar una comisión por conectarte con los influenciadores adecuados. Además, aquellos que forman parte de una agencia de talentos suelen tener más experiencia con este tipo de marketing de influencer y cobrarían una tarifa más alta.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Si desea ahorrar algo de dinero aquí, aquí hay dos formas de encontrar a los influenciadores adecuados para su campaña usted mismo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;6-campaña&#34;&gt;6. Campaña&lt;/h3&gt;
+
+&lt;p&gt;Finalmente, el alcance de la campaña también afectará el costo. Aquí hay algunas preguntas para pensar:&lt;/p&gt;
+
+&lt;p&gt;¿Cuántas publicaciones quieres del influencer? ¿Quién crea el contenido? Tú o el influencer? ¿Quieres que el influencer se publique en sus otros perfiles de redes sociales? ¿Quieres que el influencer mantenga la publicación en su perfil de forma permanente?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;¿Algunos influencers borran sus publicaciones patrocinadas después de la campaña?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En pocas palabras, mientras más trabajo tenga el influenciador, más costosa será la campaña.&lt;/p&gt;
+
+&lt;h2 id=&#34;cuánto-cuesta-el-marketing-de-influencers&#34;&gt;¿Cuánto cuesta el marketing de influencers?&lt;/h2&gt;
+
+&lt;p&gt;Una estimación estaría entre 5.000€ a 10.000€&lt;/p&gt;
+
+&lt;p&gt;Según HYPR &lt;a href=&#34;https://hyprbrands.com/&#34; target=&#34;_blank&#34;&gt;Hyprbrands.com&lt;/a&gt;, una plataforma de marketing influyente, ese es el precio que puede esperar pagar por una publicación de un influencer con 500,000 a un millón de seguidores en sus redes sociales.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Pero, ¿cuáles son las tasas de &amp;#8220;mercado&amp;#8221; para cada plataforma de redes sociales?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;¿O qué pasa si quieres trabajar con influencers más pequeños, o lo que vienen denominados, y que siguen aumentando, los &lt;em&gt;micro-influencers&lt;/em&gt; ?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;De mi investigación (mejor dicho mi estudio de datos analíticos, cualitativos y cuantitativos por vía del Máster de Data Science que estoy realizando), descubrí pautas intuitivas de diversas fuentes, como Digiday, Quora y numerosos blogs de diferentes sectores. En algunos casos, los vendedores y las agencias compartieron cuánto pagan por las personas influyentes. En otros casos, los propios influencers revelaron cuánto cobran las marcas.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;influencers-en-instagram&#34;&gt;Influencers en Instagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimación de unos 10€ por 1.000 seguidores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Según los hallazgos de Digiday, una buena guía para el marketing de influencia de Instagram es de 1.000€ por cada 100,000 seguidores (o simplificados a 10€ por cada 1.000 seguidores).&lt;/p&gt;
+
+&lt;p&gt;Chelsea Naftelberg, directora asociada de contenido y asociaciones de la &lt;strong&gt;agencia de medios sociales Attention&lt;/strong&gt;, calcula cuánto debe pagar su equipo a un influencer de Instagram basado en 1.000€ por cada 100,000 seguidores .&lt;/p&gt;
+
+&lt;p&gt;Langer cree que las marcas pueden comenzar con 250€ por publicación de Instagram para estrellas sociales con menos de 50,000 seguidores, luego agregar aproximadamente 1,000€ por cada 100,000 seguidores por publicación .&lt;/p&gt;
+
+&lt;p&gt;Esto coincide con lo que el blogger de lifestyle, Lee Anne, cobra por sus publicaciones patrocinadas por Instagram. La fórmula que usa y recomienda es de 5€ a 10€ por cada 1,000 seguidores.&lt;/p&gt;
+
+&lt;p&gt;250€ a 750€ por cada 1,000 interacciones&lt;/p&gt;
+
+&lt;p&gt;Otra directriz es observar el &lt;strong&gt;compromiso promedio&lt;/strong&gt; que obtiene el influencer.&lt;/p&gt;
+
+&lt;p&gt;Como la mayoría de las personas tiene más seguidores que la cantidad de engagement que reciben por publicación, generalmente pagará más por cada participación que cada seguidor. Tony Tran, CEO y cofundador de la plataforma de marketing de influencer, Lumanu, sugiere pagar alrededor de 0.25€ a €0.75 por interacción (o 250€ a 750€ por cada 1000 interacciones). Eso significa que si el influencer generalmente obtiene unas 10.000 interacciones para cada publicación, querrá pagarle de 2500€ a 7500€ :O&lt;/p&gt;
+
+&lt;p&gt;Una herramienta que puede usar para ayudarlo es la Calculadora de dinero de Instagram de &lt;a href=&#34;https://influencermarketinghub.com/instagram-money-calculator/&#34; target=&#34;_blank&#34;&gt;Influencer Marketing Hub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Simplemente ingrese el nombre de usuario del influencer de Instagram que le interesa y calculará las ganancias por publicación (o el costo por publicación para usted).&lt;/p&gt;
+
+&lt;p&gt;Otra herramienta es InfluencerDB que sugiere un valor de medios por publicación (o costo por publicación para usted) según el compromiso y el alcance de la cuenta de Instagram.&lt;/p&gt;
+
+&lt;h3 id=&#34;influencers-en-youtube&#34;&gt;Influencers en Youtube&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimación de 20€ por 1,000 suscriptores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Es común que los influencers de YouTube cobren más que influencers de Instagram, ya que crear un video de YouTube puede requerir mucho más esfuerzo que crear una publicación de Instagram. Además, los videos de YouTube suelen ser más largos que los videos de Instagram.&lt;/p&gt;
+
+&lt;p&gt;Henry Langer, un gerente de cuenta líder de la plataforma de marketing influencer, HYPR, compartió que los influencers de YouTube generalmente cobran 2,000 € por cada 100,000 suscriptores que tienen (o simplificado a 20€ por cada 1,000€ suscriptores).&lt;/p&gt;
+
+&lt;p&gt;Para los usuarios de YouTube con más de 50,000 suscriptores, los especialistas en marketing pueden agregar aproximadamente 2,000€ por cada 100,000 seguidores por video hasta aproximadamente 1 millón de suscriptores, momento en el que un video dedicado podría costar entre 25,000 € y 50.000€ según Langer.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimación de 50€ a 100€ por 1,000 visualizaciones de videos&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Gracias a los análisis proporcionados en YouTube, también puede ver las vistas de video promedio del influencer.&lt;/p&gt;
+
+&lt;p&gt;No todos los suscriptores mirarían cada video del influencer, por lo que cada vista de video generalmente costaría más que cada suscriptor. Tony Tran de Lumanu recomienda pagar alrededor de 0,05€ a 0,10€ por visualización de video promedio (o 50€ a 100€ por cada 1,000 vistas de video). Sugiere mirar los 30 videos más recientes del influencer para obtener un buen promedio de sus reproducciones de video 9 .&lt;/p&gt;
+
+&lt;p&gt;Si no desea &lt;em&gt;tomarse&lt;/em&gt; el trabajo de fijar el precio de su campaña, podría utilizar una plataforma como &lt;strong&gt;FameBit (de YouTube)&lt;/strong&gt;. En FameBit, puede establecer un presupuesto y hacer que los influencers de YouTube se comuniquen con usted con su propuesta. Aquí hay un
+&lt;a href=&#34;https://www.quora.com/How-do-companies-calculate-how-much-to-pay-Youtube-influencers-to-sponsor-their-products-Lets-make-up-numbers-and-say-they-have-1-000-subscribers-an-average-of-500-views-per-video-50-engagement-it-is-a-sales-play-and-the-content-is-beauty-cosmetics-how-would-you-quantify-their-fee/answer/Polina-Haryacha-1?srid=tMvb&#34; target=&#34;_blank&#34;&gt;gran respuesta de Quora&lt;/a&gt; sobre cómo configurar su presupuesto según métricas como el valor de vida del cliente y la tasa de conversión.&lt;/p&gt;
+
+&lt;h3 id=&#34;influencers-en-snapchat&#34;&gt;Influencers en Snapchat&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimación de unos 10€ por 1,000 seguidores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay menos datos de coste de marketing de influencers para Snapchat que Instagram y YouTube, pero aquí hay algunos puntos de datos que podrían ser útiles.&lt;/p&gt;
+
+&lt;p&gt;Según Captiv8, una startup de marketing influyente, &lt;strong&gt;un influencer de Snapchat con tres millones a siete millones de seguidores puede cobrar, en promedio, 75,000 € por una instantánea, mientras que una con 50,000 a 500,000 seguidores puede cobrar, en promedio, 1.000 € por un snap&lt;/strong&gt;.
+Eso es alrededor de 11€ a 25€ por 1,000 seguidores para influencers y de 2 € a 20 € por 1.000 seguidores para los &lt;strong&gt;micro-influencers&lt;/strong&gt; o una cifra aproximada de 10€ por cada 1.000 seguidores.&lt;/p&gt;
+
+&lt;p&gt;Los marketers en el Reino Unido parecen pagar mucho más a los influencers de Snapchat: &lt;strong&gt;alrededor de 70 € a  100 € por cada 1.000 seguidores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimación de unos 100 € por 1.000 visualizaciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Como Snapchat no revela el conteo de seguidores, ese número se estima a menudo usando el número de vistas de la primera historia de Snapchat.&lt;/span&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;Algunas marcas y agencias prefieren ver el número de visitas directamente.&lt;/span&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;Después de recopilar información de más de 30 influencers de Snapchat, la influencia de Snapchat, &lt;strong&gt;Cyrene Quiamco&lt;/strong&gt;, compartió las siguientes tarifas con Digiday&lt;/span&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;500 € por 1,000-5,000 vistas&lt;/li&gt;
+&lt;li&gt;1.000 € &amp;#8211; 3.000 € para 5,000-10,000 vistas&lt;/li&gt;
+&lt;li&gt;3.000 € &amp;#8211; 5.000 € por 10,000-20,000 visitas&lt;/li&gt;
+&lt;li&gt;5.000 € &amp;#8211; 10.000 € por 30,000-50,000 vistas&lt;/li&gt;
+&lt;li&gt;10.000 € &amp;#8211; 30.000 € por 50,000-100,000 vistas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Eso es &lt;strong&gt;alrededor de 100 € por cada 1,000 vistas&lt;/strong&gt; .&lt;/p&gt;
+
+&lt;p&gt;¿Has trabajado anteriormente con un influencer de Snapchat? Será genial si te gusta compartir algunos de tus números.&lt;/p&gt;
+
+&lt;h3 id=&#34;influencers-en-facebook-y-twitter-tal-vez-no&#34;&gt;&lt;strong&gt;Influencers en Facebook y Twitter, tal vez no&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Según mi investigación, el marketing de influencer parece ser menos común en Facebook y Twitter.&lt;/p&gt;
+
+&lt;p&gt;Tony Tran de Lumanu en realidad desaconseja.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Facebook: nunca deberías pagar por un influencer solo en Facebook. &lt;strong&gt;Facebook es un canal para la amplificación de contenido&lt;/strong&gt;; por lo tanto, tiene sentido pagarle a un influencer para que publique en Facebook si ya le está pagando por la creación de contenido en uno de sus otros canales.
+El alcance orgánico de Facebook es notoriamente malo, así que no tiene ningún valor pagarle a un influencer de Facebook sin importar cuán grande sea su alcance, a menos que puedas obtener permiso para aumentar el contenido (¡y de todos modos es tu dinero!)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Y sigue hablando de Twitter:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Twitter: olvídalo, detente, date la vuelta y CORRE. Twitter es un sumidero para arrojar dinero de marketing, mucho menos marketing de influencia. A menos que reciba un mensaje gratuito en Twitter, ni siquiera piense en gastar dinero de influencia aquí.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esto coincide con mi experiencia personal. No recuerdo haber visto publicaciones de marketing influyentes en Facebook y Twitter. ¿Has visto alguno? Tal vez los micro-influencers para poder dar empuje a las demás redes sociales, y de hecho lo veo cada vez más en LinkedIn (que se parece más a un Facebook pijo!).&lt;/p&gt;
+
+&lt;p&gt;Si has hecho marketing de influencias en Facebook o Twitter, ¡me encantaría escuchar tus experiencias!
+¿Lo recomendarías?&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;y-aquí-mi-pregunta-cuánto-pagarías-por-el-marketing-de-influencers&#34;&gt;Y aquí mi pregunta: ¿Cuánto pagarías por el marketing de influencers?&lt;/h2&gt;
+
+&lt;p&gt;De mi investigación, una cosa está clara. No existe una respuesta clara al costo del marketing de influencers. Se ve influenciado por muchos factores, como la plataforma de redes sociales elegida, el número de seguidores, la tasa de participación y más.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente, hay algunas pautas que puede consultar y ajustar según su situación particular.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instagram&lt;/strong&gt; : 10€ por cada 1,000 seguidores o 250€ a 750€ por cada 1,000 participaciones&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;YouTube&lt;/strong&gt; : 20€ por cada 1,000 suscriptores o 50€ a 100€ por cada 1,000 visualizaciones de video&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snapchat&lt;/strong&gt; : 10€ por cada 1,000 seguidores o 100€ por cada 1,000 visualización&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Además, si eres una marca que tiene mucho budget, el todo obviamente tendrá que ser analizado con un KPI muy importante, el &lt;strong&gt;ROAS (Return on Ad-Spend)&lt;/strong&gt;. Aunque con los grandes dudo que esto sea un problema, para los micro-influencers (que comprarán seguidores y visitas), dudo que tengas números positivos.&lt;/p&gt;
+
+&lt;p&gt;¿Estos números coinciden con tus experiencias? ¿Cuánto ha pagado o cuánto pagaría por marketing de influencers? Compartamos lo que sabemos y ayudémonos unos a otros.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
+      <link>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
+      
+      <guid>/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;un-post-sobre-la-medición-de-eventos-cuales-clicks-conversiones-formularios-transacciones-desde-un-iframe-con-google-tag-manager&#34;&gt;Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager.&lt;/h2&gt;
+
+&lt;p&gt;Seguramente ya te puesto a buscar y rebuscar sin éxito, o directamente pedir ayuda a un desarrollador.&lt;/p&gt;
+
+&lt;p&gt;Es lo mismo que me ha pasado a mí en más de una ocasión, hasta encontrar con varias respuestas y opciones, y gracias a Lunametrics, Simo Avaha y Measureschool, finalmente yo también puedo redactar un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager a Google Analytics o pixel de terceros.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OJO!&lt;/strong&gt; Esta guía funciona solo si tienes acceso al sitio web tanto propietario que del iframe, en tal caso, no es posible realizarlo (de momento!)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check 1.&lt;/strong&gt; No tengo acceso al módulo o al sitio web IFRAME. Lo siento, esta guía no es para ti.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check 2.&lt;/strong&gt; Tengo acceso al módulo o al sitio web IFRAME (sigues adelante)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;comprobaciones-del-contenedor-de-google-tag-manager&#34;&gt;Comprobaciones del contenedor de Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Para la prueba de su correcto funcionamiento, estoy realizando el test desde un sitio web propio, un iframe interno para el mismo dominio. Más adelante veremos con uno externo y tener en consideración USER-id y CrossDomain. La idea es de registrar click o eventos: enlaces, llamadas, formularios o todo lo que podría registrar como tal y enviarlo a Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Diferenciamos así el &lt;strong&gt;iframeParent&lt;/strong&gt; (el padre o el principal) y el &lt;strong&gt;iframeChild&lt;/strong&gt; (el hijo o el huésped).&lt;/p&gt;
+
+&lt;p&gt;Aquí una imagen del &lt;strong&gt;Parent:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-657&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-1024x489.png&#34; alt=&#34;iframe parent o iframe padre&#34; width=&#34;1024&#34; height=&#34;489&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-1024x489.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-300x143.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-768x367.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-260x124.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-50x24.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-150x72.png 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;y para comprobar el iframe &lt;strong&gt;Child, &lt;/strong&gt;tecla de ratón derecho y como la imagen:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-658&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png&#34; alt=&#34;iframe contenedor child&#34; width=&#34;993&#34; height=&#34;630&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png 993w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-300x190.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-768x487.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-230x146.png 230w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-50x32.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-118x75.png 118w&#34; sizes=&#34;(max-width: 993px) 100vw, 993px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Ahora necesitaremos los accesos a los dos contenedores de Google Tag Manager:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Contenedor GTM &lt;strong&gt;Parent&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Contenedor GTM &lt;strong&gt;Child&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Este último en particular va a ser especial, porque realmente necesitaremos darle unas directrices y unos códigos diferentes al resto que ya tenemos en nuestro principal.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;pasos-para-el-contenedor-google-tag-manager-child&#34;&gt;Pasos para el contenedor Google Tag Manager CHILD&lt;/h3&gt;
+
+&lt;p&gt;Una vez creado el contenedor de Google Tag Manager para el iframe, el Child, lo implementamos como siempre solo en el iframe, sin que le pongamos etiquetas de terceros, ni Google Analytics, ya tendrá el suyo probablemente, luego, subiremos este archivo &lt;em&gt;.json&lt;/em&gt; que a continuación explicaré a que sirve.&lt;/p&gt;
+
+&lt;p&gt;ARCHIVO JSON&lt;/p&gt;
+
+&lt;p&gt;Este archivo, como el resto de &lt;a href=&#34;https://www.marcusrb.com/recetas-de-google-tag-manager/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;#8220;recetas&amp;#8221; de Google Tag Manager&lt;/a&gt;, está en formato JSON, o resumido, un contenedor con elementos, para importar directamente en nuestro Google Tag Manager, sin tener que reescribir nuevamente todas las etiquetas y códigos. Con este en particular, para un contenedor nuevo no tenemos que sobrescribir nada (si el contenedor es nuevo, no hace falta). Si ya tenemos elementos en el contenedor, entonces no tenemos que seleccionar la opción de sobrescribir.&lt;/p&gt;
+
+&lt;p&gt;Una vez importado el archivo entramos en la etiqueta &lt;strong&gt;SENDER &amp;#8211; postMessage &lt;/strong&gt;para sus comprobaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-660&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-1024x630.png&#34; alt=&#34;muestra código iframe&#34; width=&#34;1024&#34; height=&#34;630&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-1024x630.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-300x185.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-768x473.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-237x146.png 237w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-50x31.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-122x75.png 122w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31.png 1139w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Vamos a explicar en detalle esta etiqueta personalizada:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ejecuta una declaración &lt;strong&gt;try&amp;#8230;catch &lt;/strong&gt;, tal como indica el nombre, es un bloque de instrucciones para intentar (&lt;strong&gt;try) &lt;/strong&gt;y en caso de excepción &lt;strong&gt;(catch) &lt;/strong&gt;devuelve el error en la consola de desarrollador de nuestro navegador. &lt;a href=&#34;https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/try...catch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Más info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asignamos la variable &lt;strong&gt;postObject &lt;/strong&gt;del tipo &lt;em&gt;JSON.stringify&lt;/em&gt;, este método convierte un valor dado en javascript a una cadena  &lt;strong&gt;JSON&lt;/strong&gt;, opcionalmente reemplaza valores si es especificada la función &lt;code&gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;de reemplazo&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;, o si se especifican las propiedades mediante un array de reemplazo.&lt;/li&gt;
+&lt;li&gt;de un lado tenemos el &lt;strong&gt;event &lt;/strong&gt;y lanza el propio iframe, así que como nombre he puesto &lt;em&gt;iframeACCION &lt;/em&gt;(sustituye ACCION por el tipo de evento, form, link, click, video, transaction, etc), y del otro lado tengo &lt;strong&gt;link &lt;/strong&gt;en mi caso estoy lanzado eventos de tipo &lt;em&gt;enlace&lt;/em&gt; y le asigno un nombre, una variable, cualquier cosa que quieras que mida.
+
+&lt;ul&gt;
+&lt;li&gt;Ej. {{CLICK URL}} &amp;#8211; {{CLICK TEXT}}, devolverá la ruta completa del click sobre este enlace y el nombre del texto ancla.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;mandamos el todo a la ventana principal con el método &lt;strong&gt;parent.postMessage() &lt;/strong&gt;donde activa la comunicación entre la pantalla origen y destino, y que le enviamos los siguientes datos:
+
+&lt;ul&gt;
+&lt;li&gt;la variable &lt;strong&gt;postObject&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;la ruta y dominio &lt;strong&gt;huésped&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;configuración-eventos-child&#34;&gt;Configuración Eventos Child&lt;/h4&gt;
+
+&lt;p&gt;Ahora bien. Podemos proceder con la configuración de los eventos en este contenedor &lt;strong&gt;iframeChild, &lt;/strong&gt;yo voy a seleccionar por ejemplo, el vinculo a la llamada telefónica, mejor dicho aquellos usuarios que hará click en el enlace &lt;strong&gt;TELÉFONO&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Activamos las variables integradas (en el caso sea nuevo el contenedor es importante tenerlos activos):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-663&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-1024x844.png&#34; alt=&#34;variables integradas google tag manager&#34; width=&#34;1024&#34; height=&#34;844&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-1024x844.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-300x247.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-768x633.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-177x146.png 177w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-50x41.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-91x75.png 91w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13.png 1035w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Modifico algunos parámetros de la etiqueta personalizada anterior dejándola así con su activador correspondiente para las llamadas telefónicas:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-664&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-1024x704.png&#34; alt=&#34;etiqueta iframe personalizada de tag manager&#34; width=&#34;1024&#34; height=&#34;704&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-1024x704.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-300x206.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-768x528.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-212x146.png 212w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-50x34.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-109x75.png 109w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52.png 1179w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Los cambios efectuados son solamente descriptivos, además de asignarle la ruta donde tengo alojado el iframe.&lt;/p&gt;
+
+&lt;p&gt;Guardamos, creamos versión y Publicamos. Hasta aquí finalizado el proceso de configuración del iframe mismo.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;pasos-para-el-contenedor-google-tag-manager-parent&#34;&gt;Pasos para el contenedor Google Tag Manager PARENT&lt;/h3&gt;
+
+&lt;p&gt;Ahora toca al contenedor padre tener que realizar unas cuántas configuraciones. Primero vamos a importar este archivo json:&lt;/p&gt;
+
+&lt;p&gt;Recuerda d no modificar el resto de etiquetas o elementos de nuestro contenedor, con lo cuál le damos a NO SOBRESCRIBIR el resto de elementos.&lt;/p&gt;
+
+&lt;p&gt;Lo que vamos a tener son dos elementos importados:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;etiqueta personalizada con uno script de llamadas de parámetros &lt;strong&gt;LISTENER&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;una variable tipo dataLayer que importa el valor del iframe &lt;strong&gt;EVENT iframePhoneClick&lt;/strong&gt;, justo para seguir el ejemplo anterior&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El script es un poco largo de detallar pero básicamente tiene unos puntos importantes a subrayar:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-665&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-1024x522.png&#34; alt=&#34;listener de la pagina iframe parent&#34; width=&#34;1024&#34; height=&#34;522&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-1024x522.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-300x153.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-768x392.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-260x133.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-50x26.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-147x75.png 147w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06.png 1539w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;con el &lt;strong&gt;addEvent &lt;/strong&gt;enviamos el mensaje desde el iFrame hacía el Parent&lt;/li&gt;
+&lt;li&gt;declaramos la variable &lt;strong&gt;data&lt;/strong&gt; con el _JSON.parse, _un comunicador entre las dos partes, y así el dataLayer&lt;/li&gt;
+&lt;li&gt;Ejecutamos el &lt;strong&gt;dataLayer&lt;/strong&gt; en el caso existan eventos&lt;/li&gt;
+&lt;li&gt;definición de &lt;strong&gt;eventos&lt;/strong&gt; con el &lt;em&gt;addEventListener&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;configuración-eventos-parent&#34;&gt;Configuración Eventos Parent&lt;/h4&gt;
+
+&lt;p&gt;Así creado no tenemos que realizar nada más que otras dos acciones.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Asignarle un &lt;strong&gt;activador&lt;/strong&gt;, una simple Página Vista de la página de donde se ejecuta el evento, en mi caso /&lt;em&gt;event.html&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-666&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-1024x256.png&#34; alt=&#34;pagina vista activador iframe&#34; width=&#34;1024&#34; height=&#34;256&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-1024x256.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-300x75.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-768x192.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-260x65.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-50x12.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-150x37.png 150w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48.png 1165w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;
+  2. Creamos el evento para &lt;strong&gt;Google Analytics &lt;/strong&gt;de este modo:
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-667&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png&#34; alt=&#34;evento google analytics llamada&#34; width=&#34;700&#34; height=&#34;573&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png 700w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-300x246.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-178x146.png 178w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-50x41.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-92x75.png 92w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Asignamos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Categoria&lt;/em&gt;: lo que queramos desde el iframe, en mi caso &lt;strong&gt;childPhone&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;_Acción: _yo he puesto la página donde se ha ejecutado la acción, o poner lo que sigue en Etiqueta&lt;/li&gt;
+&lt;li&gt;_Etiqueta: _alternativamente a la anterior, utilizar una variable &lt;strong&gt;dataLayer &lt;/strong&gt;del mensaje desde el iframe creado anteriormente, &lt;strong&gt;postMessageData&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OJO, porque la variable ahora tiene dos partes, la primera _postMessageData _y el segundo parámetro del script del child, adivinista cuál? sí, es &lt;em&gt;Link&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-668&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png&#34; alt=&#34;dataLayer para informaciones&#34; width=&#34;605&#34; height=&#34;332&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png 605w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-300x165.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-260x143.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-50x27.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-137x75.png 137w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta variable nos sirve como &amp;#8220;comunicador&amp;#8221; de la información que teníamos creada desde el &lt;strong&gt;CHILD &lt;/strong&gt;con el tipo de click, form o transaction, lo que sea, básicamente si dentro del Child teníamos una variable de {{Click URL}} aquí me enviará la respuesta.&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;
+  3. Ahora toca al &lt;strong&gt;activador&lt;/strong&gt; del evento de Google Analytics:
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-669&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png&#34; alt=&#34;evento personalizado iframe child&#34; width=&#34;605&#34; height=&#34;343&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png 605w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-300x170.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-258x146.png 258w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-50x28.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-132x75.png 132w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Este activador va a ser una llamada al &lt;strong&gt;Evento Personalizado &lt;/strong&gt;del _iframeChild, _sí sí, lo que teníamos declarado en el otro, exactamente cuando se ejecuta el evento, entonces DISPARA nuestra etiqueta.&lt;/p&gt;
+
+&lt;p&gt;Guardamos, creamos versión y Publicamos.&lt;/p&gt;
+
+&lt;p&gt;FIN!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;testing-de-eventos-en-iframe&#34;&gt;Testing de eventos en iFrame&lt;/h3&gt;
+
+&lt;p&gt;Vamos a realizar la dinámica y ver como queda el todo con las siguientes imágenes de vista previa y debug:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-670&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-1024x619.png&#34; alt=&#34;debug y vista previa iframe tag manager&#34; width=&#34;1024&#34; height=&#34;619&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-1024x619.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-300x181.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-768x464.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-241x146.png 241w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-50x30.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-124x75.png 124w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22.png 1505w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Verificación del evento ejecutado y dispara la etiqueta a Google Analytics&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-671&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png&#34; alt=&#34;disparador evento personalizado analytics&#34; width=&#34;850&#34; height=&#34;544&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png 850w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-300x192.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-768x492.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-228x146.png 228w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-50x32.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-117x75.png 117w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Tiempo real en Google Analytics y Prueba Terminada!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-672&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-1024x395.png&#34; alt=&#34;tiempo real google analytics iframe&#34; width=&#34;1024&#34; height=&#34;395&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-1024x395.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-300x116.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-768x296.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-260x100.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-50x19.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-150x58.png 150w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09.png 1332w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h3&gt;
+
+&lt;p&gt;Hemos realizado el primer test sencillo de como enviar eventos desde un marco (iframe) dentro de un sitio web, estamos hablando de uno básico, mismo dominio y pocos eventos de click en enlaces o un formulario.&lt;/p&gt;
+
+&lt;p&gt;Imagina ahora de tener que implantar uno snippet externo de booking, sí, propio para las reservas hoteleras que tanto se utilizan o utilizar EventBrite, o compras de tickets de eventos.&lt;/p&gt;
+
+&lt;p&gt;Bien esta parte llevaría exactamente los mismos pasos anteriores más dos configuraciones más que actualizar más adelante:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;CLIENT-ID y COOKIE: la idea es tener la misma sesión abierta en ambos sitios sin perder el usuario logueado, ni tener que a contabilizar más sesiones por usuario (y reconocerlo sobre todo)&lt;/li&gt;
+&lt;li&gt;CROSS DOMAIN o multidominio: el tener que pasar por dos &lt;em&gt;sitios web diferentes&lt;/em&gt;, parece raro pero realmente son dos páginas enmarcadas en una sola, pero con dos dominios distintas, entonces necesitaríamos utilizar la configuración también de esta, así como su exclusión como referral en Google Analytics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hasta aquí es todo, cuéntame tu experiencia que tal fue o se has buscado algún otro atajo con los iframe&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
+      <link>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      
+      <guid>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <description>
+
+&lt;h2 id=&#34;aquí-la-configuración-optima-para-estar-protegido-desde-el-25-de-mayo-2018-con-la-nueva-ley-de-protección-de-datos-y-no-tener-problemas&#34;&gt;Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas.&lt;/h2&gt;
+
+&lt;p&gt;Si estás aquí significa que ya has oído hablar del servicio CookieBot para administrar el GDPR en su sitio y le gustaría instalarlo con el Administrador de etiquetas de Google Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Tengo que darte dos noticias, una buena (¡hurra!) y una mala (¡doh!).&lt;/p&gt;
+
+&lt;p&gt;La buena noticia es que también hay una &lt;strong&gt;guía oficial de CookieBot&lt;/strong&gt; sobre cómo instalarlo con Google Tag Manager (&lt;a href=&#34;https://www.cookiebot.com/en/google-tag-manager-gdpr/&#34; target=&#34;_blank&#34;&gt;busque el enlace al final de esta guía&lt;/a&gt;). Esto es bueno porque los propietarios del servicio han entendido que Google Tag Manager ahora es esencial para administrar el seguimiento en los sitios.&lt;/p&gt;
+
+&lt;p&gt;Pero desafortunadamente hay malas noticias. La mala noticia es que la guía indicada por ellos no funciona exactamente al 100%, ya que no tiene en cuenta algunos detalles del funcionamiento técnico de Google Tag Manager, por lo que pierde uno de los principales beneficios.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, la guía oficial va a crear fallas de funcionamiento que también afectarían a las otras etiquetas de su contenedor.&lt;/p&gt;
+
+&lt;p&gt;¿Qué detalle? Te lo contaré despúes de su guía oficial. En pocas palabras, probando la guía, pensando, probando, pensando y probando, a final no me gustó. Y decidí poner mi mano para resolver este problema.&lt;/p&gt;
+
+&lt;p&gt;Tengo que decir que gracias a otras guías de otros usuarios, finalmente pude con el, solo no hubiera logrado solucionarlo del todo. Así que logré hacerlo más poderoso sin perder el potencial de Google Tag Manager.&lt;/p&gt;
+
+&lt;h3 id=&#34;ahora-voy-a-enumerar-lo-que-dice-la-guía-oficial-y-luego-lo-que-he-cambiado-y-cómo-lo-he-optimizado&#34;&gt;Ahora voy a enumerar lo que dice la guía oficial y luego lo que he cambiado y cómo lo he optimizado.&lt;/h3&gt;
+
+&lt;h4 id=&#34;paso-1-instale-el-script-con-una-etiqueta-html-personalizada&#34;&gt;PASO 1: INSTALE EL SCRIPT CON UNA ETIQUETA HTML PERSONALIZADA&lt;/h4&gt;
+
+&lt;p&gt;Lo primero que la guía dice que haga, es instalar el script de JavaScript para que funcione.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ATENCIÓN &amp;#8211; &lt;/strong&gt; deberá cambiar el &lt;em&gt;código de identificación&lt;/em&gt; con el que tiene dentro del panel de CookieBot en la pestaña &amp;#8220;Sus Scripts&amp;#8221;:&lt;/p&gt;
+
+&lt;p&gt;Ahora que ha encontrado el código de su CookieBot, tendrá que insertarlo en una secuencia de comandos dentro de una etiqueta HTML personalizada.&lt;/p&gt;
+
+&lt;p&gt;El script es el siguiente:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script id=&#34;Cookiebot&#34; src=&#34;https://consent.cookiebot.com/uc.js?cbid=00000000-0000-0000-0000-000000000000&#34; type=&#34;text/javascript&#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;br /&amp;gt;
+&amp;lt;script&amp;gt;
+function CookiebotCallback_OnAccept() {
+    if (Cookiebot.consent.preferences)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_preferences&#39;});
+    if (Cookiebot.consent.statistics)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_statistics&#39;});
+    if (Cookiebot.consent.marketing)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_marketing&#39;});
+}
+&amp;lt;/script&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;ETIQUETAS &amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de etiqueta: HTML personalizado&lt;/p&gt;
+
+&lt;p&gt;Agregar ACTIVADORES &amp;gt; &amp;#8220;Todas las páginas&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Guarde la etiqueta como: &amp;#8220;Consentimiento de GDPR de CookieBot&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;¿Qué hace este script? sencillo&lt;/p&gt;
+
+&lt;p&gt;Cree tres eventos personalizados según la elección del usuario en las cookies:&lt;/p&gt;
+
+&lt;p&gt;_preferencias (cookieconsent&lt;em&gt;preferences)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_estadísticos (cookieconsent&lt;em&gt;statistics)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_marketing (cookieconsent&lt;em&gt;marketing)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Probablemente ya hayas adivinado el siguiente paso, ¿verdad?&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-2-8211-crear-activadores&#34;&gt;PASO 2 &amp;#8211; CREAR ACTIVADORES&lt;/h4&gt;
+
+&lt;p&gt;Ahora que el script genera estos tres eventos personalizados, debemos capturarlos con tantos activadores de tipo de EVENTO PERSONALIZADO:&lt;/p&gt;
+
+&lt;p&gt;ACTIVADORES &amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: Evento Personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento: cookieconsent_preferences.&lt;/p&gt;
+
+&lt;p&gt;Guarde con el nombre: &amp;#8220;cookieconsent_preferences&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Haremos lo mismo para los otros dos eventos:&lt;/p&gt;
+
+&lt;p&gt;_cookieconsent&lt;em&gt;statistics&lt;/em&gt; y _cookieconsent&lt;em&gt;marketing&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-3-8211-conecte-los-activadores-a-sus-etiquetas&#34;&gt;PASO 3 &amp;#8211; CONECTE LOS ACTIVADORES A SUS ETIQUETAS&lt;/h4&gt;
+
+&lt;p&gt;Ahora que hemos creado tres eventos, tenemos que eliminar los activadores de tipo &amp;#8220;Página vista&amp;#8221; (es decir, Window Loaded, DOM Ready y PageView) encontrado previamente en la etiqueta, y reemplazarlos con tres eventos que hemos creado .&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, puede vincularlos a estas etiquetas:&lt;/p&gt;
+
+&lt;p&gt;Etiqueta principal de Google Analytics de páginas vistas&lt;/p&gt;
+
+&lt;p&gt;Facebook Pixel&lt;/p&gt;
+
+&lt;p&gt;Hotjar&lt;/p&gt;
+
+&lt;p&gt;Remarketing de AdWords&lt;/p&gt;
+
+&lt;p&gt;y así para el resto de etiquetas que afecten a las cookie de marketing y de social, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;A continuación se muestra un ejemplo de la página de Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-592&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png&#34; alt=&#34;&#34; width=&#34;992&#34; height=&#34;607&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png 992w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-300x184.png 300w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-768x470.png 768w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-239x146.png 239w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-50x31.png 50w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-123x75.png 123w&#34; sizes=&#34;(max-width: 992px) 100vw, 992px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-4-actualiza-activadores-personalizados&#34;&gt;PASO 4: ACTUALIZA ACTIVADORES PERSONALIZADOS&lt;/h4&gt;
+
+&lt;p&gt;Pero, ¿cómo gestionamos todos los demás activadores, cómo un Activador en la página de privacidad (en su guía, haga este ejemplo, pero para hacerle entender que podría ser un Activador de la página de agradecimiento)?&lt;/p&gt;
+
+&lt;p&gt;La guía oficial nos dice que agreguemos el evento como un parámetro de filtro de activador:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-593&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png&#34; alt=&#34;&#34; width=&#34;836&#34; height=&#34;569&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png 836w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--300x204.png 300w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--768x523.png 768w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--215x146.png 215w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--50x34.png 50w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--110x75.png 110w&#34; sizes=&#34;(max-width: 836px) 100vw, 836px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-5-8211-actualiza-todos-los-activadores&#34;&gt;PASO 5 &amp;#8211; ACTUALIZA TODOS LOS ACTIVADORES&lt;/h4&gt;
+
+&lt;p&gt;Pero si tengo que administrar otros activadores, como clics o un enlace, ¿entonces, cómo lo hago?&lt;/p&gt;
+
+&lt;p&gt;La guía sugiere que creemos &lt;strong&gt;variables de JavaScript personalizadas&lt;/strong&gt; que detectarán las opciones de los usuarios sobre los tipos de cookies que desean recibir.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt; &amp;gt; Variables definidas por el usuario &amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: JavaScript personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: Cookiebot.consent.marketing&lt;/p&gt;
+
+&lt;p&gt;Ingrese el siguiente código y luego guarde&lt;/p&gt;
+
+&lt;pre&gt;function()&amp;lt;br /&amp;gt;
+{&amp;lt;br /&amp;gt;
+return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
+}&lt;/pre&gt;
+
+&lt;p&gt;Lo mismo puede ser replicado por las preferencias y estadísticas&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cookiebot.consent.preferences.toString()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cookiebot.consent.statistics.toString()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;La función devolverá verdadero o falso &lt;strong&gt;TRUE &lt;/strong&gt;o &lt;strong&gt;FALSE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El problema con esta versión es que JavaScript recibirá el valor solo después del evento Window Loaded (ventana cargada) y luego todas las etiquetas se deben administrar DESPUÉS del evento Window Loaded.&lt;/p&gt;
+
+&lt;p&gt;Como puede ver en la Vista de página y DOM Ready aún no está definido.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;En la práctica, perdemos todos los eventos nativos de Google Tag Manager (Vista de página y DOM Ready) porque tendremos que activar las etiquetas solo DESPUÉS de COMPROBAR la variable de tipo JavaScript.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Por qué esta guía no está bien?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Me parece absurdo tener que renunciar a Page View y DOM Ready, ya que van a estropear los eventos personalizados conectados a ellos.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, &lt;strong&gt;la guía propuesta por Cookiebot no está funcionando.&lt;/strong&gt; Y esto no sería muy útil para aquellos que ya están utilizando desde hace años Google Tag Manager y tener que volver a re-escribir nuevamente códigos.&lt;/p&gt;
+
+&lt;p&gt;Véamos como funciona el atajo, gracias a Matteo Zambon donde se puede ver desde su &lt;a href=&#34;https://www.tagmanageritalia.it/how-to-fix-cookiebot-official-guide-and-protect-yourself-from-gdpr/&#34; target=&#34;_blank&#34;&gt;post en inglés de GDPR&lt;/a&gt;, el aporte a esta solución para los usuarios de Cookiebot y Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Gracias Matteo!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;ahora-voy-a-enumerar-los-nuevos-pasos-optimizados&#34;&gt;Ahora voy a enumerar los nuevos pasos optimizados&lt;/h3&gt;
+
+&lt;h4 id=&#34;nuevo-paso-1-8211-crear-variables-de-cookiebot&#34;&gt;nuevo PASO 1 &amp;#8211; CREAR VARIABLES DE COOKIEBOT&lt;/h4&gt;
+
+&lt;p&gt;Antes que nada, crea una variable que contenga el código de tu &lt;strong&gt;CookieBot Id&lt;/strong&gt; que hemos tomado con el PASO 1 anterior.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Variables &amp;gt; Variables definidas por el usuario&amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: constante&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieBotId&lt;/p&gt;
+
+&lt;p&gt;Valor: ingrese el valor de su identificación&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;p&gt;Ahora necesitaremos &lt;strong&gt;cuatro variables personalizadas&lt;/strong&gt; más:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.marketing&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.preferences&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.statistics&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-2-crear-la-varible-cookie&#34;&gt;nuevo PASO 2: CREAR LA VARIBLE COOKIE&lt;/h4&gt;
+
+&lt;p&gt;La CookieBot dispone de una cookie que contiene los valores de las opciones del usuario: &lt;strong&gt;CookieConsent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En este punto, sólo tenemos que tomar esa &amp;#8220;galleta&amp;#8221; con Google Administrador de etiquetas a través de una variable. Hacerlo es lo suficientemente simple&lt;/p&gt;
+
+&lt;p&gt;Variables&amp;gt; Variables definidas por el usuario&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: cookie propietaria&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieConsent&lt;/p&gt;
+
+&lt;p&gt;Nombre de la cookie: &amp;#8220;CookieConsent&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-3-crear-variables-de-consideración&#34;&gt;nuevo PASO 3: CREAR VARIABLES DE CONSIDERACIÓN&lt;/h4&gt;
+
+&lt;p&gt;Ahora que tenemos una variable que contiene las preferencias de cookies podemos crear tres variables para manejar los valores. Para hacerlo, usaremos un poco de astucia y expresiones regulares&lt;/p&gt;
+
+&lt;p&gt;Variables&amp;gt; Variables definidas por el usuario&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: tabla de expresiones regulares&lt;/p&gt;
+
+&lt;p&gt;Valor de entrada: {{CookieConsent}}&lt;/p&gt;
+
+&lt;p&gt;Patrón: marketing: verdadero ► Salida: verdadero&lt;/p&gt;
+
+&lt;p&gt;Patrón: marketing: falso ► Salida: falso&lt;/p&gt;
+
+&lt;p&gt;Configuración avanzada: solo marca ignorar mayúsculas y minúsculas&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieConsent.marketing&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;p&gt;Vamos a repetir el mismo procedimiento para las otras dos CookieConsent.statistics y variables CookieConsent.preferences, teniendo cuidado incluso cambiar los valores en el campo &amp;#8220;Patrón&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Pero ¿Por qué estas variables?&lt;/p&gt;
+
+&lt;p&gt;Uhhh &amp;#8230; espera, ahora te lo diré.&lt;/p&gt;
+
+&lt;p&gt;Tendremos el valor de la preferencia del usuario mucho antes de la ventana cargada. En otras palabras, no habrá problemas en la gestión de Google Administrador de etiquetas de eventos predefinidos.&lt;/p&gt;
+
+&lt;p&gt;Yuppieeeeeeee!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-4-8211-instala-el-guión-con-una-etiqueta-html-personalizado&#34;&gt;nuevo PASO 4 &amp;#8211; Instala el guión con una etiqueta HTML personalizado&lt;/h4&gt;
+
+&lt;p&gt;El procedimiento es similar al primer mal paso, pero con algunos cambios para instalar la secuencia de comandos es la siguiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tipo de etiqueta:&lt;/em&gt; &lt;strong&gt;HTML personalizado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Configuración avanzada&lt;/em&gt;: opciones de activación de etiqueta: &amp;#8220;&lt;strong&gt;Una vez por página&lt;/strong&gt;&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Activadores&lt;/em&gt;: &lt;strong&gt;&amp;#8220;Todas las páginas&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Guarde la etiqueta como &amp;#8220;CookieBot GDPR consentimiento&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;VEMOS EN EL DETALLE LO QUE HA SIDO CAMBIADO.&lt;/p&gt;
+
+&lt;p&gt;Primero me puse esta etiqueta se activa sólo una vez por página (por lo que se evita que se carguen dos veces).&lt;/p&gt;
+
+&lt;p&gt;Pasemos al segundo cambio. Si ha notado añadí otra condición antes de cada impulso en la capa de datos. De esta manera, ahora hay dos condiciones:&lt;/p&gt;
+
+&lt;p&gt;la primera condición comprueba la existencia de la función de JavaScript&lt;/p&gt;
+
+&lt;p&gt;la segunda condición ocurre que ya ha sido registrada y el CookieConsent que el valor es diferente de verdaderos (gracias a las Tablas expresiones regulares ya creados).&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, el evento personalizado se inserta en la pila sólo si el usuario ya posee CookieConsent (y por lo tanto ya ha expresado su preferencia sobre qué tipo de cookies para aceptar) y si ese tipo de cookie (preferencias, estadísticas o comercialización) no fue aceptado.&lt;/p&gt;
+
+&lt;p&gt;Por qué esto? Lo explicaré en los siguientes pasos.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-5-8211-create-el-activador-igual-a-la-etapa-2&#34;&gt;nuevo PASO 5 &amp;#8211; CREATE el activador (igual a la etapa 2)&lt;/h4&gt;
+
+&lt;p&gt;Este fue el único paso realmente útil en la guía anterior.&lt;/p&gt;
+
+&lt;p&gt;Ahora que la secuencia de comandos genera estos tres eventos personalizados tenemos que cogerlos con la mayor cantidad de activadores de tipo Evento personalizado.&lt;/p&gt;
+
+&lt;p&gt;Activadores&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: evento personalizado.&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento: cookieconsent_preferences.&lt;/p&gt;
+
+&lt;p&gt;Guarde con el nombre: &amp;#8220;cookieconsent_preferences&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Vamos a hacer lo mismo para los otros dos eventos: cookieconsent_statistics y cookieconsent_marketing&lt;/p&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-6-crear-activadores-negativos&#34;&gt;PASO 6: CREAR ACTIVADORES NEGATIVOS&lt;/h4&gt;
+
+&lt;p&gt;Además de los PASO 5 Activadores, debemos crear activadores con lógica inversa.&lt;/p&gt;
+
+&lt;p&gt;Generalmente los llamo activadores negativos. Tendremos que ponerlos como los activadores de tipo de excepción en las etiquetas más comunes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tipo de activador&lt;/em&gt;: &lt;strong&gt;Visualización de página&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Este activador se activa en&lt;/em&gt;: &lt;strong&gt;algunas vistas de página&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;_Activar este activado_r: &lt;strong&gt;CookieConsent.marketing&lt;/strong&gt; no es igual a &lt;strong&gt;TRUE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Guardar como: &amp;#8220;Fail cookieconsent_marketing&amp;#8217;.&lt;/p&gt;
+
+&lt;p&gt;Haremos lo mismo para las estadísticas y preferencias.&lt;/p&gt;
+
+&lt;p&gt;¿Cómo generar universal negativa ACTIVADOR DE válidas para ningún EN TODO MOMENTO&lt;/p&gt;
+
+&lt;p&gt;El ejemplo que acabamos de ver se aplica solo a la vista de página. Pero si tuviera las etiquetas que se activan al hacer clic o cualquier otro tipo de activador como lo hacemos?&lt;/p&gt;
+
+&lt;p&gt;Ahora te lo explicaré&lt;/p&gt;
+
+&lt;p&gt;Activadores&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: evento personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento :. *&lt;/p&gt;
+
+&lt;p&gt;Indicador Utiliza coincidencia de expresión regular: verdadero&lt;/p&gt;
+
+&lt;p&gt;Este disparador se activa en CookieConsent.preference no es igual a la verdadera&lt;/p&gt;
+
+&lt;p&gt;Guardar con el nombre: &amp;#8220;CookieConsente.preference&amp;#8221;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Buscas las respuestas del examen de Google Analytics 2018?</title>
+      <link>/buscas-las-respuestas-del-examen-de-google-analytics/</link>
+      <pubDate>Sat, 26 May 2018 16:01:24 +0000</pubDate>
+      
+      <guid>/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
+      <description>&lt;p&gt;Despúes de crear la entrada de las respuestas de la  &lt;strong&gt;certificación oficial de Google AdWords fundamentales y&lt;/strong&gt; &lt;strong&gt;avanzado, &lt;/strong&gt;no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones&lt;/p&gt;
+
+&lt;p&gt;en &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, aquí os daré algunas de las preguntas del examen de Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los exámenes, ni las hago para los demás a cambio de dinero, simplemente es una demostración que Google necesita &lt;strong&gt;comerciales &lt;/strong&gt;y cuanto más somos mejor&amp;#8230;era broma. A final si las empresas piden unas certificaciones oficiales, creo que más que un TITULIS, mejor tener &lt;strong&gt;experiencia. &lt;/strong&gt;Gran palabra poco valorada, creo yo. En fin, yo durante muchas entrevistas (personales y para mi agencia), me he encontrado de todo, y la última pregunta y no discriminatoria era sobre la certificación, y aconsejo que sacan este examen o varios exámenes para el simple hecho de estudiar PDF de más de 200 páginas, ver tutoriales, consumir buenas prácticas, ejemplos, consultar el foro de ayuda en inglés o español, y obviamente, en el caso de Analytics, vincular la cuenta DEMO del Merchandisestore en una cuenta creada para ir tocando y probando la analítica web, en este caso para un ecommerce, de una manera GRATUITA.&lt;/p&gt;
+
+&lt;p&gt;Esta &amp;#8220;gratuitidad&amp;#8221; obviamente tiene un precio, y esto se llama EXPERIENCIA.&lt;/p&gt;
+
+&lt;p&gt;No me crees, claro porque si estás leyendo estas rigas seguramente estabas buscando las respuesta para pasar rápido el examen pero la verdad que solo te mostraré unas cuántas preguntas y a final las incorrectas. No te preocupes, una promesa es deuda, no haré el juego de los demás, simplemente (como ya tengo un vídeo grabado), no iré colgando por ahí las respuestas, no me gusta saber que luego las mismas podrías venderlas (y los hay quien realiza examen por 10€, vaya negocio!)&lt;/p&gt;
+
+&lt;p&gt;De momento pueden tener acceso a estas preguntas&amp;#8230;y para las respuestas puedes seguir uno de &lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyK-xDs0FDpc3MeDpBpGdpP9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mis vídeos a esta lista y subscribirte&lt;/a&gt;. Gracias y Good Luck!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google Analytics 2018 &amp;#8211; parte 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué tengo pocas visitas?</title>
+      <link>/por-que-tengo-pocas-visitas/</link>
+      <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
+      
+      <guid>/por-que-tengo-pocas-visitas/</guid>
+      <description>
+
+&lt;h2 id=&#34;un-sitio-web-de-comercio-electrónico-o-la-presencia-de-una-empresa-en-internet-no-es-un-juego-los-principales-objetivos-siguen-siendo-el-incremento-de-ventas-la-reducción-de-costes-y-la-fidelización-de-clientes&#34;&gt;Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes.&lt;/h2&gt;
+
+&lt;p&gt;Comprender la importancia y seriedad que conlleva un proyecto en Internet es vital para &lt;strong&gt;alcanzar el éxito&lt;/strong&gt;, se requiere que intervenga varias disciplinas, entre ellas la analítica web.&lt;/p&gt;
+
+&lt;p&gt;Algunas de las clásicas preguntas de clientes o propietarios de sitios web:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;¿Por qué tengo pocas visitas?&lt;/li&gt;
+&lt;li&gt;Tengo muchas visitas, pero muy pocos usuarios realizan compras. ¿Por qué?&lt;/li&gt;
+&lt;li&gt;¿Por qué hay tiendas online que sí venden y la mía no?&lt;/li&gt;
+&lt;li&gt;Estoy haciendo publicidad en Internet. ¿Está bien hecha? ¿Es eficiente?&lt;/li&gt;
+&lt;li&gt;¿Cómo puedo conseguir que más usuarios se registren o me envíen consultas?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para conocer el problema existente y dar una respuesta se recurre a la analítica web, igual que, salvando las diferencias, cuando una persona tiene un problema de salud o un deportista necesita mejorar su rendimiento recurre a una serie de pruebas y análisis para conocer su estado y determinar qué necesita para mejorar.&lt;/p&gt;
+
+&lt;p&gt;Volviendo al campo empresarial, veamos algunas diferencias entre el mundo offline y el mundo online que nos ayudarán a comprender la necesidad de la analítica web y saber más sobre ella.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;publicidad-en-el-mundo-offline-ejemplo-1-8211-la-clínica-veterinaria&#34;&gt;Publicidad en el mundo offline: Ejemplo 1  &amp;#8211; La clínica veterinaria&lt;/h3&gt;
+
+&lt;p&gt;Imaginemos una clínica veterinaria y para promocionarla se ha decidido contratar una valla publicitaria en un emplazamiento de una ciudad por el que transitan muchos vehículos y personas. Le han estimado que la valla será vista por más de 1000 personas al día.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;la contratación de esa valla es de 700 euros al mes per un periodo de 12 meses&lt;/li&gt;
+&lt;li&gt;producción gráfica y fijación es de 1000 euros&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En total el primer año se invertirá 9400 euros por este anuncio. Estimando unas 1000 personas que verán este anuncio cada día, podría tener muchos clientes en poco tiempo. Pero tendríamos que cuestionarnos relacionadas con la &lt;strong&gt;efectividad&lt;/strong&gt; de esa publicidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1 &amp;#8211; ¿Cuántas de esas personas pasan delante del anuncio lo ven?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La manera de saberlo es realizar algún tipo de encuesta en la calle para preguntar a las personas que se fijaron en el anuncio. Periódicamente durante los próximos 12 meses para conocer su efectividad.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2 &amp;#8211; De las personas que ven el anuncio, cuántas tenían mascotas o están interesadas en este tema?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Podemos basarnos en informes sobre el % de mascotas en la zona para hacer una estimación. Pero saber con exactitud cuántas personas que pasan por la valla están interesadas en mascotas, puede ser complicado.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3 &amp;#8211; ¿Cuántas personas han ido a su clínica gracias al anuncio?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Para este dato la única manera es preguntar directamente a cada uno de los clientes que acudan a la clínica si llegaron allí gracias a la valla publicitaria&amp;#8230;un poco incómoda cómo pregunta.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Las respuestas a estas preguntas nos permiten saber cómo de eficiente o rentable está siendo dicho anuncio y si es necesario hacer algún cambio.&lt;/p&gt;
+
+&lt;p&gt;No es lo mismo invertir 9400 euros en un año para 3000 clientes potenciales y nos proporcionaría solo 56 clientes reales, que sólo nos vean 700 clientes potenciales y nos proporcione 12 clientes. ¿Cómo podríamos sacar este dato con tanta precisión?&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;publicidad-en-el-mundo-offline-ejemplo-2-8211-un-supermercado&#34;&gt;Publicidad en el mundo offline: Ejemplo 2  &amp;#8211; Un supermercado&lt;/h3&gt;
+
+&lt;p&gt;Sara es propietaria de un gran supermercado. En él vende productos de alimentación, higiene, cosmética, etc.&lt;/p&gt;
+
+&lt;p&gt;Sara puede saber qué productos son más o menos vendidos gracias a los resultados de las ventas, pero lo que no puede saber es cuántos clientes tenían interés por un producto de la marca A y finalmente eligieron la marca B. Para averiguar esto hay dos opciones: realizar encuestas o colocar sensores en una zona de los estantes de los productos para observar constantemente qué hace el cliente frente a éste. Pero ¿hacemos encuestas de todos los productos para saber qué piensan los clientes de cada uno de ellos? o ¿invertimos algo en tecnología para sensores, extraer datos, analizarlos como ciéntificos de datos y crear modelos matemáticos de cada unos de los productos?&lt;/p&gt;
+
+&lt;p&gt;Sería interesante conocer qué hacen los clientes en el supermercado, en qué productos se fijaron y cuál compraron finalmente o qué secciones son las que más visitan. Con estos datos podríamos descubrir los intereses de los clientes, detectar posibles problemas que hacen que elijan un producto en lugar de otro o, incluso, lanzar ofertas relacionadas con esas secciones que visitan mucho pero en las que no suelen comprar.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, no hay manera de tener todos esos datos de forma precisa y menos de forma individualizada.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;publicidad-en-el-mundo-online-datos-y-mediciones&#34;&gt;Publicidad en el mundo online: Datos y mediciones&lt;/h3&gt;
+
+&lt;p&gt;En el mundo offline no es fácil obtener datos precios de todo lo que ocurre, Sin embargo, en el mundo online todo lo que hacemos puede quedar registrado, así que la cantidad de datos disponible llega a ser desbordante, veáse también el problema de la privacidad. Internet es el mundo perfecto para conocer todo acerca de los usuarios y disponer de datos suficientes para analizar qué está ocurriendo y qué hacer para mejorar.&lt;/p&gt;
+
+&lt;p&gt;Véamos que podemos registrar y conocer:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dónde se hace clic&lt;/li&gt;
+&lt;li&gt;qué palabras se escribieron en el buscador para llegar a nuestro sitio web&lt;/li&gt;
+&lt;li&gt;país o ubicación geográfica el que se conecta&lt;/li&gt;
+&lt;li&gt;tiempo que permanece viendo uan página web&lt;/li&gt;
+&lt;li&gt;páginas web o productos que visitó&lt;/li&gt;
+&lt;li&gt;número de usuarios que visitaron una página web&lt;/li&gt;
+&lt;li&gt;porcentaje de usuarios que hicieron una compra, solicitud o reserva&lt;/li&gt;
+&lt;li&gt;número de usuarios que provienen de anuncios de pago&lt;/li&gt;
+&lt;li&gt;páginas de sitios más visitadas&lt;/li&gt;
+&lt;li&gt;zonas de páginas web que más o menos captan la atención&lt;/li&gt;
+&lt;li&gt;datos demográficos por rango de edad o sexo&lt;/li&gt;
+&lt;li&gt;y más datos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;qué-podemos-determinar-con-esto&#34;&gt;&lt;strong&gt;¿Qué podemos determinar con esto?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;qué páginas debemos mejorar la usabilidad&lt;/li&gt;
+&lt;li&gt;si tenemos que realizar el sitio web en otros idiomas&lt;/li&gt;
+&lt;li&gt;si el proceso de compra debe ser modificado&lt;/li&gt;
+&lt;li&gt;mejorar el ratio de conversión y optimizarlo&lt;/li&gt;
+&lt;li&gt;la efectividad o rentabilidad de campañas de pago&lt;/li&gt;
+&lt;li&gt;evolución del tráfico de un buscador o orgánico&lt;/li&gt;
+&lt;li&gt;en caso de productos, cuáles son lo que no interesan o presentan problemas&lt;/li&gt;
+&lt;li&gt;determinar acciones que no proporcionan más visitas, ventas o solicitudes&lt;/li&gt;
+&lt;li&gt;repercusión de nuestra marca y reputación online&lt;/li&gt;
+&lt;li&gt;comportamiento de los usuarios según datos demográficos&lt;/li&gt;
+&lt;li&gt;y más&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A tener en cuenta que para contestar a cada una de las posibles preguntas o más, es necesario registrar los datos correctamente y analizarlos, así como descubrir nuevas oportunidades, o &lt;strong&gt;insight&lt;/strong&gt; dentro de la análitica web y mejorar la rentabilidad y el objetivo empresarial.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
+      <link>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
+      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
+      
+      <guid>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
+      <description>
+
+&lt;h2 id=&#34;web-analytics-10-razones-para-usar-tag-manager-en-su-análisis-de-marketing&#34;&gt;Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing&lt;/h2&gt;
+
+&lt;p&gt;Google Tag Manager es una de las herramientas más innovadoras en la web para una &lt;strong&gt;gestión avanzada de nuestro análisis de marketing&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Para aquellos que nunca han oído hablar de él, es una herramienta principalmente dedicada a los analistas de marketing y gerentes de marketing, que le permite llevar la &lt;strong&gt;Optimización de la tasa de conversión&lt;/strong&gt; o CRO (Conversion Rate Optimization), la optimización de los procesos de conversión dentro de un sitio web en un nivel que de otro modo solo se puede alcanzar mediante el uso de herramientas a menudo bastante costosas.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Con Google Tag Manager es posible, entre otras cosas, &lt;strong&gt;rastrear y transmitir fácilmente a&lt;/strong&gt; su análisis o herramientas de administración de marketing digital (incluyendo &lt;em&gt;Google Analytics&lt;/em&gt;, por supuesto, pero también &lt;em&gt;Facebook Analytics&lt;/em&gt;) cualquier tipo de comportamiento, desde ver una página web hasta haga clic en una llamada a la acción, desde compartir en redes sociales hasta el embudo completo de compra de comercio electrónico.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Todo lo que muchas herramientas de analítica , apropiadamente programadas, hacen de forma independiente, por supuesto.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&#34;emphasis&#34;&gt;
+  &lt;span class=&#34;notranslate&#34;&gt;¿Por qué, entonces vale la pena cambiar a Google Tag Manager? &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí están unas 10 razones, y hay más!&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-1-la-solución-ideal-para-el-hombre-o-la-mujer-que-no-debe-preguntar-nunca-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;1 # La solución ideal para el hombre (o la mujer) que no debe preguntar, nunca&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-551&#34; src=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;396&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png 800w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-300x149.png 300w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-768x380.png 768w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-260x129.png 260w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-50x25.png 50w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-150x75.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;La primera, la más importante de las ventajas que descubre de inmediato quién pasa a Google Tag Manager. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí está: &lt;strong&gt;libérate de la esclavitud de preguntar.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Es un clásico, ¿no?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Su cliente le confía la gestión de los procesos de marketing y optimización dentro de su sitio web.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Sin embargo, aunque siempre hay uno, el &lt;strong&gt;mantenimiento técnico del sitio se confía a una empresa externa&lt;/strong&gt; , que es una de las &lt;em&gt;miles&lt;/em&gt; de responsabilidades del departamento interno de TI de la compañía, que (como siempre) tiene mucho que hacer y (como siempre) no él tiene algo de tiempo para perder con &amp;#8220;los de marketing&amp;#8221;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Situación clásica, por decir lo menos: levante la mano que no la haya experimentado al menos una vez, de un lado o del otro de la barricada.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En resumen, imagine al pobre analista que enfrenta esta situación: &lt;strong&gt;decenas de llamados a la acción para rastrear&lt;/strong&gt; , uno o más embudos de conversión para analizar, quizás (en un comercio electrónico), todo el proceso de compra que se gestionará y un administrador de TI reticente eso no te permite trabajar al ritmo y con la precisión con la que fueras prefijado.&lt;/span&gt; ¿&lt;span class=&#34;notranslate&#34;&gt;Qué hacer?&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;La solución es: cambiar a Google Tag Manager&lt;/strong&gt;.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, finalmente podrá trabajar libremente si cree que debe &lt;strong&gt;etiquetar cualquier elemento del sitio web de su cliente&lt;/strong&gt; (siempre que se realice al menos decentemente, por supuesto) sin tener que recurrir a las intervenciones del desarrollador o del webmaster.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Mejor que eso!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-2-puedes-planificar-mejor-tu-trabajo-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;2 # Puedes planificar mejor tu trabajo&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;¿Qué implica todo esto?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;En primer lugar, implica la posibilidad de planificar su trabajo de análisis de datos mucho más fácilmente, explotando el potencial de Google Tag Manager para &lt;strong&gt;supervisar sistemáticamente las rutas internas&lt;/strong&gt; al sitio web que desea analizar, decidiendo de vez en cuando el nivel de detalle del análisis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Por ejemplo?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Piensa en una &lt;strong&gt;llamada a la acción&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Obviamente, querrá ser monitoreada de una manera muy específica, separándolo de otra llamada a la acción en la misma página.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Ahora, en cambio, piense en los contenidos relacionados de un blog.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En este caso, no le interesará saber, probablemente, qué contenido en particular ha sido objeto de clics, pero solo necesita saber el número total de clics en los correlatos tomados en general. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí: Tag Manager le permite &lt;strong&gt;diversificar el nivel de análisis en relación con sus objetivos&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Y para hacerlo fácilmente (lo que nunca duele).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-3-puede-hablar-con-google-analytics-en-su-8220-lengua-8221-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;3 # Puede hablar con Google Analytics en su &amp;#8220;lengua&amp;#8221;&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Otra ventaja considerable: a través del Tag Manager &lt;strong&gt;puede usar fácilmente todos los scripts&lt;/strong&gt; que le permiten enviar datos y parámetros a Google Analytics sin escribir una línea de código.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En su lugar, encontrará interfaces convenientes que le permitirán trabajar sin problemas y sin errores, tanto para mejorar y adaptar a sus necesidades el código de seguimiento de Analytics, tanto para rastrear eventos y eventos sociales con simplicidad, utilizando las &lt;strong&gt;variables proporcionadas por Google Tag Manager&lt;/strong&gt; para hacer los &lt;a href=&#34;https://www.marcusrb.com/como-crear-eventos-dinamicos-con-google-tag-manager/&#34;&gt;parámetros y variables dinámicas&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-553&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png&#34; alt=&#34;&#34; width=&#34;900&#34; height=&#34;465&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png 900w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-300x155.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-768x397.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-260x134.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-50x26.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-145x75.png 145w&#34; sizes=&#34;(max-width: 900px) 100vw, 900px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-4-puedes-probar-nuevas-soluciones-sin-dañarlas-span-span-class-notranslate-además-puedes-regresar-cuando-quieras-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;4 # Puedes probar nuevas soluciones sin dañarlas.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Además, puedes regresar cuando quieras&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Y dime que esto no es una ventaja.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Google Tag Manager funciona con dos herramientas extraordinarias.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;El primero es la &lt;strong&gt;vista previa&lt;/strong&gt;: le permite probar cualquier solución y &lt;strong&gt;verificar la viabilidad y cualquier defecto&lt;/strong&gt; antes de entrar en producción.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Una ventaja no poco, que comprenderá fácilmente a cualquiera que tenga sus manos al menos una vez en su vida en una línea de código.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;El segundo, igualmente importante, es el &lt;strong&gt;versionado&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En la práctica, Tag Manager mantiene todas las instancias que hemos publicado de nuestra cuenta en su base de datos.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, si nos damos cuenta demasiado tarde de que hemos hecho algunas tonterías, podemos &lt;strong&gt;volver&lt;/strong&gt; fácilmente &lt;strong&gt;a la última versión operativa&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-554&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-1024x351.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;351&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-1024x351.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-300x103.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-768x263.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-260x89.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-50x17.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-150x51.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02.png 1277w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-5-puedes-centralizar-todas-las-etiquetas-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;5 # Puedes centralizar todas las etiquetas&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;¿Alguna vez intentó &lt;strong&gt;dibujar una serie de eventos que pueden suceder en cualquier lugar de su sitio web&lt;/strong&gt; , por ejemplo, hacer clic en una Llamada a la acción?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Hay muchas formas de hacer esto.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Si no tiene experiencia en programación, probablemente deba buscar todas Llamadas a la acción presente en su sitio y asociarlo con un evento que se transmitirá a Google Analytics.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Si, en cambio, tiene alguna experiencia en programación, tal vez no pueda hacer este esfuerzo, tratando de configurar una función que presida automáticamente esta tarea.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;O puede usar Google Tag Manager.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, la tarea de reaccionar dependerá del &lt;strong&gt;clic listener&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En su lugar, tendrá la tarea, mucho más sencilla, de explicar al Administrador de etiquetas qué evento debe transmitir a Google Analytics en relación con el clic en el sitio.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Más fácil que eso!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-6-puedes-reutilizar-los-códigos-y-soluciones-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;6 # Puedes reutilizar los códigos y soluciones&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;A veces sucede que tiene ideas brillantes.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Gracias a la modularidad de Google Tag Manager, podrá utilizar estas ideas y soluciones una y otra vez. Sí has entendido bien, el mismo &lt;strong&gt;activador, &lt;/strong&gt;por ejemplo el de formulario enviado, puedes utilizarlo para eventos de Google Analytics, para la etiqueta de conversiones de Google AdWords, para el pixel de Facebook u otro pixel de terceros. Y porque no, utilizarlo también para eventos dinámicos, ejemplo, comercio electrónico, donde alguna variable comparte etiqueta, o en Remarketing dinámico. Esta es una ventaja bien útil además, puesto que no tienes que meter mano al código nunca (bueno sí, a principio), pero al resto piensa todo GTM.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-7-puede-usar-funciones-cálculos-variables-y-transmitir-sus-resultados-a-google-analytics-con-facilidad-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;7 # Puede usar funciones, cálculos, variables y transmitir sus resultados a Google Analytics con facilidad&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Google Analytics, usted sabe, solo permite unos pocos meses, y solo en algunos casos, realizar &lt;a href=&#34;https://www.marcusrb.com/creacion-crm-google-sheets-google-tag-manager/&#34;&gt;cálculos con las métricas en su base de datos&lt;/a&gt;, o manipular su tamaño gracias al uso de filtros avanzados.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Cualquier entrada que deseemos dar a Analytics, en resumen, esto probablemente debería haber sido procesado previamente.&lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Imagine, por ejemplo, que desea &lt;strong&gt;importar en Analytics un determinado tamaño presente en el código de su sitio&lt;/strong&gt; , quizás dentro de una meta etiqueta o en una ubicación específica de la URL.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;¿Cómo lo vas a realizar?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Una solución es calcular esta cantidad a través de una o más funciones para procesarla dentro del código de su página e importar el resultado en Analytics gracias a una modificación del código de seguimiento.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;El otro?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;Puedes delegar la tarea en Tag Manager&lt;/strong&gt; , que proporciona toda su base de datos de variables personalizadas y dedicada para este fin.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-8-finalmente-puedes-simplificar-el-trabajo-de-etiquetas-en-ecommerce-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;8 # Finalmente puedes simplificar el trabajo de etiquetas en ecommerce&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;¿Quién ha intentado elaborar las funciones de Google Analytics que presiden las diversas etapas del proceso de compra?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Nada fácil, ¿verdad?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;El comercio electrónico mejorado&lt;/strong&gt; es una de las herramientas más complejas para configurar en Google Analytics, ya que requiere la activación de varias funciones que presiden la búsqueda y envío de datos en tiempo real, a medida que el usuario avanza en su &lt;strong&gt;Customer Journey&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-555&#34; src=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;396&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png 800w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-300x149.png 300w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-768x380.png 768w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-260x129.png 260w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-50x25.png 50w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-150x75.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;Google Tag Manager simplifica enormemente este proceso&lt;/strong&gt; y, en algunos casos, lo hace posible incluso sin agregar una sola línea de código al sitio.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-9-puede-usar-fácilmente-los-nuevos-píxeles-de-conversión-de-facebook-en-relación-con-los-eventos-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;9 # Puede usar fácilmente los nuevos píxeles de conversión de Facebook en relación con los eventos&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Otro aspecto que afectará, creo, a muchos colegas.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Con Google Tag Manager puede simplificar en gran medida la &lt;strong&gt;implementación de los nuevos píxeles de conversión de Facebook&lt;/strong&gt; , e incluso puede configurarlos sin cambiar el código del sitio.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-10-finalmente-puede-etiquetar-su-sitio-para-explorar-el-comportamiento-del-usuario-con-facilidad-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;10 # Finalmente puede etiquetar su sitio para explorar el comportamiento del usuario con facilidad&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Por último, pero no menos importante:&lt;/em&gt; con el Administrador de etiquetas de Google, puede &lt;strong&gt;marcar cualquier botón&lt;/strong&gt; , cualquier comportamiento, cualquier interacción de nuestros usuarios en su sitio, comenzando, por ejemplo, desde interacciones sociales , que a menudo permanecen indescifrables para Google Analytics.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En resumen, tendrá la &lt;strong&gt;capacidad de rastrear toda la experiencia del usuario&lt;/strong&gt; , haga clic para hacer clic: algo invaluable, especialmente para la determinación de casos de uso y perfiles de usuario en los sitios más complejos.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;span-class-notranslate-un-engranaje-adicional-en-análisis-de-marketing-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;Un engranaje adicional en análisis de marketing&lt;/span&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;En resumen, se habrá te habrás dado cuenta que: con Tag Manager, el trabajo de rastrear y analizar un sitio web no solo es más sencillo, sino también más funcional, ya que le permite realizar prácticamente &lt;strong&gt;cualquier seguimiento que desee&lt;/strong&gt; , manteniendo el nivel de análisis de datos una capa sobre la del código del sitio. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Entonces, si normalmente logra involucrar el dpto TI en su proyecto de seguimiento, solo podrá ganar aún más eficiencia, un tema que hoy, en mi opinión, está en todos lados.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;span-class-notranslate-si-también-usa-google-tag-manager-agregaría-algunos-puntos-a-esta-lista-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;Si también usa Google Tag Manager, ¿agregaría algunos puntos a esta lista?&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Cuéntame sobre tu experiencia con esta increíble herramienta en los comentarios.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Fuente original:** &lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34;&gt;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;**&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Tutorial] Creación de un CRM con Google Sheets y Google Tag Manager</title>
+      <link>/creacion-crm-google-sheets-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      
+      <guid>/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;quiéres-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-dinámicos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos&#34;&gt;¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos?&lt;/h2&gt;
+
+&lt;p&gt;Será un tutorial dividido en dos partes, la primera la explicación de como crear en Tag Manager variables, personalizadas y dinámicas, ejemplo al enviar un formulario para Leads, y de otro lado enlazando Google Sheet y tener toda la información (excluyo la información sensible en virtud de la nueva ley GDPR no haré mención a datos sensibles), además a tener en cuenta que tampoco llevaré estos datos a Google Analytics para evitar penalizaciones (nunca me ha pasado y tampoco quiero arriesgarme). Pronto también el vídeo con el tutorial, esté atento en mi &lt;a href=&#34;https://www.youtube.com/c/MarcusRBofficial?sub_confirmation=1&#34; target=&#34;_blank&#34;&gt;canal YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;preparando-las-variables-en-google-tag-manager&#34;&gt;Preparando las variables en Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Antes de empezar, hay que tener en cuenta unos cuantos puntos, si eres nuevo en Google Tag Manager, seguramente llegarás a final de este párrafo y te irás llorando, porque hablaré de Tag Manager a nivel más avanzado. En caso de dudas sobre etiquetas, variables e incluso el mismo Tag Manager, te recomiendo hagas una &lt;a href=&#34;https://www.youtube.com/watch?v=MAn20Yi62z8&amp;amp;t=437s&amp;amp;list=PLzxNDhvkuNyIy7mMAZl_wItUW3CWDx8pD&amp;amp;index=5&#34; target=&#34;_blank&#34;&gt;primera visita aquí. &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Si ya estás acostumbrado a extraer informaciones a nivel más avanzado, y conoce de DOM, HTML y CSS, además de JavaScript, entonces, bienvenido.&lt;/p&gt;
+
+&lt;p&gt;Comenzaré hablar de como tener un cuadro de seguimiento, y podría ampliar más informaciones y campos, pero me conformo con este CRM básico&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-498 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png&#34; alt=&#34;CRM en Google Sheets&#34; width=&#34;710&#34; height=&#34;521&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png 710w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-300x220.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-199x146.png 199w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-50x37.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-102x75.png 102w&#34; sizes=&#34;(max-width: 710px) 100vw, 710px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Segundo paso tengo este formulario básico de momento justo para alinearme a mi CRM y luego explicaré como ampliar con más informaciones y detalles&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-499 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png&#34; alt=&#34;Formulario sitio web sencillo&#34; width=&#34;481&#34; height=&#34;391&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png 481w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-300x244.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-180x146.png 180w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-50x41.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-92x75.png 92w&#34; sizes=&#34;(max-width: 481px) 100vw, 481px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Para extraer informaciones desde un DOM, es necesario tener bien claro una cosa, realizar lo siguiente:&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  consola de desarrollador &gt; pruebas con ID, clases o Selector CSS &gt; aplicar a más de uno y hacer pruebas
+&lt;/p&gt;
+
+&lt;p&gt;Una vez que tengamos los campos necesario para extraer los valores de los campos del formulario, podemos inclusive determinar otras KPI&amp;#8217;s importantes y útiles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;abandono del formulario&lt;/li&gt;
+&lt;li&gt;creación de un funnel y determinar los porcentajes de campos no rellenados vs completo&lt;/li&gt;
+&lt;li&gt;tiempo de permanencia en el formulario y medición de duración en segundos desde el primer click hasta el envío&lt;/li&gt;
+&lt;li&gt;test A/B en el mismo con diferentes opciones y determinar cuál de los formularios mejora el %ratio de conversión&lt;/li&gt;
+&lt;li&gt;etc&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;entramos-ahora-con-el-concepto-de-extraer-la-información-en-una-alerta-de-consola-y-ver-los-valores&#34;&gt;Entramos ahora con el concepto de extraer la información en una alerta de consola y ver los valores&lt;/h3&gt;
+
+&lt;p&gt;Una vez dentro de nuestro Tag Manager vamos con la creación de nuestras variables, primero ha de comprobar los campos del formulario (si existen ID, clases o selector CSS), y ver su activador de tipo bóton de envío formulario (tipo HTML, jQuery o Ajax, modal, iframe, etc).&lt;/p&gt;
+
+&lt;h4 id=&#34;creación-de-la-variables&#34;&gt;&lt;strong&gt;Creación de la variables&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Este es el código fuente de mi formulario:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-501 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png&#34; alt=&#34;código fuente formulario HTML&#34; width=&#34;888&#34; height=&#34;569&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png 888w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-300x192.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-768x492.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-228x146.png 228w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-50x32.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-117x75.png 117w&#34; sizes=&#34;(max-width: 888px) 100vw, 888px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Y este es como veo los campos DOM en la Consola de Google Chrome:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-502 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png&#34; alt=&#34;DOM formulario con querySelectorAll&#34; width=&#34;988&#34; height=&#34;891&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png 988w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-300x271.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-768x693.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-162x146.png 162w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-50x45.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-83x75.png 83w&#34; sizes=&#34;(max-width: 988px) 100vw, 988px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora bien que tengo los campos de nombre, apellidos, dirección, género, email y comentarios, incluido botones de enviar y resetear, iré a lo práctico.&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Crearé las variables de tipo Javascript Personalizado y veámos como función la vista previa para el primer campo NAME.&lt;br /&gt; Si para extraer el valor en el campo, la query será:
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0][0].value&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Resultado:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-503&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-1024x373.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;373&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-1024x373.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-300x109.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-768x280.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-260x95.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-50x18.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-150x55.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14.png 1175w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora bien, mi CRM puedo rellenar de valores cuáles, también datos personales y sensibles, así que me limitaré a asignarle solo valores booleanos: TRUE o FALSE, siempre y cuando la condición será &amp;gt; enviar el formulario rellenado y no vacío.&lt;/p&gt;
+
+&lt;p&gt;el código así reescrito es:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-504 size-large&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-1024x494.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;494&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-1024x494.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-300x145.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-768x370.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-260x125.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-50x24.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-150x72.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06.png 1273w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;En práctica asigno una variable a mi selector, primer campo y lo confronto con un valor vacío &lt;strong&gt;&amp;#8221; &amp;#8220;&lt;/strong&gt;, si no es así, entonces el valor de retorno será TRUE sino será FALSE.&lt;/p&gt;
+
+&lt;p&gt;Cuídado, el valor por defecto es UNDEFINED, porque no está asociado a ningún activador, así que siempre tendré en cuenta que el formulario será enviado (para su validación total).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MODO AVANZADO&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;También puedo crear una variable que directamente hará el trabajo de validación y con este script le digo de sacarme el valor &lt;strong&gt;V&lt;/strong&gt;&lt;strong&gt;erdadero:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En cada elemento tendré el parámetro &lt;strong&gt;Validity &lt;/strong&gt;y según sea un campo obligatorio o no, tendré varias opciones&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-511&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png&#34; alt=&#34;&#34; width=&#34;268&#34; height=&#34;231&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png 268w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-169x146.png 169w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-50x43.png 50w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-87x75.png 87w&#34; sizes=&#34;(max-width: 268px) 100vw, 268px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Así que resumiendo nuevamente tenemos:&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0]&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;y siguiendo puedo extender con la validación&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0][0].validity.valid&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;y esto me dará el resultado &lt;strong&gt;TRUE &lt;/strong&gt;o &lt;strong&gt;FALSE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora hacemos lo mismo para todos los campos interesados:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nombre, Apellidos, Dirección, Género, Email, Comentarios.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Solo necesitamos replicar al igual que el campo &amp;#8220;nombre&amp;#8221; los demás que quedan, ya que todos los campos de textos son de igual tipologia, serán exactamente iguales que el primer ejemplo, solo que tenemos que pasar de [0][0] &lt;strong&gt;a [0][1]&lt;/strong&gt; y así hasta llegar al campo &lt;strong&gt;[0][5]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;creamos-la-etiqueta-y-activador&#34;&gt;Creamos la etiqueta y activador&lt;/h3&gt;
+
+&lt;p&gt;Pasamos de crear las variables de los campos del formulario, y necesitaríamos el activador, en este ejemplo, mi formulario, tiene &lt;em&gt;onsubmit=ValidationEvent() &lt;/em&gt;, en tu caso puede que el submit tenga una ID o una CLASS, o que el formulario esté creado con jQuery, así que vamos por lo más sencillo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img activador&gt;&lt;/p&gt;
+
+&lt;p&gt;Mi ejemplo es un &lt;strong&gt;Evento Personalizado &lt;/strong&gt;del tipo Submit con el valor &lt;strong&gt;ValidationEvent()&lt;/strong&gt; y todo lo que necesito es enviar la información recogida hacía Google Sheets.&lt;/p&gt;
+
+&lt;p&gt;Sí, falta algo, crear un &lt;strong&gt;conector &lt;/strong&gt;entre Google Tag Manager y Google Sheets, y para ello utilizo una etiqueta tipo &lt;strong&gt;PIXEL, &lt;/strong&gt;que en su defecto sería la etiqueta &lt;strong&gt;Imagen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img etiqueta imagen personalizada&gt;&lt;/p&gt;
+
+&lt;p&gt;El conector que vamos a crear es con &lt;strong&gt;Google Apps Script. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Entramos en Google Drive &amp;gt; Herramientas &amp;gt; Editor de secuencias de comandos y creamos el script personalizado:&lt;/p&gt;
+
+&lt;p&gt;&lt;img código&gt; que pueden descargar aquí&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;pre&gt;Insert your content here&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Muy importante cambiar los dos primeros valores:
+&lt;/p&gt;
+
+&lt;p&gt;&lt;li style=&#34;text-align: left;&#34;&gt;
+  SHEET_NAME: nombre de la hoja donde tenemos los campos a rellenar (en mi ejemplo se llama &lt;strong&gt;Sheet1&lt;/strong&gt;)
+&lt;/li&gt;
+&lt;li style=&#34;text-align: left;&#34;&gt;
+  SHEET_KEY: El valor ID de la hoja de cálculo lo que sigue /d/XXXXXXXXXXXX sería a rellenar
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora solo hace falta Guardar &amp;gt; Publicar &amp;gt; Publicar como aplicación Web&lt;/p&gt;
+
+&lt;p&gt;Importante seleccionar el nivel de acceso a todos. Copiamos el código del script y seguimos&lt;/p&gt;
+
+&lt;p&gt;&lt;img script&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;creamos-la-variable-de-google-apps-script-en-tag-manager&#34;&gt;Creamos la variable de Google Apps Script en Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Seguimos con la creación de la etiqueta Pixel, o imágen personalizada añadiendo la variable &lt;strong&gt;conector.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Definimos la variable de tipo &lt;strong&gt;Constante &lt;/strong&gt;con este valor Google Apps Script, y volvemos a la etiqueta&lt;/p&gt;
+
+&lt;p&gt;&lt;img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img&gt;&lt;/p&gt;
+
+&lt;p&gt;el código tendrá esta estructura&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  {{var_SCRIPT_GOOGLE_APPS}}&lt;strong&gt;?&lt;/strong&gt;nombre_campo1={{var_1}}&lt;strong&gt;&amp;&lt;/strong&gt;nombre_campo_2={{var_2}} etc etc
+&lt;/p&gt;
+
+&lt;p&gt; Si nos fijamos, el primer campo es la constante con la url de Google Apps Script, separamos con un &lt;strong&gt;? &lt;/strong&gt;y seguimos con los mismos nombres de la primera linea de Google Sheets (si tenemos NAME será NAME y si será NOMBRE entonces pondríamos NOMBRE,) si fallamos esta parte no leerá la correspondencia entre los nombre de las primera file de Google Sheets con las variables donde hacer pasar los valores.&lt;/p&gt;
+
+&lt;p&gt;Ejemplo?&lt;/p&gt;
+
+&lt;p&gt;Para comprobar su correcto funcionamiento podemos hacer lo siguiente:&lt;/p&gt;
+
+&lt;p&gt;una ruta nueva con la URL de Google Apps Script y la secuencia&lt;/p&gt;
+
+&lt;p&gt;&lt;img&gt;&lt;/p&gt;
+
+&lt;p&gt;Resultado?&lt;/p&gt;
+
+&lt;h3 id=&#34;img&#34;&gt;&lt;img&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;vista-previa-y-publicación-testing&#34;&gt;Vista previa y Publicación: Testing&lt;/h3&gt;
+
+&lt;p&gt;Vamos con la vista previa y si todo funciona correctamente tendremos valores TRUE y FALSE en nuestro CRM, o los valores correspondientes en caso de no tener que pasar por la validación Booleana.&lt;/p&gt;
+
+&lt;p&gt;El orden de los valores que siguen después &lt;strong&gt;&amp;amp; &lt;/strong&gt;es indiferente, siempre será una concatenación y los valores se pondrán en su sitio correspondiente en la hoja de cálculo.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;aquí-el-webinar-sobre-como-crear-un-crm-y-pasar-las-variables-dinámicas-desde-google-tag-manager-a-nuestro-google-sheets&#34;&gt;Aquí el webinar sobre como crear un CRM y pasar las variables dinámicas desde Google Tag Manager a nuestro Google Sheets&lt;/h3&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/K_kV-_2CmZQ?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Realizando auditoría y optimización AdWords:Reparación Móviles</title>
+      <link>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      
+      <guid>/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
+      <description>
+
+&lt;h2 id=&#34;quieres-ver-como-he-realizado-una-optimización-de-una-cuenta-adwords-para-el-sector-de-reparaciones-móviles-y-pantallas-de-smartphones&#34;&gt;¿Quieres ver como he realizado una optimización de una cuenta AdWords para el sector de reparaciones móviles y pantallas de smartphones?&lt;/h2&gt;
+
+&lt;p&gt;No te pierdas mi próximo webinar de una hora de duración el próximo&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;blockquote&#34;&gt;
+  &lt;blockquote&gt;
+    &lt;strong&gt;Jueves 10 de Mayo 2018 a las 19:00h&lt;/strong&gt;
+  &lt;/blockquote&gt;
+&lt;/div&gt; . Se comentará en directo de cómo extraer datos de una cuenta de AdWords y desde Analytics, crear patrones para organizar mejor los grupos de anuncios, las campañas y las palabras claves. Dar un nuevo enfoque a los anuncios de textos y aprovechar del Remarketing y Shopping.&lt;/p&gt;
+
+&lt;p&gt;Se ha logrado pasar de una inversión (mal aprovechada) de 3000 euros al mes , facturando lo justo para pagar el alquiler del local en Madrid, a convertirse en un negocio de nicho muy rentable y logrando invertir más de 15000 euros al mes, con un &lt;strong&gt;ROI x 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Te espero el próximo jueves en &lt;strong&gt;Hangout de YouTube y en Facebook&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
+      <link>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      
+      <guid>/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;durante-más-de-5-años-he-estado-utilizando-google-tag-manager-en-auditorias-de-analítica-web-a-mis-clientes-y-sobre-todo-actualizándome-constantemente&#34;&gt;Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente&lt;/h2&gt;
+
+&lt;p&gt;con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;&lt;strong&gt;administrador de etiquetas&lt;/strong&gt;&amp;#8220;.&lt;/p&gt;
+
+&lt;p&gt;Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir &lt;strong&gt;código &amp;#8220;a saco&amp;#8221;&lt;/strong&gt; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;departamento IT:&lt;/strong&gt; para sus pruebas en los sitios web o en partes para verificar el correcto funcionamiento de las aplicaciones&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento Marketing:&lt;/strong&gt; que además de utilizarlo en la medición de campañas con &amp;#8220;pixel&amp;#8221; de diferentes canales (SEM, SEO, social, afiliados, referenciados etc)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento Administrativo / Comercial:&lt;/strong&gt; que podría estar midiendo campañas y pasarlo a sus CRM&amp;#8217;s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento de&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics:&lt;/strong&gt; para etiquetar todos los eventos e interacciones de usuarios, usabilidad UX y CRO&lt;/li&gt;
+&lt;li&gt;y más que podrían ser otros interesados en la creación de tareas personalizadas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Como puedes apreciar, el uso de Google Tag Manager podría abarcar todas estas tareas, y obviamente, para poder realizar una migración hacía a ella, tendríamos tener además de experiencia técnica, para que podamos realizar  no solamente la &amp;#8220;medición de Analytics&amp;#8221; y stop, sino hay unas series de tareas que cualquier departamento puede realizar y por este motivo vamos por partes.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;definición-de-un-plan-de-medición&#34;&gt;Definición de un plan de medición&lt;/h2&gt;
+
+&lt;p&gt;Ante de comenzar con un plan de migración, necesitaríamos ver y poder realizar de forma resumida, un plan de medición para poder realizar sucesivamente comprobaciones de implementaciones existentes o tener que crearlas.&lt;/p&gt;
+
+&lt;p&gt;¿No sabes que es un plan de medición?&lt;/p&gt;
+
+&lt;p&gt;Pues, el plan de medición resumido, al igual que este pantallazo aquí abajo, representaría como alcanzar nuestro objetivo empresarial, siguiendo varios pasos y después de seguir unas series de configuraciones previas en el sitio web, herramienta a utilizar y medición de resultados.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-411 size-large&#34; title=&#34;estrategia de plan de medición&#34; src=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-1024x768.jpg&#34; alt=&#34;estrategia de plan de medición&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg 1024w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-300x225.jpg 300w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-768x576.jpg 768w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-195x146.jpg 195w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-50x38.jpg 50w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-100x75.jpg 100w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-960x720.jpg 960w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Definición del plan de medición&lt;/li&gt;
+&lt;li&gt;Documentar los aspectos técnicos&lt;/li&gt;
+&lt;li&gt;Creación de un plan de implementación&lt;/li&gt;
+&lt;li&gt;Implementación&lt;/li&gt;
+&lt;li&gt;Mantenimiento y mejora continua &amp;#8211; Optimización&lt;/li&gt;
+&lt;li&gt;vuelve a principio&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Entre un test y otro del punto 5 y 6, se crean diferentes &lt;strong&gt;dashboard&lt;/strong&gt;, o cuadros de mandos con las &lt;strong&gt;KPI&amp;#8217;s&lt;/strong&gt; a seguir y alcanzar. Aquí entrarían los factores para extrapolar las informaciones, detectar insights y mejorar con los test A/B, CRO, UX etc.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;cómo-compruebo-las-implementaciones-anteriores&#34;&gt;¿Cómo compruebo las implementaciones anteriores?&lt;/h2&gt;
+
+&lt;p&gt;Una vez que tengamos el plan de medición y verificada la parte técnica (dedicaré otro post para cada uno de los pasos), realizaremos las implementaciones oportunas (vía código, vía GTM, o lo que haga falta en las herramientas). Pero entraría aquí el aspecto de comprobar los trabajos anteriormente realizados.&lt;/p&gt;
+
+&lt;p&gt;Podemos utilizar algunas de las herramientas aquí mencionadas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics:&lt;/strong&gt; Hablando de Google Analytics, sería nuestra primera herramienta a verificar si efectivamente existen unas implementaciones realizadas, porque, en tal caso ya estaríamos recogiendo estos datos y de una manera estarían llegando a nuestra herramienta de análisis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin de terceros:&lt;/strong&gt; Podríamos tener unos plugin instalados que estarían ya haciendo el trabajo por nosotros, en caso de migración podríamos o bien crear conflictos, o bien cargarnos el trabajo realizado.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aplicaciones para navegador:&lt;/strong&gt; Con las aplicaciones o complementos para navegadores (Chrome, Firefox, principalmente), podríamos chequear unas series de aspectos cuáles implementaciones y recogidas de valores dentro del site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Informes anteriores:&lt;/strong&gt; Con los informes ya podríamos tener una idea de lo que se está realizando o lo que no, así alinearnos con las KPI&amp;#8217;s y el plan de medición.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;En practica tenemos que fijarnos en algunos apartados dentro de Google Analytics, exactamente dentro de la interfaz podemos ver cuáles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;conversiones&lt;/li&gt;
+&lt;li&gt;comportamiento&lt;/li&gt;
+&lt;li&gt;dimensiones o métricas personalizadas&lt;/li&gt;
+&lt;li&gt;agrupación de contenidos&lt;/li&gt;
+&lt;li&gt;eventos personalizados&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Con los plugin implementados en los gestores de contenidos: WordPress, Prestashop, Joomla, Magento, Shopify etc, pueden darnos mucha información, tenemos que ver que están realizando para no duplicar información&lt;/p&gt;
+
+&lt;p&gt;Con las aplicaciones, tenemos que verificar principalmente que se está realizando, aquí comentaré 3 principales:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Tag Assistant&lt;/strong&gt; para comprobar las etiquetas existentes, eventos recogidos, incluso podemos realizar grabaciones y comprobaciones de lo que se está midiendo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics Debug&lt;/strong&gt;: nos dará mucha información sobre la etiqueta de Google Analytics dentro del site y muchos objetivos creados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics pros DataLayer&lt;/strong&gt;: este último probará a extraer informaciones muy valiosa del site, es algo más avanzado a primera vista pero será útil a más de uno&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Con los informes anteriores realizados, panel de control o informes en Google Data Studio, podemos comprobar si existen dimensiones o métricas adicionales para poder ver si efectivamente tenemos eventos creados, interacciones o objetivos creados a medida.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;realizamos-una-práctica-y-ver-si-efectivamente-hay-etiqueta-s-en-un-sitio-web&#34;&gt;Realizamos una práctica y ver si efectivamente hay etiqueta/s en un sitio web&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-412 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; alt=&#34;&#34; width=&#34;683&#34; height=&#34;690&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png 683w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-297x300.png 297w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-145x146.png 145w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-50x50.png 50w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-74x75.png 74w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-85x85.png 85w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-80x80.png 80w&#34; sizes=&#34;(max-width: 683px) 100vw, 683px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Ya que llegamos al final de post, hemos realizado todo tipo de comprobaciones para su correcta migración de etiquetas existentes, eventos o interacciones, conversiones y objetivos, hasta incluso del tipo transaccionales de tipo comercio electrónico.&lt;/p&gt;
+
+&lt;p&gt;Una vez llegado a este punto, tenemos que crear un informe como este que se muestra a continuación, el que puedes realizar una copia para poder tener todo bajo control y una migración perfecta. Para su compilación ya he realizado un video explicativo donde cada una de las celdas tendremos que asignar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nombre de la etiqueta&lt;/li&gt;
+&lt;li&gt;donde activarlo&lt;/li&gt;
+&lt;li&gt;cuál variable añadir&lt;/li&gt;
+&lt;li&gt;qué objetivo medir&lt;/li&gt;
+&lt;li&gt;y donde migrarlo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;¿Dudas? Puedes comentar aquí mismo sobre su migración&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preguntas y test examen de Google AdWords avanzado de Búsqueda</title>
+      <link>/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
+      <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
+      
+      <guid>/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
+      <description>&lt;p&gt;## Después del post con las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34; target=&#34;_blank&#34;&gt;preguntas del examen de Google AdWords fundamentos&lt;/a&gt;, en este hay algunos de los test con las &lt;strong&gt;preguntas de Google Adwords Avanzado.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hace más de cinco años que realizo test para la &lt;strong&gt;certificación oficial de Google AdWords&lt;/strong&gt;, además de otros cursos para Google Partners, que ahora se llama &lt;strong&gt;&lt;a href=&#34;https://landing.google.com/academyforads/#?modal_active=none&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academy For Ads&lt;/a&gt;.&lt;/strong&gt; Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.&lt;/p&gt;
+
+&lt;p&gt;Decidí en junio 2017 abrir una lista de reproducciones a &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, hasta aquella fecha abierta hace años y ni utilizada, y puse online mis primeras grabaciones de los exámenes, para &amp;#8220;facilitar&amp;#8221; aquellos estudiantes de mis cursos a aprobarlos, obtener así la certificación, además de aprender la teoría, y muy bien aprendida, con mis &lt;a href=&#34;https://www.kpischool.eu/programa-curso-online-google-adwords-avanzado.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos online de AdWords&lt;/a&gt;, efectivamente era, y sigue siendo una buena manera de obtener la certificación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No pido dinero a cambio&lt;/strong&gt;, ni lo hago por publicidad (encima con los cambios actuales de YouTube tampoco monetizo). Lo hacía por pura diversión con la idea de compartir recursos, lo aprendido y ser de una manera reconocido en este &amp;#8220;mundillo&amp;#8221;, que ya llevo bastante años la verdad, casi 10 y solo que he cambiado de dominios (muy mal para el SEO, ya sé).&lt;/p&gt;
+
+&lt;p&gt;He recibido amenazas, denuncias, me banearon&amp;#8230;pero sigo allí, y no me importa quien me reputa como &amp;#8220;estafador&amp;#8221;, justamente hablan muchos quien cobra por ello, o tiene agencias grande que se dedican a esto (a vender los exámenes, si, esto!).  Y no me importa, luchar contra el grande Google, que gracias a estos exámenes está llevando a la ruina un sistema que ellos mismos crearon tantos comerciales, tantos vendedores de sus productos&amp;#8230;y con creces que sigan estafando a muchos pequeños clientes y no solo, que otro día lo explicaré.&lt;/p&gt;
+
+&lt;p&gt;Así comparto las &lt;strong&gt;preguntas de los exámenes oficiales&lt;/strong&gt;, a través de páginas en Google Form, que normalmente realizo durante mis cursos. Son varios módulos, de momento las tres partes de Google Avanzado, y seguiré añadiendo Google Shopping, Mobile, YouTube, Display y las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-analytics/&#34; target=&#34;_blank&#34;&gt;Preguntas de Google Analytics 2018&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;De momento pueden tener acceso a las preguntas&amp;#8230;y para las respuestas puedes seguir uno de &lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyK-xDs0FDpc3MeDpBpGdpP9&amp;sub_confirmation=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mis vídeos a esta lista y SUBSCRÍBETE&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Gracias y Good Luck!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 3&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
