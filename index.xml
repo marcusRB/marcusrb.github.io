@@ -1219,6 +1219,21 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     </item>
     
     <item>
+      <title>Test preguntas examen Certificación Google Analytics parte_1</title>
+      <link>https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</link>
+      <pubDate>Fri, 25 May 2018 16:44:56 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</guid>
+      <description>&lt;p&gt;Aquí una muestra de las preguntas de la certificación del examen de Google Analytics y actualizado al primer trimestre 2018. Se ha realizado también el video con las preguntas y mis respuestas 100% válidas (2017) y otro en 2018 (95%).&lt;/p&gt;
+
+&lt;p&gt;Esta 1ª parte del test de certificación, compuesto de 20 preguntas con una valoración de 10 puntos para las correctas. Válido para el examen oficial de Google Analytics en Academy For Ads. Para más informaciones pueden acceder al mismo examen: &lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34;  target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34; target=&#34;_blank&#34;&gt;https://academy.exceedlms.com/student/path/2934&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Es una manera de ir aprendiendo, haciendo&amp;hellip;poniéndote a prueba! Suerte
+&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfBIJW3fjs0T1vjtOq9ZaiNw_y3PB0RXvT_WpLiHV2DU9BLUA/viewform?embedded=true&#34; width=&#34;760&#34; height=&#34;5000&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; data-mce-fragment=&#34;1&#34;&gt;Cargando…&lt;/iframe&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>¿Por qué tengo pocas visitas?</title>
       <link>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</link>
       <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
@@ -1694,6 +1709,145 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     </item>
     
     <item>
+      <title>“Recetas” de Google Tag Manager</title>
+      <link>https://www.marcusrb.com/recursos/recetas-de-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:03:09 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/recursos/recetas-de-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;por-qué-recetas&#34;&gt;¿Por qué “recetas”?&lt;/h2&gt;
+
+&lt;p&gt;Las recetas, o &lt;em&gt;recipe&lt;/em&gt; en inglés, son pequeños trozo de códigos, etiquetas, script, atajos, que una vez siguiendo las instrucciones, o mejor llamados “ingredientes”, tendremos el resultado final que queremos conseguir, nuestros &amp;ldquo;platos&amp;rdquo; o &amp;ldquo;comidas&amp;rdquo; preparados, en este sentido, a lo que van a ser mini-atajos o eventos ya creados y listos para ejecutarse en Google Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Aquí iré introduciendo unos cuantos paquetes de “recetas” para integrarlo directamente en tu contenedor de Google Tag Manager, para que solamente sería importar a vuestro espacio de trabajo, listos a publicar.&lt;/p&gt;
+
+&lt;p&gt;No todos los los elencados son míos, así que mencionaré la fuentes originales, ya que serán en gran mayorías de Lunametrics o AnalyticsMania. También iré introduciendo unos cuantos desde mi espacio personal de GitHub. Cada una de las recetas tendrá su explicación e iré introduciendo como blog el porque utilizarlo.&lt;/p&gt;
+
+&lt;p&gt;Esté atento a los nuevos contenedores y actualizaciones, así que subscríbete al boletín de novedades para recibirlo directamente en tu email.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/recetaGTM-ajax.jpg&#34; alt=&#34;medicion-ajax-tag-manager&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-jquery-ajax&#34;&gt;Medición eventos jQuery - Ajax&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;by Lunametrics. Eventos realizados a través de llamadas jQuery y pasar en dataLayer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/youtube-tag-manager-analytics.jpg&#34; alt=&#34;eventos-youtube-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-youtube&#34;&gt;Medición eventos YouTube&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Tracking y grabación de eventos de los vídeo YouTube para Google Analytics&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/tiempo-carga-usuario-tag-manager-analytics.jpg&#34; alt=&#34;tiempo-carga-usuario-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-tiempo&#34;&gt;Medición eventos Tiempo&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición del tiempo para usuarios, paginas cargada, formularios&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/scrolling-tag-manager-analytics.jpg&#34; alt=&#34;scrolling-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-scrolling&#34;&gt;Medición eventos Scrolling&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición del evento scrolling horizontal y vertical
+&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/links-salientes-tag-manager-analytics.jpg&#34; alt=&#34;eventos-enlaces-salientes-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;### Medición eventos Enlaces Salientes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición de clics en enlaces salientes y medir las interacciones
+&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/downloads-tag-manager-analytics.jpg&#34; alt=&#34;downloads-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-downloads&#34;&gt;Medición eventos Downloads&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición de clics en enlaces de descarga de archivos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&#34;&gt;/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/comercio-electronico-mejorado-tag-manager-analytics.jpg&#34; alt=&#34;eventos-comercio-electronico-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-comercio-electrónico&#34;&gt;Medición eventos comercio electrónico&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición completa de eventos para comercio electrónico mejorado de Analytics e interacciones
+&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/email-tag-manager-analytics.jpg&#34; alt=&#34;eventos-correo-electronico-contactos-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-click-de-contactos&#34;&gt;Medición eventos click de Contactos&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición de eventos de clics en enlaces de correo electrónico y de llamadas
+&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/contactos-llamadas-tag-manager-analytics.jpg&#34; alt=&#34;eventos-llamadas-whatsapp-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;medición-eventos-click-de-llamadas-y-whatsapp&#34;&gt;Medición eventos click de Llamadas y Whatsapp&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Medición de eventos de clics en enlaces de whatsapp y llamadas
+&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/clean-limpia-contenedor-tag-manager.jpg&#34; alt=&#34;limpiar-contenedor-tagmanager&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;limpia-tu-contenedor-de-tag-manager&#34;&gt;Limpia tu contenedor de Tag Manager&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Con este script puedes borrar completamente y &amp;ldquo;limpiar&amp;rdquo; tu contenedor como nuevo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Consigue la &lt;a href=&#34;https://www.marcusrb.com/recetas-de-google-tag-manager/limpia-tu-contenedor-de-google-tag-manager/&#34;&gt;receta ahora mismo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sigues todas las novedades subscribiendote al boletín
+&lt;!-- Begin MailChimp Signup Form --&gt;
+&lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+&lt;/style&gt;
+&lt;div id=&#34;mc_embed_signup&#34;&gt;
+&lt;form action=&#34;https://marcusrb.us15.list-manage.com/subscribe/post?u=f7fbd90d26ed5abf44a754c8c&amp;id=a185c10bbe&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34; novalidate&gt;
+    &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
+  &lt;label for=&#34;mce-EMAIL&#34;&gt;Subscríbete a mis novedades!&lt;/label&gt;
+  &lt;input type=&#34;email&#34; value=&#34;&#34; name=&#34;EMAIL&#34; class=&#34;email&#34; id=&#34;mce-EMAIL&#34; placeholder=&#34;email address&#34; required&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    &lt;div style=&#34;position: absolute; left: -5000px;&#34; aria-hidden=&#34;true&#34;&gt;&lt;input type=&#34;text&#34; name=&#34;b_f7fbd90d26ed5abf44a754c8c_a185c10bbe&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;clear&#34;&gt;&lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34; class=&#34;button&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;!--End mc_embed_signup--&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Realizando auditoría y optimización AdWords:Reparación Móviles</title>
       <link>https://www.marcusrb.com/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
       <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
@@ -1714,159 +1868,6 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Se ha logrado pasar de una inversión (mal aprovechada) de 3000 euros al mes , facturando lo justo para pagar el alquiler del local en Madrid, a convertirse en un negocio de nicho muy rentable y logrando invertir más de 15000 euros al mes, con un &lt;strong&gt;ROI x 3&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Te espero el próximo jueves en &lt;strong&gt;Hangout de YouTube y en Facebook&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
-      <link>https://www.marcusrb.com/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
-      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
-      <description>
-
-&lt;h2 id=&#34;durante-más-de-5-años-he-estado-utilizando-google-tag-manager-en-auditorias-de-analítica-web-a-mis-clientes-y-sobre-todo-actualizándome-constantemente&#34;&gt;Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente&lt;/h2&gt;
-
-&lt;p&gt;con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;&lt;strong&gt;administrador de etiquetas&lt;/strong&gt;&amp;#8220;.&lt;/p&gt;
-
-&lt;p&gt;Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir &lt;strong&gt;código &amp;#8220;a saco&amp;#8221;&lt;/strong&gt; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;departamento IT:&lt;/strong&gt; para sus pruebas en los sitios web o en partes para verificar el correcto funcionamiento de las aplicaciones&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;departamento Marketing:&lt;/strong&gt; que además de utilizarlo en la medición de campañas con &amp;#8220;pixel&amp;#8221; de diferentes canales (SEM, SEO, social, afiliados, referenciados etc)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;departamento Administrativo / Comercial:&lt;/strong&gt; que podría estar midiendo campañas y pasarlo a sus CRM&amp;#8217;s&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;departamento de&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analytics:&lt;/strong&gt; para etiquetar todos los eventos e interacciones de usuarios, usabilidad UX y CRO&lt;/li&gt;
-&lt;li&gt;y más que podrían ser otros interesados en la creación de tareas personalizadas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Como puedes apreciar, el uso de Google Tag Manager podría abarcar todas estas tareas, y obviamente, para poder realizar una migración hacía a ella, tendríamos tener además de experiencia técnica, para que podamos realizar  no solamente la &amp;#8220;medición de Analytics&amp;#8221; y stop, sino hay unas series de tareas que cualquier departamento puede realizar y por este motivo vamos por partes.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h2 id=&#34;definición-de-un-plan-de-medición&#34;&gt;Definición de un plan de medición&lt;/h2&gt;
-
-&lt;p&gt;Ante de comenzar con un plan de migración, necesitaríamos ver y poder realizar de forma resumida, un plan de medición para poder realizar sucesivamente comprobaciones de implementaciones existentes o tener que crearlas.&lt;/p&gt;
-
-&lt;p&gt;¿No sabes que es un plan de medición?&lt;/p&gt;
-
-&lt;p&gt;Pues, el plan de medición resumido, al igual que este pantallazo aquí abajo, representaría como alcanzar nuestro objetivo empresarial, siguiendo varios pasos y después de seguir unas series de configuraciones previas en el sitio web, herramienta a utilizar y medición de resultados.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-411 size-large&#34; title=&#34;estrategia de plan de medición&#34; src=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-1024x768.jpg&#34; alt=&#34;estrategia de plan de medición&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg 1024w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-300x225.jpg 300w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-768x576.jpg 768w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-195x146.jpg 195w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-50x38.jpg 50w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-100x75.jpg 100w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-960x720.jpg 960w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Definición del plan de medición&lt;/li&gt;
-&lt;li&gt;Documentar los aspectos técnicos&lt;/li&gt;
-&lt;li&gt;Creación de un plan de implementación&lt;/li&gt;
-&lt;li&gt;Implementación&lt;/li&gt;
-&lt;li&gt;Mantenimiento y mejora continua &amp;#8211; Optimización&lt;/li&gt;
-&lt;li&gt;vuelve a principio&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Entre un test y otro del punto 5 y 6, se crean diferentes &lt;strong&gt;dashboard&lt;/strong&gt;, o cuadros de mandos con las &lt;strong&gt;KPI&amp;#8217;s&lt;/strong&gt; a seguir y alcanzar. Aquí entrarían los factores para extrapolar las informaciones, detectar insights y mejorar con los test A/B, CRO, UX etc.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h2 id=&#34;cómo-compruebo-las-implementaciones-anteriores&#34;&gt;¿Cómo compruebo las implementaciones anteriores?&lt;/h2&gt;
-
-&lt;p&gt;Una vez que tengamos el plan de medición y verificada la parte técnica (dedicaré otro post para cada uno de los pasos), realizaremos las implementaciones oportunas (vía código, vía GTM, o lo que haga falta en las herramientas). Pero entraría aquí el aspecto de comprobar los trabajos anteriormente realizados.&lt;/p&gt;
-
-&lt;p&gt;Podemos utilizar algunas de las herramientas aquí mencionadas:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Google Analytics:&lt;/strong&gt; Hablando de Google Analytics, sería nuestra primera herramienta a verificar si efectivamente existen unas implementaciones realizadas, porque, en tal caso ya estaríamos recogiendo estos datos y de una manera estarían llegando a nuestra herramienta de análisis.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin de terceros:&lt;/strong&gt; Podríamos tener unos plugin instalados que estarían ya haciendo el trabajo por nosotros, en caso de migración podríamos o bien crear conflictos, o bien cargarnos el trabajo realizado.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Aplicaciones para navegador:&lt;/strong&gt; Con las aplicaciones o complementos para navegadores (Chrome, Firefox, principalmente), podríamos chequear unas series de aspectos cuáles implementaciones y recogidas de valores dentro del site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Informes anteriores:&lt;/strong&gt; Con los informes ya podríamos tener una idea de lo que se está realizando o lo que no, así alinearnos con las KPI&amp;#8217;s y el plan de medición.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;En practica tenemos que fijarnos en algunos apartados dentro de Google Analytics, exactamente dentro de la interfaz podemos ver cuáles:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;conversiones&lt;/li&gt;
-&lt;li&gt;comportamiento&lt;/li&gt;
-&lt;li&gt;dimensiones o métricas personalizadas&lt;/li&gt;
-&lt;li&gt;agrupación de contenidos&lt;/li&gt;
-&lt;li&gt;eventos personalizados&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Con los plugin implementados en los gestores de contenidos: WordPress, Prestashop, Joomla, Magento, Shopify etc, pueden darnos mucha información, tenemos que ver que están realizando para no duplicar información&lt;/p&gt;
-
-&lt;p&gt;Con las aplicaciones, tenemos que verificar principalmente que se está realizando, aquí comentaré 3 principales:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Google Tag Assistant&lt;/strong&gt; para comprobar las etiquetas existentes, eventos recogidos, incluso podemos realizar grabaciones y comprobaciones de lo que se está midiendo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Analytics Debug&lt;/strong&gt;: nos dará mucha información sobre la etiqueta de Google Analytics dentro del site y muchos objetivos creados.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analytics pros DataLayer&lt;/strong&gt;: este último probará a extraer informaciones muy valiosa del site, es algo más avanzado a primera vista pero será útil a más de uno&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Con los informes anteriores realizados, panel de control o informes en Google Data Studio, podemos comprobar si existen dimensiones o métricas adicionales para poder ver si efectivamente tenemos eventos creados, interacciones o objetivos creados a medida.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h2 id=&#34;realizamos-una-práctica-y-ver-si-efectivamente-hay-etiqueta-s-en-un-sitio-web&#34;&gt;Realizamos una práctica y ver si efectivamente hay etiqueta/s en un sitio web&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-412 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; alt=&#34;&#34; width=&#34;683&#34; height=&#34;690&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png 683w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-297x300.png 297w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-145x146.png 145w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-50x50.png 50w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-74x75.png 74w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-85x85.png 85w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-80x80.png 80w&#34; sizes=&#34;(max-width: 683px) 100vw, 683px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Ya que llegamos al final de post, hemos realizado todo tipo de comprobaciones para su correcta migración de etiquetas existentes, eventos o interacciones, conversiones y objetivos, hasta incluso del tipo transaccionales de tipo comercio electrónico.&lt;/p&gt;
-
-&lt;p&gt;Una vez llegado a este punto, tenemos que crear un informe como este que se muestra a continuación, el que puedes realizar una copia para poder tener todo bajo control y una migración perfecta. Para su compilación ya he realizado un video explicativo donde cada una de las celdas tendremos que asignar:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;nombre de la etiqueta&lt;/li&gt;
-&lt;li&gt;donde activarlo&lt;/li&gt;
-&lt;li&gt;cuál variable añadir&lt;/li&gt;
-&lt;li&gt;qué objetivo medir&lt;/li&gt;
-&lt;li&gt;y donde migrarlo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;¿Dudas? Puedes comentar aquí mismo sobre su migración&lt;/p&gt;
-
-&lt;p&gt;[&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&lt;/a&gt;]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Preguntas y test examen de Google AdWords avanzado de Búsqueda</title>
-      <link>https://www.marcusrb.com/test-examen-de-google-adwords-avanzado-de-busqueda/</link>
-      <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/test-examen-de-google-adwords-avanzado-de-busqueda/</guid>
-      <description>&lt;p&gt;## Después del post con las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34; target=&#34;_blank&#34;&gt;preguntas del examen de Google AdWords fundamentos&lt;/a&gt;, en este hay algunos de los test con las &lt;strong&gt;preguntas de Google Adwords Avanzado.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hace más de cinco años que realizo test para la &lt;strong&gt;certificación oficial de Google AdWords&lt;/strong&gt;, además de otros cursos para Google Partners, que ahora se llama &lt;strong&gt;&lt;a href=&#34;https://landing.google.com/academyforads/#?modal_active=none&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academy For Ads&lt;/a&gt;.&lt;/strong&gt; Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.&lt;/p&gt;
-
-&lt;p&gt;Decidí en junio 2017 abrir una lista de reproducciones a &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, hasta aquella fecha abierta hace años y ni utilizada, y puse online mis primeras grabaciones de los exámenes, para &amp;#8220;facilitar&amp;#8221; aquellos estudiantes de mis cursos a aprobarlos, obtener así la certificación, además de aprender la teoría, y muy bien aprendida, con mis &lt;a href=&#34;https://www.kpischool.eu/programa-curso-online-google-adwords-avanzado.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos online de AdWords&lt;/a&gt;, efectivamente era, y sigue siendo una buena manera de obtener la certificación.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No pido dinero a cambio&lt;/strong&gt;, ni lo hago por publicidad (encima con los cambios actuales de YouTube tampoco monetizo). Lo hacía por pura diversión con la idea de compartir recursos, lo aprendido y ser de una manera reconocido en este &amp;#8220;mundillo&amp;#8221;, que ya llevo bastante años la verdad, casi 10 y solo que he cambiado de dominios (muy mal para el SEO, ya sé).&lt;/p&gt;
-
-&lt;p&gt;He recibido amenazas, denuncias, me banearon&amp;#8230;pero sigo allí, y no me importa quien me reputa como &amp;#8220;estafador&amp;#8221;, justamente hablan muchos quien cobra por ello, o tiene agencias grande que se dedican a esto (a vender los exámenes, si, esto!).  Y no me importa, luchar contra el grande Google, que gracias a estos exámenes está llevando a la ruina un sistema que ellos mismos crearon tantos comerciales, tantos vendedores de sus productos&amp;#8230;y con creces que sigan estafando a muchos pequeños clientes y no solo, que otro día lo explicaré.&lt;/p&gt;
-
-&lt;p&gt;Así comparto las &lt;strong&gt;preguntas de los exámenes oficiales&lt;/strong&gt;, a través de páginas en Google Form, que normalmente realizo durante mis cursos. Son varios módulos, de momento las tres partes de Google Avanzado, y seguiré añadiendo Google Shopping, Mobile, YouTube, Display y las &lt;a href=&#34;https://www.marcusrb.com/recursos/buscas-las-respuestas-del-examen-de-google-analytics/&#34; target=&#34;_blank&#34;&gt;Preguntas de Google Analytics 2018&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;De momento pueden tener acceso a las preguntas&amp;#8230;y para las respuestas puedes seguir uno de &lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyK-xDs0FDpc3MeDpBpGdpP9&amp;sub_confirmation=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mis vídeos a esta lista y SUBSCRÍBETE&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Gracias y Good Luck!&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-adwords-avanzado-de-busqueda-parte-3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google AdWords Avanzado de Búsqueda 2018 &amp;#8211; 3&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;p style=&#34;text-align: center;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
