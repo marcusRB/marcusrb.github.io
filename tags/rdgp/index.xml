@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rdgp on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/tags/rdgp/</link>
+    <link>https://www.marcusrb.com/tags/rdgp/</link>
     <description>Recent content in rdgp on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Tue, 29 May 2018 21:35:20 +0000</lastBuildDate>
     
-	<atom:link href="/tags/rdgp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/tags/rdgp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
-      <link>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <link>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
       <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
       
-      <guid>/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <guid>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
       <description>Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas. Si estás aquí significa que ya has oído hablar del servicio CookieBot para administrar el GDPR en su sitio y le gustaría instalarlo con el Administrador de etiquetas de Google Tag Manager.
 Tengo que darte dos noticias, una buena (¡hurra!) y una mala (¡doh!).</description>
     </item>

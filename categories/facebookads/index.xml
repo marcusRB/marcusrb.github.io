@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FacebookAds on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/categories/facebookads/</link>
+    <link>https://www.marcusrb.com/categories/facebookads/</link>
     <description>Recent content in FacebookAds on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 14 Oct 2018 13:00:19 +0200</lastBuildDate>
     
-	<atom:link href="/categories/facebookads/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/categories/facebookads/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
-      <link>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <link>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
       <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
       
-      <guid>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <guid>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
       <description>Índice    ¿Qué es y a que sirve el píxel de Facebook?  Más informaciones sobre el píxel de Facebook Ads  Las ventajas de utilizar el pixel de conversiones  Vamos con la implementación del pixel principal de evento Page Views Eventos estándar Creación de variables personalizadas  Evento estándar ProductList Evento estándar ViewContent Evento estándar AddToCart Evento estándar AddToWishlist Evento estándar Search Evento estándar InitiateCheckout Evento estándar AddPaymentInfo Evento estándar Purchase      ¿Qué es y a que sirve el píxel de Facebook?</description>
     </item>
     

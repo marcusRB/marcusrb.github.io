@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pasos comercio electronico tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/tags/pasos-comercio-electronico-tag-manager/</link>
+    <link>https://www.marcusrb.com/tags/pasos-comercio-electronico-tag-manager/</link>
     <description>Recent content in pasos comercio electronico tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Fri, 05 Jan 2018 14:58:24 +0000</lastBuildDate>
     
-	<atom:link href="/tags/pasos-comercio-electronico-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/tags/pasos-comercio-electronico-tag-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Guía] Implementar Comercio electrónico en Google Tag Manager para sitios web</title>
-      <link>/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
+      <link>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
       <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
       
-      <guid>/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
+      <guid>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
       <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente, especialmente si queremos realizarlo integramente en proyectos personalizados, sitios web ad-hoc donde no utilizan especificamente plugin o módulos free, ejemplo un híbrido de Magento, Prestashop o similar.
 La cuestión es ir explicar paso a paso como grabar los eventos más utilizados de un comercio electrónico, y no solo transacciones.</description>
     </item>

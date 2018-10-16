@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science &amp;amp; Big Data on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/categories/data-science-amp-big-data/</link>
+    <link>https://www.marcusrb.com/categories/data-science-amp-big-data/</link>
     <description>Recent content in Data Science &amp;amp; Big Data on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 18 Mar 2018 19:11:45 +0000</lastBuildDate>
     
-	<atom:link href="/categories/data-science-amp-big-data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/categories/data-science-amp-big-data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>El perfil del analista de datos y del analista digital y sus requisitos</title>
-      <link>/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
+      <link>https://www.marcusrb.com/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
       <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
       
-      <guid>/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
+      <guid>https://www.marcusrb.com/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
       <description>Hace mucho tiempo que tenía gana de redactar un artículo sobre esta tema, y durante más de algunas clases impartidas de analítica web, se comentaba que requisitos ha de tener un analista web y que diferencia tiene con el analista de datos mencionando el rol que desempeña.
 Está claro que por analista web no estamos hablando de realizar un curso de Google Analytics y fin, y que espero hoy en día todo el mundo conoce, pero era de ir profundizando el rol que tiene este perfil con el analista de datos.</description>
     </item>

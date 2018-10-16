@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/tags/demo/</link>
+    <link>https://www.marcusrb.com/tags/demo/</link>
     <description>Recent content in Demo on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>External Project</title>
-      <link>/project/external-project/</link>
+      <link>https://www.marcusrb.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/external-project/</guid>
+      <guid>https://www.marcusrb.com/project/external-project/</guid>
       <description></description>
     </item>
     

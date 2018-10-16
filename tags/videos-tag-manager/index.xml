@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>videos tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/tags/videos-tag-manager/</link>
+    <link>https://www.marcusrb.com/tags/videos-tag-manager/</link>
     <description>Recent content in videos tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 24 Sep 2017 15:15:09 +0000</lastBuildDate>
     
-	<atom:link href="/tags/videos-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/tags/videos-tag-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nuevas variables y activadores para medir los {{videos}} en Tag Manager • Parte I</title>
-      <link>/medir-videos-tag-manager-parte-1/</link>
+      <link>https://www.marcusrb.com/medir-videos-tag-manager-parte-1/</link>
       <pubDate>Sun, 24 Sep 2017 15:15:09 +0000</pubDate>
       
-      <guid>/medir-videos-tag-manager-parte-1/</guid>
+      <guid>https://www.marcusrb.com/medir-videos-tag-manager-parte-1/</guid>
       <description>Como se venía anunciando hace muchos meses, finalmente Google Tag Manager activó la posibilidad de medir los eventos del tipo &amp;#8220;videos&amp;#8221; directamente con variables propias.
 Desde que comencé a enamorarme de Tag Manager, fue en 2013, y gracias a la comunidad de Analytics de habla inglesa, la única posibilidad era a través de customHTML, es decir Javascript personalizados con jQuery. Hace mención particular a los desarrolladores de Lunametrics y sus fantásticos repositorios que sigo utilizando y personalizando.</description>
     </item>

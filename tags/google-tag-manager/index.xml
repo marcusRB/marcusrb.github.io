@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
-    <link>/tags/google-tag-manager/</link>
+    <link>https://www.marcusrb.com/tags/google-tag-manager/</link>
     <description>Recent content in google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 14 Oct 2018 13:00:19 +0200</lastBuildDate>
     
-	<atom:link href="/tags/google-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marcusrb.com/tags/google-tag-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
-      <link>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <link>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
       <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
       
-      <guid>/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <guid>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
       <description>Índice    ¿Qué es y a que sirve el píxel de Facebook?  Más informaciones sobre el píxel de Facebook Ads  Las ventajas de utilizar el pixel de conversiones  Vamos con la implementación del pixel principal de evento Page Views Eventos estándar Creación de variables personalizadas  Evento estándar ProductList Evento estándar ViewContent Evento estándar AddToCart Evento estándar AddToWishlist Evento estándar Search Evento estándar InitiateCheckout Evento estándar AddPaymentInfo Evento estándar Purchase      ¿Qué es y a que sirve el píxel de Facebook?</description>
     </item>
     
     <item>
       <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
-      <link>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
+      <link>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
       <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
       
-      <guid>/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
+      <guid>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
       <description>Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing Google Tag Manager es una de las herramientas más innovadoras en la web para una gestión avanzada de nuestro análisis de marketing . Para aquellos que nunca han oído hablar de él, es una herramienta principalmente dedicada a los analistas de marketing y gerentes de marketing, que le permite llevar la Optimización de la tasa de conversión o CRO (Conversion Rate Optimization), la optimización de los procesos de conversión dentro de un sitio web en un nivel que de otro modo solo se puede alcanzar mediante el uso de herramientas a menudo bastante costosas.</description>
     </item>
     
     <item>
       <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
-      <link>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <link>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
       <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
       
-      <guid>/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <guid>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
       <description>Hola, en este post, gracias a un comentario propuesto por vosotros a mi canal de YouTube https://www.youtube.com/c/Marcusrb, dedicaré a un tutorial de como realizar un etiquetado correcto de nuestra web gracias a Google Tag Manager para los eventos de Google Analytics. Hay que tener en cuenta muchos factores, y en esto lo tenemos tener claro a través de un diseño de un plan, el plan de medición.
 Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado, así llamado también S.</description>
     </item>
