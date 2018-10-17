@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Adiós Wordpress, Bienvenido Hugo</title>
+      <link>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</link>
+      <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</guid>
+      <description>Ya sé, no es un título sensacionalista. Con esto quiero decir que yo he abandonado Wordpress, para dedicarme al desarrollo de un blog a medida con HUGO, creado con lenguaje GO, o GOLANG, sí el mismo desarrollado por Google. Hugo de momento es junto con Next que más rápido está creciendo dentro de los generadores estático de sitos web, aunque lejos de CMS cuál Wordpress, o algo más profesional cómo Drupal, ya cada vez hay aficionados que se acercan a este creador de sitios web estáticos.</description>
+    </item>
+    
+    <item>
       <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
       <link>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
       <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
@@ -82,11 +91,11 @@ Algunas de las clásicas preguntas de clientes o propietarios de sitios web:</de
     </item>
     
     <item>
-      <title>[Tutorial] Creación de un CRM con Google Sheets y Google Tag Manager</title>
-      <link>https://www.marcusrb.com/creacion-crm-google-sheets-google-tag-manager/</link>
+      <title>Realizar un CRM con Google Spreadsheets con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/qui%C3%A9res-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-din%C3%A1micos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos/</link>
       <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <guid>https://www.marcusrb.com/qui%C3%A9res-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-din%C3%A1micos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos/</guid>
       <description>¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos? Será un tutorial dividido en dos partes, la primera la explicación de como crear en Tag Manager variables, personalizadas y dinámicas, ejemplo al enviar un formulario para Leads, y de otro lado enlazando Google Sheet y tener toda la información (excluyo la información sensible en virtud de la nueva ley GDPR no haré mención a datos sensibles), además a tener en cuenta que tampoco llevaré estos datos a Google Analytics para evitar penalizaciones (nunca me ha pasado y tampoco quiero arriesgarme).</description>
     </item>
     

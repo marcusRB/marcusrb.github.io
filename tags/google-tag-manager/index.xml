@@ -22,12 +22,13 @@
     </item>
     
     <item>
-      <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
-      <link>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
-      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
+      <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
-      <description>Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing Google Tag Manager es una de las herramientas más innovadoras en la web para una gestión avanzada de nuestro análisis de marketing . Para aquellos que nunca han oído hablar de él, es una herramienta principalmente dedicada a los analistas de marketing y gerentes de marketing, que le permite llevar la Optimización de la tasa de conversión o CRO (Conversion Rate Optimization), la optimización de los procesos de conversión dentro de un sitio web en un nivel que de otro modo solo se puede alcanzar mediante el uso de herramientas a menudo bastante costosas.</description>
+      <guid>https://www.marcusrb.com/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <description>Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager. Seguramente ya te puesto a buscar y rebuscar sin éxito, o directamente pedir ayuda a un desarrollador.
+Es lo mismo que me ha pasado a mí en más de una ocasión, hasta encontrar con varias respuestas y opciones, y gracias a Lunametrics, Simo Avaha y Measureschool, finalmente yo también puedo redactar un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager a Google Analytics o pixel de terceros.</description>
     </item>
     
     <item>
