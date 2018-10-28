@@ -11,6 +11,98 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>#MoocGTM Seminario Online Google Tag Manager</title>
+      <link>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</guid>
+      <description>
+
+&lt;h3&gt;Índice&lt;/h3&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#moocgtm-nuevo-seminario-online-para-profundizar-los-conocimientos-de-tag-manager&#34;&gt;#moocGTM - nuevo seminario online para profundizar los conocimientos de Tag Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#objetivos-de-este-seminario&#34;&gt;Objetivos de este seminario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#a-quién-va-dirigido&#34;&gt;A quién va dirigido&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#6-módulos-principales-más-casos-prácticos-y-tutoriales&#34;&gt;6 Módulos principales más casos prácticos y Tutoriales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lista-de-reproducciones-en-youtube&#34;&gt;Lista de reproducciones en YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Este contenido se actualizará en la sección &lt;a href=&#34;https://www.marcusrb.com/tutoriales&#34;&gt;&lt;strong&gt;Tutoriales&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;moocgtm-nuevo-seminario-online-para-profundizar-los-conocimientos-de-tag-manager&#34;&gt;#moocGTM - nuevo seminario online para profundizar los conocimientos de Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de &lt;strong&gt;Google Tag Manager&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esta herramienta que está comenzando a gustar no solamente a profesionales del marketing, sino a figuras profesionales de otros departamentos de una organización, aunque la verdad que sigue habiendo mucho desconocimiento sobre sus principales funcionalidades.&lt;/p&gt;
+
+&lt;h2 id=&#34;objetivos-de-este-seminario&#34;&gt;Objetivos de este seminario&lt;/h2&gt;
+
+&lt;p&gt;Come parte de este seminario explicaré los siguientes puntos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Entender el sistema de etiquetado&lt;/li&gt;
+&lt;li&gt;Comprensión de la interfaz de Google Tag Manager&lt;/li&gt;
+&lt;li&gt;Implementación de micro-objetivos y conversiones&lt;/li&gt;
+&lt;li&gt;Creación de las etiquetas personalizadas&lt;/li&gt;
+&lt;li&gt;Integrar con eficiencia Google Tag Manager y Google Analytics&lt;/li&gt;
+&lt;li&gt;Lograr nuevos insights dentro de la analítica digital&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;a-quién-va-dirigido&#34;&gt;A quién va dirigido&lt;/h2&gt;
+
+&lt;p&gt;El seminario es de nivel básico-intermedio, con lo que el alumno necei conocimientos de analítica de base y conoce la terminología de marketing, negocio, diseño web. En el caso no tengas conocimientos, se intentará derivar a un curso básico ya creado anteriormente en mi plataforma de Udemy titulado &lt;a href=&#34;https://www.udemy.com/course/1428216/&#34; target=&#34;_blank&#34;&gt;Fundamentos de Analítica digital, Analytics y Tag Manager&lt;/a&gt;, disponible gratuitamente para su visión y aprendizaje.&lt;/p&gt;
+
+&lt;p&gt;En particular este seminario es apto a todos los niveles, y principalmente para:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;profesionales de marketing en sus inicios con la analítica web&lt;/li&gt;
+&lt;li&gt;community manager, social media y otras figuras de digital marketing&lt;/li&gt;
+&lt;li&gt;estudiantes de máster y cursos de posgrados del sector&lt;/li&gt;
+&lt;li&gt;consultores SEO y de diseño web&lt;/li&gt;
+&lt;li&gt;agencias, startups y empresarios&lt;/li&gt;
+&lt;li&gt;gestores de sitios web y comercio electrónico&lt;/li&gt;
+&lt;li&gt;aquellos que quieren comenzar con Tag Manager e ir avanzando&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;6-módulos-principales-más-casos-prácticos-y-tutoriales&#34;&gt;6 Módulos principales más casos prácticos y Tutoriales&lt;/h2&gt;
+
+&lt;p&gt;Está compuesto de 6 módulos principales de más de 30 vídeos, no más largos de 5 minutos de duración, que directamente explicaré las diferentes funcionalidades. Estará disponible en la plataforma YouTube cada semana dos vídeos más casos prácticos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introducción al Administrador de Etiquetas de Google: Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Interfaz de Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Etiquetas, Variables, Activadores de Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Objetivos y Conversiones de Google Analytics&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Medición de eventos importantes con Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conclusiones y recomendaciones&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lista-de-reproducciones-en-youtube&#34;&gt;Lista de reproducciones en YouTube&lt;/h2&gt;
+
+&lt;p&gt;Como siempre se subirán los vídeos de los módulos en mi canal YouTube. Puedes seguirme y &lt;a href=&#34;https://www.youtube.com/c/MarcusRBofficial?sub_confirmation=1&#34; target=&#34;_blank&#34;&gt;subscribirte&lt;/a&gt; para no perderte las actualizaciones y novedades del mundo digital.&lt;/p&gt;
+
+&lt;iframe id=&#34;ytplayer&#34; type=&#34;text/html&#34; width=&#34;720&#34; height=&#34;405&#34;
+src=&#34;https://www.youtube.com/embed/?listType=playlist&amp;list=PLzxNDhvkuNyLo5ziP6EMVycJX8zcxh8RE&amp;enablejsapi=1&amp;modestbranding=1&amp;color=white&amp;rel=0&#34;
+frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Adiós Wordpress, Bienvenido Hugo</title>
       <link>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</link>
       <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
@@ -263,7 +355,7 @@ Press Ctrl+C to stop
       <guid>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
       <description>
 
-&lt;h2&gt;Índice&lt;/h2&gt;
+&lt;h3&gt;Índice&lt;/h3&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -656,10 +748,30 @@ Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;
     
     <item>
       <title>Example Page</title>
-      <link>https://www.marcusrb.com/tutorial/example/</link>
+      <link>https://www.marcusrb.com/tutoriales/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://www.marcusrb.com/tutorial/example/</guid>
+      <guid>https://www.marcusrb.com/tutoriales/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#moocGTM - módulo 1</title>
+      <link>https://www.marcusrb.com/tutoriales/moocgtm/moocgtm-1/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/moocgtm/moocgtm-1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -1729,366 +1841,6 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Fuente original:** &lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34;&gt;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;**&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Realizar un CRM con Google Spreadsheets con Google Tag Manager</title>
-      <link>https://www.marcusrb.com/qui%C3%A9res-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-din%C3%A1micos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos/</link>
-      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/qui%C3%A9res-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-din%C3%A1micos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos/</guid>
-      <description>
-
-&lt;h2 id=&#34;quiéres-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-dinámicos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos&#34;&gt;¿Quiéres aprender a crear un CRM con Google Sheet, pasar valores dinámicos con Google Tag Manager y tener un seguimiento de eventos?&lt;/h2&gt;
-
-&lt;p&gt;Será un tutorial dividido en dos partes, la primera la explicación de como crear en Tag Manager variables, personalizadas y dinámicas, ejemplo al enviar un formulario para Leads, y de otro lado enlazando Google Sheet y tener toda la información (excluyo la información sensible en virtud de la nueva ley GDPR no haré mención a datos sensibles), además a tener en cuenta que tampoco llevaré estos datos a Google Analytics para evitar penalizaciones (nunca me ha pasado y tampoco quiero arriesgarme). Pronto también el vídeo con el tutorial, esté atento en mi &lt;a href=&#34;https://www.youtube.com/c/MarcusRBofficial?sub_confirmation=1&#34; target=&#34;_blank&#34;&gt;canal YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;preparando-las-variables-en-google-tag-manager&#34;&gt;Preparando las variables en Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Antes de empezar, hay que tener en cuenta unos cuantos puntos, si eres nuevo en Google Tag Manager, seguramente llegarás a final de este párrafo y te irás llorando, porque hablaré de Tag Manager a nivel más avanzado. En caso de dudas sobre etiquetas, variables e incluso el mismo Tag Manager, te recomiendo hagas una &lt;a href=&#34;https://www.youtube.com/watch?v=MAn20Yi62z8&amp;amp;t=437s&amp;amp;list=PLzxNDhvkuNyIy7mMAZl_wItUW3CWDx8pD&amp;amp;index=5&#34; target=&#34;_blank&#34;&gt;primera visita aquí. &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Si ya estás acostumbrado a extraer informaciones a nivel más avanzado, y conoce de DOM, HTML y CSS, además de JavaScript, entonces, bienvenido.&lt;/p&gt;
-
-&lt;p&gt;Comenzaré hablar de como tener un cuadro de seguimiento, y podría ampliar más informaciones y campos, pero me conformo con este CRM básico&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-498 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png&#34; alt=&#34;CRM en Google Sheets&#34; width=&#34;710&#34; height=&#34;521&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31.png 710w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-300x220.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-199x146.png 199w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-50x37.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.31-102x75.png 102w&#34; sizes=&#34;(max-width: 710px) 100vw, 710px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Segundo paso tengo este formulario básico de momento justo para alinearme a mi CRM y luego explicaré como ampliar con más informaciones y detalles&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-499 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png&#34; alt=&#34;Formulario sitio web sencillo&#34; width=&#34;481&#34; height=&#34;391&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46.png 481w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-300x244.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-180x146.png 180w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-50x41.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.49.46-92x75.png 92w&#34; sizes=&#34;(max-width: 481px) 100vw, 481px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Para extraer informaciones desde un DOM, es necesario tener bien claro una cosa, realizar lo siguiente:&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  consola de desarrollador &gt; pruebas con ID, clases o Selector CSS &gt; aplicar a más de uno y hacer pruebas
-&lt;/p&gt;
-
-&lt;p&gt;Una vez que tengamos los campos necesario para extraer los valores de los campos del formulario, podemos inclusive determinar otras KPI&amp;#8217;s importantes y útiles:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;abandono del formulario&lt;/li&gt;
-&lt;li&gt;creación de un funnel y determinar los porcentajes de campos no rellenados vs completo&lt;/li&gt;
-&lt;li&gt;tiempo de permanencia en el formulario y medición de duración en segundos desde el primer click hasta el envío&lt;/li&gt;
-&lt;li&gt;test A/B en el mismo con diferentes opciones y determinar cuál de los formularios mejora el %ratio de conversión&lt;/li&gt;
-&lt;li&gt;etc&amp;#8230;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;entramos-ahora-con-el-concepto-de-extraer-la-información-en-una-alerta-de-consola-y-ver-los-valores&#34;&gt;Entramos ahora con el concepto de extraer la información en una alerta de consola y ver los valores&lt;/h3&gt;
-
-&lt;p&gt;Una vez dentro de nuestro Tag Manager vamos con la creación de nuestras variables, primero ha de comprobar los campos del formulario (si existen ID, clases o selector CSS), y ver su activador de tipo bóton de envío formulario (tipo HTML, jQuery o Ajax, modal, iframe, etc).&lt;/p&gt;
-
-&lt;h4 id=&#34;creación-de-la-variables&#34;&gt;&lt;strong&gt;Creación de la variables&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;Este es el código fuente de mi formulario:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-501 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png&#34; alt=&#34;código fuente formulario HTML&#34; width=&#34;888&#34; height=&#34;569&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28.png 888w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-300x192.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-768x492.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-228x146.png 228w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-50x32.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.56.28-117x75.png 117w&#34; sizes=&#34;(max-width: 888px) 100vw, 888px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Y este es como veo los campos DOM en la Consola de Google Chrome:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-502 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png&#34; alt=&#34;DOM formulario con querySelectorAll&#34; width=&#34;988&#34; height=&#34;891&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57.png 988w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-300x271.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-768x693.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-162x146.png 162w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-50x45.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-22.57.57-83x75.png 83w&#34; sizes=&#34;(max-width: 988px) 100vw, 988px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora bien que tengo los campos de nombre, apellidos, dirección, género, email y comentarios, incluido botones de enviar y resetear, iré a lo práctico.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Crearé las variables de tipo Javascript Personalizado y veámos como función la vista previa para el primer campo NAME.&lt;br /&gt; Si para extraer el valor en el campo, la query será:
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0][0].value&lt;/pre&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Resultado:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-503&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-1024x373.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;373&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-1024x373.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-300x109.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-768x280.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-260x95.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-50x18.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14-150x55.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.06.14.png 1175w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora bien, mi CRM puedo rellenar de valores cuáles, también datos personales y sensibles, así que me limitaré a asignarle solo valores booleanos: TRUE o FALSE, siempre y cuando la condición será &amp;gt; enviar el formulario rellenado y no vacío.&lt;/p&gt;
-
-&lt;p&gt;el código así reescrito es:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-504 size-large&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-1024x494.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;494&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-1024x494.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-300x145.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-768x370.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-260x125.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-50x24.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06-150x72.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-02-a-las-23.13.06.png 1273w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;En práctica asigno una variable a mi selector, primer campo y lo confronto con un valor vacío &lt;strong&gt;&amp;#8221; &amp;#8220;&lt;/strong&gt;, si no es así, entonces el valor de retorno será TRUE sino será FALSE.&lt;/p&gt;
-
-&lt;p&gt;Cuídado, el valor por defecto es UNDEFINED, porque no está asociado a ningún activador, así que siempre tendré en cuenta que el formulario será enviado (para su validación total).&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MODO AVANZADO&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;También puedo crear una variable que directamente hará el trabajo de validación y con este script le digo de sacarme el valor &lt;strong&gt;V&lt;/strong&gt;&lt;strong&gt;erdadero:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;En cada elemento tendré el parámetro &lt;strong&gt;Validity &lt;/strong&gt;y según sea un campo obligatorio o no, tendré varias opciones&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-511&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png&#34; alt=&#34;&#34; width=&#34;268&#34; height=&#34;231&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM.png 268w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-169x146.png 169w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-50x43.png 50w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-04-at-10.09.12-PM-87x75.png 87w&#34; sizes=&#34;(max-width: 268px) 100vw, 268px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Así que resumiendo nuevamente tenemos:&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0]&lt;/pre&gt;
-&lt;/p&gt;
-
-&lt;p&gt;y siguiendo puedo extender con la validación&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;pre&gt;document.querySelectorAll(&#39;[id=classicForm]&#39;)[0][0].validity.valid&lt;/pre&gt;
-&lt;/p&gt;
-
-&lt;p&gt;y esto me dará el resultado &lt;strong&gt;TRUE &lt;/strong&gt;o &lt;strong&gt;FALSE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora hacemos lo mismo para todos los campos interesados:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Nombre, Apellidos, Dirección, Género, Email, Comentarios.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Solo necesitamos replicar al igual que el campo &amp;#8220;nombre&amp;#8221; los demás que quedan, ya que todos los campos de textos son de igual tipologia, serán exactamente iguales que el primer ejemplo, solo que tenemos que pasar de [0][0] &lt;strong&gt;a [0][1]&lt;/strong&gt; y así hasta llegar al campo &lt;strong&gt;[0][5]&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;creamos-la-etiqueta-y-activador&#34;&gt;Creamos la etiqueta y activador&lt;/h3&gt;
-
-&lt;p&gt;Pasamos de crear las variables de los campos del formulario, y necesitaríamos el activador, en este ejemplo, mi formulario, tiene &lt;em&gt;onsubmit=ValidationEvent() &lt;/em&gt;, en tu caso puede que el submit tenga una ID o una CLASS, o que el formulario esté creado con jQuery, así que vamos por lo más sencillo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img activador&gt;&lt;/p&gt;
-
-&lt;p&gt;Mi ejemplo es un &lt;strong&gt;Evento Personalizado &lt;/strong&gt;del tipo Submit con el valor &lt;strong&gt;ValidationEvent()&lt;/strong&gt; y todo lo que necesito es enviar la información recogida hacía Google Sheets.&lt;/p&gt;
-
-&lt;p&gt;Sí, falta algo, crear un &lt;strong&gt;conector &lt;/strong&gt;entre Google Tag Manager y Google Sheets, y para ello utilizo una etiqueta tipo &lt;strong&gt;PIXEL, &lt;/strong&gt;que en su defecto sería la etiqueta &lt;strong&gt;Imagen&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img etiqueta imagen personalizada&gt;&lt;/p&gt;
-
-&lt;p&gt;El conector que vamos a crear es con &lt;strong&gt;Google Apps Script. &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Entramos en Google Drive &amp;gt; Herramientas &amp;gt; Editor de secuencias de comandos y creamos el script personalizado:&lt;/p&gt;
-
-&lt;p&gt;&lt;img código&gt; que pueden descargar aquí&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;pre&gt;Insert your content here&lt;/pre&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Muy importante cambiar los dos primeros valores:
-&lt;/p&gt;
-
-&lt;p&gt;&lt;li style=&#34;text-align: left;&#34;&gt;
-  SHEET_NAME: nombre de la hoja donde tenemos los campos a rellenar (en mi ejemplo se llama &lt;strong&gt;Sheet1&lt;/strong&gt;)
-&lt;/li&gt;
-&lt;li style=&#34;text-align: left;&#34;&gt;
-  SHEET_KEY: El valor ID de la hoja de cálculo lo que sigue /d/XXXXXXXXXXXX sería a rellenar
-&lt;/li&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora solo hace falta Guardar &amp;gt; Publicar &amp;gt; Publicar como aplicación Web&lt;/p&gt;
-
-&lt;p&gt;Importante seleccionar el nivel de acceso a todos. Copiamos el código del script y seguimos&lt;/p&gt;
-
-&lt;p&gt;&lt;img script&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;creamos-la-variable-de-google-apps-script-en-tag-manager&#34;&gt;Creamos la variable de Google Apps Script en Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Seguimos con la creación de la etiqueta Pixel, o imágen personalizada añadiendo la variable &lt;strong&gt;conector.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Definimos la variable de tipo &lt;strong&gt;Constante &lt;/strong&gt;con este valor Google Apps Script, y volvemos a la etiqueta&lt;/p&gt;
-
-&lt;p&gt;&lt;img&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img&gt;&lt;/p&gt;
-
-&lt;p&gt;el código tendrá esta estructura&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  {{var_SCRIPT_GOOGLE_APPS}}&lt;strong&gt;?&lt;/strong&gt;nombre_campo1={{var_1}}&lt;strong&gt;&amp;&lt;/strong&gt;nombre_campo_2={{var_2}} etc etc
-&lt;/p&gt;
-
-&lt;p&gt; Si nos fijamos, el primer campo es la constante con la url de Google Apps Script, separamos con un &lt;strong&gt;? &lt;/strong&gt;y seguimos con los mismos nombres de la primera linea de Google Sheets (si tenemos NAME será NAME y si será NOMBRE entonces pondríamos NOMBRE,) si fallamos esta parte no leerá la correspondencia entre los nombre de las primera file de Google Sheets con las variables donde hacer pasar los valores.&lt;/p&gt;
-
-&lt;p&gt;Ejemplo?&lt;/p&gt;
-
-&lt;p&gt;Para comprobar su correcto funcionamiento podemos hacer lo siguiente:&lt;/p&gt;
-
-&lt;p&gt;una ruta nueva con la URL de Google Apps Script y la secuencia&lt;/p&gt;
-
-&lt;p&gt;&lt;img&gt;&lt;/p&gt;
-
-&lt;p&gt;Resultado?&lt;/p&gt;
-
-&lt;h3 id=&#34;img&#34;&gt;&lt;img&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;vista-previa-y-publicación-testing&#34;&gt;Vista previa y Publicación: Testing&lt;/h3&gt;
-
-&lt;p&gt;Vamos con la vista previa y si todo funciona correctamente tendremos valores TRUE y FALSE en nuestro CRM, o los valores correspondientes en caso de no tener que pasar por la validación Booleana.&lt;/p&gt;
-
-&lt;p&gt;El orden de los valores que siguen después &lt;strong&gt;&amp;amp; &lt;/strong&gt;es indiferente, siempre será una concatenación y los valores se pondrán en su sitio correspondiente en la hoja de cálculo.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;aquí-el-webinar-sobre-como-crear-un-crm-y-pasar-las-variables-dinámicas-desde-google-tag-manager-a-nuestro-google-sheets&#34;&gt;Aquí el webinar sobre como crear un CRM y pasar las variables dinámicas desde Google Tag Manager a nuestro Google Sheets&lt;/h3&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/K_kV-_2CmZQ?rel=0&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>“Recetas” de Google Tag Manager</title>
-      <link>https://www.marcusrb.com/recursos/recetas-de-google-tag-manager/</link>
-      <pubDate>Wed, 02 May 2018 13:03:09 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/recursos/recetas-de-google-tag-manager/</guid>
-      <description>
-
-&lt;h2 id=&#34;por-qué-recetas&#34;&gt;¿Por qué “recetas”?&lt;/h2&gt;
-
-&lt;p&gt;Las recetas, o &lt;em&gt;recipe&lt;/em&gt; en inglés, son pequeños trozo de códigos, etiquetas, script, atajos, que una vez siguiendo las instrucciones, o mejor llamados “ingredientes”, tendremos el resultado final que queremos conseguir, nuestros &amp;ldquo;platos&amp;rdquo; o &amp;ldquo;comidas&amp;rdquo; preparados, en este sentido, a lo que van a ser mini-atajos o eventos ya creados y listos para ejecutarse en Google Tag Manager.&lt;/p&gt;
-
-&lt;p&gt;Aquí iré introduciendo unos cuantos paquetes de “recetas” para integrarlo directamente en tu contenedor de Google Tag Manager, para que solamente sería importar a vuestro espacio de trabajo, listos a publicar.&lt;/p&gt;
-
-&lt;p&gt;No todos los los elencados son míos, así que mencionaré la fuentes originales, ya que serán en gran mayorías de Lunametrics o AnalyticsMania. También iré introduciendo unos cuantos desde mi espacio personal de GitHub. Cada una de las recetas tendrá su explicación e iré introduciendo como blog el porque utilizarlo.&lt;/p&gt;
-
-&lt;p&gt;Esté atento a los nuevos contenedores y actualizaciones, así que subscríbete al boletín de novedades para recibirlo directamente en tu email.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/recetaGTM-ajax.jpg&#34; alt=&#34;medicion-ajax-tag-manager&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-jquery-ajax&#34;&gt;Medición eventos jQuery - Ajax&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;by Lunametrics. Eventos realizados a través de llamadas jQuery y pasar en dataLayer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/youtube-tag-manager-analytics.jpg&#34; alt=&#34;eventos-youtube-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-youtube&#34;&gt;Medición eventos YouTube&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Tracking y grabación de eventos de los vídeo YouTube para Google Analytics&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/tiempo-carga-usuario-tag-manager-analytics.jpg&#34; alt=&#34;tiempo-carga-usuario-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-tiempo&#34;&gt;Medición eventos Tiempo&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición del tiempo para usuarios, paginas cargada, formularios&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/scrolling-tag-manager-analytics.jpg&#34; alt=&#34;scrolling-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-scrolling&#34;&gt;Medición eventos Scrolling&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición del evento scrolling horizontal y vertical
-&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/links-salientes-tag-manager-analytics.jpg&#34; alt=&#34;eventos-enlaces-salientes-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;### Medición eventos Enlaces Salientes&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición de clics en enlaces salientes y medir las interacciones
-&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/downloads-tag-manager-analytics.jpg&#34; alt=&#34;downloads-tag-manager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-downloads&#34;&gt;Medición eventos Downloads&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición de clics en enlaces de descarga de archivos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&#34;&gt;/receta-download-medicion-eventos-descarga-archivos-para-google-tag-manager&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/comercio-electronico-mejorado-tag-manager-analytics.jpg&#34; alt=&#34;eventos-comercio-electronico-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-comercio-electrónico&#34;&gt;Medición eventos comercio electrónico&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición completa de eventos para comercio electrónico mejorado de Analytics e interacciones
-&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/email-tag-manager-analytics.jpg&#34; alt=&#34;eventos-correo-electronico-contactos-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-click-de-contactos&#34;&gt;Medición eventos click de Contactos&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición de eventos de clics en enlaces de correo electrónico y de llamadas
-&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/contactos-llamadas-tag-manager-analytics.jpg&#34; alt=&#34;eventos-llamadas-whatsapp-tagmanager-analytics&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;medición-eventos-click-de-llamadas-y-whatsapp&#34;&gt;Medición eventos click de Llamadas y Whatsapp&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Medición de eventos de clics en enlaces de whatsapp y llamadas
-&lt;a href=&#34;#&#34;&gt;Consigue la receta&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/06/clean-limpia-contenedor-tag-manager.jpg&#34; alt=&#34;limpiar-contenedor-tagmanager&#34;/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;limpia-tu-contenedor-de-tag-manager&#34;&gt;Limpia tu contenedor de Tag Manager&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Con este script puedes borrar completamente y &amp;ldquo;limpiar&amp;rdquo; tu contenedor como nuevo&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Consigue la &lt;a href=&#34;https://www.marcusrb.com/recetas-de-google-tag-manager/limpia-tu-contenedor-de-google-tag-manager/&#34;&gt;receta ahora mismo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Sigues todas las novedades subscribiendote al boletín
-&lt;!-- Begin MailChimp Signup Form --&gt;
-&lt;link href=&#34;//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-&lt;/style&gt;
-&lt;div id=&#34;mc_embed_signup&#34;&gt;
-&lt;form action=&#34;https://marcusrb.us15.list-manage.com/subscribe/post?u=f7fbd90d26ed5abf44a754c8c&amp;id=a185c10bbe&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34; novalidate&gt;
-    &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
-  &lt;label for=&#34;mce-EMAIL&#34;&gt;Subscríbete a mis novedades!&lt;/label&gt;
-  &lt;input type=&#34;email&#34; value=&#34;&#34; name=&#34;EMAIL&#34; class=&#34;email&#34; id=&#34;mce-EMAIL&#34; placeholder=&#34;email address&#34; required&gt;
-    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
-    &lt;div style=&#34;position: absolute; left: -5000px;&#34; aria-hidden=&#34;true&#34;&gt;&lt;input type=&#34;text&#34; name=&#34;b_f7fbd90d26ed5abf44a754c8c_a185c10bbe&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;clear&#34;&gt;&lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34; class=&#34;button&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/form&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;!--End mc_embed_signup--&gt;
 </description>
     </item>
     

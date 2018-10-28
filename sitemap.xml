@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</loc>
       <lastmod>2018-10-14T19:32:17+02:00</lastmod>
     </url>
@@ -44,7 +52,7 @@
     
     <url>
     
-      <loc>https://www.marcusrb.com/tutorial/example/</loc>
+      <loc>https://www.marcusrb.com/tutoriales/</loc>
       <lastmod>2018-09-09T00:00:00+02:00</lastmod>
     </url>
     
@@ -52,7 +60,15 @@
     
     <url>
     
-      <loc>https://www.marcusrb.com/tutorial/</loc>
+      <loc>https://www.marcusrb.com/tutoriales/example/</loc>
+      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/tutoriales/moocgtm/moocgtm-1/</loc>
       <lastmod>2018-09-09T00:00:00+02:00</lastmod>
     </url>
     
@@ -544,7 +560,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/categories/formacion/</loc>
-      <lastmod>2018-03-05T22:53:10+00:00</lastmod>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -675,6 +691,15 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/categories/webinar/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/tags/administrador-de-etiquetas/</loc>
       <lastmod>2018-03-08T11:48:16+00:00</lastmod>
       <priority>0</priority>
@@ -722,6 +747,15 @@
     
       <loc>https://www.marcusrb.com/tags/analytics-eventos/</loc>
       <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/tags/aprender-fundamentos-tag-manager/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1431,6 +1465,15 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/tags/seminario-google-tag-manager/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/categories/seo-sem/</loc>
       <lastmod>2017-03-23T08:38:32+00:00</lastmod>
       <priority>0</priority>
@@ -1558,7 +1601,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/tags/webinar/</loc>
-      <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
       <priority>0</priority>
     </url>
     
