@@ -12,8 +12,32 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/publication/py012-ordenamiento-burbuja-python/</loc>
+      <lastmod>2018-10-16T13:05:02+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/publication/py003-tuplas-python/</loc>
+      <lastmod>2018-10-15T13:05:02+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</loc>
       <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/publication/py001-tipo-de-datos/</loc>
+      <lastmod>2018-10-14T13:05:02+02:00</lastmod>
     </url>
     
   
@@ -28,23 +52,7 @@
     
     <url>
     
-      <loc>https://www.marcusrb.com/publication/py001-tipo-de-datos/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://www.marcusrb.com/publication/py002-cadenas-python/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://www.marcusrb.com/publication/py003-tuplas-python/</loc>
       <lastmod>2018-10-13T13:05:02+02:00</lastmod>
     </url>
     
@@ -479,7 +487,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/publication_types/6/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+      <lastmod>2018-10-16T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -605,7 +613,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/</loc>
-      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
+      <lastmod>2018-07-23T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -728,7 +736,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/tags/algoritmos-python/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+      <lastmod>2018-10-16T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1097,7 +1105,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/tags/grafos/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+      <lastmod>2018-10-16T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1160,7 +1168,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/tags/inteligencia-artificial/</loc>
-      <lastmod>2018-10-13T13:05:02+02:00</lastmod>
+      <lastmod>2018-10-16T13:05:02+02:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://www.marcusrb.com/home/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Search</title>
+      <link>https://www.marcusrb.com/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/home/search/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -127,15 +136,6 @@
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
       <guid>https://www.marcusrb.com/home/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://www.marcusrb.com/home/search/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://www.marcusrb.com/home/search/</guid>
       <description></description>
     </item>
     

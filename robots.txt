@@ -28,9 +28,17 @@
 User-agent: *
 Crawl-delay: 10
 # CSS, JS, Images
-Disallow: /*.css
-Disallow: /*.js
+Allow: /*.css$
+Allow: /*.js$
 Disallow: /*.gif
+
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+User-agent: NinjaBot
+
+User-agent: Mediapartners-Google
+Allow: /
 
 # Directories
 Disallow: /tags/
@@ -40,11 +48,13 @@ Disallow: /category/
 Disallow: /scripts/
 Disallow: /script/
 Disallow: /themes?/
+
 # Files
 Disallow: /CHANGELOG.txt
 Disallow: /cron.php
 Disallow: /LICENSE.txt
 Disallow: /README.md
+
 # Paths (clean URLs)
 Disallow: /admin/
 Disallow: /comment/
@@ -62,6 +72,36 @@ Disallow: /?q=user/login/
 Disallow: /?q=user/logout/
 Disallow: /?search_query=*
 Disallow: /?course=*
+Disallow: /?.*
+
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: Googlebot-Image
+Allow: /.*/.*jpg
+Allow: /.*/.*png
+Allow: /img/
+Allow: /images/
+
+User-agent: Adsbot-Google
+Allow: /
+
+#Bots bloqueados
+
+User-agent: Orthogaffe
+Disallow: /
+
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
 
 # Sitemaps
 Sitemap: https://www.marcusrb.com/sitemap.xml
