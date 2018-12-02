@@ -2,7 +2,7 @@
 <html lang="es-ES">
 <head>
   
-  <title>Recursos y Tutoriales | MarcusRB</title>
+  <title>Fundamentos de R | MarcusRB</title>
     
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,11 @@
   
     
   
-  <meta name="description" content="10 años de experiencia como consultor y docente freelance Data &amp; Digital Analyst, tráfico SEM-PPC, desarrollo e implementación tags con Adobe DTM y Google Tag Manager.">
+  <meta name="description" content="En esta sección se publicarán mis proyectos, recursos y tutoriales de:
+# Introducción a R Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames.">
   <meta name="robots" content="index,follow">
   
-  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/tutoriales/">
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/r/introduccion-r/">
 
   
 
@@ -84,7 +85,7 @@
   <script>
     var dataLayer = window.dataLayer = window.dataLayer || [];
     dataLayer.push({
-      page:'Recursos y Tutoriales',
+      page:'Fundamentos de R',
       categories:''
     });
   </script>
@@ -97,15 +98,15 @@
   
   
   
-  <link rel="alternate" href="https://www.marcusrb.com/tutoriales/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
-  <link rel="feed" href="https://www.marcusrb.com/tutoriales/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="alternate" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="feed" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/tutoriales/">
+  <link rel="canonical" href="https://www.marcusrb.com/r/introduccion-r/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -113,16 +114,19 @@
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Analítica de Datos">
-  <meta property="og:url" content="https://www.marcusrb.com/tutoriales/">
-  <meta property="og:title" content="Recursos y Tutoriales | MarcusRB: consultor &amp; docente Analítica de Datos">
-  <meta property="og:description" content="10 años de experiencia como consultor y docente freelance Data &amp; Digital Analyst, tráfico SEM-PPC, desarrollo e implementación tags con Adobe DTM y Google Tag Manager.">
+  <meta property="og:url" content="https://www.marcusrb.com/r/introduccion-r/">
+  <meta property="og:title" content="Fundamentos de R | MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:description" content="En esta sección se publicarán mis proyectos, recursos y tutoriales de:
+# Introducción a R Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames.">
   
   
     
   <meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="og:locale" content="es-ES">
   
-  <meta property="og:updated_time" content="2018-12-02T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2018-09-09T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2018-11-30T00:00:00&#43;01:00">
   
 
   
@@ -307,38 +311,18 @@
 <nav class="collapse docs-links" id="docs-nav">
   
   
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/r/">Introducción R</a>
+
+  </div>
+  
   <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/tutoriales/">Índice</a>
+    <a class="docs-toc-link" href="/r/introduccion-r/">Fundamentos de R</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutoriales/gas/">GoogleAppsScript</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutoriales/gas/">GAS - Google AppsScripts</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutoriales/hugo/">Hugo</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutoriales/hugo/">Install</a>
-      </li>
-      
-      <li >
-        <a href="/tutoriales/update/">Update</a>
-      </li>
-      
-    </ul>
-    
+    <a class="docs-toc-link" href="/r/variables-r/">Variables R</a>
 
   </div>
   
@@ -351,7 +335,17 @@
     <div class="d-none d-xl-block col-xl-2 docs-toc">
       
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introducción">Introducción</a></li>
+<li><a href="#vectores">Vectores</a></li>
+<li><a href="#matrices">Matrices</a></li>
+<li><a href="#factores">Factores</a></li>
+</ul></li>
+</ul>
+</nav>
 
       <ul class="nav toc-top">
         <li><a href="#">Back to top</a></li>
@@ -368,24 +362,37 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Recursos y Tutoriales</h1>
+          <h1 itemprop="name">Fundamentos de R</h1>
 
           <div class="article-style" itemprop="articleBody">
-            <p>En esta sección se publicarán mis proyectos, recursos y tutoriales de:</p>
+            
 
-<ul>
-<li><a href="/moocGTM/"><strong>Google Tag Manager</strong></a></li>
-<li><strong>Analítica Digital</strong></li>
-<li><a href="gas" target="_blank"><strong>Google Apps Script</strong></a></li>
-<li><a href="/r/"><strong>Lenguaje R</strong></a></li>
-<li><strong>IoT Internet de las cosas</strong></li>
-<li><strong>Arduino y Raspberry Pi</strong></li>
-<li><strong>Machine Learning</strong></li>
-<li><strong>Python</strong></li>
-<li><strong>AI Artificial Intelligence</strong></li>
-<li><a href="/data-science/"><strong>Data Science</strong></a></li>
-<li><strong>y más&hellip;</strong></li>
-</ul>
+<p>En esta sección se publicarán mis proyectos, recursos y tutoriales de:</p>
+
+<p># Introducción a R
+Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames. Con el conocimiento obtenido en este curso serás capaz de llevar a cabo tus propios análisis de datos.</p>
+
+<h2 id="introducción">Introducción</h2>
+
+<p>En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!</p>
+
+<h2 id="vectores">Vectores</h2>
+
+<p>Vamos a ir a Las Vegas! donde aprenderemos como analizar los resultados de los juegos usando vectores en R! Después de completar este capítulo serás capaz de crear vectores en R, nombrarlos, seleccionar elementos de ellos y comparar diferentes vectores.</p>
+
+<h2 id="matrices">Matrices</h2>
+
+<p>En este capítulo vamos a aprender a trabajar con matrices en R. Al finalizar el capítulo serás capaz de crear matrices y hacer operaciones básicas con éstas. Vamos a analizar cuánto dinero hizo la película Star Wars para ilustrar el uso de matrices en R. Que la fuerza te acompañe!</p>
+
+<h2 id="factores">Factores</h2>
+
+<p>Existen un tipo de variables llamadas variables categóricas. Por ejemplo, el género puede ser femenino o masculino. En R las variables categóricas son llamadas factores. Dada la importancia de los factores en el análisis de datos, vamos a aprender a crearlos y a todo lo relacionado con su manejo. Empecemos!</p>
+
+<p>## Data frames
+La mayoría de los datos con los que trabajarás en R van a ser guardados en data frames. Al finalizar este capítulo vas a ser capaz de crear data frames, seleccionar partes del mismo y ordenar los datos que contiene de acuerdo a cierta variable.</p>
+
+<p>## Listas
+Las listas, en contraste con los vectores, pueden tener elementos de diferentes tipos. En este capítulo aprenderemos a crear, nombrar y extraer elementos de las listas. ¿Listo? ;-)</p>
 
           </div>
 
@@ -394,7 +401,7 @@
         </div>
 
         <div class="body-footer">
-          Última actualización el Dec 2, 2018
+          Última actualización el Nov 30, 2018
         </div>
 
       </article>

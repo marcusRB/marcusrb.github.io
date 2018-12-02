@@ -11,6 +11,259 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>GAS - Google AppsScripts</title>
+      <link>https://www.marcusrb.com/tutoriales/gas/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/gas/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://www.marcusrb.com/tutoriales/hugo/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/hugo/</guid>
+      <description>
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
+&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
+&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
+&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;Hugo v0.49+&lt;/a&gt; is required if installing on your computer.&lt;/p&gt;
+
+&lt;h2 id=&#34;install-with-web-browser&#34;&gt;Install with web browser&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
+&lt;li&gt;Read the [Quick Start Guide] to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h2&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h2&gt;
+
+&lt;p&gt;In RStudio IDE, install the &lt;em&gt;Blogdown (v0.2+)&lt;/em&gt; and &lt;em&gt;Hugo&lt;/em&gt; dependencies:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;blogdown&amp;quot;)
+blogdown::install_hugo()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now restart RStudio and you can create an Academic project directly from the menu &lt;code&gt;File -&amp;gt; New Project -&amp;gt; New Directory&lt;/code&gt; - see Figures 1 and 2 below:&lt;/p&gt;
+
+&lt;p&gt;
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://www.marcusrb.com/img/docs/rstudio-create-project.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figura &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Create project&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://www.marcusrb.com/img/docs/rstudio-project-type.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figura &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Choose &lt;em&gt;website using Blogdown&lt;/em&gt; as the project type&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;code&gt;gcushen/hugo-academic&lt;/code&gt; as the theme:&lt;/p&gt;
+
+
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://www.marcusrb.com/img/docs/rstudio-theme.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figura &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Choose the Academic theme&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Then you will see a panel in RStudio named &lt;em&gt;Build&lt;/em&gt; containing a &lt;em&gt;Build Website&lt;/em&gt; button. When you click this button, RStudio will call &lt;code&gt;blogdown::build_site()&lt;/code&gt; to build the website, automatically generating files in the &lt;code&gt;public/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code&gt;blogdown::serve_site()&lt;/code&gt; to preview your site in your web browser. We recommend previewing your site in your normal web browser as the in-built RStudio web browser is very outdated and buggy.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo-content&#34;&gt;Demo content&lt;/h2&gt;
+
+&lt;p&gt;For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you wish to initialise your site with the demo content, copy the contents of the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started. The following command can be used to accomplish this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cp -av themes/academic/exampleSite/* .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
+
+&lt;p&gt;[Follow the step by step guide to setup your new site].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>https://www.marcusrb.com/tutoriales/update/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/update/</guid>
+      <description>
+
+&lt;p&gt;The update process consists of:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#preparation&#34;&gt;Preparation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#update-academic&#34;&gt;Updating Academic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#migrate-content&#34;&gt;Migrating your content&lt;/a&gt; front matter and configuration by applying any relevant breaking changes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Feel free to &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;star Academic on Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://www.marcusrb.com/academic/updates/&#34;&gt;release notes&lt;/a&gt; to learn what&amp;rsquo;s new.&lt;/p&gt;
+
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+
+&lt;p&gt;Before updating Academic, it is strongly recommended to make a full &lt;strong&gt;backup&lt;/strong&gt; of your website folder (including &lt;code&gt;themes/academic/&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Then, &lt;strong&gt;record your current version&lt;/strong&gt;, so that after you update Academic, you can apply any relevant breaking changes to the TOML/YAML site configuration and front matter in your &lt;code&gt;content/&lt;/code&gt; folder. To find your current version, look in &lt;code&gt;themes/academic/data/academic.toml&lt;/code&gt;. Note that if you installed the &lt;em&gt;master&lt;/em&gt; version rather than a specific release, then extra care should be taken (such as by checking the git log if you installed with git) as you may be in-between versions.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Academic Kickstart comes with an &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/blob/master/update_academic.sh&#34; target=&#34;_blank&#34;&gt;update script&lt;/a&gt; to check for available updates - just remember to temporarily comment out the last line so that you can view the list of available updates first without actually performing the update.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;update-academic&#34;&gt;Update Academic&lt;/h2&gt;
+
+&lt;p&gt;Please follow the method below which corresponds to how you originally installed Academic:&lt;/p&gt;
+
+&lt;h3 id=&#34;if-you-installed-academic-kickstart&#34;&gt;If you installed &lt;code&gt;academic-kickstart&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;By default, Academic is installed as a Git sub-module which can be updated by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;if-you-installed-by-git-cloning-hugo-academic&#34;&gt;If you installed by Git cloning &lt;code&gt;hugo-academic&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Before updating for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git remote rename origin upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To list available updates:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd themes/academic
+$ git fetch upstream
+$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, update by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git pull upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;if-you-installed-from-a-zip&#34;&gt;If you installed from a ZIP&lt;/h3&gt;
+
+&lt;p&gt;Uninstall your current version of Academic by deleting the contents of &lt;code&gt;themes/academic/&lt;/code&gt;. &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the latest version of Academic to your &lt;code&gt;themes/academic/&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;migrate-content&#34;&gt;Migrate Content&lt;/h2&gt;
+
+&lt;p&gt;When you update Academic itself, you can jump straight to the latest and greatest version. However, content migration requires consecutively applying any relevant steps from each release.&lt;/p&gt;
+
+&lt;p&gt;To migrate your TOML/YAML front matter and configuration, apply any relevant steps from the &lt;em&gt;Breaking Changes&lt;/em&gt; section of each consecutive &lt;a href=&#34;https://www.marcusrb.com/academic/updates/&#34;&gt;release note&lt;/a&gt; since the version you were originally on. If a release has no &lt;em&gt;Breaking Changes&lt;/em&gt; section, then no changes are required.&lt;/p&gt;
+
+&lt;p&gt;For example, if your site was previously on &lt;em&gt;v2.4.0&lt;/em&gt;, then apply the breaking changes for the consecutive releases since v2.4.0, i.e. [v3.0.0]  and [v3.1.0] .&lt;/p&gt;
+
+&lt;p&gt;To help migrate content to be compatible with new versions of Academic, there are some tools available in the &lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;&lt;/strong&gt; repository.&lt;/p&gt;
+
+&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h2&gt;
+
+&lt;p&gt;Check out the [release notes]  for the consecutive version that you are updating to, paying attention to the breaking changes. You can check which version you currently have, refer to the &lt;em&gt;Preparation&lt;/em&gt; section above.&lt;/p&gt;
+
+&lt;p&gt;If there are any issues after updating, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed in &lt;code&gt;config.toml&lt;/code&gt; or the &lt;code&gt;+++&lt;/code&gt; front matter of content files.&lt;/p&gt;
+
+&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Also, if you overrided any Academic files (by using Hugo&amp;rsquo;s inheritance principle), then these may cause conflicts after updating. Consider removing them or checking if the original file(s) that you are overriding have changed in any way and require syncing with your custom version of the file(s).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>#MoocGTM Seminario Online Google Tag Manager</title>
       <link>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</link>
       <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
@@ -797,22 +1050,61 @@ Este último caso utilizaremos el símbolo &lt;em&gt;\ backslash&lt;/em&gt;.&lt;
     </item>
     
     <item>
-      <title>#moocGTM - Webinars Google Tag Manager</title>
-      <link>https://www.marcusrb.com/tutoriales/moocgtm/example/</link>
+      <title>Fundamentos de R</title>
+      <link>https://www.marcusrb.com/r/introduccion-r/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://www.marcusrb.com/tutoriales/moocgtm/example/</guid>
+      <guid>https://www.marcusrb.com/r/introduccion-r/</guid>
       <description>
 
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;p&gt;En esta sección se publicarán mis proyectos, recursos y tutoriales de:&lt;/p&gt;
 
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;# Introducción a R
+Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames. Con el conocimiento obtenido en este curso serás capaz de llevar a cabo tus propios análisis de datos.&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
 
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;vectores&#34;&gt;Vectores&lt;/h2&gt;
+
+&lt;p&gt;Vamos a ir a Las Vegas! donde aprenderemos como analizar los resultados de los juegos usando vectores en R! Después de completar este capítulo serás capaz de crear vectores en R, nombrarlos, seleccionar elementos de ellos y comparar diferentes vectores.&lt;/p&gt;
+
+&lt;h2 id=&#34;matrices&#34;&gt;Matrices&lt;/h2&gt;
+
+&lt;p&gt;En este capítulo vamos a aprender a trabajar con matrices en R. Al finalizar el capítulo serás capaz de crear matrices y hacer operaciones básicas con éstas. Vamos a analizar cuánto dinero hizo la película Star Wars para ilustrar el uso de matrices en R. Que la fuerza te acompañe!&lt;/p&gt;
+
+&lt;h2 id=&#34;factores&#34;&gt;Factores&lt;/h2&gt;
+
+&lt;p&gt;Existen un tipo de variables llamadas variables categóricas. Por ejemplo, el género puede ser femenino o masculino. En R las variables categóricas son llamadas factores. Dada la importancia de los factores en el análisis de datos, vamos a aprender a crearlos y a todo lo relacionado con su manejo. Empecemos!&lt;/p&gt;
+
+&lt;p&gt;## Data frames
+La mayoría de los datos con los que trabajarás en R van a ser guardados en data frames. Al finalizar este capítulo vas a ser capaz de crear data frames, seleccionar partes del mismo y ordenar los datos que contiene de acuerdo a cierta variable.&lt;/p&gt;
+
+&lt;p&gt;## Listas
+Las listas, en contraste con los vectores, pueden tener elementos de diferentes tipos. En este capítulo aprenderemos a crear, nombrar y extraer elementos de las listas. ¿Listo? ;-)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fundamentos de R</title>
+      <link>https://www.marcusrb.com/r/variables-r/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/r/variables-r/</guid>
+      <description>&lt;p&gt;# Variables y asignaciones
+Un concepto básico en programación es el de variable.&lt;/p&gt;
+
+&lt;p&gt;Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.&lt;/p&gt;
+
+&lt;p&gt;Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &amp;lt;- 4&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Asigna 42 a x
+x &amp;lt;-
+
+# Imprime el valor de la variable x
+x
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -1576,301 +1868,6 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Este disparador se activa en CookieConsent.preference no es igual a la verdadera&lt;/p&gt;
 
 &lt;p&gt;Guardar con el nombre: &amp;#8220;CookieConsente.preference&amp;#8221;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>¿Buscas las respuestas del examen de Google Analytics 2018?</title>
-      <link>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/</link>
-      <pubDate>Sat, 26 May 2018 16:01:24 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/</guid>
-      <description>&lt;p&gt;Despúes de crear la entrada de las respuestas de la  &lt;strong&gt;certificación oficial de Google AdWords fundamentales y&lt;/strong&gt; &lt;strong&gt;avanzado, &lt;/strong&gt;no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones&lt;/p&gt;
-
-&lt;p&gt;en &lt;a href=&#34;https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mi canal de YouTube&lt;/a&gt;, aquí os daré algunas de las preguntas del examen de Google Analytics.&lt;/p&gt;
-
-&lt;p&gt;No va ni a favorecer mi blog, ni mi web ni nada, ya honestamente no vendo los exámenes, ni las hago para los demás a cambio de dinero, simplemente es una demostración que Google necesita &lt;strong&gt;comerciales &lt;/strong&gt;y cuanto más somos mejor&amp;#8230;era broma. A final si las empresas piden unas certificaciones oficiales, creo que más que un TITULIS, mejor tener &lt;strong&gt;experiencia. &lt;/strong&gt;Gran palabra poco valorada, creo yo. En fin, yo durante muchas entrevistas (personales y para mi agencia), me he encontrado de todo, y la última pregunta y no discriminatoria era sobre la certificación, y aconsejo que sacan este examen o varios exámenes para el simple hecho de estudiar PDF de más de 200 páginas, ver tutoriales, consumir buenas prácticas, ejemplos, consultar el foro de ayuda en inglés o español, y obviamente, en el caso de Analytics, vincular la cuenta DEMO del Merchandisestore en una cuenta creada para ir tocando y probando la analítica web, en este caso para un ecommerce, de una manera GRATUITA.&lt;/p&gt;
-
-&lt;p&gt;Esta &amp;#8220;gratuitidad&amp;#8221; obviamente tiene un precio, y esto se llama EXPERIENCIA.&lt;/p&gt;
-
-&lt;p&gt;No me crees, claro porque si estás leyendo estas rigas seguramente estabas buscando las respuesta para pasar rápido el examen pero la verdad que solo te mostraré unas cuántas preguntas y a final las incorrectas. No te preocupes, una promesa es deuda, no haré el juego de los demás, simplemente (como ya tengo un vídeo grabado), no iré colgando por ahí las respuestas, no me gusta saber que luego las mismas podrías venderlas (y los hay quien realiza examen por 10€, vaya negocio!)&lt;/p&gt;
-
-&lt;p&gt;De momento pueden tener acceso a estas preguntas&amp;#8230;y para las respuestas puedes seguir uno de &lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyK-xDs0FDpc3MeDpBpGdpP9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mis vídeos a esta lista y subscribirte&lt;/a&gt;. Gracias y Good Luck!&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Listado de preguntas examen Google Analytics 2018 &amp;#8211; parte 1&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Test preguntas examen Certificación Google Analytics parte_1</title>
-      <link>https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</link>
-      <pubDate>Fri, 25 May 2018 16:44:56 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/recursos/test-preguntas-examen-certificacion-google-analytics-parte-1/</guid>
-      <description>&lt;p&gt;Aquí una muestra de las preguntas de la certificación del examen de Google Analytics y actualizado al primer trimestre 2018. Se ha realizado también el video con las preguntas y mis respuestas 100% válidas (2017) y otro en 2018 (95%).&lt;/p&gt;
-
-&lt;p&gt;Esta 1ª parte del test de certificación, compuesto de 20 preguntas con una valoración de 10 puntos para las correctas. Válido para el examen oficial de Google Analytics en Academy For Ads. Para más informaciones pueden acceder al mismo examen: &lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34;  target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://academy.exceedlms.com/student/path/2934&#34; target=&#34;_blank&#34;&gt;https://academy.exceedlms.com/student/path/2934&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Es una manera de ir aprendiendo, haciendo&amp;hellip;poniéndote a prueba! Suerte
-&lt;p style=&#34;text-align: center;&#34;&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfBIJW3fjs0T1vjtOq9ZaiNw_y3PB0RXvT_WpLiHV2DU9BLUA/viewform?embedded=true&#34; width=&#34;760&#34; height=&#34;5000&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; data-mce-fragment=&#34;1&#34;&gt;Cargando…&lt;/iframe&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>¿Por qué tengo pocas visitas?</title>
-      <link>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</link>
-      <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</guid>
-      <description>
-
-&lt;h2 id=&#34;un-sitio-web-de-comercio-electrónico-o-la-presencia-de-una-empresa-en-internet-no-es-un-juego-los-principales-objetivos-siguen-siendo-el-incremento-de-ventas-la-reducción-de-costes-y-la-fidelización-de-clientes&#34;&gt;Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes.&lt;/h2&gt;
-
-&lt;p&gt;Comprender la importancia y seriedad que conlleva un proyecto en Internet es vital para &lt;strong&gt;alcanzar el éxito&lt;/strong&gt;, se requiere que intervenga varias disciplinas, entre ellas la analítica web.&lt;/p&gt;
-
-&lt;p&gt;Algunas de las clásicas preguntas de clientes o propietarios de sitios web:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;¿Por qué tengo pocas visitas?&lt;/li&gt;
-&lt;li&gt;Tengo muchas visitas, pero muy pocos usuarios realizan compras. ¿Por qué?&lt;/li&gt;
-&lt;li&gt;¿Por qué hay tiendas online que sí venden y la mía no?&lt;/li&gt;
-&lt;li&gt;Estoy haciendo publicidad en Internet. ¿Está bien hecha? ¿Es eficiente?&lt;/li&gt;
-&lt;li&gt;¿Cómo puedo conseguir que más usuarios se registren o me envíen consultas?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Para conocer el problema existente y dar una respuesta se recurre a la analítica web, igual que, salvando las diferencias, cuando una persona tiene un problema de salud o un deportista necesita mejorar su rendimiento recurre a una serie de pruebas y análisis para conocer su estado y determinar qué necesita para mejorar.&lt;/p&gt;
-
-&lt;p&gt;Volviendo al campo empresarial, veamos algunas diferencias entre el mundo offline y el mundo online que nos ayudarán a comprender la necesidad de la analítica web y saber más sobre ella.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;publicidad-en-el-mundo-offline-ejemplo-1-8211-la-clínica-veterinaria&#34;&gt;Publicidad en el mundo offline: Ejemplo 1  &amp;#8211; La clínica veterinaria&lt;/h3&gt;
-
-&lt;p&gt;Imaginemos una clínica veterinaria y para promocionarla se ha decidido contratar una valla publicitaria en un emplazamiento de una ciudad por el que transitan muchos vehículos y personas. Le han estimado que la valla será vista por más de 1000 personas al día.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;la contratación de esa valla es de 700 euros al mes per un periodo de 12 meses&lt;/li&gt;
-&lt;li&gt;producción gráfica y fijación es de 1000 euros&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En total el primer año se invertirá 9400 euros por este anuncio. Estimando unas 1000 personas que verán este anuncio cada día, podría tener muchos clientes en poco tiempo. Pero tendríamos que cuestionarnos relacionadas con la &lt;strong&gt;efectividad&lt;/strong&gt; de esa publicidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1 &amp;#8211; ¿Cuántas de esas personas pasan delante del anuncio lo ven?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;La manera de saberlo es realizar algún tipo de encuesta en la calle para preguntar a las personas que se fijaron en el anuncio. Periódicamente durante los próximos 12 meses para conocer su efectividad.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2 &amp;#8211; De las personas que ven el anuncio, cuántas tenían mascotas o están interesadas en este tema?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Podemos basarnos en informes sobre el % de mascotas en la zona para hacer una estimación. Pero saber con exactitud cuántas personas que pasan por la valla están interesadas en mascotas, puede ser complicado.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3 &amp;#8211; ¿Cuántas personas han ido a su clínica gracias al anuncio?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Para este dato la única manera es preguntar directamente a cada uno de los clientes que acudan a la clínica si llegaron allí gracias a la valla publicitaria&amp;#8230;un poco incómoda cómo pregunta.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Las respuestas a estas preguntas nos permiten saber cómo de eficiente o rentable está siendo dicho anuncio y si es necesario hacer algún cambio.&lt;/p&gt;
-
-&lt;p&gt;No es lo mismo invertir 9400 euros en un año para 3000 clientes potenciales y nos proporcionaría solo 56 clientes reales, que sólo nos vean 700 clientes potenciales y nos proporcione 12 clientes. ¿Cómo podríamos sacar este dato con tanta precisión?&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;publicidad-en-el-mundo-offline-ejemplo-2-8211-un-supermercado&#34;&gt;Publicidad en el mundo offline: Ejemplo 2  &amp;#8211; Un supermercado&lt;/h3&gt;
-
-&lt;p&gt;Sara es propietaria de un gran supermercado. En él vende productos de alimentación, higiene, cosmética, etc.&lt;/p&gt;
-
-&lt;p&gt;Sara puede saber qué productos son más o menos vendidos gracias a los resultados de las ventas, pero lo que no puede saber es cuántos clientes tenían interés por un producto de la marca A y finalmente eligieron la marca B. Para averiguar esto hay dos opciones: realizar encuestas o colocar sensores en una zona de los estantes de los productos para observar constantemente qué hace el cliente frente a éste. Pero ¿hacemos encuestas de todos los productos para saber qué piensan los clientes de cada uno de ellos? o ¿invertimos algo en tecnología para sensores, extraer datos, analizarlos como ciéntificos de datos y crear modelos matemáticos de cada unos de los productos?&lt;/p&gt;
-
-&lt;p&gt;Sería interesante conocer qué hacen los clientes en el supermercado, en qué productos se fijaron y cuál compraron finalmente o qué secciones son las que más visitan. Con estos datos podríamos descubrir los intereses de los clientes, detectar posibles problemas que hacen que elijan un producto en lugar de otro o, incluso, lanzar ofertas relacionadas con esas secciones que visitan mucho pero en las que no suelen comprar.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, no hay manera de tener todos esos datos de forma precisa y menos de forma individualizada.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;publicidad-en-el-mundo-online-datos-y-mediciones&#34;&gt;Publicidad en el mundo online: Datos y mediciones&lt;/h3&gt;
-
-&lt;p&gt;En el mundo offline no es fácil obtener datos precios de todo lo que ocurre, Sin embargo, en el mundo online todo lo que hacemos puede quedar registrado, así que la cantidad de datos disponible llega a ser desbordante, veáse también el problema de la privacidad. Internet es el mundo perfecto para conocer todo acerca de los usuarios y disponer de datos suficientes para analizar qué está ocurriendo y qué hacer para mejorar.&lt;/p&gt;
-
-&lt;p&gt;Véamos que podemos registrar y conocer:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;dónde se hace clic&lt;/li&gt;
-&lt;li&gt;qué palabras se escribieron en el buscador para llegar a nuestro sitio web&lt;/li&gt;
-&lt;li&gt;país o ubicación geográfica el que se conecta&lt;/li&gt;
-&lt;li&gt;tiempo que permanece viendo uan página web&lt;/li&gt;
-&lt;li&gt;páginas web o productos que visitó&lt;/li&gt;
-&lt;li&gt;número de usuarios que visitaron una página web&lt;/li&gt;
-&lt;li&gt;porcentaje de usuarios que hicieron una compra, solicitud o reserva&lt;/li&gt;
-&lt;li&gt;número de usuarios que provienen de anuncios de pago&lt;/li&gt;
-&lt;li&gt;páginas de sitios más visitadas&lt;/li&gt;
-&lt;li&gt;zonas de páginas web que más o menos captan la atención&lt;/li&gt;
-&lt;li&gt;datos demográficos por rango de edad o sexo&lt;/li&gt;
-&lt;li&gt;y más datos&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h4 id=&#34;qué-podemos-determinar-con-esto&#34;&gt;&lt;strong&gt;¿Qué podemos determinar con esto?&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;qué páginas debemos mejorar la usabilidad&lt;/li&gt;
-&lt;li&gt;si tenemos que realizar el sitio web en otros idiomas&lt;/li&gt;
-&lt;li&gt;si el proceso de compra debe ser modificado&lt;/li&gt;
-&lt;li&gt;mejorar el ratio de conversión y optimizarlo&lt;/li&gt;
-&lt;li&gt;la efectividad o rentabilidad de campañas de pago&lt;/li&gt;
-&lt;li&gt;evolución del tráfico de un buscador o orgánico&lt;/li&gt;
-&lt;li&gt;en caso de productos, cuáles son lo que no interesan o presentan problemas&lt;/li&gt;
-&lt;li&gt;determinar acciones que no proporcionan más visitas, ventas o solicitudes&lt;/li&gt;
-&lt;li&gt;repercusión de nuestra marca y reputación online&lt;/li&gt;
-&lt;li&gt;comportamiento de los usuarios según datos demográficos&lt;/li&gt;
-&lt;li&gt;y más&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A tener en cuenta que para contestar a cada una de las posibles preguntas o más, es necesario registrar los datos correctamente y analizarlos, así como descubrir nuevas oportunidades, o &lt;strong&gt;insight&lt;/strong&gt; dentro de la análitica web y mejorar la rentabilidad y el objetivo empresarial.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
-      <link>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
-      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
-      <description>
-
-&lt;h2 id=&#34;web-analytics-10-razones-para-usar-tag-manager-en-su-análisis-de-marketing&#34;&gt;Web Analytics: 10 razones para usar Tag Manager en su análisis de marketing&lt;/h2&gt;
-
-&lt;p&gt;Google Tag Manager es una de las herramientas más innovadoras en la web para una &lt;strong&gt;gestión avanzada de nuestro análisis de marketing&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Para aquellos que nunca han oído hablar de él, es una herramienta principalmente dedicada a los analistas de marketing y gerentes de marketing, que le permite llevar la &lt;strong&gt;Optimización de la tasa de conversión&lt;/strong&gt; o CRO (Conversion Rate Optimization), la optimización de los procesos de conversión dentro de un sitio web en un nivel que de otro modo solo se puede alcanzar mediante el uso de herramientas a menudo bastante costosas.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Con Google Tag Manager es posible, entre otras cosas, &lt;strong&gt;rastrear y transmitir fácilmente a&lt;/strong&gt; su análisis o herramientas de administración de marketing digital (incluyendo &lt;em&gt;Google Analytics&lt;/em&gt;, por supuesto, pero también &lt;em&gt;Facebook Analytics&lt;/em&gt;) cualquier tipo de comportamiento, desde ver una página web hasta haga clic en una llamada a la acción, desde compartir en redes sociales hasta el embudo completo de compra de comercio electrónico.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Todo lo que muchas herramientas de analítica , apropiadamente programadas, hacen de forma independiente, por supuesto.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p class=&#34;emphasis&#34;&gt;
-  &lt;span class=&#34;notranslate&#34;&gt;¿Por qué, entonces vale la pena cambiar a Google Tag Manager? &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí están unas 10 razones, y hay más!&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-1-la-solución-ideal-para-el-hombre-o-la-mujer-que-no-debe-preguntar-nunca-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;1 # La solución ideal para el hombre (o la mujer) que no debe preguntar, nunca&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-551&#34; src=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;396&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb.png 800w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-300x149.png 300w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-768x380.png 768w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-260x129.png 260w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-50x25.png 50w, https://www.marcusrb.com/img/2018/05/1-razones-tag-manager-marcusrb-150x75.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;La primera, la más importante de las ventajas que descubre de inmediato quién pasa a Google Tag Manager. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí está: &lt;strong&gt;libérate de la esclavitud de preguntar.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Es un clásico, ¿no?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Su cliente le confía la gestión de los procesos de marketing y optimización dentro de su sitio web.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Sin embargo, aunque siempre hay uno, el &lt;strong&gt;mantenimiento técnico del sitio se confía a una empresa externa&lt;/strong&gt; , que es una de las &lt;em&gt;miles&lt;/em&gt; de responsabilidades del departamento interno de TI de la compañía, que (como siempre) tiene mucho que hacer y (como siempre) no él tiene algo de tiempo para perder con &amp;#8220;los de marketing&amp;#8221;.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Situación clásica, por decir lo menos: levante la mano que no la haya experimentado al menos una vez, de un lado o del otro de la barricada.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En resumen, imagine al pobre analista que enfrenta esta situación: &lt;strong&gt;decenas de llamados a la acción para rastrear&lt;/strong&gt; , uno o más embudos de conversión para analizar, quizás (en un comercio electrónico), todo el proceso de compra que se gestionará y un administrador de TI reticente eso no te permite trabajar al ritmo y con la precisión con la que fueras prefijado.&lt;/span&gt; ¿&lt;span class=&#34;notranslate&#34;&gt;Qué hacer?&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;La solución es: cambiar a Google Tag Manager&lt;/strong&gt;.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, finalmente podrá trabajar libremente si cree que debe &lt;strong&gt;etiquetar cualquier elemento del sitio web de su cliente&lt;/strong&gt; (siempre que se realice al menos decentemente, por supuesto) sin tener que recurrir a las intervenciones del desarrollador o del webmaster.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Mejor que eso!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-2-puedes-planificar-mejor-tu-trabajo-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;2 # Puedes planificar mejor tu trabajo&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;¿Qué implica todo esto?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;En primer lugar, implica la posibilidad de planificar su trabajo de análisis de datos mucho más fácilmente, explotando el potencial de Google Tag Manager para &lt;strong&gt;supervisar sistemáticamente las rutas internas&lt;/strong&gt; al sitio web que desea analizar, decidiendo de vez en cuando el nivel de detalle del análisis.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Por ejemplo?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Piensa en una &lt;strong&gt;llamada a la acción&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Obviamente, querrá ser monitoreada de una manera muy específica, separándolo de otra llamada a la acción en la misma página.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Ahora, en cambio, piense en los contenidos relacionados de un blog.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En este caso, no le interesará saber, probablemente, qué contenido en particular ha sido objeto de clics, pero solo necesita saber el número total de clics en los correlatos tomados en general. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Aquí: Tag Manager le permite &lt;strong&gt;diversificar el nivel de análisis en relación con sus objetivos&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Y para hacerlo fácilmente (lo que nunca duele).&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-3-puede-hablar-con-google-analytics-en-su-8220-lengua-8221-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;3 # Puede hablar con Google Analytics en su &amp;#8220;lengua&amp;#8221;&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Otra ventaja considerable: a través del Tag Manager &lt;strong&gt;puede usar fácilmente todos los scripts&lt;/strong&gt; que le permiten enviar datos y parámetros a Google Analytics sin escribir una línea de código.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En su lugar, encontrará interfaces convenientes que le permitirán trabajar sin problemas y sin errores, tanto para mejorar y adaptar a sus necesidades el código de seguimiento de Analytics, tanto para rastrear eventos y eventos sociales con simplicidad, utilizando las &lt;strong&gt;variables proporcionadas por Google Tag Manager&lt;/strong&gt; para hacer los &lt;a href=&#34;https://www.marcusrb.com/como-crear-eventos-dinamicos-con-google-tag-manager/&#34;&gt;parámetros y variables dinámicas&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-553&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png&#34; alt=&#34;&#34; width=&#34;900&#34; height=&#34;465&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1.png 900w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-300x155.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-768x397.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-260x134.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-50x26.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.44.01-1-145x75.png 145w&#34; sizes=&#34;(max-width: 900px) 100vw, 900px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-4-puedes-probar-nuevas-soluciones-sin-dañarlas-span-span-class-notranslate-además-puedes-regresar-cuando-quieras-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;4 # Puedes probar nuevas soluciones sin dañarlas.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Además, puedes regresar cuando quieras&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Y dime que esto no es una ventaja.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Google Tag Manager funciona con dos herramientas extraordinarias.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;El primero es la &lt;strong&gt;vista previa&lt;/strong&gt;: le permite probar cualquier solución y &lt;strong&gt;verificar la viabilidad y cualquier defecto&lt;/strong&gt; antes de entrar en producción.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Una ventaja no poco, que comprenderá fácilmente a cualquiera que tenga sus manos al menos una vez en su vida en una línea de código.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;El segundo, igualmente importante, es el &lt;strong&gt;versionado&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En la práctica, Tag Manager mantiene todas las instancias que hemos publicado de nuestra cuenta en su base de datos.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, si nos damos cuenta demasiado tarde de que hemos hecho algunas tonterías, podemos &lt;strong&gt;volver&lt;/strong&gt; fácilmente &lt;strong&gt;a la última versión operativa&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-554&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-1024x351.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;351&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-1024x351.png 1024w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-300x103.png 300w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-768x263.png 768w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-260x89.png 260w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-50x17.png 50w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02-150x51.png 150w, https://www.marcusrb.com/img/2018/05/Captura-de-pantalla-2018-05-08-a-las-16.46.02.png 1277w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-5-puedes-centralizar-todas-las-etiquetas-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;5 # Puedes centralizar todas las etiquetas&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;¿Alguna vez intentó &lt;strong&gt;dibujar una serie de eventos que pueden suceder en cualquier lugar de su sitio web&lt;/strong&gt; , por ejemplo, hacer clic en una Llamada a la acción?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Hay muchas formas de hacer esto.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Si no tiene experiencia en programación, probablemente deba buscar todas Llamadas a la acción presente en su sitio y asociarlo con un evento que se transmitirá a Google Analytics.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Si, en cambio, tiene alguna experiencia en programación, tal vez no pueda hacer este esfuerzo, tratando de configurar una función que presida automáticamente esta tarea.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;O puede usar Google Tag Manager.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;De esta forma, la tarea de reaccionar dependerá del &lt;strong&gt;clic listener&lt;/strong&gt; .&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En su lugar, tendrá la tarea, mucho más sencilla, de explicar al Administrador de etiquetas qué evento debe transmitir a Google Analytics en relación con el clic en el sitio.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Más fácil que eso!&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-6-puedes-reutilizar-los-códigos-y-soluciones-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;6 # Puedes reutilizar los códigos y soluciones&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;A veces sucede que tiene ideas brillantes.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Gracias a la modularidad de Google Tag Manager, podrá utilizar estas ideas y soluciones una y otra vez. Sí has entendido bien, el mismo &lt;strong&gt;activador, &lt;/strong&gt;por ejemplo el de formulario enviado, puedes utilizarlo para eventos de Google Analytics, para la etiqueta de conversiones de Google AdWords, para el pixel de Facebook u otro pixel de terceros. Y porque no, utilizarlo también para eventos dinámicos, ejemplo, comercio electrónico, donde alguna variable comparte etiqueta, o en Remarketing dinámico. Esta es una ventaja bien útil además, puesto que no tienes que meter mano al código nunca (bueno sí, a principio), pero al resto piensa todo GTM.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-7-puede-usar-funciones-cálculos-variables-y-transmitir-sus-resultados-a-google-analytics-con-facilidad-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;7 # Puede usar funciones, cálculos, variables y transmitir sus resultados a Google Analytics con facilidad&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Google Analytics, usted sabe, solo permite unos pocos meses, y solo en algunos casos, realizar &lt;a href=&#34;https://www.marcusrb.com/creacion-crm-google-sheets-google-tag-manager/&#34;&gt;cálculos con las métricas en su base de datos&lt;/a&gt;, o manipular su tamaño gracias al uso de filtros avanzados.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Cualquier entrada que deseemos dar a Analytics, en resumen, esto probablemente debería haber sido procesado previamente.&lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Imagine, por ejemplo, que desea &lt;strong&gt;importar en Analytics un determinado tamaño presente en el código de su sitio&lt;/strong&gt; , quizás dentro de una meta etiqueta o en una ubicación específica de la URL.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;¿Cómo lo vas a realizar?&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Una solución es calcular esta cantidad a través de una o más funciones para procesarla dentro del código de su página e importar el resultado en Analytics gracias a una modificación del código de seguimiento.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;El otro?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;Puedes delegar la tarea en Tag Manager&lt;/strong&gt; , que proporciona toda su base de datos de variables personalizadas y dedicada para este fin.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;###&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-8-finalmente-puedes-simplificar-el-trabajo-de-etiquetas-en-ecommerce-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;8 # Finalmente puedes simplificar el trabajo de etiquetas en ecommerce&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;¿Quién ha intentado elaborar las funciones de Google Analytics que presiden las diversas etapas del proceso de compra?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Nada fácil, ¿verdad?&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;El comercio electrónico mejorado&lt;/strong&gt; es una de las herramientas más complejas para configurar en Google Analytics, ya que requiere la activación de varias funciones que presiden la búsqueda y envío de datos en tiempo real, a medida que el usuario avanza en su &lt;strong&gt;Customer Journey&lt;/strong&gt; .&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-555&#34; src=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png&#34; alt=&#34;&#34; width=&#34;800&#34; height=&#34;396&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb.png 800w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-300x149.png 300w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-768x380.png 768w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-260x129.png 260w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-50x25.png 50w, https://www.marcusrb.com/img/2018/05/google_tag_manager_marcusrb-150x75.png 150w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;strong&gt;Google Tag Manager simplifica enormemente este proceso&lt;/strong&gt; y, en algunos casos, lo hace posible incluso sin agregar una sola línea de código al sitio.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-9-puede-usar-fácilmente-los-nuevos-píxeles-de-conversión-de-facebook-en-relación-con-los-eventos-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;9 # Puede usar fácilmente los nuevos píxeles de conversión de Facebook en relación con los eventos&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Otro aspecto que afectará, creo, a muchos colegas.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;Con Google Tag Manager puede simplificar en gran medida la &lt;strong&gt;implementación de los nuevos píxeles de conversión de Facebook&lt;/strong&gt; , e incluso puede configurarlos sin cambiar el código del sitio.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-10-finalmente-puede-etiquetar-su-sitio-para-explorar-el-comportamiento-del-usuario-con-facilidad-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;10 # Finalmente puede etiquetar su sitio para explorar el comportamiento del usuario con facilidad&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;&lt;em&gt;Por último, pero no menos importante:&lt;/em&gt; con el Administrador de etiquetas de Google, puede &lt;strong&gt;marcar cualquier botón&lt;/strong&gt; , cualquier comportamiento, cualquier interacción de nuestros usuarios en su sitio, comenzando, por ejemplo, desde interacciones sociales , que a menudo permanecen indescifrables para Google Analytics.&lt;/span&gt; &lt;span class=&#34;notranslate&#34;&gt;En resumen, tendrá la &lt;strong&gt;capacidad de rastrear toda la experiencia del usuario&lt;/strong&gt; , haga clic para hacer clic: algo invaluable, especialmente para la determinación de casos de uso y perfiles de usuario en los sitios más complejos.&lt;/span&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;span-class-notranslate-un-engranaje-adicional-en-análisis-de-marketing-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;Un engranaje adicional en análisis de marketing&lt;/span&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;En resumen, se habrá te habrás dado cuenta que: con Tag Manager, el trabajo de rastrear y analizar un sitio web no solo es más sencillo, sino también más funcional, ya que le permite realizar prácticamente &lt;strong&gt;cualquier seguimiento que desee&lt;/strong&gt; , manteniendo el nivel de análisis de datos una capa sobre la del código del sitio. &lt;/span&gt;&lt;span class=&#34;notranslate&#34;&gt;Entonces, si normalmente logra involucrar el dpto TI en su proyecto de seguimiento, solo podrá ganar aún más eficiencia, un tema que hoy, en mi opinión, está en todos lados.&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;span-class-notranslate-si-también-usa-google-tag-manager-agregaría-algunos-puntos-a-esta-lista-span&#34;&gt;&lt;span class=&#34;notranslate&#34;&gt;Si también usa Google Tag Manager, ¿agregaría algunos puntos a esta lista?&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;notranslate&#34;&gt;Cuéntame sobre tu experiencia con esta increíble herramienta en los comentarios.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Fuente original:** &lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&#34; target=&#34;_blank&#34;&gt;https://it.semrush.com/blog/google-tag-manager-10-buoni-motivi-per-usarlo/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;**&lt;/p&gt;
 </description>
     </item>
     

@@ -2,7 +2,7 @@
 <html lang="es-ES">
 <head>
   
-  <title>Recursos y Tutoriales | MarcusRB</title>
+  <title>Fundamentos de R | MarcusRB</title>
     
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,13 @@
   
     
   
-  <meta name="description" content="10 años de experiencia como consultor y docente freelance Data &amp; Digital Analyst, tráfico SEM-PPC, desarrollo e implementación tags con Adobe DTM y Google Tag Manager.">
+  <meta name="description" content="# Variables y asignaciones Un concepto básico en programación es el de variable.
+Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.
+Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &lt;- 4
+# Asigna 42 a x x &lt;- # Imprime el valor de la variable x x  ">
   <meta name="robots" content="index,follow">
   
-  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/tutoriales/">
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/r/variables-r/">
 
   
 
@@ -84,7 +87,7 @@
   <script>
     var dataLayer = window.dataLayer = window.dataLayer || [];
     dataLayer.push({
-      page:'Recursos y Tutoriales',
+      page:'Fundamentos de R',
       categories:''
     });
   </script>
@@ -97,15 +100,15 @@
   
   
   
-  <link rel="alternate" href="https://www.marcusrb.com/tutoriales/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
-  <link rel="feed" href="https://www.marcusrb.com/tutoriales/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="alternate" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="feed" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/tutoriales/">
+  <link rel="canonical" href="https://www.marcusrb.com/r/variables-r/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -113,16 +116,21 @@
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Analítica de Datos">
-  <meta property="og:url" content="https://www.marcusrb.com/tutoriales/">
-  <meta property="og:title" content="Recursos y Tutoriales | MarcusRB: consultor &amp; docente Analítica de Datos">
-  <meta property="og:description" content="10 años de experiencia como consultor y docente freelance Data &amp; Digital Analyst, tráfico SEM-PPC, desarrollo e implementación tags con Adobe DTM y Google Tag Manager.">
+  <meta property="og:url" content="https://www.marcusrb.com/r/variables-r/">
+  <meta property="og:title" content="Fundamentos de R | MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:description" content="# Variables y asignaciones Un concepto básico en programación es el de variable.
+Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.
+Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &lt;- 4
+# Asigna 42 a x x &lt;- # Imprime el valor de la variable x x  ">
   
   
     
   <meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="og:locale" content="es-ES">
   
-  <meta property="og:updated_time" content="2018-12-02T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2018-09-09T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2018-11-30T00:00:00&#43;01:00">
   
 
   
@@ -307,38 +315,18 @@
 <nav class="collapse docs-links" id="docs-nav">
   
   
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/r/">Introducción R</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/r/introduccion-r/">Fundamentos de R</a>
+
+  </div>
+  
   <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/tutoriales/">Índice</a>
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutoriales/gas/">GoogleAppsScript</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutoriales/gas/">GAS - Google AppsScripts</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutoriales/hugo/">Hugo</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutoriales/hugo/">Install</a>
-      </li>
-      
-      <li >
-        <a href="/tutoriales/update/">Update</a>
-      </li>
-      
-    </ul>
-    
+    <a class="docs-toc-link" href="/r/variables-r/">Variables R</a>
 
   </div>
   
@@ -368,24 +356,22 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Recursos y Tutoriales</h1>
+          <h1 itemprop="name">Fundamentos de R</h1>
 
           <div class="article-style" itemprop="articleBody">
-            <p>En esta sección se publicarán mis proyectos, recursos y tutoriales de:</p>
+            <p># Variables y asignaciones
+Un concepto básico en programación es el de variable.</p>
 
-<ul>
-<li><a href="/moocGTM/"><strong>Google Tag Manager</strong></a></li>
-<li><strong>Analítica Digital</strong></li>
-<li><a href="gas" target="_blank"><strong>Google Apps Script</strong></a></li>
-<li><a href="/r/"><strong>Lenguaje R</strong></a></li>
-<li><strong>IoT Internet de las cosas</strong></li>
-<li><strong>Arduino y Raspberry Pi</strong></li>
-<li><strong>Machine Learning</strong></li>
-<li><strong>Python</strong></li>
-<li><strong>AI Artificial Intelligence</strong></li>
-<li><a href="/data-science/"><strong>Data Science</strong></a></li>
-<li><strong>y más&hellip;</strong></li>
-</ul>
+<p>Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.</p>
+
+<p>Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &lt;- 4</p>
+
+<pre><code># Asigna 42 a x
+x &lt;-
+
+# Imprime el valor de la variable x
+x
+</code></pre>
 
           </div>
 
@@ -394,7 +380,7 @@
         </div>
 
         <div class="body-footer">
-          Última actualización el Dec 2, 2018
+          Última actualización el Nov 30, 2018
         </div>
 
       </article>

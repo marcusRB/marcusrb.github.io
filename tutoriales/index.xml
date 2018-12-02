@@ -7,20 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://www.marcusrb.com/tutoriales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#moocGTM - Webinars Google Tag Manager</title>
-      <link>https://www.marcusrb.com/tutoriales/moocgtm/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      <title>GAS - Google AppsScripts</title>
+      <link>https://www.marcusrb.com/tutoriales/gas/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://www.marcusrb.com/tutoriales/moocgtm/example/</guid>
+      <guid>https://www.marcusrb.com/tutoriales/gas/</guid>
       <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
 Tip 1 &amp;hellip;
 Tip 2 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://www.marcusrb.com/tutoriales/hugo/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/hugo/</guid>
+      <description>You can choose from one of the following four methods to install:
+ one-click install using your web browser (recommended) install on your computer using Git with the Command Prompt/Terminal app install on your computer by downloading the ZIP files install on your computer with RStudio  Hugo v0.49+ is required if installing on your computer.
+Install with web browser  Install Academic with Netlify  Netlify will provide you with a customizable URL to access your new site  On GitHub, go to your newly created academic-kickstart repository and edit config.</description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <link>https://www.marcusrb.com/tutoriales/update/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tutoriales/update/</guid>
+      <description>The update process consists of:
+ Preparation Updating Academic Migrating your content front matter and configuration by applying any relevant breaking changes  Feel free to star Academic on Github to help keep track of updates and check out the release notes to learn what&amp;rsquo;s new.
+Preparation Before updating Academic, it is strongly recommended to make a full backup of your website folder (including themes/academic/).
+Then, record your current version, so that after you update Academic, you can apply any relevant breaking changes to the TOML/YAML site configuration and front matter in your content/ folder.</description>
     </item>
     
   </channel>
