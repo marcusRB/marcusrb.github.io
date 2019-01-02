@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analytics on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/tags/analytics/</link>
+    <description>Recent content in analytics on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 11:59:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Seguimiento de multidominios en Google Analytics</title>
+      <link>https://www.marcusrb.com/seguimiento-multidominios-google-analytics/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/seguimiento-multidominios-google-analytics/</guid>
+      <description>Índice    Seguimiento de multidominios  Google Universal Analytics Google Analytics global Tags   Este contenido se actualizará en la sección Tutoriales
+ Seguimiento de multidominios Vamos a explorar algunas opciones del programa que nos dejamos en el tintero en módulos anteriores pero que sirven para dotar al experto de todas las herramientas necesarias para salir al paso de las situaciones inesperadas sin necesidad de la ayuda de un desarrollador informático.</description>
+    </item>
+    
+  </channel>
+</rss>

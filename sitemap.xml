@@ -12,14 +12,6 @@
     
     <url>
     
-      <loc>https://www.marcusrb.com/moocgtm/</loc>
-      <lastmod>2018-12-02T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://www.marcusrb.com/tutoriales/gas/</loc>
       <lastmod>2018-12-02T00:00:00+01:00</lastmod>
     </url>
@@ -61,6 +53,14 @@
     <url>
     
       <loc>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/seguimiento-multidominios-google-analytics/</loc>
       <lastmod>2018-10-28T11:59:35+01:00</lastmod>
     </url>
     
@@ -652,7 +652,7 @@
     <url>
     
       <loc>https://www.marcusrb.com/categories/google-analytics/</loc>
-      <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -801,6 +801,15 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/tags/analytics/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/tags/analytics-eventos/</loc>
       <lastmod>2018-04-22T21:34:51+00:00</lastmod>
       <priority>0</priority>
@@ -893,6 +902,15 @@
     
       <loc>https://www.marcusrb.com/tags/configuraci%C3%B3n-google-tag-manager/</loc>
       <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.marcusrb.com/tags/configuraci%C3%B3n-multidominios/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1161,6 +1179,15 @@
     
     <url>
     
+      <loc>https://www.marcusrb.com/tags/hostname/</loc>
+      <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.marcusrb.com/tags/hugo/</loc>
       <lastmod>2018-10-14T19:32:17+02:00</lastmod>
       <priority>0</priority>
@@ -1343,15 +1370,6 @@
     
       <loc>https://www.marcusrb.com/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</loc>
       <lastmod>2018-05-02T13:32:16+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://www.marcusrb.com/tags/pasos-comercio-electronico-tag-manager/</loc>
-      <lastmod>2018-01-05T14:58:24+00:00</lastmod>
       <priority>0</priority>
     </url>
     

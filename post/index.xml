@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>Seguimiento de multidominios en Google Analytics</title>
+      <link>https://www.marcusrb.com/seguimiento-multidominios-google-analytics/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/seguimiento-multidominios-google-analytics/</guid>
+      <description>Índice    Seguimiento de multidominios  Google Universal Analytics Google Analytics global Tags   Este contenido se actualizará en la sección Tutoriales
+ Seguimiento de multidominios Vamos a explorar algunas opciones del programa que nos dejamos en el tintero en módulos anteriores pero que sirven para dotar al experto de todas las herramientas necesarias para salir al paso de las situaciones inesperadas sin necesidad de la ayuda de un desarrollador informático.</description>
+    </item>
+    
+    <item>
       <title>Adiós Wordpress, Bienvenido Hugo</title>
       <link>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</link>
       <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
@@ -268,8 +278,7 @@ Googleando me sale este primer resultado, que bien finalmente alguien que lo acl
       <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
       
       <guid>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
-      <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente, especialmente si queremos realizarlo integramente en proyectos personalizados, sitios web ad-hoc donde no utilizan especificamente plugin o módulos free, ejemplo un híbrido de Magento, Prestashop o similar.
-La cuestión es ir explicar paso a paso como grabar los eventos más utilizados de un comercio electrónico, y no solo transacciones.</description>
+      <description>Índice    Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente, Conceptos generales del comercio electrónico en Tag Manager  Comercio electrónico clásico de Google Analytics Comercio electrónico mejorado de Google Analytics Comercio electrónico estándar Comercio electrónico mejorado  Implementación de capa de datos      Este contenido se actualizará en la sección Tutoriales</description>
     </item>
     
     <item>
@@ -315,8 +324,7 @@ Desde que comencé a enamorarme de Tag Manager, fue en 2013, y gracias a la comu
       <pubDate>Tue, 23 May 2017 09:34:43 +0000</pubDate>
       
       <guid>https://www.marcusrb.com/no-conversiones-hago/</guid>
-      <description>Heading
- &amp;lt;h2&amp;gt;Si estás leyendo esta entrada seguramente eres uno de ellos. Noo? Mejor, pero seguramente quieres saber algo más sobre Analítica Web y conversiones. &amp;lt;/h2&amp;gt; Es una de las preguntas que más oigo a muchos posibles clientes, que me llaman o me envian mail y alumnos. Que pasa cuando no hay conversiones? Que más tengo que hacer, o estrategia tengo que seguir? Que estoy haciendo mal? Todas a estas y más preguntas, existen unas respuestas estándar y otras de sugerencias para detectar el mejor camino.</description>
+      <description>Heading &amp;lt;h2&amp;gt;Si estás leyendo esta entrada seguramente eres uno de ellos. Noo? Mejor, pero seguramente quieres saber algo más sobre Analítica Web y conversiones. &amp;lt;/h2&amp;gt; Es una de las preguntas que más oigo a muchos posibles clientes, que me llaman o me envian mail y alumnos. Que pasa cuando no hay conversiones? Que más tengo que hacer, o estrategia tengo que seguir? Que estoy haciendo mal? Todas a estas y más preguntas, existen unas respuestas estándar y otras de sugerencias para detectar el mejor camino.</description>
     </item>
     
     <item>

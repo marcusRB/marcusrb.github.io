@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  
+  <title>Seguimiento de multidominios en Google Analytics | MarcusRB</title>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="MarcusRB">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de Google Tag Manager">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/seguimiento-multidominios-google-analytics/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+
+  
+  
+  
+  <script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'Seguimiento de multidominios en Google Analytics',
+      categories:''
+    });
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+  
+  
+  
+  
+  <link rel="alternate" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <link rel="feed" href="https://www.marcusrb.com/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Analítica de Datos">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/seguimiento-multidominios-google-analytics/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:url" content="https://www.marcusrb.com/seguimiento-multidominios-google-analytics/">
+  <meta property="og:title" content="Seguimiento de multidominios en Google Analytics | MarcusRB: consultor &amp; docente Analítica de Datos">
+  <meta property="og:description" content="Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de Google Tag Manager">
+  
+  
+    
+  <meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="og:locale" content="es-ES">
+  
+  <meta property="article:published_time" content="2018-10-28T11:59:35&#43;01:00">
+  
+  <meta property="article:modified_time" content="2018-10-28T11:59:35&#43;01:00">
+  
+
+  
+
+  
+
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Inicio</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Servicios</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutoriales/">
+            
+            <span>Recursos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#teaching">
+            
+            <span>Formación</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contactos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Seguimiento de multidominios en Google Analytics</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MarcusRB">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-10-28 11:59:35 &#43;0100 CET" itemprop="datePublished">
+    <time datetime="2018-10-28 11:59:35 &#43;0100 CET" itemprop="dateModified">
+      Oct 28, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MarcusRB">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min de lectura
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/seguimiento-multidominios-google-analytics/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/google-analytics/">Google Analytics</a>
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Seguimiento%20de%20multidominios%20en%20Google%20Analytics&amp;url=https%3a%2f%2fwww.marcusrb.com%2fseguimiento-multidominios-google-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.marcusrb.com%2fseguimiento-multidominios-google-analytics%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.marcusrb.com%2fseguimiento-multidominios-google-analytics%2f&amp;title=Seguimiento%20de%20multidominios%20en%20Google%20Analytics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.marcusrb.com%2fseguimiento-multidominios-google-analytics%2f&amp;title=Seguimiento%20de%20multidominios%20en%20Google%20Analytics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Seguimiento%20de%20multidominios%20en%20Google%20Analytics&amp;body=https%3a%2f%2fwww.marcusrb.com%2fseguimiento-multidominios-google-analytics%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+</div>
+
+
+
+  <div class="article-container">
+      
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h3>Índice</h3>
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#seguimiento-de-multidominios">Seguimiento de multidominios</a></li>
+</ul></li>
+<li><a href="#google-universal-analytics">Google Universal Analytics</a></li>
+<li><a href="#google-analytics-global-tags">Google Analytics global Tags</a></li>
+</ul>
+</nav>
+
+
+<div class="alert alert-note">
+  <p>Este contenido se actualizará en la sección <a href="/tutoriales"><strong>Tutoriales</strong></a></p>
+
+</div>
+
+
+<h2 id="seguimiento-de-multidominios">Seguimiento de multidominios</h2>
+
+<p>Vamos a explorar algunas opciones del programa que nos dejamos en el tintero en módulos anteriores pero que sirven para dotar al experto de todas las herramientas necesarias para salir al paso de las situaciones inesperadas sin necesidad de la ayuda de un desarrollador informático.</p>
+
+<p>Desde que se cambió el código javascript de analytics de ga.js a analytics.js, el seguimiento de subdominios de una propiedad se realiza de manera automática; pero, ¿y si tenemos un sistema de multidominios? Esto es, pongamos que nuestra empresa tiene varias webs, por ejemplo www.ejemplo1.com y www.ejemplo2.com, y queremos que los datos de ambas webs entren dentro de una misma propiedad; o tenemos el carrito de compra alojado en otra web y queremos que esos datos aparezcan en la misma propiedad.</p>
+
+<p>Es decir, Analytics contará las visitas que sucedan en los dos sitios como si pertenecieran a una sola propiedad.</p>
+
+<p>A. Configuración</p>
+
+<p>Tenemos que editar el código de seguimiento de Analytics en varios dominios (el mismo código que utilizamos al final del módulo 5.1 para comenzar el seguimiento en Analytics).</p>
+
+<ol>
+<li>Configuración manual</li>
+</ol>
+
+<p>Dominio principal (www.ejemplo1.com)</p>
+
+<ul>
+<li><p>Creamos una propiedad en la cuenta como normalmente haríamos, y utilizamos el ID y el código de seguimiento para meterlo en todas las páginas del dominio principal, pero todavía no lo introducimos. Hacemos varias copias de este código y denominamos a la primera “dominio principal”, que pasamos a editar.</p></li>
+
+<li><p>Editamos el código de seguimiento que incluiríamos en uno de los dos dominios, en este caso, www.ejemplo1.com, que consideraremos como principal.</p></li>
+</ul>
+
+<p>Recordemos que de manera estándar, en el código podremos localizar la frase:</p>
+
+<blockquote>
+<h1 id="google-universal-analytics">Google Universal Analytics</h1>
+
+<pre><code>  ga (‘create’, ‘UA-xxxxxx-Y’, ‘auto’). Pues para linkar un dominio al otro, tendremos que modificar ‘auto’ por lo siguiente:
+
+  ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', [ejemplo2.com'] );
+</code></pre>
+
+<h1 id="google-analytics-global-tags">Google Analytics global Tags</h1>
+</blockquote>
+
+<pre><code>  ga (‘create’, ‘UA-xxxxxx-Y’, ‘auto’). Pues para linkar un dominio al otro, tendremos que modificar ‘auto’ por lo siguiente:
+
+  ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', [ejemplo2.com'] );
+</code></pre>
+
+<p>Y de este modo ya lo tendríamos configurado. En caso de tener más de dos dominios, simplemente cambiaríamos la última línea, ampliándola de este modo en función del número de dominios que tengamos:</p>
+
+<pre><code>  ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', [ejemplo2.com', ‘ejemplo3.com’, ‘ejemplo4.com’] );
+</code></pre>
+
+<p>Una vez realizado los cambios en un editor de texto (recomendamos el uso de Sublime Text), insertaremos este código, como indicamos en el primer módulo, en la etiqueta <head> de todas las páginas del Website principal.</p>
+
+<p>Dominio secundario (www.ejemplo2.com)</p>
+
+<p>Tomamos una de las copias que hicimos del código en el paso anterior, la nombramos “dominio secundario” (estos nombres son arbitrarios, simplemente para evitar liarnos después).</p>
+
+<p>Localizamos la misma línea de código de antes.</p>
+
+<p>Lo editamos de la misma manera, solo que esta vez, en vez de los dominios secundarios, introducimos el dominio principal, de modo que quedará así:</p>
+
+<pre><code>ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', [ejemplo1.com'] );
+</code></pre>
+
+<p>Del mismo modo, si tenemos más de dos dominios, añadiremos al código los nombres del resto de dominios</p>
+
+<pre><code>ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', [ejemplo1.com', ‘ejemplo3.com’, ‘ejemplo4.com’] );
+</code></pre>
+
+<p>A continuación, mostramos cómo quedaría el código completo para el dominio secundario (cuando solo hay uno principal y uno secundario), que evidentemente insertaríamos en el <head> de todas las páginas del website secundario:</p>
+
+<pre><code>&lt;script&gt;
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['example-1.com'] );
+ga('send', 'pageview');
+&lt;/script&gt;
+</code></pre>
+
+<p>2- Configuración con Google Tag Manager</p>
+
+<p>Mediante este programa tenemos dos maneras de realizar el seguimiento multisite, con etiquetas de decorador de enlace o mediante Dominios de enlace automático. Para ver sus características, consultad este cuadro resumen:</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/configuraci%C3%B3n-multidominios/">configuración multidominios</a>
+  
+  <a class="badge badge-light" href="/tags/analytics/">analytics</a>
+  
+  <a class="badge badge-light" href="/tags/hostname/">hostname</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "marcusRB" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//marcusRB.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "",
+        'results': "",
+        'no_results': ""
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Conferencias"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
