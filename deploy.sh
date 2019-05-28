@@ -31,7 +31,7 @@ echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echobold "The following directories are set."
 
 ROOT="/Users/marcusrb/Documents/DEV"
-WEBSITE="${ROOT}/dev_marcusrb"
+WEBSITE="${ROOT}/dev_hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
 echo "Root directory____________ ${ROOT}"
