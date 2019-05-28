@@ -30,7 +30,7 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-ROOT="/Users/marcusrb/Documents/GitHub"
+ROOT="/Users/marcusrb/Documents/DEV"
 WEBSITE="${ROOT}/dev_marcusrb"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
