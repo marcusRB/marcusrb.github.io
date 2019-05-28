@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lenguaje r on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/tags/lenguaje-r/</link>
+    <description>Recent content in lenguaje r on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/tags/lenguaje-r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Análisis de datos con R</title>
+      <link>https://www.marcusrb.com/project/analisis-datos-con-r/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/project/analisis-datos-con-r/</guid>
+      <description>Se pondrán ejemplos de lenguaje R para Data Mining</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analítica Web on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/categories/anal%C3%ADtica-web/</link>
+    <description>Recent content in Analítica Web on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 29 May 2018 21:35:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/categories/anal%C3%ADtica-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
+      <link>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <description>Aquí la configuración optima con Google Tag Manager y CookieBot para estar protegido desde el 25 de Mayo con la nueva ley de protección de datos GDPR</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué tengo pocas visitas?</title>
+      <link>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</link>
+      <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</guid>
+      <description>Un sitio web de comercio electrónico o la presencia de una empresa en Internet no es un juego. Los principales objetivos siguen siendo el incremento de ventas, la reducción de costes y la fidelización de clientes.</description>
+    </item>
+    
+    <item>
+      <title>Webinar MarketingDirectoSchool – Detectando las necesidades de la analítica web</title>
+      <link>https://www.marcusrb.com/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</guid>
+      <description>El pasado Jueves 22 de Marzo se emitió en directo el primer webinar de analítica web con la colaboración de MarketingDirectoSchool</description>
+    </item>
+    
+    <item>
+      <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
+      <link>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <description>Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado</description>
+    </item>
+    
+    <item>
+      <title>No Tengo Conversiones, Que Hago?</title>
+      <link>https://www.marcusrb.com/no-conversiones-hago/</link>
+      <pubDate>Tue, 23 May 2017 09:34:43 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/no-conversiones-hago/</guid>
+      <description>Heading &amp;lt;h2&amp;gt;Si estás leyendo esta entrada seguramente eres uno de ellos. Noo? Mejor, pero seguramente quieres saber algo más sobre Analítica Web y conversiones. &amp;lt;/h2&amp;gt; Es una de las preguntas que más oigo a muchos posibles clientes, que me llaman o me envian mail y alumnos. Que pasa cuando no hay conversiones? Que más tengo que hacer, o estrategia tengo que seguir? Que estoy haciendo mal? Todas a estas y más preguntas, existen unas respuestas estándar y otras de sugerencias para detectar el mejor camino.</description>
+    </item>
+    
+  </channel>
+</rss>
