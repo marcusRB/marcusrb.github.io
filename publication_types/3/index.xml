@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/publication_types/3/</link>
+    <description>Recent content in 3 on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://www.marcusrb.com/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/publication/preprint/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
+    </item>
+    
+  </channel>
+</rss>

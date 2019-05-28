@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seminario google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/tags/seminario-google-tag-manager/</link>
+    <description>Recent content in seminario google tag manager on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 11:59:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/tags/seminario-google-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#MoocGTM Seminario Online Google Tag Manager</title>
+      <link>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</guid>
+      <description>Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de Google Tag Manager</description>
+    </item>
+    
+  </channel>
+</rss>
