@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>estrategias pujas inteligentes on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/tags/estrategias-pujas-inteligentes/</link>
+    <description>Recent content in estrategias pujas inteligentes on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 08 Apr 2018 20:25:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/tags/estrategias-pujas-inteligentes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El Machine Learning aplicado a Google AdWords</title>
+      <link>https://www.marcusrb.com/el-machine-learning-aplicado-a-google-adwords/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/el-machine-learning-aplicado-a-google-adwords/</guid>
+      <description>Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servicios on MarcusRB: consultor &amp; docente Analítica de Datos</title>
+    <link>https://www.marcusrb.com/servicios/</link>
+    <description>Recent content in Servicios on MarcusRB: consultor &amp; docente Analítica de Datos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 19 Feb 2019 18:31:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.marcusrb.com/servicios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formación in-company y Escuelas de negocios</title>
+      <link>https://www.marcusrb.com/servicios/formacion/</link>
+      <pubDate>Tue, 19 Feb 2019 18:31:41 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/formacion/</guid>
+      <description>Realizo formaciones personalizadas a empresas y a escuelas de negocios de herramientas de analítica web, performance y análisis de datos</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Google Analytics</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-google-analytics/</link>
+      <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-google-analytics/</guid>
+      <description>Con este servicio de auditoria e correcta configuración de la herramienta de análisis web, Google Analytics</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Google Tag Manager</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</guid>
+      <description>Con una auditoria y creación de un plan de medición, pasando por la implementación en Google Tag Manager a su sitio web y app móvil para etiquetar eventos de interacción</description>
+    </item>
+    
+  </channel>
+</rss>
