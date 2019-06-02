@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 17:52:54 +0100</lastBuildDate>
     
 	<atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>estadistica descriptiva</title>
+      <link>https://www.marcusrb.com/tags/estadistica-descriptiva/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/estadistica-descriptiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google analytics</title>
+      <link>https://www.marcusrb.com/tags/google-analytics/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r studio</title>
+      <link>https://www.marcusrb.com/tags/r-studio/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/r-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enhanced ecommerce</title>
+      <link>https://www.marcusrb.com/tags/enhanced-ecommerce/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/enhanced-ecommerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medición de comercio electronico</title>
+      <link>https://www.marcusrb.com/tags/medici%C3%B3n-de-comercio-electronico/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/medici%C3%B3n-de-comercio-electronico/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Source Themes</title>
@@ -18,6 +63,24 @@
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>https://www.marcusrb.com/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consejos configuración</title>
+      <link>https://www.marcusrb.com/tags/consejos-configuraci%C3%B3n/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/consejos-configuraci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medicion analitica web</title>
+      <link>https://www.marcusrb.com/tags/medicion-analitica-web/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/medicion-analitica-web/</guid>
       <description></description>
     </item>
     
@@ -54,6 +117,42 @@
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRO</title>
+      <link>https://www.marcusrb.com/tags/cro/</link>
+      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/cro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analitica web</title>
+      <link>https://www.marcusrb.com/tags/analitica-web/</link>
+      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/analitica-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimizar conversiones</title>
+      <link>https://www.marcusrb.com/tags/optimizar-conversiones/</link>
+      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/optimizar-conversiones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>posicionamiento seo</title>
+      <link>https://www.marcusrb.com/tags/posicionamiento-seo/</link>
+      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/posicionamiento-seo/</guid>
       <description></description>
     </item>
     
@@ -594,15 +693,6 @@
       <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
       
       <guid>https://www.marcusrb.com/tags/smart-bidding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>analitica web</title>
-      <link>https://www.marcusrb.com/tags/analitica-web/</link>
-      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
-      
-      <guid>https://www.marcusrb.com/tags/analitica-web/</guid>
       <description></description>
     </item>
     
