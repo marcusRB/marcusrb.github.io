@@ -1204,13 +1204,4 @@
     <priority>0</priority>
   </url>
   
-  <url>
-    <loc>https://www.marcusrb.com/slides/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/slides/example/</loc>
-  </url>
-  
 </urlset>
