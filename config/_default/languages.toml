@@ -30,7 +30,7 @@
 
 [[es.menu.main]]
   name = "Servicios"
-  url = "#publications_selected"
+  url = "/servicios"
   weight = 2
 
 [[es.menu.main]]
@@ -40,7 +40,7 @@
 
 [[es.menu.main]]
   name = "Proyectos"
-  url = "#proyectos"
+  url = "/tutorial"
   weight = 4
 
 [[es.menu.main]]

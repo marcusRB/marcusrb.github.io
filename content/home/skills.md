@@ -36,7 +36,7 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Programming"
-  description = "50%"  
+  description = "60%"  
 
 [[feature]]
   icon = "tags"

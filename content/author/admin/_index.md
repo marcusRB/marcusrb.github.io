@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "10 años de experiencia como consultor y docente Consultor Data & Business Analyst, tráfico SEM-PPC, desarrollo e implementación Tag Management."
+role = "10 años de experiencia como consultor • docente • freelance en Data & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning área Big Data"
 
 
 # Organizations/Affiliations
@@ -17,7 +17,7 @@ role = "10 años de experiencia como consultor y docente Consultor Data & Busine
 #organizations = [ { name = "Stanford University", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "10 años de experiencia como consultor y docente Consultor Data & Business Analyst, tráfico SEM-PPC, desarrollo e implementación Tag Management."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "contact.marcusrb@gmail.com"
@@ -37,6 +37,11 @@ interests = [
 user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "Data Engineering for Data Science"
+  institution = "UOC University"
+  year = 2019
+
 [[education.courses]]
   course = "Business Intelligence & Data Analytics"
   institution = "UOC University"
@@ -90,30 +95,40 @@ user_groups = ["Researchers", "Visitors"]
 #   link = "files/cv.pdf"
 
 +++
+## Consultor Data Manager
 
-## Consultor Digital Data Analyst
+  - Consultoría infraestructuras Big Data.
+  - Data prep and processing
+  - Data mining
+  - Business Intelligence y Big Data Analyst.
+  - Data Modeling
+  - Data Visualization
+
+## Digital Marketing Analyst
 
   - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
   - Auditoría Web & SEO
   - Implementación y Reporting Analítica digital, Tag Management, Data Analysis
   - CRO y UX, Data Visualization
-  - Business Intelligence y Big Data Analyst.
 
-Amplia experiencia en el manejo de grandes cuentas de clientes de servicios, retails y corporate. Muchos sectores industriales, comerciales no solo en España, también en muchos países de Europa y LATAM; además en diferentes idiomas.
+Amplia experiencia en la gestión de grandes cuentas para diferentes clientes principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además en diferentes idiomas.
 
-### Formador in-company & Docente:
+### Docente & formador in-company:
 
-En los últimos [6 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/), casi 1000 horas de formación en:
+En los últimos [6 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1000 horas de formación en:
 
-- **marketing digital**, Google AdWords, Analytics, Tag Manager, Optimize.
+- **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
 - **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
-- **data analytics**, fundamentos y Data mining en R, machine learning Python, visualización de datos en Google Data Studio, Power BI y Tableau.
+- **data analytics**, fundamentos y Data mining en R, machine learning Python
+- **data visualization**, visualización de datos e interpretación con cuadro de mando en Google Data Studio, PowerBI, Tableau, Qlik View.
 
-Principalmente en escuelas de negocios cuáles EAE Business School, IIM Internacional de Marketing, IEDGE Business School. Escuelas de formación presencial como AdveiSchool y Aula Creactiva.
+principalmente en escuelas de negocios entre ellas, EAE Business School, IIM Internacional de Marketing, IEDGE Business School, IFM Business School. Escuelas de formación presencial: AdveiSchool y Aula Creactiva. Colaborador en la UOC Universitat Oberta Catalunya
 
-  - Presencial en la impartición de módulos de Digital Marketing en la Cámara de Comercio de Madrid.
+  - Presencial en la impartición de módulos de digital marketing & eCommerce en la Cámara de Comercio de Madrid.
   - Seminarios, Congresos internacionales.
 
-  Próximamente más cursos tanto presencial que a distancia **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
+  PRÓXIMOS cursos:
 
-  Además estaré impartiendo un curso de Data Analytics con Excel, PowerBI y Tableau en **NEOLAND**, más info en [Neoland](https://www.neoland.es/curso-data-analytics)
+  - **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
+
+  - Además estaré impartiendo un curso de Data Analytics con Excel, PowerBI y Tableau en **NEOLAND**, más info en [Neoland](https://www.neoland.es/curso-data-analytics)

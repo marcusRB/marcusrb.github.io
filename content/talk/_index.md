@@ -24,4 +24,4 @@ Curso de Data Analytics con Excel, PowerBI y Tableau - [Neoland](https://www.neo
 =======
 Aquí el resumen de todos los cursos realizados, másters y programas de postgrado a largo de estos 6 años en empresas de educación superior, escuelas de negocios y PP.AA.: (Cámara de Madrid y de Alcalá de Henares, EAE Business School, Adveischool, KPI’s escuela digital, IIM Instituto Internacional de Marketing, DigitalBrain, IEDGE Business School, IEBS Business School…)
 
-[6 años de formación y docencia en España](http://localhost:1313/6-anos-cumplidos-docente-marketing-digital-espana/)
+[6 años de formación y docencia en España](/6-anos-cumplidos-docente-marketing-digital-espana/)
