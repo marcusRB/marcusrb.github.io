@@ -131,4 +131,4 @@ principalmente en escuelas de negocios entre ellas, EAE Business School, IIM Int
 
   - **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
 
-  - Además estaré impartiendo un curso de Data Analytics con Excel, PowerBI y Tableau en **NEOLAND**, más info en [Neoland](https://www.neoland.es/curso-data-analytics)
+  - Además estaré impartiendo un curso de Data Analytics con Excel, PowerBI y Tableau en **NEOLAND**, más info en [Neoland](https://www.neoland.es/curso-data-analytics) y el [**Máster en Data Science**](https://www.neoland.es/master-data-science?c=mad) en Madrid.
