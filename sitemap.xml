@@ -19,6 +19,64 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/authors/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/formaci%C3%B3n/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/importancia-big-data-empresas/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/post/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/big-data/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/escuelas-negocio/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/categories/anal%C3%ADtica-datos/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
     <priority>0</priority>
@@ -30,29 +88,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/</loc>
-    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/post/</loc>
-    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/tags/estadistica-descriptiva/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
     <priority>0</priority>
@@ -60,12 +95,6 @@
   
   <url>
     <loc>https://www.marcusrb.com/tags/google-analytics/</loc>
-    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
     <priority>0</priority>
   </url>

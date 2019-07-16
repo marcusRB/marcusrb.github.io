@@ -37,6 +37,38 @@
     </item>
     
     <item>
+      <title>La importancia del big data en las empresas</title>
+      <link>https://www.marcusrb.com/importancia-big-data-empresas/</link>
+      <pubDate>Tue, 16 Jul 2019 17:52:54 +0100</pubDate>
+      
+      <guid>https://www.marcusrb.com/importancia-big-data-empresas/</guid>
+      <description>&lt;p&gt;Han pasado casi 10 años cuando el término &lt;strong&gt;big data&lt;/strong&gt; se puso tan popular en España, que no solo el área de tecnologías, sino en todos los sectores y principalmente hubo un auge en banca y finanza, campo médico, marketing y operaciones, logística llegando al sector educativo.&lt;/p&gt;
+
+&lt;p&gt;Cuando hablamos de big data nos referimos principalmente a ingestar grandes cantidades de datos, y por grande nos referimos no a gigas, sino a teras o petabytes de informaciones, llegando a que la cantidad almacenada, principalmente en servidores cloud cuáles Amazon AWS, Google GCP y Microsoft Azure, las empresas se encontraron con un gran obstáculo, como poder explotarlos, quiénes son los roles y profesionales capaces de leer, limpiar, preparar y realizar gestiones con estos datos.&lt;/p&gt;
+
+&lt;p&gt;Si por Big Data nos referimos al tipo de dato, referente a los roles tenemos a 3 principales, junto con otros perfiles IT (cuáles podrían ser de seguridad, gobierno del dato, desarrolladores):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Engineer&lt;/strong&gt;: el arquitecto / ingeniero de los datos, este profesional es responsable de preparar la infraestructura, plataforma e ingestar los datos, verificar su integridad, seguridad y además, en la forma más rápida posible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Analyst / Business Analyst&lt;/strong&gt;: son los profesionales que gracias a sus técnicas de minería de datos, dan una visión general del negocio, generarán un primer insight con los datos, hasta incluso dan muchas de las respuestas que las demás figuras internas de negocio no obtienen siempre. Hay que decir que luchan constantemente con la preparación previa, transformarlos y sucesivamente integrarlos en tools de visualización para la creación de cuadro de mandos y dashboard listo para ser publicados en los comité directivos.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Scientist&lt;/strong&gt;: la figura más buscada en los últimos años, este rol tiene un perfil más matemático y estadístico de una organización. El realizará “magia” con los datos, creará nuevos algoritmos, aplicará modelos de predicciones y de aprendizaje automático. En línea con los stakeholders tomará las decisiones necesarias a los objetivos empresariales designados a principio.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estas figuras realmente siempre han existido, y desde hace más de 50 años. Pero mientras las nuevas tecnologías han ido evolucionando con el tiempo, se presentaron nuevas herramientas y nuevos desafíos que gracias a la aplicación de estadística y matemática, combinando los algoritmos y álgebra, estos roles han cobrado vida nuevamente, con otro nombre y más fuerte que nunca. Se definen como los empleados más &lt;em&gt;sexy del siglo XXI&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A ellos se suman las nuevas figuras de &lt;strong&gt;Business Intelligence&lt;/strong&gt;, o aquellos con una visión más comercial y de negocio,  otras que provienen principalmente de Telecos e IT, se han ido convirtiendo en estos nuevos roles demandados para las empresas. Se estiman que para 2020 la demanda de estas posiciones que sepan interpretar y crear nuevos modelos, que dan una vida propia a los datos, supera el millón en todo el mundo.&lt;/p&gt;
+
+&lt;p&gt;En España, por ejemplo, el crecimiento del término “master big data” y “master data science”, ha crecido en los últimos 5 años en un 250% (fuente Google Trends). Esto porque las ofertas de empleos han ido creciendo con un ritmo muy alto, y solo en los últimos 30 días a fecha de este post, a un ritmo de 1200 ofertas (fuente Indeed).&lt;/p&gt;
+
+&lt;p&gt;Es por este motivo que la oferta educativa también juega un papel muy importante. La formación profesional, carreras y grados, máster y posgrados en universidades y centros privados, han crecido y mejorado en los últimos meses, y adaptadas a lo que realmente las empresas están demandando.  Gracias a una &lt;a href=&#34;https://www.iep.edu.es/mba-online/especialidad-en-business-intelligence-y-big-data&#34; target=&#34;_blank&#34;&gt;formación en big data&lt;/a&gt;, los profesionales pueden desarrollar las habilidades solicitadas cubriendo todas las necesidades que el mismo mercado está requiriendo, desde una visión global de negocio, a las técnicas de análisis de datos avanzada, creando nuevos escenarios y ser capaces de transmitir estos resultados.&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;mercado laboral&lt;/strong&gt; ha crecido mucho gracias a estas nuevas posiciones, y la formación es una pieza muy importante para que siga generando empleo y pueda cubrir estas demandas. Incluso las empresas pueden aprovechar de estos centros educativos convirtiendo su papel en promotores, así participando para el crecimiento de los futuros profesionales y asegurando la calidad necesaria para que puedan estar a la altura del mercado laboral y siempre actualizados a las nuevas tecnologías.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Analítica web con R: análisis y visualización de datos</title>
       <link>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</link>
       <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
@@ -3068,7 +3100,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 
 &lt;p&gt;Sara es propietaria de un gran supermercado. En él vende productos de alimentación, higiene, cosmética, etc.&lt;/p&gt;
 
-&lt;p&gt;Sara puede saber qué productos son más o menos vendidos gracias a los resultados de las ventas, pero lo que no puede saber es cuántos clientes tenían interés por un producto de la marca A y finalmente eligieron la marca B. Para averiguar esto hay dos opciones: realizar encuestas o colocar sensores en una zona de los estantes de los productos para observar constantemente qué hace el cliente frente a éste. Pero ¿hacemos encuestas de todos los productos para saber qué piensan los clientes de cada uno de ellos? o ¿invertimos algo en tecnología para sensores, extraer datos, analizarlos como ciéntificos de datos y crear modelos matemáticos de cada unos de los productos?&lt;/p&gt;
+&lt;p&gt;Sara puede saber qué productos son más o menos vendidos gracias a los resultados de las ventas, pero lo que no puede saber es cuántos clientes tenían interés por un producto de la marca A y finalmente eligieron la marca B. Para averiguar esto hay dos opciones: realizar encuestas o colocar sensores en una zona de los estantes de los productos para observar constantemente qué hace el cliente frente a éste. Pero ¿hacemos encuestas de todos los productos para saber qué piensan los clientes de cada uno de ellos? o ¿invertimos algo en tecnología para sensores, extraer datos, analizarlos como científicos de datos y crear modelos matemáticos de cada unos de los productos?&lt;/p&gt;
 
 &lt;p&gt;Sería interesante conocer qué hacen los clientes en el supermercado, en qué productos se fijaron y cuál compraron finalmente o qué secciones son las que más visitan. Con estos datos podríamos descubrir los intereses de los clientes, detectar posibles problemas que hacen que elijan un producto en lugar de otro o, incluso, lanzar ofertas relacionadas con esas secciones que visitan mucho pero en las que no suelen comprar.&lt;/p&gt;
 
