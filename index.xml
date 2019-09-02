@@ -1071,42 +1071,14 @@ ga(&#39;ec:setAction&#39;, &#39;click&#39;, {       // click action.
     </item>
     
     <item>
-      <title>Formación in-company y Escuelas de negocios</title>
+      <title>Formación in-company y docencia en escuelas de negocios</title>
       <link>https://www.marcusrb.com/servicios/formacion/</link>
       <pubDate>Tue, 19 Feb 2019 18:31:41 +0000</pubDate>
       
       <guid>https://www.marcusrb.com/servicios/formacion/</guid>
       <description>
 
-&lt;h2 id=&#34;realizar-una-consultoría-y-o-auditoría-de-google-tag-manager&#34;&gt;Realizar una consultoría y/o auditoría de Google Tag Manager&lt;/h2&gt;
-
-&lt;p&gt;Google Tag Manager, la herramienta más utilizada para etiquetar eventos e interacciones, será el rol más importante para detectar nuevos insight en tu negocio, tener claro desde principio que medir y como medirlo,&lt;/p&gt;
-
-&lt;p&gt;El Administrador de etiquetas de Google es una gran herramienta para que los dueños de negocios o los equipos de marketing vean cómo funciona su sitio web: qué áreas están funcionando, qué rendimiento tiene bajo rendimiento, qué funciones no se están usando como creía, etc. Lo vemos como una excelente forma de recopilar datos de experiencia de usuario UX &lt;b&gt;&amp;ldquo;User Experience&amp;rdquo;&lt;/b&gt;, y mejorar el ratio de conversión, CRO &lt;b&gt;&amp;ldquo;Conversion Rate Optimization&amp;rdquo;&lt;/b&gt; en vivo en su sitio de clientes reales.&lt;/p&gt;
-
-&lt;p&gt;Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, &lt;b&gt;¿qué valor tiene?&lt;/b&gt; datos proporcionan en sí mismo para obtener más de su sitio web?).&lt;/p&gt;
-
-&lt;p&gt;### ¿Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/p&gt;
-
-&lt;p&gt;Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    Auditoría de sitios web y mapeo de etiquetas&amp;lt;br /&amp;gt;
-    Configuración y configuración&amp;lt;br /&amp;gt;
-    Aplicación y monitoreo&amp;lt;br /&amp;gt;
-    Formación&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;plan-de-implementación-de-tag-manager&#34;&gt;Plan de implementación de Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Google Tag Manager permite el etiquetado inmediato y la inserción de fragmentos de código a su sitio web, pero sin un experto en la mejor forma de configurarlo o vincularlo con su seguimiento actual de Google Analytics, puede parecer perdido. Realizaré la configuración y la migración de datos del Administrador de etiquetas de Google, lo que permite un seguimiento y generación de informes analíticos eficientes. En caso de ayuda, podré necesitaré apoyo de vustro departamento IT.&lt;/p&gt;
-
-&lt;p&gt;Os asesoraré para que el Administrador de etiquetas de Google será realizado de la mejor configuración junto con el mapeo de las etiquetas en función del objetivo de su sitio (lo que le permite realizar un seguimiento de todo, desde diferentes formularios de captura de clientes hasta clics de enlaces específicos).&lt;/p&gt;
-
-&lt;h3 id=&#34;auditoría-de-google-tag-manager&#34;&gt;Auditoría de Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, AdWords, FacebookAds u otros pixel de conversiones, además de todos los puntos de contacto llamados &lt;b&gt;micro-conversiones&lt;/b&gt;, pasos previo a su conversión.&lt;/p&gt;
-
-&lt;h3 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h3&gt;
+&lt;h2 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h2&gt;
 
 &lt;p&gt;Si tiene un equipo de marketing familiarizado con Google Analytics y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de Google, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
 
@@ -1834,71 +1806,90 @@ perdió su clase de redes&amp;quot;
 
 &lt;li&gt;&lt;p&gt;Inyección de un código como este:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;``` [language]
-Código en
-varias líneas
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;Citas&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; La vida es muy corta para aprender Alemán. -Tad Marburg
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Listas sin ordenación&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;* Un elemento en una lista no ordenada
-* Otro elemento en una lista
-- Un elemento más
-- Otro del listado
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Listas ordenadas&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;1. Elemento en una lista enumerada u ordenada.
-2. Otro elemento
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Enlaces con hipervínculo&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí](URL &amp;quot;Título del enlace&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Enlaces con referencia&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí][1]
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Imágenes&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;![Texto alternativo](URL &amp;quot;Título de la imagen&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;[language]&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.&lt;/p&gt;
+&lt;p&gt;Código en
+ varias líneas&lt;/p&gt;
 
-&lt;h3 id=&#34;publicaciones&#34;&gt;Publicaciones&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
 
-&lt;p&gt;Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea&amp;hellip;y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.&lt;/p&gt;
+- Citas
 
-&lt;p&gt;&lt;strong&gt;Exactamente que significa?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?&lt;/p&gt;
-
-&lt;p&gt;Hugo es diferente. No tiene base de datos, la única es tu ordenador, o &lt;strong&gt;compilador&lt;/strong&gt;. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
-&lt;pre&gt;
-  hugo server
-&lt;/pre&gt;&lt;/p&gt;
-
-&lt;p&gt;y con esto se abre la ruta siguiente:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada &lt;strong&gt;PUBLIC&lt;/strong&gt; donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La vida es muy corta para aprender Alemán. -Tad Marburg&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- Listas sin ordenación
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Un elemento en una lista no ordenada
+
+&lt;ul&gt;
+&lt;li&gt;Otro elemento en una lista&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Un elemento más&lt;/li&gt;
+&lt;li&gt;Otro del listado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;- Listas ordenadas
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Elemento en una lista enumerada u ordenada.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Otro elemento&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- Enlaces con hipervínculo
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;URL&#34; title=&#34;Título del enlace&#34; target=&#34;_blank&#34;&gt;Texto del enlace aquí&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- Enlaces con referencia
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;[Texto del enlace aquí][1]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- Imágenes
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;URL&#34; alt=&#34;Texto alternativo&#34; title=&#34;Título de la imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.
+
+### Publicaciones
+Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea...y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.
+
+__Exactamente que significa?__
+
+Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?
+
+Hugo es diferente. No tiene base de datos, la única es tu ordenador, o __compilador__. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
+&amp;lt;pre&amp;gt;
+  hugo server
+&amp;lt;/pre&amp;gt;
+
+y con esto se abre la ruta siguiente:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server &amp;ndash;disableFastRender
+Web Server is available at &lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt; (bind address 127.0.0.1)
+Press Ctrl+C to stop
+```
+De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada &lt;strong&gt;PUBLIC&lt;/strong&gt; donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:&lt;/p&gt;
 
 &lt;pre&gt;
   hugo
@@ -3663,8 +3654,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
       <guid>https://www.marcusrb.com/servicios/consultoria-google-analytics/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;img src=&amp;quot;https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png&amp;quot; alt=&amp;quot;logo_lockup_analytics_icon_vertical_black_2x&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png&#34; alt=&#34;logo_lockup_analytics_icon_vertical_black_2x&#34;/&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;como-realizar-una-consultoría-o-auditoría-de-google-analytics&#34;&gt;Como realizar una consultoría o auditoría de Google Analytics&lt;/h2&gt;
 
@@ -3692,8 +3682,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
       <guid>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</guid>
       <description>
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;img src=&amp;quot;https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png&amp;quot; alt=&amp;quot;plantilla-gtm-analytics&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png&#34; alt=&#34;plantilla-gtm-analytics&#34;/&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;realizar-una-consultoría-y-o-auditoría-de-google-tag-manager&#34;&gt;Realizar una consultoría y/o auditoría de Google Tag Manager&lt;/h2&gt;
 
@@ -3703,15 +3692,16 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 
 &lt;p&gt;Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, &lt;b&gt;¿qué valor tiene?&lt;/b&gt; datos proporcionan en sí mismo para obtener más de su sitio web?).&lt;/p&gt;
 
-&lt;p&gt;### ¿Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/p&gt;
+&lt;h3 id=&#34;que-servicio-incluye-el-servicio-de-consultoría-de-tag-manager&#34;&gt;Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/h3&gt;
 
 &lt;p&gt;Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    Auditoría de sitios web y mapeo de etiquetas&amp;lt;br /&amp;gt;
-    Configuración y configuración&amp;lt;br /&amp;gt;
-    Aplicación y monitoreo&amp;lt;br /&amp;gt;
-    Formación&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Auditoría de sitios web y mapeo de etiquetas&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Configuración y configuración&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Aplicación y monitoreo&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Formación&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;plan-de-implementación-de-tag-manager&#34;&gt;Plan de implementación de Tag Manager&lt;/h3&gt;
 
@@ -5006,11 +4996,46 @@ dataLayer.push({&amp;lt;br /&amp;gt;
 &lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;May 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ago 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;dataLayer avanzado I-II&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ago 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de visualización de datos y Google Data Studio&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;KPI&amp;rsquo;s digital school&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;br /&gt;
-* actualizado Enero 2019&lt;/p&gt;
+* actualizado Agosto 2019&lt;/p&gt;
 
 &lt;p&gt;Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en &lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/#contactos&#34;&gt;contacto conmigo&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 </description>
