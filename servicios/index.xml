@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 19 Feb 2019 18:31:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 18:43:20 +0000</lastBuildDate>
     
 	<atom:link href="https://www.marcusrb.com/servicios/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Formación in-company y docencia en escuelas de negocios</title>
+      <title>Consultoría en Business Intelligence y Business Analytics</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</guid>
+      <description>Servicios de</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Data Analytics</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-data-analytics/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-data-analytics/</guid>
+      <description>Servicio ofrecido para la consultoría de análisis exploratorio, visualización de datos, estadísticos</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Machine Learning</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-machine-learning/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-machine-learning/</guid>
+      <description>Servicio que ofrece creación de algoritmos de aprendizaje automático.</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Visualización de datos - DataViz</title>
+      <link>https://www.marcusrb.com/servicios/consultoria-visualizacion-datos/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/consultoria-visualizacion-datos/</guid>
+      <description>Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio.</description>
+    </item>
+    
+    <item>
+      <title>Formación in-company / docencia en escuelas de negocios</title>
       <link>https://www.marcusrb.com/servicios/formacion/</link>
       <pubDate>Tue, 19 Feb 2019 18:31:41 +0000</pubDate>
       
