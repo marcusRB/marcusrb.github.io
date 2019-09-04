@@ -10,6 +10,7 @@
   <url>
     <loc>https://www.marcusrb.com/</loc>
     <lastmod>2030-06-01T13:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -18,12 +19,58 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</loc>
+    <loc>https://www.marcusrb.com/proyectos/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/proyectos/r-studio/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/data-mining/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/lenguaje-r/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/machine-learning/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/consultoria-business-intelligence/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-data-analytics/</loc>
+    <loc>https://www.marcusrb.com/consultoria-data-analytics/</loc>
+    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/servicios/google-data-studio/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
@@ -33,52 +80,56 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/servicios/microstrategy/</loc>
+    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/servicios/consultoria-visualizacion-datos/</loc>
+    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/servicios/qlick-sense/</loc>
+    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/servicios/tableau/</loc>
+    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/servicios/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/authors/</loc>
     <lastmod>2019-07-16T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/big-data/</loc>
-    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/</loc>
     <lastmod>2019-07-16T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/escuelas-negocio/</loc>
-    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
-    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/formaci%C3%B3n/</loc>
     <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/importancia-big-data-empresas/</loc>
-    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
     <lastmod>2019-07-16T17:52:54+01:00</lastmod>
   </url>
   
@@ -88,13 +139,33 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/</loc>
+    <loc>https://www.marcusrb.com/tags/big-data/</loc>
     <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/escuelas-negocio/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
+    <lastmod>2019-07-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/anal%C3%ADtica-datos/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -105,26 +176,25 @@
   <url>
     <loc>https://www.marcusrb.com/tags/estadistica-descriptiva/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/google-analytics/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/r-studio/</loc>
     <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/anal%C3%ADtica-digital/</loc>
     <lastmod>2019-04-10T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/enhanced-ecommerce/</loc>
-    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -133,18 +203,21 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/enhanced-ecommerce/</loc>
+    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/medici%C3%B3n-de-comercio-electronico/</loc>
     <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/publication_types/3/</loc>
     <lastmod>2019-04-07T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -155,6 +228,7 @@
   <url>
     <loc>https://www.marcusrb.com/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -165,11 +239,13 @@
   <url>
     <loc>https://www.marcusrb.com/tags/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/consejos-configuraci%C3%B3n/</loc>
-    <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+    <loc>https://www.marcusrb.com/authors/admin/</loc>
+    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -178,8 +254,15 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/consejos-configuraci%C3%B3n/</loc>
+    <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/medicion-analitica-web/</loc>
     <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -198,48 +281,27 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/data-mining/</loc>
-    <lastmod>2019-02-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</loc>
-    <lastmod>2019-02-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/lenguaje-r/</loc>
-    <lastmod>2019-02-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/machine-learning/</loc>
-    <lastmod>2019-02-19T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/proyectos/</loc>
-    <lastmod>2019-02-19T00:00:00+01:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/cro/</loc>
+    <lastmod>2019-02-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/analitica-web/</loc>
     <lastmod>2019-02-10T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/cro/</loc>
-    <lastmod>2019-02-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/optimizar-conversiones/</loc>
     <lastmod>2019-02-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/posicionamiento-seo/</loc>
     <lastmod>2019-02-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -258,28 +320,33 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/categories/dataviz/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/crear-dashboards/</loc>
     <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/cuadros-de-mando/</loc>
     <lastmod>2019-01-12T17:52:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/dataviz/</loc>
-    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/soluciones-business-intelligence/</loc>
     <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/visualizaci%C3%B3n-de-datos/</loc>
     <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -288,28 +355,33 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/aprender-fundamentos-tag-manager/</loc>
-    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/categories/formacion/</loc>
     <lastmod>2018-10-28T11:59:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/seminario-google-tag-manager/</loc>
-    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/webinar/</loc>
     <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/aprender-fundamentos-tag-manager/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/seminario-google-tag-manager/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/webinar/</loc>
     <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -320,31 +392,49 @@
   <url>
     <loc>https://www.marcusrb.com/categories/frameworks/</loc>
     <lastmod>2018-10-14T19:32:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/hugo/</loc>
-    <lastmod>2018-10-14T19:32:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/markdown/</loc>
-    <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/programaci%C3%B3n/</loc>
     <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/hugo/</loc>
+    <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/markdown/</loc>
+    <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/programaci%C3%B3n/</loc>
     <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/wordpress/</loc>
     <lastmod>2018-10-14T19:32:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/facebookads/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/tag-manager/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -355,26 +445,19 @@
   <url>
     <loc>https://www.marcusrb.com/tags/creaci%C3%B3n-eventos/</loc>
     <lastmod>2018-10-14T13:00:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/facebookads/</loc>
-    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/google-tag-manager/</loc>
     <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pixel-facebook-ads/</loc>
     <lastmod>2018-10-14T13:00:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/tag-manager/</loc>
-    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -388,33 +471,39 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/comprar-seguidores-instagram/</loc>
+    <loc>https://www.marcusrb.com/categories/digital-marketing/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/categories/digital-marketing/</loc>
+    <loc>https://www.marcusrb.com/tags/comprar-seguidores-instagram/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/influencers-en-snapchat/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/marketing-influencer/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/suscriptores-redes-sociales/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/visualizaciones-youtube/</loc>
     <lastmod>2018-09-13T15:13:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -430,6 +519,13 @@
   <url>
     <loc>https://www.marcusrb.com/tags/eventos-iframe-gtm/</loc>
     <lastmod>2018-06-30T08:26:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/anal%C3%ADtica-web/</loc>
+    <lastmod>2018-05-29T21:35:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -440,46 +536,49 @@
   <url>
     <loc>https://www.marcusrb.com/tags/alerta-cookie-tag-manager/</loc>
     <lastmod>2018-05-29T21:35:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/anal%C3%ADtica-web/</loc>
-    <lastmod>2018-05-29T21:35:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/cookiebot/</loc>
     <lastmod>2018-05-29T21:35:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/cookies/</loc>
     <lastmod>2018-05-29T21:35:20+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/rgpd/</loc>
     <lastmod>2018-05-29T21:35:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/certificaci%C3%B3n-analytics-2018/</loc>
-    <lastmod>2018-05-26T16:01:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/examen-google-academy-ads/</loc>
-    <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/google-analytics/</loc>
     <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/certificaci%C3%B3n-analytics-2018/</loc>
+    <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/examen-google-academy-ads/</loc>
+    <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/preguntas-respuestas-analytics/</loc>
     <lastmod>2018-05-26T16:01:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -490,16 +589,19 @@
   <url>
     <loc>https://www.marcusrb.com/tags/aumentar-trafico/</loc>
     <lastmod>2018-05-15T13:20:27+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/metricas-visitas/</loc>
     <lastmod>2018-05-15T13:20:27+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/sesiones-web/</loc>
     <lastmod>2018-05-15T13:20:27+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -508,33 +610,20 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/configuraci%C3%B3n-google-tag-manager/</loc>
-    <lastmod>2018-05-08T15:19:14+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</loc>
     <lastmod>2018-05-08T15:19:14+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/configuraci%C3%B3n-google-tag-manager/</loc>
+    <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/mejoras-tag-manager/</loc>
     <lastmod>2018-05-08T15:19:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</loc>
-    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/integrar-google-script-apps-tag-manager/</loc>
-    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</loc>
-    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -543,23 +632,27 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/auditoria-adwords/</loc>
-    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</loc>
-    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/integrar-google-script-apps-tag-manager/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/google-adwords/</loc>
     <lastmod>2018-04-30T15:17:17+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/optimizaci%C3%B3n-cuenta-adwords/</loc>
-    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -568,8 +661,27 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/auditoria-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/optimizaci%C3%B3n-cuenta-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/webinar-optimizaci%C3%B3n-adwords/</loc>
     <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -580,21 +692,30 @@
   <url>
     <loc>https://www.marcusrb.com/tags/etiquetas-google-tag-manager/</loc>
     <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/migraci%C3%B3n-tag-manager/</loc>
     <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/plan-implementaci%C3%B3n/</loc>
     <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/plan-tag-manager/</loc>
     <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/consultoria-data-analytics/data-mining/</loc>
+    <lastmod>2018-04-29T18:43:20+00:00</lastmod>
   </url>
   
   <url>
@@ -608,33 +729,32 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/adwords-certificaci%C3%B3n-2018/</loc>
-    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</loc>
-    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/preguntas-certificaci%C3%B3n-adwords/</loc>
-    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</loc>
-    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/test-examen-de-google-adwords-avanzado-de-busqueda/</loc>
     <lastmod>2018-04-26T15:47:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/analytics-eventos/</loc>
-    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/adwords-certificaci%C3%B3n-2018/</loc>
+    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</loc>
+    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/preguntas-certificaci%C3%B3n-adwords/</loc>
+    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</loc>
+    <lastmod>2018-04-26T15:47:41+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -643,38 +763,50 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/analytics-eventos/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/crear-eventos-analytics/</loc>
     <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/eventos-din%C3%A1micos-tag-manager/</loc>
     <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/tag-manager-google/</loc>
     <lastmod>2018-04-22T21:34:51+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/integrar-tag-manager/</loc>
-    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/webinar-marketindirecto/</loc>
-    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/webinar-tag-manager/</loc>
-    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</loc>
     <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/integrar-tag-manager/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/webinar-marketindirecto/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/webinar-tag-manager/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -685,41 +817,37 @@
   <url>
     <loc>https://www.marcusrb.com/tags/estrategias-pujas-inteligentes/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/inteligencia-artificial-google/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/machine-learning-adwords/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pujas-big-query/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pujas-inteligentes/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/smart-bidding/</loc>
     <lastmod>2018-04-08T20:25:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/insight/</loc>
-    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/marketingdirecto/</loc>
-    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -728,23 +856,20 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/insight/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/marketingdirecto/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</loc>
     <lastmod>2018-03-27T14:02:53+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/contact-form-7-formulario/</loc>
-    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/contactform-wordpress/</loc>
-    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/medici%C3%B3n-contact-form-7/</loc>
-    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
   </url>
   
   <url>
@@ -753,18 +878,33 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/contact-form-7-formulario/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/contactform-wordpress/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/medici%C3%B3n-contact-form-7/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/tag-manager-y-formulario-ajax/</loc>
     <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/data-science-amp-big-data/</loc>
     <lastmod>2018-03-18T19:11:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/diferencia-entre-big-data-analyst-y-business-analyst/</loc>
-    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -773,23 +913,21 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/diferencia-entre-big-data-analyst-y-business-analyst/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/perfil-analista-de-datos/</loc>
     <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/rol-analista-digital/</loc>
     <lastmod>2018-03-18T19:11:45+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/administrador-de-etiquetas/</loc>
-    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/eventos-google-analytics-y-tag-manager/</loc>
-    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -798,13 +936,27 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/administrador-de-etiquetas/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/eventos-google-analytics-y-tag-manager/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/implementar-tag-manager/</loc>
     <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/que-es-una-etiqueta/</loc>
     <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -815,31 +967,37 @@
   <url>
     <loc>https://www.marcusrb.com/tags/ense%C3%B1anza-anal%C3%ADtica-digital/</loc>
     <lastmod>2018-03-05T22:53:10+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/formaci%C3%B3n-escuela-negocio/</loc>
     <lastmod>2018-03-05T22:53:10+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/programa-formaci%C3%B3n/</loc>
     <lastmod>2018-03-05T22:53:10+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/diferencias-formador-y-profesor/</loc>
     <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/formador-y-docencia/</loc>
     <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/profesor-de-digital-marketing/</loc>
     <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -855,16 +1013,7 @@
   <url>
     <loc>https://www.marcusrb.com/categories/gener%C3%ADcos/</loc>
     <lastmod>2018-03-01T16:59:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/experimentos-google-analytics/</loc>
-    <lastmod>2018-02-05T12:04:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/google-optimize/</loc>
-    <lastmod>2018-02-05T12:04:22+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -873,13 +1022,27 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/experimentos-google-analytics/</loc>
+    <lastmod>2018-02-05T12:04:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/google-optimize/</loc>
+    <lastmod>2018-02-05T12:04:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/tag-manager-y-optimize/</loc>
     <lastmod>2018-02-05T12:04:22+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/test-ab-google-optimize/</loc>
     <lastmod>2018-02-05T12:04:22+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -890,21 +1053,25 @@
   <url>
     <loc>https://www.marcusrb.com/tags/comercio-electr%C3%B3nico-mejorado/</loc>
     <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/google-analytics-ecommerce/</loc>
     <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pasos-comercio-electronico-tag-manager/</loc>
     <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/tag-manager/</loc>
     <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -915,21 +1082,19 @@
   <url>
     <loc>https://www.marcusrb.com/tags/tracking-tag-manager/</loc>
     <lastmod>2017-09-24T15:15:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/videos-tag-manager/</loc>
     <lastmod>2017-09-24T15:15:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/youtube-analytics/</loc>
     <lastmod>2017-09-24T15:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/beneficios-tag-manager/</loc>
-    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -938,33 +1103,44 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/beneficios-tag-manager/</loc>
+    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/tag-management-system-utilidades/</loc>
     <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/ventajas-de-google-tag-manager/</loc>
     <lastmod>2017-08-22T16:24:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/cuenta-adwords-agencia/</loc>
-    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/cuenta-adwords-mcc/</loc>
-    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/cuenta-adwords-personal/</loc>
-    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</loc>
     <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/cuenta-adwords-agencia/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/cuenta-adwords-mcc/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/cuenta-adwords-personal/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -975,31 +1151,19 @@
   <url>
     <loc>https://www.marcusrb.com/tags/pujas-adwords/</loc>
     <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pujas-automatica/</loc>
     <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/pujas-manuales/</loc>
     <lastmod>2017-06-23T09:38:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/conversiones-adwords/</loc>
-    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/macro-conversiones/</loc>
-    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/micro-conversiones/</loc>
-    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1008,13 +1172,27 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/objetivos-a-trackear/</loc>
+    <loc>https://www.marcusrb.com/tags/conversiones-adwords/</loc>
     <lastmod>2017-05-23T09:34:43+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/auditoria-seo/</loc>
-    <lastmod>2017-03-23T08:38:32+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/macro-conversiones/</loc>
+    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/micro-conversiones/</loc>
+    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/objetivos-a-trackear/</loc>
+    <lastmod>2017-05-23T09:34:43+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1023,23 +1201,33 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/tags/auditoria-seo/</loc>
+    <lastmod>2017-03-23T08:38:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/tags/checklist-seo/</loc>
     <lastmod>2017-03-23T08:38:32+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/seo-sem/</loc>
     <lastmod>2017-03-23T08:38:32+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1055,6 +1243,7 @@
   <url>
     <loc>https://www.marcusrb.com/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1065,6 +1254,7 @@
   <url>
     <loc>https://www.marcusrb.com/publication_types/2/</loc>
     <lastmod>2015-09-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1075,6 +1265,7 @@
   <url>
     <loc>https://www.marcusrb.com/publication_types/1/</loc>
     <lastmod>2013-07-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1085,6 +1276,7 @@
   <url>
     <loc>https://www.marcusrb.com/authors/robert-ford/</loc>
     <lastmod>2013-07-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1093,6 +1285,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/author/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

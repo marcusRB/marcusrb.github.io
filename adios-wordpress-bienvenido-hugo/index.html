@@ -241,7 +241,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#talks">
+          <a class="nav-link" href="/#teaching">
             
             <span>Formación</span>
             
@@ -524,90 +524,71 @@ perdió su clase de redes&quot;
 
 <li><p>Inyección de un código como este:</p>
 
-<pre><code></code></pre>
+<pre><code>``` [language]
+Código en
+varias líneas
+</code></pre></li>
 
-<p>[language]</p></li>
-</ul>
+<li><p>Citas</p>
 
-<p>Código en
- varias líneas</p>
+<pre><code>&gt; La vida es muy corta para aprender Alemán. -Tad Marburg
+</code></pre></li>
 
-<pre><code>
+<li><p>Listas sin ordenación</p>
 
-- Citas
-
-</code></pre>
-
-<blockquote>
-<p>La vida es muy corta para aprender Alemán. -Tad Marburg</p>
-
-<pre><code>- Listas sin ordenación
-
-</code></pre>
-
-<ul>
-<li>Un elemento en una lista no ordenada
-
-<ul>
-<li>Otro elemento en una lista</li>
-</ul></li>
-<li>Un elemento más</li>
-<li>Otro del listado</li>
-</ul>
-</blockquote>
-
-<pre><code>- Listas ordenadas
-
-</code></pre>
-
-<ol>
-<li>Elemento en una lista enumerada u ordenada.</li>
-
-<li><p>Otro elemento</p>
-
-<pre><code>- Enlaces con hipervínculo
+<pre><code>* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+- Un elemento más
+- Otro del listado
 
 </code></pre></li>
-</ol>
 
-<p><a href="URL" title="Título del enlace" target="_blank">Texto del enlace aquí</a></p>
+<li><p>Listas ordenadas</p>
 
-<pre><code>- Enlaces con referencia
+<pre><code>1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+</code></pre></li>
 
-</code></pre>
+<li><p>Enlaces con hipervínculo</p>
 
-<p>[Texto del enlace aquí][1]</p>
+<pre><code>[Texto del enlace aquí](URL &quot;Título del enlace&quot;)
+</code></pre></li>
 
-<pre><code>- Imágenes
+<li><p>Enlaces con referencia</p>
 
-</code></pre>
+<pre><code>[Texto del enlace aquí][1]
+</code></pre></li>
 
-<p><img src="URL" alt="Texto alternativo" title="Título de la imagen" /></p>
+<li><p>Imágenes</p>
 
-<pre><code>
-Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.
+<pre><code>![Texto alternativo](URL &quot;Título de la imagen&quot;)
+</code></pre></li>
+</ul>
 
-### Publicaciones
-Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea...y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.
+<p>Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.</p>
 
-__Exactamente que significa?__
+<h3 id="publicaciones">Publicaciones</h3>
 
-Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?
+<p>Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea&hellip;y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.</p>
 
-Hugo es diferente. No tiene base de datos, la única es tu ordenador, o __compilador__. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
-&lt;pre&gt;
+<p><strong>Exactamente que significa?</strong></p>
+
+<p>Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?</p>
+
+<p>Hugo es diferente. No tiene base de datos, la única es tu ordenador, o <strong>compilador</strong>. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
+<pre>
   hugo server
-&lt;/pre&gt;
+</pre></p>
 
-y con esto se abre la ruta siguiente:
+<p>y con esto se abre la ruta siguiente:</p>
+
+<pre><code>Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
 </code></pre>
 
-<p>Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server &ndash;disableFastRender
-Web Server is available at <a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a> (bind address 127.0.0.1)
-Press Ctrl+C to stop
-```
-De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada <strong>PUBLIC</strong> donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:</p>
+<p>De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada <strong>PUBLIC</strong> donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:</p>
 
 <pre>
   hugo
@@ -875,7 +856,7 @@ De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como 
     
     
     
-    <script src="/js/academic.min.ee93f50e7bcdd181a29c10939fba4467.js"></script>
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

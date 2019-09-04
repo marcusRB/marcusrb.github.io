@@ -37,30 +37,76 @@
     </item>
     
     <item>
+      <title>Proyectos realizados en R Studio</title>
+      <link>https://www.marcusrb.com/proyectos/r-studio/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/proyectos/r-studio/</guid>
+      <description>
+
+&lt;h2 id=&#34;se-creará-una-sección-especial-con-varios-ejemplos-del-lenguaje-r-para-aprender-la-análisis-de-datos&#34;&gt;Se creará una sección especial con varios ejemplos del lenguaje R, para aprender la análisis de datos.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt; es un lenguaje de programación para la gestión y la análisis de datos, además de visualización de gráficos. Es un software libre y disponible en diferentes entornos (Unix, Linux, MacOS, Windows).&lt;/p&gt;
+
+&lt;p&gt;Esta primera sección se especificará como instalar y como utilizarlas. Además de contribuir a añadir varios ejemplos de script para la exploración de datos, limpieza, uso de funciones matemáticas y estadísticas, aprendizaje automático y casos de uso como solución de negocio.&lt;/p&gt;
+
+&lt;p&gt;Unos de los primeros proyectos realizados será la exploración de los datos, o EDA (Explorationa Data Analysis), pero con datos de &lt;strong&gt;Google Analytics&lt;/strong&gt;, es decir exploraremos los datos de un sitio web y que conclusiones podemos sacar con esto.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../r-studio/cheatsheets&#34;&gt;Cheatsheets&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Consultoría en Business Intelligence y Business Analytics</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</link>
+      <link>https://www.marcusrb.com/consultoria-business-intelligence/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</guid>
+      <guid>https://www.marcusrb.com/consultoria-business-intelligence/</guid>
       <description>
 
 &lt;h2 id=&#34;business-intelligence-vs-business-analytics&#34;&gt;Business Intelligence vs Business Analytics&lt;/h2&gt;
 
 &lt;p&gt;TBD ideas about Business Intelligence Consulting&lt;/p&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-inteligencia-de-negocio&#34;&gt;¿Está interesado en consultar o capacitarse en Inteligencia de negocio?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en business intelligence&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Consultoría en Data Analytics</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-data-analytics/</link>
+      <link>https://www.marcusrb.com/consultoria-data-analytics/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/servicios/consultoria-data-analytics/</guid>
+      <guid>https://www.marcusrb.com/consultoria-data-analytics/</guid>
       <description>
 
 &lt;h2 id=&#34;data-analytics-consulting&#34;&gt;Data Analytics Consulting&lt;/h2&gt;
 
 &lt;p&gt;TBD&lt;/p&gt;
+
+&lt;p&gt;### &lt;a href=&#34;data-mining&#34; target=&#34;_blank&#34;&gt;Data Mining&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-analítica-de-datos&#34;&gt;¿Está interesado en consultar o capacitarse en Analítica de datos?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en analítica de datos&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Google Data Studio</title>
+      <link>https://www.marcusrb.com/servicios/google-data-studio/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/google-data-studio/</guid>
+      <description>
+
+&lt;h2 id=&#34;creación-de-dashboard-con-google-data-studio&#34;&gt;Creación de dashboard con Google Data Studio&lt;/h2&gt;
 </description>
     </item>
     
@@ -75,6 +121,24 @@
 &lt;h2 id=&#34;machine-learning-and-deep-learning-consulting&#34;&gt;Machine Learning and Deep Learning Consulting&lt;/h2&gt;
 
 &lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-aprendizaje-automático&#34;&gt;¿Está interesado en consultar o capacitarse en Aprendizaje automático?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en machine learning&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Microstrategy</title>
+      <link>https://www.marcusrb.com/servicios/microstrategy/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/microstrategy/</guid>
+      <description>
+
+&lt;h2 id=&#34;creación-de-dashboard-con-microstrategy&#34;&gt;Creación de dashboard con Microstrategy&lt;/h2&gt;
 </description>
     </item>
     
@@ -96,11 +160,62 @@
 
 &lt;p&gt;Para usar Google Analytics, simplemente hay que implementar una pequeña porción del código de JavaScript en cada página de su sitio web que desea rastrear. Relativamente hablando, esto hace que Google Analytics sea extremadamente fácil de usar y algunos sitios web se pueden configurar en menos de 30 minutos. Google Analytics se puede personalizar de varias maneras, por lo que es casi tan poderoso como muchas soluciones analíticas de sitios web pagados.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../consultoria-visualizacion-datos/power-bi&#34;&gt;Creación de dashboard con Microsoft Power BI&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;creación-de-dashboard-con-microsoft-power-bi-consultoria-visualizacion-datos-power-bi&#34;&gt;&lt;a href=&#34;https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi&#34;&gt;Creación de dashboard con Microsoft Power BI&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Power BI es un producto relativamente nuevo de Microsoft que pone el poder de la inteligencia empresarial y el análisis de datos empresariales en manos de analistas empresariales. La revolución aquí es la nueva tecnología, pero también la facilidad de acceso para el usuario comercial promedio. Ya no necesita ser un profesional de TI a tiempo completo para poder crear herramientas de informes y análisis.&lt;/p&gt;
 
 &lt;h2 id=&#34;creación-de-dashboard-con-google-data-studio&#34;&gt;Creación de dashboard con Google Data Studio&lt;/h2&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-visualización-de-datos&#34;&gt;¿Está interesado en consultar o capacitarse en visualización de datos?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en visualización de datos&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Visualización de datos - DataViz</title>
+      <link>https://www.marcusrb.com/servicios/qlick-sense/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/qlick-sense/</guid>
+      <description>
+
+&lt;h2 id=&#34;creación-de-dashboard-con-qlik-sense&#34;&gt;Creación de dashboard con Qlik Sense&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Visualización de datos - DataViz</title>
+      <link>https://www.marcusrb.com/servicios/tableau/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/tableau/</guid>
+      <description>
+
+&lt;h2 id=&#34;creación-de-dashboard-con-tableau&#34;&gt;Creación de dashboard con Tableau&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Servicio de creación dashboard y visualización de datos profesional con Power BI</title>
+      <link>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</guid>
+      <description>
+
+&lt;h2 id=&#34;qué-es-microsoft-power-bi&#34;&gt;¿Qué es Microsoft Power BI?&lt;/h2&gt;
+
+&lt;p&gt;Ha pasado algún tiempo desde que Microsoft lanzó Power BI y la forma en que las cosas habían progresado para esta herramienta excepcional de Business Intelligence and Analytics, parecía que solo sería cuestión de tiempo antes de que se convirtiera en la plataforma preferida para BI y análisis con el mayoría de las empresas con visión de futuro. Power BI es una herramienta poderosa en manos de las empresas que desean extraer y convertir datos de múltiples fuentes dispares para obtener información significativa. Ofrece una experiencia de usuario sin precedentes con oportunidades de visualización interactiva junto con verdaderas capacidades de análisis de autoservicio. Todo esto ayuda a ver los mismos datos desde una variedad de ángulos, sin mencionar que los informes y paneles pueden ser creados por cualquier persona en la organización sin la ayuda de los administradores de TI. Algunos de los beneficios únicos de Power BI son:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Potentes gráficos y visualizaciones del tablero que se actualizan continuamente.
+Función de análisis en memoria y base de datos en columna que admite datos tabulares.
+Lo mejor de ambos mundos cuando se trata de facilidad de uso y rendimiento en una sola herramienta de BI.
+Geo-mapping interactivo con Bing Maps.
+Secuencias de comandos de expresiones de análisis de datos (DAX) para crear medidas y columnas.
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -1878,90 +1993,71 @@ perdió su clase de redes&amp;quot;
 
 &lt;li&gt;&lt;p&gt;Inyección de un código como este:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;``` [language]
+Código en
+varias líneas
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;p&gt;[language]&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;Citas&lt;/p&gt;
 
-&lt;p&gt;Código en
- varias líneas&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; La vida es muy corta para aprender Alemán. -Tad Marburg
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;
+&lt;li&gt;&lt;p&gt;Listas sin ordenación&lt;/p&gt;
 
-- Citas
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;La vida es muy corta para aprender Alemán. -Tad Marburg&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;- Listas sin ordenación
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un elemento en una lista no ordenada
-
-&lt;ul&gt;
-&lt;li&gt;Otro elemento en una lista&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Un elemento más&lt;/li&gt;
-&lt;li&gt;Otro del listado&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code&gt;- Listas ordenadas
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Elemento en una lista enumerada u ordenada.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Otro elemento&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;- Enlaces con hipervínculo
+&lt;pre&gt;&lt;code&gt;* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+- Un elemento más
+- Otro del listado
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&#34;URL&#34; title=&#34;Título del enlace&#34; target=&#34;_blank&#34;&gt;Texto del enlace aquí&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Listas ordenadas&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;- Enlaces con referencia
+&lt;pre&gt;&lt;code&gt;1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;Enlaces con hipervínculo&lt;/p&gt;
 
-&lt;p&gt;[Texto del enlace aquí][1]&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí](URL &amp;quot;Título del enlace&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;- Imágenes
+&lt;li&gt;&lt;p&gt;Enlaces con referencia&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí][1]
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;img src=&#34;URL&#34; alt=&#34;Texto alternativo&#34; title=&#34;Título de la imagen&#34; /&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Imágenes&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;
-Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.
+&lt;pre&gt;&lt;code&gt;![Texto alternativo](URL &amp;quot;Título de la imagen&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-### Publicaciones
-Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea...y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.
+&lt;p&gt;Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.&lt;/p&gt;
 
-__Exactamente que significa?__
+&lt;h3 id=&#34;publicaciones&#34;&gt;Publicaciones&lt;/h3&gt;
 
-Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?
+&lt;p&gt;Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea&amp;hellip;y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.&lt;/p&gt;
 
-Hugo es diferente. No tiene base de datos, la única es tu ordenador, o __compilador__. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
-&amp;lt;pre&amp;gt;
+&lt;p&gt;&lt;strong&gt;Exactamente que significa?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?&lt;/p&gt;
+
+&lt;p&gt;Hugo es diferente. No tiene base de datos, la única es tu ordenador, o &lt;strong&gt;compilador&lt;/strong&gt;. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
+&lt;pre&gt;
   hugo server
-&amp;lt;/pre&amp;gt;
+&lt;/pre&gt;&lt;/p&gt;
 
-y con esto se abre la ruta siguiente:
+&lt;p&gt;y con esto se abre la ruta siguiente:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server &amp;ndash;disableFastRender
-Web Server is available at &lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt; (bind address 127.0.0.1)
-Press Ctrl+C to stop
-```
-De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada &lt;strong&gt;PUBLIC&lt;/strong&gt; donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:&lt;/p&gt;
+&lt;p&gt;De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada &lt;strong&gt;PUBLIC&lt;/strong&gt; donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:&lt;/p&gt;
 
 &lt;pre&gt;
   hugo
@@ -3719,6 +3815,15 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     </item>
     
     <item>
+      <title>Consultoría en Data Mining</title>
+      <link>https://www.marcusrb.com/consultoria-data-analytics/data-mining/</link>
+      <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/consultoria-data-analytics/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Consultoría en Google Analytics</title>
       <link>https://www.marcusrb.com/servicios/consultoria-google-analytics/</link>
       <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
@@ -3743,6 +3848,12 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;Si eres como la mayoría de los dueños de negocios, pones Google Analytics en tu sitio web, lo miras por unos meses y luego te ocupas de otras cosas. ¿Quién tiene tiempo para ver toda esta información? ¿Suena familiar? Únete a la multitud. Una de las quejas más comunes que tienen los propietarios de negocios locales sobre los datos de análisis de marketing y Google Analytics en particular es que hay una tonelada de datos: demasiados datos y no suficientes conocimientos procesables. ¡No necesita otro informe para analizar ni una hoja de cálculo para interpretar!&lt;/p&gt;
 
 &lt;p&gt;MarcusRB ofrece una solución de &amp;ldquo;hágalo por mí&amp;rdquo; que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! También ofrecemos servicios de consultoría y capacitación de Google Tag Manager para empresas de todos los tamaños.&lt;/p&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-analytics-o-análisis-digital&#34;&gt;¿Está interesado en consultar o capacitarse en Google Analytics o análisis digital?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Google Analytics&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3795,7 +3906,7 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Google Tag Manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/#contact&#34;&gt;Solicita información para Google Tag Manager&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

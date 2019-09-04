@@ -14,20 +14,29 @@
     
     <item>
       <title>Consultoría en Business Intelligence y Business Analytics</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</link>
+      <link>https://www.marcusrb.com/consultoria-business-intelligence/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/servicios/consultoria-business-intelligence/</guid>
+      <guid>https://www.marcusrb.com/consultoria-business-intelligence/</guid>
       <description>Servicios de</description>
     </item>
     
     <item>
       <title>Consultoría en Data Analytics</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-data-analytics/</link>
+      <link>https://www.marcusrb.com/consultoria-data-analytics/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
       
-      <guid>https://www.marcusrb.com/servicios/consultoria-data-analytics/</guid>
+      <guid>https://www.marcusrb.com/consultoria-data-analytics/</guid>
       <description>Servicio ofrecido para la consultoría de análisis exploratorio, visualización de datos, estadísticos</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Google Data Studio</title>
+      <link>https://www.marcusrb.com/servicios/google-data-studio/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/google-data-studio/</guid>
+      <description>Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio.</description>
     </item>
     
     <item>
@@ -40,6 +49,15 @@
     </item>
     
     <item>
+      <title>Consultoría en Microstrategy</title>
+      <link>https://www.marcusrb.com/servicios/microstrategy/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/microstrategy/</guid>
+      <description>Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio.</description>
+    </item>
+    
+    <item>
       <title>Consultoría en Visualización de datos - DataViz</title>
       <link>https://www.marcusrb.com/servicios/consultoria-visualizacion-datos/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
@@ -49,12 +67,48 @@
     </item>
     
     <item>
+      <title>Consultoría en Visualización de datos - DataViz</title>
+      <link>https://www.marcusrb.com/servicios/qlick-sense/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/qlick-sense/</guid>
+      <description>Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio.</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Visualización de datos - DataViz</title>
+      <link>https://www.marcusrb.com/servicios/tableau/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/servicios/tableau/</guid>
+      <description>Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio.</description>
+    </item>
+    
+    <item>
+      <title>Servicio de creación dashboard y visualización de datos profesional con Power BI</title>
+      <link>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</link>
+      <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</guid>
+      <description>Sgestionamos la creación de dasborad con Microsoft PowerBI</description>
+    </item>
+    
+    <item>
       <title>Formación in-company / docencia en escuelas de negocios</title>
       <link>https://www.marcusrb.com/servicios/formacion/</link>
       <pubDate>Tue, 19 Feb 2019 18:31:41 +0000</pubDate>
       
       <guid>https://www.marcusrb.com/servicios/formacion/</guid>
       <description>Realizo formaciones personalizadas a empresas y a escuelas de negocios de herramientas de analítica web, performance y análisis de datos</description>
+    </item>
+    
+    <item>
+      <title>Consultoría en Data Mining</title>
+      <link>https://www.marcusrb.com/consultoria-data-analytics/data-mining/</link>
+      <pubDate>Sun, 29 Apr 2018 18:43:20 +0000</pubDate>
+      
+      <guid>https://www.marcusrb.com/consultoria-data-analytics/data-mining/</guid>
+      <description>Con este servicio de auditoria e correcta configuración de la herramienta de análisis web, Google Analytics</description>
     </item>
     
     <item>

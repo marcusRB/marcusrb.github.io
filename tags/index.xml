@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 16 Jul 2019 17:52:54 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>data mining</title>
+      <link>https://www.marcusrb.com/tags/data-mining/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exploración datos</title>
+      <link>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lenguaje r</title>
+      <link>https://www.marcusrb.com/tags/lenguaje-r/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/lenguaje-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://www.marcusrb.com/tags/machine-learning/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>big data</title>
@@ -112,38 +148,11 @@
     </item>
     
     <item>
-      <title>data mining</title>
-      <link>https://www.marcusrb.com/tags/data-mining/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
+      <title>CRO</title>
+      <link>https://www.marcusrb.com/tags/cro/</link>
+      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
       
-      <guid>https://www.marcusrb.com/tags/data-mining/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>exploración datos</title>
-      <link>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://www.marcusrb.com/tags/exploraci%C3%B3n-datos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lenguaje r</title>
-      <link>https://www.marcusrb.com/tags/lenguaje-r/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://www.marcusrb.com/tags/lenguaje-r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://www.marcusrb.com/tags/machine-learning/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
+      <guid>https://www.marcusrb.com/tags/cro/</guid>
       <description></description>
     </item>
     
@@ -153,15 +162,6 @@
       <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
       
       <guid>https://www.marcusrb.com/tags/analitica-web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CRO</title>
-      <link>https://www.marcusrb.com/tags/cro/</link>
-      <pubDate>Sun, 10 Feb 2019 17:52:54 +0100</pubDate>
-      
-      <guid>https://www.marcusrb.com/tags/cro/</guid>
       <description></description>
     </item>
     
