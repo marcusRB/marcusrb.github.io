@@ -17,7 +17,7 @@ role = "10 años de experiencia como consultor • docente • freelance en Data
 #organizations = [ { name = "Stanford University", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "10 años de experiencia como consultor y docente Consultor Data & Business Analyst, tráfico SEM-PPC, desarrollo e implementación Tag Management."
+bio = "Economista, desde el mundo bancario, bolsa y finanza al marketing digital. Apasionado de problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera y natación, basketball. Docente y formador desde hace más de 7 años."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "contact.marcusrb@gmail.com"
@@ -58,6 +58,11 @@ user_groups = ["Researchers", "Visitors"]
   year = 2019
 
 [[education.courses]]
+    course = "Data Engineering with Google Cloud Platform"
+    institution = "Coursera"
+    year = 2018
+
+[[education.courses]]
     course = "Python and R"
     institution = "EdX"
     year = 2017
@@ -87,6 +92,16 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fab"
   link = "https://github.com/MarcusRB"
 
+[[social]]
+  icon = "kaggle"
+  icon_pack = "fab"
+  link = "https://www.kaggle.com/marcusrb"
+
+[[social]]
+  icon = "youtube"
+  icon_pack = "fab"
+  link = "https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw"
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
@@ -97,30 +112,30 @@ user_groups = ["Researchers", "Visitors"]
 +++
 ## Consultor Data Manager
 
-  - Consultoría infraestructuras Big Data.
+  - Consultoría infraestructuras Big Data AWS-GCP.
   - Data prep and processing
   - Data mining
   - Business Intelligence y Big Data Analyst.
   - Data Modeling
-  - Data Visualization
+  - Data Visualization: Power BI - Tableau - Qlik Sense - Google Data Studio
 
 ## Digital Marketing Analyst
 
   - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
   - Auditoría Web & SEO
   - Implementación y Reporting Analítica digital, Tag Management, Data Analysis
-  - CRO y UX, Data Visualization
+  - CRO y UX
 
 Amplia experiencia en la gestión de grandes cuentas para diferentes clientes principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además en diferentes idiomas.
 
 ### Docente & formador in-company:
 
-En los últimos [6 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1000 horas de formación en:
+En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1000 horas de formación en:
 
 - **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
 - **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
 - **data analytics**, fundamentos y Data mining en R, machine learning Python
-- **data visualization**, visualización de datos e interpretación con cuadro de mando en Google Data Studio, PowerBI, Tableau, Qlik View.
+- **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
 
 principalmente en escuelas de negocios entre ellas, EAE Business School, IIM Internacional de Marketing, IEDGE Business School, IFM Business School. Escuelas de formación presencial: AdveiSchool y Aula Creactiva. Colaborador en la UOC Universitat Oberta Catalunya
 

@@ -13,15 +13,18 @@ function echoitalic { #'echobold' is the function name
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "                              UPDATING WEBSITE"
-echo "                                    version 1.1"
+echo "                                    version 1.2"
 echo ""
 echoitalic "* Written by  : MarcusRB"
 echoitalic "* E-mail      : hi@marcusrb.com"
 echoitalic "* Last update : "$(date)
-echoitalic "* Version     : v1.1"
+echoitalic "* Version     : v1.2"
 echo ""
 echoitalic "* Description : This script will set some directories, execute some things, "
 echoitalic "                and will then update the website."
+echo ""
+echo "Update v1.2 - jul2019 - add git branch develop, feature, release, hotfixes"
+echo ""
 echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "Today's: "$(date)
@@ -46,9 +49,11 @@ cd ${WEBSITE}
 rm -rvf ${WEBSITEPUBLIC}
 
 git status
+git checkout -b feature-updated-x develop
+git checkout feature-updated-x
 git add -A
 git commit -m "Committing the (updated) source files."
-git push origin master
+git push origin feature-updated-x
 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 

@@ -78,8 +78,13 @@ No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar c
 |Nov 2018 |Webinar de Google Analytics avanzado | 1 hora - online   |IEDGE - Madrid|
 |Dic 2018 |Webinar de Google Analytics avanzado | 1 hora - online   |IEDGE - Madrid|
 |Ene 2019 |Webinar de Google Analytics avanzado | 1 hora - online   |IEDGE - Madrid|
+|Abr 2019 |Webinar de Google Tag Manager avanzado | 1 hora - online   |IEDGE - Madrid|
+|May 2019 |Webinar de Google Tag Manager avanzado | 1 hora - online   |IEDGE - Madrid|
+|Jun 2019 |Webinar de Google Tag Manager avanzado | 1 hora - online   |IEDGE - Madrid|
+|Ago 2019 |dataLayer avanzado I-II | 2 horas - online   |IEDGE - Madrid|
+|Ago 2019 |Curso de visualización de datos y Google Data Studio | 10 horas - online   |KPI's digital school|
 
 <br />
-* actualizado Enero 2019
+* actualizado Agosto 2019
 
 Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en **[contacto conmigo](/#contactos)**.

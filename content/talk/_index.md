@@ -19,6 +19,7 @@ Mis próximos cursos a distancia, semi-presenciales y presenciales
 Curso de Data Analytics con Excel, PowerBI y Tableau - [Neoland](https://www.neoland.es/curso-data-analytics)
 
 </br>
+
 **Necesita formación personalizada con tutoría?**
 [Sí, necesito más info...](https://www.superprof.es/google-adwords-analytics-google-tag-manager-desde-nivel-iniciacion-intermedio.html)
 =======

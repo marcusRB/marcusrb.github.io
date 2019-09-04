@@ -5,7 +5,8 @@ type: page
 date: 2018-04-29T18:43:20+00:00
 summary: "Con este servicio de auditoria e correcta configuración de la herramienta de análisis web, Google Analytics"
 ---
-        <img src="https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png" alt="logo_lockup_analytics_icon_vertical_black_2x"/>
+
+<img src="https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png" alt="logo_lockup_analytics_icon_vertical_black_2x"/>
 
 
 ## Como realizar una consultoría o auditoría de Google Analytics
@@ -24,3 +25,10 @@ Para usar Google Analytics, simplemente hay que implementar una pequeña porció
 Si eres como la mayoría de los dueños de negocios, pones Google Analytics en tu sitio web, lo miras por unos meses y luego te ocupas de otras cosas. ¿Quién tiene tiempo para ver toda esta información? ¿Suena familiar? Únete a la multitud. Una de las quejas más comunes que tienen los propietarios de negocios locales sobre los datos de análisis de marketing y Google Analytics en particular es que hay una tonelada de datos: demasiados datos y no suficientes conocimientos procesables. ¡No necesita otro informe para analizar ni una hoja de cálculo para interpretar!
 
 MarcusRB ofrece una solución de "hágalo por mí" que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! También ofrecemos servicios de consultoría y capacitación de Google Tag Manager para empresas de todos los tamaños.
+
+
+#### ¿Está interesado en consultar o capacitarse en Google Analytics o análisis digital?
+
+Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
+
+[Solicita información para Google Analytics](../#contact)

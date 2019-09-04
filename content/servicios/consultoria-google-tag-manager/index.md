@@ -5,7 +5,8 @@ type: page
 date: 2018-04-29T18:31:41+00:00
 summary: "Con una auditoria y creación de un plan de medición, pasando por la implementación en Google Tag Manager a su sitio web y app móvil para etiquetar eventos de interacción"
 ---
-        <img src="https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png" alt="plantilla-gtm-analytics"/>
+
+<img src="https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png" alt="plantilla-gtm-analytics"/>
 
 
 ## Realizar una consultoría y/o auditoría de Google Tag Manager
@@ -16,14 +17,14 @@ El Administrador de etiquetas de Google es una gran herramienta para que los due
 
 Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, <b>¿qué valor tiene?</b> datos proporcionan en sí mismo para obtener más de su sitio web?).
 
-### ¿Que servicio incluye el servicio de consultoría de Tag Manager?
+### Que servicio incluye el servicio de consultoría de Tag Manager?
 
 Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:
 
-        Auditoría de sitios web y mapeo de etiquetas<br />
-        Configuración y configuración<br />
-        Aplicación y monitoreo<br />
-        Formación</p>
+- Auditoría de sitios web y mapeo de etiquetas<br />
+- Configuración y configuración<br />
+- Aplicación y monitoreo<br />
+- Formación</br>
 
 ### Plan de implementación de Tag Manager
 
@@ -45,4 +46,4 @@ Mis servicios de formación in-company serán presenciales en vuestras oficinas 
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para Google Tag Manager](../#contact)
+[Solicita información para Google Tag Manager](/#contact)
