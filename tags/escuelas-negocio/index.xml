@@ -1,25 +1,252 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>escuelas negocio on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>escuelas negocio | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
-    <description>Recent content in escuelas negocio on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 16 Jul 2019 17:52:54 +0100</lastBuildDate>
+      <atom:link href="https://www.marcusrb.com/tags/escuelas-negocio/index.xml" rel="self" type="application/rss+xml" />
+    <description>escuelas negocio</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>escuelas negocio</title>
+      <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
+    </image>
     
-	<atom:link href="https://www.marcusrb.com/tags/escuelas-negocio/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Cómo explotar al máximo el dataLayer de Google Tag Manager: declaración del dataLayer</title>
+      <link>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</link>
+      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</guid>
+      <description>
+
+&lt;p&gt;Cuando hablamos de &lt;strong&gt;Google Tag Manager&lt;/strong&gt; pensamos en la gestión organizada de etiquetas, pixel de conversiones, mediciones de eventos para Google Analytics, etc., pero casi nunca nos paramos a pensar como está creado, y cuales son sus secretos más allá de ser el &lt;em&gt;core&lt;/em&gt; de GTM.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Aquí está parte de sus secretos, la declaración inicial en su script del &amp;lt;head&amp;gt;
+&amp;lt;script&amp;gt;
+...
+
+dl=l!=&#39;dataLayer&#39;?&#39;&amp;amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-XXXX&#39;);
+&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Bien, después de muchos años que he estado utilizando esta fantástica &lt;a href=&#34;../google-tag-manager-10-buenas-razones-para-usarlo-bien/&#34;&gt;herramienta de gestión de etiquetas&lt;/a&gt;, hemos llegado a poder &amp;ldquo;dominarlo&amp;rdquo; en parte, existen muchos tutoriales, pero cuando se complican las cosas, siempre necesitaremos gran parte del trabajo de un &lt;strong&gt;desarrollador front / back-end&lt;/strong&gt;, con lo cuál, tendremos que considerar:
+- JavaScript
+- jQuery
+- CSS
+- HTML
+- analítica digital
+- CRO y testing AB
+- fundamentos de desarrollo de POO (Programación Orientado a Objetos)
+- etc.&lt;/p&gt;
+
+&lt;p&gt;pero hay otra parte que también un &lt;em&gt;analista experimentado&lt;/em&gt; podrá realizar directamente en la interfaz de GTM, jugar con el &lt;strong&gt;dataLayer&lt;/strong&gt;, y sacar todos su potencial.&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-es-el-datalayer&#34;&gt;Qué es el dataLayer?&lt;/h2&gt;
+
+&lt;p&gt;Si queremos buscar una definición, yo me quedaría con la mía:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;la variable de dataLayer es uno script en lenguaje JSON declarado dentro del contenedor principal de Google Tag Manager que nos ayuda a comunicar directamente desde el sitio web / aplicación móvil hacía la interfaz o viceversa, con la herramienta de análisis o medición. El formato JSON está compuesto de un objeto o listado de objetos, de par &lt;em&gt;parámetro&lt;/em&gt; y &lt;em&gt;valor&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;dataLayer({
+  &amp;quot;nombre_variable_x&amp;quot; : &amp;quot;cadena texto&amp;quot;,
+  &amp;quot;numérico_y&amp;quot;: 50,
+  &amp;quot;booleano&amp;quot;: true,
+  &amp;quot;listado&amp;quot;: [{
+    &amp;quot;obj1&amp;quot;: 5,
+    &amp;quot;obj2&amp;quot;: &amp;quot;hola&amp;quot;,
+    &amp;quot;obj3&amp;quot;: false
+
+    }]
+  });
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Prácticamente almacena la información, sea un evento de un botón, de un formulario, acción etc, y para su uso podemos o bien llamar la variable en GTM, o en caso específico de Google Analytics, enviarlas directamente si está en el formato adecuado, como el comercio electrónico mejorado.&lt;/p&gt;
+
+&lt;p&gt;Este es el ejemplo del &lt;em&gt;comercio electrónico mejorado de Google Analytics&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# evento de click en productos
+
+dataLayer.push({
+  &amp;quot;event&amp;quot;: &amp;quot;productClick&amp;quot;,
+  &amp;quot;ecommerce&amp;quot;: {
+    &amp;quot;click&amp;quot;: {
+      &amp;quot;actionField&amp;quot;: {
+        &amp;quot;list&amp;quot;: &amp;quot;homepage&amp;quot;
+      },
+      &amp;quot;products&amp;quot;: [{
+        &amp;quot;id&amp;quot;: &amp;quot;b55da&amp;quot;,
+        &amp;quot;name&amp;quot;: &amp;quot;Flexigen T-Shirt&amp;quot;,
+        &amp;quot;price&amp;quot;: &amp;quot;16.00&amp;quot;,
+        &amp;quot;brand&amp;quot;: &amp;quot;Flexigen&amp;quot;,
+        &amp;quot;category&amp;quot;: &amp;quot;T-Shirts&amp;quot;,
+        &amp;quot;position&amp;quot;: &amp;quot;3&amp;quot;
+      }]
+    }
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si has llegado hasta aquí, pero no conoces mucho de GTM, entonces te recomiendo esta pequeña recopilación que he redactado, son pequeños tutoriales y fundamentos de Google Tag Manager:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/categories/tag-manager/&#34;&gt;tag manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cómo-puedo-crear-mi-propio-datalayer&#34;&gt;Cómo puedo crear mi propio dataLayer?&lt;/h2&gt;
+
+&lt;p&gt;La pregunta no es sencilla. Primero has de tener el acceso a tus archivos o servidor para poder implementar el dataLayer personalizado. Es muy importante que el dataLayer esté por &lt;em&gt;encima&lt;/em&gt; del script principal de GTM.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Así debería ser tu estructura con el dataLayer personalizado
+
+&amp;lt;HTML&amp;gt;
+  &amp;lt;HEAD&amp;gt;
+...
+&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        &#39;event&#39; : &#39;productData&#39;,
+        &#39;name&#39;: &#39;&#39;,
+        &#39;brand&#39;: &#39;&#39;,
+        &#39;category&#39;:&#39;{$category}&#39;,
+        &#39;id&#39;: &#39;&#39;,
+        &#39;sku&#39;: &#39;&#39;,
+        &#39;stock&#39;:&#39;&#39;,
+        &#39;amountPrice&#39; : &#39;&#39;,
+        &#39;regularPrice&#39; : &#39;&#39;,
+        &#39;quantity&#39; : &#39;1&#39;
+
+      });
+&amp;lt;/script&amp;gt;
+&amp;lt;!-- Google Tag Manager --&amp;gt;
+&amp;lt;script&amp;gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-XXXXXX&#39;);&amp;lt;/script&amp;gt;
+&amp;lt;!-- End Google Tag Manager --&amp;gt;
+...
+
+
+  &amp;lt;/HEAD&amp;gt;
+&amp;lt;BODY&amp;gt;
+&amp;lt;/BODY&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si te fijas, viene primero la declaración de la variable dataLayer, sucesivamente hay un estado &lt;strong&gt;push&lt;/strong&gt; donde desde el sitio web estamos &lt;em&gt;enviando&lt;/em&gt; la información a quién quiera disponerla. Sucesivamente hay el script principal de GTM.&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-puedo-llamar-las-variables-del-datalayer&#34;&gt;Cómo puedo llamar las variables del dataLayer&lt;/h3&gt;
+
+&lt;p&gt;Esta parte ya es más práctica. Si conocemos nuestra interfaz, ya sabemos que su composición es:
+- etiquetas
+- activadores
+- variables&lt;/p&gt;
+
+&lt;p&gt;Entonces para poder crear la variable de capa de datos tenemos que seguir estos pasos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
+   variables-.-&amp;gt;var_definida_usuario;
+   var_definida_usuario-.-&amp;gt;nueva;
+   nueva-.-&amp;gt;VAR_CAPA_DE_DATOS;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aquí ya tenemos nuestra libertad de llamar nuestra variable del dataLayer, por ejemplo si introducimos:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;category&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;nos dará la información de la categoría, siempre y cuando esta será populada con un valor, en caso contrario tendríamos: &lt;strong&gt;undefined&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;IMAGEN DATALAYER category&lt;/p&gt;
+
+&lt;h2 id=&#34;puedo-crear-mi-propio-datalayer-desde-la-interfaz&#34;&gt;Puedo crear mi propio dataLayer desde la interfaz?&lt;/h2&gt;
+
+&lt;p&gt;Sí y no. Podemos siempre manipular la información del dataLayer principal, o hasta incluso crear nuestro dataLayer personalizado desde la interfaz, y para ello, tenemos que tener cuidado de no hacer crear ni bucles, ni errores de servidor, 5xx o de página 4xx.&lt;/p&gt;
+
+&lt;p&gt;Tenemos solo que ir en:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR;
+   etiquetas-.-&amp;gt;nueva;
+   nueva-.-&amp;gt;HTML_personalizado;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;y introducimos este pequeño script que a continuación es declaración del dataLayer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+dataLayer.push({
+  	&#39;event&#39;: &#39;fireDataLayer&#39;,
+});
+&amp;lt;/script&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si pongamos como &lt;em&gt;ACTIVADOR&lt;/em&gt; una página vista cualquiera, tendremos la ejecucción del evento &lt;strong&gt;fireDataLayer&lt;/strong&gt; que a su vez podemos incluir más informaciones y más variables.&lt;/p&gt;
+
+&lt;h2 id=&#34;ejemplo-google-remarketing-tag&#34;&gt;Ejemplo Google Remarketing Tag&lt;/h2&gt;
+
+&lt;p&gt;Un ejemplo podría ser un pixel de conversión a medida o por ejemplo personalizar la etiqueta de remarketing de Google Ads. Este es solo un ejemplo que a la vez necesitaremos de más variables y más detalles.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Exactamente la continuación del ejemplo de arriba
+
+&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+dataLayer.push({
+  	&#39;event&#39;: &#39;fireRemarketingTag&#39;,
+    	&#39;google_tag_params&#39;: {
+    		&#39;ecomm_prodid&#39;: &#39;{{dlv - productId}}&#39;,
+			&#39;ecomm_pagetype&#39; : &#39;{{dlv - productPageType}}&#39;,
+			&#39;ecomm_totalvalue&#39; : {{dlv - productPrice}}
+    }
+});
+&amp;lt;/script&amp;gt;
+
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Te has fijado en las tres variables &lt;em&gt;dlv&lt;/em&gt; ?
+Buenos podemos también crear &lt;strong&gt;funciones CUSTOM JS&lt;/strong&gt; como variables y recoger las informaciones y pasarla al dataLAyer, y estas pasarlas a Google Ads.&lt;/p&gt;
+
+&lt;p&gt;Esté atento al próximo tutorial&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>La importancia del big data en las empresas</title>
       <link>https://www.marcusrb.com/importancia-big-data-empresas/</link>
       <pubDate>Tue, 16 Jul 2019 17:52:54 +0100</pubDate>
-      
       <guid>https://www.marcusrb.com/importancia-big-data-empresas/</guid>
-      <description>Han pasado casi 10 años cuando el término big data se puso tan popular en España, que no solo el área de tecnologías, sino en todos los sectores y principalmente hubo un auge en banca y finanza, campo médico, marketing y operaciones, logística llegando al sector educativo.
-Cuando hablamos de big data nos referimos principalmente a ingestar grandes cantidades de datos, y por grande nos referimos no a gigas, sino a teras o petabytes de informaciones, llegando a que la cantidad almacenada, principalmente en servidores cloud cuáles Amazon AWS, Google GCP y Microsoft Azure, las empresas se encontraron con un gran obstáculo, como poder explotarlos, quiénes son los roles y profesionales capaces de leer, limpiar, preparar y realizar gestiones con estos datos.</description>
+      <description>&lt;p&gt;Han pasado casi 10 años cuando el término &lt;strong&gt;big data&lt;/strong&gt; se puso tan popular en España, que no solo el área de tecnologías, sino en todos los sectores y principalmente hubo un auge en banca y finanza, campo médico, marketing y operaciones, logística llegando al sector educativo.&lt;/p&gt;
+
+&lt;p&gt;Cuando hablamos de big data nos referimos principalmente a ingestar grandes cantidades de datos, y por grande nos referimos no a gigas, sino a teras o petabytes de informaciones, llegando a que la cantidad almacenada, principalmente en servidores cloud cuáles Amazon AWS, Google GCP y Microsoft Azure, las empresas se encontraron con un gran obstáculo, como poder explotarlos, quiénes son los roles y profesionales capaces de leer, limpiar, preparar y realizar gestiones con estos datos.&lt;/p&gt;
+
+&lt;p&gt;Si por Big Data nos referimos al tipo de dato, referente a los roles tenemos a 3 principales, junto con otros perfiles IT (cuáles podrían ser de seguridad, gobierno del dato, desarrolladores):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Engineer&lt;/strong&gt;: el arquitecto / ingeniero de los datos, este profesional es responsable de preparar la infraestructura, plataforma e ingestar los datos, verificar su integridad, seguridad y además, en la forma más rápida posible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Analyst / Business Analyst&lt;/strong&gt;: son los profesionales que gracias a sus técnicas de minería de datos, dan una visión general del negocio, generarán un primer insight con los datos, hasta incluso dan muchas de las respuestas que las demás figuras internas de negocio no obtienen siempre. Hay que decir que luchan constantemente con la preparación previa, transformarlos y sucesivamente integrarlos en tools de visualización para la creación de cuadro de mandos y dashboard listo para ser publicados en los comité directivos.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Scientist&lt;/strong&gt;: la figura más buscada en los últimos años, este rol tiene un perfil más matemático y estadístico de una organización. El realizará “magia” con los datos, creará nuevos algoritmos, aplicará modelos de predicciones y de aprendizaje automático. En línea con los stakeholders tomará las decisiones necesarias a los objetivos empresariales designados a principio.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estas figuras realmente siempre han existido, y desde hace más de 50 años. Pero mientras las nuevas tecnologías han ido evolucionando con el tiempo, se presentaron nuevas herramientas y nuevos desafíos que gracias a la aplicación de estadística y matemática, combinando los algoritmos y álgebra, estos roles han cobrado vida nuevamente, con otro nombre y más fuerte que nunca. Se definen como los empleados más &lt;em&gt;sexy del siglo XXI&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A ellos se suman las nuevas figuras de &lt;strong&gt;Business Intelligence&lt;/strong&gt;, o aquellos con una visión más comercial y de negocio,  otras que provienen principalmente de Telecos e IT, se han ido convirtiendo en estos nuevos roles demandados para las empresas. Se estiman que para 2020 la demanda de estas posiciones que sepan interpretar y crear nuevos modelos, que dan una vida propia a los datos, supera el millón en todo el mundo.&lt;/p&gt;
+
+&lt;p&gt;En España, por ejemplo, el crecimiento del término “master big data” y “master data science”, ha crecido en los últimos 5 años en un 250% (fuente Google Trends). Esto porque las ofertas de empleos han ido creciendo con un ritmo muy alto, y solo en los últimos 30 días a fecha de este post, a un ritmo de 1200 ofertas (fuente Indeed).&lt;/p&gt;
+
+&lt;p&gt;Es por este motivo que la oferta educativa también juega un papel muy importante. La formación profesional, carreras y grados, máster y posgrados en universidades y centros privados, han crecido y mejorado en los últimos meses, y adaptadas a lo que realmente las empresas están demandando.  Gracias a una &lt;a href=&#34;https://www.iep.edu.es/mba-online/especialidad-en-business-intelligence-y-big-data&#34; target=&#34;_blank&#34;&gt;formación en big data&lt;/a&gt;, los profesionales pueden desarrollar las habilidades solicitadas cubriendo todas las necesidades que el mismo mercado está requiriendo, desde una visión global de negocio, a las técnicas de análisis de datos avanzada, creando nuevos escenarios y ser capaces de transmitir estos resultados.&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;mercado laboral&lt;/strong&gt; ha crecido mucho gracias a estas nuevas posiciones, y la formación es una pieza muy importante para que siga generando empleo y pueda cubrir estas demandas. Incluso las empresas pueden aprovechar de estos centros educativos convirtiendo su papel en promotores, así participando para el crecimiento de los futuros profesionales y asegurando la calidad necesaria para que puedan estar a la altura del mercado laboral y siempre actualizados a las nuevas tecnologías.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

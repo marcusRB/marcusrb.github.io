@@ -1,24 +1,315 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pujas inteligentes on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>pujas inteligentes | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/pujas-inteligentes/</link>
-    <description>Recent content in pujas inteligentes on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 08 Apr 2018 20:25:16 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/pujas-inteligentes/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/pujas-inteligentes/index.xml" rel="self" type="application/rss+xml" />
+    <description>pujas inteligentes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 08 Apr 2018 20:25:16 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>pujas inteligentes</title>
+      <link>https://www.marcusrb.com/tags/pujas-inteligentes/</link>
+    </image>
     
     <item>
       <title>El Machine Learning aplicado a Google AdWords</title>
       <link>https://www.marcusrb.com/el-machine-learning-aplicado-a-google-adwords/</link>
       <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/el-machine-learning-aplicado-a-google-adwords/</guid>
-      <description>Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático</description>
+      <description>
+
+&lt;h2 id=&#34;pues-sí-ya-se-había-comentado-hace-muchos-años-google-adwords-utiliza-un-sistema-interno-de-machine-learning-o-en-castellano-aprendizaje-automático&#34;&gt;Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de &lt;strong&gt;Machine Learning &lt;/strong&gt;o en castellano &lt;strong&gt;Aprendizaje Automático,&lt;/strong&gt; &lt;/h2&gt;
+
+&lt;p&gt;solo que cuando se puso de &amp;#8220;moda&amp;#8221; este término es donde ahora comenzamos a ver un poco más la luz a este tema tan complicado.&lt;/p&gt;
+
+&lt;p&gt;Entre muchos &amp;#8220;profesionales&amp;#8221; del sector PPC, y quién ya trabaja con estas herramienta ya hace años, sabemos que entre muchas dificultades que AdWords conlleva, el auto-aprendizaje se venía realizando a través de script personalizados, autogestionales o bien con reglas automatizadas. Pero cuando el &lt;strong&gt;Big Data &lt;/strong&gt;empezó fuerte y se comenzó hablar de &lt;strong&gt;Big Query e IA o Inteligencia Artificial, &lt;/strong&gt;entonces veíamos nuevos sistemas de pujas, nuevos sistemas de ranking y calidad, nuevas posibilidad para alcanzar los resultados y tener siempre un ROI positivo, ya que la competencia irrumpió a lo grande.&lt;/p&gt;
+
+&lt;p&gt;Que yo me acuerde en 2013 cuando comencé a trabajar con cuentas de AdWords de más de 2MM € al año de inversión, veía estas posibilidades factibles, jugaba mucho con los &amp;#8220;sistemas automatizados&amp;#8221; de Google y me gustaba la verdad, además veía los resultados demasiados buenos. Era el único que sabía de esto o los competidores no la estaban aprovechando?&lt;/p&gt;
+
+&lt;p&gt;Hasta que comencé a ver unos bajones, y luego subidas, y así altibajos durante meses y hasta semestres se veían buenas rachas y perdidas.&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-estaba-pasando-exactamente&#34;&gt;¿Qué estaba pasando exactamente?&lt;/h3&gt;
+
+&lt;p&gt;Según leía entre foreros, la comunidad de AdWords oficial, libros técnicos, expertos de muchos años nacionales e internacionales, los cambios de las reglas en el mismo sistema de ranking y calidad comenzaban a llegar a quien no estaba acostumbrado, y sucesivamente llegarían las &lt;strong&gt;estrategia de pujas.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vamos hablando un poco más de ellas. Por ejemplo en &lt;strong&gt;Búsquedas, Display, Shopping &lt;/strong&gt;tenemos la posibilidad de elegir:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Puja Manual o CPC manual&lt;/li&gt;
+&lt;li&gt;Maximizar por Clics&lt;/li&gt;
+&lt;li&gt;CPC Manual mejoradas&lt;/li&gt;
+&lt;li&gt;Maximizar por Clics y opción CPC mejorado&lt;/li&gt;
+&lt;li&gt;CPA objetivo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Las diferencias vienen a ser si es priorizar por clics o bien priorizar por conversiones, así que elegir una estrategia u otra, nos permite optimizar también el ROI, y ¿los costes?&lt;/p&gt;
+
+&lt;p&gt;Aquí la particularidad, los costes siempre y cuando alcancemos el objetivo fijado que suelen ser:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;branding o visibilidad de marca o per impresiones&lt;/li&gt;
+&lt;li&gt;clics y tráfico&lt;/li&gt;
+&lt;li&gt;clics hacía conversiones&lt;/li&gt;
+&lt;li&gt;clics hacía transacciones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;y-cuando-entra-en-juego-la-inteligencia-de-google-o-machine-learning&#34;&gt;¿Y cuando entra en juego la &lt;strong&gt;Inteligencia de Google o Machine Learning?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Si volvemos un poco más atrás en los años, recordamos que ampliaron el abanico de estrategias de pujas ya por resultado, no empresarial, sino hacía los objetivos anteriormente hablado pero más enfocado a las pujas, entonces Google AdWords sacó lo que se llama ahora &lt;strong&gt;Smart Bidding o &lt;/strong&gt;&lt;strong&gt;Pujas Inteligentes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Veamos cuales son, en el nivel de &lt;strong&gt;cartera&lt;/strong&gt;, hay:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPA objetivo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retorno de la inversión publicitaria (ROAS) objetivo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPC mejorado&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maximizar Clics&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ranking superior objetivo&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En el nivel estándar de la &lt;strong&gt;campaña&lt;/strong&gt;, hay:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPA objetivo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ROAS objetivo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPC mejorado&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maximizar Conversiones&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maximizar Clics&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y aquí la definición oficial directamente de la guía de AdWords referente a las pujas inteligentes o smart bidding.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;AdWords Smart Bidding es un subconjunto de estrategias de pujas automáticas en las que se utiliza el &lt;strong&gt;aprendizaje automático&lt;/strong&gt; para optimizar las conversiones o el valor de conversión en cada subasta, una función conocida como &amp;#8220;pujas en el momento de la subasta&amp;#8221;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Obviamente el requisito es tener habilitadas las conversiones, bueno, aquí era lógico ya que habla de objetivos de AdWords y es normal, aunque estábamos acostumbrados a recibir un mínimo de 15 conversiones en los últimos 30 días, y así creando estrategias de CPA objetivos con sinsentido alguno, y bajo los &amp;#8220;super-consejos&amp;#8221; de la campanillas de las Oportunidades de AdWords, nosotros puntualmente la activamos (y seguimos haciendo lo mismo).&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-utilizar-las-pujas-inteligentes-de-adwords-8220-smart-bidding-8221&#34;&gt;¿Por qué utilizar las pujas inteligentes de AdWords &amp;#8220;Smart Bidding&amp;#8221;?&lt;/h3&gt;
+
+&lt;p&gt;Según leyendo en la guía indica lo siguiente:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;AdWords Smart Bidding ofrece cuatro ventajas clave para ahorrar tiempo y mejorar el rendimiento.&lt;/p&gt;
+
+&lt;h4 id=&#34;1-aprendizaje-automático-avanzado&#34;&gt;1. Aprendizaje automático avanzado&lt;/h4&gt;
+
+&lt;p&gt;Los &lt;strong&gt;algoritmos de aprendizaje automático&lt;/strong&gt; basan la puja en datos a gran escala. De esta forma, puedes hacer predicciones más fiables sobre cómo diferentes importes de puja afectarían a las conversiones o a su valor. Estos algoritmos tienen en cuenta una gran cantidad de parámetros que afectan al rendimiento, muchos más de los que una sola persona o un equipo podría calcular.&lt;/p&gt;
+
+&lt;h4 id=&#34;2-amplia-gama-de-señales-contextuales&#34;&gt;2. Amplia gama de señales contextuales&lt;/h4&gt;
+
+&lt;p&gt;Al definir las pujas en el momento de la subasta, es posible optimizarlas teniendo en cuenta una &lt;strong&gt;amplia variedad de señales&lt;/strong&gt;. Las señales son atributos identificables de un usuario o de su contexto en el momento de una subasta en particular. Entre ellos se incluyen atributos como el dispositivo y la ubicación, que están disponibles como &lt;strong&gt;ajustes de la puja manuale&lt;/strong&gt;s, además de señales adicionales y combinaciones de señales exclusivas de AdWords Smart Bidding. A continuación encontrarás una lista con varias de estas señales.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;O sea habla de señales al igual que era antes, solo que con tanta competencia tenía que establecer unas &amp;#8220;reglas&amp;#8221; a este juego de pujas, y las señales ahora son &lt;strong&gt;factores de Ranking &lt;/strong&gt;y creo que muy pocos conocerán, excepto quien trabaja codo a codo con agencias o con Google Partners.&lt;/p&gt;
+
+&lt;p&gt;Las señales serán, bajo mi punto de vista, no del todo visible al ojo humano, pero si, teniendo en cuenta cuáles son, podemos establecer micro-objetivos y KPI&amp;#8217;s, métricas de seguimientos y ver de ir ganando&amp;#8230;o a través de herramientas externas via API&amp;#8217;s o scripts personalizados.&lt;/p&gt;
+
+&lt;p&gt;Aquí el listado de las señales visible, pero si hablar cada una de ella, tardaré mucho más de lo que tenía pensado para este post inicialmente, así que el listado está aquí, y poquito a poco hablaré de todas adjuntando mis experimentos realizados con ellas y ver de dar más luz.&lt;/p&gt;
+
+&lt;div class=&#34;zippy-container zippy-last&#34;&gt;
+  &lt;strong&gt;&lt;a class=&#34;zippy index1 goog-zippy-expanded&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;true&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;1,19&#34; data-stats-ignore=&#34;&#34;&gt;Señales de pujas automáticas&lt;/a&gt;&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;zippy-overflow&#34;&gt;
+  &lt;div class=&#34;zippy-content&#34;&gt;
+    &lt;div class=&#34;zippy-wrapper&#34;&gt;
+      &lt;ul&gt;
+        &lt;li class=&#34;zippy-container zippy-last&#34;&gt;
+          &lt;a class=&#34;zippy index2 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;2,19&#34; data-stats-ignore=&#34;&#34;&gt;Dispositivo&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index3 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;3,19&#34; data-stats-ignore=&#34;&#34;&gt;Ubicación física&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index4 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;4,19&#34; data-stats-ignore=&#34;&#34;&gt;Intención de ubicación&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index5 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;5,19&#34; data-stats-ignore=&#34;&#34;&gt;Día de la semana y hora&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index6 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;6,19&#34; data-stats-ignore=&#34;&#34;&gt;Lista de remarketing&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index7 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;7,19&#34; data-stats-ignore=&#34;&#34;&gt;Características de los anuncios&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index8 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;8,19&#34; data-stats-ignore=&#34;&#34;&gt;Idioma de interfaz&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index9 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;9,19&#34; data-stats-ignore=&#34;&#34;&gt;Navegador&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index10 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;10,19&#34; data-stats-ignore=&#34;&#34;&gt;Sistema operativo&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index11 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;11,19&#34; data-stats-ignore=&#34;&#34;&gt;Datos demográficos (Búsqueda y Display)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index12 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;12,19&#34; data-stats-ignore=&#34;&#34;&gt;Consulta de búsqueda real (Búsqueda y Shopping)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index13 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;13,19&#34; data-stats-ignore=&#34;&#34;&gt;Partner de la Red de Búsqueda (solo Búsqueda)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index14 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;14,19&#34; data-stats-ignore=&#34;&#34;&gt;Emplazamiento web (solo Display)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index15 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;15,19&#34; data-stats-ignore=&#34;&#34;&gt;Comportamiento en el sitio web (solo Display)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index16 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;16,19&#34; data-stats-ignore=&#34;&#34;&gt;Atributos de producto (solo Shopping)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index17 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;17,19&#34; data-stats-ignore=&#34;&#34;&gt;Valoraciones de aplicaciones móviles (próximamente)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index18 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;18,19&#34; data-stats-ignore=&#34;&#34;&gt;Competitividad del precio (próximamente disponible para Shopping)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+
+        &lt;li class=&#34;zippy-overflow&#34;&gt;
+          &lt;div class=&#34;zippy-content zippy-hidden&#34; aria-hidden=&#34;true&#34;&gt;
+            &lt;a class=&#34;zippy index19 goog-zippy-collapsed&#34; tabindex=&#34;0&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-haspopup=&#34;true&#34; data-stats-ve=&#34;2&#34; data-stats-imp=&#34;&#34; data-stats-idx=&#34;19,19&#34; data-stats-ignore=&#34;&#34;&gt;Estacionalidad (próximamente disponible para Shopping)&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;p&gt;
+        Bueno está la primera parte que es la fundamental de cada cuenta y campaña, no lo veo así de raro, o sí. Claro, tiene que tener un mínimo de dificultad sino resultaría demasiado básico para ellos. Tiene en cuenta de otros factores, y para ello entrará en juego el &lt;strong&gt;Modelo de Atribución, &lt;/strong&gt;que seguramente más de uno lo tendrá configurado en último clic, o ya lo estará cambiando en estos días después de recibir llamadas de Google Partners para cambiarlo.
+      &lt;/p&gt;
+
+      &lt;h3&gt;
+        Controles de rendimiento flexibles
+      &lt;/h3&gt;
+
+      &lt;p&gt;
+        Con las pujas de Smart Bidding de AdWords se puede establecer objetivos de rendimiento y personalizar la configuración según los propios objetivos de negocio:
+      &lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;
+          Optimiza las pujas de búsqueda en función de &lt;strong&gt;tu modelo de atribución,&lt;/strong&gt; incluida la atribución basada en datos.
+        &lt;/li&gt;
+        &lt;li&gt;
+          Define objetivos de rendimiento específicos para móviles, ordenadores y tablets con pujas de CPA objetivo (próximamente).
+        &lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;p&gt;
+        Se está poniendo difícil ahora, ya no es fácil controlar esto, puesto que el modelo asignado se refiere a las macro-conversiones, pero y a las micro-conversiones, que pasará con ellas?
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        &lt;strong&gt;Smart Goals&lt;/strong&gt;, te suena de algo? Claro los Objetivos Inteligentes de Google Analytics que tiene también su importancia (ignotas por muchos), útiles en algunos casos y completamente ineficientes para otros. Una vez que se activan estos objetivos inteligentes e importandos en Google AdWords, el &lt;strong&gt;hechizo será cumplido.&lt;/strong&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Aquí explican los &lt;strong&gt;Objetivos Inteligentes &lt;/strong&gt;que se activan en Analytics:
+      &lt;/p&gt;
+
+      &lt;blockquote&gt;
+        &lt;p&gt;
+          Medir las conversiones explícitas, tanto con el seguimiento de conversiones de AdWords como con las transacciones de comercio electrónico importadas de Analytics, es una forma excelente de optimizar las pujas, los anuncios y el sitio web. Sin embargo, si no va a medir las conversiones, la función Objetivos Inteligentes es una forma sencilla de utilizar las mejores sesiones como conversiones. Puede utilizar los objetivos inteligentes para optimizar el rendimiento de AdWords.
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+
+      &lt;h3&gt;
+        A quién están dirigidas estas funciones
+      &lt;/h3&gt;
+
+      &lt;p&gt;
+        Las pujas de AdWords Smart Bidding ofrece buenos resultados para grandes y pequeñas empresas (diría a todos). Para maximizar estos resultados y dar a los &lt;strong&gt;algoritmos de aprendizaje automático&lt;/strong&gt; &lt;strong&gt;o Machine Learning ,&lt;/strong&gt;muchos seguirán llamarlas Inteligencia Artificial, pero no aplica para mi y ya lo explico a continuación, serán suficientes datos como para poder tomar decisiones de puja fundamentadas.
+      &lt;/p&gt;
+
+      &lt;blockquote&gt;
+        &lt;p&gt;
+          Se recomienda que los anunciantes hayan registrado un &lt;strong&gt;mínimo de 30 conversiones en los últimos 30 días&lt;/strong&gt; antes de usar el CPA objetivo. En el caso del ROAS objetivo, recomendamos 50 conversiones en los últimos 30 días.
+        &lt;/p&gt;
+      &lt;/blockquote&gt;
+
+      &lt;p&gt;
+        Digo yo, incluso mejor esperar a un mínimo de 50 o incluso 100 en los últimos 30 días, ya que serán importantes para la estabilidad de las mismas en la campañas, y con todo el trabajo de optimización que conllevará.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        &lt;strong&gt;¿Por qué no es IA en lugar de Machine Learning?&lt;/strong&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Inteligencia Artificial no lo es porque Google en general no es capaz de hacer nada sin los &amp;#8220;humanos&amp;#8221;, el cuál será siempre el que &lt;strong&gt;enseñará &lt;/strong&gt;como buen profesor a Google como actuar en cada situación, las query de búsquedas por ejemplos, o con las imágenes, o con las visualizaciones de los anuncios, interacciones en los sitios web taggados por Tag Manager y Google Analytics, o a través del utilizo de su herramienta de Adwords.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Te has fijado que cuando cambias algo en Adwords, el estado será &amp;#8220;&lt;strong&gt;En Aprendizaje&amp;#8221;, &lt;/strong&gt;y tarda una semana en aprender de tus palabras, grupos, anuncios, estructura y luego irá caminando por sí solo? No? Lees a continuación&lt;a href=&#34;https://support.google.com/adwords/answer/6263057&#34;&gt; este texto.&lt;/a&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        No ves nada raro? Y esta imagen?
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        &lt;a href=&#34;https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-387 size-full&#34; src=&#34;https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png&#34; alt=&#34;&#34; width=&#34;772&#34; height=&#34;357&#34; srcset=&#34;https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png 772w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-300x139.png 300w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-768x355.png 768w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-260x120.png 260w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-50x23.png 50w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-150x69.png 150w&#34; sizes=&#34;(max-width: 772px) 100vw, 772px&#34; /&gt;&lt;/a&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Esta es una primera parte de mi post relacionado con el Machine Learning de Google, y aplicado al día a día de mi trabajo como consultor PPC. Una reflexión de que hay que ir aprendiendo, enseñando y sobre todo estudiar mucho para optimizar grandes cuentas (o medianas). Para rentabilizarlas hay que tener en cuenta tantos factores, hay mucha competencia y nuestro objetivo es ganarle a Google, o esto nos hace creer! Tú que opinas? Qué estrategia utilizas en Google AdWords y si el machine learning está siendo un beneficio para tu negocio.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Hasta el próximo post 😉
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

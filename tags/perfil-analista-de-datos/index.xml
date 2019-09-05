@@ -1,24 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>perfil analista de datos on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>perfil analista de datos | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/perfil-analista-de-datos/</link>
-    <description>Recent content in perfil analista de datos on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 18 Mar 2018 19:11:45 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/perfil-analista-de-datos/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/perfil-analista-de-datos/index.xml" rel="self" type="application/rss+xml" />
+    <description>perfil analista de datos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 18 Mar 2018 19:11:45 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>perfil analista de datos</title>
+      <link>https://www.marcusrb.com/tags/perfil-analista-de-datos/</link>
+    </image>
     
     <item>
       <title>El perfil del analista de datos y del analista digital y sus requisitos</title>
       <link>https://www.marcusrb.com/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
       <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
-      <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica.</description>
+      <description>
+
+&lt;p&gt;Hace mucho tiempo que tenía gana de redactar un artículo sobre esta tema, y durante más de algunas clases impartidas de analítica web, se comentaba que requisitos ha de tener un analista web y que diferencia tiene con el analista de datos mencionando el rol que desempeña.&lt;/p&gt;
+
+&lt;p&gt;Está claro que por &lt;strong&gt;analista web &lt;/strong&gt;no estamos hablando de realizar un curso de Google Analytics y fin, y que espero hoy en día todo el mundo conoce, pero era de ir profundizando el rol que tiene este perfil con el analista de datos. Hay muchas más herramientas, muchas más competencias a tener en cuenta, además de tener unos estudios universitarios o postgrados de rama científica.&lt;/p&gt;
+
+&lt;p&gt;Viendo el escenario actual hay que definir el analista digital y el analista de datos, como dos perfil por separado, teniendo en cuenta que el primero puede ser complementar al segundo y así viceversa.&lt;/p&gt;
+
+&lt;p&gt;Si hablamos del &lt;strong&gt;analista digital&lt;/strong&gt;, ha de tener unos requisitos bien definidos hacía:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extraer datos de las herramientas de analítica web, o a través de mediciones off-line&lt;/li&gt;
+&lt;li&gt;segmentar estos datos con el fin de alinearse a los objetivos empresariales, y de desempeño por el cuál fueron creados (hablamos aquí de las KPI&amp;#8217;s)&lt;/li&gt;
+&lt;li&gt;filtrar los datos en tantos grupos, para que puedan ser utilizados de manera optima y re-utilizados, también para otras mediciones e ir comparando por patrones (benchmark)&lt;/li&gt;
+&lt;li&gt;representar los datos a través de gráficos, informes dinámicos y reports periódicos, inclusive utilizando storytelling, o contar historias a través de los datos&lt;/li&gt;
+&lt;li&gt;detectar nuevas oportunidades (insight), fallos o errores, probar diferentes escenarios con los test A/B&lt;/li&gt;
+&lt;li&gt;aplicar las mejoras y así volver al punto de partida&lt;/li&gt;
+&lt;li&gt;el dominio del idioma, es muy importante tanto para conversación y negociación con los clientes, así como participación a congresos y seminarios y networking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dicho esto por supuesto puede que haya más, pero se debe tener en cuenta que el objetivo del analista web es pensar primero en el cliente  (UX), y luego al retorno empresarial. Creo que esto es fundamental, sino pensamos primero a quién va dirigido el producto o servicio ofrecido, y lo medimos mal, el retorno será nulo, o incluso negativo&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-diferencia-tiene-con-el-analista-de-datos-el-primer-rol&#34;&gt;¿Qué diferencia tiene con el &lt;strong&gt;analista de datos&lt;/strong&gt; el primer rol?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Programación orientado a objetos PHP, JavaScript, PHP, Python, C/C++, (no hablamos de pequeños scripts solamente, además de aplicaciones de gestión)&lt;/li&gt;
+&lt;li&gt;Diferentes sistemas operativos lado cliente que server, UNIX, LINUX, Debian, etc.&lt;/li&gt;
+&lt;li&gt;Conocimiento y utilización de diferente base de datos relacionadas tipo SQL y no relacionadas tipo NoSql, (Cassandra, Spark, Hadoop, Hbase, Redis, MongoDB, etc)&lt;/li&gt;
+&lt;li&gt;Uso de las herramientas de analítica cualitativa y cuantitativa a través de funciones matemáticas y estadísticas (como base solidas y creación de modelos)&lt;/li&gt;
+&lt;li&gt;Conocer que soluciones existente puedan albergar la mayor cantidad de datos, para así estudiar la posibilidad de cloud server (Google Cloud, Amazon Cloud, Microsoft Azure, etc)&lt;/li&gt;
+&lt;li&gt;Lo mismo de antes, uso del idioma inglés hablado casi a diario, tanto para comunicación con los clientes que para hacer networking, como para las diferentes soluciones informáticas y más.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Según el estadístico John Tukey, que definió en 1961 el análisis de datos así &lt;em&gt;&amp;#8220;Procedimientos para analizar datos, técnicas para interpretar los resultados de dichos procedimientos, formas de planear la recolecta de datos para hacer el análisis más fácil, más preciso o más exacto&amp;#8221;&lt;/em&gt;. Se parece mucho a lo que viene a ser el analista digital o analista web, pero con pequeñas diferencias.&lt;/p&gt;
+
+&lt;p&gt;Así que mientras el Data Analyst o analista de datos parece ser un híbrido entre informatico y project manager sobre lo que crear diferentes soluciones, si tenemos en cuenta además funciones de negocio, entonces se convierte en &lt;strong&gt;Business Analyst&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El Analista de Datos tiene un rol de rompedor de esquemas entre el mundo digital y mundo off-line, el suyo es ir sacar datos  través de la minería de datos, técnica que permite a la exploración de datos no convencionales, o inclusive que ni sabemos como interpretarlos. Se buscarán formas de &amp;#8220;homogeneizar&amp;#8221; los datos brutos y transformarlos en datos más &amp;#8220;legibles&amp;#8221;.&lt;/p&gt;
+
+&lt;h3 id=&#34;puede-un-analista-web-ser-analista-de-datos&#34;&gt;¿Puede un analista web ser analista de datos?&lt;/h3&gt;
+
+&lt;p&gt;Según leo en algunas revistas especializadas del sector, la respuesta es sí, pero con limitaciones y bastantes, ya lo hace con los datos cualitativos ya que estos serán &amp;#8220;interpretaciones&amp;#8221; del analista a detectar necesidades o mejoras. Y el resto a través de test A/B, pero siempre trabajará con la gran mayoría de veces con datos ya &amp;#8220;limpios&amp;#8221; y listo para su utilizo.&lt;/p&gt;
+
+&lt;p&gt;Así que el rol del analista de datos, o bien Data Analyst, o &lt;strong&gt;Big Data Analyst,&lt;/strong&gt; es un rol más completo, que inclusive puede llegar a meter manos en las herramientas de análisis web aunque veo sus limitaciones de no poder sacar más de lo que ya está midiendo, podría limitar bastante sus conocimientos en algo más &amp;#8220;básico&amp;#8221;, que no es del todo verdad.&lt;/p&gt;
+
+&lt;p&gt;En analista web podría ser &lt;strong&gt;Business Analyst, &lt;/strong&gt;ya que este rol podría abarca análisis, seguimientos de objetivos y alineando el todo con los objetivos empresariales, de negocio.&lt;/p&gt;
+
+&lt;p&gt;Por cierto, no confundamos el rol del analista de datos con el &lt;strong&gt;Data Scientist&lt;/strong&gt;, este será el responsable para la coordinación de más equipos y recursos para llevar a cabo proyectos de más envergadura, teniendo en cuenta que trabajarán más analistas de datos, informáticos, matemáticos, sociólogos, estadísticos, físicos y más profesionales.&lt;/p&gt;
+
+&lt;p&gt;Así que dedicaré más adelante un listado completo de recursos que se podrían encontrar en internet de centros educativos de pago y Mooc para complementar tus conocimientos, que más de uno querrá tenerlo en cuenta.&lt;/p&gt;
+
+&lt;p&gt;Así que de momento esto es todo, he querido aclarar a todos aquellos que me preguntan sobre los perfiles digitales que más se buscan pero con su pequeñas matices.&lt;/p&gt;
+
+&lt;p&gt;Tienes más duda sobre estos dos perfiles? Pueden ir comentando más abajo y así abrir un debate.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

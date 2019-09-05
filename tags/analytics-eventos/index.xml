@@ -1,24 +1,348 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>analytics eventos on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>analytics eventos | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/analytics-eventos/</link>
-    <description>Recent content in analytics eventos on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 22 Apr 2018 21:34:51 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/analytics-eventos/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/analytics-eventos/index.xml" rel="self" type="application/rss+xml" />
+    <description>analytics eventos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 22 Apr 2018 21:34:51 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>analytics eventos</title>
+      <link>https://www.marcusrb.com/tags/analytics-eventos/</link>
+    </image>
     
     <item>
       <title>Como crear eventos dinámicos con Google Tag Manager</title>
       <link>https://www.marcusrb.com/como-crear-eventos-dinamicos-con-google-tag-manager/</link>
       <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/como-crear-eventos-dinamicos-con-google-tag-manager/</guid>
-      <description>Este post sería un resumen en formato texto, de un vídeo anterior realizado en YouTube, y está pensado como memoria para aquellos que quieren seguir todos los pasos de una creación de eventos dinámicos con Google Tag Manager</description>
+      <description>
+
+&lt;h2 id=&#34;este-post-sería-un-resumen-en-formato-texto-de-un-vídeo-anterior-realizado-en-youtube&#34;&gt;Este post sería un resumen en formato texto, de un vídeo anterior realizado en YouTube&lt;/h2&gt;
+
+&lt;p&gt;y está pensado como memoria para aquellos que quieren seguir todos los pasos de una creación de eventos dinámicos con Google Tag Manager. El nivel de este tutorial es intermedio. Así que cualquier duda pueden ver primero el vídeo explicativo Google Tag Manager en 30 minutos y luego este&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;definición-de-evento&#34;&gt;Definición de evento&lt;/h2&gt;
+
+&lt;p&gt;Vamos directo al grano, primero definimos que es un &lt;strong&gt;evento&lt;/strong&gt;. Aquí tenemos una desde el RAE:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;1. m. acaecimiento.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. m. Eventualidad, hecho imprevisto, o que puede acaecer.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3. m. Suceso importante y programado, de índole social, académica, artística o deportiva. U. m. en Am.&lt;/p&gt;
+
+&lt;p&gt;4. m. Ling. Situación descrita por un predicado, ya sea estática o dinámica.&lt;/p&gt;
+
+&lt;p&gt;5. m. Ling. Predicado de naturaleza dinámica.&lt;/p&gt;
+
+&lt;p&gt;a cualquier, o a todo, evento&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. locs. advs. En previsión de todo lo que pueda suceder.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2. locs. advs. Sin reservas ni preocupaciones.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Me quedo con dos  y de hecho son previsiones, de lo que podría pasar en este caso aplicado a nuestro mundo, eventos o acciones de usuarios en nuestro sitios web, aplicaciones móviles.&lt;/p&gt;
+
+&lt;p&gt;Perfecto, con lo cuál serían &lt;strong&gt;interacciones, hitos o hits&lt;/strong&gt;, como definirlo mejor en Google encontramos esto:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;información-sobre-los-eventos&#34;&gt;Información sobre los eventos&lt;/h3&gt;
+
+&lt;div class=&#34;drop-head&#34;&gt;
+  Utilice los &lt;em&gt;eventos&lt;/em&gt; para recopilar datos sobre las interacciones con su contenido.
+&lt;/div&gt;
+
+&lt;div class=&#34;cc&#34;&gt;
+  &lt;p&gt;
+    Los eventos son interacciones del usuario con cuyo contenido se puede realizar independientemente a partir de una página web o una carga de pantalla.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    Las descargas, los clics en anuncios para móviles, los gadgets, los elementos Flash, los elementos insertados AJAX y las reproducciones de vídeo son todos ejemplos de acciones de las que puede realizar un seguimiento como eventos.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Con lo cuál tenemos un elenco de algunos ejemplos de eventos, como la descarga de elementos, o click en diferentes botones o imágenes por ejemplo. Aquí mencionar que deberíamos tener un sitio web con muchos botones para diferenciar uno y otro  clics en enlaces, sería ya suficiente para hacer una prueba. ¡Vamos con ello!&lt;/p&gt;
+
+&lt;h2 id=&#34;Anatomy&#34;&gt;Anatomía de los eventos&lt;/h2&gt;
+
+&lt;p&gt;Un evento tiene los  siguientes componentes, un hit de evento incluye un valor para cada componente y estos valores se muestran en sus informes.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Categoría&lt;/li&gt;
+&lt;li&gt;Acción&lt;/li&gt;
+&lt;li&gt;Etiqueta (opcional, pero recomendado)&lt;/li&gt;
+&lt;li&gt;Valor (opcional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por ejemplo, puede configurar un botón de reproducción de vídeo en su sitio para que envíe un hit de evento con los valores siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Categoría: &amp;#8220;Vídeos&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Acción: &amp;#8220;Reproducir&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Etiqueta: &amp;#8220;El primer cumpleaños del bebé&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Directamente desde Google Analytics, desde su propia guía, vamos a comentar que necesitamos unas series de elementos para poder crear eventos con Google Analytics, así que mejor decir que sin esta información, no podemos tener nada.&lt;/p&gt;
+
+&lt;h3 id=&#34;categoría&#34;&gt;Categoría&lt;/h3&gt;
+
+&lt;p&gt;Una categoría es un nombre que se debe proporcionar para agrupar los objetos de los cuales quiera realizar un seguimiento. Normalmente, utilizará el mismo nombre de categoría varias veces sobre los elementos relacionados de la interfaz de usuario que quiera agrupar en una determinada categoría.&lt;/p&gt;
+
+&lt;p&gt;Supongamos que también quiere realizar el seguimiento de las veces que se descarga el vídeo. Podría utilizar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Categoría: &amp;#8220;Vídeos&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Acción: &amp;#8220;Descargados&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Etiqueta: &amp;#8220;Lo que el viento se llevó&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En este caso, solo habría una categoría (&amp;#8220;Vídeos&amp;#8221;) en sus informes y podría ver métricas agregadas para la interacción del usuario con el conjunto total de elementos para ese único objeto de vídeo.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, probablemente tenga más de un solo objeto del que desea realizar el seguimiento de eventos, por lo que merece la pena considerar cómo se van a clasificar los informes antes de implementar la invocación. Por ejemplo, tal vez prefiera hacer el seguimiento de todas las películas por separado en la misma categoría principal de vídeos de manera que obtenga números adicionales para cualquier interacción de vídeo, indistintamente del usuario con el que se interactúe.&lt;/p&gt;
+
+&lt;p&gt;Además, podría crear categorías separadas según el tipo de vídeo, una para vídeos de películas y otra para vídeos musicales. También podría tener una categoría aparte para las descargas de vídeo:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vídeos: películas&lt;/li&gt;
+&lt;li&gt;Vídeos: música&lt;/li&gt;
+&lt;li&gt;Descargas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En este escenario, se podría ver el recuento total de eventos combinados de las tres categorías en sus informes. La métrica _Total de eventos_ muestra todos los recuentos de eventos de todas las categorías indicadas en la implementación del seguimiento de eventos. Sin embargo, no podrá ver las métricas combinadas de todos los vídeos aparte de las descargas, porque las métricas de eventos detalladas se combinan en sus respectivas categorías.&lt;/p&gt;
+
+&lt;p&gt;Aunque el modelo de objeto de seguimiento de eventos es totalmente flexible, es conveniente prever primero la estructura de informes que se quiera tener, antes de decidir las categorías de nombres. Si tiene previsto utilizar el mismo nombre de categoría en varias ubicaciones, procure hacer referencia correctamente a la categoría que desee por su nombre. Por ejemplo, si tiene previsto denominar a su categoría de seguimiento de vídeos &amp;#8220;Vídeo&amp;#8221; y posteriormente lo olvida y utiliza el plural &amp;#8220;Vídeos&amp;#8221;, tendrá dos categorías para el seguimiento de vídeos. Además, si decide cambiar el nombre de categoría de un objeto del que ya se ha realizado el seguimiento con otro nombre, el historial de datos de la categoría original no se volverá a procesar, por lo que tendrá métricas del mismo elemento de página web incluidas en dos categorías en la interfaz de informes.&lt;/p&gt;
+
+&lt;h3 id=&#34;acción&#34;&gt;Acción&lt;/h3&gt;
+
+&lt;p&gt;Por lo general, el parámetro de acción se usa para asignar un nombre al tipo de interacción o evento del que se quiere realizar el seguimiento para un objeto concreto del sitio web. Por ejemplo, con una única categoría &amp;#8220;Vídeos&amp;#8221; puede hacer el seguimiento de una serie de eventos específicos con este parámetro, como los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hora a la que termina la carga del vídeo,&lt;/li&gt;
+&lt;li&gt;clics del botón &amp;#8220;Reproducir&amp;#8221;,&lt;/li&gt;
+&lt;li&gt;clics del botón &amp;#8220;Detener&amp;#8221;,&lt;/li&gt;
+&lt;li&gt;clics del botón &amp;#8220;Pausa&amp;#8221;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Como en el caso de las categorías, el nombre que indique para una acción lo decide usted, pero tenga en cuenta dos características importantes del modo en que se utiliza una acción de evento en los informes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Todas las acciones aparecen de forma independiente de sus categorías principales. &lt;/strong&gt;Esto ofrece otra manera útil de segmentar los datos de evento en los informes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un evento único viene determinado por un nombre de acción único. &lt;/strong&gt;Puede utilizar nombres de acción duplicados en distintas categorías, pero este hecho puede repercutir en el modo de calcular los eventos únicos. Consulte las sugerencias que se indican a continuación y la sección &amp;#8220;Recuento implícito&amp;#8221; para obtener más detalles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;etiqueta&#34;&gt;Etiqueta&lt;/h3&gt;
+
+&lt;p&gt;Las etiquetas permiten proporcionar información adicional para los eventos cuyo seguimiento desee realizar, como el título de la película en el caso de los ejemplos de vídeos anteriores, o el nombre de un archivo al realizar el seguimiento de las descargas.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Categoría: &amp;#8220;Descargas&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Acción: &amp;#8220;PDF&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Etiqueta: &amp;#8220;/salesForms/orderForm1.pdf&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Al igual que con las categorías y las acciones, hay un informe que muestra todas las etiquetas que haya creado. Imagínese las etiquetas como una manera de crear una dimensión adicional de los informes para la interacción del usuario con los objetos de la página. Por ejemplo, supongamos que dispone de cinco reproductores de vídeo en su página de cuyas interacciones desea realizar el seguimiento. Cada uno de estos reproductores puede utilizar la categoría &amp;#8220;Vídeos&amp;#8221; con la acción &amp;#8220;Reproducir&amp;#8221;, pero cada uno podría tener también una etiqueta aparte (como el nombre de la película) para que aparezcan como elementos diferenciados en el informe.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Categoría: &amp;#8220;Vídeos&amp;#8221;, acción: &amp;#8220;Reproducir&amp;#8221;, etiqueta: &amp;#8220;Lo que el viento se llevó&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Categoría: &amp;#8220;Vídeos&amp;#8221;, acción: &amp;#8220;Reproducir&amp;#8221;, etiqueta: &amp;#8220;Huckleberry Finn&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Como en el caso de las categorías, el nombre que indique para una etiqueta lo decide usted, pero tenga en cuenta dos características importantes del modo en que se utiliza una etiqueta de evento en los informes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Todas las etiquetas se enumeran de forma independiente a sus categorías principales y acciones.&lt;/strong&gt; Esto ofrece otra manera útil de segmentar los datos de evento en los informes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Un evento único viene determinado por un nombre de etiqueta único.&lt;/strong&gt; Puede utilizar nombres de etiquetas duplicados en distintas categorías, pero este hecho puede repercutir en el modo de calcular los eventos únicos. Consulte las sugerencias que se indican a continuación y la sección &amp;#8220;Recuento implícito&amp;#8221; para obtener más detalles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;h3 id=&#34;valor&#34;&gt;Valor&lt;/h3&gt;
+
+&lt;p&gt;El valor difiere de los otros componentes en que es un número entero en lugar de una secuencia, por lo que debe utilizarlo para asignar un valor numérico a un objeto de página de seguimiento. Por ejemplo, podría utilizarlo para proporcionar el tiempo en segundos que tarda en cargarse un reproductor o para activar un valor monetario cuando se alcance un determinado marcador de reproducción en un reproductor de vídeo.&lt;/p&gt;
+
+&lt;p&gt;Categoría: &amp;#8220;Vídeos&amp;#8221;, acción: &amp;#8220;Tiempo de carga de vídeo&amp;#8221;, etiqueta: &amp;#8220;Lo que el viento se llevó&amp;#8221;, valor: downloadTime&lt;/p&gt;
+
+&lt;p&gt;El valor se interpreta como un número, y el informe agrega los valores totales sobre la base del recuento de cada evento (consulte &amp;#8220;Recuento implícito&amp;#8221; a continuación). El informe también determina el valor medio para la categoría. En el ejemplo anterior, se invoca al evento para la acción &amp;#8220;Tiempo de carga de vídeo&amp;#8221; al concluir la carga del vídeo. El nombre del vídeo se proporciona como una etiqueta y se acumula el tiempo de carga calculado para cada descarga de vídeo. A continuación, se podría determinar el tiempo medio de carga para todas las acciones &amp;#8220;Tiempo de carga de vídeo&amp;#8221; de la categoría &amp;#8220;Vídeos&amp;#8221;. Supongamos que ha habido 5 descargas únicas de los vídeos de su sitio web con los tiempos de descarga en segundos que se indican a continuación:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10&lt;/li&gt;
+&lt;li&gt;25&lt;/li&gt;
+&lt;li&gt;8&lt;/li&gt;
+&lt;li&gt;5&lt;/li&gt;
+&lt;li&gt;5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sus informes se calcularían del siguiente modo (los números del ejemplo muestran el tiempo de descarga en segundos):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sesiones con eventos: 5&lt;/li&gt;
+&lt;li&gt;Valor: 53&lt;/li&gt;
+&lt;li&gt;Valor medio: 10,6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No se admiten números enteros negativos.&lt;/p&gt;
+
+&lt;h2 id=&#34;eventos-en-google-analytics&#34;&gt;Eventos en Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;Una vez explicado y definidos los elementos principales de los eventos, veamos un pantallazo de como se mostraría un evento en Google Analytics, que afecta toda la propiedad (y a todas las vistas o perfiles.&lt;/p&gt;
+
+&lt;div class=&#34;image_frame image_item no_link scale-with-grid no_border&#34; &gt;
+  &lt;div class=&#34;image_wrapper&#34;&gt;
+    &lt;img class=&#34;scale-with-grid&#34; src=&#34;https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-228x300.png&#34; alt=&#34;&#34; title=&#34;&#34; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Desde nuestra interfaz vamos en: Comportamiento &amp;gt; Eventos&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-422&#34; src=&#34;https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-228x300.png&#34; alt=&#34;&#34; width=&#34;228&#34; height=&#34;300&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-228x300.png 228w, https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-111x146.png 111w, https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-38x50.png 38w, https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb-57x75.png 57w, https://www.marcusrb.com/img/2018/04/comportamiento-eventos-google-analytics-marcusrb.png 238w&#34; sizes=&#34;(max-width: 228px) 100vw, 228px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aquí una muestra en Tiempo Real &amp;gt; Eventos&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;crear-eventos-en-google-tag-manager&#34;&gt;Crear eventos en Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Y finalmente llegamos a crear los eventos con Google Tag Manager, tenemos una sección dedicada para poder crear los eventos directamente en la etiqueta de Google Analytics, así que sin ninguna dificultad veremos los mismos elementos arriba mencionados: Categoría, Acción, Etiqueta y Valor.&lt;/p&gt;
+
+&lt;p&gt;Veamos un ejemplo aqui:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;y su explicación de los eventos en Google Tag Manager aquí:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://support.google.com/tagmanager/answer/6106716?hl=es&#34; target=&#34;_blank&#34;&gt;https://support.google.com/tagmanager/answer/6106716?hl=es&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cuál-es-la-diferencia-entre-los-eventos-de-google-analytics-y-google-tag-manager&#34;&gt;¿Cuál es la diferencia entre los eventos de Google Analytics y Google Tag Manager?&lt;/h3&gt;
+
+&lt;p&gt;Los eventos de Google Analytics son interacciones que se envían como resultado de las etiquetas de Analytics activadas desde Tag Manager. Los eventos del navegador de Tag Manager son interacciones de los usuarios con elementos de páginas web (elementos DOM) que registra el navegador y envía a la capa de datos de Tag Manager para que se puedan usar para configurar activadores.&lt;/p&gt;
+
+&lt;p&gt;Pues claro, verdad? La primera parte es la nos interesa ahora mismo, ya tendremos otro post explicando los grandes misterios del &lt;strong&gt;dataLayer&lt;/strong&gt;, pero así como viene a ser este post tendríamos que utilizarlo también, sería la parte dinámica de nuestro Tag Manager, así que vamos por la creación de uno y del otro.&lt;/p&gt;
+
+&lt;p&gt;No iré explicando todo todo de Google Tag Manager, así asumo que ya conocen las variables, activadores y etiquetas. Asumo que ya conocen las diferentes variables existentes entre predefinidas y personalizadas, así como los activadores. En tal caso, os rimando a otras guías internas para realizar cada una de ella.&lt;/p&gt;
+
+&lt;h3 id=&#34;eventos-básicos-clic-en-enlaces-salientes&#34;&gt;Eventos básicos: Clic en Enlaces Salientes&lt;/h3&gt;
+
+&lt;p&gt;Para crear un evento básico con Google Tag Manager integrando la etiqueta de Google Analytics seguiremos estos pasos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Elegimos y creamos la &lt;strong&gt;etiqueta&lt;/strong&gt; de Google Analytics, del tipo Universal&lt;/li&gt;
+&lt;li&gt;Tipo de seguimiento elegimos la opción &lt;strong&gt;Evento&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Entre los parámetros de seguimientos de eventos rellenamos la siguiente información:
+
+&lt;ul&gt;
+&lt;li&gt;CATEGORIA: &lt;em&gt;ClickContactos&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ACCIÓN: &lt;em&gt;clic&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;ETIQUETA: &lt;em&gt;{{Click URL}}&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;VALOR: &lt;em&gt;&amp;#8211; no marcamos nada &amp;#8211;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Seleccionaríamos o bien la variable de configuración de Google Analytics (creada anteriormente en el caso de tenerla), o marcamos la opción de &lt;strong&gt;Habilitar la anulación de configuración de esta etiqueta y añadimos nuestra ID Propiedad de GA&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Como activador seleccionaríamos: &lt;strong&gt;Todas las Páginas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;¿Listos?&lt;/p&gt;
+
+&lt;p&gt;Si llegamos a leer esta linea significa que solamente tenemos dos opciones: o utilizar la Vista Previa y podemos probar antes de publicar nuestra versión creada, y para ello tenemos que ya tener un contenedor de Tag Manager implementado o bien utilizar el &lt;strong&gt;Tag Manager Injector&lt;/strong&gt; para simular la creación del contenedor. No recuerdas como sería? Puedes echar un vistazo a este vídeo como hacerlo:&lt;/p&gt;
+
+&lt;div class=&#34;content_video iframe has-wh&#34;&gt;
+  &lt;iframe class=&#34;scale-with-grid&#34; width=&#34;700&#34; height=&#34;400&#34; src=&#34;https://www.youtube.com/embed/MAn20Yi62z8?t=7m17s?wmode=opaque&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Como se mostraría en nuestra preview en Google Tag Manager sería así:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;y en la interfaz de Tiempo Real en Google Analytics así:&lt;/p&gt;
+
+&lt;p&gt;img&lt;/p&gt;
+
+&lt;h3 id=&#34;eventos-dinámicos-en-google-tag-manager&#34;&gt;Eventos dinámicos en Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Te imaginas una etiqueta que recoge dinámicamente todos los valores según la tipología de clic, formulario o lo que sea y lo podría diferenciar si  el elemento tal y cuál?&lt;/p&gt;
+
+&lt;p&gt;Bueno vamos por partes, necesitamos primero definir la regla del &lt;strong&gt;dataLayer. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En este caso la etiqueta personalizada de HTML con esta lineas de código:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script&amp;gt;&amp;lt;br /&amp;gt;
+var dataLayer = window.dataLayer || [];&amp;lt;br /&amp;gt;
+dataLayer.push({&amp;lt;br /&amp;gt;
+&#34;event&#34; : &#34;linkContact&#34;,&amp;lt;br /&amp;gt;
+&#34;eventCategory&#34; : &#34;&#34;, //puedes crear un nombre fácil de recordar para esto tipo de acciones, en este caso optaría para ClickContactLink&amp;lt;br /&amp;gt;
+&#34;eventAction&#34; : &#34;&#34;, //puedes crear una tabla donde recoge los valores del protocolo y lo transforma en Acción, te acuerdas la variable&amp;lt;br /&amp;gt;
+&#34;eventLabel&#34; : &#34;&#34; //aquí también es sencillo, puedes recoger un dato multiple, el valor (email, telefono, whatasapp y la página vista, ejemplo&amp;lt;br /&amp;gt;
+});&amp;lt;br /&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;Para ejemplo sería así:&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  &lt;pre&gt;&amp;lt;br /&amp;gt;
+&#34;eventCategory&#34;: &#34;ClickEvent&#34;,&amp;lt;br /&amp;gt;
+&#34;eventAction&#34; : &#34;{{Click Text}}&#34;,&amp;lt;br /&amp;gt;
+&#34;eventLabel&#34; : &#34;{{Click URL}}&#34;&amp;lt;br /&amp;gt;
+&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;La primera linea de código nos valida el dataLayer como variable, si existe o está vacía, así que la confirmamos nuevamente, y con la acción &lt;strong&gt;push &lt;/strong&gt;enviamos nueva información.&lt;/p&gt;
+
+&lt;p&gt;La segunda linea es generar un &lt;strong&gt;evento &lt;/strong&gt;en este caso asignamos un valor para luego recuperarlo &lt;strong&gt;linkContact&lt;/strong&gt;, en mi caso.&lt;/p&gt;
+
+&lt;p&gt;Las siguientes lineas asignamos los parámetros de eventos de GA, personalizados en su caso, y le asignamos los valores.&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;Activador&lt;/strong&gt; en este caso será nuestro click en url con protocolo: tel, mailto, whatsapp (son para eventos de llamadas), he realizado algo muy particular, puedes o bien seleccionar {{Click URL}} o bien crear una variable personalizada &lt;strong&gt;tipo URL &amp;gt; Protocolo &amp;gt; desde {{Click URL}}&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-420&#34; src=&#34;https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-300x141.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;141&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-300x141.png 300w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-768x361.png 768w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-1024x482.png 1024w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-260x122.png 260w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-50x24.png 50w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb-150x71.png 150w, https://www.marcusrb.com/img/2018/04/activador-linkcontact-marcusrb.png 1152w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/click-url-protocolo.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-421&#34; src=&#34;https://www.marcusrb.com/img/2018/04/click-url-protocolo-300x237.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;237&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/click-url-protocolo-300x237.png 300w, https://www.marcusrb.com/img/2018/04/click-url-protocolo-185x146.png 185w, https://www.marcusrb.com/img/2018/04/click-url-protocolo-50x39.png 50w, https://www.marcusrb.com/img/2018/04/click-url-protocolo-95x75.png 95w, https://www.marcusrb.com/img/2018/04/click-url-protocolo.png 577w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;de otro lado prepararé para cada uno de los parámetros del dataLayer, unas variables personalizadas tipo &lt;strong&gt;dataLayer:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;eventCategory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/eventcategory-datalayer.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-423&#34; src=&#34;https://www.marcusrb.com/img/2018/04/eventcategory-datalayer-300x233.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;233&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/eventcategory-datalayer-300x233.png 300w, https://www.marcusrb.com/img/2018/04/eventcategory-datalayer-188x146.png 188w, https://www.marcusrb.com/img/2018/04/eventcategory-datalayer-50x39.png 50w, https://www.marcusrb.com/img/2018/04/eventcategory-datalayer-97x75.png 97w, https://www.marcusrb.com/img/2018/04/eventcategory-datalayer.png 516w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;eventAction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/eventoaction-datalayer.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-427&#34; src=&#34;https://www.marcusrb.com/img/2018/04/eventoaction-datalayer-300x236.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;236&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/eventoaction-datalayer-300x236.png 300w, https://www.marcusrb.com/img/2018/04/eventoaction-datalayer-185x146.png 185w, https://www.marcusrb.com/img/2018/04/eventoaction-datalayer-50x39.png 50w, https://www.marcusrb.com/img/2018/04/eventoaction-datalayer-95x75.png 95w, https://www.marcusrb.com/img/2018/04/eventoaction-datalayer.png 522w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;eventLabel&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/eventlabel-datalayer.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-424&#34; src=&#34;https://www.marcusrb.com/img/2018/04/eventlabel-datalayer-300x250.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;250&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/eventlabel-datalayer-300x250.png 300w, https://www.marcusrb.com/img/2018/04/eventlabel-datalayer-175x146.png 175w, https://www.marcusrb.com/img/2018/04/eventlabel-datalayer-50x42.png 50w, https://www.marcusrb.com/img/2018/04/eventlabel-datalayer-90x75.png 90w, https://www.marcusrb.com/img/2018/04/eventlabel-datalayer.png 481w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Una vez tengamos las variables creadas, nos falta solo rellenar las informaciones dentro de nuestra etiqueta de Google Analytics que teníamos antes, y aplicamos las personalizaciones dinámicas, así:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-428&#34; src=&#34;https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb-300x265.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;265&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb-300x265.png 300w, https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb-165x146.png 165w, https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb-50x44.png 50w, https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb-85x75.png 85w, https://www.marcusrb.com/img/2018/04/ga-evento-dinamico-etiqueta-marcusrb.png 681w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Su activador será el evento personalizado &lt;strong&gt;linkContact &lt;/strong&gt;que se lanzará desde el dataLayer anteriormente creado, con lo cuál solo en clic en enlaces de llamadas con unos determinados protocolos, nos dará este evento, así que la creación del activador será así:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-425&#34; src=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado-300x216.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;216&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado-300x216.png 300w, https://www.marcusrb.com/img/2018/04/evento-personalizado-203x146.png 203w, https://www.marcusrb.com/img/2018/04/evento-personalizado-50x36.png 50w, https://www.marcusrb.com/img/2018/04/evento-personalizado-104x75.png 104w, https://www.marcusrb.com/img/2018/04/evento-personalizado.png 585w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez tengamos todo, realizamos nuevamente una actualización del nuestro workspace y actualizamos el sitio web y lo que se mostrará será lo siguiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-426&#34; src=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb-300x161.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;161&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb-300x161.png 300w, https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb-260x139.png 260w, https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb-50x27.png 50w, https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb-140x75.png 140w, https://www.marcusrb.com/img/2018/04/evento-personalizado-eventos-dinamicos-marcusrb.png 552w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-430&#34; src=&#34;https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb-300x146.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;146&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb-300x146.png 300w, https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb-260x127.png 260w, https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb-50x24.png 50w, https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb-150x73.png 150w, https://www.marcusrb.com/img/2018/04/vista-previa-debug-gtm-eventos-dinamicos-marcusrb.png 717w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-434&#34; src=&#34;https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-300x120.png&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;120&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-300x120.png 300w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-768x308.png 768w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-1024x410.png 1024w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-260x104.png 260w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-50x20.png 50w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-150x60.png 150w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1-1280x517.png 1280w, https://www.marcusrb.com/img/2018/04/tiempo-real-ga-eventos-dinamicos-marcusrb-1.png 1291w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto es todo, una pequeña muestra de lo que podemos realizar con Google Tag Manager dinámicamente y con una buena dosis de planificación podemos inclusive crear funciones tipo &lt;strong&gt;if &amp;#8211; else &lt;/strong&gt;con variables personalizadas, un ejemplo? Del tipo acciones dentro de una página que en base a unos activadores particulares, y reglas o condiciones activaríamos unos eventos dinámicos.&lt;/p&gt;
+
+&lt;p&gt;Cualquier duda que tengan, pueden enviarme un mensaje y lo miramos, juntos , gracias y hasta el próximo post.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

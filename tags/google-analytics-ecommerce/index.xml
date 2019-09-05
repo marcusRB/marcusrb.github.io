@@ -1,24 +1,1461 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>google analytics ecommerce on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>google analytics ecommerce | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/google-analytics-ecommerce/</link>
-    <description>Recent content in google analytics ecommerce on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 05 Jan 2018 14:58:24 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/google-analytics-ecommerce/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/google-analytics-ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <description>google analytics ecommerce</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Fri, 05 Jan 2018 14:58:24 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>google analytics ecommerce</title>
+      <link>https://www.marcusrb.com/tags/google-analytics-ecommerce/</link>
+    </image>
     
     <item>
       <title>[Guía] Implementar Comercio electrónico en Google Tag Manager para sitios web</title>
       <link>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
       <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
-      <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente</description>
+      <description>
+
+&lt;h2 id=&#34;los-eventos-de-comercio-electrónico-o-e-commerce-para-google-analytics-siempre-ha-dado-problemas-y-confusión-a-la-hora-de-configurarlo-correctamente&#34;&gt;Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente,&lt;/h2&gt;
+
+&lt;p&gt;especialmente si queremos realizarlo integramente en proyectos personalizados, sitios web ad-hoc donde no utilizan especificamente plugin o módulos free, ejemplo un híbrido de Magento, Prestashop o similar.&lt;/p&gt;
+
+&lt;p&gt;La cuestión es ir explicar paso a paso como grabar los eventos más utilizados de un comercio electrónico, y no solo transacciones. Además, las mismas podemos &amp;#8220;reciclar&amp;#8221; los mismos eventos para otras etiquetas de terceros: AdWords, Remarketing, Facebook, Doubleclick principalmente, además de otras más especificas como TradeDoubler etc.&lt;/p&gt;
+
+&lt;p&gt;Esta guía proporcionará solo y exclusivamente los pasos a implementar en Google Tag Manager en sitios web, sin utilizar mucho código dentro de nuestro site, excepto el enviar informaciones con el &lt;strong&gt;dataLayer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conceptos-generales-del-comercio-electrónico-en-tag-manager&#34;&gt;Conceptos generales del comercio electrónico en Tag Manager&lt;/h2&gt;
+
+&lt;h3 id=&#34;comercio-electrónico-clásico-de-google-analytics&#34;&gt;Comercio electrónico clásico de Google Analytics&lt;/h3&gt;
+
+&lt;p&gt;Existen dos métodos principales para implementar el comercio electrónico de Google Analytics:&lt;/p&gt;
+
+&lt;p&gt;En los informes de &lt;strong&gt;comercio electrónico estándar&lt;/strong&gt; de Google Analytics puede analizar la actividad de compra que se ha registrado en su aplicación o sitio web. Entre otros datos, puede ver información sobre productos y transacciones, el valor de pedido medio, la tasa de conversión de comercio electrónico y el tiempo hasta la compra.&lt;/p&gt;
+
+&lt;h3 id=&#34;comercio-electrónico-mejorado-de-google-analytics&#34;&gt;Comercio electrónico mejorado de Google Analytics&lt;/h3&gt;
+
+&lt;p&gt;El &lt;strong&gt;comercio electrónico mejorado&lt;/strong&gt; amplía las funciones de sus informes de Google Analytics. Con este método puede ver cuándo añadieron los clientes productos al carrito, cuándo iniciaron el proceso de tramitación de compra correspondiente y cuándo completaron la transacción. El comercio electrónico mejorado también se puede usar para identificar segmentos de clientes que se quedan fuera del embudo de compras.&lt;/p&gt;
+
+&lt;p&gt;Ambos métodos pueden implementarse con Tag Manager:&lt;/p&gt;
+
+&lt;div class=&#34;accordion&#34;&gt;
+  &lt;h4 class=&#34;title&#34;&gt;
+    Comercio electrónico en Google Analytics
+  &lt;/h4&gt;
+
+  &lt;div class=&#34;mfn-acc accordion_wrapper &#34;&gt;
+    &lt;div class=&#34;question&#34;&gt;
+      &lt;div class=&#34;title&#34;&gt;
+        &lt;i class=&#34;icon-plus acc-icon-plus&#34;&gt;&lt;/i&gt;&lt;i class=&#34;icon-minus acc-icon-minus&#34;&gt;&lt;/i&gt;Comercio electrónico estándar
+      &lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;div class=&amp;quot;answer&amp;quot;&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      Para crear una etiqueta de comercio electrónico estándar de Google Analytics:
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;ol&amp;gt;
+      &amp;lt;li&amp;gt;
+        Habilite el comercio electrónico en sus informes de Google Analytics.
+      &amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;
+        Cree una etiqueta de Universal Analytics y seleccione &amp;lt;em&amp;gt;Transacción&amp;lt;/em&amp;gt; en &amp;lt;strong&amp;gt;Tipo de seguimiento&amp;lt;/strong&amp;gt;.
+      &amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;
+        Configure la etiqueta con los campos obligatorios.
+      &amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;
+        Especifique cuándo debe activarse la etiqueta.
+      &amp;lt;/li&amp;gt;
+    &amp;lt;/ol&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      Toda la información de la transacción debe transferirse a través de la capa de datos, con los nombres de variable que se muestran a continuación:
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;strong&amp;gt;Datos de la transacción&amp;lt;/strong&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;table class=&amp;quot;nice-table&amp;quot;&amp;gt;
+      &amp;lt;tr&amp;gt;
+        &amp;lt;th&amp;gt;
+          Nombre de la variable
+        &amp;lt;/th&amp;gt;
+
+        &amp;lt;th&amp;gt;
+          Descripción
+        &amp;lt;/th&amp;gt;
+
+        &amp;lt;th&amp;gt;
+          Tipo
+        &amp;lt;/th&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionId (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Identificador de transacción único
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          cadena
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionAffiliation (opcional)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Partner o tienda
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          cadena
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionTotal (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Valor total de la transacción
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          numérico
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionShipping (opcional)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Gastos de envío correspondientes a la transacción
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          numérico
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionTax (opcional)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Impuestos correspondientes a la transacción
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          numérico
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          transactionProducts (opcional)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Lista de artículos comprados en la transacción
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          matriz de productos
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+    &amp;lt;/table&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;strong&amp;gt;Datos del producto&amp;lt;/strong&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;table class=&amp;quot;nice-table&amp;quot;&amp;gt;
+      &amp;lt;tr&amp;gt;
+        &amp;lt;th&amp;gt;
+          Nombre de la variable
+        &amp;lt;/th&amp;gt;
+
+        &amp;lt;th&amp;gt;
+          Descripción
+        &amp;lt;/th&amp;gt;
+
+        &amp;lt;th&amp;gt;
+          Tipo
+        &amp;lt;/th&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          name (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Nombre del producto
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          cadena
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          sku (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Código SKU de producto
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          cadena
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          category (opcional)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Categoría del producto
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          cadena
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          price (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Precio unitario
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          numérico
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+
+      &amp;lt;tr&amp;gt;
+        &amp;lt;td&amp;gt;
+          quantity (obligatorio)
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          Número de elementos
+        &amp;lt;/td&amp;gt;
+
+        &amp;lt;td&amp;gt;
+          numérico
+        &amp;lt;/td&amp;gt;
+      &amp;lt;/tr&amp;gt;
+    &amp;lt;/table&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      A continuación, se muestra un ejemplo de cómo implementar el código de la capa de datos en JavaScript:
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      Incluya este código &amp;lt;em&amp;gt;encima&amp;lt;/em&amp;gt; del fragmento de contenedor de Tag Manager, de modo que la capa de datos esté lista cuando Tag Manager active la etiqueta de Google Analytics.
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      Si, por algún motivo, no puede incluir los datos de comercio electrónico encima del fragmento de contenedor de Tag Manager, también puede probar una de las siguientes soluciones:
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;ul&amp;gt;
+      &amp;lt;li&amp;gt;
+        Haga que la etiqueta se active según un evento personalizado más abajo en la página (p. ej., combine el envío de eventos y datos, tal como se describe en la documentación para desarrolladores, &amp;lt;strong&amp;gt;esta parte se explicará a continuación de este post.&amp;lt;/strong&amp;gt;
+      &amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;
+        Seleccione el tipo de activador &amp;amp;#8220;DOM preparado&amp;amp;#8221;.
+      &amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+    &amp;lt;p&amp;gt;
+      &amp;lt;div class=&amp;quot;question&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;title&amp;quot;&amp;gt;
+          &amp;lt;i class=&amp;quot;icon-plus acc-icon-plus&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;i class=&amp;quot;icon-minus acc-icon-minus&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Comercio electrónico mejorado
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&amp;quot;answer&amp;quot;&amp;gt;
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;p&amp;gt;
+            Existen dos métodos para implementar el comercio electrónico mejorado con Tag Manager:
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;ul&amp;gt;
+            &amp;lt;li&amp;gt;
+              &amp;lt;b&amp;gt;Capa de datos:&amp;lt;/b&amp;gt; es el método recomendado. Envíe los datos de comercio electrónico a la capa de datos desde el código.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              &amp;lt;b&amp;gt;JavaScript personalizado:&amp;lt;/b&amp;gt; cree una variable de JavaScript personalizada en Tag Manager. Esta variable debería devolver un objeto con la información que, en el método anterior, se enviaría a la capa de datos.
+            &amp;lt;/li&amp;gt;
+          &amp;lt;/ul&amp;gt;
+
+          &amp;lt;div class=&amp;quot;alert&amp;quot; role=&amp;quot;alert&amp;quot;&amp;gt;
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Importante:&amp;lt;/strong&amp;gt; Al implementar el comercio electrónico mejorado, puede utilizar varios tipos de información específicos. Consulte la &amp;lt;a href=&amp;quot;https://developers.google.com/analytics/devguides/collection/gtagjs/enhanced-ecommerce&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;documentación para desarrolladores&amp;lt;/a&amp;gt; si quiere obtener una lista completa de los tipos de datos admitidos.
+            &amp;lt;/p&amp;gt;
+          &amp;lt;/div&amp;gt;
+
+          &amp;lt;p&amp;gt;
+            &amp;lt;strong&amp;gt;Implementación de capa de datos&amp;lt;/strong&amp;gt;
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;ol&amp;gt;
+            &amp;lt;li&amp;gt;
+              En el código, añada la información de comercio electrónico a un objeto de capa de datos denominado &amp;amp;#8220;ecommerce&amp;amp;#8221;. Consulte la documentación para desarrolladores de Tag Manager si quiere obtener información sobre cómo implementar una capa de datos.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              En Tag Manager, cree una etiqueta de Universal Analytics y seleccione &amp;lt;strong&amp;gt;Página vista&amp;lt;/strong&amp;gt; o &amp;lt;strong&amp;gt;Evento&amp;lt;/strong&amp;gt; en &amp;lt;strong&amp;gt;Tipo de seguimiento&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              En &amp;lt;strong&amp;gt;Más opciones&amp;lt;/strong&amp;gt; &amp;lt;img title=&amp;quot;a continuación&amp;quot; src=&amp;quot;https://lh3.googleusercontent.com/sDpfETHk7K0ryVo50RvXGzPtfrDQ2W0xK4sJdOKYqerlc79U0MaNKQggC7nI6gJY0A=w13-h18&amp;quot; alt=&amp;quot;a continuación&amp;quot; width=&amp;quot;13&amp;quot; height=&amp;quot;18&amp;quot; /&amp;gt; &amp;lt;strong&amp;gt;Publicidad&amp;lt;/strong&amp;gt;, seleccione &amp;lt;em&amp;gt;True&amp;lt;/em&amp;gt; en &amp;lt;strong&amp;gt;Habilitar funciones de comercio electrónico mejorado&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              Seleccione &amp;lt;strong&amp;gt;Usar capa de datos&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+          &amp;lt;/ol&amp;gt;
+
+          &amp;lt;p&amp;gt;
+            &amp;lt;strong&amp;gt;Usar variables&amp;lt;/strong&amp;gt;
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;ol&amp;gt;
+            &amp;lt;li&amp;gt;
+              Cree una variable de JavaScript personalizada. Esta variable debe devolver un objeto que contenga el objeto de comercio electrónico, de un modo similar al ejemplo de código siguiente:
+            &amp;lt;/li&amp;gt;
+          &amp;lt;/ol&amp;gt;
+
+          &amp;lt;p&amp;gt;
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;ol&amp;gt;
+            &amp;lt;li&amp;gt;
+              En esta variable, use la misma sintaxis que usaría para enviar estos datos a la capa de datos. Consulte la documentación para desarrolladores si quiere obtener más información.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              Cree una etiqueta de Universal Analytics y seleccione &amp;lt;strong&amp;gt;Página vista&amp;lt;/strong&amp;gt; o &amp;lt;strong&amp;gt;Evento&amp;lt;/strong&amp;gt; en &amp;lt;strong&amp;gt;Tipo de seguimiento&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              En &amp;lt;strong&amp;gt;Más opciones&amp;lt;/strong&amp;gt; &amp;lt;img title=&amp;quot;a continuación&amp;quot; src=&amp;quot;https://lh3.googleusercontent.com/sDpfETHk7K0ryVo50RvXGzPtfrDQ2W0xK4sJdOKYqerlc79U0MaNKQggC7nI6gJY0A=w13-h18&amp;quot; alt=&amp;quot;a continuación&amp;quot; width=&amp;quot;13&amp;quot; height=&amp;quot;18&amp;quot; /&amp;gt; &amp;lt;strong&amp;gt;Publicidad&amp;lt;/strong&amp;gt;, seleccione &amp;lt;em&amp;gt;True&amp;lt;/em&amp;gt; en &amp;lt;strong&amp;gt;Habilitar funciones de comercio electrónico mejorado&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+            &amp;lt;li&amp;gt;
+              Seleccione &amp;lt;strong&amp;gt;Usar capa de datos&amp;lt;/strong&amp;gt;.
+            &amp;lt;/li&amp;gt;
+          &amp;lt;/ol&amp;gt;
+
+          &amp;lt;p&amp;gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+          &amp;lt;/p&amp;gt;
+
+          &amp;lt;p&amp;gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+              Comercio electrónico mejorado: conceptos y fundamentos
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              El comercio electrónico mejorado ofrece una serie de&amp;lt;strong&amp;gt; informes detallados y útiles&amp;lt;/strong&amp;gt;. A continuación se indican algunos de los informes disponibles cuando se habilita el comercio electrónico mejorado de una vista.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;ul&amp;gt;
+              &amp;lt;li&amp;gt;
+                Requisitos previos
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Ver los informes de comercio electrónico mejorado
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Datos disponibles
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Visión general de comercio electrónico
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Análisis del comportamiento de compra
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Análisis del comportamiento del proceso de pago
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Rendimiento del producto
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Rendimiento de las ventas
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Rendimiento de la lista de productos
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Promoción interna
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Cupón de pedido
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Cupón de producto
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Código de afiliado
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Recursos relacionados
+              &amp;lt;/li&amp;gt;
+            &amp;lt;/ul&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h3 id=&amp;quot;ecommerce-data&amp;quot;&amp;gt;
+              Tipos de datos de comercio electrónico mejorado y acciones
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Hay varios tipos de datos de comercio electrónico que puedes enviar usando analytics.js (gtag.js también): &amp;lt;strong&amp;gt;datos de impresión&amp;lt;/strong&amp;gt;, &amp;lt;strong&amp;gt;datos de producto&amp;lt;/strong&amp;gt;, &amp;lt;strong&amp;gt;datos de promoción&amp;lt;/strong&amp;gt; y &amp;lt;strong&amp;gt;datos de acción&amp;lt;/strong&amp;gt;.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;impression-data&amp;quot;&amp;gt;
+              Datos de impresión
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Representan la información sobre el producto que se ha visto. Se hace referencia a ellos mediante &amp;lt;code&amp;gt;impressionFieldObject&amp;lt;/code&amp;gt; y contienen los siguientes valores:
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;div class=&amp;quot;devsite-table-wrapper&amp;quot;&amp;gt;
+              &amp;lt;table&amp;gt;
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;th&amp;gt;
+                    Clave
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Tipo de valor
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Obligatorio
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Descripción
+                  &amp;lt;/th&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    id
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    ID de producto o SKU (por ejemplo, P67890). &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de nombre.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    name
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Nombre del producto (por ejemplo, camiseta de Android). &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de ID.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    list
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Lista o colección a la que pertenece el producto (por ejemplo, Resultados de búsqueda)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    brand
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Marca asociada al producto (por ejemplo, Google)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    category
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Categoría a la que pertenece el producto (por ejemplo, ropa). Usa &amp;lt;code&amp;gt;/&amp;lt;/code&amp;gt; como delimitador para especificar hasta 5 niveles de jerarquía (por ejemplo, Ropa/Hombre/Camisetas).
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    variant
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Variante del producto (por ejemplo, Negro)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    position
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    entero
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Posición del producto en una lista o colección (por ejemplo, 2)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    price
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    moneda
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Precio de un producto (por ejemplo, 29,20)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+              &amp;lt;/table&amp;gt;
+            &amp;lt;/div&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;product-data&amp;quot;&amp;gt;
+              Datos de producto
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Los datos de producto representan los productos individuales que se han visto, que se han agregado al carrito, etc. Se hace referencia a ellos mediante el objeto &amp;lt;code&amp;gt;productFieldObject&amp;lt;/code&amp;gt; y contienen los siguientes valores:
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;div class=&amp;quot;devsite-table-wrapper&amp;quot;&amp;gt;
+              &amp;lt;table&amp;gt;
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;th&amp;gt;
+                    Clave
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Tipo de valor
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Obligatorio
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Descripción
+                  &amp;lt;/th&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    id
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    ID de producto o SKU (por ejemplo, P67890). &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de nombre.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    name
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Nombre del producto (por ejemplo, camiseta de Android). &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de ID.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    brand
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Marca asociada al producto (por ejemplo, Google)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    category
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Categoría a la que pertenece el producto (por ejemplo, ropa). Usa &amp;lt;code&amp;gt;/&amp;lt;/code&amp;gt; como delimitador para especificar hasta 5 niveles de jerarquía (por ejemplo, Ropa/Hombre/Camisetas).
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    variant
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Variante del producto (por ejemplo, Negro)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    price
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    moneda
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Precio de un producto (por ejemplo, 29,20)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    quantity
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    entero
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Cantidad de un producto (por ejemplo, 2)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    coupon
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Código de cupón asociado a un producto (por ejemplo, COMPRA_VERANO13)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    position
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    entero
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Posición del producto en una lista o colección (por ejemplo, 2)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+              &amp;lt;/table&amp;gt;
+            &amp;lt;/div&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;promotion-data&amp;quot;&amp;gt;
+              Datos de promoción
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Representan la información sobre una promoción que se ha visto. Se hace referencia a ellos mediante el objeto &amp;lt;code&amp;gt;promoFieldObject&amp;lt;/code&amp;gt; y contienen los siguientes valores:
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;div class=&amp;quot;devsite-table-wrapper&amp;quot;&amp;gt;
+              &amp;lt;table&amp;gt;
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;th&amp;gt;
+                    Clave
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Tipo de valor
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Obligatorio
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Descripción
+                  &amp;lt;/th&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    id
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    ID de promoción (por ejemplo, PROMO_1234). &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de nombre.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    name
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Nombre de la promoción (por ejemplo, Compra de verano) &amp;lt;strong&amp;gt;*Es necesario definir este campo o el de ID.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    creative
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Creatividad asociada a la promoción (por ejemplo, banner_verano2)
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    position
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Posición de la creatividad (por ejemplo, banner_slot_1).
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+              &amp;lt;/table&amp;gt;
+            &amp;lt;/div&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;action-data&amp;quot;&amp;gt;
+              Datos de acción
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Representan la información sobre una acción que se lleva a cabo relacionada con el comercio electrónico. Se hace referencia a ellos mediante el objeto &amp;lt;code&amp;gt;actionFieldObject&amp;lt;/code&amp;gt; y contienen los siguientes valores:
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;div class=&amp;quot;devsite-table-wrapper&amp;quot;&amp;gt;
+              &amp;lt;table&amp;gt;
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;th&amp;gt;
+                    Clave
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Tipo de valor
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Obligatorio
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Descripción
+                  &amp;lt;/th&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    id
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    &amp;lt;strong&amp;gt;Sí*&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    ID de la transacción (por ejemplo, T1234). &amp;lt;strong&amp;gt;*Es obligatorio si el tipo de acción es &amp;lt;code&amp;gt;purchase&amp;lt;/code&amp;gt; o &amp;lt;code&amp;gt;refund&amp;lt;/code&amp;gt;.&amp;lt;/strong&amp;gt;
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    affiliation
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Tienda o afiliación donde se ha originado esta transacción (por ejemplo, Google Store).
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    revenue
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    moneda
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Especifica los ingresos totales o la suma total asociados a la transacción (por ejemplo, 11,99). Este valor puede incluir los gastos de envío, los impuestos u otros ajustes de los ingresos totales que quieras incluir para calcular tus ingresos. &amp;lt;strong&amp;gt;Nota:&amp;lt;/strong&amp;gt; Si no se definen los ingresos, se calculará el valor automáticamente usando los campos de cantidad y de precio de todos los productos pertenecientes al mismo hit.
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    tax
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    moneda
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Impuestos totales asociados a la transacción
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    shipping
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    moneda
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Gastos de envío asociados a la transacción
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    coupon
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Cupón canjeado con la transacción.
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    list
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Lista a la que pertenecen los productos asociados. Opcional.
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    step
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    entero
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Número que representa un paso en el proceso de pago. Es opcional para acciones definidas como &amp;lt;code&amp;gt;checkout&amp;lt;/code&amp;gt;.
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    option
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    texto
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    No
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Campo adicional para acciones de &amp;lt;code&amp;gt;checkout&amp;lt;/code&amp;gt; y &amp;lt;code&amp;gt;checkout_option&amp;lt;/code&amp;gt;que pueden describir la información de opción en la página de pago, como la forma de pago seleccionada.
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+              &amp;lt;/table&amp;gt;
+            &amp;lt;/div&amp;gt;
+
+            &amp;lt;h3&amp;gt;
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;action-types&amp;quot;&amp;gt;
+              Acciones de producto y de promoción
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Las acciones especifican cómo interpretar los datos de producto y de promoción enviados a Google Analytics.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;div class=&amp;quot;devsite-table-wrapper&amp;quot;&amp;gt;
+              &amp;lt;table&amp;gt;
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;th&amp;gt;
+                    Acción
+                  &amp;lt;/th&amp;gt;
+
+                  &amp;lt;th&amp;gt;
+                    Descripción
+                  &amp;lt;/th&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    click
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Clic en un producto o en un enlace de producto de uno o varios productos
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    detail
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Visualización de los detalles de un producto
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    add
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Uno o varios productos agregados a un carrito de compra
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    remove
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Uno o varios productos suprimidos de un carrito de compra
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    checkout
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Inicio del proceso de compra para uno o varios productos
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    checkout_option
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Envío del valor de opción de un paso de compra determinado
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    purchase
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Venta de uno o varios productos
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    refund
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Devolución de uno o varios productos
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+
+                &amp;lt;tr&amp;gt;
+                  &amp;lt;td&amp;gt;
+                    promo_click
+                  &amp;lt;/td&amp;gt;
+
+                  &amp;lt;td&amp;gt;
+                    Clic en una promoción interna
+                  &amp;lt;/td&amp;gt;
+                &amp;lt;/tr&amp;gt;
+              &amp;lt;/table&amp;gt;
+            &amp;lt;/div&amp;gt;
+
+            &amp;lt;h2&amp;gt;
+            &amp;lt;/h2&amp;gt;
+
+            &amp;lt;h2&amp;gt;
+              Implementación del dataLayer
+            &amp;lt;/h2&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              En las siguientes secciones se describe cómo implementar el complemento de comercio electrónico mejorado para medir la actividad de comercio electrónico en un sitio web con la biblioteca analytics.js.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h3 id=&amp;quot;sending-data&amp;quot;&amp;gt;
+              Envío de datos de comercio electrónico mejorado
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Una vez cargado, se agregará un par de comandos nuevos específicos del seguimiento de comercio electrónico mejorado al objeto de seguimiento predeterminado, y podrás empezar a enviar datos de comercio electrónico.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;ul&amp;gt;
+              &amp;lt;li&amp;gt;
+                &amp;lt;a href=&amp;quot;#measuring-activities&amp;quot;&amp;gt;Medición de actividades de comercio electrónico&amp;lt;/a&amp;gt;
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                &amp;lt;a href=&amp;quot;#measuring-checkout&amp;quot;&amp;gt;Medir el proceso de pago&amp;lt;/a&amp;gt;
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Medición de transacciones
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Medición de devoluciones
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                Medición de promociones internas
+              &amp;lt;/li&amp;gt;
+            &amp;lt;/ul&amp;gt;&amp;lt;aside class=&amp;quot;special&amp;quot;&amp;gt;
+
+            &amp;lt;strong&amp;gt;Nota:&amp;lt;/strong&amp;gt; Los datos de comercio electrónico solo pueden enviarse con un hit, por ejemplo con un hit de página vista (&amp;lt;code&amp;gt;pageview&amp;lt;/code&amp;gt;) o de evento (&amp;lt;code&amp;gt;event&amp;lt;/code&amp;gt;). Si usas comandos de comercio electrónico, pero no envías hits, o si el hit se ha enviado antes del comando de comercio electrónico, los datos de comercio electrónico no se enviarán.&amp;lt;/aside&amp;gt; &amp;lt;aside&amp;gt;&amp;lt;/aside&amp;gt; &amp;lt;aside&amp;gt;&amp;lt;/aside&amp;gt; &amp;lt;aside&amp;gt;
+
+            &amp;lt;h3 id=&amp;quot;measuring-activities&amp;quot;&amp;gt;
+              Medición de actividades de comercio electrónico
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Una implementación de comercio electrónico mejorado normal medirá las impresiones de producto y cualquiera de las siguientes acciones:
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;ul&amp;gt;
+              &amp;lt;li&amp;gt;
+                Clics en un enlace de producto.
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                visualización de los detalles del producto,
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                impresiones y clics de promociones internas,
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                productos agregados o suprimidos de un carrito de compra,
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                inicio del proceso de compra de un producto,
+              &amp;lt;/li&amp;gt;
+              &amp;lt;li&amp;gt;
+                compras y devoluciones.
+              &amp;lt;/li&amp;gt;
+            &amp;lt;/ul&amp;gt;
+
+            &amp;lt;h4&amp;gt;
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;h4&amp;gt;
+              Medición de Impresiones de productos
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Páginas Vistas&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;gtm.dom&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;&amp;lt;/aside&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h4&amp;gt;
+              Medición de click en productos
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Event&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Categoria&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Ecommerce&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Acción&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Product Click&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;productClick&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h4&amp;gt;
+              Medición de detalles en productos
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Páginas Vistas&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer: &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;gtm.dom&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;track_additions_to_and_removals_from_shopping_cart&amp;quot;&amp;gt;
+              Seguimiento de los productos que se añaden y se retiran en el carrito de la compra:
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;h5&amp;gt;
+              &amp;lt;strong&amp;gt;Medición añadir al carrito&amp;lt;/strong&amp;gt;
+            &amp;lt;/h5&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Event&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Categoria&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Ecommerce&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Acción&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Add to Cart&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;addToCart&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h5&amp;gt;
+              &amp;lt;strong&amp;gt;Medición retirar del carrito&amp;lt;/strong&amp;gt;
+            &amp;lt;/h5&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Event&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Categoria&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Ecommerce&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Acción&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Remove from Cart&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;removeFromCart&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h3 id=&amp;quot;measuring-checkout&amp;quot;&amp;gt;
+              Medición de los procesos de pago
+            &amp;lt;/h3&amp;gt;
+
+            &amp;lt;h4 id=&amp;quot;checkout-steps&amp;quot;&amp;gt;
+              1. Medición de los pasos de pago
+            &amp;lt;/h4&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              En cada paso del proceso de pago, tenemos que implementar el código de seguimiento correspondiente para enviar datos a Google Analytics.
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;h5&amp;gt;
+              Campo &amp;lt;code&amp;gt;step&amp;lt;/code&amp;gt;
+            &amp;lt;/h5&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              En cada paso del pago que midas, debes incluir un valor de &amp;lt;code&amp;gt;step&amp;lt;/code&amp;gt;. Este valor se usa para asignar tus acciones de pago a las etiquetas configuradas en cada paso en &amp;lt;strong&amp;gt;Configuración de comercio electrónico&amp;lt;/strong&amp;gt;.
+            &amp;lt;/p&amp;gt;&amp;lt;aside class=&amp;quot;note&amp;quot;&amp;gt;
+
+            &amp;lt;strong&amp;gt;Nota&amp;lt;/strong&amp;gt;: Si tienes un proceso de pago de un solo paso o si no has configurado un embudo de compra en la &amp;lt;strong&amp;gt;configuración del comercio electrónico&amp;lt;/strong&amp;gt;, el campo &amp;lt;code&amp;gt;step&amp;lt;/code&amp;gt; es opcional.&amp;lt;/aside&amp;gt;
+
+            &amp;lt;h5&amp;gt;
+              Campo &amp;lt;code&amp;gt;option&amp;lt;/code&amp;gt;
+            &amp;lt;/h5&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              Si tienes información adicional sobre un paso de pago determinado en el momento en que se mide, puedes configurar el campo &amp;lt;code&amp;gt;option&amp;lt;/code&amp;gt; con una acción &amp;lt;code&amp;gt;checkout&amp;lt;/code&amp;gt; para capturar esta información. Se podría tratar del tipo de pago predeterminado para el usuario (por ejemplo, &amp;amp;#8220;Visa&amp;amp;#8221;).
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;strong&amp;gt;Configuración en Google Tag Manager:&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;lt;em&amp;gt;Tipo de etiqueta:&amp;lt;/em&amp;gt; Universal Analytics&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Tipo de medición:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;Event&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Categoria&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Ecommerce&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Acción&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;Checkout&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activación del comercio electrónico mejorado:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Uso del dataLayer:&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;em&amp;gt;Activador&amp;lt;/em&amp;gt;: &amp;lt;strong&amp;gt;event&amp;lt;/strong&amp;gt; igual &amp;lt;strong&amp;gt;checkout&amp;lt;/strong&amp;gt;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+
+            &amp;lt;p&amp;gt;
+              &amp;amp;nbsp;
+            &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

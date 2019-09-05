@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>test ab google optimize on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>test ab google optimize | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/test-ab-google-optimize/</link>
-    <description>Recent content in test ab google optimize on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 05 Feb 2018 12:04:22 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/test-ab-google-optimize/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/test-ab-google-optimize/index.xml" rel="self" type="application/rss+xml" />
+    <description>test ab google optimize</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 05 Feb 2018 12:04:22 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>test ab google optimize</title>
+      <link>https://www.marcusrb.com/tags/test-ab-google-optimize/</link>
+    </image>
     
     <item>
       <title>Integrar Google Optimize con Tag Manager – Experimentos con Analytics parte 1</title>
       <link>https://www.marcusrb.com/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
       <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
-      <description>Google Optimize no ha tardado en salir en formato BETA hace unos años y integrado con Google Tag Manager a través de una etiqueta que al parecer es fácil de implementar.</description>
+      <description>
+
+&lt;h2 id=&#34;hola-a-tod-s-con-un-nuevo-post-y-esta-semana-hablaré-de-una-gran-herramienta-gratuita-para-8220-test-a-b-8221-que-anteriormente-solo-se-podía-gestionar-a-través-de-google-analytics-8220-experimentos-8221&#34;&gt;Hola a tod@s con un nuevo post, y esta semana hablaré de una gran herramienta gratuita para &amp;#8220;test A/B&amp;#8221; que anteriormente solo se podía gestionar a través de Google Analytics: &amp;#8220;Experimentos&amp;#8221;.&lt;/h2&gt;
+
+&lt;p&gt;Google Optimize no ha tardado en salir en formato BETA hace unos años y integrado con Google Tag Manager a través de una etiqueta que al parecer es fácil de implementar. Hay que mencionar que Google Tag Manager, el sistema de etiquetado más utilizado (y gratuito) del momento, y de la gran familia Google, nos permitía integrar en nuestros sitios web experimentos de landing page tipo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    Test A/B
+    &lt;/li&gt;
+  &lt;li&gt;
+    Multivariantes
+    &lt;/li&gt;
+  &lt;li&gt;
+    Redirecciones
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter wp-image-235 size-full&#34; src=&#34;https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31.png&#34; alt=&#34;tipo-experimentos-google-optimize-tag-manager-marcusrb&#34; width=&#34;586&#34; height=&#34;253&#34; srcset=&#34;https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31.png 586w, https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31-300x130.png 300w, https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31-260x112.png 260w, https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31-50x22.png 50w, https://www.marcusrb.com/img/2017/07/Captura-de-pantalla-2018-02-05-a-las-21.45.31-150x65.png 150w&#34; sizes=&#34;(max-width: 586px) 100vw, 586px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero a través de su contenedor unificado NO permite gestionar dentro del lo que queríamos. Sí has leído bien, antes de utilizar el Google Optimize dentro de Tag Manager tienes que fijarte si aún conservas el antiguo contenedor de un solo bloque como este. porque no es compatible. El actual está separado en dos partes (en virtud de este cambio) nos permite gestionar tanto el &amp;#8220;encabezado&amp;#8221;, que el &amp;#8220;contenido&amp;#8221;. Como este:Vamos en parte para hablar de Google Optimize y los pasos para su implementación, ya que la guía oficial no es muy clara como siempre.&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script&amp;gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+  ga(&#39;create&#39;, &#39;UA-XXXXX-Y&#39;, &#39;auto&#39;);
+ &amp;lt;strong&amp;gt; ga(&#39;require&#39;, &#39;GTM-XXXXXX&#39;);&amp;lt;/strong&amp;gt;
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+&amp;lt;/script&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Aquí el vídeo completo con la implementación con Tag Manager, unos 30 minutos de prácticas, buena visión!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;iframe id=&amp;quot;ytplayer&amp;quot; src=&amp;quot;https://www.youtube.com/embed/VblE7FGyBbI&amp;quot; width=&amp;quot;720&amp;quot; height=&amp;quot;405&amp;quot; frameborder=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;allowfullscreen&amp;quot;&amp;gt;&amp;lt;span data-mce-type=&amp;quot;bookmark&amp;quot; style=&amp;quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&amp;quot; class=&amp;quot;mce_SELRES_start&amp;quot;&amp;gt;﻿&amp;lt;/span&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>webinar tag manager on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>webinar tag manager | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/webinar-tag-manager/</link>
-    <description>Recent content in webinar tag manager on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 17 Apr 2018 17:08:28 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/webinar-tag-manager/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/webinar-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    <description>webinar tag manager</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 17 Apr 2018 17:08:28 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>webinar tag manager</title>
+      <link>https://www.marcusrb.com/tags/webinar-tag-manager/</link>
+    </image>
     
     <item>
       <title>Webinar: Aprende a integrar Google Analytics con Tag Manager</title>
       <link>https://www.marcusrb.com/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
       <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
-      <description>El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición</description>
+      <description>&lt;p&gt;## El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición&lt;/p&gt;
+
+&lt;p&gt;y descubrir nuevos insight dentro de la analítica web, esta vez se hablará de Google Tag Manager y como integrarlo dentro del plan de implementación.&lt;/p&gt;
+
+&lt;p&gt;Os dejo con el post oficial a continuación y para su&lt;strong&gt; inscripción GRATUITA&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Con este webinar vamos a aprender cómo efectuar correctamente un plan de implementación, integrando Google Analytics con Tag Manager para que podamos recolectar datos y enviarlos. Mediremos eventos de botones, enlaces, llamadas, email, descargas y vídeos.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Se trata de una visión general del administrador de etiquetas más utilizado en este momento. Marco Russo nos dará un enfoque al plan de medición, para que en el próximo webinar pueda enseñarnos cada paso hacía la “medición ninja”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Día: &lt;strong&gt;jueves 26 de abril 2018&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hora: &lt;strong&gt;en diferido&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Nivel: medio&lt;/p&gt;
+
+&lt;p&gt;¿Te apuntas? También disponible otros webinar y próximamente casos prácticos. ¿Quieres que veamos en directo alguna vuestra petición? Comenta aquí abajo y Comparte!&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;a href=&#34;http://marketingdirectoschool.com/producto/aprende-a-integrar-google-analytics-con-tag-manager/?utm_source=linkedin&amp;utm_medium=newsletter&amp;utm_campaign=webinarAbril2018-Marcusrb&#34;&gt;http://marketingdirectoschool.com/producto/aprende-a-integrar-google-analytics-con-tag-manager/&lt;/a&gt;
+&lt;/p&gt;
+</description>
     </item>
     
   </channel>

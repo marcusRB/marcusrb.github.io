@@ -1,24 +1,239 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>hugo | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/hugo/</link>
-    <description>Recent content in hugo on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 14 Oct 2018 19:32:17 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <description>hugo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 14 Oct 2018 19:32:17 +0200</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>hugo</title>
+      <link>https://www.marcusrb.com/tags/hugo/</link>
+    </image>
     
     <item>
       <title>Adiós Wordpress, Bienvenido Hugo</title>
       <link>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</link>
       <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
-      
       <guid>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</guid>
-      <description>Dedicaré más tiempo en profundizar algunos aspectos para ayudar al resto de usuarios que decidan acercarse a la revolución de los generadores estáticos de sitios web.</description>
+      <description>
+
+&lt;h2 id=&#34;ya-sé-no-es-un-título-sensacionalista&#34;&gt;Ya sé, no es un título sensacionalista.&lt;/h2&gt;
+
+&lt;p&gt;Con esto quiero decir que yo he abandonado Wordpress, para dedicarme al desarrollo de un blog a medida con &lt;strong&gt;HUGO&lt;/strong&gt;, creado con lenguaje &lt;em&gt;GO&lt;/em&gt;, o &lt;strong&gt;GOLANG&lt;/strong&gt;, sí el mismo desarrollado por Google. Hugo de momento es junto con &lt;strong&gt;Next&lt;/strong&gt; que más rápido está creciendo dentro de los generadores estático de sitos web, aunque lejos de CMS cuál Wordpress, o algo más profesional cómo Drupal, ya cada vez hay aficionados que se acercan a este creador de sitios web estáticos.&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-he-decidido-migrar-wordpress-a-hugo&#34;&gt;Por qué he decidido migrar Wordpress a Hugo?&lt;/h3&gt;
+
+&lt;p&gt;Después de unos cuantos años con mi blog personal en la plataforma &lt;strong&gt;Wordpress&lt;/strong&gt;, utilizando un hosting no compartido, y queriendo optimizar al máximo los recursos, muy similar a un VPS, he decidido migrar hace unos meses a &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, una generador de sitios estático realizado con código abierto. El motivo, muy sencillo: estaba harto de estar actualizando Wordpress cada dos por tres, y la plantilla tenía que descolocarse cada x tiempo, dependencias absurdas del resto de módulos y plugin, agotar memoria y afectar a la velocidad, no obstante el CDN. Base de datos no muy lógica la verdad, wordpress nunca me ha gustado como estructura, pero, si, sencilla de montar, pero no me gustaba por el tema de personalización. También añado el hecho de querer algo fácil de crear post y recursos, sin tener que depender de plugin.&lt;/p&gt;
+
+&lt;h3 id=&#34;documentación-de-hugo&#34;&gt;Documentación de Hugo&lt;/h3&gt;
+
+&lt;p&gt;Antes de nada, la documentación, hay bastante además su página oficial, muchos aficionados de códigos open-source y frameworks, materiales y tutoriales, tampoco hace falta aprender demasiado, con pocas reglas, se entiende perfectamente el fin de este generador. La idea es leer atentamente cada paso de la &lt;a href=&#34;https://gohugo.io/getting-started/&#34; target=&#34;_blank&#34;&gt;documentación oficial&lt;/a&gt;, porque me ha costado más entender como arrancar y publicar que el resto de acciones. La curva de aprendizaje es muy corta, yo he tardado dos meses en entender buena parte de la estructura y su documentación, aún así, me gusta.&lt;/p&gt;
+
+&lt;h3 id=&#34;plantillas-o-themes&#34;&gt;Plantillas o themes&lt;/h3&gt;
+
+&lt;p&gt;Aunque el punto positivo que más me ha motivado ha sido por no tener que diseñar yo mismo un tema, hay la posibilidad de crear una ad hoc, pero la verdad se hacía demasiado largo el tiempo de desarrollo, y maquetar, en mi caso iba a ser complicado. Así que decidí &lt;strong&gt;Hugo&lt;/strong&gt; por tener unas cuantas plantillas de editar, montar, y listo. Con atribuciones y obviamente &lt;strong&gt;GRATUITAS&lt;/strong&gt;. La mayoría de themes puedes encontrarlas &lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;, y cada vez hay muchas más.&lt;/p&gt;
+
+&lt;h3 id=&#34;estructura-de-hugo&#34;&gt;Estructura de Hugo&lt;/h3&gt;
+
+&lt;p&gt;Lo que diferencia Hugo del resto de &amp;lsquo;CMS&amp;rsquo; por decirlo de una manera, es que trabaja sin servidor de apoyo, es decir no necesitas un alojamiento y una base de datos, también puedes alojarla en Firebase, GitHub, Bitbucket, en una VPS y el hosting de toda la vida, incluso en tu servidor (obviamente teniendo recursos para que sea rápida la carga), esto porque el generador, que es la base de Hugo, crea tantas carpetas y archivos html que puedes alojarlos donde quieras, muchos JS van en otra carpeta y si hay llamada a &lt;em&gt;Bootstrap&lt;/em&gt; o JS externos, ya no hace ni falta. Yo por ejemplo tengo alojado en GitHub y he creado una redirección a mi dominio, así que de momento cero preocupaciones.&lt;/p&gt;
+
+&lt;h3 id=&#34;lenguaje-de-marcado-o-markdown&#34;&gt;Lenguaje de marcado o Markdown&lt;/h3&gt;
+
+&lt;p&gt;Pues sí, si nunca has oido hablar de &lt;strong&gt;marcado&lt;/strong&gt;, ten en cuenta que HTML es un marcador también, pero redactar post, crear los esqueletos de Hugo, está interamente creado con el &lt;a href=&#34;https://es.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;lenguaje Markdown&lt;/a&gt;, gracias a los fundadores, &lt;a href=&#34;https://es.wikipedia.org/wiki/Aaron_Swartz&#34; target=&#34;_blank&#34;&gt;Aaron Swartz&lt;/a&gt; y &lt;a href=&#34;https://es.wikipedia.org/w/index.php?title=John_Gruber&amp;amp;action=edit&amp;amp;redlink=1&#34; target=&#34;_blank&#34;&gt;John Gruber&lt;/a&gt; que en 2004 hicieron lo posible para crear algo tan sencillo, fácil de interpretar, y sobre todo escribir, en cualquier editor de textos (bloc notas, sublime, atom), y teniendo en cuenta que GitHub y el mismo programa estadístico que utilizo R, tiene para editar sus textos.&lt;/p&gt;
+
+&lt;p&gt;El lenguaje de marcado tiene tres tipologías de extensiones, cada una difiere por el estilo de escritura y debería respetar como regla general para el resto de archivos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;YAML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;categories:
+- Development
+- VIM
+date: &amp;quot;2012-04-06&amp;quot;
+description: spf13-vim is a cross platform distribution of vim plugins and resources
+for Vim.
+slug: spf13-vim-3-0-release-and-new-website
+tags:
+- .vimrc
+- plugins
+- spf13-vim
+- vim
+title: spf13-vim 3.0 release and new website
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TOML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;categories = [&amp;quot;Development&amp;quot;, &amp;quot;VIM&amp;quot;]
+date = &amp;quot;2012-04-06&amp;quot;
+description = &amp;quot;spf13-vim is a cross platform distribution of vim plugins and resources for Vim.&amp;quot;
+slug = &amp;quot;spf13-vim-3-0-release-and-new-website&amp;quot;
+tags = [&amp;quot;.vimrc&amp;quot;, &amp;quot;plugins&amp;quot;, &amp;quot;spf13-vim&amp;quot;, &amp;quot;vim&amp;quot;]
+title = &amp;quot;spf13-vim 3.0 release and new website&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JSON&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+&amp;quot;categories&amp;quot;: [
+  &amp;quot;Development&amp;quot;,
+  &amp;quot;VIM&amp;quot;
+],
+&amp;quot;date&amp;quot;: &amp;quot;2012-04-06&amp;quot;,
+&amp;quot;description&amp;quot;: &amp;quot;spf13-vim is a cross platform distribution of vim plugins and resources for Vim.&amp;quot;,
+&amp;quot;slug&amp;quot;: &amp;quot;spf13-vim-3-0-release-and-new-website&amp;quot;,
+&amp;quot;tags&amp;quot;: [
+  &amp;quot;.vimrc&amp;quot;,
+  &amp;quot;plugins&amp;quot;,
+  &amp;quot;spf13-vim&amp;quot;,
+  &amp;quot;vim&amp;quot;
+],
+&amp;quot;title&amp;quot;: &amp;quot;spf13-vim 3.0 release and new website&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;como-crear-un-post&#34;&gt;Como crear un post&lt;/h3&gt;
+
+&lt;p&gt;Una vez que instalemos &lt;strong&gt;hugo&lt;/strong&gt; en nuestro ordenador local, en una carpeta al estilo &lt;strong&gt;wordpress&lt;/strong&gt;, accedemos directamente a un editor de texto del contenido de la carpeta y listo, ya tenemos de frente a unas series de directrices: &lt;strong&gt;CONTENT&lt;/strong&gt;, &lt;strong&gt;STATIC&lt;/strong&gt;, &lt;strong&gt;THEMES&lt;/strong&gt;. Si bien en la última tenemos alojada nuestra plantilla y los archivos más importantes a la hora de realizar script, funciones y llamadas de variables, la primera y la segunda donde estarán situados nuestros archivos más importantes: post, páginas, recursos, imágenes, otros archivos, etc. Crear un post desde cero, es fácil &amp;ldquo;entre - comillas&amp;rdquo;, ya que tenemos que darle un encabezado, un estilo y luego redactar el post con el lenguaje de marcado.&lt;/p&gt;
+
+&lt;h4 id=&#34;ejemplo-de-como-se-redactaría-un-post&#34;&gt;Ejemplo de como se redactaría un post&lt;/h4&gt;
+
+&lt;p&gt;El estilo de formato para un post, donde hay título, negritas, cursivas etc, el &lt;strong&gt;markdow&lt;/strong&gt; es muy fácil de utilizar, aunque aquí hay que decir que está bastante limitado. Así que muchas veces, tengo que combinar elementos de HTML y CSS.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Encabezados&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Encabezado h1
+## Encabezado h2
+### Encabezado h3
+#### Encabezado h4
+##### Encabezado h5
+###### Encabezado h6
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saltos de líneas&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;Quien fue a Santiago,  
+perdió su clase de redes&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inyección de un código como este:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;``` [language]
+Código en
+varias líneas
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Citas&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; La vida es muy corta para aprender Alemán. -Tad Marburg
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Listas sin ordenación&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+- Un elemento más
+- Otro del listado
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Listas ordenadas&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enlaces con hipervínculo&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí](URL &amp;quot;Título del enlace&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enlaces con referencia&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Texto del enlace aquí][1]
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imágenes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![Texto alternativo](URL &amp;quot;Título de la imagen&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y para dar colores, formatos al texto, ya se creará específicamente un hoja de estilo CSS para el resto. La idea es simplificar al máximo, código limpio y sobre todo, ágil.&lt;/p&gt;
+
+&lt;h3 id=&#34;publicaciones&#34;&gt;Publicaciones&lt;/h3&gt;
+
+&lt;p&gt;Entre la estructura, crear la lógica SEO onPage (metadatos, encabezados, titulares, etc), ha tardado un poco. Pero nunca comparado con la publicación, ya que hay dos opciones: o lo subes manualmente cada vez que creas un post, y con esto digo, no solamente este post, sino toda la carpeta auto-generada aunque cuando modificas una sola línea&amp;hellip;y con esto digo que Hugo no es adapto, o bien creas uno script en lenguaje Perl (un bash por decirlo de una manera), que ejecuta unas series de lineas de código entre tu máquina local y tu servidor remoto, y automáticamente sube los contenidos modificados.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exactamente que significa?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto me preguntaba yo también. Si creas un post con Wordpress, abres el back-end, nuevo post, redactas, guardas, ajustas, sube imágenes, y listo. Publicado! Cada vez tienes que hacer esto y ten en cuenta, que cada vez estás interrogando la base de datos, cierto?&lt;/p&gt;
+
+&lt;p&gt;Hugo es diferente. No tiene base de datos, la única es tu ordenador, o &lt;strong&gt;compilador&lt;/strong&gt;. Una vez que redactas el post, desde tu misma maquina local, normalmente la visualización en local es con el comando:
+&lt;pre&gt;
+  hugo server
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;y con esto se abre la ruta siguiente:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;De aquí vas a ver siempre en una pestaña del navegador tu vista previa y como queda tu página. Y cuando finalmente quieres publicar, se crea una carpeta llamada &lt;strong&gt;PUBLIC&lt;/strong&gt; donde estarán tus contenidos para la parta pública, apunto carpetas y archivos index.html, categorizados o no, con un solo comando:&lt;/p&gt;
+
+&lt;pre&gt;
+  hugo
+&lt;/pre&gt;
+
+&lt;p&gt;Con esto, tenemos que ejecutar un comando de envío de esta carpeta al hosting que sea (GitHub, Bitbucket, Firebase, el tuyo que sea, VPS, etc.).&lt;/p&gt;
+
+&lt;h3 id=&#34;ventajas-de-hugo&#34;&gt;Ventajas de Hugo&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Velocidad de ejecución&lt;/li&gt;
+&lt;li&gt;ausencia de una base de datos&lt;/li&gt;
+&lt;li&gt;menor estrés del servidor huésped&lt;/li&gt;
+&lt;li&gt;tiempo de carga por debajo de los 2 segundos !!!&lt;/li&gt;
+&lt;li&gt;mejora del lado SEO (siempre si no le pones imágenes de gran tamaño)&lt;/li&gt;
+&lt;li&gt;ejecución del resto de script y dependencias, fuera de tu servidor principal&lt;/li&gt;
+&lt;li&gt;aprendes mucho de programación y de algoritmos (en mi caso viene super Bien!)&lt;/li&gt;
+&lt;li&gt;personalización sin depender de una plantilla y de un diseñador de un CMS particular&lt;/li&gt;
+&lt;li&gt;pocas actualizaciones del core (está solo en local, nadie puede tener acceso al back-end)&lt;/li&gt;
+&lt;li&gt;SEGURIDAD (no te pueden atacar porque quieren, no tienes base de datos, ni accesos de admin)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;y cuando hablo de velocidad, menciono lo siguiente:
+- no tienes que instalar plugin ni módulos, ni cargas pesadas de estos últimos
+- tu creas dependencias que quieras y bajo tu mismo control
+- un framework es autogestionable, no necesitas ser un experto, aunque de desarrollo front-end un poco más.
+- existen muchos elementos, llamados ESQUELETOS, que te permiten automatizar procesos en la publicación de páginas.
+- Wordpress tiene que cargar más de 10 segundos elementos X que ni tú sabes que existen, e instalas un CDN para optimizar estos procesos.
+- Hugo tiene solo archivos ESTÁTICOS creados en HTML pero con un generador muy potente.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h3&gt;
+
+&lt;p&gt;En mi caso, el theme Academic que cito por su simplicidad, y propiamente para mi uso diario de tutoriales, proyectos, post, vídeos algo relacionado con mi trabajo actual y mis estudios, lo veo super eficiente, rápido en la ejecución y ante los buscadores y la usabilidad, limpio y ordenado.&lt;/p&gt;
+
+&lt;p&gt;Existen muchos más frameworks:
+- &lt;a href=&#34;https://es.wikipedia.org/wiki/Jekyll_(computaci%C3%B3n)&#34; target=&#34;_blank&#34;&gt;Jekyll&lt;/a&gt;
+- Django
+- Flask
+- Next
+- Gatsby&lt;/p&gt;
+
+&lt;p&gt;muchos de ellos similares a Hugo, otros dependen de lenguajes Python, PHP, Javascript, Ruby, etc. y puede que la curva de aprendizaje sea más largo (si no conoces Python, por ejemplo), excepto el citado Jekyll, muy similar a Hugo, son generadores que cada vez buscan cuota de mercado (las tendencias llevan a un aumento de búsquedas de estos), y honestamente no me hace retroceder a Wordpress nuevamente.&lt;/p&gt;
+
+&lt;p&gt;Dedicaré más tiempo en profundizar algunos aspectos para ayudar al resto de usuarios que decidan acercarse a la revolución de los &lt;em&gt;CMS&lt;/em&gt; de blog (limpios y rápidos), pero cada vez más veo también páginas corporativas y comercio electrónico (aunque aquí hablamos de pequeñas tiendas, muy pequeñas la verdad).&lt;/p&gt;
+
+&lt;p&gt;Espero poder compartir al máximo en las próximas semanas, y si tienes dudas, ya sabes, pregunta lo que quieras e estaré actualizado este post sobre &lt;strong&gt;HUGO&lt;/strong&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

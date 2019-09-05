@@ -1,33 +1,530 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Formacion on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>Formación | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/categories/formacion/</link>
-    <description>Recent content in Formacion on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 28 Oct 2018 11:59:35 +0100</lastBuildDate>
+      <atom:link href="https://www.marcusrb.com/categories/formacion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Formación</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 16 Jul 2019 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Formación</title>
+      <link>https://www.marcusrb.com/categories/formacion/</link>
+    </image>
     
-	<atom:link href="https://www.marcusrb.com/categories/formacion/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>La importancia del big data en las empresas</title>
+      <link>https://www.marcusrb.com/importancia-big-data-empresas/</link>
+      <pubDate>Tue, 16 Jul 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/importancia-big-data-empresas/</guid>
+      <description>&lt;p&gt;Han pasado casi 10 años cuando el término &lt;strong&gt;big data&lt;/strong&gt; se puso tan popular en España, que no solo el área de tecnologías, sino en todos los sectores y principalmente hubo un auge en banca y finanza, campo médico, marketing y operaciones, logística llegando al sector educativo.&lt;/p&gt;
+
+&lt;p&gt;Cuando hablamos de big data nos referimos principalmente a ingestar grandes cantidades de datos, y por grande nos referimos no a gigas, sino a teras o petabytes de informaciones, llegando a que la cantidad almacenada, principalmente en servidores cloud cuáles Amazon AWS, Google GCP y Microsoft Azure, las empresas se encontraron con un gran obstáculo, como poder explotarlos, quiénes son los roles y profesionales capaces de leer, limpiar, preparar y realizar gestiones con estos datos.&lt;/p&gt;
+
+&lt;p&gt;Si por Big Data nos referimos al tipo de dato, referente a los roles tenemos a 3 principales, junto con otros perfiles IT (cuáles podrían ser de seguridad, gobierno del dato, desarrolladores):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Engineer&lt;/strong&gt;: el arquitecto / ingeniero de los datos, este profesional es responsable de preparar la infraestructura, plataforma e ingestar los datos, verificar su integridad, seguridad y además, en la forma más rápida posible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Analyst / Business Analyst&lt;/strong&gt;: son los profesionales que gracias a sus técnicas de minería de datos, dan una visión general del negocio, generarán un primer insight con los datos, hasta incluso dan muchas de las respuestas que las demás figuras internas de negocio no obtienen siempre. Hay que decir que luchan constantemente con la preparación previa, transformarlos y sucesivamente integrarlos en tools de visualización para la creación de cuadro de mandos y dashboard listo para ser publicados en los comité directivos.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Scientist&lt;/strong&gt;: la figura más buscada en los últimos años, este rol tiene un perfil más matemático y estadístico de una organización. El realizará “magia” con los datos, creará nuevos algoritmos, aplicará modelos de predicciones y de aprendizaje automático. En línea con los stakeholders tomará las decisiones necesarias a los objetivos empresariales designados a principio.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estas figuras realmente siempre han existido, y desde hace más de 50 años. Pero mientras las nuevas tecnologías han ido evolucionando con el tiempo, se presentaron nuevas herramientas y nuevos desafíos que gracias a la aplicación de estadística y matemática, combinando los algoritmos y álgebra, estos roles han cobrado vida nuevamente, con otro nombre y más fuerte que nunca. Se definen como los empleados más &lt;em&gt;sexy del siglo XXI&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A ellos se suman las nuevas figuras de &lt;strong&gt;Business Intelligence&lt;/strong&gt;, o aquellos con una visión más comercial y de negocio,  otras que provienen principalmente de Telecos e IT, se han ido convirtiendo en estos nuevos roles demandados para las empresas. Se estiman que para 2020 la demanda de estas posiciones que sepan interpretar y crear nuevos modelos, que dan una vida propia a los datos, supera el millón en todo el mundo.&lt;/p&gt;
+
+&lt;p&gt;En España, por ejemplo, el crecimiento del término “master big data” y “master data science”, ha crecido en los últimos 5 años en un 250% (fuente Google Trends). Esto porque las ofertas de empleos han ido creciendo con un ritmo muy alto, y solo en los últimos 30 días a fecha de este post, a un ritmo de 1200 ofertas (fuente Indeed).&lt;/p&gt;
+
+&lt;p&gt;Es por este motivo que la oferta educativa también juega un papel muy importante. La formación profesional, carreras y grados, máster y posgrados en universidades y centros privados, han crecido y mejorado en los últimos meses, y adaptadas a lo que realmente las empresas están demandando.  Gracias a una &lt;a href=&#34;https://www.iep.edu.es/mba-online/especialidad-en-business-intelligence-y-big-data&#34; target=&#34;_blank&#34;&gt;formación en big data&lt;/a&gt;, los profesionales pueden desarrollar las habilidades solicitadas cubriendo todas las necesidades que el mismo mercado está requiriendo, desde una visión global de negocio, a las técnicas de análisis de datos avanzada, creando nuevos escenarios y ser capaces de transmitir estos resultados.&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;mercado laboral&lt;/strong&gt; ha crecido mucho gracias a estas nuevas posiciones, y la formación es una pieza muy importante para que siga generando empleo y pueda cubrir estas demandas. Incluso las empresas pueden aprovechar de estos centros educativos convirtiendo su papel en promotores, así participando para el crecimiento de los futuros profesionales y asegurando la calidad necesaria para que puedan estar a la altura del mercado laboral y siempre actualizados a las nuevas tecnologías.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>#MoocGTM Seminario Online Google Tag Manager</title>
       <link>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</link>
       <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
-      
       <guid>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</guid>
-      <description>Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de Google Tag Manager</description>
+      <description>
+
+&lt;p&gt;&lt;h2&gt;Índice&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Este contenido se actualizará en la sección &lt;a href=&#34;https://www.marcusrb.com/tutoriales&#34;&gt;&lt;strong&gt;Tutoriales&lt;/strong&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;moocgtm-nuevo-seminario-online-para-profundizar-los-conocimientos-de-tag-manager&#34;&gt;#moocGTM - nuevo seminario online para profundizar los conocimientos de Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de &lt;strong&gt;Google Tag Manager&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esta herramienta que está comenzando a gustar no solamente a profesionales del marketing, sino a figuras profesionales de otros departamentos de una organización, aunque la verdad que sigue habiendo mucho desconocimiento sobre sus principales funcionalidades.&lt;/p&gt;
+
+&lt;h2 id=&#34;objetivos-de-este-seminario&#34;&gt;Objetivos de este seminario&lt;/h2&gt;
+
+&lt;p&gt;Come parte de este seminario explicaré los siguientes puntos:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Entender el sistema de etiquetado&lt;/li&gt;
+&lt;li&gt;Comprensión de la interfaz de Google Tag Manager&lt;/li&gt;
+&lt;li&gt;Implementación de micro-objetivos y conversiones&lt;/li&gt;
+&lt;li&gt;Creación de las etiquetas personalizadas&lt;/li&gt;
+&lt;li&gt;Integrar con eficiencia Google Tag Manager y Google Analytics&lt;/li&gt;
+&lt;li&gt;Lograr nuevos insights dentro de la analítica digital&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;a-quién-va-dirigido&#34;&gt;A quién va dirigido&lt;/h2&gt;
+
+&lt;p&gt;El seminario es de nivel básico-intermedio, con lo que el alumno necei conocimientos de analítica de base y conoce la terminología de marketing, negocio, diseño web. En el caso no tengas conocimientos, se intentará derivar a un curso básico ya creado anteriormente en mi plataforma de Udemy titulado &lt;a href=&#34;https://www.udemy.com/course/1428216/&#34; target=&#34;_blank&#34;&gt;Fundamentos de Analítica digital, Analytics y Tag Manager&lt;/a&gt;, disponible gratuitamente para su visión y aprendizaje.&lt;/p&gt;
+
+&lt;p&gt;En particular este seminario es apto a todos los niveles, y principalmente para:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;profesionales de marketing en sus inicios con la analítica web&lt;/li&gt;
+&lt;li&gt;community manager, social media y otras figuras de digital marketing&lt;/li&gt;
+&lt;li&gt;estudiantes de máster y cursos de posgrados del sector&lt;/li&gt;
+&lt;li&gt;consultores SEO y de diseño web&lt;/li&gt;
+&lt;li&gt;agencias, startups y empresarios&lt;/li&gt;
+&lt;li&gt;gestores de sitios web y comercio electrónico&lt;/li&gt;
+&lt;li&gt;aquellos que quieren comenzar con Tag Manager e ir avanzando&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;6-módulos-principales-más-casos-prácticos-y-tutoriales&#34;&gt;6 Módulos principales más casos prácticos y Tutoriales&lt;/h2&gt;
+
+&lt;p&gt;Está compuesto de 6 módulos principales de más de 30 vídeos, no más largos de 5 minutos de duración, que directamente explicaré las diferentes funcionalidades. Estará disponible en la plataforma YouTube cada semana dos vídeos más casos prácticos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introducción al Administrador de Etiquetas de Google: Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Interfaz de Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Etiquetas, Variables, Activadores de Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Objetivos y Conversiones de Google Analytics&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Medición de eventos importantes con Google Tag Manager&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conclusiones y recomendaciones&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lista-de-reproducciones-en-youtube&#34;&gt;Lista de reproducciones en YouTube&lt;/h2&gt;
+
+&lt;p&gt;Como siempre se subirán los vídeos de los módulos en mi canal YouTube. Puedes seguirme y &lt;a href=&#34;https://www.youtube.com/c/MarcusRBofficial?sub_confirmation=1&#34; target=&#34;_blank&#34;&gt;subscribirte&lt;/a&gt; para no perderte las actualizaciones y novedades del mundo digital.&lt;/p&gt;
+
+&lt;iframe id=&#34;ytplayer&#34; type=&#34;text/html&#34; width=&#34;720&#34; height=&#34;405&#34;
+src=&#34;https://www.youtube.com/embed/?listType=playlist&amp;list=PLzxNDhvkuNyLo5ziP6EMVycJX8zcxh8RE&amp;enablejsapi=1&amp;modestbranding=1&amp;color=white&amp;rel=0&#34;
+frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
       <title>6 años cumplidos como docente de Marketing Digital y Analítica digital en España</title>
       <link>https://www.marcusrb.com/6-anos-cumplidos-docente-marketing-digital-espana/</link>
       <pubDate>Mon, 05 Mar 2018 22:53:10 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/6-anos-cumplidos-docente-marketing-digital-espana/</guid>
-      <description>Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado</description>
+      <description>&lt;p&gt;Pues si, este mes (Junio 2018) he cumplido exactamente 6 años desde cuando he comenzado con la aventura de impartir mis primeros cursos y programas de posgrados, el Máster de SEO y SEM en Aula Creactiva y sigo teniendo muy buenos recuerdos.&lt;/p&gt;
+
+&lt;p&gt;Aquí mi resumen de todos los cursos realizados, másters y programas de postgrado en empresas de educación superior, escuelas de negocios y PP.AA. : &lt;br /&gt;
+(Cámara de Madrid y de Alcalá de Henares, EAE Business School, Adveischool, KPI&amp;rsquo;s escuela digital, IIM Instituto Internacional de Marketing, DigitalBrain, IEDGE Business School, IEBS Business School&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar con fotos, vídeos y las recensiones de aquellos cursos impartidos a lo largo de estos años y que seguiré impartiendo. Habré formado unos 500 y más estudiantes, alumnos, profesionales? Seguro!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Fecha&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Programa&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Duración/turno&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Instituto&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2012&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - mañana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2012&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ene 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - mañana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ene 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;16 horas - mañana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - mañana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Aula Creactiva&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;May 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Sep 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Oct 2013&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2014&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de SEM presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Nov 2014&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2015&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Comercio Electrónico presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;45 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2015&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Nov 2015&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Dic 2015&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ene 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;May 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - sab&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;EAE Business School - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Analítica web presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - sab&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;EAE Business School - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2016&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Posicionamiento SEO presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - sab&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;EAE Business School - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Analítica web presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - sab&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;EAE Business School - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2 horas&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Instituto Internacional de Marketing  - Barcelona&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Analítica web&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2 horas&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Instituto Internacional de Marketing  - Barcelona&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Analítica web presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;21 horas - sab&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;EAE Business School - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jul 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;36 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cámara de Comercio - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Oct 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Analytics presencial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24 horas - tarde&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Nov 2017&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ene 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Feb 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;KPI&amp;rsquo;s digital school&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Mar 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;MD school - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;May 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Analítica Web &amp;amp; Big Data online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;40 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;KPI&amp;rsquo;s digital school&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Adveischool - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google AdWords online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;40 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;KPI&amp;rsquo;s digital school&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jul 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEBS - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ago 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Google Tag Manager distancia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Nov 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Analytics avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Dic 2018&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Analytics avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ene 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Analytics avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Abr 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;May 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jun 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Webinar de Google Tag Manager avanzado&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1 hora - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ago 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;dataLayer avanzado I-II&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IEDGE - Madrid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ago 2019&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de visualización de datos y Google Data Studio&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10 horas - online&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;KPI&amp;rsquo;s digital school&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+* actualizado Agosto 2019&lt;/p&gt;
+
+&lt;p&gt;Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en &lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/#contactos&#34;&gt;contacto conmigo&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

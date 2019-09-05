@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datalayer | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/categories/datalayer/</link>
+      <atom:link href="https://www.marcusrb.com/categories/datalayer/index.xml" rel="self" type="application/rss+xml" />
+    <description>datalayer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>datalayer</title>
+      <link>https://www.marcusrb.com/categories/datalayer/</link>
+    </image>
+    
+    <item>
+      <title>Cómo explotar al máximo el dataLayer de Google Tag Manager: declaración del dataLayer</title>
+      <link>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</link>
+      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</guid>
+      <description>
+
+&lt;p&gt;Cuando hablamos de &lt;strong&gt;Google Tag Manager&lt;/strong&gt; pensamos en la gestión organizada de etiquetas, pixel de conversiones, mediciones de eventos para Google Analytics, etc., pero casi nunca nos paramos a pensar como está creado, y cuales son sus secretos más allá de ser el &lt;em&gt;core&lt;/em&gt; de GTM.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Aquí está parte de sus secretos, la declaración inicial en su script del &amp;lt;head&amp;gt;
+&amp;lt;script&amp;gt;
+...
+
+dl=l!=&#39;dataLayer&#39;?&#39;&amp;amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-XXXX&#39;);
+&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Bien, después de muchos años que he estado utilizando esta fantástica &lt;a href=&#34;../google-tag-manager-10-buenas-razones-para-usarlo-bien/&#34;&gt;herramienta de gestión de etiquetas&lt;/a&gt;, hemos llegado a poder &amp;ldquo;dominarlo&amp;rdquo; en parte, existen muchos tutoriales, pero cuando se complican las cosas, siempre necesitaremos gran parte del trabajo de un &lt;strong&gt;desarrollador front / back-end&lt;/strong&gt;, con lo cuál, tendremos que considerar:
+- JavaScript
+- jQuery
+- CSS
+- HTML
+- analítica digital
+- CRO y testing AB
+- fundamentos de desarrollo de POO (Programación Orientado a Objetos)
+- etc.&lt;/p&gt;
+
+&lt;p&gt;pero hay otra parte que también un &lt;em&gt;analista experimentado&lt;/em&gt; podrá realizar directamente en la interfaz de GTM, jugar con el &lt;strong&gt;dataLayer&lt;/strong&gt;, y sacar todos su potencial.&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-es-el-datalayer&#34;&gt;Qué es el dataLayer?&lt;/h2&gt;
+
+&lt;p&gt;Si queremos buscar una definición, yo me quedaría con la mía:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;la variable de dataLayer es uno script en lenguaje JSON declarado dentro del contenedor principal de Google Tag Manager que nos ayuda a comunicar directamente desde el sitio web / aplicación móvil hacía la interfaz o viceversa, con la herramienta de análisis o medición. El formato JSON está compuesto de un objeto o listado de objetos, de par &lt;em&gt;parámetro&lt;/em&gt; y &lt;em&gt;valor&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;dataLayer({
+  &amp;quot;nombre_variable_x&amp;quot; : &amp;quot;cadena texto&amp;quot;,
+  &amp;quot;numérico_y&amp;quot;: 50,
+  &amp;quot;booleano&amp;quot;: true,
+  &amp;quot;listado&amp;quot;: [{
+    &amp;quot;obj1&amp;quot;: 5,
+    &amp;quot;obj2&amp;quot;: &amp;quot;hola&amp;quot;,
+    &amp;quot;obj3&amp;quot;: false
+
+    }]
+  });
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Prácticamente almacena la información, sea un evento de un botón, de un formulario, acción etc, y para su uso podemos o bien llamar la variable en GTM, o en caso específico de Google Analytics, enviarlas directamente si está en el formato adecuado, como el comercio electrónico mejorado.&lt;/p&gt;
+
+&lt;p&gt;Este es el ejemplo del &lt;em&gt;comercio electrónico mejorado de Google Analytics&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# evento de click en productos
+
+dataLayer.push({
+  &amp;quot;event&amp;quot;: &amp;quot;productClick&amp;quot;,
+  &amp;quot;ecommerce&amp;quot;: {
+    &amp;quot;click&amp;quot;: {
+      &amp;quot;actionField&amp;quot;: {
+        &amp;quot;list&amp;quot;: &amp;quot;homepage&amp;quot;
+      },
+      &amp;quot;products&amp;quot;: [{
+        &amp;quot;id&amp;quot;: &amp;quot;b55da&amp;quot;,
+        &amp;quot;name&amp;quot;: &amp;quot;Flexigen T-Shirt&amp;quot;,
+        &amp;quot;price&amp;quot;: &amp;quot;16.00&amp;quot;,
+        &amp;quot;brand&amp;quot;: &amp;quot;Flexigen&amp;quot;,
+        &amp;quot;category&amp;quot;: &amp;quot;T-Shirts&amp;quot;,
+        &amp;quot;position&amp;quot;: &amp;quot;3&amp;quot;
+      }]
+    }
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si has llegado hasta aquí, pero no conoces mucho de GTM, entonces te recomiendo esta pequeña recopilación que he redactado, son pequeños tutoriales y fundamentos de Google Tag Manager:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/categories/tag-manager/&#34;&gt;tag manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cómo-puedo-crear-mi-propio-datalayer&#34;&gt;Cómo puedo crear mi propio dataLayer?&lt;/h2&gt;
+
+&lt;p&gt;La pregunta no es sencilla. Primero has de tener el acceso a tus archivos o servidor para poder implementar el dataLayer personalizado. Es muy importante que el dataLayer esté por &lt;em&gt;encima&lt;/em&gt; del script principal de GTM.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Así debería ser tu estructura con el dataLayer personalizado
+
+&amp;lt;HTML&amp;gt;
+  &amp;lt;HEAD&amp;gt;
+...
+&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        &#39;event&#39; : &#39;productData&#39;,
+        &#39;name&#39;: &#39;&#39;,
+        &#39;brand&#39;: &#39;&#39;,
+        &#39;category&#39;:&#39;{$category}&#39;,
+        &#39;id&#39;: &#39;&#39;,
+        &#39;sku&#39;: &#39;&#39;,
+        &#39;stock&#39;:&#39;&#39;,
+        &#39;amountPrice&#39; : &#39;&#39;,
+        &#39;regularPrice&#39; : &#39;&#39;,
+        &#39;quantity&#39; : &#39;1&#39;
+
+      });
+&amp;lt;/script&amp;gt;
+&amp;lt;!-- Google Tag Manager --&amp;gt;
+&amp;lt;script&amp;gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-XXXXXX&#39;);&amp;lt;/script&amp;gt;
+&amp;lt;!-- End Google Tag Manager --&amp;gt;
+...
+
+
+  &amp;lt;/HEAD&amp;gt;
+&amp;lt;BODY&amp;gt;
+&amp;lt;/BODY&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si te fijas, viene primero la declaración de la variable dataLayer, sucesivamente hay un estado &lt;strong&gt;push&lt;/strong&gt; donde desde el sitio web estamos &lt;em&gt;enviando&lt;/em&gt; la información a quién quiera disponerla. Sucesivamente hay el script principal de GTM.&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-puedo-llamar-las-variables-del-datalayer&#34;&gt;Cómo puedo llamar las variables del dataLayer&lt;/h3&gt;
+
+&lt;p&gt;Esta parte ya es más práctica. Si conocemos nuestra interfaz, ya sabemos que su composición es:
+- etiquetas
+- activadores
+- variables&lt;/p&gt;
+
+&lt;p&gt;Entonces para poder crear la variable de capa de datos tenemos que seguir estos pasos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
+   variables-.-&amp;gt;var_definida_usuario;
+   var_definida_usuario-.-&amp;gt;nueva;
+   nueva-.-&amp;gt;VAR_CAPA_DE_DATOS;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aquí ya tenemos nuestra libertad de llamar nuestra variable del dataLayer, por ejemplo si introducimos:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;category&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;nos dará la información de la categoría, siempre y cuando esta será populada con un valor, en caso contrario tendríamos: &lt;strong&gt;undefined&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;IMAGEN DATALAYER category&lt;/p&gt;
+
+&lt;h2 id=&#34;puedo-crear-mi-propio-datalayer-desde-la-interfaz&#34;&gt;Puedo crear mi propio dataLayer desde la interfaz?&lt;/h2&gt;
+
+&lt;p&gt;Sí y no. Podemos siempre manipular la información del dataLayer principal, o hasta incluso crear nuestro dataLayer personalizado desde la interfaz, y para ello, tenemos que tener cuidado de no hacer crear ni bucles, ni errores de servidor, 5xx o de página 4xx.&lt;/p&gt;
+
+&lt;p&gt;Tenemos solo que ir en:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR;
+   etiquetas-.-&amp;gt;nueva;
+   nueva-.-&amp;gt;HTML_personalizado;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;y introducimos este pequeño script que a continuación es declaración del dataLayer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+dataLayer.push({
+  	&#39;event&#39;: &#39;fireDataLayer&#39;,
+});
+&amp;lt;/script&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si pongamos como &lt;em&gt;ACTIVADOR&lt;/em&gt; una página vista cualquiera, tendremos la ejecucción del evento &lt;strong&gt;fireDataLayer&lt;/strong&gt; que a su vez podemos incluir más informaciones y más variables.&lt;/p&gt;
+
+&lt;h2 id=&#34;ejemplo-google-remarketing-tag&#34;&gt;Ejemplo Google Remarketing Tag&lt;/h2&gt;
+
+&lt;p&gt;Un ejemplo podría ser un pixel de conversión a medida o por ejemplo personalizar la etiqueta de remarketing de Google Ads. Este es solo un ejemplo que a la vez necesitaremos de más variables y más detalles.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Exactamente la continuación del ejemplo de arriba
+
+&amp;lt;script&amp;gt;
+var dataLayer = window.dataLayer || [];
+dataLayer.push({
+  	&#39;event&#39;: &#39;fireRemarketingTag&#39;,
+    	&#39;google_tag_params&#39;: {
+    		&#39;ecomm_prodid&#39;: &#39;{{dlv - productId}}&#39;,
+			&#39;ecomm_pagetype&#39; : &#39;{{dlv - productPageType}}&#39;,
+			&#39;ecomm_totalvalue&#39; : {{dlv - productPrice}}
+    }
+});
+&amp;lt;/script&amp;gt;
+
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Te has fijado en las tres variables &lt;em&gt;dlv&lt;/em&gt; ?
+Buenos podemos también crear &lt;strong&gt;funciones CUSTOM JS&lt;/strong&gt; como variables y recoger las informaciones y pasarla al dataLAyer, y estas pasarlas a Google Ads.&lt;/p&gt;
+
+&lt;p&gt;Esté atento al próximo tutorial&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

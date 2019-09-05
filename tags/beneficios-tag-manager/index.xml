@@ -1,24 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>beneficios tag manager on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <title>beneficios tag manager | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
     <link>https://www.marcusrb.com/tags/beneficios-tag-manager/</link>
-    <description>Recent content in beneficios tag manager on MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 22 Aug 2017 16:24:13 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.marcusrb.com/tags/beneficios-tag-manager/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.marcusrb.com/tags/beneficios-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    <description>beneficios tag manager</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 22 Aug 2017 16:24:13 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>beneficios tag manager</title>
+      <link>https://www.marcusrb.com/tags/beneficios-tag-manager/</link>
+    </image>
     
     <item>
       <title>Qué es Google Tag Manager y sus beneficios</title>
       <link>https://www.marcusrb.com/que-es-google-tag-manager-y-sus-beneficios/</link>
       <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
-      
       <guid>https://www.marcusrb.com/que-es-google-tag-manager-y-sus-beneficios/</guid>
-      <description>Mi primer post para Tag Manager es hablar sobre ella de manera sencilla, cual es su utilidad y porque todos marketero necesita formarse.</description>
+      <description>
+
+&lt;h2 id=&#34;mi-primer-post-para-tag-manager-es-hablar-sobre-ella-de-manera-sencilla-cual-es-su-utilidad-y-porque-todos-marketero-necesita-formarse&#34;&gt;Mi primer post para Tag Manager es hablar sobre ella de manera sencilla, cual es su utilidad y porque todos marketero necesita formarse.&lt;/h2&gt;
+
+&lt;p&gt;Se habla mucho de analítica web, de objetivos, de kpi, experiencia de usuario y siempre caemos en lo de siempre, muchos datos y no tenemos maneras de separar los datos buenos de los malos, muchas veces datos que ni sirven, o interpretaciones mal de los datos.&lt;/p&gt;
+
+&lt;p&gt;He realizado varios videos tutoriales hablando de ello, explicando el porque se elige Google Tag Manager. Así que iré elencando mis razones de utilizar Google Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Aquí unas ventajas de tenerlo en nuestro plan de medición:&lt;/p&gt;
+
+&lt;h3 id=&#34;definición&#34;&gt;Definición&lt;/h3&gt;
+
+&lt;p&gt;&lt;li&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Un &lt;/span&gt;&lt;b&gt;Tag Managment System o Sistema de etiquetado , (Tag Manager de manera más coloquial) es un sistema que permite a las empresas mejorar la forma de gestionar las etiquetas&lt;/b&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; o “tags” que requieren incluir en sus sitios web o apps móviles.&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Las empresas con un TMS pueden unificar todas los tags de las diferentes herramientas y plataformas que utilizan (que van desde la analítica al search, social, marketing de afiliados, pasando por el testing, personalización o las herramientas de remarketing, etc.) y realizar su gestión desde una única interfaz.&lt;/span&gt;
+&lt;/li&gt;
+&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-google-tag-manager-y-no-otro-administrador-de-etiquetas&#34;&gt;¿Por qué Google Tag Manager y no otro administrador de etiquetas?&lt;/h3&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Poner orden al caos —&amp;gt; crear un estándar y pautas de actuación en el si de la organización (roles, departamentos, países)&lt;/li&gt;
+&lt;li&gt;Acelerar tu marketing —&amp;gt; etiquetado más fácil para lanzar campañas más rápido&lt;/li&gt;
+&lt;li&gt;Eficiencia y menor dependencia de IT —&amp;gt; permitir a los desarrolladores centrarse en otras prioridades estratégicas&lt;/li&gt;
+&lt;li&gt;Mayor velocidad de carga de la página —&amp;gt; más ventas&lt;/li&gt;
+&lt;li&gt;Mayor organización de los tags y control sobre las agencias —&amp;gt; mayor seguridad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;orígen&#34;&gt;Orígen&lt;/h3&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;TagMan (ahora de &lt;/span&gt;&lt;a href=&#34;https://www.ensighten.com/&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Ensighten&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;) fue el primer tag manager que apareció en el año 2007. Desde entonces la madurez del sector digital y el crecimiento de la publicidad de manera exponencial han multiplicado las empresas que proporcionan servicios de tag management. Hasta el punto que al cerrar el 2014 hablamos de entre 12-15 TMS y centenares de posibilidades de tags.&lt;/span&gt;&amp;nbsp;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Estas empresas de gestión de tags pueden ser especialistas, aunque muchas ya han diversificado para proporcionar datos de atribución, y algunos (como Google) han entrado en el juego más tarde, después de haber creado otras soluciones estrella.&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: center;&#34;&gt;
+  Experiencia de Usuario para el TMS
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Es importante tener en cuenta las habilidades disponibles en tu equipo de marketing y la experiencia del usuario proporcionada por el TMS.&lt;/span&gt;&amp;nbsp;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Si la independencia de IT es un objetivo importante para contratar un TMS, deberás seleccionar una herramienta que lo permita. La interfaz deberá ser friendly para los usuarios no “técnicos”, permitiéndoles añadir tags de manera fácil.&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: center;&#34;&gt;
+  Números de etiquetas y proveedores
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Si nos encontramos ante un sitio web que requiere de una implementación compleja, con un volumen de visitas elevado y con numerosas herramientas es aconsejable usar un Tag Manager potente y dedicado que permite mayor flexibilidad en la identificación de elementos y en la definición de reglas. &lt;/span&gt;&lt;b&gt;Tealium&lt;/b&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; por ejemplo tiene la posibilidad de integrarse con más de 500 herramientas.&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: center;&#34;&gt;
+  ¿Qué es Google Tag Manager?
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;TMS: Tag Management System (sistema de gestión de etiquetas)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Objetivo es crear y modificar fragmentos de códigos JavaScript &amp;#8211; HTML en un sitio web de forma remota &lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Lanzamiento Oct. 2012 &amp;#8211; 2ª vers Oct. 2014 &amp;#8211; actualmente (HTML, SDK, AMP)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Principalmente para elementos de Google (Analytics, AdWords, Doubleclick, GDN)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Continua actualización del repositorio de etiquetas de terceros&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;h3 style=&#34;text-align: center;&#34;&gt;
+  Beneficios de Google Tag Manager
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Centraliza las etiquetas en un solo lugar&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Reducción de tiempo de implementación&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Elementos Reutilizables&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Mejoras la colaboración entre dptos Mkt&amp;lt;&amp;gt;IT&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Debug y Testing en tiempo real&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Cualquiera puede subir una etiqueta*&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Plan de Medición y Reporting más exhaustivo&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Gratuitos &amp;#8211; Premium (Google 360, Adobe, Tealium, etc)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Foro de ayuda, Community&lt;/span&gt;&lt;br /&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;*se necesita siempre un conocimiento mínimo previo de JS, CSS, HTML&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Aquí más datos sobre Google Tag Manager&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;¿Y tú, utilizas Google Tag Manager u otro gestor?&lt;/p&gt;
+</description>
     </item>
     
   </channel>
