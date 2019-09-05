@@ -1,5 +1,5 @@
 +++
-title = "Cómo explotar al máximo el dataLayer de Google Tag Manager: declaración del dataLayer"
+title = "Cómo explotar al máximo el dataLayer de Google Tag Manager: la declaración"
 date = 2019-08-08T17:52:54+01:00
 draft = false
 robots = "index, follow"

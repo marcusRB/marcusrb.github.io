@@ -1,7 +1,7 @@
 +++
 # Meta settings: title, description, robots
 title = "¿Buscas las respuestas del examen de Google Analytics?"
-date = 2019-09-01T16:01:24+00:00
+date = 2019-08-01T16:01:24+00:00
 draft = false
 summary = "Despúes de crear la entrada de las respuestas de la certificación oficial de Google AdWords fundamentales y avanzado, no me imaginaba que tantas visitas iba a tener, y esto fue desde el año pasado cuando grabé varios vídeos de las certificaciones"
 robots = "index, follow"
