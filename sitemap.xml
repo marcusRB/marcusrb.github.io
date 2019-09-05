@@ -3,47 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.marcusrb.com/courses/google-analytics/</loc>
-    <lastmod>2019-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-data-studio/</loc>
-    <lastmod>2019-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/courses/python/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/</loc>
-    <lastmod>2019-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/google-analytics/example1/</loc>
-    <lastmod>2019-09-01T00:00:00+01:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-analytics/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-ads/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-data-studio/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-tag-manager/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -58,42 +38,22 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/google-ads/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-tag-manager/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-tag-manager/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-ads/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-analytics/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-data-studio/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/google-tag-manager/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -104,6 +64,21 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-ads/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
