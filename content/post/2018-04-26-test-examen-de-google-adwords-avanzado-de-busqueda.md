@@ -15,7 +15,8 @@ tags:
   - preguntas respuestas academy for ads 2018
 summary: "Después del post con las preguntas del examen de Google AdWords fundamentos, en este hay algunos de los test con las preguntas de Google Adwords Avanzado."
 ---
-## Después del post con las [preguntas del examen de Google AdWords fundamentos][1], en este hay algunos de los test con las **preguntas de Google Adwords Avanzado.**
+
+Después del post con las [preguntas del examen de Google AdWords fundamentos][1], en este hay algunos de los test con las **preguntas de Google Adwords Avanzado.**
 
 Hace más de cinco años que realizo test para la **certificación oficial de Google AdWords**, además de otros cursos para Google Partners, que ahora se llama **<a href="https://landing.google.com/academyforads/#?modal_active=none" target="_blank" rel="noopener">Academy For Ads</a>.** Durante todos estos años he visto diferentes programas de agencias para freelance, agencias y consultoras, pasando de Google Aqua, Google Engage a Google Partners y ahora cambiando completamente de plataforma para unificar cursos de digital marketingl, quedandose la mismas estrategias de AdWords, la de fomentar el uso de sus herramientas, ampliando de contenido para aprender y certificarse.
 

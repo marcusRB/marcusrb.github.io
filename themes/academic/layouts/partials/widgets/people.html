@@ -11,7 +11,7 @@
 
   {{ with $page.Content }}
   <div class="col-md-12">
-    <p>{{ . }}</p>
+    {{ . }}
   </div>
   {{ end }}
 
@@ -20,7 +20,7 @@
     <h2 class="mb-4">{{ . | markdownify }}</h2>
   </div>
 
-  {{ $query := where (where site.Pages "Section" "author") ".Params.user_groups" "intersect" (slice .) }}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
   {{ range $query }}
 
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}

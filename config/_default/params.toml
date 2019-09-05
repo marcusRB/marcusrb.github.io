@@ -1,6 +1,7 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 
+
 # SEO utils
 site_name = "MarcusRB"
 role = "10 años de experiencia como consultor y docente y freelance en Data & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning en Big Data"
@@ -12,15 +13,25 @@ robots = "index,follow"
 # Enable container by entering your Google Tag Manager container ID
 google_tag_manager = "GTM-MPFRNJ"
 
-# Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "ocean"
+
+# Choose a theme.
+#   Latest themes (may require updating Academic): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme = "ocean"
+
 # Enable users to switch between day and night mode?
 day_night = true
 
-# Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+# Overrride the theme's font set (optional).
+#   Latest font sets (may require updating Academic): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
+
+# Choose a font size.
+# Sizes: s (small), m (medium), l (large)
+font_size = "m"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -28,27 +39,35 @@ description = ""
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
 
-# Twitter username (without @). Used when a vistor shares your site on Twitter.
+# Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "rb_marcus"
 
-# Diplay a logo in navigation bar rather than title (optional).
+# Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
 logo = ""
 
-# Enable global source code highlighting? true/false
+# Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-# highlight_languages = ["r"]  # Add support for highlighting additional languages
+highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
-# Enable global LaTeX math rendering?
-#   If false, you can enable it locally on a per page basis.
+# Enable LaTeX math rendering? true/false
+#   If false, you can enable math on a per page basis as needed.
 math = false
+
+# Enable diagram rendering? true/false
+#   If false, you can enable diagrams on a per page basis as needed.
+diagram = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false
+
+# Enable visitors to edit pages?
+# `repo` defines the repository URL. `editable` defines which page types can be edited.
+edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -66,19 +85,19 @@ phone = "+34 603 220 001"
 address = "Paseo Castellana 200, oficina 4, Madrid, Spain"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 09:00 to 17:00<br>
+office_hours = """Monday - Friday 09:00 to 17:00<br>
                   for appointment"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-# appointment_url = "https://calendly.com"
+appointment_url = "https://calendly.com"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/rb_marcus"},
-  #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:mtx_2007?call"},
-  #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
@@ -126,11 +145,9 @@ menu_align_right = true
 # Show estimated reading time for posts? (true/false)
 reading_time = true
 
-# Display comment count (if commenting enabled in config.toml)? (true/false)
-comment_count = true
-
 # Display next/previous section pager? (true/false)
 section_pager = false
+docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
@@ -154,6 +171,22 @@ sharing = true
   post_view = 2
   publication_view = 2
   talk_view = 2
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
 
 # Search.
 [search]

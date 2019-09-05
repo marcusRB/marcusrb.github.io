@@ -4,10 +4,43 @@
 
 # Configure the English version of the site.
 # [en]
-#   languageCode = "en-us"
-[es]
-  languageCode = "es-ES"
+#  languageCode = "en-us"
   # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+
+  # Spanish Menu
+
+  [[es.menu.main]]
+    name = "Inicio"
+    url = "#about"
+    weight = 1
+
+  [[es.menu.main]]
+    name = "Servicios"
+    url = "/servicios"
+    weight = 2
+
+  [[es.menu.main]]
+    name = "Blog"
+    url = "#posts"
+    weight = 3
+
+  [[es.menu.main]]
+    name = "Cursos"
+    url = "/courses"
+    weight = 4
+
+  [[es.menu.main]]
+    name = "Recursos"
+    url = "#recursos"
+    weight = 5
+
+  [[es.menu.main]]
+    name = "Contactos"
+    url = "#contact"
+    weight = 6
+
+
+
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
@@ -20,35 +53,3 @@
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
-
-# Spanish Menu
-
-[[es.menu.main]]
-  name = "Inicio"
-  url = "#about"
-  weight = 1
-
-[[es.menu.main]]
-  name = "Servicios"
-  url = "/servicios"
-  weight = 2
-
-[[es.menu.main]]
-  name = "Blog"
-  url = "#posts"
-  weight = 3
-
-[[es.menu.main]]
-  name = "Proyectos"
-  url = "/tutorial"
-  weight = 4
-
-[[es.menu.main]]
-  name = "Formación"
-  url = "#teaching"
-  weight = 5
-
-[[es.menu.main]]
-  name = "Contactos"
-  url = "#contact"
-  weight = 6

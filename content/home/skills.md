@@ -13,12 +13,6 @@ subtitle = ""
 # Add/remove as many `[[feature]]` blocks below as you like.
 #
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#
-# Available icon packs and icons:
-# * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
-# * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
-# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
-
 
 [[feature]]
   icon = "chart-line"
