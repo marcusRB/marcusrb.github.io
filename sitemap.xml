@@ -130,7 +130,18 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/proyectos/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/projects/r-studio/</loc>
+    <lastmod>2019-09-02T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/proyectos/r-studio/</loc>
     <lastmod>2019-09-02T00:00:00+02:00</lastmod>
   </url>
   
@@ -217,58 +228,23 @@
   
   <url>
     <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/google-analytics/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/post/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/certificacion-analytics-2019/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/examen-google-academy/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/preguntas-respuestas-analytics/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/</loc>
-    <lastmod>2019-09-01T16:01:24+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/post/</loc>
     <lastmod>2019-08-08T17:52:54+01:00</lastmod>
   </url>
   
@@ -300,6 +276,41 @@
     <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
     <lastmod>2019-08-08T17:52:54+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/google-analytics/</loc>
+    <lastmod>2019-08-01T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/certificacion-analytics-2019/</loc>
+    <lastmod>2019-08-01T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/examen-google-academy/</loc>
+    <lastmod>2019-08-01T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/preguntas-respuestas-analytics/</loc>
+    <lastmod>2019-08-01T16:01:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/</loc>
+    <lastmod>2019-08-01T16:01:24+00:00</lastmod>
   </url>
   
   <url>
@@ -612,6 +623,11 @@
     <loc>https://www.marcusrb.com/tags/pixel-facebook-ads/</loc>
     <lastmod>2018-10-14T13:00:19+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tutorial/</loc>
+    <lastmod>2018-09-09T00:00:00+02:00</lastmod>
   </url>
   
   <url>

@@ -32,6 +32,25 @@
     </item>
     
     <item>
+      <title>Proyectos realizados en R Studio</title>
+      <link>https://www.marcusrb.com/proyectos/r-studio/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
+      <guid>https://www.marcusrb.com/proyectos/r-studio/</guid>
+      <description>
+
+&lt;h2 id=&#34;se-creará-una-sección-especial-con-varios-ejemplos-del-lenguaje-r-para-aprender-la-análisis-de-datos&#34;&gt;Se creará una sección especial con varios ejemplos del lenguaje R, para aprender la análisis de datos.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt; es un lenguaje de programación para la gestión y la análisis de datos, además de visualización de gráficos. Es un software libre y disponible en diferentes entornos (Unix, Linux, MacOS, Windows).&lt;/p&gt;
+
+&lt;p&gt;Esta primera sección se especificará como instalar y como utilizarlas. Además de contribuir a añadir varios ejemplos de script para la exploración de datos, limpieza, uso de funciones matemáticas y estadísticas, aprendizaje automático y casos de uso como solución de negocio.&lt;/p&gt;
+
+&lt;p&gt;Unos de los primeros proyectos realizados será la exploración de los datos, o EDA (Explorationa Data Analysis), pero con datos de &lt;strong&gt;Google Analytics&lt;/strong&gt;, es decir exploraremos los datos de un sitio web y que conclusiones podemos sacar con esto.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../r-studio/cheatsheets&#34;&gt;Cheatsheets&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Análisis de datos con R</title>
       <link>https://www.marcusrb.com/projects/analisis-datos-con-r/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
