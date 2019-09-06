@@ -5,12 +5,28 @@
     <link>https://www.marcusrb.com/categories/</link>
       <atom:link href="https://www.marcusrb.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 03 Sep 2019 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://www.marcusrb.com/categories/</link>
     </image>
+    
+    <item>
+      <title>data science</title>
+      <link>https://www.marcusrb.com/categories/data-science/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estadística</title>
+      <link>https://www.marcusrb.com/categories/estadistica/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/estadistica/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tag Manager</title>
@@ -37,7 +53,7 @@
     </item>
     
     <item>
-      <title>Formación</title>
+      <title>Formacion</title>
       <link>https://www.marcusrb.com/categories/formacion/</link>
       <pubDate>Tue, 16 Jul 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/categories/formacion/</guid>

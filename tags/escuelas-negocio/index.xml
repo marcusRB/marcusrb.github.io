@@ -5,12 +5,24 @@
     <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
       <atom:link href="https://www.marcusrb.com/tags/escuelas-negocio/index.xml" rel="self" type="application/rss+xml" />
     <description>escuelas negocio</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 03 Sep 2019 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>escuelas negocio</title>
       <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
     </image>
+    
+    <item>
+      <title>Cómo convertirse en un estadístico</title>
+      <link>https://www.marcusrb.com/como-convertirse-en-estadistico/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/como-convertirse-en-estadistico/</guid>
+      <description>&lt;p&gt;La guía de ruta de aprendizaje definitiva que detalla todas las habilidades, conocimientos y capacitación que necesita para convertirse en un estadístico&lt;/p&gt;
+
+&lt;p&gt;Si las matemáticas y los datos “flotan en tu bote”, entonces una carrera como estadístico podría ser justo lo que estás buscando.
+Los estadísticos a menudo trabajan junto con otros especialistas en datos, como científicos de datos, ingenieros de aprendizaje automático y analistas de inteligencia empresarial. Una gran parte de su función puede ser ayudar a interpretar, preparar y presentar datos, pero a menudo se emplean para agregar músculo matemático a un equipo de ciencia de datos.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cómo explotar al máximo el dataLayer de Google Tag Manager: la declaración</title>

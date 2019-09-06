@@ -5,12 +5,36 @@
     <link>https://www.marcusrb.com/tags/</link>
       <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 03 Sep 2019 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://www.marcusrb.com/tags/</link>
     </image>
+    
+    <item>
+      <title>big data</title>
+      <link>https://www.marcusrb.com/tags/big-data/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>escuelas negocio</title>
+      <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/escuelas-negocio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>formacion big data</title>
+      <link>https://www.marcusrb.com/tags/formacion-big-data/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/formacion-big-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>data mining</title>
@@ -41,30 +65,6 @@
       <link>https://www.marcusrb.com/tags/machine-learning/</link>
       <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
       <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>big data</title>
-      <link>https://www.marcusrb.com/tags/big-data/</link>
-      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/tags/big-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>escuelas negocio</title>
-      <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
-      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/tags/escuelas-negocio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>formacion big data</title>
-      <link>https://www.marcusrb.com/tags/formacion-big-data/</link>
-      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/tags/formacion-big-data/</guid>
       <description></description>
     </item>
     
