@@ -19,7 +19,12 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/instalacion-r/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/practica-r-1/</loc>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
   </url>
   
   <url>
@@ -39,12 +44,22 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/data-science/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-07T12:58:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/</loc>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-tag-manager/</loc>
     <lastmod>2019-09-05T21:11:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/r-studio/paquetes/</loc>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
   </url>
   
   <url>
@@ -63,13 +78,18 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/r-studio/example2/</loc>
-    <lastmod>2019-09-05T16:34:15+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example2/</loc>
+    <lastmod>2019-09-05T21:11:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example2/</loc>
-    <lastmod>2019-09-05T21:11:31+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/practica-r-2/</loc>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/r-studio/workspace/</loc>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
   </url>
   
   <url>
@@ -84,7 +104,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
   </url>
   
   <url>
@@ -104,7 +124,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
     <priority>0</priority>
   </url>
   
