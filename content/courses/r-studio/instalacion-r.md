@@ -13,10 +13,3 @@ menu:
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 1
 ---
-
-```
-dataList <- "hola"
-
-var number = 5
-
-```
