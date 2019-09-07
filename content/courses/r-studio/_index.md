@@ -17,7 +17,7 @@ description: Learning Path de R. Documentos, tutoriales, cheatsheets para el apr
 # - weight: Position of link in menu.
 menu:
   r-studio:
-    name: Índice
+    name: Estructura Learning Path R
     weight: 1
 ---
 
@@ -31,7 +31,7 @@ R es un entorno para la gestión y análisis de datos, primera exploración esta
 
 
 
-* **Online courses**
+* **[Online courses](intro-r)**
 * **Project or software documentation**
 * **Tutorials**
 * **[Cheatsheets de R]()**
@@ -39,18 +39,19 @@ R es un entorno para la gestión y análisis de datos, primera exploración esta
 
 ## Estructura programación en R
 
-- Instalación de R
-- Paquetes
-- Área de trabajo
-- Directorio de trabajo
-- Comandos
-- Objetos y Clases
-- Vectores
-- Factores
-- Listas
-- Índices
-- Funciones
-- script
-- Fórmulas
-- Operadores
-- Datasets de ejemplos
+
+- [x] [Instalación de R](instalacion-r)
+- [x] [Paquetes](paquetes)
+- [x] [Área de trabajo](workspace)
+- [ ] Directorio de trabajo
+- [ ] Comandos
+- [ ] Objetos y Clases
+- [ ] Vectores
+- [ ] Factores
+- [ ] Listas
+- [ ] Índices
+- [ ] Funciones
+- [ ] script
+- [ ] Fórmulas
+- [ ] Operadores
+- [ ] Datasets de ejemplos

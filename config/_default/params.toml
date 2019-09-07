@@ -27,11 +27,11 @@ day_night = true
 #   Latest font sets (may require updating Academic): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = "marcusRB_font"
+font = "marcus"
 
 # Choose a font size.
 # Sizes: s (small), m (medium), l (large)
-font_size = "m"
+font_size = "s"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
