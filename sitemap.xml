@@ -633,11 +633,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tutorial/</loc>
-    <lastmod>2019-09-05T16:37:45+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/categories/digital-marketing/</loc>
     <lastmod>2019-05-28T23:49:24+02:00</lastmod>
     <priority>0</priority>
@@ -1446,6 +1441,11 @@
   <url>
     <loc>https://www.marcusrb.com/talk/</loc>
     <lastmod>2019-09-05T16:34:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tutorial/</loc>
+    <lastmod>2019-09-08T21:52:38+02:00</lastmod>
   </url>
   
 </urlset>
