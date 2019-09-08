@@ -1,27 +1,29 @@
-+++
-title = "Proyectos / Tutoriales / Cursos"
+---
+title: Tutoriales
+layout: docs  # Do not modify.
+description: En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization.
 
-date = 2018-09-09T00:00:00
-# lastmod = 2018-09-09T00:00:00
 
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
+---
 
-# Add menu entry to sidebar.
-[menu.tutorial]
-  name = "Tutoriales"
-  weight = 1
-+++
+En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization. Además de las documentaciones técnicas, manuales, recursos y actualizaciones. Los repositorios serán accesibles en GitHub o Bitbucket.
 
-En esta página se publicarán mis:
+* **[Documentación técnica de proyectos](../proyectos/)**
+* **[Cursos y formación online](../courses/#google-analytics)**
+* **[Tutoriales](../tutorial/)**
 
-* **[Project or software documentation](../proyectos/)**
-* **[Online courses](../talk/)**
-* **[Tutorials](../tutorial/)**
+***
 
-The parent folder may be renamed, for example, to `docs` for project documentation or `course` for creating an online course.
+## Cheatsheets
 
-To disable this feature, either delete the parent folder, or set `draft = true` in the front matter of all its pages.
+* [Aprender GIT](/static/pdf/git/atlassian-git-cheatsheet.pdf)
 
-After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`.
+* [Base R](/static/pdf/r/base-r.pdf)
+* [Data Transformation in R](static/pdf/r/data-transformation.pdf)
+* [Datatable in R](static/pdf/r/datatable.pdf)
+* [Regex in R](static/pdf/r/regex.pdf)
+* [String in R](static/pdf/r/strings.pdf)
