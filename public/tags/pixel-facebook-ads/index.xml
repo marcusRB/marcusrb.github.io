@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pixel facebook ads | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/pixel-facebook-ads/</link>
+      <atom:link href="https://www.marcusrb.com/tags/pixel-facebook-ads/index.xml" rel="self" type="application/rss+xml" />
+    <description>pixel facebook ads</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 14 Oct 2018 13:00:19 +0200</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>pixel facebook ads</title>
+      <link>https://www.marcusrb.com/tags/pixel-facebook-ads/</link>
+    </image>
+    
+    <item>
+      <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
+      <link>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      <guid>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <description>
+
+&lt;p&gt;&lt;h2&gt;Índice&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-es-y-a-que-sirve-el-píxel-de-facebook-span&#34;&gt;¿Qué es y a que sirve el píxel de Facebook?&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;Tal como indicando en la web oficial de Facebook:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;El píxel de Facebook es una herramienta de análisis con la que podrás medir la eficacia de tu publicidad. Puedes usar el píxel de Facebook para conocer las acciones que las personas realizan en el sitio web y llegar a los públicos que te interesan&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si pensamos que normalmente se utilizan diferentes píxeles de conversiones, para medir la eficacia de &lt;strong&gt;acciones de marketing&lt;/strong&gt; (Tradedoubler, Doubleclick, Google Ads, Remarketing), acciones de &lt;strong&gt;experiencia de usuario y CRO&lt;/strong&gt; (Hotjar, CrazyEgg, Mouseflow, VWO), además de pixel de seguimiento de otras interacciones y de performance, su implementación podría ser un obstáculo, entre la solicitud al departamento de IT, o su personalización constante, entraríamos en un campo minado.&lt;/p&gt;
+
+&lt;p&gt;Como siempre digo y lo repito, por suerte que los administradores de etiquetas, cómo &lt;strong&gt;Google Tag Manager&lt;/strong&gt;, fueron creados para realizar nuestras tareas más sencillas*, ahorrar tiempo y manejar con total autonomía tareas también más complejas de medición y de seguimiento. No estoy hablando solo de conversiones, también gestión más avanzadas de estudio de datos de experiencia de usuario y mejora del CRO.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;em&gt;*Hablando de &amp;ldquo;sencillas&amp;rdquo; obviamente daré por hecho que se necesita conocimiento más que un nivel básico de diseño web, hoja de estilo CSS, y JavaScript, en caso contrario va a ser complicado. No se trata solo de copiar y pegar códigos, sino entender su funcionamiento&lt;/em&gt;&lt;/small&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;más-informaciones-sobre-el-píxel-de-facebook-ads&#34;&gt;Más informaciones sobre el píxel de Facebook Ads&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/business/help/651294705016616?helpref=faq_content&#34; target=&#34;_blank&#34;&gt;Configurando el píxel de Facebook&lt;/a&gt; es colocar su código en el encabezado del sitio web. Cuando alguien visita tu sitio web y realiza una acción (por ejemplo, completar una compra), el píxel de Facebook se activa y registra esta acción. De esta forma, sabrás cuándo un cliente realiza una acción y podrás llegar a él de nuevo a través de futuros anuncios de Facebook.&lt;/p&gt;
+
+&lt;h4 id=&#34;las-ventajas-de-utilizar-el-pixel-de-conversiones&#34;&gt;Las ventajas de utilizar el pixel de conversiones&lt;/h4&gt;
+
+&lt;p&gt;Existen varias formas de usar los datos obtenidos con el seguimiento del píxel de Facebook para perfeccionar la estrategia publicitaria en Facebook.&lt;/p&gt;
+
+&lt;p&gt;El píxel de Facebook permite hacer lo siguiente:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Llegar a las personas adecuadas&lt;/li&gt;
+&lt;li&gt;Encuentra nuevos clientes o personas que visitaron una página específica o realizaron una acción que te interesa en tu sitio web. Además, crea públicos similares para llegar a más personas que son parecidas a tus mejores clientes.&lt;/li&gt;
+&lt;li&gt;Genera más ventas&lt;/li&gt;
+&lt;li&gt;Configura pujas automáticas para dirigirte a personas con mayor probabilidad de realizar alguna acción relevante para ti, por ejemplo, hacer una compra.&lt;/li&gt;
+&lt;li&gt;Medir los resultados de los anuncios&lt;/li&gt;
+&lt;li&gt;Mira cuánto éxito tuvo el anuncio según los resultados que generó. Puedes consultar información como las conversiones y las ventas obtenidas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vamos-con-la-implementación-del-pixel-principal-de-evento-page-views&#34;&gt;Vamos con la implementación del pixel principal de evento Page Views&lt;/h3&gt;
+
+&lt;p&gt;Para que todo funcione correctamente, y con esto digo que recoge las variables dinámicamente y no dejando a medias el potencial que pueda tener el pixel, pero incluso su peligro de proporcionar muchos datos a Facebook, vamos por pasos.&lt;/p&gt;
+
+&lt;p&gt;Necesitamos el pixel base que será la principal de páginas vistas y su implementación recomendada es &lt;a href=&#34;https://www.facebook.com/business/help/651294705016616&#34; target=&#34;_blank&#34;&gt;como se muestra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Siempre optamos por una implementación a medida, y no guiada, no queremos bajo ningún concepto &lt;em&gt;ser ayudados&lt;/em&gt; por Facebook, ya que compartir inclusos más datos desde Tag Manager, no es una buena idea.&lt;/p&gt;
+
+&lt;p&gt;Una vez en nuestro contenedor de Tag Manager comienza la parte más divertida:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creamos una etiqueta tipo &lt;strong&gt;HTML personalizado&lt;/strong&gt; y añadimos nuestro pixel, ya sabes porque, verdad? De momento FacebookAds no tiene ningún acuerdo con Google sobre tag de 3rd party, así que tenemos que personalizarlo cómo uno script se tratara.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/bac26533364f9a016708eee3be66c119.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y no olvidar de realizar dos tareas más, sacar el noscript en una &lt;strong&gt;etiqueta Imágen personalizada&lt;/strong&gt; y la otra indicar que solo se podrá realizar cuando el javascript está deshabilitado. Esta parte la explicaré con calma en otra ocasión.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;También podemos personalizar nuestro &lt;em&gt;pixel ID&lt;/em&gt; con una variable del tipo &lt;strong&gt;constante&lt;/strong&gt; y así tener más &lt;em&gt;dinamismo&lt;/em&gt; en nuestras personalizaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Todas las páginas vistas&lt;/p&gt;
+
+&lt;h3 id=&#34;eventos-estándar&#34;&gt;Eventos estándar&lt;/h3&gt;
+
+&lt;p&gt;Tal como nos sugiere la misma guía de Facebook Developers, ahora podemos utilizar nuestras personalizaciones con la función&lt;/p&gt;
+
+&lt;pre&gt;
+  fbq(&#39;track&#39;)
+&lt;/pre&gt;
+
+&lt;p&gt;y nuestros eventos tendrán un nombre ya asignados según como se muestra en esta &lt;a href=&#34;https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking&#34; target=&#34;_blank&#34;&gt;tabla&lt;/a&gt; que mostraré a continuación.&lt;/p&gt;
+
+&lt;p&gt;Cada uno de los eventos tendrá &lt;strong&gt;propiedades&lt;/strong&gt; tipo obligatorias y otras opcionales, sirven basicamente para recoger informaciones de nuestros usuarios (comportamientos, usabilidad, conversiones, comercio electrónico, etc), obviamente si lo mismo lo recogemos desde el Enhancend Ecommerce (Comercio Electrónico mejorado) para Google Analytics, las mismas variables serán enviadas a Facebook Analytics. Lógico, no?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Algo muy importante&lt;/em&gt;&lt;/strong&gt;
+Cada una de las siguientes etiquetas personalizadas, tendrá que tener una lógica de secuencialidad:
+ - Cada etiqueta tendrá que cargarse &lt;strong&gt;DESPUÉS&lt;/strong&gt; de la principal, ya que el &lt;em&gt;core&lt;/em&gt; del código sigue teniendola la anterior, mientras en la personalizada solo tendrá una porción del código y sus variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; src=&#34;https://www.marcusrb.com/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png&#34; alt=&#34;&#34; width=&#34;992&#34; height=&#34;607&#34; src set=&#34;/img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 992w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-300x184.png 300w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 768w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 239w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 50w, /img/2018/10/secuenciacion etiquetas pixel facebook ads en tag manager - marcusrb.png 123w&#34; sizes=&#34;(max-width: 992px) 100vw, 992px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;creación-de-variables-personalizadas&#34;&gt;Creación de variables personalizadas&lt;/h3&gt;
+
+&lt;p&gt;Una cosa no meno importante es crear ahoras las &lt;strong&gt;variables personalizadas&lt;/strong&gt;, en mi caso de comercio electrónico, que para utilizarlas en todas las etiquetas con los parámetros, más o menos se &lt;em&gt;reciclarán&lt;/em&gt; las mismas una y otra vez para el resto de eventos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;value&lt;/strong&gt;: será el valor del producto / servicio. será tratado como FLOAT (con decimales), y no tendrá comillas. Su código tendrá un aspecto similar (depende de nuestro dataLayer):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d4832b2ee910ddcffe74d566f7a339f4.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;currency&lt;/strong&gt;: por defecto será la moneda utilizada en el comercio electrónico, y en caso de multidivisa, entonces podemos crear una regla, normalmente este valor variable retornará un valor único, EUR, USD, GBP, JPY, etc.
+Podemos crear algo así:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;1a&lt;/strong&gt;
+&lt;pre&gt;
+  var dlv = window.google_tag_manager[&amp;ldquo;{{Container ID}}&amp;rdquo;].dataLayer.get(&amp;lsquo;ecommerce&amp;rsquo;);
+  return (dlv.currencyCode);
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;o con la captura de exepciones sería:&lt;/p&gt;
+
+&lt;pre&gt;
+  try{
+    var dlv = window.google_tag_manager[&#34;{{Container ID}}&#34;].dataLayer.get(&#39;ecommerce&#39;);
+    return (dlv.currencyCode);
+  }catch(e){
+    window.console(e);
+  }
+}
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt;
+o mejor todavía con la &lt;strong&gt;variable dataLayer&lt;/strong&gt; (variable de capa de datos):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ecommerce.currencyCode&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Como puedes ver existen muchas formas de extraer las variables, recuerdas de nombrarlas correctamente&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;cJS - currencyCode&lt;/li&gt;
+&lt;li&gt;DLV - currencyCode&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fácil verdad? :-)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;productName&lt;/strong&gt;: Capturar el nombre de producto, será sencillo con la regla de dataLayer, pero cuando se trata de recoger más valores y inserirlo en un listado podemos utilizar un algoritmo. No todas los sitios web son iguales, ni las estructuras de URLs son iguales, así que en mi caso he utilizado esta función:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/90fd00fb8faa641448862b6daaa3f4e9.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;small&gt;La explicación sobre el cómo está construido depende también de otros factores, por decirlo de una manera si queremos utilizar la misma función para una tarea o varias (yo he optado para la segunda opción y una regla para el resto, para no triplicar el trabajo.)&lt;/small&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;categoyName&lt;/strong&gt;: Al igual que el anterior, aquí recogemos los nombres de las categorías:
+&lt;script src=&#34;https://gist.github.com/marcusRB/7b7653f959ee0584fcceb808e4e87518.js&#34;&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;small&gt;Al igual que en productos, depende como se tiene la estructura del dataLayer, las variables de URLs o la estructura del sitio web para recoger unos valores u optar por otra manera de &lt;em&gt;scraping&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;productID&lt;/strong&gt;: repitiendo lo mismo concepto, utilizando otro parámetro, esta vez extraemos el valor ID del producto, y sucesivamente para la categoría.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/fd9902fc57ea7f978a3747f66973c718.js&#34;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;categoryList&lt;/strong&gt;: esta variable tendrá un formato con separador por parentesis angular &amp;lsquo;&amp;gt;&amp;rsquo;, en lugar de comas &amp;lsquo;,&amp;rsquo;, así que en este caso creamos un listado y al final juntamos las categorías de varios niveles (en mi caso hasta 6), con este símbolo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/b0c22584e96c3054f9866976dab09df7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;El resto de variables personalizadas serán del tipo:
+- addToCart
+- removeFromCart
+- checkoutEvents (AddPaymentInfo, DeliveryMethod, checkoutStep, DiscountCode, etc.)&lt;/p&gt;
+
+&lt;p&gt;Existen otras variables, las que definen reglas para nuestro Analytics de Facebook.&lt;/p&gt;
+
+&lt;p&gt;La primera será:
+- &lt;strong&gt;product_catalog_id&lt;/strong&gt;, esta será creada en nuestro Administrador de publicidad de FacebookAds como repositorio de varios pixel y creatividades. Directamente cremos una variable del tipo constante y le añadimos el valor correspondiente, será una alfanumerico, y nada más.&lt;/p&gt;
+
+&lt;p&gt;La otra:
+- &lt;strong&gt;content_type&lt;/strong&gt;: será por defecto marcado por Facebook cuál &lt;em&gt;product&lt;/em&gt; o &lt;em&gt;product_group&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-productlist&#34;&gt;Evento estándar ProductList&lt;/h4&gt;
+
+&lt;p&gt;Cómo el principal que muestra todas las páginas vistas, apunto donde está el pixel principal, este evento mostrará los elementos visualizados en una página de servicios o de productos. Al igual que las impresiones del comercio electrónico utilizaremos exactamente el mismo trigger, aunque tendríamos que trabajar con las variables anteriormente creadas.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/903eac8f254425bb352a6ab453abae4a.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Todas las páginas que incluyen listados de productos y/o categorías. También podemos utilizar una evento personalizado de &lt;em&gt;impressions&lt;/em&gt; pero sería crear más reglas y condiciones. Recuerdas que tienes que adaptar la etiqueta y variables, así como los activadores a tu sitio web, y en este último caso, si ti es imposible realizarlo, hay que utilizar el sentido común de un buen desarrollador: NO LO HAGAS complicado.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-viewcontent&#34;&gt;Evento estándar ViewContent&lt;/h4&gt;
+
+&lt;p&gt;En este caso será la ficha de nuestro producto o servicio seleccionado, al tener ya un evento personalizado en Tag Manager que está recogiendo esta acción, utilizaremos la misma.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/4a8c784930fb38f910c056adb88b314a.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+El activador será el evento personalizado ya declarado del comercio electrónico mejorado &lt;em&gt;productClick&lt;/em&gt;. En caso de no tenerlo correctamente configurado desde el dataLayer, tenemos que crear una regla del tipo &lt;strong&gt;clickEvent&lt;/strong&gt; o &lt;strong&gt;linkClick&lt;/strong&gt;. En todos casos recuerdes que tener el dataLayer del enhanced ecommerce bien implementado te ahorras mucho trabajo.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addtocart&#34;&gt;Evento estándar AddToCart&lt;/h4&gt;
+
+&lt;p&gt;Este será un evento personalizado ya creado en Comercio Electrónico Mejorado, &lt;em&gt;addToCart&lt;/em&gt;, así que recuperaremos este y lo enviaremos a Facebook Ads en su activador. Puede verificarse tanto en Página inicial, de categorías, de productos, de búsqueda, incluso en páginas de MyAccount (listado de favoritos, compras recientes, etc.)&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/bd3c095398f52c2553c005f2ccb42c65.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Reutilizar el Custom Event &lt;em&gt;addToCart&lt;/em&gt;, este se producirá siempre y cuando hay un evento en un botón en &amp;lsquo;Añadir al Carrito&amp;rsquo;.
+Activadores &amp;gt; Eventos personalizados &amp;gt; addToCart (fijarse en las letras capitalizadas desde tu consola)&lt;/p&gt;
+
+&lt;p&gt;En caso no lo tengas, podrías utilizar un método de &lt;em&gt;scraping&lt;/em&gt; de evento &lt;strong&gt;clickEvent&lt;/strong&gt;, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addtowishlist&#34;&gt;Evento estándar AddToWishlist&lt;/h4&gt;
+
+&lt;p&gt;Este evento no existe como tal en Comercio Electrónico mejorado, así que será un evento de captura de acciones, a través de &lt;strong&gt;linkClick&lt;/strong&gt; o &lt;strong&gt;clickEvent&lt;/strong&gt;. Las condiciones pueden ser diferentes, las reglas y variables dependen de como esté tu botón, así que utilizando el metodo &lt;em&gt;scraping&lt;/em&gt;, podemos realizarlo.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d406d83e291c2f9c610920470c806978.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+En caso que no tengas un evento personalizado, podrías utilizar un método de &lt;em&gt;scraping&lt;/em&gt; de &lt;strong&gt;clickEvent&lt;/strong&gt;, buscarías la .class o #id del botón, siempre y cuando este no sea diferente por cada tipología de acción, y recogerías su VALUE. Es importante bypassare también la información del nombre producto, categoría, ID, precio, variación&amp;hellip;así que esta tarea te llevará un buen rato para recoger todas las informaciones. Además es reutilizable para el resto de etiquetas de conversiones de terceros, además para trabajos de CRO y UX.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-search&#34;&gt;Evento estándar Search&lt;/h4&gt;
+
+&lt;p&gt;Este evento que tampoco existe en Google Tag Manager ya heredado del comercio eletrónico mejorado, será un evento personalizado sobre el uso del buscador interno.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/4fbd25f6c0f349576862be1d19077846.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+El activador será sencillo. Si tenemos la URL con &lt;em&gt;?q=texto_introducido_buscador_interno&lt;/em&gt; o similar, donde el parámetros de consulta será en mi caso la &lt;strong&gt;&amp;lsquo;q&amp;rsquo;&lt;/strong&gt;, u otro parecido, tenemos que crear primero la variable personalizada del tipo URL y con parámetro CONSULTA. Y si este parámetro se encontrará en la URL, devolverá el valor, en este caso el término buscado. Listo!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-initiatecheckout&#34;&gt;Evento estándar InitiateCheckout&lt;/h4&gt;
+
+&lt;p&gt;Este evento se produce en el momento exacto que pasamos en la &lt;em&gt;fase 1&lt;/em&gt; del checkout. Si está implementado desde el comercio electrónico mejorado, tendríamos que tener un evento personalizado desde el dataLayer &lt;strong&gt;checkout&lt;/strong&gt;. Sucesivamente, el primer paso será recogido de la siguiente manera con la &lt;strong&gt;variable dataLayer&lt;/strong&gt;:
+&lt;pre&gt;
+  ecommerce.checkout.actionField.step
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/b9887a3007f3c80e041dcc436a5ad7b8.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;checkout&lt;/strong&gt; y que la condición de la variable dataLayer &lt;strong&gt;STEP&lt;/strong&gt; sea &lt;em&gt;1&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-addpaymentinfo&#34;&gt;Evento estándar AddPaymentInfo&lt;/h4&gt;
+
+&lt;p&gt;El evento de recogida del método de pago seguramente estará también recogido en el dataLayer, al igual que el anterior, este podrá ser &lt;strong&gt;stepX&lt;/strong&gt;, dependiendo si estará situado al punto 3, 4 o lo que fuera. En caso de no tener pasos durante la fase de checkout, podemos también adoptar sistemas de recogidas a través de &lt;em&gt;páginas virtuales&lt;/em&gt;, con elementos .css o #id.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/d7f2f9dfa5eb0a42e6bcbd9370385c8e.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;checkoutOption&lt;/strong&gt; y que la condición de la variable dataLayer &lt;strong&gt;STEP&lt;/strong&gt; sea &lt;em&gt;X&lt;/em&gt;. Donde por &lt;em&gt;X&lt;/em&gt; será el paso que lo corresponde. En caso de no tener este evento declarado en el dataLayer, podemos crear un activador de tipo &lt;strong&gt;linkClick&lt;/strong&gt; o de &lt;strong&gt;clickEvent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;evento-estándar-purchase&#34;&gt;Evento estándar Purchase&lt;/h4&gt;
+
+&lt;p&gt;El evento de transacción finalizada será nuestra páginas de &lt;em&gt;gracias&lt;/em&gt; o lo que corresponda. En caso de tener el evento de comercio electrónico &lt;strong&gt;transaction&lt;/strong&gt; o &lt;strong&gt;purchase&lt;/strong&gt;, o crear uno a medida. Muchas tiendas online o páginas de servicios del tipo ecommerce, también puede estar recogiendo las informaciones de transacciones finalizadas a través del &lt;strong&gt;Protocolo de Medición&lt;/strong&gt; y podemos nosotros crear un dataLayer personalizado.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/marcusRB/e7f1ef540c3e12d5e28e8d1b03223a71.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;TRIGGER o Activador&lt;/strong&gt;
+Evento personalizado &lt;strong&gt;transaction&lt;/strong&gt; o &lt;strong&gt;purchase&lt;/strong&gt; o donde se verifique la página &lt;em&gt;thankYouPage&lt;/em&gt;. Cuidado con esta página, tiene que tener la información de transacción y sus parámetros configurados.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Existen otros eventos estándares para los registros, login, leads, contactos, pero estamos siempre hablando de etiquetas personalizadas que tendrán su activador un &lt;strong&gt;evento personalizado&lt;/strong&gt;. Seguramente si estás recogiendo eventos en Google Analytics u otra plataforma, entonces simplemente puedes replicar el mismo &lt;em&gt;trigger&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;En caso de dudas, problemas con los activadores, condiciones, variables personalizadas, puedes consultarme o directamente hablarlo con el desarrollador para que pueda implementar la mayoría en un dataLayer por tí.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
