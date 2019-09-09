@@ -34,7 +34,7 @@ echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echobold "The following directories are set."
 
 # Mac Config
-ROOT="Users/marcusrb/Documents/DEV"
+ROOT="/Users/marcusrb/Documents/DEV"
 WEBSITE="${ROOT}/dev_hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
