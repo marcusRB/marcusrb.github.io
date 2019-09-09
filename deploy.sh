@@ -33,9 +33,17 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-ROOT="/home/marcusrb/Documents/"
-WEBSITE="${ROOT}/dev_academic_quickstart"
+# Mac Config
+ROOT="Users/marcusrb/Documents/DEV"
+WEBSITE="${ROOT}/dev_hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
+
+
+
+# Ubuntu Config
+# ROOT="/home/marcusrb/Documents/"
+# WEBSITE="${ROOT}/dev_academic_quickstart"
+# WEBSITEPUBLIC="${WEBSITE}/public"
 
 echo "Root directory____________ ${ROOT}"
 echo "Website root directory____ ${WEBSITE}"
