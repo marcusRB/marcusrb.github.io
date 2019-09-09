@@ -101,7 +101,7 @@ Además, obtendrá la certificación para cada curso que complete, y la particip
 
 Aquí hay un breve resumen de algunos de nuestros cursos en línea más populares y lo que puede obtener de ellos.
 
-Curso de aprendizaje automático
+[Curso de aprendizaje automático](intro-machine-learning)
 El aprendizaje automático es un campo en crecimiento dentro de la ciencia de datos. A medida que la IA se vuelve más popular y ampliamente implementada, es esencial comprender el aprendizaje automático y cómo aplicarlo.
 Este curso lo lleva paso a paso a través de teorías complejas, algoritmos y bibliotecas de codificación, lo que lo hace fácil de entender y digerir. Obtendrá una enseñanza simple pero profunda en todo lo que necesita saber para asumir proyectos complejos de aprendizaje automático.
 Los temas del curso incluyen:
