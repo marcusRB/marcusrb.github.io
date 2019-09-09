@@ -2,7 +2,7 @@
 name = "marcus"
 
 # Optional Google font URL
-google_fonts = "Ubuntu:400,700|Merriweather|Roboto+Mono"
+google_fonts = "Ubuntu:300,400|Merriweather:300,400|Roboto+Mono:300,400"
 
 # Font families
 heading_font = "Ubuntu"
