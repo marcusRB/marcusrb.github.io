@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Prácticas 1 - Introducción | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Instrucciones
+ Da clic a &lsquo;Submit Answer&rsquo; y date cuenta como la consola ejecuta el código de R del editor: la solución 7 aparece como la suma de 3 y 4. El uso más simple de R es como una calculadora y graficadora, pero por supuesto hay mucho, mucho, mucho más! Añade una linea que haga el calculo de 6 y 12.  Script R
+# Este es el editor y la parte de abajo es la consola # El símbolo de numeral # es utilizada para hacer comentarios # Calcula 3 &#43; 4 3 &#43; 4 # Calcula 6 &#43; 12 6 &#43; 12  Aritmética con R Como vimos el uso más simple que se le puede dar a R es el de una calculadora.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Prácticas 1 - Introducción',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:url" content="https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/">
+  <meta property="og:title" content="Prácticas 1 - Introducción | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:description" content="Instrucciones
+ Da clic a &lsquo;Submit Answer&rsquo; y date cuenta como la consola ejecuta el código de R del editor: la solución 7 aparece como la suma de 3 y 4. El uso más simple de R es como una calculadora y graficadora, pero por supuesto hay mucho, mucho, mucho más! Añade una linea que haga el calculo de 6 y 12.  Script R
+# Este es el editor y la parte de abajo es la consola # El símbolo de numeral # es utilizada para hacer comentarios # Calcula 3 &#43; 4 3 &#43; 4 # Calcula 6 &#43; 12 6 &#43; 12  Aritmética con R Como vimos el uso más simple que se le puede dar a R es el de una calculadora."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-09T15:20:26&#43;02:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tutorial"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/r-studio/intro-r/">Casos Prácticos</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/r-studio/intro-r/r101-intro/">Introducción</a>
+      </li>
+      
+      <li >
+        <a href="/courses/r-studio/intro-r/r101-vectores/">Vectores</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#aritmética-con-r">Aritmética con R</a></li>
+<li><a href="#variables-y-asignaciones">Variables y asignaciones</a></li>
+<li><a href="#variables-y-asignaciones-2">Variables y asignaciones (2)</a></li>
+<li><a href="#variables-y-asignaciones-3">Variables y asignaciones (3)</a></li>
+<li><a href="#manzanas-y-naranjas">Manzanas y naranjas</a></li>
+<li><a href="#tipos-de-datos-básicos-en-r">Tipos de datos básicos en R</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Prácticas 1 - Introducción</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Da clic a &lsquo;Submit Answer&rsquo; y date cuenta como la consola ejecuta el código de R del editor: la solución 7 aparece como la suma de 3 y 4. El uso más simple de R es como una calculadora y graficadora, pero por supuesto hay mucho, mucho, mucho más!</li>
+<li>Añade una linea que haga el calculo de 6 y 12.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Este es el editor y la parte de abajo es la consola
+
+# El símbolo de numeral # es utilizada para hacer comentarios
+
+# Calcula 3 + 4
+3 + 4
+
+# Calcula 6 + 12
+6 + 12
+
+</code></pre>
+
+<h2 id="aritmética-con-r">Aritmética con R</h2>
+
+<p>Como vimos el uso más simple que se le puede dar a R es el de una calculadora. Consideremos las siguientes operaciones:</p>
+
+<p>Adición: +
+Resta: -
+Multiplicación: *
+División: /
+Exponenciación: ^
+Modulo: %%
+Los últimos dos necesitan una breve explicación:</p>
+
+<p>El operador ^ eleva el número a la izquierda a la potencia a la derecha 3^2 es 9
+El módulo (mod) %% calcula el residuo de la división del número a la izquierda por el número a la derecha, por ejemplo 5 mod 3 o 5%%3 es 2.</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Escribe 2^5 en el editor para calcular 2 a la quinta potencia.</li>
+<li>Escribe 28 %% 6 para calcular el 28 módulo 6.
+Da clic a &lsquo;Submit Answer&rsquo; para ver el resultado en la consola.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Adición
+5 + 5
+
+# Resta
+5 - 5
+
+# Multiplicación
+3 * 5
+
+ # División
+(5 + 5) / 2
+
+# Exponenciación
+2^5
+
+# Modulo
+28 %% 6
+</code></pre>
+
+<h2 id="variables-y-asignaciones">Variables y asignaciones</h2>
+
+<p>Un concepto básico en programación es el de variable.</p>
+
+<p>Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.</p>
+
+<p>Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &lt;- 4</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Completa el código en el editor de tal manera que el valor de 42 quede asignado a la variable x. Da clic en &lsquo;Submit Answer&rsquo;. Nota al escribir x en R, se imprime el valor de 42 en la consola.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Asigna 42 a x
+x &lt;- 42
+
+# Imprime el valor de la variable x
+x
+
+</code></pre>
+
+<h2 id="variables-y-asignaciones-2">Variables y asignaciones (2)</h2>
+
+<p>Supongamos que tienes una canasta con cinco manzanas. Para recordarlo, quizás quieras asignar el número de manzanas en una variable llamada numero_manzanas</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Escribe el siguiente código: numero_manzanas &lt;- 5 para asignar el numero 5 a la variable numero_manzanas.</li>
+<li>Escribe: numero_manzanas abajo del segundo comentario.
+Da clic a &lsquo;Submit Answer&rsquo;, ve la consola: el numero que sea ha impreso es 5.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Asigna el valor de 5 a la variable numero_manzanas
+numero_manzanas &lt;- 5
+
+
+# Imprime el valor de la variable numero_manzanas
+numero_manzanas
+
+</code></pre>
+
+<h2 id="variables-y-asignaciones-3">Variables y asignaciones (3)</h2>
+
+<p>Supongamos que ahora tienes 6 naranjas. De nuevo, para no olvidarlo se te ocurre crear una variable llamada numero_naranjas y asignar el valor de 6 a esa variable. Ahora podemos a empezar a utilizar las variables creadas para hacer algo con ellas. Usemos R para saber el número total de frutas con las que contamos, pidamos que haga la cuenta por nosotros: numero_manzanas + numero_naranjas. Al leer este codigo nos damos cuenta de la importancia de dar nombres útiles a nuestras variables.</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Asigna a numero_naranjas el valor de 6.</li>
+<li>R permite combinar estas variables numero_manzanas y numero_naranjas en una nueva variable numero_frutas. Crea la variable numero_frutas y asigna el valor del total de frutas que tenemos.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Asigna el valor de 5 y 6 a las variables numero_manzanas y numero_naranjas respectivamente
+numero_manzanas &lt;- 5
+numero_naranjas &lt;- 6
+
+# Suma estas dos variables e imprime el resultado.
+numero_manzanas + numero_manzanas
+
+#Crea la variable numero_frutas y asigna el resultado de la suma anterior.
+numero_frutas &lt;- (numero_manzanas + numero_naranjas)
+numero_frutas
+</code></pre>
+
+<h2 id="manzanas-y-naranjas">Manzanas y naranjas</h2>
+
+<p>En la escuela primaria nos decían que no sumáramos manzanas con naranjas, pero es lo que acabamos de hacer :) \n Sin embargo numero_manzanas y numero_naranjas son dos variables que contienen el mismo tipo de dato: un dato de tipo numérico. El operador + en R funciona con variables de este tipo. Si alguna de nuestras variables no es numérica sino por ejemplo caracter (ver el editor), entonces estaríamos tratando de asignar la suma de un caracter y un número a la variable numero_frutas, lo cual no es posible.</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Da clic a &lsquo;Submit Answer&rsquo; lee el mensaje de error, asegúrate de entender que dice (puedes copiar y pegar el texto en ingles en un traductor)</li>
+<li>Ajusta el código para que R deje de mostrar ese error.</li>
+</ul>
+
+<h2 id="tipos-de-datos-básicos-en-r">Tipos de datos básicos en R</h2>
+
+<p>R trabaja con muchos tipos de datos. Para empezar, algunos de los más básicos son:</p>
+
+<ul>
+<li>Decimales como 4.5 son llamados numeric (numéricos).</li>
+<li>Números enteros como 4 son llamados (sorpresa!) integer (enteros).</li>
+<li>Valores Booleanos (TRUE (Verdadero) o FALSE (Falso)) logical (lógicos).</li>
+<li>Texto (cadenas de caracteres) son characters (caracteres).
+Nota como utilizamos las comillas para denotar el texto en el editor.</li>
+</ul>
+
+<p><strong>Instrucciones</strong></p>
+
+<p>Cambia los valores de:</p>
+
+<ul>
+<li>mi_numerica a 42.</li>
+<li>mi_caracter a &ldquo;cuarenta_y_dos&rdquo;. Nota como utilizamos las comillas.</li>
+<li>mi_logica a FALSE (Falso).
+Ten en cuenta que R distingue entre mayúsculas y minúsculas!</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Un valor numérico
+mi_numerica &lt;- 42
+
+# Asignando una cadena de caracteres (o simplemente caracteres) nota el uso de las comillas
+mi_caracter &lt;- &quot;cuarenta_y_dos&quot;
+
+# Asignando un valor lógico verdadero
+mi_logica &lt;- FALSE
+</code></pre>
+
+<p>## ¿Cómo sé el tipo de dato?
+¿Recuerdas que cuando añadiste 5 + &ldquo;seis&rdquo; obtuviste un error debido a que los tipos de datos no coincidian? Para evitar estas penosas situaciones :\ puedes saber de antemano el tipo de dato que tienen tus variables utilizando el código class(nombre_variable)</p>
+
+<p><strong>Instrucciones</strong></p>
+
+<ul>
+<li>Completa el código en el editor para imprimir a la consola el tipo de dato de las variables mi_numerica, mi_caracter y mi_logica.</li>
+</ul>
+
+<p><strong>Script R</strong></p>
+
+<pre><code class="language-r"># Declarando las variables de diferentes tipos
+mi_numerica &lt;- 40
+mi_caracter &lt;- &quot;cuarenta&quot;
+mi_logica &lt;- FALSE
+
+# Escribe el código para averiguar el tipo de dato de cada variable
+class(mi_numerica)
+class(mi_caracter)
+class(mi_logica)
+</code></pre>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/courses/r-studio/intro-r/r101-vectores/" rel="prev">Prácticas 2 - Vectores</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Sep 9, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

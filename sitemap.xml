@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/data-science/data-science-a-z/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-analytics/</loc>
     <lastmod>2019-09-05T21:11:31+02:00</lastmod>
   </url>
@@ -23,13 +18,13 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/practica-r-1/</loc>
-    <lastmod>2019-09-09T13:42:45+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</loc>
+    <lastmod>2019-09-09T15:20:26+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/example/example1/</loc>
-    <lastmod>2019-09-05T16:34:15+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas1/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
@@ -44,12 +39,17 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/data-science/</loc>
-    <lastmod>2019-09-07T12:58:13+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/intro-r/</loc>
-    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
@@ -63,13 +63,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/data-science/example2/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/courses/example/example2/</loc>
-    <lastmod>2019-09-05T16:34:15+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas2/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
@@ -83,8 +78,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/practica-r-2/</loc>
-    <lastmod>2019-09-09T13:42:45+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/r-studio/intro-r/r101-vectores/</loc>
+    <lastmod>2019-09-09T15:20:26+02:00</lastmod>
   </url>
   
   <url>
@@ -98,13 +93,23 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-1-como-funciona/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/courses/google-marketing-platform/google-ads/</loc>
     <lastmod>2019-09-05T21:11:31+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/courses/r-studio/</loc>
-    <lastmod>2019-09-07T21:14:02+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
@@ -113,8 +118,13 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/courses/example/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-4-datos-modelo/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
@@ -124,66 +134,71 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2019-09-09T13:42:45+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/como-convertirse-en-estadistico/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <loc>https://www.marcusrb.com/como-convertirse-en-data-scientist/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/big-data/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/cientifico-de-datos/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/data-science/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/escuelas-negocio/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/estadistica/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/formacion-data-science/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/como-convertirse-en-estadistico/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/estadistica/</loc>
+    <lastmod>2019-09-09T17:49:36+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -297,6 +312,18 @@
   
   <url>
     <loc>https://www.marcusrb.com/categories/datalayer/</loc>
+    <lastmod>2019-09-05T16:37:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/escuelas-negocio/</loc>
+    <lastmod>2019-09-05T16:37:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/formacion-big-data/</loc>
     <lastmod>2019-09-05T16:37:45+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1445,7 +1472,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/tutorial/</loc>
-    <lastmod>2019-09-08T21:52:38+02:00</lastmod>
+    <lastmod>2019-09-09T16:28:44+02:00</lastmod>
   </url>
   
 </urlset>
