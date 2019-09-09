@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>etiquetas google tag manager | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/etiquetas-google-tag-manager/</link>
+      <atom:link href="https://www.marcusrb.com/tags/etiquetas-google-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    <description>etiquetas google tag manager</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sun, 29 Apr 2018 21:18:03 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>etiquetas google tag manager</title>
+      <link>https://www.marcusrb.com/tags/etiquetas-google-tag-manager/</link>
+    </image>
+    
+    <item>
+      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
+      <link>https://www.marcusrb.com/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;durante-más-de-5-años-he-estado-utilizando-google-tag-manager-en-auditorias-de-analítica-web-a-mis-clientes-y-sobre-todo-actualizándome-constantemente&#34;&gt;Durante más de 5 años he estado utilizando Google Tag Manager en auditorias de analítica web, a mis clientes y sobre todo actualizándome constantemente&lt;/h2&gt;
+
+&lt;p&gt;con el fin de impartir clases presenciales y a distancia, y siempre veo que hay una &amp;#8220;negación&amp;#8221; hacía el aprendizaje de este gestor de etiquetas o &amp;#8220;&lt;strong&gt;administrador de etiquetas&lt;/strong&gt;&amp;#8220;.&lt;/p&gt;
+
+&lt;p&gt;Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras, o de nuestros compañeros de otros departamentos, que han realizado algunas tareas de &amp;#8220;etiquetado manual&amp;#8221;, y con esto quiero decir &lt;strong&gt;código &amp;#8220;a saco&amp;#8221;&lt;/strong&gt; dentro del site, y por compañeros me refiero a internos y externos que sean, ya que pueden ser de diferentes departamentos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;departamento IT:&lt;/strong&gt; para sus pruebas en los sitios web o en partes para verificar el correcto funcionamiento de las aplicaciones&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento Marketing:&lt;/strong&gt; que además de utilizarlo en la medición de campañas con &amp;#8220;pixel&amp;#8221; de diferentes canales (SEM, SEO, social, afiliados, referenciados etc)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento Administrativo / Comercial:&lt;/strong&gt; que podría estar midiendo campañas y pasarlo a sus CRM&amp;#8217;s&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;departamento de&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics:&lt;/strong&gt; para etiquetar todos los eventos e interacciones de usuarios, usabilidad UX y CRO&lt;/li&gt;
+&lt;li&gt;y más que podrían ser otros interesados en la creación de tareas personalizadas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Como puedes apreciar, el uso de Google Tag Manager podría abarcar todas estas tareas, y obviamente, para poder realizar una migración hacía a ella, tendríamos tener además de experiencia técnica, para que podamos realizar  no solamente la &amp;#8220;medición de Analytics&amp;#8221; y stop, sino hay unas series de tareas que cualquier departamento puede realizar y por este motivo vamos por partes.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;definición-de-un-plan-de-medición&#34;&gt;Definición de un plan de medición&lt;/h2&gt;
+
+&lt;p&gt;Ante de comenzar con un plan de migración, necesitaríamos ver y poder realizar de forma resumida, un plan de medición para poder realizar sucesivamente comprobaciones de implementaciones existentes o tener que crearlas.&lt;/p&gt;
+
+&lt;p&gt;¿No sabes que es un plan de medición?&lt;/p&gt;
+
+&lt;p&gt;Pues, el plan de medición resumido, al igual que este pantallazo aquí abajo, representaría como alcanzar nuestro objetivo empresarial, siguiendo varios pasos y después de seguir unas series de configuraciones previas en el sitio web, herramienta a utilizar y medición de resultados.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-411 size-large&#34; title=&#34;estrategia de plan de medición&#34; src=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-1024x768.jpg&#34; alt=&#34;estrategia de plan de medición&#34; width=&#34;1024&#34; height=&#34;768&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb.jpg 1024w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-300x225.jpg 300w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-768x576.jpg 768w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-195x146.jpg 195w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-50x38.jpg 50w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-100x75.jpg 100w, https://www.marcusrb.com/img/2018/04/plan-medicion-analitica-web-marcusrb-960x720.jpg 960w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Definición del plan de medición&lt;/li&gt;
+&lt;li&gt;Documentar los aspectos técnicos&lt;/li&gt;
+&lt;li&gt;Creación de un plan de implementación&lt;/li&gt;
+&lt;li&gt;Implementación&lt;/li&gt;
+&lt;li&gt;Mantenimiento y mejora continua &amp;#8211; Optimización&lt;/li&gt;
+&lt;li&gt;vuelve a principio&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Entre un test y otro del punto 5 y 6, se crean diferentes &lt;strong&gt;dashboard&lt;/strong&gt;, o cuadros de mandos con las &lt;strong&gt;KPI&amp;#8217;s&lt;/strong&gt; a seguir y alcanzar. Aquí entrarían los factores para extrapolar las informaciones, detectar insights y mejorar con los test A/B, CRO, UX etc.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;cómo-compruebo-las-implementaciones-anteriores&#34;&gt;¿Cómo compruebo las implementaciones anteriores?&lt;/h2&gt;
+
+&lt;p&gt;Una vez que tengamos el plan de medición y verificada la parte técnica (dedicaré otro post para cada uno de los pasos), realizaremos las implementaciones oportunas (vía código, vía GTM, o lo que haga falta en las herramientas). Pero entraría aquí el aspecto de comprobar los trabajos anteriormente realizados.&lt;/p&gt;
+
+&lt;p&gt;Podemos utilizar algunas de las herramientas aquí mencionadas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics:&lt;/strong&gt; Hablando de Google Analytics, sería nuestra primera herramienta a verificar si efectivamente existen unas implementaciones realizadas, porque, en tal caso ya estaríamos recogiendo estos datos y de una manera estarían llegando a nuestra herramienta de análisis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin de terceros:&lt;/strong&gt; Podríamos tener unos plugin instalados que estarían ya haciendo el trabajo por nosotros, en caso de migración podríamos o bien crear conflictos, o bien cargarnos el trabajo realizado.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aplicaciones para navegador:&lt;/strong&gt; Con las aplicaciones o complementos para navegadores (Chrome, Firefox, principalmente), podríamos chequear unas series de aspectos cuáles implementaciones y recogidas de valores dentro del site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Informes anteriores:&lt;/strong&gt; Con los informes ya podríamos tener una idea de lo que se está realizando o lo que no, así alinearnos con las KPI&amp;#8217;s y el plan de medición.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;En practica tenemos que fijarnos en algunos apartados dentro de Google Analytics, exactamente dentro de la interfaz podemos ver cuáles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;conversiones&lt;/li&gt;
+&lt;li&gt;comportamiento&lt;/li&gt;
+&lt;li&gt;dimensiones o métricas personalizadas&lt;/li&gt;
+&lt;li&gt;agrupación de contenidos&lt;/li&gt;
+&lt;li&gt;eventos personalizados&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Con los plugin implementados en los gestores de contenidos: WordPress, Prestashop, Joomla, Magento, Shopify etc, pueden darnos mucha información, tenemos que ver que están realizando para no duplicar información&lt;/p&gt;
+
+&lt;p&gt;Con las aplicaciones, tenemos que verificar principalmente que se está realizando, aquí comentaré 3 principales:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Tag Assistant&lt;/strong&gt; para comprobar las etiquetas existentes, eventos recogidos, incluso podemos realizar grabaciones y comprobaciones de lo que se está midiendo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics Debug&lt;/strong&gt;: nos dará mucha información sobre la etiqueta de Google Analytics dentro del site y muchos objetivos creados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics pros DataLayer&lt;/strong&gt;: este último probará a extraer informaciones muy valiosa del site, es algo más avanzado a primera vista pero será útil a más de uno&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Con los informes anteriores realizados, panel de control o informes en Google Data Studio, podemos comprobar si existen dimensiones o métricas adicionales para poder ver si efectivamente tenemos eventos creados, interacciones o objetivos creados a medida.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;realizamos-una-práctica-y-ver-si-efectivamente-hay-etiqueta-s-en-un-sitio-web&#34;&gt;Realizamos una práctica y ver si efectivamente hay etiqueta/s en un sitio web&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter wp-image-412 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png&#34; alt=&#34;&#34; width=&#34;683&#34; height=&#34;690&#34; srcset=&#34;https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32.png 683w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-297x300.png 297w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-145x146.png 145w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-50x50.png 50w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-74x75.png 74w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-85x85.png 85w, https://www.marcusrb.com/img/2018/04/Captura-de-pantalla-2018-04-21-a-las-17.53.32-80x80.png 80w&#34; sizes=&#34;(max-width: 683px) 100vw, 683px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Ya que llegamos al final de post, hemos realizado todo tipo de comprobaciones para su correcta migración de etiquetas existentes, eventos o interacciones, conversiones y objetivos, hasta incluso del tipo transaccionales de tipo comercio electrónico.&lt;/p&gt;
+
+&lt;p&gt;Una vez llegado a este punto, tenemos que crear un informe como este que se muestra a continuación, el que puedes realizar una copia para poder tener todo bajo control y una migración perfecta. Para su compilación ya he realizado un video explicativo donde cada una de las celdas tendremos que asignar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nombre de la etiqueta&lt;/li&gt;
+&lt;li&gt;donde activarlo&lt;/li&gt;
+&lt;li&gt;cuál variable añadir&lt;/li&gt;
+&lt;li&gt;qué objetivo medir&lt;/li&gt;
+&lt;li&gt;y donde migrarlo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;¿Dudas? Puedes comentar aquí mismo sobre su migración&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

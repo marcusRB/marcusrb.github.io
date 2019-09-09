@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aprendizaje en Data Science | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/courses/data-science/</link>
+      <atom:link href="https://www.marcusrb.com/courses/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aprendizaje en Data Science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Aprendizaje en Data Science</title>
+      <link>https://www.marcusrb.com/courses/data-science/</link>
+    </image>
+    
+    <item>
+      <title>Data Science A-Z</title>
+      <link>https://www.marcusrb.com/courses/data-science/data-science-a-z/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/data-science/data-science-a-z/</guid>
+      <description>
+
+&lt;p&gt;Aprenda Data Science paso a paso a través de ejemplos reales de Analytics. Minería de datos,&lt;/p&gt;
+
+&lt;h2 id=&#34;detalles-curso&#34;&gt;Detalles curso&lt;/h2&gt;
+
+&lt;p&gt;Extremadamente práctico &amp;hellip; Increíblemente práctico &amp;hellip; ¡Increíblemente real! Esta no es una de esas clases esponjosas en las que todo funciona como debería y tu entrenamiento es sencillo. Este curso te arroja al fondo.&lt;/p&gt;
+
+&lt;p&gt;En este curso, experimentará de primera mano todo el DOLOR que experimenta un Científico de Datos a diario. Datos corruptos, anomalías, irregularidades, ¡lo que sea!&lt;/p&gt;
+
+&lt;p&gt;Este curso le dará una visión general completa del viaje de Data Science. Al completar este curso sabrás:
+Cómo limpiar y preparar sus datos para el análisis.
+Cómo realizar una visualización básica de sus datos.
+Cómo modelar tus datos
+Cómo ajustar sus datos en curva
+Y finalmente, cómo presentar sus hallazgos y sorprender a la audiencia.&lt;/p&gt;
+
+&lt;p&gt;Este curso te dará tantos ejercicios prácticos que el mundo real parecerá pan comido cuando te gradúes de esta clase. Este curso tiene ejercicios de tarea que son tan estimulantes y desafiantes que querrás llorar &amp;hellip; ¡Pero no te rendirás! Lo aplastarás. En este curso desarrollará una buena comprensión de las siguientes herramientas:
+SQL
+SSIS
+Cuadro
+Gretl&lt;/p&gt;
+
+&lt;p&gt;Este curso tiene vías planificadas previamente. Usando estas rutas, puede navegar por el curso y combinar secciones en SU ​​PROPIO viaje que le brindarán las habilidades que USTED necesita. O puede hacer todo el curso y prepararse para una carrera increíble en Data Science. La decisión es tuya. ¡Únete a la clase y comienza a aprender hoy!&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-son-los-requerimientos&#34;&gt;¿Qué son los requerimientos?&lt;/h3&gt;
+
+&lt;p&gt;Solo una pasión por el éxito
+Todo el software utilizado en este curso está disponible de forma gratuita o como versión demo&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-voy-a-obtener-de-este-curso&#34;&gt;¿Qué voy a obtener de este curso?&lt;/h3&gt;
+
+&lt;p&gt;Realice con éxito todos los pasos en un proyecto complejo de ciencia de datos
+Crear visualizaciones básicas de Tableau
+Realizar minería de datos en Tableau
+Comprender cómo aplicar la prueba estadística Chi-Squared
+Aplicar el método de mínimos cuadrados ordinarios para crear regresiones lineales
+Evalúe R-Squared para todo tipo de modelos.
+Evaluar el R-cuadrado ajustado para todo tipo de modelos.
+Crear una regresión lineal simple (SLR)
+Crear una regresión lineal múltiple (MLR)
+Crear variables ficticias
+Interpretar los coeficientes de una MLR
+Leer resultados estadísticos de software para modelos creados
+Utilice los métodos de Eliminación hacia atrás, Selección hacia adelante y Eliminación bidireccional para crear modelos estadísticos.
+Crear una regresión logística
+Intuitivamente entiendo una regresión logística
+Opere con falsos positivos y falsos negativos y sepa la diferencia
+Leer una matriz de confusión
+Crear un modelo de segmentación geodemográfica robusta
+Transformar variables independientes para propósitos de modelado
+Derivar nuevas variables independientes para fines de modelado.
+Verifique la multicolinealidad usando VIF y la matriz de correlación
+Comprender la intuición de la multicolinealidad.
+Aplique el Perfil de precisión acumulativa (CAP) para evaluar modelos
+Construya la curva CAP en Excel
+Utilice los datos de entrenamiento y prueba para construir modelos robustos
+Obtenga información de la curva CAP
+Comprender la razón de probabilidades
+Obtenga información comercial de los coeficientes de una regresión logística
+Comprender cómo se ve realmente el deterioro del modelo
+Aplique tres niveles de mantenimiento del modelo para evitar el deterioro del modelo.
+Instalar y navegar SQL Server
+Instalar y navegar por Microsoft Visual Studio Shell
+Limpie los datos y busque anomalías
+Use SQL Server Integration Services (SSIS) para cargar datos en una base de datos
+Crear divisiones condicionales en SSIS
+Tratar los errores del calificador de texto en datos RAW
+Crear scripts en SQL
+Aplicar SQL a proyectos de ciencia de datos
+Crear procedimientos almacenados en SQL
+Presentar proyectos de Data Science a los interesados&lt;/p&gt;
+
+&lt;h3 id=&#34;cuál-es-el-público-objetivo&#34;&gt;¿Cuál es el público objetivo?&lt;/h3&gt;
+
+&lt;p&gt;Cualquier persona interesada en la ciencia de datos
+Cualquiera que quiera mejorar sus habilidades de minería de datos
+Cualquiera que quiera mejorar sus habilidades de modelado estadístico
+Cualquiera que quiera mejorar sus habilidades de preparación de datos
+Cualquiera que quiera mejorar sus habilidades de presentación de Data Science&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>https://www.marcusrb.com/courses/data-science/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/data-science/example2/</guid>
+      <description>
+
+&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

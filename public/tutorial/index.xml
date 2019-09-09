@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriales | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tutorial/</link>
+      <atom:link href="https://www.marcusrb.com/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutoriales</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Tutoriales</title>
+      <link>https://www.marcusrb.com/tutorial/</link>
+    </image>
+    
+  </channel>
+</rss>
