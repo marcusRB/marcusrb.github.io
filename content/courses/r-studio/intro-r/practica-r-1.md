@@ -20,6 +20,7 @@ weight: 1
 - Da clic a 'Submit Answer' y date cuenta como la consola ejecuta el código de R del editor: la solución 7 aparece como la suma de 3 y 4. El uso más simple de R es como una calculadora y graficadora, pero por supuesto hay mucho, mucho, mucho más!
 - Añade una linea que haga el calculo de 6 y 12.
 
+**Script R**
 ```{r}
 # Este es el editor y la parte de abajo es la consola
 
@@ -55,7 +56,7 @@ El módulo (mod) %% calcula el residuo de la división del número a la izquierd
 Da clic a 'Submit Answer' para ver el resultado en la consola.
 
 
-
+**Script R**
 ```{r}
 # Adición
 5 + 5
@@ -87,6 +88,7 @@ Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando
 
 * Completa el código en el editor de tal manera que el valor de 42 quede asignado a la variable x. Da clic en 'Submit Answer'. Nota al escribir x en R, se imprime el valor de 42 en la consola.
 
+**Script R**
 ```{r}
 # Asigna 42 a x
 x <- 42
@@ -106,7 +108,8 @@ Supongamos que tienes una canasta con cinco manzanas. Para recordarlo, quizás q
 * Escribe: numero_manzanas abajo del segundo comentario.
 Da clic a 'Submit Answer', ve la consola: el numero que sea ha impreso es 5.
 
-```
+**Script R**
+```{r}
 # Asigna el valor de 5 a la variable numero_manzanas
 numero_manzanas <- 5
 
@@ -124,7 +127,7 @@ Supongamos que ahora tienes 6 naranjas. De nuevo, para no olvidarlo se te ocurre
 * Asigna a numero_naranjas el valor de 6.
 * R permite combinar estas variables numero_manzanas y numero_naranjas en una nueva variable numero_frutas. Crea la variable numero_frutas y asigna el valor del total de frutas que tenemos.
 
-
+**Script R**
 ```{r}
 # Asigna el valor de 5 y 6 a las variables numero_manzanas y numero_naranjas respectivamente
 numero_manzanas <- 5
@@ -165,7 +168,8 @@ Cambia los valores de:
 * mi_logica a FALSE (Falso).
 Ten en cuenta que R distingue entre mayúsculas y minúsculas!
 
-```
+**Script R**
+```{r}
 # Un valor numérico
 mi_numerica <- 42
 
@@ -183,7 +187,8 @@ mi_logica <- FALSE
 
 * Completa el código en el editor para imprimir a la consola el tipo de dato de las variables mi_numerica, mi_caracter y mi_logica.
 
-```
+**Script R**
+```{r}
 # Declarando las variables de diferentes tipos
 mi_numerica <- 40
 mi_caracter <- "cuarenta"
