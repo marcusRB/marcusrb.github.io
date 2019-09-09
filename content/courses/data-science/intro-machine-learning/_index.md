@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Introducción a R
+linktitle: Introducción Machine Learning
 summary: En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!
 weight: 2
 
 # Page metadata.
-title: Introducción de R
+title: Introducción Machine Learning
 date: "2019-09-02T00:00:00Z"
 lastmod: "2019-09-05T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -16,21 +16,20 @@ description: En este capítulo vamos a dar nuestros primeros pasos en R. Aprende
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  intro-r:
-    name: Casos Prácticos
+  intro-machine-learning:
+    name: Machine learning 101
     weight: 1
 ---
 
-
 Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames. Con el conocimiento obtenido en este curso serás capaz de llevar a cabo tus propios análisis de datos.
 
-## [Introducción](r101-intro)
+## [Cómo funciona](ml101-como-funciona)
 En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!
 
-## [Vectores](r101-vectores)
+## [Basic Data Exploration]()
 Vamos a ir a Las Vegas! donde aprenderemos como analizar los resultados de los juegos usando vectores en R! Después de completar este capítulo serás capaz de crear vectores en R, nombrarlos, seleccionar elementos de ellos y comparar diferentes vectores.
 
-## Matrices
+## El primer modelo de ML
 En este capítulo vamos a aprender a trabajar con matrices en R. Al finalizar el capítulo serás capaz de crear matrices y hacer operaciones básicas con éstas. Vamos a analizar cuánto dinero hizo la película Star Wars para ilustrar el uso de matrices en R. Que la fuerza te acompañe!
 
 ## Factores

@@ -4,7 +4,7 @@ layout: docs  # Do not modify.
 description: En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization.
 
 
-# Optional header image (relative to `static/img/` folder).
+# Optional header image (relative to `/img/` folder).
 header:
   caption: ""
   image: ""
@@ -20,10 +20,10 @@ En esta sección se publicarán los diferentes formatos de cursos y tutoriales, 
 
 ## Cheatsheets
 
-* [Aprender GIT](/static/pdf/git/atlassian-git-cheatsheet.pdf)
+* [Aprender GIT](/files/pdf/git/atlassian-git-cheatsheet.pdf)
 
-* [Base R](/static/pdf/r/base-r.pdf)
-* [Data Transformation in R](static/pdf/r/data-transformation.pdf)
-* [Datatable in R](static/pdf/r/datatable.pdf)
-* [Regex in R](static/pdf/r/regex.pdf)
-* [String in R](static/pdf/r/strings.pdf)
+* [Base R](/files/pdf/r/base-r.pdf)
+* [Data Transformation in R](/files/pdf/r/data-transformation.pdf)
+* [Datatable in R](/files/pdf/r/datatable.pdf)
+* [Regex in R](/files/pdf/r/regex.pdf)
+* [String in R](/files/pdf/r/strings.pdf)
