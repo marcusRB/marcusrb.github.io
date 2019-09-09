@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>implementar tag manager | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/implementar-tag-manager/</link>
+      <atom:link href="https://www.marcusrb.com/tags/implementar-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    <description>implementar tag manager</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Thu, 08 Mar 2018 11:48:16 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>implementar tag manager</title>
+      <link>https://www.marcusrb.com/tags/implementar-tag-manager/</link>
+    </image>
+    
+    <item>
+      <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
+      <link>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <description>
+
+&lt;p&gt;Hola, en este post, gracias a un comentario propuesto por vosotros a mi canal de YouTube &lt;a href=&#34;https://www.youtube.com/c/Marcusrb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;https://www.youtube.com/c/Marcusrb&#34; target=&#34;_blank&#34;&gt;https://www.youtube.com/c/Marcusrb&lt;/a&gt;&lt;/a&gt;, dedicaré a un tutorial de como realizar un etiquetado correcto de nuestra web gracias a Google Tag Manager para los eventos de Google Analytics. Hay que tener en cuenta muchos factores, y en esto lo tenemos tener claro a través de un diseño de un plan, el &lt;strong&gt;plan de medición.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado, así llamado también &lt;strong&gt;S.M.A.R.T. (Specific, Measurable, Achievable, Relevant, Timely) &lt;/strong&gt;así que hay muchos ejemplos y plantillas de planes para poder tener todo bien controlado antes de meter en práctica todo que hay que realizar. Buscando plantillas objetivos SMART, plan de medición o en in inglés Measurement Plan, en Google os saldrán muchos.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;como-medimos-todo-esto&#34;&gt;Como medimos todo esto?&lt;/h3&gt;
+
+&lt;p&gt;Claro, a través de los indicadores de performance o &lt;strong&gt;K.P.I. (Key Performance Indicators)&lt;/strong&gt; y podemos así tener un seguimiento de las métricas más habituales de todo lo realizado en este plan.&lt;/p&gt;
+
+&lt;p&gt;El Plan de medición resumido sería algo así:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_315&#34; style=&#34;width: 970px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool-.jpg&#34;&gt;&lt;img class=&#34;wp-image-315 size-full&#34; src=&#34;https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool-.jpg&#34; alt=&#34;estrategia de plan de medición resumido - MarcusRB &#34; width=&#34;960&#34; height=&#34;720&#34; srcset=&#34;https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool-.jpg 960w, https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool--300x225.jpg 300w, https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool--768x576.jpg 768w, https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool--195x146.jpg 195w, https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool--50x38.jpg 50w, https://www.marcusrb.com/img/2018/03/Mod-1-GTM-Introducción-al-Administrador-de-Etiquetas_-Google-Tag-Manager-MarcusRB-KPIschool--100x75.jpg 100w&#34; sizes=&#34;(max-width: 960px) 100vw, 960px&#34; /&gt;&lt;/a&gt;
+
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    estrategia de plan de medición resumido &amp;#8211; desde el curso de Fundamentos y analítica de GA y GTM para KPIschool
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;bien-llegamos-hasta-aquí&#34;&gt;Bien, llegamos hasta aquí&lt;/h3&gt;
+
+&lt;p&gt;y aprendemos Plan de Medición, SMART y KPI. Que nos falta? Bueno, la implementación de Google Tag Manager o una buena dosis de programación Web, junto con hojas de estilos CSS, JavaScript y más .En sustitución, una buena base de diseño web básico podemos con todo esto, pero en un wordpress o prestashop no es lo mismo que con un diseño personalizado.&lt;/p&gt;
+
+&lt;p&gt;Cada página tiene su código en PHP o similar, a través de framework, desarrollos a medidas tipo Bootstrap, AngularJS (para que nuestras páginas lucen más bonitas por gráfica e imagen, hay un buen desarrollo por detrás o un motor que hagan que funcionen correctamente).&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-cuento-todo-esto-para-un-vídeo-de-30-minutos&#34;&gt;¿Por qué cuento todo esto para un vídeo de 30 minutos?&lt;/h3&gt;
+
+&lt;p&gt;Porque puedo realizarlo incluso en 5 minutos y nadie va a entender exactamente como funciona una cosa u otra, sino hay un plan, objetivos y llegar finalmente al plan de Implementación (punto 4 del gráfico arriba), no podemos tener ni datos, ni mejora continua, ni saber si estamos haciendo las cosas bien, o que nuestras campañas funcionen correctamente, o si la estrategia utilizada es la correcta y si las tácticas o técnicas utilizadas son las adecuadas.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-necesitamos-para-google-tag-manager&#34;&gt;¿Qué necesitamos para Google Tag Manager?&lt;/h3&gt;
+
+&lt;p&gt;En el vídeo se indicará cada cosa, cada elemento que necesitemos, buena visión y los comentarios abajo  o en el mismo vídeo 😉 y recuerdas que tendré muchos más tutoriales, así que Subscribete a mi canal.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;[MAn20Yi62z8&amp;amp;enablejsapi=1&amp;amp;origin=&lt;a href=&#34;https://www.marcusrb.com&#34; target=&#34;_blank&#34;&gt;https://www.marcusrb.com&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

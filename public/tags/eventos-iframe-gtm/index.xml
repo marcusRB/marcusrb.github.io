@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eventos iframe gtm | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/eventos-iframe-gtm/</link>
+      <atom:link href="https://www.marcusrb.com/tags/eventos-iframe-gtm/index.xml" rel="self" type="application/rss+xml" />
+    <description>eventos iframe gtm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sat, 30 Jun 2018 08:26:33 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>eventos iframe gtm</title>
+      <link>https://www.marcusrb.com/tags/eventos-iframe-gtm/</link>
+    </image>
+    
+    <item>
+      <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
+      <guid>https://www.marcusrb.com/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <description>
+
+&lt;h2 id=&#34;un-post-sobre-la-medición-de-eventos-cuales-clicks-conversiones-formularios-transacciones-desde-un-iframe-con-google-tag-manager&#34;&gt;Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager.&lt;/h2&gt;
+
+&lt;p&gt;Seguramente ya te puesto a buscar y rebuscar sin éxito, o directamente pedir ayuda a un desarrollador.&lt;/p&gt;
+
+&lt;p&gt;Es lo mismo que me ha pasado a mí en más de una ocasión, hasta encontrar con varias respuestas y opciones, y gracias a Lunametrics, Simo Avaha y Measureschool, finalmente yo también puedo redactar un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager a Google Analytics o pixel de terceros.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OJO!&lt;/strong&gt; Esta guía funciona solo si tienes acceso al sitio web tanto propietario que del iframe, en tal caso, no es posible realizarlo (de momento!)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check 1.&lt;/strong&gt; No tengo acceso al módulo o al sitio web IFRAME. Lo siento, esta guía no es para ti.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check 2.&lt;/strong&gt; Tengo acceso al módulo o al sitio web IFRAME (sigues adelante)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;comprobaciones-del-contenedor-de-google-tag-manager&#34;&gt;Comprobaciones del contenedor de Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Para la prueba de su correcto funcionamiento, estoy realizando el test desde un sitio web propio, un iframe interno para el mismo dominio. Más adelante veremos con uno externo y tener en consideración USER-id y CrossDomain. La idea es de registrar click o eventos: enlaces, llamadas, formularios o todo lo que podría registrar como tal y enviarlo a Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Diferenciamos así el &lt;strong&gt;iframeParent&lt;/strong&gt; (el padre o el principal) y el &lt;strong&gt;iframeChild&lt;/strong&gt; (el hijo o el huésped).&lt;/p&gt;
+
+&lt;p&gt;Aquí una imagen del &lt;strong&gt;Parent:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-657&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-1024x489.png&#34; alt=&#34;iframe parent o iframe padre&#34; width=&#34;1024&#34; height=&#34;489&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-1024x489.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-300x143.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-768x367.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-260x124.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-50x24.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.00.43-150x72.png 150w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;y para comprobar el iframe &lt;strong&gt;Child, &lt;/strong&gt;tecla de ratón derecho y como la imagen:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-658&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png&#34; alt=&#34;iframe contenedor child&#34; width=&#34;993&#34; height=&#34;630&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39.png 993w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-300x190.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-768x487.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-230x146.png 230w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-50x32.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.01.39-118x75.png 118w&#34; sizes=&#34;(max-width: 993px) 100vw, 993px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Ahora necesitaremos los accesos a los dos contenedores de Google Tag Manager:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Contenedor GTM &lt;strong&gt;Parent&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Contenedor GTM &lt;strong&gt;Child&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Este último en particular va a ser especial, porque realmente necesitaremos darle unas directrices y unos códigos diferentes al resto que ya tenemos en nuestro principal.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;pasos-para-el-contenedor-google-tag-manager-child&#34;&gt;Pasos para el contenedor Google Tag Manager CHILD&lt;/h3&gt;
+
+&lt;p&gt;Una vez creado el contenedor de Google Tag Manager para el iframe, el Child, lo implementamos como siempre solo en el iframe, sin que le pongamos etiquetas de terceros, ni Google Analytics, ya tendrá el suyo probablemente, luego, subiremos este archivo &lt;em&gt;.json&lt;/em&gt; que a continuación explicaré a que sirve.&lt;/p&gt;
+
+&lt;p&gt;ARCHIVO JSON&lt;/p&gt;
+
+&lt;p&gt;Este archivo, como el resto de &lt;a href=&#34;https://www.marcusrb.com/recetas-de-google-tag-manager/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;#8220;recetas&amp;#8221; de Google Tag Manager&lt;/a&gt;, está en formato JSON, o resumido, un contenedor con elementos, para importar directamente en nuestro Google Tag Manager, sin tener que reescribir nuevamente todas las etiquetas y códigos. Con este en particular, para un contenedor nuevo no tenemos que sobrescribir nada (si el contenedor es nuevo, no hace falta). Si ya tenemos elementos en el contenedor, entonces no tenemos que seleccionar la opción de sobrescribir.&lt;/p&gt;
+
+&lt;p&gt;Una vez importado el archivo entramos en la etiqueta &lt;strong&gt;SENDER &amp;#8211; postMessage &lt;/strong&gt;para sus comprobaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-660&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-1024x630.png&#34; alt=&#34;muestra código iframe&#34; width=&#34;1024&#34; height=&#34;630&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-1024x630.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-300x185.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-768x473.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-237x146.png 237w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-50x31.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31-122x75.png 122w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-20.09.31.png 1139w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Vamos a explicar en detalle esta etiqueta personalizada:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ejecuta una declaración &lt;strong&gt;try&amp;#8230;catch &lt;/strong&gt;, tal como indica el nombre, es un bloque de instrucciones para intentar (&lt;strong&gt;try) &lt;/strong&gt;y en caso de excepción &lt;strong&gt;(catch) &lt;/strong&gt;devuelve el error en la consola de desarrollador de nuestro navegador. &lt;a href=&#34;https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/try...catch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Más info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asignamos la variable &lt;strong&gt;postObject &lt;/strong&gt;del tipo &lt;em&gt;JSON.stringify&lt;/em&gt;, este método convierte un valor dado en javascript a una cadena  &lt;strong&gt;JSON&lt;/strong&gt;, opcionalmente reemplaza valores si es especificada la función &lt;code&gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;de reemplazo&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;, o si se especifican las propiedades mediante un array de reemplazo.&lt;/li&gt;
+&lt;li&gt;de un lado tenemos el &lt;strong&gt;event &lt;/strong&gt;y lanza el propio iframe, así que como nombre he puesto &lt;em&gt;iframeACCION &lt;/em&gt;(sustituye ACCION por el tipo de evento, form, link, click, video, transaction, etc), y del otro lado tengo &lt;strong&gt;link &lt;/strong&gt;en mi caso estoy lanzado eventos de tipo &lt;em&gt;enlace&lt;/em&gt; y le asigno un nombre, una variable, cualquier cosa que quieras que mida.
+
+&lt;ul&gt;
+&lt;li&gt;Ej. {{CLICK URL}} &amp;#8211; {{CLICK TEXT}}, devolverá la ruta completa del click sobre este enlace y el nombre del texto ancla.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;mandamos el todo a la ventana principal con el método &lt;strong&gt;parent.postMessage() &lt;/strong&gt;donde activa la comunicación entre la pantalla origen y destino, y que le enviamos los siguientes datos:
+
+&lt;ul&gt;
+&lt;li&gt;la variable &lt;strong&gt;postObject&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;la ruta y dominio &lt;strong&gt;huésped&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;configuración-eventos-child&#34;&gt;Configuración Eventos Child&lt;/h4&gt;
+
+&lt;p&gt;Ahora bien. Podemos proceder con la configuración de los eventos en este contenedor &lt;strong&gt;iframeChild, &lt;/strong&gt;yo voy a seleccionar por ejemplo, el vinculo a la llamada telefónica, mejor dicho aquellos usuarios que hará click en el enlace &lt;strong&gt;TELÉFONO&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Activamos las variables integradas (en el caso sea nuevo el contenedor es importante tenerlos activos):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-663&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-1024x844.png&#34; alt=&#34;variables integradas google tag manager&#34; width=&#34;1024&#34; height=&#34;844&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-1024x844.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-300x247.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-768x633.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-177x146.png 177w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-50x41.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13-91x75.png 91w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.35.13.png 1035w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Modifico algunos parámetros de la etiqueta personalizada anterior dejándola así con su activador correspondiente para las llamadas telefónicas:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-664&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-1024x704.png&#34; alt=&#34;etiqueta iframe personalizada de tag manager&#34; width=&#34;1024&#34; height=&#34;704&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-1024x704.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-300x206.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-768x528.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-212x146.png 212w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-50x34.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52-109x75.png 109w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.36.52.png 1179w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Los cambios efectuados son solamente descriptivos, además de asignarle la ruta donde tengo alojado el iframe.&lt;/p&gt;
+
+&lt;p&gt;Guardamos, creamos versión y Publicamos. Hasta aquí finalizado el proceso de configuración del iframe mismo.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;pasos-para-el-contenedor-google-tag-manager-parent&#34;&gt;Pasos para el contenedor Google Tag Manager PARENT&lt;/h3&gt;
+
+&lt;p&gt;Ahora toca al contenedor padre tener que realizar unas cuántas configuraciones. Primero vamos a importar este archivo json:&lt;/p&gt;
+
+&lt;p&gt;Recuerda d no modificar el resto de etiquetas o elementos de nuestro contenedor, con lo cuál le damos a NO SOBRESCRIBIR el resto de elementos.&lt;/p&gt;
+
+&lt;p&gt;Lo que vamos a tener son dos elementos importados:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;etiqueta personalizada con uno script de llamadas de parámetros &lt;strong&gt;LISTENER&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;una variable tipo dataLayer que importa el valor del iframe &lt;strong&gt;EVENT iframePhoneClick&lt;/strong&gt;, justo para seguir el ejemplo anterior&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El script es un poco largo de detallar pero básicamente tiene unos puntos importantes a subrayar:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-665&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-1024x522.png&#34; alt=&#34;listener de la pagina iframe parent&#34; width=&#34;1024&#34; height=&#34;522&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-1024x522.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-300x153.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-768x392.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-260x133.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-50x26.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06-147x75.png 147w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.42.06.png 1539w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;con el &lt;strong&gt;addEvent &lt;/strong&gt;enviamos el mensaje desde el iFrame hacía el Parent&lt;/li&gt;
+&lt;li&gt;declaramos la variable &lt;strong&gt;data&lt;/strong&gt; con el _JSON.parse, _un comunicador entre las dos partes, y así el dataLayer&lt;/li&gt;
+&lt;li&gt;Ejecutamos el &lt;strong&gt;dataLayer&lt;/strong&gt; en el caso existan eventos&lt;/li&gt;
+&lt;li&gt;definición de &lt;strong&gt;eventos&lt;/strong&gt; con el &lt;em&gt;addEventListener&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;configuración-eventos-parent&#34;&gt;Configuración Eventos Parent&lt;/h4&gt;
+
+&lt;p&gt;Así creado no tenemos que realizar nada más que otras dos acciones.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Asignarle un &lt;strong&gt;activador&lt;/strong&gt;, una simple Página Vista de la página de donde se ejecuta el evento, en mi caso /&lt;em&gt;event.html&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-666&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-1024x256.png&#34; alt=&#34;pagina vista activador iframe&#34; width=&#34;1024&#34; height=&#34;256&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-1024x256.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-300x75.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-768x192.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-260x65.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-50x12.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48-150x37.png 150w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.46.48.png 1165w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;
+  2. Creamos el evento para &lt;strong&gt;Google Analytics &lt;/strong&gt;de este modo:
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-667&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png&#34; alt=&#34;evento google analytics llamada&#34; width=&#34;700&#34; height=&#34;573&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50.png 700w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-300x246.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-178x146.png 178w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-50x41.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.47.50-92x75.png 92w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Asignamos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Categoria&lt;/em&gt;: lo que queramos desde el iframe, en mi caso &lt;strong&gt;childPhone&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;_Acción: _yo he puesto la página donde se ha ejecutado la acción, o poner lo que sigue en Etiqueta&lt;/li&gt;
+&lt;li&gt;_Etiqueta: _alternativamente a la anterior, utilizar una variable &lt;strong&gt;dataLayer &lt;/strong&gt;del mensaje desde el iframe creado anteriormente, &lt;strong&gt;postMessageData&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OJO, porque la variable ahora tiene dos partes, la primera _postMessageData _y el segundo parámetro del script del child, adivinista cuál? sí, es &lt;em&gt;Link&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-668&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png&#34; alt=&#34;dataLayer para informaciones&#34; width=&#34;605&#34; height=&#34;332&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35.png 605w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-300x165.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-260x143.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-50x27.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.52.35-137x75.png 137w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta variable nos sirve como &amp;#8220;comunicador&amp;#8221; de la información que teníamos creada desde el &lt;strong&gt;CHILD &lt;/strong&gt;con el tipo de click, form o transaction, lo que sea, básicamente si dentro del Child teníamos una variable de {{Click URL}} aquí me enviará la respuesta.&lt;/p&gt;
+
+&lt;p style=&#34;padding-left: 30px;&#34;&gt;
+  3. Ahora toca al &lt;strong&gt;activador&lt;/strong&gt; del evento de Google Analytics:
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-669&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png&#34; alt=&#34;evento personalizado iframe child&#34; width=&#34;605&#34; height=&#34;343&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56.png 605w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-300x170.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-258x146.png 258w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-50x28.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.54.56-132x75.png 132w&#34; sizes=&#34;(max-width: 605px) 100vw, 605px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Este activador va a ser una llamada al &lt;strong&gt;Evento Personalizado &lt;/strong&gt;del _iframeChild, _sí sí, lo que teníamos declarado en el otro, exactamente cuando se ejecuta el evento, entonces DISPARA nuestra etiqueta.&lt;/p&gt;
+
+&lt;p&gt;Guardamos, creamos versión y Publicamos.&lt;/p&gt;
+
+&lt;p&gt;FIN!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;testing-de-eventos-en-iframe&#34;&gt;Testing de eventos en iFrame&lt;/h3&gt;
+
+&lt;p&gt;Vamos a realizar la dinámica y ver como queda el todo con las siguientes imágenes de vista previa y debug:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-670&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-1024x619.png&#34; alt=&#34;debug y vista previa iframe tag manager&#34; width=&#34;1024&#34; height=&#34;619&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-1024x619.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-300x181.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-768x464.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-241x146.png 241w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-50x30.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22-124x75.png 124w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.58.22.png 1505w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Verificación del evento ejecutado y dispara la etiqueta a Google Analytics&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-671&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png&#34; alt=&#34;disparador evento personalizado analytics&#34; width=&#34;850&#34; height=&#34;544&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00.png 850w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-300x192.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-768x492.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-228x146.png 228w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-50x32.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-21.59.00-117x75.png 117w&#34; sizes=&#34;(max-width: 850px) 100vw, 850px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Tiempo real en Google Analytics y Prueba Terminada!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-672&#34; src=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-1024x395.png&#34; alt=&#34;tiempo real google analytics iframe&#34; width=&#34;1024&#34; height=&#34;395&#34; srcset=&#34;https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-1024x395.png 1024w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-300x116.png 300w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-768x296.png 768w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-260x100.png 260w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-50x19.png 50w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09-150x58.png 150w, https://www.marcusrb.com/img/2018/06/Captura-de-pantalla-2018-06-29-a-las-22.00.09.png 1332w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h3&gt;
+
+&lt;p&gt;Hemos realizado el primer test sencillo de como enviar eventos desde un marco (iframe) dentro de un sitio web, estamos hablando de uno básico, mismo dominio y pocos eventos de click en enlaces o un formulario.&lt;/p&gt;
+
+&lt;p&gt;Imagina ahora de tener que implantar uno snippet externo de booking, sí, propio para las reservas hoteleras que tanto se utilizan o utilizar EventBrite, o compras de tickets de eventos.&lt;/p&gt;
+
+&lt;p&gt;Bien esta parte llevaría exactamente los mismos pasos anteriores más dos configuraciones más que actualizar más adelante:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;CLIENT-ID y COOKIE: la idea es tener la misma sesión abierta en ambos sitios sin perder el usuario logueado, ni tener que a contabilizar más sesiones por usuario (y reconocerlo sobre todo)&lt;/li&gt;
+&lt;li&gt;CROSS DOMAIN o multidominio: el tener que pasar por dos &lt;em&gt;sitios web diferentes&lt;/em&gt;, parece raro pero realmente son dos páginas enmarcadas en una sola, pero con dos dominios distintas, entonces necesitaríamos utilizar la configuración también de esta, así como su exclusión como referral en Google Analytics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hasta aquí es todo, cuéntame tu experiencia que tal fue o se has buscado algún otro atajo con los iframe&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
