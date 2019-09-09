@@ -31,7 +31,7 @@ font = "marcus"
 
 # Choose a font size.
 # Sizes: s (small), m (medium), l (large)
-font_size = "m"
+font_size = "s"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
