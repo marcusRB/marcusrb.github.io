@@ -8,8 +8,8 @@ summary = "La guía de ruta de aprendizaje definitiva que detalla todas las habi
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["formacion big data", "escuelas negocio", "big data"]
-categories = ["estadística", "data science"]
+tags = ["formacion data science", "estadística", "big data"]
+categories = ["data science"]
 authors = ["marcusRB"]
 
 

@@ -31,7 +31,7 @@ font = "marcus"
 
 # Choose a font size.
 # Sizes: s (small), m (medium), l (large)
-font_size = "s"
+font_size = "m"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -147,7 +147,7 @@ menu_align_right = true
 reading_time = true
 
 # Display next/previous section pager? (true/false)
-section_pager = false
+section_pager = true
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
@@ -186,7 +186,7 @@ sharing = true
 
   # Configuration of Disqus.
   [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    shortname = "marcusRB"  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
 # Search.

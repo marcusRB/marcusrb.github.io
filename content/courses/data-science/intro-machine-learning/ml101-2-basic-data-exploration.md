@@ -8,11 +8,13 @@ draft: false
 menu:
   intro-machine-learning:
     parent: Machine learning 101
-    weight: 2
+    weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+weight: 4
 ---
+
+# Explorando los datos
 
 ## Usando pandas para familiarizarse con sus datos
 El primer paso en cualquier proyecto de aprendizaje automático es familiarizarse con los datos. Usarás la biblioteca Pandas para esto. Pandas es la herramienta principal de datos que los científicos usan para explorar y manipular datos. La mayoría de las personas abrevian pandas en su código como _pd_. Hacemos esto con el comando

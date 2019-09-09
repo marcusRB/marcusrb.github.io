@@ -34,7 +34,7 @@ R es un entorno para la gestión y análisis de datos, primera exploración esta
 * **[Online courses](intro-r)**
 * **Project or software documentation**
 * **Tutorials**
-* **[Cheatsheets de R]()**
+* **[Cheatsheets](/tutorial)**
 
 
 ## Estructura programación en R

@@ -21,9 +21,10 @@ menu:
     weight: 1
 ---
 
+
 Con más de 2 millones de usuarios a nivel mundial, R se convierte rápidamente en el lenguaje de programación líder en estadística y ciencia de datos. Cada año, el número de usuarios de R crece en 40%, y cada vez más organizaciones lo están usando para sus actividades cotidianas. En esta introducción a R, vas a dominar los elementos básicos de este bello lenguaje de programación: vectores, factores, listas y data frames. Con el conocimiento obtenido en este curso serás capaz de llevar a cabo tus propios análisis de datos.
 
-## [Introducción](r-101-intro)
+## [Introducción](r101-intro)
 En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!
 
 ## [Vectores](r101-vectores)
