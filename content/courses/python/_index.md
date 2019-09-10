@@ -28,3 +28,18 @@ This feature can be used for publishing content such as:
 * **Online courses**
 * **Project or software documentation**
 * **Tutorials**
+
+
+***
+
+## Índice Learning Path
+
+
+## Estructura programación de Python
+
+
+- [] [Introducción de Python](py101)
+- [] [Python para NO Desarrolladores](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+- [] [Advanced Python](py201)
+- [] [Pandas](pandas)
+- [] [Data Manipulation](data-manipulation)

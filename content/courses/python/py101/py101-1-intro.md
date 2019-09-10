@@ -1,5 +1,5 @@
 ---
-title: Prácticas 1 - Introducción
+title: Python 101 - Introducción
 linktitle: Introducción
 toc: true
 type: docs
