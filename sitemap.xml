@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</loc>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/courses/business-analytics/intro-sql/</loc>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/courses/google-marketing-platform/</loc>
     <lastmod>2019-09-05T21:11:31+02:00</lastmod>
   </url>
@@ -19,7 +29,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</loc>
-    <lastmod>2019-09-10T19:27:39+02:00</lastmod>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
   </url>
   
   <url>
@@ -94,7 +104,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/courses/python/</loc>
-    <lastmod>2019-09-06T15:11:57+02:00</lastmod>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
   </url>
   
   <url>
@@ -123,6 +133,11 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/courses/business-analytics/</loc>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</loc>
     <lastmod>2019-09-09T17:49:36+02:00</lastmod>
   </url>
@@ -139,7 +154,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2019-09-10T19:27:39+02:00</lastmod>
+    <lastmod>2019-09-10T20:39:02+02:00</lastmod>
     <priority>0</priority>
   </url>
   

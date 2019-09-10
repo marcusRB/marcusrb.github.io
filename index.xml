@@ -13,6 +13,138 @@
     </image>
     
     <item>
+      <title>Getting Started with SQL y Big Query</title>
+      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</guid>
+      <description>
+
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+
+&lt;p&gt;El lenguaje de consulta estructurado, o SQL, es el lenguaje de programación utilizado con las bases de datos, y es una habilidad importante para cualquier científico de datos. En este curso, desarrollará sus habilidades de SQL utilizando BigQuery, un servicio web que le permite aplicar SQL a grandes conjuntos de datos.&lt;/p&gt;
+
+&lt;p&gt;En esta lección, aprenderá los conceptos básicos para acceder y examinar los conjuntos de datos de BigQuery. Después de que tenga una idea de estos conceptos básicos, volveremos a desarrollar sus habilidades de SQL.&lt;/p&gt;
+
+&lt;h3 id=&#34;tus-primeros-comandos-bigquery&#34;&gt;Tus primeros comandos BigQuery&lt;/h3&gt;
+
+&lt;p&gt;Para usar BigQuery, importaremos el paquete de Python a continuación:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google.cloud import bigquery
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El primer paso en el flujo de trabajo es crear un objeto &lt;em&gt;Client&lt;/em&gt;. Como pronto verá, este objeto &lt;em&gt;Client&lt;/em&gt; desempeñará un papel central en la recuperación de información de los conjuntos de datos de BigQuery.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trabajaremos con un conjunto de datos de publicaciones en &lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_blank&#34;&gt;Hacker News&lt;/a&gt;, un sitio web que se centra en noticias de informática y seguridad cibernética.&lt;/p&gt;
+
+&lt;p&gt;En BigQuery, cada conjunto de datos está contenido en un proyecto correspondiente. En este caso, nuestro conjunto de datos &lt;em&gt;hacker_news&lt;/em&gt; está contenido en el proyecto &lt;em&gt;bigquery-public-data&lt;/em&gt;. Para acceder al conjunto de datos,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Comenzamos construyendo una referencia al conjunto de datos con el método &lt;em&gt;dataset()&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;A continuación, utilizamos el método &lt;em&gt;get_dataset()&lt;/em&gt;, junto con la referencia que acabamos de construir, para obtener el conjunto de datos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;hacker_news&amp;quot; dataset
+dataset_ref = client.dataset(&amp;quot;hacker_news&amp;quot;, project=&amp;quot;bigquery-public-data&amp;quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada conjunto de datos es solo una colección de tablas. Puede pensar en un conjunto de datos como un archivo de hoja de cálculo que contiene varias tablas, todas compuestas de filas y columnas.&lt;/p&gt;
+
+&lt;p&gt;Usamos el método &lt;em&gt;list_tables()&lt;/em&gt; para listar las tablas en el conjunto de datos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# List all the tables in the &amp;quot;hacker_news&amp;quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there are four!)
+for table in tables:  
+    print(table.table_id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUTPUT&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;comments
+full
+full_201510
+stories
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;De forma similar a cómo obtuvimos un conjunto de datos, podemos obtener una tabla. En la celda de código a continuación, buscamos la tabla &lt;em&gt;full&lt;/em&gt; en el conjunto de datos &lt;em&gt;hacker_news&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;full&amp;quot; table
+table_ref = dataset_ref.table(&amp;quot;full&amp;quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;En la siguiente sección, explorará el contenido de esta tabla con más detalle. Por ahora, tómese el tiempo de usar la imagen a continuación para consolidar lo que ha aprendido hasta ahora.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../biYqbUB.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;esquema-de-la-tabla&#34;&gt;Esquema de la tabla&lt;/h2&gt;
+
+&lt;p&gt;La estructura de una tabla se llama esquema. Necesitamos entender el esquema de una tabla para extraer efectivamente los datos que queremos.&lt;/p&gt;
+
+&lt;p&gt;En este ejemplo, investigaremos la tabla completa &lt;em&gt;full&lt;/em&gt; que obtuvimos anteriormente.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Print information on all the columns in the &amp;quot;full&amp;quot; table in the &amp;quot;hacker_news&amp;quot; dataset
+table.schema
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUTPUT&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[SchemaField(&#39;by&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &amp;quot;The username of the item&#39;s author.&amp;quot;, ()),
+ SchemaField(&#39;score&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Story score&#39;, ()),
+ SchemaField(&#39;time&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Unix time&#39;, ()),
+ SchemaField(&#39;timestamp&#39;, &#39;TIMESTAMP&#39;, &#39;NULLABLE&#39;, &#39;Timestamp for the unix time&#39;, ()),
+ SchemaField(&#39;title&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story title&#39;, ()),
+ SchemaField(&#39;type&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Type of details (comment, comment_ranking, poll, story, job, pollopt)&#39;, ()),
+ SchemaField(&#39;url&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story url&#39;, ()),
+ SchemaField(&#39;text&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story or comment text&#39;, ()),
+ SchemaField(&#39;parent&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Parent comment ID&#39;, ()),
+ SchemaField(&#39;deleted&#39;, &#39;BOOLEAN&#39;, &#39;NULLABLE&#39;, &#39;Is deleted?&#39;, ()),
+ SchemaField(&#39;dead&#39;, &#39;BOOLEAN&#39;, &#39;NULLABLE&#39;, &#39;Is dead?&#39;, ()),
+ SchemaField(&#39;descendants&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Number of story or poll descendants&#39;, ()),
+ SchemaField(&#39;id&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &amp;quot;The item&#39;s unique id.&amp;quot;, ()),
+ SchemaField(&#39;ranking&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Comment ranking&#39;, ())]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada &lt;em&gt;SchemaField&lt;/em&gt; nos informa sobre una columna específica (a la que también nos referimos como un campo &lt;strong&gt;field&lt;/strong&gt;). En orden, la información es:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El nombre de la columna.&lt;/li&gt;
+&lt;li&gt;El tipo de campo (o tipo de datos) en la columna&lt;/li&gt;
+&lt;li&gt;El modo de la columna (&amp;lsquo;NULLABLE&amp;rsquo; significa que una columna permite valores NULL y es el valor predeterminado)&lt;/li&gt;
+&lt;li&gt;Una descripción de los datos en esa columna.&lt;/li&gt;
+&lt;li&gt;El primer campo tiene el SchemaField:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;SchemaField (&amp;lsquo;by&amp;rsquo;, &amp;lsquo;string&amp;rsquo;, &amp;lsquo;NULLABLE&amp;rsquo;, &amp;ldquo;El nombre de usuario del autor del elemento&amp;rdquo;, ()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto nos dice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;el campo (o columna) es llamado por&lt;/li&gt;
+&lt;li&gt;los datos en este campo son cadenas,&lt;/li&gt;
+&lt;li&gt;Se permiten valores NULL y&lt;/li&gt;
+&lt;li&gt;Contiene los nombres de usuario correspondientes al autor de cada elemento.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Podemos usar el método &lt;em&gt;list_rows()&lt;/em&gt; para verificar solo las primeras cinco líneas de la tabla completa &lt;em&gt;full&lt;/em&gt; para asegurarnos de que esto sea correcto. (A veces las bases de datos tienen descripciones desactualizadas, por lo que es bueno verificarlo). Esto devuelve un objeto BigQuery &lt;em&gt;RowIterator&lt;/em&gt; que se puede convertir rápidamente en un DataFrame de pandas con el método &lt;em&gt;to_dataframe()&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Preview the first five lines of the &amp;quot;full&amp;quot; table
+client.list_rows(table, max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Google Analytics</title>
       <link>https://www.marcusrb.com/courses/google-marketing-platform/google-analytics/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
@@ -88,7 +220,7 @@ También puede actualizar R y paquetes con el paquete de instalación.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Prácticas 1 - Introducción</title>
+      <title>Python 101 - Introducción</title>
       <link>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</guid>
