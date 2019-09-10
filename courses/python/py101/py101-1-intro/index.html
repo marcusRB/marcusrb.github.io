@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
-  <title>Learning Path de Python | MarcusRB</title>
+  <title>Prácticas 1 - Introducción | MarcusRB</title>
     
 
 
@@ -35,10 +35,11 @@
   
     
   
-  <meta name="description" content="Learning Path de Python. De fundamentos de programación, material de Python básico hasta avaznado, web app en Flask y Django.">
+  <meta name="description" content="Introducción Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).
+Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/python/">
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
 
   
 
@@ -102,7 +103,7 @@
     <script>
       var dataLayer = window.dataLayer = window.dataLayer || [];
       dataLayer.push({
-        page:'Learning Path de Python',
+        page:'Prácticas 1 - Introducción',
         categories:''
       });
     </script>
@@ -117,14 +118,12 @@
   
 
   
-  <link rel="alternate" href="/courses/python/index.xml" type="application/rss+xml" title="MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/courses/python/">
+  <link rel="canonical" href="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
 
   
   
@@ -140,12 +139,16 @@
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
-  <meta property="og:url" content="https://www.marcusrb.com/courses/python/">
-  <meta property="og:title" content="Learning Path de Python | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
-  <meta property="og:description" content="Learning Path de Python. De fundamentos de programación, material de Python básico hasta avaznado, web app en Flask y Django."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="og:url" content="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
+  <meta property="og:title" content="Prácticas 1 - Introducción | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:description" content="Introducción Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).
+Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-09-06T15:11:57&#43;02:00">
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-10T19:27:39&#43;02:00">
   
 
   
@@ -429,13 +432,20 @@
 <nav class="collapse docs-links" id="docs-nav">
   
   
-  <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/courses/python/">Índice</a>
-
-  </div>
-  
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/python/py101/">Python from scratch</a>
+    <a class="docs-toc-link" href="/courses/python/py101/py101-1-intro/">Casos Prácticos</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/python/py101/py101-1-intro/">Introducción</a>
+      </li>
+      
+      <li >
+        <a href="/courses/python/py101/py101-2-funciones/">Funciones</a>
+      </li>
+      
+    </ul>
+    
 
   </div>
   
@@ -452,9 +462,9 @@
 
       <nav id="TableOfContents">
 <ul>
-<li>
+<li><a href="#introducción">Introducción</a>
 <ul>
-<li><a href="#learning-path">Learning Path</a></li>
+<li><a href="#números-y-aritmética-en-python">Números y aritmética en Python</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -468,20 +478,158 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Learning Path de Python</h1>
+          <h1 itemprop="name">Prácticas 1 - Introducción</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h2 id="learning-path">Learning Path</h2>
+<h1 id="introducción">Introducción</h1>
 
-<p>This feature can be used for publishing content such as:</p>
+<p>Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).</p>
+
+<p>Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos. Si tiene experiencia previa en Python, puede pasar directamente al ejercicio práctico.</p>
+
+<p>## Hello, Python!
+Python fue nombrado por la compañía de comedia británica Monty Python, por lo que haremos de nuestro primer programa Python un homenaje a su parodia sobre el spam.</p>
+
+<p>Solo por diversión, intente leer el código a continuación y predecir lo que hará cuando se ejecute. (Si no tienes idea, ¡está bien!)</p>
+
+<p>Luego haga clic en el botón &ldquo;salida&rdquo; para ver los resultados de nuestro programa.</p>
+
+<pre><code class="language-python">spam_amount = 0
+print(spam_amount)
+
+# Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
+spam_amount = spam_amount + 4
+
+if spam_amount &gt; 0:
+    print(&quot;But I don't want ANY spam!&quot;)
+
+viking_song = &quot;Spam &quot; * spam_amount
+print(viking_song)
+</code></pre>
+
+<pre><code>0
+But I don't want ANY spam!
+Spam Spam Spam Spam
+</code></pre>
+
+<p>¡Hay mucho que desempacar aquí! Este programa tonto demuestra muchos aspectos importantes de cómo se ve el código Python y cómo funciona. Revisemos el código de arriba a abajo.</p>
+
+<pre><code class="language-python">spam_amount = 0
+</code></pre>
+
+<p>Asignación de variables: aquí creamos una variable llamada spam_amount y le asignamos el valor de 0 usando =, que se llama operador de asignación.</p>
+
+<p><strong>Nota</strong>: si ha programado en ciertos otros lenguajes (como Java o C ++), puede estar notando algunas cosas que Python no requiere que hagamos aquí:</p>
 
 <ul>
-<li><strong>Online courses</strong></li>
-<li><strong>Project or software documentation</strong></li>
-<li><strong>Tutorials</strong></li>
+<li>no necesitamos &ldquo;declarar&rdquo; spam_amount antes de asignarle</li>
+<li>no necesitamos decirle a Python a qué tipo de valor se referirá spam_amount. De hecho, incluso podemos reasignar spam_amount para referirnos a un tipo diferente de cosas como una cadena o un booleano.</li>
 </ul>
+
+<pre><code class="language-python">print(spam_amount)
+</code></pre>
+
+<pre><code>0
+</code></pre>
+
+<p><strong>Llamadas de función</strong>: <em>print</em> es una función de Python que muestra el valor que se le pasa en la pantalla. Llamamos a las funciones poniendo paréntesis después de su nombre y poniendo las entradas (o argumentos) a la función en esos paréntesis.</p>
+
+<pre><code class="language-python"># Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
+spam_amount = spam_amount + 4
+</code></pre>
+
+<p>La primera línea de arriba es un <strong>comentario</strong>. En Python, los comentarios comienzan con el símbolo <em>#</em>.</p>
+
+<p>A continuación vemos un ejemplo de reasignación. La reasignación del valor de una variable existente tiene el mismo aspecto que la creación de una variable: todavía utiliza el operador de asignación <em>=</em>.</p>
+
+<p>En este caso, el valor que estamos asignando a _spam<em>amount</em> implica una aritmética simple en su valor anterior. Cuando encuentra esta línea, Python evalúa la expresión en el lado derecho de <em>=</em> (0 + 4 = 4), y luego asigna ese valor a la variable en el lado izquierdo.</p>
+
+<pre><code class="language-python">if spam_amount &gt; 0:
+    print(&quot;But I don't want ANY spam!&quot;)
+
+viking_song = &quot;Spam Spam Spam&quot;
+print(viking_song)
+</code></pre>
+
+<pre><code>But I don't want ANY spam!
+Spam Spam Spam
+</code></pre>
+
+<p>No hablaremos mucho sobre &ldquo;condicionales&rdquo; hasta más tarde, pero, incluso si nunca ha codificado antes, probablemente pueda adivinar lo que hace. Python es apreciado por su legibilidad y simplicidad.</p>
+
+<p>Observe cómo indicamos qué código pertenece al <em>if. &ldquo;¡Pero no quiero NINGÚN spam!&rdquo;</em> solo se supone que se imprime si _spam<em>amount</em> es positivo. Pero el código posterior (como _print (viking<em>song)</em>) debe ejecutarse sin importar qué. ¿Cómo lo sabemos (y Python)?</p>
+
+<p>Los dos puntos (:) al final de la línea if indican que se está iniciando un nuevo &ldquo;bloque de código&rdquo;. Las líneas posteriores que están sangradas son parte de ese bloque de código. Algunos otros idiomas usan {llaves &ldquo;para marcar el comienzo y el final de los bloques de código. El uso de espacios en blanco significativos por Python puede ser sorprendente para los programadores que están acostumbrados a otros lenguajes, pero en la práctica puede conducir a un código más coherente y legible que los lenguajes que no imponen sangría de bloques de código.</p>
+
+<p>Las líneas posteriores que tratan con _viking<em>song</em> no están sangradas con 4 espacios adicionales, por lo que no forman parte del bloque de código if. Veremos más ejemplos de bloques de código sangrados más adelante cuando definamos funciones y usemos bucles.</p>
+
+<p>Este fragmento de código también es nuestro primer avistamiento de una cadena <strong>string</strong> en Python:</p>
+
+<pre><code class="language-python">&quot;But I don't want ANY spam!&quot;
+</code></pre>
+
+<pre><code>&quot;But I don't want ANY spam!&quot;
+</code></pre>
+
+<p>Las cadenas se pueden marcar con comillas dobles o simples. (Pero debido a que esta cadena en particular contiene un carácter de comillas simples, podríamos confundir a Python tratando de rodearla con comillas simples, a menos que tengamos cuidado).</p>
+
+<pre><code class="language-python">viking_song = &quot;Spam &quot; * spam_amount
+print(viking_song)
+</code></pre>
+
+<pre><code>Spam Spam Spam Spam
+</code></pre>
+
+<p>El operador <em>*</em> se puede usar para multiplicar dos números (3 * 3 se evalúa como 9), pero de manera bastante divertida, también podemos multiplicar una cadena por un número, para obtener una versión que se ha repetido tantas veces. Python ofrece una serie de trucos descarados y pequeños que ahorran tiempo como este, donde los operadores como * y + tienen un significado diferente según el tipo de cosas a las que se aplican. (El término técnico para esto es <a href="https://en.wikipedia.org/wiki/Operator_overloading" target="_blank">operador de sobrecarga</a>)</p>
+
+<h2 id="números-y-aritmética-en-python">Números y aritmética en Python</h2>
+
+<p>Ya hemos visto un ejemplo de una variable que contiene un número arriba:</p>
+
+<pre><code class="language-python">spam_amount = 0
+</code></pre>
+
+<p>&ldquo;Número&rdquo; es un buen nombre informal para el tipo de cosas, pero si quisiéramos ser más técnicos, podríamos preguntarle a Python cómo describiría el tipo de cosas que es <em>spam_amount</em>:</p>
+
+<pre><code class="language-python">type(spam_amount)
+</code></pre>
+
+<pre><code>int
+</code></pre>
+
+<p>Es un <em>int</em> - abreviatura de entero. Hay otro tipo de número que comúnmente encontramos en Python:</p>
+
+<pre><code class="language-python">from matplotlib import pyplot as plt
+%matplotlib inline
+import seaborn as sns
+
+df = sns.load_dataset('iris')
+
+
+sns.lmplot(x = 'petal_length', y = 'petal_width', data = df
+           , hue = 'species'
+           , fit_reg = False)
+</code></pre>
+
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x1a16f2d908&gt;
+</code></pre>
+
+<p><img src="../output_21_1.png" alt="png" /></p>
+
+<pre><code class="language-python">
+</code></pre>
+
+<pre><code class="language-python">
+</code></pre>
+
+<pre><code class="language-python">
+
+</code></pre>
+
+<pre><code class="language-python">
+</code></pre>
 
           </div>
 
@@ -495,6 +643,12 @@
 <div class="post-nav">
   
   
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/courses/python/py101/py101-2-funciones/" rel="prev">Python 101 - Funciones</a>
+  </div>
+  
 </div>
 
           </div>
@@ -502,7 +656,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 6, 2019</p>
+          <p>Última actualización el Sep 10, 2019</p>
 
           
 

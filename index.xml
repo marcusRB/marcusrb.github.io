@@ -89,6 +89,163 @@ También puede actualizar R y paquetes con el paquete de instalación.&lt;/p&gt;
     
     <item>
       <title>Prácticas 1 - Introducción</title>
+      <link>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</guid>
+      <description>
+
+&lt;h1 id=&#34;introducción&#34;&gt;Introducción&lt;/h1&gt;
+
+&lt;p&gt;Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &amp;ldquo;Python para no programadores&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos. Si tiene experiencia previa en Python, puede pasar directamente al ejercicio práctico.&lt;/p&gt;
+
+&lt;p&gt;## Hello, Python!
+Python fue nombrado por la compañía de comedia británica Monty Python, por lo que haremos de nuestro primer programa Python un homenaje a su parodia sobre el spam.&lt;/p&gt;
+
+&lt;p&gt;Solo por diversión, intente leer el código a continuación y predecir lo que hará cuando se ejecute. (Si no tienes idea, ¡está bien!)&lt;/p&gt;
+
+&lt;p&gt;Luego haga clic en el botón &amp;ldquo;salida&amp;rdquo; para ver los resultados de nuestro programa.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;spam_amount = 0
+print(spam_amount)
+
+# Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
+spam_amount = spam_amount + 4
+
+if spam_amount &amp;gt; 0:
+    print(&amp;quot;But I don&#39;t want ANY spam!&amp;quot;)
+
+viking_song = &amp;quot;Spam &amp;quot; * spam_amount
+print(viking_song)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;0
+But I don&#39;t want ANY spam!
+Spam Spam Spam Spam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;¡Hay mucho que desempacar aquí! Este programa tonto demuestra muchos aspectos importantes de cómo se ve el código Python y cómo funciona. Revisemos el código de arriba a abajo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;spam_amount = 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Asignación de variables: aquí creamos una variable llamada spam_amount y le asignamos el valor de 0 usando =, que se llama operador de asignación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: si ha programado en ciertos otros lenguajes (como Java o C ++), puede estar notando algunas cosas que Python no requiere que hagamos aquí:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;no necesitamos &amp;ldquo;declarar&amp;rdquo; spam_amount antes de asignarle&lt;/li&gt;
+&lt;li&gt;no necesitamos decirle a Python a qué tipo de valor se referirá spam_amount. De hecho, incluso podemos reasignar spam_amount para referirnos a un tipo diferente de cosas como una cadena o un booleano.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(spam_amount)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Llamadas de función&lt;/strong&gt;: &lt;em&gt;print&lt;/em&gt; es una función de Python que muestra el valor que se le pasa en la pantalla. Llamamos a las funciones poniendo paréntesis después de su nombre y poniendo las entradas (o argumentos) a la función en esos paréntesis.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
+spam_amount = spam_amount + 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La primera línea de arriba es un &lt;strong&gt;comentario&lt;/strong&gt;. En Python, los comentarios comienzan con el símbolo &lt;em&gt;#&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A continuación vemos un ejemplo de reasignación. La reasignación del valor de una variable existente tiene el mismo aspecto que la creación de una variable: todavía utiliza el operador de asignación &lt;em&gt;=&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;En este caso, el valor que estamos asignando a _spam&lt;em&gt;amount&lt;/em&gt; implica una aritmética simple en su valor anterior. Cuando encuentra esta línea, Python evalúa la expresión en el lado derecho de &lt;em&gt;=&lt;/em&gt; (0 + 4 = 4), y luego asigna ese valor a la variable en el lado izquierdo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;if spam_amount &amp;gt; 0:
+    print(&amp;quot;But I don&#39;t want ANY spam!&amp;quot;)
+
+viking_song = &amp;quot;Spam Spam Spam&amp;quot;
+print(viking_song)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;But I don&#39;t want ANY spam!
+Spam Spam Spam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;No hablaremos mucho sobre &amp;ldquo;condicionales&amp;rdquo; hasta más tarde, pero, incluso si nunca ha codificado antes, probablemente pueda adivinar lo que hace. Python es apreciado por su legibilidad y simplicidad.&lt;/p&gt;
+
+&lt;p&gt;Observe cómo indicamos qué código pertenece al &lt;em&gt;if. &amp;ldquo;¡Pero no quiero NINGÚN spam!&amp;rdquo;&lt;/em&gt; solo se supone que se imprime si _spam&lt;em&gt;amount&lt;/em&gt; es positivo. Pero el código posterior (como _print (viking&lt;em&gt;song)&lt;/em&gt;) debe ejecutarse sin importar qué. ¿Cómo lo sabemos (y Python)?&lt;/p&gt;
+
+&lt;p&gt;Los dos puntos (:) al final de la línea if indican que se está iniciando un nuevo &amp;ldquo;bloque de código&amp;rdquo;. Las líneas posteriores que están sangradas son parte de ese bloque de código. Algunos otros idiomas usan {llaves &amp;ldquo;para marcar el comienzo y el final de los bloques de código. El uso de espacios en blanco significativos por Python puede ser sorprendente para los programadores que están acostumbrados a otros lenguajes, pero en la práctica puede conducir a un código más coherente y legible que los lenguajes que no imponen sangría de bloques de código.&lt;/p&gt;
+
+&lt;p&gt;Las líneas posteriores que tratan con _viking&lt;em&gt;song&lt;/em&gt; no están sangradas con 4 espacios adicionales, por lo que no forman parte del bloque de código if. Veremos más ejemplos de bloques de código sangrados más adelante cuando definamos funciones y usemos bucles.&lt;/p&gt;
+
+&lt;p&gt;Este fragmento de código también es nuestro primer avistamiento de una cadena &lt;strong&gt;string&lt;/strong&gt; en Python:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;But I don&#39;t want ANY spam!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;But I don&#39;t want ANY spam!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Las cadenas se pueden marcar con comillas dobles o simples. (Pero debido a que esta cadena en particular contiene un carácter de comillas simples, podríamos confundir a Python tratando de rodearla con comillas simples, a menos que tengamos cuidado).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;viking_song = &amp;quot;Spam &amp;quot; * spam_amount
+print(viking_song)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Spam Spam Spam Spam
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El operador &lt;em&gt;*&lt;/em&gt; se puede usar para multiplicar dos números (3 * 3 se evalúa como 9), pero de manera bastante divertida, también podemos multiplicar una cadena por un número, para obtener una versión que se ha repetido tantas veces. Python ofrece una serie de trucos descarados y pequeños que ahorran tiempo como este, donde los operadores como * y + tienen un significado diferente según el tipo de cosas a las que se aplican. (El término técnico para esto es &lt;a href=&#34;https://en.wikipedia.org/wiki/Operator_overloading&#34; target=&#34;_blank&#34;&gt;operador de sobrecarga&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;números-y-aritmética-en-python&#34;&gt;Números y aritmética en Python&lt;/h2&gt;
+
+&lt;p&gt;Ya hemos visto un ejemplo de una variable que contiene un número arriba:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;spam_amount = 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;ldquo;Número&amp;rdquo; es un buen nombre informal para el tipo de cosas, pero si quisiéramos ser más técnicos, podríamos preguntarle a Python cómo describiría el tipo de cosas que es &lt;em&gt;spam_amount&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;type(spam_amount)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;int
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Es un &lt;em&gt;int&lt;/em&gt; - abreviatura de entero. Hay otro tipo de número que comúnmente encontramos en Python:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from matplotlib import pyplot as plt
+%matplotlib inline
+import seaborn as sns
+
+df = sns.load_dataset(&#39;iris&#39;)
+
+
+sns.lmplot(x = &#39;petal_length&#39;, y = &#39;petal_width&#39;, data = df
+           , hue = &#39;species&#39;
+           , fit_reg = False)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;seaborn.axisgrid.FacetGrid at 0x1a16f2d908&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;../output_21_1.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prácticas 1 - Introducción</title>
       <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</guid>
@@ -703,41 +860,6 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     
     <item>
       <title>Example Page 1</title>
-      <link>https://www.marcusrb.com/courses/python/example1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/python/example1/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 1</title>
       <link>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example1/</guid>
@@ -769,6 +891,14 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
 
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Python 101 - Funciones</title>
+      <link>https://www.marcusrb.com/courses/python/py101/py101-2-funciones/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/python/py101/py101-2-funciones/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1067,41 +1197,6 @@ Google Play tiene muchos modelos para resolver diferentes problemas. Las búsque
 
 &lt;p&gt;Descripción de Google Plus
 Google Plus usa aprendizaje automático en diferentes situaciones: clasificar las publicaciones en la sección &amp;ldquo;Novedades&amp;rdquo; que ve el usuario, las publicaciones en la sección &amp;ldquo;Lo más interesante&amp;rdquo; (las publicaciones que son más populares), las personas que conoces, etc.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 2</title>
-      <link>https://www.marcusrb.com/courses/python/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/python/example2/</guid>
-      <description>
-
-&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
