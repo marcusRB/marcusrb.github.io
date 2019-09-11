@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
-  <title>Python 101 - Introducción | MarcusRB</title>
+  <title>Select, From &amp; Where | MarcusRB</title>
     
 
 
@@ -35,11 +35,12 @@
   
     
   
-  <meta name="description" content="Introducción Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).
-Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos.">
+  <meta name="description" content="Introducción Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.
+Comenzaremos usando las palabras clave SELECT, FROM y WHERE para obtener datos de columnas específicas según las condiciones que especifique.
+Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario pet_records que contiene solo una tabla, llamada mascotas pets.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
 
   
 
@@ -103,7 +104,7 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
     <script>
       var dataLayer = window.dataLayer = window.dataLayer || [];
       dataLayer.push({
-        page:'Python 101 - Introducción',
+        page:'Select, From \x26 Where',
         categories:''
       });
     </script>
@@ -123,7 +124,7 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
+  <link rel="canonical" href="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
 
   
   
@@ -139,14 +140,15 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
-  <meta property="og:url" content="https://www.marcusrb.com/courses/python/py101/py101-1-intro/">
-  <meta property="og:title" content="Python 101 - Introducción | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
-  <meta property="og:description" content="Introducción Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).
-Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="og:url" content="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
+  <meta property="og:title" content="Select, From &amp; Where | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:description" content="Introducción Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.
+Comenzaremos usando las palabras clave SELECT, FROM y WHERE para obtener datos de columnas específicas según las condiciones que especifique.
+Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario pet_records que contiene solo una tabla, llamada mascotas pets."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2019-09-10T00:00:00&#43;01:00">
     
     <meta property="article:modified_time" content="2019-09-11T21:10:42&#43;02:00">
   
@@ -433,15 +435,15 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/python/py101/py101-1-intro/">Casos Prácticos</a>
+    <a class="docs-toc-link" href="/courses/business-analytics/intro-sql/">SQL 101</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
-        <a href="/courses/python/py101/py101-1-intro/">Introducción</a>
+      <li >
+        <a href="/courses/business-analytics/intro-sql/sql101-0-start/">Getting Started</a>
       </li>
       
-      <li >
-        <a href="/courses/python/py101/py101-2-funciones/">Funciones</a>
+      <li class="active">
+        <a href="/courses/business-analytics/intro-sql/sql101-1-select/">Select, From &amp; Where</a>
       </li>
       
     </ul>
@@ -462,9 +464,13 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
 
       <nav id="TableOfContents">
 <ul>
+<li>
+<ul>
 <li><a href="#introducción">Introducción</a>
 <ul>
-<li><a href="#números-y-aritmética-en-python">Números y aritmética en Python</a></li>
+<li><a href="#select-from">SELECT&hellip;.FROM</a></li>
+<li><a href="#enviando-la-consulta-al-conjunto-de-datos">Enviando la consulta al conjunto de datos¶</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -478,145 +484,149 @@ Comenzaremos con una breve descripción general de la sintaxis de Python, la asi
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Python 101 - Introducción</h1>
+          <h1 itemprop="name">Select, From &amp; Where</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h1 id="introducción">Introducción</h1>
+<h2 id="introducción">Introducción</h2>
 
-<p>Este curso cubre las habilidades clave de Python que necesitará para que pueda comenzar a usar Python para la ciencia de datos. El curso es ideal para alguien con experiencia previa en codificación que quiera agregar Python a su repertorio o subir de nivel sus habilidades básicas de Python. (Si es un programador por primera vez, puede consultar estos recursos de aprendizaje &ldquo;Python para no programadores&rdquo;).</p>
+<p>Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.</p>
 
-<p>Comenzaremos con una breve descripción general de la sintaxis de Python, la asignación de variables y los operadores aritméticos. Si tiene experiencia previa en Python, puede pasar directamente al ejercicio práctico.</p>
+<p>Comenzaremos usando las palabras clave <strong>SELECT, FROM y WHERE</strong> para obtener datos de columnas específicas según las condiciones que especifique.</p>
 
-<p>## Hello, Python!
-Python fue nombrado por la compañía de comedia británica Monty Python, por lo que haremos de nuestro primer programa Python un homenaje a su parodia sobre el spam.</p>
+<p>Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario <em>pet_records</em> que contiene solo una tabla, llamada mascotas <em>pets</em>.</p>
 
-<p>Solo por diversión, intente leer el código a continuación y predecir lo que hará cuando se ejecute. (Si no tienes idea, ¡está bien!)</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Animal</th>
+</tr>
+</thead>
 
-<p>Luego haga clic en el botón &ldquo;salida&rdquo; para ver los resultados de nuestro programa.</p>
+<tbody>
+<tr>
+<td>1</td>
+<td>Dr. Harris</td>
+<td>Rabbit</td>
+</tr>
 
-<pre><code class="language-python">spam_amount = 0
-print(spam_amount)
+<tr>
+<td>2</td>
+<td>Moon</td>
+<td>Dog</td>
+</tr>
 
-# Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
-spam_amount = spam_amount + 4
+<tr>
+<td>3</td>
+<td>Ripley</td>
+<td>Cat</td>
+</tr>
 
-if spam_amount &gt; 0:
-    print(&quot;But I don't want ANY spam!&quot;)
+<tr>
+<td>4</td>
+<td>Tom</td>
+<td>Cat</td>
+</tr>
+</tbody>
+</table>
 
-viking_song = &quot;Spam &quot; * spam_amount
-print(viking_song)
-</code></pre>
+<h3 id="select-from">SELECT&hellip;.FROM</h3>
 
-<pre><code>0
-But I don't want ANY spam!
-Spam Spam Spam Spam
-</code></pre>
-
-<p>¡Hay mucho que desempacar aquí! Este programa tonto demuestra muchos aspectos importantes de cómo se ve el código Python y cómo funciona. Revisemos el código de arriba a abajo.</p>
-
-<pre><code class="language-python">spam_amount = 0
-</code></pre>
-
-<p>Asignación de variables: aquí creamos una variable llamada spam_amount y le asignamos el valor de 0 usando =, que se llama operador de asignación.</p>
-
-<p><strong>Nota</strong>: si ha programado en ciertos otros lenguajes (como Java o C ++), puede estar notando algunas cosas que Python no requiere que hagamos aquí:</p>
+<p>La consulta SQL más básica selecciona una sola columna de una sola tabla. Para hacer esto,</p>
 
 <ul>
-<li>no necesitamos &ldquo;declarar&rdquo; spam_amount antes de asignarle</li>
-<li>no necesitamos decirle a Python a qué tipo de valor se referirá spam_amount. De hecho, incluso podemos reasignar spam_amount para referirnos a un tipo diferente de cosas como una cadena o un booleano.</li>
+<li>especifique la columna que desea después de la palabra <strong>SELECT</strong>, y luego</li>
+<li>especifique la tabla después de la palabra <strong>FROM</strong>.
+Por ejemplo, para seleccionar la columna <em>Name</em> (de la tabla de mascotas <em>pets</em> en la base de datos <em>pet_records</em> en el proyecto bigquery-public-data), nuestra consulta aparecerá de la siguiente manera:</li>
 </ul>
 
-<pre><code class="language-python">print(spam_amount)
+<p><img src="../c3GxYRt.png" alt="" /></p>
+
+<p>Tenga en cuenta que al escribir una consulta SQL, el argumento que pasamos a FROM no está entre comillas simples o dobles (&lsquo;o &ldquo;). Está en comillas invertidas (`).</p>
+
+<p><strong>WHERE</strong> &hellip;
+Los conjuntos de datos de BigQuery son grandes, por lo que generalmente querrá devolver solo las filas que cumplan condiciones específicas. Puede hacerlo utilizando la cláusula WHERE.</p>
+
+<p>La consulta a continuación devuelve las entradas de la columna Nombre <em>Name</em> que están en filas donde la columna <em>Animal</em> tiene el texto <em>&lsquo;Cat&rsquo;</em>.</p>
+
+<p><img src="../HJOT8Kb.png" alt="" /></p>
+
+<p><strong>Ejemplo</strong>: ¿Cuáles son todas las ciudades de EE. UU. En el conjunto de datos OpenAQ?
+Ahora que ya tiene lo básico, veamos un ejemplo con un conjunto de datos real. Utilizaremos un conjunto de datos OpenAQ sobre la calidad del aire.</p>
+
+<p>Primero, configuraremos todo lo que necesitamos para ejecutar consultas y echar un vistazo rápido a las tablas que hay en nuestra base de datos.</p>
+
+<pre><code class="language-python">from google.cloud import bigquery
+
+# Create a &quot;Client&quot; object
+client = bigquery.Client()
+
+# Construct a reference to the &quot;openaq&quot; dataset
+dataset_ref = client.dataset(&quot;openaq&quot;, project=&quot;bigquery-public-data&quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+
+# List all the tables in the &quot;openaq&quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there's only one!)
+for table in tables:  
+    print(table.table_id)
 </code></pre>
 
-<pre><code>0
+<p>El conjunto de datos contiene solo una tabla, llamada <em>global_air_quality</em>. Buscaremos la tabla y echaremos un vistazo a las primeras filas para ver qué tipo de datos contiene.</p>
+
+<pre><code class="language-python"># Construct a reference to the &quot;global_air_quality&quot; table
+table_ref = dataset_ref.table(&quot;global_air_quality&quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+
+# Preview the first five lines of the &quot;global_air_quality&quot; table
+client.list_rows(table, max_results=5).to_dataframe()
 </code></pre>
 
-<p><strong>Llamadas de función</strong>: <em>print</em> es una función de Python que muestra el valor que se le pasa en la pantalla. Llamamos a las funciones poniendo paréntesis después de su nombre y poniendo las entradas (o argumentos) a la función en esos paréntesis.</p>
+<p>¡Todo se ve bien! Entonces, hagamos una consulta. Supongamos que queremos seleccionar todos los valores de la columna de la ciudad <em>city</em> que están en filas donde la columna del país <em>country</em> es <em>&lsquo;US&rsquo;</em> (Para &ldquo;Estados Unidos&rdquo;).</p>
 
-<pre><code class="language-python"># Ordering Spam, egg, Spam, Spam, bacon and Spam (4 more servings of Spam)
-spam_amount = spam_amount + 4
+<pre><code class="language-python"># Query to select all the items from the &quot;city&quot; column where the &quot;country&quot; column is 'US'
+query = &quot;&quot;&quot;
+        SELECT city
+        FROM `bigquery-public-data.openaq.global_air_quality`
+        WHERE country = 'US'
+        &quot;&quot;&quot;
 </code></pre>
 
-<p>La primera línea de arriba es un <strong>comentario</strong>. En Python, los comentarios comienzan con el símbolo <em>#</em>.</p>
+<p>Tómese el tiempo ahora para asegurarse de que esta consulta se alinee con lo que aprendió anteriormente.</p>
 
-<p>A continuación vemos un ejemplo de reasignación. La reasignación del valor de una variable existente tiene el mismo aspecto que la creación de una variable: todavía utiliza el operador de asignación <em>=</em>.</p>
+<h3 id="enviando-la-consulta-al-conjunto-de-datos">Enviando la consulta al conjunto de datos¶</h3>
 
-<p>En este caso, el valor que estamos asignando a _spam<em>amount</em> implica una aritmética simple en su valor anterior. Cuando encuentra esta línea, Python evalúa la expresión en el lado derecho de <em>=</em> (0 + 4 = 4), y luego asigna ese valor a la variable en el lado izquierdo.</p>
+<p>Estamos listos para usar esta consulta para obtener información del conjunto de datos OpenAQ. Como en el tutorial anterior, el primer paso es crear un objeto <em>Client</em>.</p>
 
-<pre><code class="language-python">if spam_amount &gt; 0:
-    print(&quot;But I don't want ANY spam!&quot;)
-
-viking_song = &quot;Spam Spam Spam&quot;
-print(viking_song)
+<pre><code class="language-python"># Create a &quot;Client&quot; object
+client = bigquery.Client()
 </code></pre>
 
-<pre><code>But I don't want ANY spam!
-Spam Spam Spam
+<p>Comenzamos configurando la consulta con el método <em>query()</em>. Ejecutamos el método con los parámetros predeterminados, pero este método también nos permite especificar configuraciones más complicadas sobre las que puede leer en la documentación. Volveremos sobre esto más tarde.</p>
+
+<pre><code class="language-python"># Set up the query
+query_job = client.query(query)
 </code></pre>
 
-<p>No hablaremos mucho sobre &ldquo;condicionales&rdquo; hasta más tarde, pero, incluso si nunca ha codificado antes, probablemente pueda adivinar lo que hace. Python es apreciado por su legibilidad y simplicidad.</p>
+<p>A continuación, ejecutamos la consulta y convertimos los resultados en un DataFrame de pandas.</p>
 
-<p>Observe cómo indicamos qué código pertenece al <em>if. &ldquo;¡Pero no quiero NINGÚN spam!&rdquo;</em> solo se supone que se imprime si _spam<em>amount</em> es positivo. Pero el código posterior (como _print (viking<em>song)</em>) debe ejecutarse sin importar qué. ¿Cómo lo sabemos (y Python)?</p>
-
-<p>Los dos puntos (:) al final de la línea if indican que se está iniciando un nuevo &ldquo;bloque de código&rdquo;. Las líneas posteriores que están sangradas son parte de ese bloque de código. Algunos otros idiomas usan {llaves &ldquo;para marcar el comienzo y el final de los bloques de código. El uso de espacios en blanco significativos por Python puede ser sorprendente para los programadores que están acostumbrados a otros lenguajes, pero en la práctica puede conducir a un código más coherente y legible que los lenguajes que no imponen sangría de bloques de código.</p>
-
-<p>Las líneas posteriores que tratan con _viking<em>song</em> no están sangradas con 4 espacios adicionales, por lo que no forman parte del bloque de código if. Veremos más ejemplos de bloques de código sangrados más adelante cuando definamos funciones y usemos bucles.</p>
-
-<p>Este fragmento de código también es nuestro primer avistamiento de una cadena <strong>string</strong> en Python:</p>
-
-<pre><code class="language-python">&quot;But I don't want ANY spam!&quot;
+<pre><code class="language-python"># API request - run the query, and return a pandas DataFrame
+us_cities = query_job.to_dataframe()
 </code></pre>
 
-<pre><code>&quot;But I don't want ANY spam!&quot;
+<p>Ahora tenemos un DataFrame de pandas llamado <em>us_cities</em>, que podemos usar como cualquier otro DataFrame.</p>
+
+<pre><code class="language-python"># What five cities have the most measurements?
+us_cities.city.value_counts().head()
 </code></pre>
-
-<p>Las cadenas se pueden marcar con comillas dobles o simples. (Pero debido a que esta cadena en particular contiene un carácter de comillas simples, podríamos confundir a Python tratando de rodearla con comillas simples, a menos que tengamos cuidado).</p>
-
-<pre><code class="language-python">viking_song = &quot;Spam &quot; * spam_amount
-print(viking_song)
-</code></pre>
-
-<pre><code>Spam Spam Spam Spam
-</code></pre>
-
-<p>El operador <em>*</em> se puede usar para multiplicar dos números (3 * 3 se evalúa como 9), pero de manera bastante divertida, también podemos multiplicar una cadena por un número, para obtener una versión que se ha repetido tantas veces. Python ofrece una serie de trucos descarados y pequeños que ahorran tiempo como este, donde los operadores como * y + tienen un significado diferente según el tipo de cosas a las que se aplican. (El término técnico para esto es <a href="https://en.wikipedia.org/wiki/Operator_overloading" target="_blank">operador de sobrecarga</a>)</p>
-
-<h2 id="números-y-aritmética-en-python">Números y aritmética en Python</h2>
-
-<p>Ya hemos visto un ejemplo de una variable que contiene un número arriba:</p>
-
-<pre><code class="language-python">spam_amount = 0
-</code></pre>
-
-<p>&ldquo;Número&rdquo; es un buen nombre informal para el tipo de cosas, pero si quisiéramos ser más técnicos, podríamos preguntarle a Python cómo describiría el tipo de cosas que es <em>spam_amount</em>:</p>
-
-<pre><code class="language-python">type(spam_amount)
-</code></pre>
-
-<pre><code>int
-</code></pre>
-
-<p>Es un <em>int</em> - abreviatura de entero. Hay otro tipo de número que comúnmente encontramos en Python:</p>
-
-<pre><code class="language-python">from matplotlib import pyplot as plt
-%matplotlib inline
-import seaborn as sns
-
-df = sns.load_dataset('iris')
-
-
-sns.lmplot(x = 'petal_length', y = 'petal_width', data = df
-           , hue = 'species'
-           , fit_reg = False)
-</code></pre>
-
-<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x1a16f2d908&gt;
-</code></pre>
-
-<p><img src="../output_21_1.png" alt="png" /></p>
 
           </div>
 
@@ -632,9 +642,10 @@ sns.lmplot(x = 'petal_length', y = 'petal_width', data = df
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Siguiente</div>
-    <a href="/courses/python/py101/py101-2-funciones/" rel="prev">Python 101 - Funciones</a>
+    <div class="meta-nav">Anterior</div>
+    <a href="/courses/business-analytics/intro-sql/sql101-0-start/" rel="next">Getting Started with SQL y Big Query</a>
   </div>
+  
   
 </div>
 

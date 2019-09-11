@@ -148,7 +148,7 @@ En esta lección, aprenderá los conceptos básicos para acceder y examinar los 
     
       <meta property="article:published_time" content="2019-09-10T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2019-09-10T20:39:02&#43;02:00">
+    <meta property="article:modified_time" content="2019-09-11T21:10:42&#43;02:00">
   
 
   
@@ -440,6 +440,10 @@ En esta lección, aprenderá los conceptos básicos para acceder y examinar los 
         <a href="/courses/business-analytics/intro-sql/sql101-0-start/">Getting Started</a>
       </li>
       
+      <li >
+        <a href="/courses/business-analytics/intro-sql/sql101-1-select/">Select, From &amp; Where</a>
+      </li>
+      
     </ul>
     
 
@@ -606,6 +610,14 @@ table.schema
 client.list_rows(table, max_results=5).to_dataframe()
 </code></pre>
 
+<p>El método <em>list_rows()</em> también nos permitirá ver solo la información en una columna específica. Si queremos ver las primeras cinco entradas en la columna por, por ejemplo, ¡podemos hacerlo!</p>
+
+<pre><code class="language-python"># Preview the first five entries in the &quot;by&quot; column of the &quot;full&quot; table
+client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_dataframe()
+</code></pre>
+
+<p>EXERCISE (Exercise_ Getting Started With SQL and BigQuery)</p>
+
           </div>
 
           
@@ -618,6 +630,12 @@ client.list_rows(table, max_results=5).to_dataframe()
 <div class="post-nav">
   
   
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/courses/business-analytics/intro-sql/sql101-1-select/" rel="prev">Select, From &amp; Where</a>
+  </div>
+  
 </div>
 
           </div>
@@ -625,7 +643,7 @@ client.list_rows(table, max_results=5).to_dataframe()
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 10, 2019</p>
+          <p>Última actualización el Sep 11, 2019</p>
 
           
 

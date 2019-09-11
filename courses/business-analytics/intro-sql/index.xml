@@ -141,6 +141,162 @@ table.schema
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Preview the first five lines of the &amp;quot;full&amp;quot; table
 client.list_rows(table, max_results=5).to_dataframe()
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El método &lt;em&gt;list_rows()&lt;/em&gt; también nos permitirá ver solo la información en una columna específica. Si queremos ver las primeras cinco entradas en la columna por, por ejemplo, ¡podemos hacerlo!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Preview the first five entries in the &amp;quot;by&amp;quot; column of the &amp;quot;full&amp;quot; table
+client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;EXERCISE (Exercise_ Getting Started With SQL and BigQuery)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Select, From &amp; Where</title>
+      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</guid>
+      <description>
+
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+
+&lt;p&gt;Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.&lt;/p&gt;
+
+&lt;p&gt;Comenzaremos usando las palabras clave &lt;strong&gt;SELECT, FROM y WHERE&lt;/strong&gt; para obtener datos de columnas específicas según las condiciones que especifique.&lt;/p&gt;
+
+&lt;p&gt;Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario &lt;em&gt;pet_records&lt;/em&gt; que contiene solo una tabla, llamada mascotas &lt;em&gt;pets&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ID&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Animal&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Dr. Harris&lt;/td&gt;
+&lt;td&gt;Rabbit&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Moon&lt;/td&gt;
+&lt;td&gt;Dog&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Ripley&lt;/td&gt;
+&lt;td&gt;Cat&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Tom&lt;/td&gt;
+&lt;td&gt;Cat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;select-from&#34;&gt;SELECT&amp;hellip;.FROM&lt;/h3&gt;
+
+&lt;p&gt;La consulta SQL más básica selecciona una sola columna de una sola tabla. Para hacer esto,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;especifique la columna que desea después de la palabra &lt;strong&gt;SELECT&lt;/strong&gt;, y luego&lt;/li&gt;
+&lt;li&gt;especifique la tabla después de la palabra &lt;strong&gt;FROM&lt;/strong&gt;.
+Por ejemplo, para seleccionar la columna &lt;em&gt;Name&lt;/em&gt; (de la tabla de mascotas &lt;em&gt;pets&lt;/em&gt; en la base de datos &lt;em&gt;pet_records&lt;/em&gt; en el proyecto bigquery-public-data), nuestra consulta aparecerá de la siguiente manera:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../c3GxYRt.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tenga en cuenta que al escribir una consulta SQL, el argumento que pasamos a FROM no está entre comillas simples o dobles (&amp;lsquo;o &amp;ldquo;). Está en comillas invertidas (`).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WHERE&lt;/strong&gt; &amp;hellip;
+Los conjuntos de datos de BigQuery son grandes, por lo que generalmente querrá devolver solo las filas que cumplan condiciones específicas. Puede hacerlo utilizando la cláusula WHERE.&lt;/p&gt;
+
+&lt;p&gt;La consulta a continuación devuelve las entradas de la columna Nombre &lt;em&gt;Name&lt;/em&gt; que están en filas donde la columna &lt;em&gt;Animal&lt;/em&gt; tiene el texto &lt;em&gt;&amp;lsquo;Cat&amp;rsquo;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../HJOT8Kb.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;: ¿Cuáles son todas las ciudades de EE. UU. En el conjunto de datos OpenAQ?
+Ahora que ya tiene lo básico, veamos un ejemplo con un conjunto de datos real. Utilizaremos un conjunto de datos OpenAQ sobre la calidad del aire.&lt;/p&gt;
+
+&lt;p&gt;Primero, configuraremos todo lo que necesitamos para ejecutar consultas y echar un vistazo rápido a las tablas que hay en nuestra base de datos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google.cloud import bigquery
+
+# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+
+# Construct a reference to the &amp;quot;openaq&amp;quot; dataset
+dataset_ref = client.dataset(&amp;quot;openaq&amp;quot;, project=&amp;quot;bigquery-public-data&amp;quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+
+# List all the tables in the &amp;quot;openaq&amp;quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there&#39;s only one!)
+for table in tables:  
+    print(table.table_id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El conjunto de datos contiene solo una tabla, llamada &lt;em&gt;global_air_quality&lt;/em&gt;. Buscaremos la tabla y echaremos un vistazo a las primeras filas para ver qué tipo de datos contiene.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;global_air_quality&amp;quot; table
+table_ref = dataset_ref.table(&amp;quot;global_air_quality&amp;quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+
+# Preview the first five lines of the &amp;quot;global_air_quality&amp;quot; table
+client.list_rows(table, max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;¡Todo se ve bien! Entonces, hagamos una consulta. Supongamos que queremos seleccionar todos los valores de la columna de la ciudad &lt;em&gt;city&lt;/em&gt; que están en filas donde la columna del país &lt;em&gt;country&lt;/em&gt; es &lt;em&gt;&amp;lsquo;US&amp;rsquo;&lt;/em&gt; (Para &amp;ldquo;Estados Unidos&amp;rdquo;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Query to select all the items from the &amp;quot;city&amp;quot; column where the &amp;quot;country&amp;quot; column is &#39;US&#39;
+query = &amp;quot;&amp;quot;&amp;quot;
+        SELECT city
+        FROM `bigquery-public-data.openaq.global_air_quality`
+        WHERE country = &#39;US&#39;
+        &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tómese el tiempo ahora para asegurarse de que esta consulta se alinee con lo que aprendió anteriormente.&lt;/p&gt;
+
+&lt;h3 id=&#34;enviando-la-consulta-al-conjunto-de-datos&#34;&gt;Enviando la consulta al conjunto de datos¶&lt;/h3&gt;
+
+&lt;p&gt;Estamos listos para usar esta consulta para obtener información del conjunto de datos OpenAQ. Como en el tutorial anterior, el primer paso es crear un objeto &lt;em&gt;Client&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Comenzamos configurando la consulta con el método &lt;em&gt;query()&lt;/em&gt;. Ejecutamos el método con los parámetros predeterminados, pero este método también nos permite especificar configuraciones más complicadas sobre las que puede leer en la documentación. Volveremos sobre esto más tarde.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Set up the query
+query_job = client.query(query)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A continuación, ejecutamos la consulta y convertimos los resultados en un DataFrame de pandas.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# API request - run the query, and return a pandas DataFrame
+us_cities = query_job.to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora tenemos un DataFrame de pandas llamado &lt;em&gt;us_cities&lt;/em&gt;, que podemos usar como cualquier otro DataFrame.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# What five cities have the most measurements?
+us_cities.city.value_counts().head()
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
