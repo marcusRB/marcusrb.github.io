@@ -137,8 +137,15 @@ Podemos usar el método *list_rows()* para verificar solo las primeras cinco lí
 client.list_rows(table, max_results=5).to_dataframe()
 ```
 
+El método *list_rows()* también nos permitirá ver solo la información en una columna específica. Si queremos ver las primeras cinco entradas en la columna por, por ejemplo, ¡podemos hacerlo!
+
+```python
+# Preview the first five entries in the "by" column of the "full" table
+client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_dataframe()
+```
 
 
+EXERCISE (Exercise_ Getting Started With SQL and BigQuery)
 
 
 [1]: ../biYqbUB.png

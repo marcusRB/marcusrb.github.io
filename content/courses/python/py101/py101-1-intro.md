@@ -178,25 +178,3 @@ sns.lmplot(x = 'petal_length', y = 'petal_width', data = df
 
 
 ![png](../output_21_1.png)
-
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-
-```
-
-
-```python
-
-```
