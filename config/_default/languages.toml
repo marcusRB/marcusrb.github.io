@@ -31,7 +31,7 @@
 
   [[es.menu.main]]
     name = "Recursos"
-    url = "/tutorial"
+    url = "/resources"
     weight = 5
 
   [[es.menu.main]]

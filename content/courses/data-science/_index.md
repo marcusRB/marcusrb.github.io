@@ -45,4 +45,4 @@ menu:
 
 
 - [x] [Introducción de Machine Learning](intro-machine-learning)
-- TBD
+- [x] [Matemática para Data Science](math-data-science)
