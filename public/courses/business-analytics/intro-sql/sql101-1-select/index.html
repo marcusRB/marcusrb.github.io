@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Select, From &amp; Where | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introducción Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.
+Comenzaremos usando las palabras clave SELECT, FROM y WHERE para obtener datos de columnas específicas según las condiciones que especifique.
+Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario pet_records que contiene solo una tabla, llamada mascotas pets.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Select, From \x26 Where',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:url" content="https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/">
+  <meta property="og:title" content="Select, From &amp; Where | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning">
+  <meta property="og:description" content="Introducción Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.
+Comenzaremos usando las palabras clave SELECT, FROM y WHERE para obtener datos de columnas específicas según las condiciones que especifique.
+Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario pet_records que contiene solo una tabla, llamada mascotas pets."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-09-10T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-11T21:10:42&#43;02:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/business-analytics/intro-sql/">SQL 101</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/business-analytics/intro-sql/sql101-0-start/">Getting Started</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/business-analytics/intro-sql/sql101-1-select/">Select, From &amp; Where</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introducción">Introducción</a>
+<ul>
+<li><a href="#select-from">SELECT&hellip;.FROM</a></li>
+<li><a href="#enviando-la-consulta-al-conjunto-de-datos">Enviando la consulta al conjunto de datos¶</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Select, From &amp; Where</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="introducción">Introducción</h2>
+
+<p>Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.</p>
+
+<p>Comenzaremos usando las palabras clave <strong>SELECT, FROM y WHERE</strong> para obtener datos de columnas específicas según las condiciones que especifique.</p>
+
+<p>Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario <em>pet_records</em> que contiene solo una tabla, llamada mascotas <em>pets</em>.</p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Animal</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>Dr. Harris</td>
+<td>Rabbit</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Moon</td>
+<td>Dog</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Ripley</td>
+<td>Cat</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Tom</td>
+<td>Cat</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="select-from">SELECT&hellip;.FROM</h3>
+
+<p>La consulta SQL más básica selecciona una sola columna de una sola tabla. Para hacer esto,</p>
+
+<ul>
+<li>especifique la columna que desea después de la palabra <strong>SELECT</strong>, y luego</li>
+<li>especifique la tabla después de la palabra <strong>FROM</strong>.
+Por ejemplo, para seleccionar la columna <em>Name</em> (de la tabla de mascotas <em>pets</em> en la base de datos <em>pet_records</em> en el proyecto bigquery-public-data), nuestra consulta aparecerá de la siguiente manera:</li>
+</ul>
+
+<p><img src="../c3GxYRt.png" alt="" /></p>
+
+<p>Tenga en cuenta que al escribir una consulta SQL, el argumento que pasamos a FROM no está entre comillas simples o dobles (&lsquo;o &ldquo;). Está en comillas invertidas (`).</p>
+
+<p><strong>WHERE</strong> &hellip;
+Los conjuntos de datos de BigQuery son grandes, por lo que generalmente querrá devolver solo las filas que cumplan condiciones específicas. Puede hacerlo utilizando la cláusula WHERE.</p>
+
+<p>La consulta a continuación devuelve las entradas de la columna Nombre <em>Name</em> que están en filas donde la columna <em>Animal</em> tiene el texto <em>&lsquo;Cat&rsquo;</em>.</p>
+
+<p><img src="../HJOT8Kb.png" alt="" /></p>
+
+<p><strong>Ejemplo</strong>: ¿Cuáles son todas las ciudades de EE. UU. En el conjunto de datos OpenAQ?
+Ahora que ya tiene lo básico, veamos un ejemplo con un conjunto de datos real. Utilizaremos un conjunto de datos OpenAQ sobre la calidad del aire.</p>
+
+<p>Primero, configuraremos todo lo que necesitamos para ejecutar consultas y echar un vistazo rápido a las tablas que hay en nuestra base de datos.</p>
+
+<pre><code class="language-python">from google.cloud import bigquery
+
+# Create a &quot;Client&quot; object
+client = bigquery.Client()
+
+# Construct a reference to the &quot;openaq&quot; dataset
+dataset_ref = client.dataset(&quot;openaq&quot;, project=&quot;bigquery-public-data&quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+
+# List all the tables in the &quot;openaq&quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there's only one!)
+for table in tables:  
+    print(table.table_id)
+</code></pre>
+
+<p>El conjunto de datos contiene solo una tabla, llamada <em>global_air_quality</em>. Buscaremos la tabla y echaremos un vistazo a las primeras filas para ver qué tipo de datos contiene.</p>
+
+<pre><code class="language-python"># Construct a reference to the &quot;global_air_quality&quot; table
+table_ref = dataset_ref.table(&quot;global_air_quality&quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+
+# Preview the first five lines of the &quot;global_air_quality&quot; table
+client.list_rows(table, max_results=5).to_dataframe()
+</code></pre>
+
+<p>¡Todo se ve bien! Entonces, hagamos una consulta. Supongamos que queremos seleccionar todos los valores de la columna de la ciudad <em>city</em> que están en filas donde la columna del país <em>country</em> es <em>&lsquo;US&rsquo;</em> (Para &ldquo;Estados Unidos&rdquo;).</p>
+
+<pre><code class="language-python"># Query to select all the items from the &quot;city&quot; column where the &quot;country&quot; column is 'US'
+query = &quot;&quot;&quot;
+        SELECT city
+        FROM `bigquery-public-data.openaq.global_air_quality`
+        WHERE country = 'US'
+        &quot;&quot;&quot;
+</code></pre>
+
+<p>Tómese el tiempo ahora para asegurarse de que esta consulta se alinee con lo que aprendió anteriormente.</p>
+
+<h3 id="enviando-la-consulta-al-conjunto-de-datos">Enviando la consulta al conjunto de datos¶</h3>
+
+<p>Estamos listos para usar esta consulta para obtener información del conjunto de datos OpenAQ. Como en el tutorial anterior, el primer paso es crear un objeto <em>Client</em>.</p>
+
+<pre><code class="language-python"># Create a &quot;Client&quot; object
+client = bigquery.Client()
+</code></pre>
+
+<p>Comenzamos configurando la consulta con el método <em>query()</em>. Ejecutamos el método con los parámetros predeterminados, pero este método también nos permite especificar configuraciones más complicadas sobre las que puede leer en la documentación. Volveremos sobre esto más tarde.</p>
+
+<pre><code class="language-python"># Set up the query
+query_job = client.query(query)
+</code></pre>
+
+<p>A continuación, ejecutamos la consulta y convertimos los resultados en un DataFrame de pandas.</p>
+
+<pre><code class="language-python"># API request - run the query, and return a pandas DataFrame
+us_cities = query_job.to_dataframe()
+</code></pre>
+
+<p>Ahora tenemos un DataFrame de pandas llamado <em>us_cities</em>, que podemos usar como cualquier otro DataFrame.</p>
+
+<pre><code class="language-python"># What five cities have the most measurements?
+us_cities.city.value_counts().head()
+</code></pre>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/courses/business-analytics/intro-sql/sql101-0-start/" rel="next">Getting Started with SQL y Big Query</a>
+  </div>
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Sep 11, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

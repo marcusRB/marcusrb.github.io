@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google analytics | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/google-analytics/</link>
+      <atom:link href="https://www.marcusrb.com/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <description>google analytics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 30 Apr 2019 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>google analytics</title>
+      <link>https://www.marcusrb.com/tags/google-analytics/</link>
+    </image>
+    
+    <item>
+      <title>Analítica web con R: análisis y visualización de datos</title>
+      <link>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</guid>
+      <description>
+
+&lt;p&gt;Uno de los retos de un analista digital es pasar por diferentes procesos de &lt;strong&gt;limpieza, exploración y análisis de contenido&lt;/strong&gt; para sacar buenas conclusiones y detectar nuevos escenarios e insights. Además, tiene que comprobar si las fuentes de datos son de dudosa calidad o no.&lt;/p&gt;
+
+&lt;p&gt;Y si hablamos de un analista digital, es muy probable que toda esa exploración pase por la herramienta más utilizada en el mundo de la analítica: &lt;strong&gt;Google Analytics&lt;/strong&gt;. Pero seguro que también estará conectado a otras fuentes como Google Sheet, un CRM o base de datos, u otros ficheros de texto, en formato csv, y más.&lt;/p&gt;
+
+&lt;p&gt;Hoy en día, &lt;strong&gt;un analista digital no solo tendrá que tener conocimientos solo de usabilidad de la web&lt;/strong&gt;, también de negocios, estadística, programación, base de datos, visualización de datos, además &lt;strong&gt;estar actualizado con las nuevas tecnologías&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Entre las herramientas que normalmente podemos incluir en nuestro &amp;ldquo;maletín&amp;rdquo; de explorador de los datos, sería la programación. Y &lt;strong&gt;algunos de nuestros aliados deben ser el lenguaje R o Python&lt;/strong&gt;, siendo &amp;ldquo;sencillos&amp;rdquo; en su aprendizaje y muy útiles a la hora de ejecutar pequeños script, ya que tienen muchas librerías open-source.&lt;/p&gt;
+
+&lt;p&gt;Veamos qué ofrecen cada uno de ellos y cómo pueden ayudarnos al análisis y visualización de datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/lenguaje-r.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;por-qué-r&#34;&gt;¿Por qué R?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R es un lenguaje generalista&lt;/strong&gt;, con diversas librerías de análisis estadístico bastante potentes que pueden suplir el campo de aplicación R, cosa que no sucede con otros lenguajes como Python, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R está pensado para explotar su potencial que es la &amp;ldquo;estadística&amp;rdquo;&lt;/strong&gt;. Este fantástico lenguaje &lt;strong&gt;nos permite una primera toma de contacto con los datos debido a su flexibilidad por la exploración, limpieza y análisis&lt;/strong&gt; a diferentes fuentes de datos, así como aplicar modelos y algoritmos predictivos puede ser de gran ayuda en el mundo de la análisis de datos.&lt;/p&gt;
+
+&lt;h2 id=&#34;intro-de-r-studio&#34;&gt;Intro de R Studio&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R Studio es un entorno gráfico&lt;/strong&gt; para el lenguaje de programación R que &lt;strong&gt;facilita la creación y ejecución de scripts&lt;/strong&gt;. También simplifica la instalación de los paquetes necesarios para la ejecución de aquellos scripts que los requieran.&lt;/p&gt;
+
+&lt;p&gt;R Studio utiliza una partición de la pantalla en diferentes secciones, de forma que todos los elementos necesarios se encuentran disponibles a un solo clic, incluidos el código fuente, los datos cargados y generados por dicho código, los resultados obtenidos, los gráficos generados, etc.&lt;/p&gt;
+
+&lt;p&gt;También facilita la integración con otros sistemas para la creación de informes en diferentes formatos (principalmente HTML o PDF).&lt;/p&gt;
+
+&lt;h2 id=&#34;librería-de-google-analytics-en-r&#34;&gt;Librería de Google Analytics en R&lt;/h2&gt;
+
+&lt;p&gt;Entre las diferentes librerías en R para poder conectar y explorar los datos desde Google Analytics, hay dos en particular de lo que hablaré hoy.&lt;/p&gt;
+
+&lt;p&gt;Ambos están en el repositorio oficial del CRAN (&lt;a href=&#34;https://cran.r-project.org/package=googleAuthR&#34; target=&#34;_blank&#34;&gt;googleAuthR&lt;/a&gt; y &lt;a href=&#34;https://cran.r-project.org/web/packages/googleAnalyticsR/vignettes/googleAnalyticsR.html&#34; target=&#34;_blank&#34;&gt;googleAnalyticsR&lt;/a&gt;). Su función es que se necesitan en una el token Google Analytics, mientras el otro habilitar Google Cloud y su API, con lo cual necesitaríamos tener activados:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Google Cloud, habilitar el proyecto.&lt;/li&gt;
+&lt;li&gt;Permiso de edición de Google Analytics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Aspectos a considerar de Google Analytics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Durante la fase de exploración, consultaremos dimensiones y métricas de Google Analytics. SI no estás familiarizado con estas dos partes más importantes de analítica web, mi consejo es &lt;a href=&#34;https://support.google.com/analytics/answer/1033861?hl=es&#34; target=&#34;_blank&#34;&gt;que consultes la guía oficial&lt;/a&gt; para conocer las más representativas.&lt;/p&gt;
+
+&lt;p&gt;Si, por el contrario, ya conoces la interfaz de Analytics y quieres ir más allá, puedes consultar la tool externa de exploración de estos datos a través de la otra API de Google Analytics, &lt;a href=&#34;https://ga-dev-tools.appspot.com/query-explorer/&#34; target=&#34;_blank&#34;&gt;Query Explorer&lt;/a&gt;,** **y la extensión o &lt;a href=&#34;https://developers.google.com/analytics/solutions/google-analytics-spreadsheet-add-on&#34; target=&#34;_blank&#34;&gt;complemento para Google Sheet&lt;/a&gt; que permite tener datos directamente en una hoja de cálculo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fase de Instalación y Autorización de GA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En esta fase cargaremos los paquetes necesarios, previamente necesitaremos una &lt;strong&gt;cuenta de Google Cloud&lt;/strong&gt; (que nos vendrá bien también si en un futuro queremos utilizar Big Query).&lt;/p&gt;
+
+&lt;p&gt;Es importante tener una cuenta de Google Analytics que no sea ni demo, ni solo de lectura, ya que podría tener problemas con los permisos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cargamos las librerías y configurar los valores opcionales:&lt;/p&gt;
+
+&lt;h1 id=&#34;install-packages-googleauthr&#34;&gt;install.packages(&amp;ldquo;googleAuthR&amp;rdquo;)&lt;/h1&gt;
+
+&lt;h1 id=&#34;install-packages-googleanalyticsr&#34;&gt;install.packages(&amp;ldquo;googleAnalyticsR&amp;rdquo;)&lt;/h1&gt;
+
+&lt;p&gt;library(googleAnalyticsR)
+library(RGoogleAnalytics)
+library(ggplot2) # para representar gráficamente los datos
+library(forecast) # para las predicciones seriales
+library(&amp;ldquo;tidyverse&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Autorización GA con Google Cloud y ejecutamos&lt;/p&gt;
+
+&lt;h2 id=&#34;autorizamos-a-través-del-token-con-nuestro-account-google&#34;&gt;Autorizamos a través del token con nuestro account Google&lt;/h2&gt;
+
+&lt;p&gt;ga_auth()&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Comenzamos con la primera query de Google Analytics in R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Veamos el listado de los account de GA y la guardamos en una nueva variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;account_list
+
+
+
+
+
+Lo que estamos realizando aquí es simplemente a través del token generado por Google Analytics para habilitar desde nuestro account de Google Analytics el listado de Cuentas, Propiedades y Vistas para poder así trabajar con una cuenta específica.  
+
+
+
+
+
+
+
+
+## EDA (Exploratory Data Analysis)  
+
+
+
+
+
+
+
+El trabajo de exploración del dataset en R requiere de varios pasos para comprobar si existen valores nulos o vacíos, discrepancias que podemos arreglar, sustituir o eliminar. A este proceso se le llama EDA.
+
+
+
+
+
+
+
+
+# Create a list of the parameters to be used in the Google Analytics query
+# Get the Sessions by Month in 2018
+gadata
+
+
+
+
+
+Podéis ver el código [en este repositorio de GitHub][7].
+
+
+
+
+
+
+
+Con nuestra pequeña query, que guardaremos en una nueva variable **gadata**, almacenaremos las sesiones en un periodo de un año, por ejemplo. Paralelamente podemos observar si existen sesiones igual a cero.
+
+
+
+
+
+
+
+Comprobado que efectivamente no existen valores nulos ni ceros, procederemos a una representación gráfica con el librería **ggplot** del paquete instalado _ggplot2._
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Representación gráfica de la dimensión date y métrica sessions&lt;/p&gt;
+
+&lt;p&gt;gadata %&amp;gt;% ggplot(aes(x=date, y=sessions)) +   geom_point()&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y si queremos visualizar cada valor por tamaño según la sesión, entonces tendríamos este:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date, y=sessions, size = sessions)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y, si además le añadimos gradación por color de más oscuro a más claro, según el tamaño de las sesiones, obtendremos esto:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date, y=sessions, size = sessions, color = sessions)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Siguiendo la misma lógica, podemos añadir otras métricas de tráfico importantes (duración media, usuarios, páginas vistas, transacciones, eventos, etc), así que para tener una idea de la evolución o tendencia por periodo, podemos representar el gráfico de líneas:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date,y=sessions,group=1)) +
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  # some styles to rotate x-axis labels
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora sí que se nota el pico máximo entre octubre y diciembre, nos hace pensar que este tráfico puede deberse al periodo entre el pre-Black Friday y durante Navidad (si es un retail tiene lógica). Y si queremos representar la tendencia, añadimos la &lt;strong&gt;línea de tendencia&lt;/strong&gt; para que vayamos viendo la evolución del tráfico a lo largo del periodo observado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x = date, y = sessions) ) +
+  geom_point() +
+  geom_smooth() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con los primeros datos podemos observar que ha habido un periodo estable, con acciones puntuales (serán promociones) y el pico hasta navidad.&lt;/p&gt;
+
+&lt;p&gt;Ahora nos interesa conocer algo más de nuestros usuarios, segmentando así el tráfico según periodos más cortos.&lt;/p&gt;
+
+&lt;p&gt;Pasamos a detectar si existen diferencia durante los días de la semana y hora del día. Creamos una nuevo dataset con las métricas sesiones y duración media de sesión, por día de la semana.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Añadimos la dimensión día de la semana y fecha - solo 1er semestre
+gadata_2
+
+
+
+
+
+## Segmentos de sesiones por día de la semana, franja horaria y categorías de dispositivos  
+
+
+
+
+
+
+
+
+![][13]
+
+
+
+
+
+
+
+Podemos observar que los boxplot indicados son muy relevantes, aunque necesitamos profundizar más sobre temas de cuartiles, min y max, media y mediana.
+
+
+
+
+
+
+
+Los puntos son nuestro &amp;quot;amigos&amp;quot; **outliers, **así que en casos puntuales estos tendrán que ser excluidos en algunos modelos y análisis. Lunes, martes y miércoles a primera vista tienen el mismo impacto, al igual que viernes y sábado.
+
+
+
+
+
+
+
+## Duración media de sesión por día de la semana
+
+
+
+
+
+![][14]
+
+Los datos en la segunda métrica son expresados en segundos, y los días de la semana están según el formato anglosajón (0 = Domingo , 6 = Sábado).  
+
+
+
+
+
+
+
+
+Nos interesa ahora conocer la duración media de sesión por hora del día y el día de la semana. Una representación gráfica podría ser una matriz, con dimensiones día de la semana y hora, veamos un periodo de tiempo más corto, por ejemplo 6 meses.  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cargamos las librería correspondientes y guardamos en una nueva variable el dataframe:&lt;/p&gt;
+
+&lt;p&gt;library(&amp;ldquo;RColorBrewer&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;gadata_3&lt;/p&gt;
+
+&lt;p&gt;Podría ejecutarlo para verlo, pero para una correcta lectura de los días de la semana, sustituyamos los números por nombres, ordenando así los días de la semana:&lt;/p&gt;
+
+&lt;p&gt;gadata_3$dayOfWeekName&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-9.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con esta matriz se puede observar que las franjas horarias de 8:00 a 12:00 de lunes a viernes tienen mayor impacto por duración promedio, aunque se observan picos desde las 21:00 a las 00:00 los martes, miércoles y jueves.&lt;/p&gt;
+
+&lt;p&gt;Sábado es el día más tranquilo comenzando desde el viernes por la tarde, siguiendo hasta el domingo donde se observa un pico a partir de las 17:00 hasta las 22:00. Interesante para preparar campañas publicitarias o remarketing en estos horarios.&lt;/p&gt;
+
+&lt;p&gt;Seguimos ahora con la segmentación por categoría de dispositivos. No es lo mismo con equipo de escritorio que con móvil o tablet. Así que vamos con la creación de una nueva variable y con dimensión **deviceCategory. **&lt;/p&gt;
+
+&lt;h1 id=&#34;otra-visualización-a-realizar-e-interesante-sería-la-comparación-por-dispositivo&#34;&gt;Otra visualización a realizar e interesante, sería la comparación por dispositivo.&lt;/h1&gt;
+
+&lt;p&gt;gadata_4 %
+ggplot(aes(deviceCategory, sessions)) +&lt;br /&gt;
+  geom_bar(aes(fill = deviceCategory), stat=&amp;ldquo;identity&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# plot avgSessionDuration with `deviceCategory`
+gadata_4 %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(deviceCategory, avgSessionDuration)) +   
+  geom_bar(aes(fill = deviceCategory), stat=&amp;quot;identity&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con la segmentación por categoría de dispositivos podemos observar que tenemos mucho tráfico entrante por móvil, pero la duración promedio es muy baja.&lt;/p&gt;
+
+&lt;p&gt;Dato interesante si queremos utilizar como medio de &amp;ldquo;prospecting&amp;rdquo; el dispositivo móvil, pero también mejorar la conversión en desktop. El objetivo es crear finalmente un &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/cual-es-el-papel-del-cro-en-un-proyecto-digital/&#34; target=&#34;_blank&#34;&gt;proyecto CRO&lt;/a&gt; y analizar muchos otros aspectos de usabilidad.&lt;/p&gt;
+
+&lt;p&gt;En este primer post hemos realizado una exploración de los datos integrando la API de Google Analytics en RStudio y como resultado unos cuantos ejemplos útiles a la hora de generar Insights.&lt;/p&gt;
+
+&lt;p&gt;En la segunda parte veremos algo más de inferencia estadística y aplicaremos algún modelo de predicción, que nos será de utilidad a la hora de buscar patrones y tendencias.&lt;/p&gt;
+
+&lt;p&gt;Si quieres tener acceso al repositorio, &lt;a href=&#34;https://github.com/paradigmadigital/Rstudio/blob/master/GA_in_Rstudio_1stPart.Rmd&#34; target=&#34;_blank&#34;&gt;puedes acceder a él a través de este link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/dev/analitica-web-r-analisis-visualizacion-datos/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/dev/analitica-web-r-analisis-visualizacion-datos/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Impulsa tu tienda online con el Enhanced Ecommerce de Google</title>
+      <link>https://www.marcusrb.com/impulsa-tu-tienda-online-enhanced-ecommerce-google/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/impulsa-tu-tienda-online-enhanced-ecommerce-google/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Los datos procesables son la clave del éxito para una tienda de comercio electrónico&lt;/strong&gt;. Si has estado ejecutando un negocio de eCommerce, es posible que ya sepas la importancia del marketing de comercio electrónico basado en datos.&lt;/p&gt;
+
+&lt;p&gt;En este post vamos a ver &lt;strong&gt;los beneficios del proceso de configuración del seguimiento de comercio electrónico en Google Analytics&lt;/strong&gt;. Un proceso que también se puede aplicar incluso si hablamos de una tienda en su estado más inicial. ¡Empezamos!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/comercio-electronico-mejorado-google.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;seguimiento-de-datos-clave-en-la-optimización-de-un-ecommerce&#34;&gt;Seguimiento de datos, clave en la optimización de un eCommerce&lt;/h2&gt;
+
+&lt;p&gt;La configuración del seguimiento de comercio electrónico &lt;strong&gt;es una necesidad para mantener un control del rendimiento de cualquier tienda&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mientras que &lt;strong&gt;el seguimiento de comercio electrónico básico&lt;/strong&gt; (o Classic Ecommerce) en Google Analytics nos muestra qué productos están teniendo éxito y cuáles no, en realidad, &lt;strong&gt;no proporciona información clave sobre el &amp;ldquo;viaje real&amp;rdquo; del cliente&lt;/strong&gt;, o como estamos acostumbrados a definirlo: &lt;strong&gt;&amp;ldquo;Customer Journey&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto, el misterio de por qué algunos productos tienen más éxito que otros sigue sin resolverse.&lt;/p&gt;
+
+&lt;p&gt;Aquí es donde el análisis de comercio electrónico mejorado, o &lt;strong&gt;Enhanced Ecommerce&lt;/strong&gt; de Google, &lt;strong&gt;nos permite sumergirnos en el mar de datos&lt;/strong&gt; de una tienda y extraer todo lo que necesitamos para &lt;strong&gt;analizar el comportamiento en nuestro sitio web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;por-qué-es-tan-importante-el-enhanced-ecommerce&#34;&gt;¿Por qué es tan importante el Enhanced Ecommerce?&lt;/h2&gt;
+
+&lt;p&gt;Si nos ponemos en el lugar del cliente, vemos que hay varias situaciones que pueden darse antes de realizar una compra. El cliente puede agregar elementos a una lista de deseos antes de comprar e incluso visitar la página del producto 10 veces para revisar los detalles del producto a fondo.&lt;/p&gt;
+
+&lt;p&gt;Sus acciones podrían ser impulsadas por diversas tendencias, como la comparación de precios de productos en sitios web de la competencia, la espera de un precio con descuento, la espera de que un producto vuelva a estar en stock, etc.&lt;/p&gt;
+
+&lt;p&gt;Para los comercializadores o desarrolladores de negocios &lt;strong&gt;es necesario obtener información sobre el Customer Journey&lt;/strong&gt; (o &amp;ldquo;viaje del cliente&amp;rdquo;) &lt;strong&gt;para determinar qué área del negocio necesita optimización&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;El comercio electrónico mejorado nos permite obtener datos procesables que se generan al rastrear todo el recorrido del cliente.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;qué-nos-aporta-el-seguimiento-de-comercio-electrónico-mejorado&#34;&gt;¿Qué nos aporta el seguimiento de comercio electrónico mejorado?&lt;/h2&gt;
+
+&lt;p&gt;La analítica tradicional de comercio electrónico se basaba en un objetivo que debía cumplirse sí o sí (en la mayoría de los casos, una compra realizada) para generar datos como:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La tasa de conversión de un producto.&lt;/li&gt;
+&lt;li&gt;Valor total de ventas del producto.&lt;/li&gt;
+&lt;li&gt;Cantidad vendida.&lt;/li&gt;
+&lt;li&gt;Impresiones totales.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Con el comercio electrónico mejorado no tenemos que estar limitados en términos de su seguimiento. &lt;strong&gt;Nos permite rastrear los detalles más pequeños&lt;/strong&gt; que nos ayudarán a optimizar nuestra tienda.&lt;/p&gt;
+
+&lt;p&gt;Esto incluye:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Comportamiento del cliente.&lt;/li&gt;
+&lt;li&gt;Compromiso con el cliente.&lt;/li&gt;
+&lt;li&gt;Informes de rendimiento del producto.&lt;/li&gt;
+&lt;li&gt;Tasas de abandono del carro y causas.&lt;/li&gt;
+&lt;li&gt;Cupón y descuento de rendimiento.&lt;/li&gt;
+&lt;li&gt;Informes detallados de afiliados.&lt;/li&gt;
+&lt;li&gt;Informes de reembolso.&lt;/li&gt;
+&lt;li&gt;Informes de marketing de contenidos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;El comercio electrónico mejorado&lt;/strong&gt; no solo nos permite controlar el rendimiento de los productos y analizar el embudo de ventas; también &lt;strong&gt;tiene como objetivo proporcionarnos información mucho más profunda sobre el comportamiento del cliente&lt;/strong&gt; para poder optimizar ese embudo mejorando así la experiencia del usuario y nuestros planes de marketing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-datos-se-recogen&#34;&gt;¿Qué datos se recogen?&lt;/h2&gt;
+
+&lt;p&gt;Para ayudar a los desarrolladores y analistas a identificar qué tipo de datos queremos rastrear, Google los ha agrupado en &lt;strong&gt;cuatro categorías&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Datos de impresión&lt;/strong&gt;: información completa sobre un producto que ha sido visto por un cliente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datos del producto&lt;/strong&gt;: información sobre los productos individuales que se visualizan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datos de promoción&lt;/strong&gt;: información sobre los elementos promocionales/banners que ha clicado en tu sitio web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datos de acción&lt;/strong&gt;: información sobre todas las acciones de comercio electrónico que tienen lugar en el sitio web.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Podemos consultar &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce?hl=es-419#ecommerce-data&#34; target=&#34;_blank&#34;&gt;la guía de seguimiento de Google Analytics&lt;/a&gt; para obtener una lista detallada de todos los tipos de datos individuales que se pueden rastrear en cada una de estas categorías.&lt;/p&gt;
+
+&lt;p&gt;Ahora que ya sabemos qué podemos rastrear con Google Analytics, el siguiente paso es implementar &lt;strong&gt;Enhanced Ecommerce Analytics&lt;/strong&gt; y usarlo &lt;strong&gt;para enviar los datos de análisis a Google Analytics desde nuestra tienda&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A partir de aquí puede que el proceso empiece a ser un poco «tedioso», especialmente cuando se está ejecutando el análisis de una tienda con una enorme base de datos de productos y categorías.&lt;/p&gt;
+
+&lt;h3 id=&#34;implementación-del-comercio-electrónico-mejorado&#34;&gt;Implementación del comercio electrónico mejorado&lt;/h3&gt;
+
+&lt;p&gt;A día de hoy hay innumerables tiendas que aún consideran el comercio electrónico mejorado como una opción secundaria, por lo que pierden numerosos datos valiosos que pueden llevar su estrategia de marketing al siguiente nivel.&lt;/p&gt;
+
+&lt;p&gt;Lo más probable es que la razón sea que el proceso de configuración es un poco complejo, y sí, también exige conocimientos básicos de JavaScript o jQuery.&lt;/p&gt;
+
+&lt;h3 id=&#34;requisitos&#34;&gt;Requisitos&lt;/h3&gt;
+
+&lt;p&gt;El análisis de comercio electrónico mejorado &lt;strong&gt;solo se puede activar utilizando Universal Analytics o Google Tag Manager&lt;/strong&gt; (GTM).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: la nueva versión de Universal Analytics sigue existiendo, solo que para una implementación manual ha pasado a hacerse con otro plugin, global tag o gtag.js, que es similar a la de Google Tag Manager, pero directamente vía código. &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/gtagjs/enhanced-ecommerce?hl=es-419&#34; target=&#34;_blank&#34;&gt;Aquí podrás obtener más información sobre la Global tag de Analytics&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si bien la mayor parte de tiendas online ya se ha movido a Universal Analytics (si no es el Administrador de etiquetas de Google), algunos todavía están usando la analítica clásica. Si tú eres uno de ellos, es hora de que te actualices y descubras lo que te has estado perdiendo.&lt;/p&gt;
+
+&lt;h2 id=&#34;activamos-el-eec-enhanced-ecommerce-para-universal-analytics&#34;&gt;Activamos el EEC (Enhanced Ecommerce) para Universal Analytics&lt;/h2&gt;
+
+&lt;p&gt;Si utilizamos Universal Analytics, tendremos que activar el EC.js o el complemento de comercio electrónico mejorado manualmente.&lt;/p&gt;
+
+&lt;p&gt;El código del complemento que lo activa se especifica justo después de nuestro código UA de Google Analytics, seguido de comandos de complemento para rastrear los datos y enviarlos a Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Durante la fase de implantación, el código quedaría de la siguiente manera:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PASO 1&lt;/strong&gt;. El primer paso es definir la propiedad, como ya tenemos el script principal ya tenemos definida esta parte:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ga(&#39;create&#39;, &#39;UA-XXXXX-Y&#39;, &#39;auto&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;PASO 2&lt;/strong&gt;. Definimos el plugin ecommerce.js:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ga(&#39;require&#39;, &#39;ec&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;PASO 3&lt;/strong&gt;. Ahora podemos seguir con las demás mediciones (ejemplos):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ga(&#39;ec:addImpression&#39;, {
+    ...
+});
+
+
+
+
+ga(&#39;ec:addProduct&#39;, {
+    ...
+});
+// seguido por la acción
+ga(&#39;ec:setAction&#39;, &#39;click&#39;, {       // click action.
+  &#39;list&#39;: &#39;Search Results&#39;          // Product list (string).
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;PASO 4&lt;/strong&gt;. Sucesivamente se enviarán las acciones con el comando send:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ga(&amp;quot;send&amp;quot;, ...);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Este ejemplo es para enviar eventos con &lt;strong&gt;Categoría&lt;/strong&gt;: homepage y &lt;strong&gt;Acción&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; click&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ga(&amp;quot;send&amp;quot;, &amp;quot;event&amp;quot;, &amp;quot;homepage&amp;quot;, &amp;quot;click&amp;quot;, &amp;quot;&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;En este enlace podrás obtener más información sobre la estructura de los &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/events?hl=es-419&#34; target=&#34;_blank&#34;&gt;eventos de Google Analytics.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Es necesario implementar los códigos exactamente en el mismo orden, de lo contrario, el seguimiento fallará.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este es un ejemplo del script del plugin ecommerce.js extraído directamente &lt;a href=&#34;https://enhancedecommerce.appspot.com/&#34; target=&#34;_blank&#34;&gt;en la web de testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;activamos-el-eec-enhanced-ecommerce-para-google-tag-manager&#34;&gt;Activamos el EEC (Enhanced Ecommerce) para Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Si hemos configurado la analítica con Google Tag Manager, entonces el proceso para configurar el comercio electrónico mejorado se vuelve un poco más complejo y al que hay que agregarle algunos pasos más.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La implementación del código será a través de dataLayer, al igual que la globalTag.js, pero en la interfaz es mucho más sencilla de gestionar.&lt;/p&gt;
+
+&lt;p&gt;La idea fundamental de usar de GTM para un seguimiento mejorado es configurar varias capas de datos (dataLayers) en nuestro sitio web que &lt;strong&gt;almacenen temporalmente los datos representados en cada página de la tienda&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Estas capas de datos están codificadas en varios elementos de la página en toda la tienda, por ejemplo: clic del producto, agregar al carrito, eliminar del carrito, agregar a la lista de deseos, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ejemplo de dataLayer en la web de testing anterior: vemos que después del evento addToCart tenemos un array o listado de objetos, en formato JSON, par de claves y valor, específico de productos, título, precio, categoría, etc.&lt;/p&gt;
+
+&lt;p&gt;Estos datos luego son recuperados por las variables predefinidas en nuestra cuenta GTM usando etiquetas que se activan en función de los desencadenantes que definimos en nuestra cuenta de Google Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;A partir de estas variables, &lt;strong&gt;los datos de seguimiento se envían de forma acumulativa a Google Analytics, donde se convierten en métricas procesables&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;La guía para desarrolladores de GTM resume las capas de datos específicas requeridas para las diferentes páginas de un sitio web, algo que todos deben seguir para configurar las capas de datos relevantes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: Es importante tener claro que existen una variables de Tag Manager así como de Analytics que son asignadas, con lo cual no debemos alterar su nomenclatura.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Una vez que hayamos codificado las capas relevantes para nuestra tienda de comercio electrónico y hayamos configurado los activadores y etiquetas relevantes para recuperar datos de esas capas de datos, habilitamos los informes mejorados en nuestro GA o cuenta de administrador de etiquetas y configuramos las etiquetas de verificación relevantes para rastrear los datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Debemos asegurarnos de agregar etiquetas de pago significativas, ya que eventualmente se utilizarán para determinar la tasa de éxito del pago.&lt;/p&gt;
+
+&lt;p&gt;Con estas etiquetas, podemos hacer un seguimiento del comportamiento de nuestros clientes en diferentes pasos de un proceso de pago.&lt;/p&gt;
+
+&lt;p&gt;Estos datos se recopilan y se muestran en la opción de comportamiento de pago como se muestra a continuación:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si seguimos el enfoque de Universal Analytics o el de Google Tag Manager para habilitar el seguimiento de comercio electrónico mejorado, terminaremos codificando los fragmentos de seguimiento (ya sea para GA o GTM).&lt;/p&gt;
+
+&lt;p&gt;Hacemos hincapié, una vez más, en el almacén de demostración de Google para resaltar cómo las diferentes áreas requieren que las capas de datos se configuren para recibir información de la tienda de comercio electrónico en GA.&lt;/p&gt;
+
+&lt;h3 id=&#34;listado-de-productos-o-categorías&#34;&gt;Listado de productos o categorías&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;página-de-detalle-del-producto&#34;&gt;Página de detalle del producto&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gestión-de-una-tienda-online&#34;&gt;Gestión de una tienda online&lt;/h2&gt;
+
+&lt;p&gt;Si bien la tienda de demostración anterior solo consistía en una pequeña cantidad de datos que era fácil de comprender, tratar con una tienda de comercio electrónico compleja incrementa la dificultad en muchos pliegues manuales.&lt;/p&gt;
+
+&lt;p&gt;Como todo el proceso implica la implementación del fragmento de seguimiento correcto o la capa de datos en toda la tienda, puede ser muy difícil configurarlo de manera impecable. Hay dos maneras de hacer esto:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-uso-de-un-complemento-de-terceros-para-su-cms-de-comercio-electrónico&#34;&gt;1. Uso de un complemento de terceros para su CMS de comercio electrónico&lt;/h3&gt;
+
+&lt;p&gt;Los principales sistemas CMS ya cuentan con complementos en sus mercados que pueden hacer el trabajo automáticamente. Simplemente instalando el complemento e integrándolo con tu cuenta de Google Analytics, puedes habilitar o inhabilitar las impresiones, acciones o elementos que deseas rastrear.&lt;/p&gt;
+
+&lt;p&gt;Algunos complementos confiables con los que hemos trabajado en el pasado reciente incluyen:&lt;/p&gt;
+
+&lt;h3 id=&#34;2-implementando-manualmente-las-capas-de-datos&#34;&gt;2. Implementando manualmente las capas de datos&lt;/h3&gt;
+
+&lt;p&gt;A pesar de que las plataformas principales brindan soporte para complementos, es posible que encontremos un escenario en el que nuestro CMS aún no tenga un complemento (por ejemplo, BigCommerce o OpenCart), o que haya creado una tienda de comercio electrónico personalizada utilizando un Framework como Codeigniter o YII.&lt;/p&gt;
+
+&lt;p&gt;En tales casos, recomendamos contratar desarrolladores profesionales para implementar los fragmentos de código o las capas de datos en ubicaciones precisas para la tienda.&lt;/p&gt;
+
+&lt;h2 id=&#34;es-el-momento-de-testear-con-google-tag-manager&#34;&gt;Es el momento de testear con Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Es esencial probar su implementación antes y después de implementarla en el sitio web en vivo, ya que siempre existe la posibilidad de un error subyacente con la implementación de comercio electrónico mejorado.&lt;/p&gt;
+
+&lt;h3 id=&#34;realizar-un-testing-con-el-modo-vista-previa-en-tag-manager&#34;&gt;Realizar un testing con el modo Vista Previa en Tag Manager:&lt;/h3&gt;
+
+&lt;p&gt;El Administrador de etiquetas de Google presenta un modo de vista previa y depuración, que permite tener un editor de consola en la parte superior del sitio web en el que queremos publicar nuestro contenedor GTM.&lt;/p&gt;
+
+&lt;p&gt;La consola solo es visible en el navegador en el que hayamos habilitado el modo Vista previa.&lt;/p&gt;
+
+&lt;h3 id=&#34;con-el-modo-vista-previa-y-depuración-obtienes-acceso-a-los-4-elementos-de-una-cuenta-gtm&#34;&gt;Con el modo Vista previa y Depuración, obtienes acceso a los 4 elementos de una cuenta GTM:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Línea de tiempo del evento&lt;/strong&gt;: enumera todos los eventos de carga de página que se producen hasta que la página del punto se representa dentro del navegador.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Etiquetas&lt;/strong&gt;: enumera todas las etiquetas que se agregaron en la página, las que se dispararon y las que fallaron.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;: muestra información detallada sobre las diferentes variables que recopilan datos en el evento seleccionado, incluido el tipo de variable, el tipo de datos devueltos y el valor resuelto.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capa de datos&lt;/strong&gt;: ofrece una vista previa de la capa de datos exacta junto con todos los datos que se generaron para el evento específico.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Errores&lt;/strong&gt;: eventualmente se visualizarán los errores globales o locales tanto de código JS que de nuestro complemento.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;probando-el-seguimiento-mejorado-del-comercio-electrónico-después-de-publicarlo&#34;&gt;Probando el seguimiento mejorado del comercio electrónico después de publicarlo&lt;/h3&gt;
+
+&lt;p&gt;El seguimiento de las pruebas, después de publicar la configuración de Google Tag, también es tan importante como probarlo antes de activarlo.&lt;/p&gt;
+
+&lt;p&gt;La mejor manera de probar la configuración del Administrador de etiquetas de Google y de verificar si sigue suministrando datos a Google Analytics de manera efectiva o no es mediante la instalación de la extensión &lt;a href=&#34;https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=es-419&#34; target=&#34;_blank&#34;&gt;Google Tag Assistant Chrome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La extensión permite grabar la sesión en el sitio web y genera un informe completo sobre todos los eventos que se activaron en Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/enhanced-ecommerce-google-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que nuestros casos de prueba generen resultados positivos, estamos listo para publicar nuestro contenedor GTM. Ahora todo lo que necesitamos hacer es eliminar el código de seguimiento de comercio electrónico tradicional de la página de pago y publicar sus configuraciones de etiquetas.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+
+&lt;p&gt;Como punto de partida de este blog, siempre sugeriríamos un complemento si tu CMS lo admite. La implementación del comercio electrónico mejorado de Google en una tienda que comprende múltiples categorías y productos definitivamente dará algún que otro dolor de cabeza incluso a los desarrolladores más experimentados.&lt;/p&gt;
+
+&lt;p&gt;Es todo un reto. Sin embargo, vale la pena todo el esfuerzo, ya que los resultados traerán a la luz algunas ideas clave que ayudarán a tomar decisiones comerciales de manera más efectiva.&lt;/p&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/dev/enhanced-ecommerce-google/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/dev/enhanced-ecommerce-google/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (2/2)</title>
+      <link>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</guid>
+      <description>
+
+&lt;p&gt;Google Analytics lleva años siendo la herramienta de referencia en marketing no solo a nivel de extracción de métricas, sino también a la hora de comprender el comportamiento de los usuarios de nuestro sitio web.&lt;/p&gt;
+
+&lt;p&gt;Pero Google Analytics no deja de ser un mastodonte enorme donde obtener determinados datos es, a veces, casi una misión imposible, sobre todo si estamos empezando a trabajar con la plataforma.&lt;/p&gt;
+
+&lt;p&gt;Ya la semana pasada &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34; target=&#34;_blank&#34;&gt;recopilamos algunos consejos que nos facilitan el uso de la herramienta&lt;/a&gt;. Hoy continuamos con otras &lt;strong&gt;5 recomendaciones que seguro que te ayudarán a exprimir al máximo Google Analytics&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/Google-Analytics.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;6-aumenta-la-tasa-de-conversión-con-la-métrica-de-la-tasa-de-rebote&#34;&gt;6. Aumenta la tasa de conversión con la métrica de la tasa de rebote&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;La tasa de rebote es una métrica importante porque proviene del compromiso del usuario con tu página web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Curiosamente, la tasa de rebote es comúnmente mal entendida y mal interpretada por muchos webmasters, bloggers y profesionales de SEO.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;La tasa de rebote es básicamente el porcentaje de visitas de una sola página o sesiones web. En términos de palabras, el porcentaje de rebote representa el porcentaje de visitantes del sitio web que llegaron a una página en particular y se alejaron después de ver una página (por ejemplo, la página de «servicios»).&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La tasa de rebote es esa métrica que revela cuánto de útil es realmente tu contenido.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cuanto menor sea la tasa de rebote, en la mayoría de los casos, mejor&lt;/strong&gt;. Lo que significa que un porcentaje de rebote del 34% es, evidentemente, mucho mejor que el 87%. Debido a que el porcentaje más bajo es una indicación de que tu contenido es útil, los usuarios quedaron satisfechos y se mantuvieron cerca.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: De todas formas, tampoco es útil tomar como referencia solo esta métrica y decir que 34% es mejor que 87% si no lo ponemos en contexto, valoramos los objetivos que tenemos establecidos, como por ejemplo interacciones, tiempo de visita, canal de captación…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Al final, nuestro objetivo debe ser monitorear la tasa de rebote y tratar de reducirla. Si lo que quieres reducir es la tasa de rebote de tus páginas de destino, puedes hacerlo siguiendo esta ruta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Páginas de destino&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada pequeña mejora en la tasa de rebote probablemente producirá una mayor conversión.&lt;/p&gt;
+
+&lt;h3 id=&#34;veamos-un-ejemplo&#34;&gt;Veamos un ejemplo&lt;/h3&gt;
+
+&lt;p&gt;Un sitio web de automatización de marketing y CRM notó que su tasa de rebote había aumentado un 42% durante un período de 3 meses.&lt;/p&gt;
+
+&lt;p&gt;Tomaron los pasos correctos para arreglarlo. Cambiaron el formato del texto, mejoraron el enlace interno y agregaron un vídeo a la página de inicio. Como resultado, el sitio web registró un aumento del 15% en el envío de formularios.&lt;/p&gt;
+
+&lt;p&gt;Si observas en Google Analytics una tasa de rebote muy alta en algunas de tus páginas de mayor rendimiento con respecto a las otras, pregúntate cuál podría ser la razón. Audita las páginas afectadas y optimízalas para aumentar las conversiones.&lt;/p&gt;
+
+&lt;h2 id=&#34;7-utilizar-consultas-de-búsqueda-en-el-sitio&#34;&gt;7. Utilizar consultas de búsqueda en el sitio&lt;/h2&gt;
+
+&lt;p&gt;Hay muchos sitios web demasiado complicados de usar. La información o contenido importante está oculto y en muchos casos las páginas se rompen cuando los visitamos a través de dispositivos móviles. Este escenario molesta a los usuarios.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, una pista de que los visitantes que llegan a nuestra web son nuestro target, es cuando usan el buscador interno.&lt;/p&gt;
+
+&lt;h3 id=&#34;sabes-los-términos-de-búsqueda-que-están-buscando&#34;&gt;¿Sabes los términos de búsqueda que están buscando?&lt;/h3&gt;
+
+&lt;p&gt;Desde Google Analytics es bastante fácil descubrir estos términos. Por lo tanto, es necesario configurar un informe para obtener esa información.&lt;/p&gt;
+
+&lt;p&gt;Desde la configuración de vista, activamos la opción de &amp;lsquo;Seguimiento de la búsqueda en el sitio&amp;rsquo; (tal como indica la imagen), y tendríamos que añadir el parámetro de consulta:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: para añadir el/los parámetros de consulta, en la mayoría de los casos, simplemente añade lo que sucede después del carácter &lt;strong&gt;?&lt;/strong&gt; en la ruta:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ej.&lt;/p&gt;
+
+&lt;p&gt;Fíjate en este parámetro &lt;strong&gt;q&lt;/strong&gt; , este será el valor que tendrás que añadir.&lt;/p&gt;
+
+&lt;p&gt;WordPress por defecto tiene &lt;strong&gt;q&lt;/strong&gt; (está por query), algún otro CMS del mercado tendrá otro similar, aquí os menciono unos cuantos: query, search, searchword, searchquery, consulta, s, q, qs, string, searchq…&lt;/p&gt;
+
+&lt;p&gt;Quizás la manera más sencilla es que realices tú mismo una búsqueda y te fijes en cómo cambia la ruta después de una búsqueda. Hay casos que mostrará el valor y hay otros casos que simplemente no devolverá nada (páginas dinámicas).&lt;/p&gt;
+
+&lt;p&gt;Al analizar este informe, puedes ver las palabras clave exactas que las personas escribieron en tu buscador interno, directamente en tu sitio web.&lt;/p&gt;
+
+&lt;p&gt;Aquí es cómo localizar este informe importante:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Búsqueda en el sitio &amp;gt; Términos de búsqueda&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que esté el informe cumplimentado con estos términos de búsqueda en el sitio, puedes mejorar tus conversiones de varias maneras. Puedes recomendar productos y servicios relacionados con las palabras clave.&lt;/p&gt;
+
+&lt;p&gt;Incluso puedes utilizar la información que recopiles en tus campañas de correo electrónico. ¡O mejor aún! &lt;strong&gt;Investiga cuál es la palabra clave más frecuente y crea páginas de destino específicas de alto valor para atender a este segmento de visitantes del sitio web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;8-utilice-las-expresiones-regulares-en-filtros-y-reportes&#34;&gt;8. Utilice las expresiones regulares en filtros y reportes&lt;/h2&gt;
+
+&lt;p&gt;Obtendrás mayor potencia y resultados de Google Analytics si automatizas algunas de las tareas. Entonces, si bien la mayoría de estos consejos han sido sobre el uso de la interfaz, este es un poco diferente y es aplicable en muchos lugares diferentes dentro de Google Analytics (y el Administrador de etiquetas de Google).&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-son-las-expresiones-regulares&#34;&gt;¿Qué son las expresiones regulares?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Las expresiones regulares son una forma de diferenciarse del usuario casual de Google Analytics&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Una breve definición: son una forma de describir patrones en texto usando caracteres especiales. Expliquemos un poco más en detalle en qué consisten.&lt;/p&gt;
+
+&lt;p&gt;Supongamos que estás viendo tu informe de &lt;em&gt;&amp;lsquo;Todas las páginas&amp;rsquo;&lt;/em&gt; dentro de Google Analytics y que quieres definir algunas páginas específicas. Tal vez las páginas de Inicio, Servicios y Acerca de nosotros.&lt;/p&gt;
+
+&lt;p&gt;Puedes extraer todo el informe, desplazarte para encontrar las páginas que necesitas y anotar los números. O puedes cargar el informe, buscar Inicio, realizar una nueva búsqueda de Servicios y después realizar una nueva búsqueda de Quiénes somos.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Inicio &lt;strong&gt;Or&lt;/strong&gt; Servicios &lt;strong&gt;Or&lt;/strong&gt; Quiénes somos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Se vería algo como esto: ^ (/ | / services / | / about-us /) $&lt;/p&gt;
+
+&lt;p&gt;El carácter de expresión regular más fácil de aprender es el pipe o &amp;ldquo;palito&amp;rdquo; &lt;strong&gt;|&lt;/strong&gt;, que simplemente significa &lt;strong&gt;OR&lt;/strong&gt;. Hay otros caracteres para indicar caracteres opcionales, «comienza con» y «termina con», ¡y muchos más!&lt;/p&gt;
+
+&lt;p&gt;Si quieres investigar más sobre expresiones regulares, te dejo las siguientes guías:&lt;/p&gt;
+
+&lt;h2 id=&#34;9-sigue-el-camino-de-la-generación-de-leads-antes-de-que-conviertan&#34;&gt;9. Sigue el camino de la generación de leads antes de que conviertan&lt;/h2&gt;
+
+&lt;p&gt;Existe una obsesión con la generación de leads. Muchos olvidan que alimentar a los clientes potenciales existentes es la mejor manera de hacer crecer un negocio. Probablemente tengas un representante de ventas o un departamento responsable de nutrir a tus clientes potenciales, pero ¿les delegas responsabilidad?&lt;/p&gt;
+
+&lt;p&gt;Previamente, debemos calificar a nuestros clientes potenciales y comprender su trayectoria por nuestro sitio web. Según las estadísticas de HubSpot, &lt;em&gt;«solo el 25% de los clientes potenciales son legítimos y deben ser enviados a un representante de ventas»&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Los clientes potenciales suelen pasar por tres etapas básicas para &lt;strong&gt;confiar&lt;/strong&gt;**, **&lt;strong&gt;creer&lt;/strong&gt; y &lt;strong&gt;gustar&lt;/strong&gt;. Así es como funciona el marketing online. El proceso de 3 pasos implica:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conciencia.&lt;/li&gt;
+&lt;li&gt;Consideración.&lt;/li&gt;
+&lt;li&gt;Decisión.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En realidad, hay una manera muy fácil de hacer esto con una búsqueda en el mismo informe. En todos los informes de Google Analytics, el cuadro de filtro de la tabla acepta expresiones regulares de forma predeterminada, lo que significa que solo puedes escribir en ese cuadro de búsqueda una frase que represente:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para comprender los diversos puntos de contacto que atraviesan los usuarios antes de comprar y las páginas a las que acceden en tu sitio web podemos consultarlo en Google Analytics siguiendo esta ruta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Flujo del Comportamiento&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para obtener resultados imparciales, céntrate en los nuevos usuarios de tu sitio web que no tengan experiencia previa con tu marca. Por lo tanto, ordénalos por nuevos usuarios o nuevas visitas. Luego, podrás ver cómo los nuevos usuarios interactúan con tus páginas, desde dónde comenzaron, cómo se fueron, etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;**: **También sería útil profundizar un poco más, quizás con segmentos por dispositivo o por canal de adquisición.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Conocer las secuencias comunes del historial de páginas y cómo los nuevos usuarios se involucran, navegan y utilizan tus páginas web ayudarán a crear una mejor experiencia de usuario en el sitio.&lt;/p&gt;
+
+&lt;h2 id=&#34;10-analizar-el-compromiso-de-la-página-entre-el-móvil-y-el-escritorio&#34;&gt;10. Analizar el compromiso de la página entre el móvil y el escritorio&lt;/h2&gt;
+
+&lt;p&gt;Como el uso de dispositivos móviles ha superado el tráfico de escritorio, según comScore, no debe descuidar a los usuarios de escritorio. Porque no a todos les gusta usar dispositivos móviles. Y ciertas tareas se realizan más fácilmente en una pantalla de escritorio más grande que en una pantalla más pequeña.&lt;/p&gt;
+
+&lt;p&gt;Como propietario de un negocio, comercial digital o propietario de un sitio web, &lt;strong&gt;no gastes todo tu tiempo y recursos optimizando las conversiones del sitio web solo para usuarios de dispositivos móviles, hazlo también para usuarios de escritorio&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Obviamente, los dispositivos móviles pueden generar la mayor cantidad de tráfico para tu sitio web, lo que es bueno. Aquí puedes encontrar y analizar los resultados entre los canales móviles y de escritorio.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Audiencia &amp;gt; Dispositivos móviles &amp;gt; Visión general&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En el momento en que ingreses al informe, segmenta sus datos tabulados seleccionando tu objetivo de conversión/ventas principal o principal.&lt;/p&gt;
+
+&lt;p&gt;En la imagen, si miramos en términos de ingresos, se puede ver que el móvil (37%) y el tablet (9%) generaron menos conversiones en comparación con el escritorio (54%).&lt;/p&gt;
+
+&lt;p&gt;Comparando el ratio de conversión, estamos a un 0,80% en tablet; 0,42% escritorio y solo un 0,09% en dispositivos móviles. Parece que genera muchas más sesiones el móvil por tener un ratio más bajo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Consejo profesional&lt;/strong&gt;: si tu segmento móvil no genera suficiente tráfico o ventas, hay una tendencia a suponer que a los usuarios no les resulta fácil navegar por tu sitio con un dispositivo móvil. Asegúrate de analizar las diferencias en el tráfico, el comportamiento y las conversiones (ventas).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+
+&lt;p&gt;Google Analytics es su apuesta segura para descubrir &lt;em&gt;insights&lt;/em&gt; u oportunidades que pueden mejorar también el posicionamiento orgánico en Google.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, la optimización del motor de búsqueda no es una estrategia de marketing digital que se establece y se olvida. Debe abordarse con un enfoque holístico e impulsado por datos, al mismo tiempo que se aprovecha el contenido atractivo de un sitio web para ganar tracción, atraer clientes potenciales calificados a un sitio web, aumentar su posicionamiento y aumentar sus ventas.&lt;/p&gt;
+
+&lt;p&gt;Cuando entiendes lo que motiva a las personas a usar tu sitio web, es más fácil hablar su idioma y hacer que participen con contenido bien pensado.&lt;/p&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/dev/guia-de-google-analytics-10-consejos-utiles-para-aumentar-su-trafico-y-ranking-2-2/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/dev/guia-de-google-analytics-10-consejos-utiles-para-aumentar-su-trafico-y-ranking-2-2/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (1/2)</title>
+      <link>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</link>
+      <pubDate>Tue, 05 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</guid>
+      <description>
+
+&lt;p&gt;¿Qué empresa que tenga parte de su negocio online no desea tener más tráfico? Da igual el sector al que pertenezca, su tamaño, su facturación… la respuesta siempre será sí. Y si el tráfico es de calidad, será un plus mayor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Analytics nos proporciona una enorme cantidad de datos que podemos aprovechar para aumentar nuestro tráfico orgánico y mejorar el ranking en buscadores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, debemos ser conscientes de que no podemos lograr resultados de la noche a la mañana. &lt;strong&gt;El proceso de conseguir más tráfico nos va a llevar tiempo, pero la espera hará que los resultados merezcan la pena&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Con la enorme información que proporciona Google Analytics, saber cómo &amp;ldquo;moverse&amp;rdquo; por su compleja plataforma y superar los informes básicos entre métricas y ajustes, es fundamental para su éxito.&lt;/p&gt;
+
+&lt;p&gt;En esta guía, detallamos cada una de las perspectivas de Google Analytics y cómo puedes implementarlo de inmediato en tu sitio web para aumentar la visibilidad de tu búsqueda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/consejos-google-analytics.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-aprovecha-las-notificaciones-y-alertas-de-google-analytics-por-correo-electrónico&#34;&gt;1. Aprovecha las notificaciones y alertas de Google Analytics por correo electrónico&lt;/h2&gt;
+
+&lt;p&gt;Los informes por correo electrónico son la forma más fácil de pasar menos tiempo investigando entre datos. La pregunta es, &lt;strong&gt;¿cómo configurar un informe de correo electrónico de Google Analytics?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Este es un ejemplo de una alerta de correo electrónico que recibí el 26 de diciembre de Google Analytics:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este simple truco nos ahorrará muchísimo tiempo. &lt;strong&gt;Google Analytics genera demasiada información y la clave es saber obtener los datos que nos interesan&lt;/strong&gt;. Y si pueden llegar a nuestro email, mejor.&lt;/p&gt;
+
+&lt;p&gt;Sin duda, &lt;strong&gt;uno de los desafíos para las empresas es extraer datos útiles y Google Analytics es una buena herramienta para ello&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mi primera experiencia con Google Analytics no fue nada agradable, entré en mi cuenta y me quedé sentado durante horas, sin saber qué hacer, cómo obtener los datos y cómo interpretar incluso los datos en el panel.&lt;/p&gt;
+
+&lt;p&gt;Para configurar las alertas personalizadas, inicia sesión en tu cuenta y dirígete a la sección de &lt;strong&gt;Administrar&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A continuación, encontrarás la pestaña «&lt;strong&gt;Alertas personalizadas&lt;/strong&gt;«:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Puedes configurar fácilmente alertas personalizadas para recibir actualizaciones por correo electrónico y notificaciones de mensajes de texto cada vez que ocurra un evento (o cualquier acción que consideres relevante para tu sitio web).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cuando utilizamos las &lt;em&gt;&amp;lsquo;Condiciones de alerta&amp;rsquo;&lt;/em&gt; es fácil personalizar escenarios específicos para recibir alertas por correo electrónico. Por ejemplo, si tu sitio web experimenta un aumento o disminución en el tráfico, o si un objetivo específico se completa en los últimos días.&lt;/p&gt;
+
+&lt;p&gt;Independientemente de las notificaciones que desees, puedes configurarlas y Google Analytics te las enviará por correo electrónico.&lt;/p&gt;
+
+&lt;p&gt;Puedes crear todas las alertas que quieras para monitorear (diaria, semanalmente…) visitas únicas, páginas vistas, tasa de rebote, datos demográficos, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-optimizar-y-mejorar-las-rutas-a-través-de-su-sitio-web&#34;&gt;2. Optimizar y mejorar las rutas a través de su sitio web.&lt;/h2&gt;
+
+&lt;p&gt;En principio, &lt;strong&gt;tu página de inicio es el punto clave de tu sitio web y desde donde se conectan tus páginas internas&lt;/strong&gt;. Por lo tanto, &lt;strong&gt;debes tener muy en cuenta el diseño y la experiencia que proporciona a los usuarios&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cuando rediseñamos nuestro sitio web, debemos aseguramos que el diseño esté claramente trazado. Esto es importante porque va a determinar cómo se verá y funcionará todo el sitio web en su conjunto.&lt;/p&gt;
+
+&lt;p&gt;Pero Google Analytics nos dice algo completamente diferente. Cuando consultes tus páginas o páginas de destino más populares, notarás que, en la mayoría de los casos, hay páginas distintas a la página de inicio que reciben más tráfico.&lt;/p&gt;
+
+&lt;p&gt;Esto pasa independientemente del tamaño de tu sitio web. Si tienes un blog adjunto y lo actualizas con frecuencia, verás que aproximadamente el 30% del tráfico entrante proviene de la página de inicio y, el resto, de las páginas de tu blog (gracias a las palabras clave de larga cola), que son las que generan tráfico y conversación en las consultas de búsqueda.&lt;/p&gt;
+
+&lt;p&gt;Entramos en la interfaz y seguimos estos pasos:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Informe de flujo de comportamiento:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Todas las páginas:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Haremos clic en la pestaña del &lt;strong&gt;&amp;lsquo;Resumen de navegación&amp;rsquo;&lt;/strong&gt; en el panel de Google Analytics. Ahí podrás ver de dónde viene el tráfico y qué páginas visitaron tus usuarios.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;panel de la izquierda es la ruta de la página anterior&lt;/strong&gt;, y &lt;strong&gt;el de la derecha el de las páginas siguientes&lt;/strong&gt;. Hay que tener en cuenta que está filtrado por página de destino, aunque podríamos filtrarlo también por: agrupación de páginas (marcas, categorías superiores, género, autores, etc.), previa configuración en la vista principal…&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-se-mueven-las-personas-en-tu-sitio&#34;&gt;Cómo se mueven las personas en tu sitio&lt;/h3&gt;
+
+&lt;p&gt;Por último, pero no menos importante, puedes ver las páginas a las que van los visitantes después de interactuar con la primera página de tu sitio web.&lt;/p&gt;
+
+&lt;p&gt;Con esta información podemos (y debemos) mejorar la navegación de nuestros visitantes, haciendo llamadas a la acción más claras, intuitivas y atractivas.&lt;/p&gt;
+
+&lt;p&gt;Ahora que conocemos la ruta que hacen estos usuarios por nuestra web, podemos llevar a cabo algunas acciones que nos ayuden a generar leads en las páginas más visitadas. Por ejemplo, incluir formularios de suscripción.&lt;/p&gt;
+
+&lt;p&gt;Si ignoramos esta información, dejaremos de prestar atención a clientes potenciales y desaprovecharemos un tráfico orgánico de calidad que puede aportarnos muchas ventajas.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;«Las empresas que adoptan un enfoque estructurado hacia la optimización de la conversión tienen dos veces más probabilidades de ver un gran aumento en las ventas».&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;3-aprovecha-las-páginas-de-bajo-ratios-para-mejorar-el-rendimiento-de-búsqueda-orgánica&#34;&gt;3. Aprovecha las páginas de &amp;lsquo;bajo ratios&amp;rsquo; para mejorar el rendimiento de búsqueda orgánica&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;¿Conoces los términos de búsqueda que actualmente te están enviando tráfico?&lt;/strong&gt; Puedes profundizar en esto en el &lt;em&gt;&amp;lsquo;Informe de consultas&amp;rsquo;&lt;/em&gt; de tu cuenta de Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Para ello, deberíamos tener vinculada y verificada la cuenta de &lt;strong&gt;Search Console&lt;/strong&gt;**, **para consultar las mediciones de performance de nuestro site, así como reportes de consultas de búsquedas directamente de nuestro buscador Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez vinculada la cuenta de Search Console en nuestro Google Analytics, habilitaremos el informe aquí indicado desde:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Adquisición &amp;gt; Search Console &amp;gt; Páginas de destino o Consultas&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si tienes las alertas correctamente configuradas, podrás recibir la información que hayas seleccionado en tu email. Sin embargo, para obtener las consultas de bajo rendimiento, tendrás que hacerlo manualmente.&lt;/p&gt;
+
+&lt;p&gt;Por razones de privacidad, Google dejó de pasar los datos de referencia a los propietarios de sitios web. Si ves el mensaje &lt;em&gt;&amp;lsquo;Not provided&amp;rsquo;&lt;/em&gt; esa es la razón.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, los anunciantes de Google Ads sí pueden ver estos datos en su panel.&lt;/p&gt;
+
+&lt;p&gt;Por otro lado, las páginas «ocultas» rara vez se mostrarán. Algunos estudios aseguran que el 75% de los usuarios de Google no se molestan en hacer clic más allá de la primera página de resultados.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-9.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si quieres optimizar las páginas de tu site que no funcionen, esto son algunos consejos que te ayudarán a conseguirlo:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 1&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; una vez que localices tus consultas de búsqueda y tus posiciones promedio, es hora de optimizarlas para obtener mejores clasificaciones y buscar tráfico.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 2&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; Ordena los datos de tu consulta de búsqueda para mostrar resultados con una posición promedio por encima de 10.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Ya que hay 10 resultados en la primera página de SERP, significa que la 11ª posición es el primer resultado del motor de búsqueda en la segunda página, una buena página para encontrar consultas de búsqueda que se pueden enviar a la primera.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;El mejor sitio donde esconder un cadáver en los buscadores es desde la segunda página en adelante…&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 3&lt;/strong&gt;**: **Reúne todos los resultados que se encuentran actualmente en la segunda página. Toma nota de los «términos de búsqueda de bajo rendimiento» (generalmente, con oportunidades de palabras clave de cola larga) que puede crear contenido atractivo y más rico para obtener ganancias de SEO rápidas.&lt;/p&gt;
+
+&lt;p&gt;Estas son algunas de las formas de mejorar estas páginas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disminuye el tiempo de carga de la página&lt;/strong&gt;: Google se toma la velocidad del sitio web muy en serio. Y los usuarios no perderán el tiempo esperando a que un sitio web se cargue. Un retraso de 1 segundo en el tiempo de carga de la página se traduce en un 11% menos de visitas y un 7% de pérdida en las conversiones de sitios web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agrega más palabras y valor a la página&lt;/strong&gt;: si tus páginas de bajo rendimiento tienen menos de 2.000 palabras, añade alguna más que proporcione valor. Así podrás aumentar tu ranking y tráfico de búsqueda.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Página responsive&lt;/strong&gt;: si crees que todos los visitantes de su sitio web provienen de dispositivos de escritorio, te equivocas. A través de Google Analytics podrás ver el tráfico que proviene de canales móviles (utiliza los segmentos avanzados o simplemente el &amp;lsquo;Informe de Dispositivos&amp;rsquo;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por lo tanto, hacer que tu página sea móvil y responsive es vital, ya que puede aumentar tu ranking y tráfico.&lt;/p&gt;
+
+&lt;p&gt;Google tomó esta decisión porque los usuarios de dispositivos móviles esperan que un sitio web y sus páginas estén optimizados para sus dispositivos. Alrededor del 48% de los consumidores dicen que no volverían a un sitio web si no se carga correctamente en sus dispositivos móviles.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Incluye más datos, imágenes, vídeos, elementos interactivos&lt;/strong&gt;: datos de origen de Google, sitios confiables, plataformas de investigación, organismos educativos y expertos de la industria. Incluye tantos datos que harán que las personas confíen más en tu contenido.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para aumentar el valor real y percibido de tu contenido, incluye elementos interactivos (por ejemplo, calculadoras, herramienta de estimación de tráfico, herramienta de conversión) y no olvides crear imágenes personalizadas (por ejemplo, infografías, gráficos, tablas, ilustraciones) para tu publicación.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Formatea correctamente el contenido&lt;/strong&gt;: no importa lo útil sea tu contenido. El formato muy importante. Debes tener en cuenta:
+
+&lt;ul&gt;
+&lt;li&gt;El titular: hazlo irresistible.&lt;/li&gt;
+&lt;li&gt;Escribe frases cortas y directas.&lt;/li&gt;
+&lt;li&gt;Cada párrafo, 2 – 4 líneas máximo. Un solo párrafo de línea podría incluso funcionar.&lt;/li&gt;
+&lt;li&gt;Usa viñetas y subtítulos para dividir grandes cantidades de información.&lt;/li&gt;
+&lt;li&gt;Haz el contenido práctico (si es posible, conviértelo en una guía paso a paso).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;4-repara-las-goteras-de-tus-páginas-de-búsqueda-principales&#34;&gt;4. Repara las &amp;ldquo;goteras&amp;rdquo; de tus páginas de búsqueda principales&lt;/h2&gt;
+
+&lt;p&gt;Hace unos meses, haciendo una auditoría de un sitio web, detecté que una de las página que más tráfico enviaba al sitio era en realidad una página con fugas.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, aunque la página estaba atrayendo muchas vistas únicas, no vi conversiones, en términos de suscripciones de correo electrónico, llamadas telefónicas, contacto de correo electrónico, ventas de productos, aumento de ingresos y reconocimiento general de la marca.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Puede que tus páginas de búsqueda principales tengan fugas, si se así podrías perder oportunidades para el tráfico de búsqueda, clientes potenciales y ventas en la mesa&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Conseguir más de un objetivo con una página de destino es una técnica que casi nunca funciona. &lt;strong&gt;No puedes esperar que una publicación de blog determinada te consiga suscriptores, cree tu marca y anime a la gente a comprar tu producto&lt;/strong&gt;. No funciona de esa manera. Define tu objetivo y alinea su contenido en esa dirección.&lt;/p&gt;
+
+&lt;p&gt;Analytics probablemente te mostrará las páginas populares, pero si ese no es el caso, haz clic en:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Todas las páginas&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Haz clic en la pestaña &lt;em&gt;&amp;lsquo;Visitas de página únicas&amp;rsquo;&lt;/em&gt; para mostrar primero las páginas más populares. Identifica las que tienen un alto porcentaje de rebote, (un ratio superior a 70% ya puede ser un claro indicador).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;¿Pero por qué los visitantes abandonan nuestra web? Muchas veces, los usuarios no encuentran lo que esperan y se van provocando una alta tasa de rebote. Para evitarlo, &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/cual-es-el-papel-del-cro-en-un-proyecto-digital/&#34; target=&#34;_blank&#34;&gt;debemos optimizar nuestras páginas&lt;/a&gt;. Estas son algunas sugerencias:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utiliza herramientas cualitativas como Crazy Egg, Google Optimize…&lt;/li&gt;
+&lt;li&gt;Ayúdate de mapas de calor.&lt;/li&gt;
+&lt;li&gt;Realiza test.&lt;/li&gt;
+&lt;li&gt;Consigue la opinión de tus visitantes, pídeles que te ayuden a identificar qué esperan ver en tu página y observa la ruta de conversión que toman.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;5-mejorar-los-enlaces-internos-con-contenido-popular&#34;&gt;5. Mejorar los enlaces internos con contenido popular&lt;/h2&gt;
+
+&lt;p&gt;Una vez que hayas identificado las páginas de destino (donde las personas ingresaron a tu sitio web desde una búsqueda o una campaña publicitaria) y las páginas de salida (donde se detuvieron después de interactuar con su página), es hora de mejorar la vinculación interna y la optimización general de su sitio web en la página.&lt;/p&gt;
+
+&lt;p&gt;Esto es vital porque cuando implementas las tácticas correctas de optimización en la página, puede aumentar tu tráfico de búsqueda y tu clasificación, lo que evitará que tus páginas tengan fugas.&lt;/p&gt;
+
+&lt;p&gt;Si tu página de inicio recibe mayor cantidad de tráfico, lo ideal es enlazar algunas de tus páginas internas. De esa manera, cuando se obtiene un enlace de confianza a la página de inicio, parte del contenido o el valor del enlace se transfiere a las páginas internas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&#34;https://neilpatel.com/es/&#34; target=&#34;_blank&#34;&gt;Neil Patel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay un informe en Google Analytics que nos muestra cuáles son las páginas internas a las que podemos redireccionar contenido de valor:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Conversiones &amp;gt; Ruta de objetivo invertida&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A continuación, selecciona el objetivo principal que deseas ver y analizar (yo he seleccionado &lt;em&gt;entered checkout&lt;/em&gt;). Verás las páginas anteriores con las que interactuaron los visitantes del sitio web antes de lograr este objetivo en tu página. Esa es la página con la que pasaron más tiempo interactuando antes de la conversión.&lt;/p&gt;
+
+&lt;p&gt;A partir de la información obtenida de Analytics, entendemos que estas páginas están convirtiendo a la mayoría de los visitantes en tu sitio web. Ahora el siguiente paso es canalizar todo ese tráfico a las páginas adecuadas.&lt;/p&gt;
+
+&lt;p&gt;Como regla general, cada vez que publiques contenido nuevo, enlaza tus páginas de mayor clasificación para que los visitantes puedan descubrirlas fácilmente. Los rastreadores de motores de búsqueda también siguen estos enlaces en la página.&lt;/p&gt;
+
+&lt;p&gt;Y lo más importante, Moz hizo un estudio (abajo comparto los links) y descubrió que los enlaces de páginas nuevas y sitios web nuevos transmiten &amp;ldquo;link juice&amp;rdquo;, uno de los factores de posicionamiento que más le gusta a Google.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h2&gt;
+
+&lt;p&gt;Para dar los primeros pasos para mejorar nuestro tráfico y nuestro ranking, empecemos con estos 5 consejos. En la segunda parte de este post, veremos los 5 restantes. ¡Espero que te sean útiles!&lt;/p&gt;
+
+&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

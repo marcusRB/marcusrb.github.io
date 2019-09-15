@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cookies | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/cookies/</link>
+      <atom:link href="https://www.marcusrb.com/tags/cookies/index.xml" rel="self" type="application/rss+xml" />
+    <description>cookies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Tue, 29 May 2018 21:35:20 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>cookies</title>
+      <link>https://www.marcusrb.com/tags/cookies/</link>
+    </image>
+    
+    <item>
+      <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
+      <link>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      <guid>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <description>
+
+&lt;h2 id=&#34;aquí-la-configuración-optima-para-estar-protegido-desde-el-25-de-mayo-2018-con-la-nueva-ley-de-protección-de-datos-y-no-tener-problemas&#34;&gt;Aquí la configuración optima para estar protegido desde el 25 de Mayo 2018 con la nueva ley de protección de datos y no tener problemas.&lt;/h2&gt;
+
+&lt;p&gt;Si estás aquí significa que ya has oído hablar del servicio CookieBot para administrar el GDPR en su sitio y le gustaría instalarlo con el Administrador de etiquetas de Google Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Tengo que darte dos noticias, una buena (¡hurra!) y una mala (¡doh!).&lt;/p&gt;
+
+&lt;p&gt;La buena noticia es que también hay una &lt;strong&gt;guía oficial de CookieBot&lt;/strong&gt; sobre cómo instalarlo con Google Tag Manager (&lt;a href=&#34;https://www.cookiebot.com/en/google-tag-manager-gdpr/&#34; target=&#34;_blank&#34;&gt;busque el enlace al final de esta guía&lt;/a&gt;). Esto es bueno porque los propietarios del servicio han entendido que Google Tag Manager ahora es esencial para administrar el seguimiento en los sitios.&lt;/p&gt;
+
+&lt;p&gt;Pero desafortunadamente hay malas noticias. La mala noticia es que la guía indicada por ellos no funciona exactamente al 100%, ya que no tiene en cuenta algunos detalles del funcionamiento técnico de Google Tag Manager, por lo que pierde uno de los principales beneficios.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, la guía oficial va a crear fallas de funcionamiento que también afectarían a las otras etiquetas de su contenedor.&lt;/p&gt;
+
+&lt;p&gt;¿Qué detalle? Te lo contaré despúes de su guía oficial. En pocas palabras, probando la guía, pensando, probando, pensando y probando, a final no me gustó. Y decidí poner mi mano para resolver este problema.&lt;/p&gt;
+
+&lt;p&gt;Tengo que decir que gracias a otras guías de otros usuarios, finalmente pude con el, solo no hubiera logrado solucionarlo del todo. Así que logré hacerlo más poderoso sin perder el potencial de Google Tag Manager.&lt;/p&gt;
+
+&lt;h3 id=&#34;ahora-voy-a-enumerar-lo-que-dice-la-guía-oficial-y-luego-lo-que-he-cambiado-y-cómo-lo-he-optimizado&#34;&gt;Ahora voy a enumerar lo que dice la guía oficial y luego lo que he cambiado y cómo lo he optimizado.&lt;/h3&gt;
+
+&lt;h4 id=&#34;paso-1-instale-el-script-con-una-etiqueta-html-personalizada&#34;&gt;PASO 1: INSTALE EL SCRIPT CON UNA ETIQUETA HTML PERSONALIZADA&lt;/h4&gt;
+
+&lt;p&gt;Lo primero que la guía dice que haga, es instalar el script de JavaScript para que funcione.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ATENCIÓN &amp;#8211; &lt;/strong&gt; deberá cambiar el &lt;em&gt;código de identificación&lt;/em&gt; con el que tiene dentro del panel de CookieBot en la pestaña &amp;#8220;Sus Scripts&amp;#8221;:&lt;/p&gt;
+
+&lt;p&gt;Ahora que ha encontrado el código de su CookieBot, tendrá que insertarlo en una secuencia de comandos dentro de una etiqueta HTML personalizada.&lt;/p&gt;
+
+&lt;p&gt;El script es el siguiente:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script id=&#34;Cookiebot&#34; src=&#34;https://consent.cookiebot.com/uc.js?cbid=00000000-0000-0000-0000-000000000000&#34; type=&#34;text/javascript&#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;br /&amp;gt;
+&amp;lt;script&amp;gt;
+function CookiebotCallback_OnAccept() {
+    if (Cookiebot.consent.preferences)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_preferences&#39;});
+    if (Cookiebot.consent.statistics)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_statistics&#39;});
+    if (Cookiebot.consent.marketing)
+        dataLayer.push({&#39;event&#39;:&#39;cookieconsent_marketing&#39;});
+}
+&amp;lt;/script&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;ETIQUETAS &amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de etiqueta: HTML personalizado&lt;/p&gt;
+
+&lt;p&gt;Agregar ACTIVADORES &amp;gt; &amp;#8220;Todas las páginas&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Guarde la etiqueta como: &amp;#8220;Consentimiento de GDPR de CookieBot&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;¿Qué hace este script? sencillo&lt;/p&gt;
+
+&lt;p&gt;Cree tres eventos personalizados según la elección del usuario en las cookies:&lt;/p&gt;
+
+&lt;p&gt;_preferencias (cookieconsent&lt;em&gt;preferences)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_estadísticos (cookieconsent&lt;em&gt;statistics)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_marketing (cookieconsent&lt;em&gt;marketing)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Probablemente ya hayas adivinado el siguiente paso, ¿verdad?&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-2-8211-crear-activadores&#34;&gt;PASO 2 &amp;#8211; CREAR ACTIVADORES&lt;/h4&gt;
+
+&lt;p&gt;Ahora que el script genera estos tres eventos personalizados, debemos capturarlos con tantos activadores de tipo de EVENTO PERSONALIZADO:&lt;/p&gt;
+
+&lt;p&gt;ACTIVADORES &amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: Evento Personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento: cookieconsent_preferences.&lt;/p&gt;
+
+&lt;p&gt;Guarde con el nombre: &amp;#8220;cookieconsent_preferences&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Haremos lo mismo para los otros dos eventos:&lt;/p&gt;
+
+&lt;p&gt;_cookieconsent&lt;em&gt;statistics&lt;/em&gt; y _cookieconsent&lt;em&gt;marketing&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-3-8211-conecte-los-activadores-a-sus-etiquetas&#34;&gt;PASO 3 &amp;#8211; CONECTE LOS ACTIVADORES A SUS ETIQUETAS&lt;/h4&gt;
+
+&lt;p&gt;Ahora que hemos creado tres eventos, tenemos que eliminar los activadores de tipo &amp;#8220;Página vista&amp;#8221; (es decir, Window Loaded, DOM Ready y PageView) encontrado previamente en la etiqueta, y reemplazarlos con tres eventos que hemos creado .&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, puede vincularlos a estas etiquetas:&lt;/p&gt;
+
+&lt;p&gt;Etiqueta principal de Google Analytics de páginas vistas&lt;/p&gt;
+
+&lt;p&gt;Facebook Pixel&lt;/p&gt;
+
+&lt;p&gt;Hotjar&lt;/p&gt;
+
+&lt;p&gt;Remarketing de AdWords&lt;/p&gt;
+
+&lt;p&gt;y así para el resto de etiquetas que afecten a las cookie de marketing y de social, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;A continuación se muestra un ejemplo de la página de Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-592&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png&#34; alt=&#34;&#34; width=&#34;992&#34; height=&#34;607&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM.png 992w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-300x184.png 300w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-768x470.png 768w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-239x146.png 239w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-50x31.png 50w, https://www.marcusrb.com/img/2018/05/Screen-Shot-2018-05-27-at-9.50.24-PM-123x75.png 123w&#34; sizes=&#34;(max-width: 992px) 100vw, 992px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-4-actualiza-activadores-personalizados&#34;&gt;PASO 4: ACTUALIZA ACTIVADORES PERSONALIZADOS&lt;/h4&gt;
+
+&lt;p&gt;Pero, ¿cómo gestionamos todos los demás activadores, cómo un Activador en la página de privacidad (en su guía, haga este ejemplo, pero para hacerle entender que podría ser un Activador de la página de agradecimiento)?&lt;/p&gt;
+
+&lt;p&gt;La guía oficial nos dice que agreguemos el evento como un parámetro de filtro de activador:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-593&#34; src=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png&#34; alt=&#34;&#34; width=&#34;836&#34; height=&#34;569&#34; srcset=&#34;https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers-.png 836w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--300x204.png 300w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--768x523.png 768w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--215x146.png 215w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--50x34.png 50w, https://www.marcusrb.com/img/2018/05/Controlling-cookies-with-multiple-triggers--110x75.png 110w&#34; sizes=&#34;(max-width: 836px) 100vw, 836px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-5-8211-actualiza-todos-los-activadores&#34;&gt;PASO 5 &amp;#8211; ACTUALIZA TODOS LOS ACTIVADORES&lt;/h4&gt;
+
+&lt;p&gt;Pero si tengo que administrar otros activadores, como clics o un enlace, ¿entonces, cómo lo hago?&lt;/p&gt;
+
+&lt;p&gt;La guía sugiere que creemos &lt;strong&gt;variables de JavaScript personalizadas&lt;/strong&gt; que detectarán las opciones de los usuarios sobre los tipos de cookies que desean recibir.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt; &amp;gt; Variables definidas por el usuario &amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: JavaScript personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: Cookiebot.consent.marketing&lt;/p&gt;
+
+&lt;p&gt;Ingrese el siguiente código y luego guarde&lt;/p&gt;
+
+&lt;pre&gt;function()&amp;lt;br /&amp;gt;
+{&amp;lt;br /&amp;gt;
+return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
+}&lt;/pre&gt;
+
+&lt;p&gt;Lo mismo puede ser replicado por las preferencias y estadísticas&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cookiebot.consent.preferences.toString()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cookiebot.consent.statistics.toString()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;La función devolverá verdadero o falso &lt;strong&gt;TRUE &lt;/strong&gt;o &lt;strong&gt;FALSE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El problema con esta versión es que JavaScript recibirá el valor solo después del evento Window Loaded (ventana cargada) y luego todas las etiquetas se deben administrar DESPUÉS del evento Window Loaded.&lt;/p&gt;
+
+&lt;p&gt;Como puede ver en la Vista de página y DOM Ready aún no está definido.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;En la práctica, perdemos todos los eventos nativos de Google Tag Manager (Vista de página y DOM Ready) porque tendremos que activar las etiquetas solo DESPUÉS de COMPROBAR la variable de tipo JavaScript.&lt;/p&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Por qué esta guía no está bien?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Me parece absurdo tener que renunciar a Page View y DOM Ready, ya que van a estropear los eventos personalizados conectados a ellos.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, &lt;strong&gt;la guía propuesta por Cookiebot no está funcionando.&lt;/strong&gt; Y esto no sería muy útil para aquellos que ya están utilizando desde hace años Google Tag Manager y tener que volver a re-escribir nuevamente códigos.&lt;/p&gt;
+
+&lt;p&gt;Véamos como funciona el atajo, gracias a Matteo Zambon donde se puede ver desde su &lt;a href=&#34;https://www.tagmanageritalia.it/how-to-fix-cookiebot-official-guide-and-protect-yourself-from-gdpr/&#34; target=&#34;_blank&#34;&gt;post en inglés de GDPR&lt;/a&gt;, el aporte a esta solución para los usuarios de Cookiebot y Tag Manager.&lt;/p&gt;
+
+&lt;p&gt;Gracias Matteo!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3 id=&#34;ahora-voy-a-enumerar-los-nuevos-pasos-optimizados&#34;&gt;Ahora voy a enumerar los nuevos pasos optimizados&lt;/h3&gt;
+
+&lt;h4 id=&#34;nuevo-paso-1-8211-crear-variables-de-cookiebot&#34;&gt;nuevo PASO 1 &amp;#8211; CREAR VARIABLES DE COOKIEBOT&lt;/h4&gt;
+
+&lt;p&gt;Antes que nada, crea una variable que contenga el código de tu &lt;strong&gt;CookieBot Id&lt;/strong&gt; que hemos tomado con el PASO 1 anterior.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Variables &amp;gt; Variables definidas por el usuario&amp;gt; Nuevo&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: constante&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieBotId&lt;/p&gt;
+
+&lt;p&gt;Valor: ingrese el valor de su identificación&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;p&gt;Ahora necesitaremos &lt;strong&gt;cuatro variables personalizadas&lt;/strong&gt; más:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.marketing&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.preferences&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CookieConsent.statistics&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-2-crear-la-varible-cookie&#34;&gt;nuevo PASO 2: CREAR LA VARIBLE COOKIE&lt;/h4&gt;
+
+&lt;p&gt;La CookieBot dispone de una cookie que contiene los valores de las opciones del usuario: &lt;strong&gt;CookieConsent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En este punto, sólo tenemos que tomar esa &amp;#8220;galleta&amp;#8221; con Google Administrador de etiquetas a través de una variable. Hacerlo es lo suficientemente simple&lt;/p&gt;
+
+&lt;p&gt;Variables&amp;gt; Variables definidas por el usuario&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: cookie propietaria&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieConsent&lt;/p&gt;
+
+&lt;p&gt;Nombre de la cookie: &amp;#8220;CookieConsent&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-3-crear-variables-de-consideración&#34;&gt;nuevo PASO 3: CREAR VARIABLES DE CONSIDERACIÓN&lt;/h4&gt;
+
+&lt;p&gt;Ahora que tenemos una variable que contiene las preferencias de cookies podemos crear tres variables para manejar los valores. Para hacerlo, usaremos un poco de astucia y expresiones regulares&lt;/p&gt;
+
+&lt;p&gt;Variables&amp;gt; Variables definidas por el usuario&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de variable: tabla de expresiones regulares&lt;/p&gt;
+
+&lt;p&gt;Valor de entrada: {{CookieConsent}}&lt;/p&gt;
+
+&lt;p&gt;Patrón: marketing: verdadero ► Salida: verdadero&lt;/p&gt;
+
+&lt;p&gt;Patrón: marketing: falso ► Salida: falso&lt;/p&gt;
+
+&lt;p&gt;Configuración avanzada: solo marca ignorar mayúsculas y minúsculas&lt;/p&gt;
+
+&lt;p&gt;Nombre de la variable: CookieConsent.marketing&lt;/p&gt;
+
+&lt;p&gt;Guardar&lt;/p&gt;
+
+&lt;p&gt;Vamos a repetir el mismo procedimiento para las otras dos CookieConsent.statistics y variables CookieConsent.preferences, teniendo cuidado incluso cambiar los valores en el campo &amp;#8220;Patrón&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Pero ¿Por qué estas variables?&lt;/p&gt;
+
+&lt;p&gt;Uhhh &amp;#8230; espera, ahora te lo diré.&lt;/p&gt;
+
+&lt;p&gt;Tendremos el valor de la preferencia del usuario mucho antes de la ventana cargada. En otras palabras, no habrá problemas en la gestión de Google Administrador de etiquetas de eventos predefinidos.&lt;/p&gt;
+
+&lt;p&gt;Yuppieeeeeeee!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-4-8211-instala-el-guión-con-una-etiqueta-html-personalizado&#34;&gt;nuevo PASO 4 &amp;#8211; Instala el guión con una etiqueta HTML personalizado&lt;/h4&gt;
+
+&lt;p&gt;El procedimiento es similar al primer mal paso, pero con algunos cambios para instalar la secuencia de comandos es la siguiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tipo de etiqueta:&lt;/em&gt; &lt;strong&gt;HTML personalizado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Configuración avanzada&lt;/em&gt;: opciones de activación de etiqueta: &amp;#8220;&lt;strong&gt;Una vez por página&lt;/strong&gt;&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Activadores&lt;/em&gt;: &lt;strong&gt;&amp;#8220;Todas las páginas&amp;#8221;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Guarde la etiqueta como &amp;#8220;CookieBot GDPR consentimiento&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;VEMOS EN EL DETALLE LO QUE HA SIDO CAMBIADO.&lt;/p&gt;
+
+&lt;p&gt;Primero me puse esta etiqueta se activa sólo una vez por página (por lo que se evita que se carguen dos veces).&lt;/p&gt;
+
+&lt;p&gt;Pasemos al segundo cambio. Si ha notado añadí otra condición antes de cada impulso en la capa de datos. De esta manera, ahora hay dos condiciones:&lt;/p&gt;
+
+&lt;p&gt;la primera condición comprueba la existencia de la función de JavaScript&lt;/p&gt;
+
+&lt;p&gt;la segunda condición ocurre que ya ha sido registrada y el CookieConsent que el valor es diferente de verdaderos (gracias a las Tablas expresiones regulares ya creados).&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, el evento personalizado se inserta en la pila sólo si el usuario ya posee CookieConsent (y por lo tanto ya ha expresado su preferencia sobre qué tipo de cookies para aceptar) y si ese tipo de cookie (preferencias, estadísticas o comercialización) no fue aceptado.&lt;/p&gt;
+
+&lt;p&gt;Por qué esto? Lo explicaré en los siguientes pasos.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4 id=&#34;nuevo-paso-5-8211-create-el-activador-igual-a-la-etapa-2&#34;&gt;nuevo PASO 5 &amp;#8211; CREATE el activador (igual a la etapa 2)&lt;/h4&gt;
+
+&lt;p&gt;Este fue el único paso realmente útil en la guía anterior.&lt;/p&gt;
+
+&lt;p&gt;Ahora que la secuencia de comandos genera estos tres eventos personalizados tenemos que cogerlos con la mayor cantidad de activadores de tipo Evento personalizado.&lt;/p&gt;
+
+&lt;p&gt;Activadores&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: evento personalizado.&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento: cookieconsent_preferences.&lt;/p&gt;
+
+&lt;p&gt;Guarde con el nombre: &amp;#8220;cookieconsent_preferences&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Vamos a hacer lo mismo para los otros dos eventos: cookieconsent_statistics y cookieconsent_marketing&lt;/p&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+
+&lt;h4 id=&#34;paso-6-crear-activadores-negativos&#34;&gt;PASO 6: CREAR ACTIVADORES NEGATIVOS&lt;/h4&gt;
+
+&lt;p&gt;Además de los PASO 5 Activadores, debemos crear activadores con lógica inversa.&lt;/p&gt;
+
+&lt;p&gt;Generalmente los llamo activadores negativos. Tendremos que ponerlos como los activadores de tipo de excepción en las etiquetas más comunes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tipo de activador&lt;/em&gt;: &lt;strong&gt;Visualización de página&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Este activador se activa en&lt;/em&gt;: &lt;strong&gt;algunas vistas de página&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;_Activar este activado_r: &lt;strong&gt;CookieConsent.marketing&lt;/strong&gt; no es igual a &lt;strong&gt;TRUE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Guardar como: &amp;#8220;Fail cookieconsent_marketing&amp;#8217;.&lt;/p&gt;
+
+&lt;p&gt;Haremos lo mismo para las estadísticas y preferencias.&lt;/p&gt;
+
+&lt;p&gt;¿Cómo generar universal negativa ACTIVADOR DE válidas para ningún EN TODO MOMENTO&lt;/p&gt;
+
+&lt;p&gt;El ejemplo que acabamos de ver se aplica solo a la vista de página. Pero si tuviera las etiquetas que se activan al hacer clic o cualquier otro tipo de activador como lo hacemos?&lt;/p&gt;
+
+&lt;p&gt;Ahora te lo explicaré&lt;/p&gt;
+
+&lt;p&gt;Activadores&amp;gt; Nuevo.&lt;/p&gt;
+
+&lt;p&gt;Tipo de activador: evento personalizado&lt;/p&gt;
+
+&lt;p&gt;Nombre del evento :. *&lt;/p&gt;
+
+&lt;p&gt;Indicador Utiliza coincidencia de expresión regular: verdadero&lt;/p&gt;
+
+&lt;p&gt;Este disparador se activa en CookieConsent.preference no es igual a la verdadera&lt;/p&gt;
+
+&lt;p&gt;Guardar con el nombre: &amp;#8220;CookieConsente.preference&amp;#8221;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

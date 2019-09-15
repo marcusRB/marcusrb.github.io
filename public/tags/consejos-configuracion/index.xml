@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>consejos configuración | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/tags/consejos-configuracion/</link>
+      <atom:link href="https://www.marcusrb.com/tags/consejos-configuracion/index.xml" rel="self" type="application/rss+xml" />
+    <description>consejos configuración</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Wed, 20 Mar 2019 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>consejos configuración</title>
+      <link>https://www.marcusrb.com/tags/consejos-configuracion/</link>
+    </image>
+    
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (2/2)</title>
+      <link>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</guid>
+      <description>
+
+&lt;p&gt;Google Analytics lleva años siendo la herramienta de referencia en marketing no solo a nivel de extracción de métricas, sino también a la hora de comprender el comportamiento de los usuarios de nuestro sitio web.&lt;/p&gt;
+
+&lt;p&gt;Pero Google Analytics no deja de ser un mastodonte enorme donde obtener determinados datos es, a veces, casi una misión imposible, sobre todo si estamos empezando a trabajar con la plataforma.&lt;/p&gt;
+
+&lt;p&gt;Ya la semana pasada &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34; target=&#34;_blank&#34;&gt;recopilamos algunos consejos que nos facilitan el uso de la herramienta&lt;/a&gt;. Hoy continuamos con otras &lt;strong&gt;5 recomendaciones que seguro que te ayudarán a exprimir al máximo Google Analytics&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/Google-Analytics.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;6-aumenta-la-tasa-de-conversión-con-la-métrica-de-la-tasa-de-rebote&#34;&gt;6. Aumenta la tasa de conversión con la métrica de la tasa de rebote&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;La tasa de rebote es una métrica importante porque proviene del compromiso del usuario con tu página web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Curiosamente, la tasa de rebote es comúnmente mal entendida y mal interpretada por muchos webmasters, bloggers y profesionales de SEO.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;La tasa de rebote es básicamente el porcentaje de visitas de una sola página o sesiones web. En términos de palabras, el porcentaje de rebote representa el porcentaje de visitantes del sitio web que llegaron a una página en particular y se alejaron después de ver una página (por ejemplo, la página de «servicios»).&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La tasa de rebote es esa métrica que revela cuánto de útil es realmente tu contenido.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cuanto menor sea la tasa de rebote, en la mayoría de los casos, mejor&lt;/strong&gt;. Lo que significa que un porcentaje de rebote del 34% es, evidentemente, mucho mejor que el 87%. Debido a que el porcentaje más bajo es una indicación de que tu contenido es útil, los usuarios quedaron satisfechos y se mantuvieron cerca.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: De todas formas, tampoco es útil tomar como referencia solo esta métrica y decir que 34% es mejor que 87% si no lo ponemos en contexto, valoramos los objetivos que tenemos establecidos, como por ejemplo interacciones, tiempo de visita, canal de captación…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Al final, nuestro objetivo debe ser monitorear la tasa de rebote y tratar de reducirla. Si lo que quieres reducir es la tasa de rebote de tus páginas de destino, puedes hacerlo siguiendo esta ruta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Páginas de destino&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada pequeña mejora en la tasa de rebote probablemente producirá una mayor conversión.&lt;/p&gt;
+
+&lt;h3 id=&#34;veamos-un-ejemplo&#34;&gt;Veamos un ejemplo&lt;/h3&gt;
+
+&lt;p&gt;Un sitio web de automatización de marketing y CRM notó que su tasa de rebote había aumentado un 42% durante un período de 3 meses.&lt;/p&gt;
+
+&lt;p&gt;Tomaron los pasos correctos para arreglarlo. Cambiaron el formato del texto, mejoraron el enlace interno y agregaron un vídeo a la página de inicio. Como resultado, el sitio web registró un aumento del 15% en el envío de formularios.&lt;/p&gt;
+
+&lt;p&gt;Si observas en Google Analytics una tasa de rebote muy alta en algunas de tus páginas de mayor rendimiento con respecto a las otras, pregúntate cuál podría ser la razón. Audita las páginas afectadas y optimízalas para aumentar las conversiones.&lt;/p&gt;
+
+&lt;h2 id=&#34;7-utilizar-consultas-de-búsqueda-en-el-sitio&#34;&gt;7. Utilizar consultas de búsqueda en el sitio&lt;/h2&gt;
+
+&lt;p&gt;Hay muchos sitios web demasiado complicados de usar. La información o contenido importante está oculto y en muchos casos las páginas se rompen cuando los visitamos a través de dispositivos móviles. Este escenario molesta a los usuarios.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, una pista de que los visitantes que llegan a nuestra web son nuestro target, es cuando usan el buscador interno.&lt;/p&gt;
+
+&lt;h3 id=&#34;sabes-los-términos-de-búsqueda-que-están-buscando&#34;&gt;¿Sabes los términos de búsqueda que están buscando?&lt;/h3&gt;
+
+&lt;p&gt;Desde Google Analytics es bastante fácil descubrir estos términos. Por lo tanto, es necesario configurar un informe para obtener esa información.&lt;/p&gt;
+
+&lt;p&gt;Desde la configuración de vista, activamos la opción de &amp;lsquo;Seguimiento de la búsqueda en el sitio&amp;rsquo; (tal como indica la imagen), y tendríamos que añadir el parámetro de consulta:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: para añadir el/los parámetros de consulta, en la mayoría de los casos, simplemente añade lo que sucede después del carácter &lt;strong&gt;?&lt;/strong&gt; en la ruta:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ej.&lt;/p&gt;
+
+&lt;p&gt;Fíjate en este parámetro &lt;strong&gt;q&lt;/strong&gt; , este será el valor que tendrás que añadir.&lt;/p&gt;
+
+&lt;p&gt;WordPress por defecto tiene &lt;strong&gt;q&lt;/strong&gt; (está por query), algún otro CMS del mercado tendrá otro similar, aquí os menciono unos cuantos: query, search, searchword, searchquery, consulta, s, q, qs, string, searchq…&lt;/p&gt;
+
+&lt;p&gt;Quizás la manera más sencilla es que realices tú mismo una búsqueda y te fijes en cómo cambia la ruta después de una búsqueda. Hay casos que mostrará el valor y hay otros casos que simplemente no devolverá nada (páginas dinámicas).&lt;/p&gt;
+
+&lt;p&gt;Al analizar este informe, puedes ver las palabras clave exactas que las personas escribieron en tu buscador interno, directamente en tu sitio web.&lt;/p&gt;
+
+&lt;p&gt;Aquí es cómo localizar este informe importante:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Búsqueda en el sitio &amp;gt; Términos de búsqueda&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que esté el informe cumplimentado con estos términos de búsqueda en el sitio, puedes mejorar tus conversiones de varias maneras. Puedes recomendar productos y servicios relacionados con las palabras clave.&lt;/p&gt;
+
+&lt;p&gt;Incluso puedes utilizar la información que recopiles en tus campañas de correo electrónico. ¡O mejor aún! &lt;strong&gt;Investiga cuál es la palabra clave más frecuente y crea páginas de destino específicas de alto valor para atender a este segmento de visitantes del sitio web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;8-utilice-las-expresiones-regulares-en-filtros-y-reportes&#34;&gt;8. Utilice las expresiones regulares en filtros y reportes&lt;/h2&gt;
+
+&lt;p&gt;Obtendrás mayor potencia y resultados de Google Analytics si automatizas algunas de las tareas. Entonces, si bien la mayoría de estos consejos han sido sobre el uso de la interfaz, este es un poco diferente y es aplicable en muchos lugares diferentes dentro de Google Analytics (y el Administrador de etiquetas de Google).&lt;/p&gt;
+
+&lt;h3 id=&#34;qué-son-las-expresiones-regulares&#34;&gt;¿Qué son las expresiones regulares?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Las expresiones regulares son una forma de diferenciarse del usuario casual de Google Analytics&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Una breve definición: son una forma de describir patrones en texto usando caracteres especiales. Expliquemos un poco más en detalle en qué consisten.&lt;/p&gt;
+
+&lt;p&gt;Supongamos que estás viendo tu informe de &lt;em&gt;&amp;lsquo;Todas las páginas&amp;rsquo;&lt;/em&gt; dentro de Google Analytics y que quieres definir algunas páginas específicas. Tal vez las páginas de Inicio, Servicios y Acerca de nosotros.&lt;/p&gt;
+
+&lt;p&gt;Puedes extraer todo el informe, desplazarte para encontrar las páginas que necesitas y anotar los números. O puedes cargar el informe, buscar Inicio, realizar una nueva búsqueda de Servicios y después realizar una nueva búsqueda de Quiénes somos.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Inicio &lt;strong&gt;Or&lt;/strong&gt; Servicios &lt;strong&gt;Or&lt;/strong&gt; Quiénes somos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Se vería algo como esto: ^ (/ | / services / | / about-us /) $&lt;/p&gt;
+
+&lt;p&gt;El carácter de expresión regular más fácil de aprender es el pipe o &amp;ldquo;palito&amp;rdquo; &lt;strong&gt;|&lt;/strong&gt;, que simplemente significa &lt;strong&gt;OR&lt;/strong&gt;. Hay otros caracteres para indicar caracteres opcionales, «comienza con» y «termina con», ¡y muchos más!&lt;/p&gt;
+
+&lt;p&gt;Si quieres investigar más sobre expresiones regulares, te dejo las siguientes guías:&lt;/p&gt;
+
+&lt;h2 id=&#34;9-sigue-el-camino-de-la-generación-de-leads-antes-de-que-conviertan&#34;&gt;9. Sigue el camino de la generación de leads antes de que conviertan&lt;/h2&gt;
+
+&lt;p&gt;Existe una obsesión con la generación de leads. Muchos olvidan que alimentar a los clientes potenciales existentes es la mejor manera de hacer crecer un negocio. Probablemente tengas un representante de ventas o un departamento responsable de nutrir a tus clientes potenciales, pero ¿les delegas responsabilidad?&lt;/p&gt;
+
+&lt;p&gt;Previamente, debemos calificar a nuestros clientes potenciales y comprender su trayectoria por nuestro sitio web. Según las estadísticas de HubSpot, &lt;em&gt;«solo el 25% de los clientes potenciales son legítimos y deben ser enviados a un representante de ventas»&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Los clientes potenciales suelen pasar por tres etapas básicas para &lt;strong&gt;confiar&lt;/strong&gt;**, **&lt;strong&gt;creer&lt;/strong&gt; y &lt;strong&gt;gustar&lt;/strong&gt;. Así es como funciona el marketing online. El proceso de 3 pasos implica:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conciencia.&lt;/li&gt;
+&lt;li&gt;Consideración.&lt;/li&gt;
+&lt;li&gt;Decisión.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En realidad, hay una manera muy fácil de hacer esto con una búsqueda en el mismo informe. En todos los informes de Google Analytics, el cuadro de filtro de la tabla acepta expresiones regulares de forma predeterminada, lo que significa que solo puedes escribir en ese cuadro de búsqueda una frase que represente:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para comprender los diversos puntos de contacto que atraviesan los usuarios antes de comprar y las páginas a las que acceden en tu sitio web podemos consultarlo en Google Analytics siguiendo esta ruta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Flujo del Comportamiento&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para obtener resultados imparciales, céntrate en los nuevos usuarios de tu sitio web que no tengan experiencia previa con tu marca. Por lo tanto, ordénalos por nuevos usuarios o nuevas visitas. Luego, podrás ver cómo los nuevos usuarios interactúan con tus páginas, desde dónde comenzaron, cómo se fueron, etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;**: **También sería útil profundizar un poco más, quizás con segmentos por dispositivo o por canal de adquisición.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Conocer las secuencias comunes del historial de páginas y cómo los nuevos usuarios se involucran, navegan y utilizan tus páginas web ayudarán a crear una mejor experiencia de usuario en el sitio.&lt;/p&gt;
+
+&lt;h2 id=&#34;10-analizar-el-compromiso-de-la-página-entre-el-móvil-y-el-escritorio&#34;&gt;10. Analizar el compromiso de la página entre el móvil y el escritorio&lt;/h2&gt;
+
+&lt;p&gt;Como el uso de dispositivos móviles ha superado el tráfico de escritorio, según comScore, no debe descuidar a los usuarios de escritorio. Porque no a todos les gusta usar dispositivos móviles. Y ciertas tareas se realizan más fácilmente en una pantalla de escritorio más grande que en una pantalla más pequeña.&lt;/p&gt;
+
+&lt;p&gt;Como propietario de un negocio, comercial digital o propietario de un sitio web, &lt;strong&gt;no gastes todo tu tiempo y recursos optimizando las conversiones del sitio web solo para usuarios de dispositivos móviles, hazlo también para usuarios de escritorio&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Obviamente, los dispositivos móviles pueden generar la mayor cantidad de tráfico para tu sitio web, lo que es bueno. Aquí puedes encontrar y analizar los resultados entre los canales móviles y de escritorio.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Audiencia &amp;gt; Dispositivos móviles &amp;gt; Visión general&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/02/GA-8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En el momento en que ingreses al informe, segmenta sus datos tabulados seleccionando tu objetivo de conversión/ventas principal o principal.&lt;/p&gt;
+
+&lt;p&gt;En la imagen, si miramos en términos de ingresos, se puede ver que el móvil (37%) y el tablet (9%) generaron menos conversiones en comparación con el escritorio (54%).&lt;/p&gt;
+
+&lt;p&gt;Comparando el ratio de conversión, estamos a un 0,80% en tablet; 0,42% escritorio y solo un 0,09% en dispositivos móviles. Parece que genera muchas más sesiones el móvil por tener un ratio más bajo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Consejo profesional&lt;/strong&gt;: si tu segmento móvil no genera suficiente tráfico o ventas, hay una tendencia a suponer que a los usuarios no les resulta fácil navegar por tu sitio con un dispositivo móvil. Asegúrate de analizar las diferencias en el tráfico, el comportamiento y las conversiones (ventas).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+
+&lt;p&gt;Google Analytics es su apuesta segura para descubrir &lt;em&gt;insights&lt;/em&gt; u oportunidades que pueden mejorar también el posicionamiento orgánico en Google.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, la optimización del motor de búsqueda no es una estrategia de marketing digital que se establece y se olvida. Debe abordarse con un enfoque holístico e impulsado por datos, al mismo tiempo que se aprovecha el contenido atractivo de un sitio web para ganar tracción, atraer clientes potenciales calificados a un sitio web, aumentar su posicionamiento y aumentar sus ventas.&lt;/p&gt;
+
+&lt;p&gt;Cuando entiendes lo que motiva a las personas a usar tu sitio web, es más fácil hablar su idioma y hacer que participen con contenido bien pensado.&lt;/p&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/dev/guia-de-google-analytics-10-consejos-utiles-para-aumentar-su-trafico-y-ranking-2-2/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/dev/guia-de-google-analytics-10-consejos-utiles-para-aumentar-su-trafico-y-ranking-2-2/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (1/2)</title>
+      <link>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</link>
+      <pubDate>Tue, 05 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</guid>
+      <description>
+
+&lt;p&gt;¿Qué empresa que tenga parte de su negocio online no desea tener más tráfico? Da igual el sector al que pertenezca, su tamaño, su facturación… la respuesta siempre será sí. Y si el tráfico es de calidad, será un plus mayor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Analytics nos proporciona una enorme cantidad de datos que podemos aprovechar para aumentar nuestro tráfico orgánico y mejorar el ranking en buscadores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, debemos ser conscientes de que no podemos lograr resultados de la noche a la mañana. &lt;strong&gt;El proceso de conseguir más tráfico nos va a llevar tiempo, pero la espera hará que los resultados merezcan la pena&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Con la enorme información que proporciona Google Analytics, saber cómo &amp;ldquo;moverse&amp;rdquo; por su compleja plataforma y superar los informes básicos entre métricas y ajustes, es fundamental para su éxito.&lt;/p&gt;
+
+&lt;p&gt;En esta guía, detallamos cada una de las perspectivas de Google Analytics y cómo puedes implementarlo de inmediato en tu sitio web para aumentar la visibilidad de tu búsqueda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/consejos-google-analytics.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1-aprovecha-las-notificaciones-y-alertas-de-google-analytics-por-correo-electrónico&#34;&gt;1. Aprovecha las notificaciones y alertas de Google Analytics por correo electrónico&lt;/h2&gt;
+
+&lt;p&gt;Los informes por correo electrónico son la forma más fácil de pasar menos tiempo investigando entre datos. La pregunta es, &lt;strong&gt;¿cómo configurar un informe de correo electrónico de Google Analytics?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Este es un ejemplo de una alerta de correo electrónico que recibí el 26 de diciembre de Google Analytics:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este simple truco nos ahorrará muchísimo tiempo. &lt;strong&gt;Google Analytics genera demasiada información y la clave es saber obtener los datos que nos interesan&lt;/strong&gt;. Y si pueden llegar a nuestro email, mejor.&lt;/p&gt;
+
+&lt;p&gt;Sin duda, &lt;strong&gt;uno de los desafíos para las empresas es extraer datos útiles y Google Analytics es una buena herramienta para ello&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mi primera experiencia con Google Analytics no fue nada agradable, entré en mi cuenta y me quedé sentado durante horas, sin saber qué hacer, cómo obtener los datos y cómo interpretar incluso los datos en el panel.&lt;/p&gt;
+
+&lt;p&gt;Para configurar las alertas personalizadas, inicia sesión en tu cuenta y dirígete a la sección de &lt;strong&gt;Administrar&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A continuación, encontrarás la pestaña «&lt;strong&gt;Alertas personalizadas&lt;/strong&gt;«:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Puedes configurar fácilmente alertas personalizadas para recibir actualizaciones por correo electrónico y notificaciones de mensajes de texto cada vez que ocurra un evento (o cualquier acción que consideres relevante para tu sitio web).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cuando utilizamos las &lt;em&gt;&amp;lsquo;Condiciones de alerta&amp;rsquo;&lt;/em&gt; es fácil personalizar escenarios específicos para recibir alertas por correo electrónico. Por ejemplo, si tu sitio web experimenta un aumento o disminución en el tráfico, o si un objetivo específico se completa en los últimos días.&lt;/p&gt;
+
+&lt;p&gt;Independientemente de las notificaciones que desees, puedes configurarlas y Google Analytics te las enviará por correo electrónico.&lt;/p&gt;
+
+&lt;p&gt;Puedes crear todas las alertas que quieras para monitorear (diaria, semanalmente…) visitas únicas, páginas vistas, tasa de rebote, datos demográficos, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-optimizar-y-mejorar-las-rutas-a-través-de-su-sitio-web&#34;&gt;2. Optimizar y mejorar las rutas a través de su sitio web.&lt;/h2&gt;
+
+&lt;p&gt;En principio, &lt;strong&gt;tu página de inicio es el punto clave de tu sitio web y desde donde se conectan tus páginas internas&lt;/strong&gt;. Por lo tanto, &lt;strong&gt;debes tener muy en cuenta el diseño y la experiencia que proporciona a los usuarios&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cuando rediseñamos nuestro sitio web, debemos aseguramos que el diseño esté claramente trazado. Esto es importante porque va a determinar cómo se verá y funcionará todo el sitio web en su conjunto.&lt;/p&gt;
+
+&lt;p&gt;Pero Google Analytics nos dice algo completamente diferente. Cuando consultes tus páginas o páginas de destino más populares, notarás que, en la mayoría de los casos, hay páginas distintas a la página de inicio que reciben más tráfico.&lt;/p&gt;
+
+&lt;p&gt;Esto pasa independientemente del tamaño de tu sitio web. Si tienes un blog adjunto y lo actualizas con frecuencia, verás que aproximadamente el 30% del tráfico entrante proviene de la página de inicio y, el resto, de las páginas de tu blog (gracias a las palabras clave de larga cola), que son las que generan tráfico y conversación en las consultas de búsqueda.&lt;/p&gt;
+
+&lt;p&gt;Entramos en la interfaz y seguimos estos pasos:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Informe de flujo de comportamiento:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Todas las páginas:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Haremos clic en la pestaña del &lt;strong&gt;&amp;lsquo;Resumen de navegación&amp;rsquo;&lt;/strong&gt; en el panel de Google Analytics. Ahí podrás ver de dónde viene el tráfico y qué páginas visitaron tus usuarios.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El &lt;strong&gt;panel de la izquierda es la ruta de la página anterior&lt;/strong&gt;, y &lt;strong&gt;el de la derecha el de las páginas siguientes&lt;/strong&gt;. Hay que tener en cuenta que está filtrado por página de destino, aunque podríamos filtrarlo también por: agrupación de páginas (marcas, categorías superiores, género, autores, etc.), previa configuración en la vista principal…&lt;/p&gt;
+
+&lt;h3 id=&#34;cómo-se-mueven-las-personas-en-tu-sitio&#34;&gt;Cómo se mueven las personas en tu sitio&lt;/h3&gt;
+
+&lt;p&gt;Por último, pero no menos importante, puedes ver las páginas a las que van los visitantes después de interactuar con la primera página de tu sitio web.&lt;/p&gt;
+
+&lt;p&gt;Con esta información podemos (y debemos) mejorar la navegación de nuestros visitantes, haciendo llamadas a la acción más claras, intuitivas y atractivas.&lt;/p&gt;
+
+&lt;p&gt;Ahora que conocemos la ruta que hacen estos usuarios por nuestra web, podemos llevar a cabo algunas acciones que nos ayuden a generar leads en las páginas más visitadas. Por ejemplo, incluir formularios de suscripción.&lt;/p&gt;
+
+&lt;p&gt;Si ignoramos esta información, dejaremos de prestar atención a clientes potenciales y desaprovecharemos un tráfico orgánico de calidad que puede aportarnos muchas ventajas.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;«Las empresas que adoptan un enfoque estructurado hacia la optimización de la conversión tienen dos veces más probabilidades de ver un gran aumento en las ventas».&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;3-aprovecha-las-páginas-de-bajo-ratios-para-mejorar-el-rendimiento-de-búsqueda-orgánica&#34;&gt;3. Aprovecha las páginas de &amp;lsquo;bajo ratios&amp;rsquo; para mejorar el rendimiento de búsqueda orgánica&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;¿Conoces los términos de búsqueda que actualmente te están enviando tráfico?&lt;/strong&gt; Puedes profundizar en esto en el &lt;em&gt;&amp;lsquo;Informe de consultas&amp;rsquo;&lt;/em&gt; de tu cuenta de Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Para ello, deberíamos tener vinculada y verificada la cuenta de &lt;strong&gt;Search Console&lt;/strong&gt;**, **para consultar las mediciones de performance de nuestro site, así como reportes de consultas de búsquedas directamente de nuestro buscador Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez vinculada la cuenta de Search Console en nuestro Google Analytics, habilitaremos el informe aquí indicado desde:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Adquisición &amp;gt; Search Console &amp;gt; Páginas de destino o Consultas&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si tienes las alertas correctamente configuradas, podrás recibir la información que hayas seleccionado en tu email. Sin embargo, para obtener las consultas de bajo rendimiento, tendrás que hacerlo manualmente.&lt;/p&gt;
+
+&lt;p&gt;Por razones de privacidad, Google dejó de pasar los datos de referencia a los propietarios de sitios web. Si ves el mensaje &lt;em&gt;&amp;lsquo;Not provided&amp;rsquo;&lt;/em&gt; esa es la razón.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, los anunciantes de Google Ads sí pueden ver estos datos en su panel.&lt;/p&gt;
+
+&lt;p&gt;Por otro lado, las páginas «ocultas» rara vez se mostrarán. Algunos estudios aseguran que el 75% de los usuarios de Google no se molestan en hacer clic más allá de la primera página de resultados.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-9.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si quieres optimizar las páginas de tu site que no funcionen, esto son algunos consejos que te ayudarán a conseguirlo:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 1&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; una vez que localices tus consultas de búsqueda y tus posiciones promedio, es hora de optimizarlas para obtener mejores clasificaciones y buscar tráfico.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 2&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; Ordena los datos de tu consulta de búsqueda para mostrar resultados con una posición promedio por encima de 10.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Ya que hay 10 resultados en la primera página de SERP, significa que la 11ª posición es el primer resultado del motor de búsqueda en la segunda página, una buena página para encontrar consultas de búsqueda que se pueden enviar a la primera.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;El mejor sitio donde esconder un cadáver en los buscadores es desde la segunda página en adelante…&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 3&lt;/strong&gt;**: **Reúne todos los resultados que se encuentran actualmente en la segunda página. Toma nota de los «términos de búsqueda de bajo rendimiento» (generalmente, con oportunidades de palabras clave de cola larga) que puede crear contenido atractivo y más rico para obtener ganancias de SEO rápidas.&lt;/p&gt;
+
+&lt;p&gt;Estas son algunas de las formas de mejorar estas páginas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disminuye el tiempo de carga de la página&lt;/strong&gt;: Google se toma la velocidad del sitio web muy en serio. Y los usuarios no perderán el tiempo esperando a que un sitio web se cargue. Un retraso de 1 segundo en el tiempo de carga de la página se traduce en un 11% menos de visitas y un 7% de pérdida en las conversiones de sitios web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agrega más palabras y valor a la página&lt;/strong&gt;: si tus páginas de bajo rendimiento tienen menos de 2.000 palabras, añade alguna más que proporcione valor. Así podrás aumentar tu ranking y tráfico de búsqueda.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Página responsive&lt;/strong&gt;: si crees que todos los visitantes de su sitio web provienen de dispositivos de escritorio, te equivocas. A través de Google Analytics podrás ver el tráfico que proviene de canales móviles (utiliza los segmentos avanzados o simplemente el &amp;lsquo;Informe de Dispositivos&amp;rsquo;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por lo tanto, hacer que tu página sea móvil y responsive es vital, ya que puede aumentar tu ranking y tráfico.&lt;/p&gt;
+
+&lt;p&gt;Google tomó esta decisión porque los usuarios de dispositivos móviles esperan que un sitio web y sus páginas estén optimizados para sus dispositivos. Alrededor del 48% de los consumidores dicen que no volverían a un sitio web si no se carga correctamente en sus dispositivos móviles.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Incluye más datos, imágenes, vídeos, elementos interactivos&lt;/strong&gt;: datos de origen de Google, sitios confiables, plataformas de investigación, organismos educativos y expertos de la industria. Incluye tantos datos que harán que las personas confíen más en tu contenido.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para aumentar el valor real y percibido de tu contenido, incluye elementos interactivos (por ejemplo, calculadoras, herramienta de estimación de tráfico, herramienta de conversión) y no olvides crear imágenes personalizadas (por ejemplo, infografías, gráficos, tablas, ilustraciones) para tu publicación.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Formatea correctamente el contenido&lt;/strong&gt;: no importa lo útil sea tu contenido. El formato muy importante. Debes tener en cuenta:
+
+&lt;ul&gt;
+&lt;li&gt;El titular: hazlo irresistible.&lt;/li&gt;
+&lt;li&gt;Escribe frases cortas y directas.&lt;/li&gt;
+&lt;li&gt;Cada párrafo, 2 – 4 líneas máximo. Un solo párrafo de línea podría incluso funcionar.&lt;/li&gt;
+&lt;li&gt;Usa viñetas y subtítulos para dividir grandes cantidades de información.&lt;/li&gt;
+&lt;li&gt;Haz el contenido práctico (si es posible, conviértelo en una guía paso a paso).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;4-repara-las-goteras-de-tus-páginas-de-búsqueda-principales&#34;&gt;4. Repara las &amp;ldquo;goteras&amp;rdquo; de tus páginas de búsqueda principales&lt;/h2&gt;
+
+&lt;p&gt;Hace unos meses, haciendo una auditoría de un sitio web, detecté que una de las página que más tráfico enviaba al sitio era en realidad una página con fugas.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, aunque la página estaba atrayendo muchas vistas únicas, no vi conversiones, en términos de suscripciones de correo electrónico, llamadas telefónicas, contacto de correo electrónico, ventas de productos, aumento de ingresos y reconocimiento general de la marca.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Puede que tus páginas de búsqueda principales tengan fugas, si se así podrías perder oportunidades para el tráfico de búsqueda, clientes potenciales y ventas en la mesa&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Conseguir más de un objetivo con una página de destino es una técnica que casi nunca funciona. &lt;strong&gt;No puedes esperar que una publicación de blog determinada te consiga suscriptores, cree tu marca y anime a la gente a comprar tu producto&lt;/strong&gt;. No funciona de esa manera. Define tu objetivo y alinea su contenido en esa dirección.&lt;/p&gt;
+
+&lt;p&gt;Analytics probablemente te mostrará las páginas populares, pero si ese no es el caso, haz clic en:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Comportamiento &amp;gt; Contenido del sitio &amp;gt; Todas las páginas&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Haz clic en la pestaña &lt;em&gt;&amp;lsquo;Visitas de página únicas&amp;rsquo;&lt;/em&gt; para mostrar primero las páginas más populares. Identifica las que tienen un alto porcentaje de rebote, (un ratio superior a 70% ya puede ser un claro indicador).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;¿Pero por qué los visitantes abandonan nuestra web? Muchas veces, los usuarios no encuentran lo que esperan y se van provocando una alta tasa de rebote. Para evitarlo, &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/cual-es-el-papel-del-cro-en-un-proyecto-digital/&#34; target=&#34;_blank&#34;&gt;debemos optimizar nuestras páginas&lt;/a&gt;. Estas son algunas sugerencias:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utiliza herramientas cualitativas como Crazy Egg, Google Optimize…&lt;/li&gt;
+&lt;li&gt;Ayúdate de mapas de calor.&lt;/li&gt;
+&lt;li&gt;Realiza test.&lt;/li&gt;
+&lt;li&gt;Consigue la opinión de tus visitantes, pídeles que te ayuden a identificar qué esperan ver en tu página y observa la ruta de conversión que toman.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;5-mejorar-los-enlaces-internos-con-contenido-popular&#34;&gt;5. Mejorar los enlaces internos con contenido popular&lt;/h2&gt;
+
+&lt;p&gt;Una vez que hayas identificado las páginas de destino (donde las personas ingresaron a tu sitio web desde una búsqueda o una campaña publicitaria) y las páginas de salida (donde se detuvieron después de interactuar con su página), es hora de mejorar la vinculación interna y la optimización general de su sitio web en la página.&lt;/p&gt;
+
+&lt;p&gt;Esto es vital porque cuando implementas las tácticas correctas de optimización en la página, puede aumentar tu tráfico de búsqueda y tu clasificación, lo que evitará que tus páginas tengan fugas.&lt;/p&gt;
+
+&lt;p&gt;Si tu página de inicio recibe mayor cantidad de tráfico, lo ideal es enlazar algunas de tus páginas internas. De esa manera, cuando se obtiene un enlace de confianza a la página de inicio, parte del contenido o el valor del enlace se transfiere a las páginas internas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&#34;https://neilpatel.com/es/&#34; target=&#34;_blank&#34;&gt;Neil Patel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay un informe en Google Analytics que nos muestra cuáles son las páginas internas a las que podemos redireccionar contenido de valor:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Conversiones &amp;gt; Ruta de objetivo invertida&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/01/GA-12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A continuación, selecciona el objetivo principal que deseas ver y analizar (yo he seleccionado &lt;em&gt;entered checkout&lt;/em&gt;). Verás las páginas anteriores con las que interactuaron los visitantes del sitio web antes de lograr este objetivo en tu página. Esa es la página con la que pasaron más tiempo interactuando antes de la conversión.&lt;/p&gt;
+
+&lt;p&gt;A partir de la información obtenida de Analytics, entendemos que estas páginas están convirtiendo a la mayoría de los visitantes en tu sitio web. Ahora el siguiente paso es canalizar todo ese tráfico a las páginas adecuadas.&lt;/p&gt;
+
+&lt;p&gt;Como regla general, cada vez que publiques contenido nuevo, enlaza tus páginas de mayor clasificación para que los visitantes puedan descubrirlas fácilmente. Los rastreadores de motores de búsqueda también siguen estos enlaces en la página.&lt;/p&gt;
+
+&lt;p&gt;Y lo más importante, Moz hizo un estudio (abajo comparto los links) y descubrió que los enlaces de páginas nuevas y sitios web nuevos transmiten &amp;ldquo;link juice&amp;rdquo;, uno de los factores de posicionamiento que más le gusta a Google.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h2&gt;
+
+&lt;p&gt;Para dar los primeros pasos para mejorar nuestro tráfico y nuestro ranking, empecemos con estos 5 consejos. En la segunda parte de este post, veremos los 5 restantes. ¡Espero que te sean útiles!&lt;/p&gt;
+
+&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

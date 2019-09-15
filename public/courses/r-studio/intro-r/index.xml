@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción de R | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/courses/r-studio/intro-r/</link>
+      <atom:link href="https://www.marcusrb.com/courses/r-studio/intro-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>Introducción de R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Introducción de R</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/</link>
+    </image>
+    
+    <item>
+      <title>Prácticas 1 - Introducción</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Da clic a &amp;lsquo;Submit Answer&amp;rsquo; y date cuenta como la consola ejecuta el código de R del editor: la solución 7 aparece como la suma de 3 y 4. El uso más simple de R es como una calculadora y graficadora, pero por supuesto hay mucho, mucho, mucho más!&lt;/li&gt;
+&lt;li&gt;Añade una linea que haga el calculo de 6 y 12.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Este es el editor y la parte de abajo es la consola
+
+# El símbolo de numeral # es utilizada para hacer comentarios
+
+# Calcula 3 + 4
+3 + 4
+
+# Calcula 6 + 12
+6 + 12
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;aritmética-con-r&#34;&gt;Aritmética con R&lt;/h2&gt;
+
+&lt;p&gt;Como vimos el uso más simple que se le puede dar a R es el de una calculadora. Consideremos las siguientes operaciones:&lt;/p&gt;
+
+&lt;p&gt;Adición: +
+Resta: -
+Multiplicación: *
+División: /
+Exponenciación: ^
+Modulo: %%
+Los últimos dos necesitan una breve explicación:&lt;/p&gt;
+
+&lt;p&gt;El operador ^ eleva el número a la izquierda a la potencia a la derecha 3^2 es 9
+El módulo (mod) %% calcula el residuo de la división del número a la izquierda por el número a la derecha, por ejemplo 5 mod 3 o 5%%3 es 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Escribe 2^5 en el editor para calcular 2 a la quinta potencia.&lt;/li&gt;
+&lt;li&gt;Escribe 28 %% 6 para calcular el 28 módulo 6.
+Da clic a &amp;lsquo;Submit Answer&amp;rsquo; para ver el resultado en la consola.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Adición
+5 + 5
+
+# Resta
+5 - 5
+
+# Multiplicación
+3 * 5
+
+ # División
+(5 + 5) / 2
+
+# Exponenciación
+2^5
+
+# Modulo
+28 %% 6
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;variables-y-asignaciones&#34;&gt;Variables y asignaciones&lt;/h2&gt;
+
+&lt;p&gt;Un concepto básico en programación es el de variable.&lt;/p&gt;
+
+&lt;p&gt;Una variable nos permite guardar valores (por ejemplo el número 4) o algún objeto (veremos mas adelante de que se trata) en R. Luego puedes acceder al valor guardado en la variable por medio del nombre de la misma.&lt;/p&gt;
+
+&lt;p&gt;Podemos asignar el valor de 4 a la variable mi_variable con el siguiente comando: mi_variable &amp;lt;- 4&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completa el código en el editor de tal manera que el valor de 42 quede asignado a la variable x. Da clic en &amp;lsquo;Submit Answer&amp;rsquo;. Nota al escribir x en R, se imprime el valor de 42 en la consola.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Asigna 42 a x
+x &amp;lt;- 42
+
+# Imprime el valor de la variable x
+x
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;variables-y-asignaciones-2&#34;&gt;Variables y asignaciones (2)&lt;/h2&gt;
+
+&lt;p&gt;Supongamos que tienes una canasta con cinco manzanas. Para recordarlo, quizás quieras asignar el número de manzanas en una variable llamada numero_manzanas&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Escribe el siguiente código: numero_manzanas &amp;lt;- 5 para asignar el numero 5 a la variable numero_manzanas.&lt;/li&gt;
+&lt;li&gt;Escribe: numero_manzanas abajo del segundo comentario.
+Da clic a &amp;lsquo;Submit Answer&amp;rsquo;, ve la consola: el numero que sea ha impreso es 5.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Asigna el valor de 5 a la variable numero_manzanas
+numero_manzanas &amp;lt;- 5
+
+
+# Imprime el valor de la variable numero_manzanas
+numero_manzanas
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;variables-y-asignaciones-3&#34;&gt;Variables y asignaciones (3)&lt;/h2&gt;
+
+&lt;p&gt;Supongamos que ahora tienes 6 naranjas. De nuevo, para no olvidarlo se te ocurre crear una variable llamada numero_naranjas y asignar el valor de 6 a esa variable. Ahora podemos a empezar a utilizar las variables creadas para hacer algo con ellas. Usemos R para saber el número total de frutas con las que contamos, pidamos que haga la cuenta por nosotros: numero_manzanas + numero_naranjas. Al leer este codigo nos damos cuenta de la importancia de dar nombres útiles a nuestras variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asigna a numero_naranjas el valor de 6.&lt;/li&gt;
+&lt;li&gt;R permite combinar estas variables numero_manzanas y numero_naranjas en una nueva variable numero_frutas. Crea la variable numero_frutas y asigna el valor del total de frutas que tenemos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Asigna el valor de 5 y 6 a las variables numero_manzanas y numero_naranjas respectivamente
+numero_manzanas &amp;lt;- 5
+numero_naranjas &amp;lt;- 6
+
+# Suma estas dos variables e imprime el resultado.
+numero_manzanas + numero_manzanas
+
+#Crea la variable numero_frutas y asigna el resultado de la suma anterior.
+numero_frutas &amp;lt;- (numero_manzanas + numero_naranjas)
+numero_frutas
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;manzanas-y-naranjas&#34;&gt;Manzanas y naranjas&lt;/h2&gt;
+
+&lt;p&gt;En la escuela primaria nos decían que no sumáramos manzanas con naranjas, pero es lo que acabamos de hacer :) \n Sin embargo numero_manzanas y numero_naranjas son dos variables que contienen el mismo tipo de dato: un dato de tipo numérico. El operador + en R funciona con variables de este tipo. Si alguna de nuestras variables no es numérica sino por ejemplo caracter (ver el editor), entonces estaríamos tratando de asignar la suma de un caracter y un número a la variable numero_frutas, lo cual no es posible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Da clic a &amp;lsquo;Submit Answer&amp;rsquo; lee el mensaje de error, asegúrate de entender que dice (puedes copiar y pegar el texto en ingles en un traductor)&lt;/li&gt;
+&lt;li&gt;Ajusta el código para que R deje de mostrar ese error.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tipos-de-datos-básicos-en-r&#34;&gt;Tipos de datos básicos en R&lt;/h2&gt;
+
+&lt;p&gt;R trabaja con muchos tipos de datos. Para empezar, algunos de los más básicos son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decimales como 4.5 son llamados numeric (numéricos).&lt;/li&gt;
+&lt;li&gt;Números enteros como 4 son llamados (sorpresa!) integer (enteros).&lt;/li&gt;
+&lt;li&gt;Valores Booleanos (TRUE (Verdadero) o FALSE (Falso)) logical (lógicos).&lt;/li&gt;
+&lt;li&gt;Texto (cadenas de caracteres) son characters (caracteres).
+Nota como utilizamos las comillas para denotar el texto en el editor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cambia los valores de:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mi_numerica a 42.&lt;/li&gt;
+&lt;li&gt;mi_caracter a &amp;ldquo;cuarenta_y_dos&amp;rdquo;. Nota como utilizamos las comillas.&lt;/li&gt;
+&lt;li&gt;mi_logica a FALSE (Falso).
+Ten en cuenta que R distingue entre mayúsculas y minúsculas!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Un valor numérico
+mi_numerica &amp;lt;- 42
+
+# Asignando una cadena de caracteres (o simplemente caracteres) nota el uso de las comillas
+mi_caracter &amp;lt;- &amp;quot;cuarenta_y_dos&amp;quot;
+
+# Asignando un valor lógico verdadero
+mi_logica &amp;lt;- FALSE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;## ¿Cómo sé el tipo de dato?
+¿Recuerdas que cuando añadiste 5 + &amp;ldquo;seis&amp;rdquo; obtuviste un error debido a que los tipos de datos no coincidian? Para evitar estas penosas situaciones :\ puedes saber de antemano el tipo de dato que tienen tus variables utilizando el código class(nombre_variable)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completa el código en el editor para imprimir a la consola el tipo de dato de las variables mi_numerica, mi_caracter y mi_logica.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Declarando las variables de diferentes tipos
+mi_numerica &amp;lt;- 40
+mi_caracter &amp;lt;- &amp;quot;cuarenta&amp;quot;
+mi_logica &amp;lt;- FALSE
+
+# Escribe el código para averiguar el tipo de dato de cada variable
+class(mi_numerica)
+class(mi_caracter)
+class(mi_logica)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prácticas 2 - Vectores</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-vectores/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-vectores/</guid>
+      <description>
+
+&lt;h2 id=&#34;creando-vectores&#34;&gt;Creando vectores&lt;/h2&gt;
+
+&lt;p&gt;Te sientes de suerte?&lt;/p&gt;
+
+&lt;p&gt;Eso espero, porque en este capítulo vamos de viaje a la Ciudad del Pecado, también conocida como el &amp;ldquo;Paraíso del estadístico&amp;rdquo; ;-).&lt;/p&gt;
+
+&lt;p&gt;Gracias a R y a tus nuevas habilidades analíticas, vas a aprender cómo mejorar tus ganancias en el casino y empezar una lucrativa carrera como jugador profesional. En este capítulo veremos cómo puedes fácilmente llevar la cuenta de tus apuestas y como hacer análisis simples de tus jugadas. Próxima parada&amp;hellip; Viva las Vegas!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Esperamos que recuerdes lo que aprendiste en el capítulo anterior. Asigna el valor &amp;ldquo;Alla vamos!&amp;rdquo; a la variable Vegas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Define la variable Vegas
+Vegas &amp;lt;- &amp;quot;Alla vamos!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;creando-vectores-2&#34;&gt;Creando vectores (2)&lt;/h2&gt;
+
+&lt;p&gt;Primero concentrémonos.&lt;/p&gt;
+
+&lt;p&gt;En nuestro camino a para quebrar al casino, haremos uso extensivo de los vectores. Un vector es un arreglo unidimensional que puede contener datos numéricos, caracteres, o valores lógicos. En otras palabras un vector es una herramienta simple para guardar un conjunto de datos del mismo tipo. Por ejemplo podemos llevar la cuenta de las ganancias y pérdidas en los juegos de casino.&lt;/p&gt;
+
+&lt;p&gt;En R, se crea un vector con la función c(). La función se llama c por &amp;ldquo;combinar&amp;rdquo;. Se ponen los valores o elementos del vector dentro de paréntesis, separados por coma. Por ejemplo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vector_numerico &amp;lt;- c(1, 2, 3)
+vector_caracter &amp;lt;- c(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)
+vector_logico &amp;lt;- c(TRUE, FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Una vez has creado estos vectores en R puedes usarlos para hacer cálculos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completa el código de tal manera que el vector_logico contenga tres elementos: TRUE, FALSE y TRUE (en ese orden).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;vector_numerico &amp;lt;- c(1, 10, 49)
+vector_caracter &amp;lt;- c(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)
+# Completa el código para vector_logico
+vector_logico &amp;lt;- c(TRUE, FALSE, TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;creando-vectores-3&#34;&gt;Creando vectores (3)&lt;/h2&gt;
+
+&lt;p&gt;Después de una semana en Las Vegas y cero Ferraris en tu garage, decides que es hora de empezar a utilizar tus super-poderes analíticos.&lt;/p&gt;
+
+&lt;p&gt;Antes de hacer un primer análisis, decides llevar un registro de todas tus ganancias y pérdidas de la semana pasada:&lt;/p&gt;
+
+&lt;p&gt;En el poker:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lunes: ganaste 140&lt;/li&gt;
+&lt;li&gt;Martes: perdiste 50&lt;/li&gt;
+&lt;li&gt;Miercoles: ganaste 20&lt;/li&gt;
+&lt;li&gt;Jueves: perdiste 120&lt;/li&gt;
+&lt;li&gt;Viernes: ganaste 240&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En la ruleta:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lunes: perdiste 24&lt;/li&gt;
+&lt;li&gt;Martes: perdiste 50&lt;/li&gt;
+&lt;li&gt;Miercoles: ganaste 100&lt;/li&gt;
+&lt;li&gt;Jueves: perdiste 350&lt;/li&gt;
+&lt;li&gt;Viernes: ganaste 10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Solamente has jugado poker y ruleta, porque un grupo de adivinos se ha apoderado de la mesa de dados. Para poder utilizar esos datos en R, decides crear las variables vector_poker y vector_ruleta.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Ahora asigna los días de la semana como nombres a los vectores vector_poker y vector_ruleta. Usa los nombres con mayúscula inicial y sin acentos (esto no es clase de ortografía&amp;hellip;): Lunes, Martes, Miercoles, Jueves y Viernes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imprime los vectores en la consola&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Asigna los nombres a los vectores
+names(vector_poker) &amp;lt;- c(&amp;quot;Lunes&amp;quot;,&amp;quot;Martes&amp;quot;,&amp;quot;Miercoles&amp;quot;,&amp;quot;Jueves&amp;quot;,&amp;quot;Viernes&amp;quot;)
+names(vector_ruleta) &amp;lt;- c(&amp;quot;Lunes&amp;quot;,&amp;quot;Martes&amp;quot;,&amp;quot;Miercoles&amp;quot;,&amp;quot;Jueves&amp;quot;,&amp;quot;Viernes&amp;quot;)
+
+# Imprime los vectores en la consola
+vector_poker
+vector_ruleta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;nombrando-elementos-2&#34;&gt;Nombrando elementos (2)&lt;/h2&gt;
+
+&lt;p&gt;Si quieres ser un buen estadístico, tienes que ser un poco perezoso. (Si ya eres perezoso, quizás hayas nacido con esos excepcionales talentos estadísticos.)&lt;/p&gt;
+
+&lt;p&gt;En los ejercicios anteriores probablemente sentiste que es aburrido escribir una y otra vez información como los días de la semana. Sin embargo, existe una manera mas eficiente de lograr esto, que tal si asignamos el vector que contiene los días de la semana a una variable.&lt;/p&gt;
+
+&lt;p&gt;Así como lo hiciste con las ganancias/pérdidas de la ruleta y el poker, puedes también crear un vector que contenga los días de la semana. Al asignarlo a una variable, éste puede ser reusado.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crea la variable vector_dias que contenga un vector con los días de la semana, de Lunes a Viernes.&lt;/li&gt;
+&lt;li&gt;Usa la variable vector_dias para asignar nombres a los elementos de vector_poker y vector_ruleta.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Crea la variable vector_dias
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;,&amp;quot;Martes&amp;quot;,&amp;quot;Miercoles&amp;quot;,&amp;quot;Jueves&amp;quot;,&amp;quot;Viernes&amp;quot;)
+
+# Asigna los nombres a los elementos de vector_poker y vector_ruleta
+names(vector_poker) &amp;lt;-   vector_dias
+names(vector_ruleta) &amp;lt;-  vector_dias
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;calculando-las-ganancias-totales&#34;&gt;Calculando las ganancias totales&lt;/h2&gt;
+
+&lt;p&gt;Ahora que tienes los resultados del poker y la ruleta en un vector con elementos apropiadamente nombrados, puedes empezar a hacer análisis.&lt;/p&gt;
+
+&lt;p&gt;Veremos como encontrar la siguiente información:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La ganancia/pérdida total por cada día de la semana.&lt;/li&gt;
+&lt;li&gt;La ganancia/pérdida total en la semana.&lt;/li&gt;
+&lt;li&gt;Sabremos si estas ganando o perdiendo dinero en el poker y en la ruleta.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para saber lo que nos proponemos tenemos que hacer cálculos aritméticos con los vectores. Cuando sumamos dos vectores en R, éste hace la suma elemento por elemento, por ejemplo las siguientes líneas de código son completamente equivalentes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;c(1, 2, 3) + c(4, 5, 6)
+c(1 + 4, 2 + 5, 3 + 6)
+c(5, 7, 9)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Primero experimentemos sumando!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Toma la suma de las variables vector_A y vector_B y asígnala a vector_total.&lt;/li&gt;
+&lt;li&gt;Mira el resultado imprimiendo el valor de vector_total en la consola.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;vector_A &amp;lt;- c(1, 2, 3)
+vector_B &amp;lt;- c(4, 5, 6)
+
+# Asigna la suma de vector_A y vector_B
+vector_total &amp;lt;- vector_A + vector_B
+
+# Imprime el vector_total a la consola
+vector_total
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;calculando-las-ganancias-totales-2&#34;&gt;Calculando las ganancias totales (2)&lt;/h2&gt;
+
+&lt;p&gt;¿Entendiste como R realiza aritmética con los vectores?&lt;/p&gt;
+
+&lt;p&gt;Ya es hora de tener uno de esos Ferraris en el garage! Primero, hay que saber cuál fue la ganancia/pérdida por cada día. La ganancia neta de cada día es la suma de las ganancias/pérdidas que hiciste en el poker y en la ruleta.&lt;/p&gt;
+
+&lt;p&gt;En R, este cálculo es simplemente la suma de &lt;em&gt;vector_ruleta&lt;/em&gt; y &lt;em&gt;vector_poker&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Asigna a la variable total_diario lo que ganaste/perdiste cada día en total (poker y ruleta combinado).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Nombra los elementos de total_diario utilizando vector_dias.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imprime total_diario en la consola para que puedas ver tus resultados totales en cada día de la semana. Cuáles fueron los días buenos y los días malos?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Calculando las ganancias/pérdidas diarias:
+total_diario &amp;lt;- vector_ruleta + vector_poker
+
+# Dando nombres a total_diario
+names(total_diario) &amp;lt;- vector_dias
+
+# Imprime total_diario a la consola para ver tus resultados por día
+  total_diario
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;calculando-ganancias-totales-3&#34;&gt;Calculando ganancias totales (3)&lt;/h2&gt;
+
+&lt;p&gt;Basado en los análisis previos, parece que tuviste una mezcla de días buenos y malos. Esto no era lo que tu ego esperaba, y te preguntas si quizás hay una (muy pequeña) posibilidad de que hayas perdido dinero en la semana.&lt;/p&gt;
+
+&lt;p&gt;La función que nos ayudará a contestar esta pregunta es sum(). Ésta función calcula la suma de todos los elementos de un vector. Por ejemplo para calcular (y asignar a una variable) el monto total de dinero que has ganado/perdido en el poker en la semana, escribe:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;total_poker &amp;lt;- sum(vector_poker)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calcula el monto total de dinero que has ganado/perdido en la ruleta, asígnalo a la variable _total&lt;em&gt;ruleta&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Ahora que tienes los totales para la ruleta y el poker, puedes fácilmente calcular el valor de _total&lt;em&gt;semana&lt;/em&gt;, que es la suma de todas las ganancias y pérdidas en la semana.&lt;/li&gt;
+&lt;li&gt;Imprime el valor de _total&lt;em&gt;semana&lt;/em&gt; a la consola. ¿En total ganaste o perdiste en la semana?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de Poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Ganancias totales en el poker
+total_poker &amp;lt;- sum(vector_poker)
+
+# Ahora completa el código:
+total_ruleta &amp;lt;- sum(vector_ruleta)
+total_semana &amp;lt;- sum(total_poker + total_ruleta)
+
+#Imprime el total que ganaste/perdiste en la semana
+total_semana
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;comparando-ganancias-totales&#34;&gt;Comparando ganancias totales&lt;/h2&gt;
+
+&lt;p&gt;Mmmmm&amp;hellip;. parece que estás perdiendo dinero. Que sorpresa! Hora de repensar tu estrategia! Esto va a requerir un análisis más profundo.&lt;/p&gt;
+
+&lt;p&gt;Después de una breve lluvia de ideas en el jacuzzi del hotel, piensas que una posible explicación puede ser que tus habilidades en la ruleta no están tan bien desarrolladas como las de poker. Así que talvez tus ganancias totales en el poker son más grandes (&amp;gt;) que en la ruleta.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calcula total_poker y total_ruleta como en el ejercicio anterior.&lt;/li&gt;
+&lt;li&gt;Fíjate si tus ganancias totales en el poker son más altas que en la ruleta haciendo una comparación. Asigna el resultado de esta comparación a la variable respuesta. ¿Cuál es tu conclusión? ¿Deberías dedicarte a la ruleta o al poker?&lt;/li&gt;
+&lt;li&gt;Imprime respuesta a la consola.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Ganancias totales en el poker y en la ruleta
+total_poker &amp;lt;- sum(vector_poker)
+total_ruleta &amp;lt;- sum(vector_ruleta)
+
+# Probando si las ganancias en el poker son más altas que en la ruleta:
+respuesta &amp;lt;- total_poker &amp;gt; total_ruleta
+
+# Imprime respuesta a la consola
+respuesta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;seleccionando-elementos-los-buenos-tiempos&#34;&gt;Seleccionando elementos: los buenos tiempos&lt;/h2&gt;
+
+&lt;p&gt;La corazonada parece que fue cierta. Parece que te va mejor en el poker que en la ruleta.&lt;/p&gt;
+
+&lt;p&gt;Otro posible aspecto a investigar son tus resultados al comienzo de la semana comparados con los últimos días. Talvez te excediste en los tequilas al final de la semana&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Para responder esta pregunta, concentrémonos en solo unos elementos del vector_total. En otras palabras, nuestro objetivo es seleccionar elementos específicos de los vectores. Para seleccionar elementos de un vector (y luego matrices, data frames, etc.), puedes utilizar los corchetes. Entre corchetes indicamos los elementos que queremos seleccionar. Por ejemplo, para seleccionar el primer elemento de un vector, escribes vector_poker[1]. Para seleccionar el segundo elemento escribimos vector_poker[2], etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asigna tu ganancia del Miércoles a la variable _poker&lt;em&gt;miercoles&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Asigna el valor de lo ganado el Miercoles en el poker
+poker_miercoles &amp;lt;- vector_poker[3]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;seleccionando-elementos-los-buenos-tiempos-2&#34;&gt;Seleccionando elementos: los buenos tiempos (2)&lt;/h2&gt;
+
+&lt;p&gt;¿Qué tal si analizamos los resultados en los días medios de la semana?&lt;/p&gt;
+
+&lt;p&gt;Para seleccionar múltiples elementos de un vector, puedes hacerlo usando corchetes. En el ejercicio anterior pusimos un número, llamado índice, entre los corchetes y obtuvimos el elemento del vector correspondiente a ese índice. Para seleccionar varios elementos podemos utilizar otro vector cuyos elementos son los índices que deseamos seleccionar. Por ejemplo, para seleccionar el primero y el quinto elemento usamos el vector c(1,5) dentro de los corchetes. El siguiente código selecciona el primero y quinto elementos de vector_poker:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vector_poker[c(1,5)]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asigna los resultados de obtenidos del poker de los días Martes, Miercoles y Jueves a la variable dias_medios_poker.&lt;/li&gt;
+&lt;li&gt;Imprime el vector dias_medios_poker a la consola para ver sus elementos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Define la nueva variable:
+dias_medios_poker &amp;lt;- vector_poker[c(2,3,4)]
+
+# Imprime dias_medios_poker
+dias_medios_poker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;seleccionando-elementos-los-buenos-tiempos-3&#34;&gt;Seleccionando elementos: los buenos tiempos (3)&lt;/h2&gt;
+
+&lt;p&gt;Seleccionar varios elementos del vector_poker con c(2,3,4) quizás no sea muy conveniente. Recordemos como estadísticos nuestras raíces perezosas, así que usemos una notación que R utiliza para crear vectores de números consecutivos c(2,3,4) se puede crear con el código 2:4, que genera el vector que contiene los números naturales del 2 al 4 (incluyendo ambos extremos).&lt;/p&gt;
+
+&lt;p&gt;Así que ahora tenemos otra manera de seleccionar los elementos que corresponden a los días medios de la semana: vector_poker[2:4].&lt;/p&gt;
+
+&lt;p&gt;Quizás en este ejemplo no haya mucha diferencia entre c(2,3,4) y 2:4 pero imagina que tuviéramos que extraer los primeros 80 elementos consecutivos de un vector, con la primera notación tendríamos que escribir todos los números del 1 al 80, sin embargo ahora sabemos que podemos hacerlo así de simple: 1:80.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asigna los resultados del Martes al Viernes del vector_ruleta a la variable martes_a_viernes_ruleta. Utiliza la notación de dos puntos:.&lt;/li&gt;
+&lt;li&gt;Imprime martes_a_viernes_ruleta en la consola.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Define la nueva variable siguiendo las instrucciones
+martes_a_viernes_ruleta &amp;lt;- vector_ruleta[c(2:5)]
+
+#Imprime martes_a_viernes_ruleta en la consola
+martes_a_viernes_ruleta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;seleccionando-elementos-los-buenos-tiempos-4&#34;&gt;Seleccionando elementos: los buenos tiempos (4)&lt;/h2&gt;
+
+&lt;p&gt;Otra forma de abordar este problema es usar los nombres de los elementos (Lunes, Martes, etc.) en lugar de sus índices. Por ejemplo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vector_poker[&amp;quot;Lunes&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Seleccionará el primer elemento de vector_poker porque el primer elemento es el que tiene el nombre &amp;ldquo;Lunes&amp;rdquo;. De la misma manera en que lo hicimos en el ejercicio anterior, puedes utilizar un vector que tenga los nombres de los elementos que deseas extraer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vector_poker[c(&amp;quot;Lunes&amp;quot;,&amp;quot;Martes&amp;quot;)]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calcula tus ganancias promedio durante los primeros tres días de la semana seleccionando los elementos por nombre. Asigna este valor a promedio_primeros3_dias. Puedes usar la función mean() para obtener el promedio de los elementos de un vector.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Only poker results
+promedio_primeros3_dias &amp;lt;- mean((vector_poker)[c(&amp;quot;Lunes&amp;quot;,&amp;quot;Martes&amp;quot;,&amp;quot;Miercoles&amp;quot;)])
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;selección-por-comparación-paso-1&#34;&gt;Selección por comparación - Paso 1&lt;/h2&gt;
+
+&lt;p&gt;Al utilizar los operadores de comparación, podemos abordar las preguntas anteriores de una manera más interesante.&lt;/p&gt;
+
+&lt;p&gt;Los operadores de comparación en R son los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; menor que&lt;/li&gt;
+&lt;li&gt;&amp;gt; mayor que&lt;/li&gt;
+&lt;li&gt;&amp;gt;= mayor o igual que&lt;/li&gt;
+&lt;li&gt;== igualdad&lt;/li&gt;
+&lt;li&gt;!= no igual&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Como ya hemos visto, 6 &amp;gt; 5 da un valor verdadero: TRUE. Una característica muy buena de R es que puedes utilizar operaciones de comparación también en vectores. por ejemplo c(4,5,6) &amp;gt; 5 resulta en: FALSE, FALSE, TRUE. En otras palabras R hace la comparación por cada elemento y responde TRUE o FALSE dependiendo del resultado de la comparación. Esto es muy interesante y puede ser difícil de entender, practícalo en la consola!&lt;/p&gt;
+
+&lt;p&gt;Internamente, R recicla el valor 5 cuando ejecuta c(4,5,6) &amp;gt; 5. R quiere hacer una comparación elemento por elemento de c(4,5,6) con 5, pero 5 no es un vector de tamaño 3. Para resolver esto R crea el vector c(5,5,5) y luego hace la comparación elemento por elemento.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Obtengamos los días en que obtuvimos valores positivos (&amp;gt; 0) en el poker (vector_poker) y asignémoslo a la variable positivos_poker.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Que días obtiviste ganancias en el poker?
+positivos_poker &amp;lt;- vector_poker &amp;gt; 0
+positivos_poker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;selección-por-comparación-paso-2&#34;&gt;Selección por comparación - Paso 2&lt;/h2&gt;
+
+&lt;p&gt;Trabajar con comparaciones hará tu vida analítica más fácil. En lugar de seleccionar &amp;ldquo;a mano&amp;rdquo; un conjunto de días para analizar (como en los primeros ejercicios), puedes decirle a R que te seleccione solo aquellos días en los que tuviste ganancias en el poker.&lt;/p&gt;
+
+&lt;p&gt;En el ejercicio anterior usaste positivos_poker &amp;lt;- vector_poker &amp;gt;0 para encontrar aquellos días en los cuales tuviste ganancias. Ahora, nos gustaría saber no solo los días, sino las cantidades que ganaste en esos días.&lt;/p&gt;
+
+&lt;p&gt;Puedes seleccionar los elementos deseados usando positivos_poker entre corchetes para seleccionar los elementos de vector_poker. Esto funciona, porque R seleccionará solo aquellos elementos en los cuales el vector positivos_poker tiene un valor verdadero (TRUE).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;
+- Asigna las ganancias en el poker a la variable ganancias_poker.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Que días obtuviste ganancias en el poker?
+selection_vector &amp;lt;- vector_poker &amp;gt; 0
+
+# Selecciona de vector_poker los días con ganancias
+ganancias_poker &amp;lt;- vector_poker[selection_vector]
+
+#Imprime
+ganancias_poker
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;selección-avanzada&#34;&gt;Selección Avanzada&lt;/h2&gt;
+
+&lt;p&gt;Así como lo hiciste con el poker, también quisieras saber aquellos días en los que tuviste ganancia en la ruleta.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asigna los valores de las ganancias que tuviste en la ruleta a la variable ganancias_ruleta. Es decir selecciona solo aquellos valores de vector_ruleta que son positivos y asignalos a la variable ganancias_ruleta.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Script R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resultados en la mesa de poker en la semana
+vector_poker &amp;lt;- c(140, -50, 20, -120, 240)
+
+# Resultados en la ruleta en la semana
+vector_ruleta &amp;lt;- c(-24, -50, 100, -350, 10)
+
+# Dando nombres a vector_poker y vector_ruleta
+vector_dias &amp;lt;- c(&amp;quot;Lunes&amp;quot;, &amp;quot;Martes&amp;quot;, &amp;quot;Miercoles&amp;quot;, &amp;quot;Jueves&amp;quot;, &amp;quot;Viernes&amp;quot;)
+names(vector_poker) &amp;lt;- vector_dias
+names(vector_ruleta) &amp;lt;- vector_dias
+
+# Que días obtiviste ganancias en la ruleta?
+positivos_ruleta &amp;lt;- vector_ruleta &amp;gt; 0
+
+# Selecciona los valores de vector_ruleta que fueron ganancias
+ganancias_ruleta &amp;lt;- vector_ruleta[positivos_ruleta]
+
+#Imprime
+ganancias_ruleta
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prácticas 3 - Matrices</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 4 - Factores</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 5 - Data Frames</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 6 - Listas</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

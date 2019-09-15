@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción SQL | MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
+    <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/</link>
+      <atom:link href="https://www.marcusrb.com/courses/business-analytics/intro-sql/index.xml" rel="self" type="application/rss+xml" />
+    <description>Introducción SQL</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Introducción SQL</title>
+      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/</link>
+    </image>
+    
+    <item>
+      <title>Getting Started with SQL y Big Query</title>
+      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</guid>
+      <description>
+
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+
+&lt;p&gt;El lenguaje de consulta estructurado, o SQL, es el lenguaje de programación utilizado con las bases de datos, y es una habilidad importante para cualquier científico de datos. En este curso, desarrollará sus habilidades de SQL utilizando BigQuery, un servicio web que le permite aplicar SQL a grandes conjuntos de datos.&lt;/p&gt;
+
+&lt;p&gt;En esta lección, aprenderá los conceptos básicos para acceder y examinar los conjuntos de datos de BigQuery. Después de que tenga una idea de estos conceptos básicos, volveremos a desarrollar sus habilidades de SQL.&lt;/p&gt;
+
+&lt;h3 id=&#34;tus-primeros-comandos-bigquery&#34;&gt;Tus primeros comandos BigQuery&lt;/h3&gt;
+
+&lt;p&gt;Para usar BigQuery, importaremos el paquete de Python a continuación:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google.cloud import bigquery
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El primer paso en el flujo de trabajo es crear un objeto &lt;em&gt;Client&lt;/em&gt;. Como pronto verá, este objeto &lt;em&gt;Client&lt;/em&gt; desempeñará un papel central en la recuperación de información de los conjuntos de datos de BigQuery.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Trabajaremos con un conjunto de datos de publicaciones en &lt;a href=&#34;https://news.ycombinator.com/&#34; target=&#34;_blank&#34;&gt;Hacker News&lt;/a&gt;, un sitio web que se centra en noticias de informática y seguridad cibernética.&lt;/p&gt;
+
+&lt;p&gt;En BigQuery, cada conjunto de datos está contenido en un proyecto correspondiente. En este caso, nuestro conjunto de datos &lt;em&gt;hacker_news&lt;/em&gt; está contenido en el proyecto &lt;em&gt;bigquery-public-data&lt;/em&gt;. Para acceder al conjunto de datos,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Comenzamos construyendo una referencia al conjunto de datos con el método &lt;em&gt;dataset()&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;A continuación, utilizamos el método &lt;em&gt;get_dataset()&lt;/em&gt;, junto con la referencia que acabamos de construir, para obtener el conjunto de datos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;hacker_news&amp;quot; dataset
+dataset_ref = client.dataset(&amp;quot;hacker_news&amp;quot;, project=&amp;quot;bigquery-public-data&amp;quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada conjunto de datos es solo una colección de tablas. Puede pensar en un conjunto de datos como un archivo de hoja de cálculo que contiene varias tablas, todas compuestas de filas y columnas.&lt;/p&gt;
+
+&lt;p&gt;Usamos el método &lt;em&gt;list_tables()&lt;/em&gt; para listar las tablas en el conjunto de datos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# List all the tables in the &amp;quot;hacker_news&amp;quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there are four!)
+for table in tables:  
+    print(table.table_id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUTPUT&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;comments
+full
+full_201510
+stories
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;De forma similar a cómo obtuvimos un conjunto de datos, podemos obtener una tabla. En la celda de código a continuación, buscamos la tabla &lt;em&gt;full&lt;/em&gt; en el conjunto de datos &lt;em&gt;hacker_news&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;full&amp;quot; table
+table_ref = dataset_ref.table(&amp;quot;full&amp;quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;En la siguiente sección, explorará el contenido de esta tabla con más detalle. Por ahora, tómese el tiempo de usar la imagen a continuación para consolidar lo que ha aprendido hasta ahora.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../biYqbUB.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;esquema-de-la-tabla&#34;&gt;Esquema de la tabla&lt;/h2&gt;
+
+&lt;p&gt;La estructura de una tabla se llama esquema. Necesitamos entender el esquema de una tabla para extraer efectivamente los datos que queremos.&lt;/p&gt;
+
+&lt;p&gt;En este ejemplo, investigaremos la tabla completa &lt;em&gt;full&lt;/em&gt; que obtuvimos anteriormente.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Print information on all the columns in the &amp;quot;full&amp;quot; table in the &amp;quot;hacker_news&amp;quot; dataset
+table.schema
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUTPUT&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[SchemaField(&#39;by&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &amp;quot;The username of the item&#39;s author.&amp;quot;, ()),
+ SchemaField(&#39;score&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Story score&#39;, ()),
+ SchemaField(&#39;time&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Unix time&#39;, ()),
+ SchemaField(&#39;timestamp&#39;, &#39;TIMESTAMP&#39;, &#39;NULLABLE&#39;, &#39;Timestamp for the unix time&#39;, ()),
+ SchemaField(&#39;title&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story title&#39;, ()),
+ SchemaField(&#39;type&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Type of details (comment, comment_ranking, poll, story, job, pollopt)&#39;, ()),
+ SchemaField(&#39;url&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story url&#39;, ()),
+ SchemaField(&#39;text&#39;, &#39;STRING&#39;, &#39;NULLABLE&#39;, &#39;Story or comment text&#39;, ()),
+ SchemaField(&#39;parent&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Parent comment ID&#39;, ()),
+ SchemaField(&#39;deleted&#39;, &#39;BOOLEAN&#39;, &#39;NULLABLE&#39;, &#39;Is deleted?&#39;, ()),
+ SchemaField(&#39;dead&#39;, &#39;BOOLEAN&#39;, &#39;NULLABLE&#39;, &#39;Is dead?&#39;, ()),
+ SchemaField(&#39;descendants&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Number of story or poll descendants&#39;, ()),
+ SchemaField(&#39;id&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &amp;quot;The item&#39;s unique id.&amp;quot;, ()),
+ SchemaField(&#39;ranking&#39;, &#39;INTEGER&#39;, &#39;NULLABLE&#39;, &#39;Comment ranking&#39;, ())]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada &lt;em&gt;SchemaField&lt;/em&gt; nos informa sobre una columna específica (a la que también nos referimos como un campo &lt;strong&gt;field&lt;/strong&gt;). En orden, la información es:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El nombre de la columna.&lt;/li&gt;
+&lt;li&gt;El tipo de campo (o tipo de datos) en la columna&lt;/li&gt;
+&lt;li&gt;El modo de la columna (&amp;lsquo;NULLABLE&amp;rsquo; significa que una columna permite valores NULL y es el valor predeterminado)&lt;/li&gt;
+&lt;li&gt;Una descripción de los datos en esa columna.&lt;/li&gt;
+&lt;li&gt;El primer campo tiene el SchemaField:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;SchemaField (&amp;lsquo;by&amp;rsquo;, &amp;lsquo;string&amp;rsquo;, &amp;lsquo;NULLABLE&amp;rsquo;, &amp;ldquo;El nombre de usuario del autor del elemento&amp;rdquo;, ()&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Esto nos dice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;el campo (o columna) es llamado por&lt;/li&gt;
+&lt;li&gt;los datos en este campo son cadenas,&lt;/li&gt;
+&lt;li&gt;Se permiten valores NULL y&lt;/li&gt;
+&lt;li&gt;Contiene los nombres de usuario correspondientes al autor de cada elemento.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Podemos usar el método &lt;em&gt;list_rows()&lt;/em&gt; para verificar solo las primeras cinco líneas de la tabla completa &lt;em&gt;full&lt;/em&gt; para asegurarnos de que esto sea correcto. (A veces las bases de datos tienen descripciones desactualizadas, por lo que es bueno verificarlo). Esto devuelve un objeto BigQuery &lt;em&gt;RowIterator&lt;/em&gt; que se puede convertir rápidamente en un DataFrame de pandas con el método &lt;em&gt;to_dataframe()&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Preview the first five lines of the &amp;quot;full&amp;quot; table
+client.list_rows(table, max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El método &lt;em&gt;list_rows()&lt;/em&gt; también nos permitirá ver solo la información en una columna específica. Si queremos ver las primeras cinco entradas en la columna por, por ejemplo, ¡podemos hacerlo!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Preview the first five entries in the &amp;quot;by&amp;quot; column of the &amp;quot;full&amp;quot; table
+client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;EXERCISE (Exercise_ Getting Started With SQL and BigQuery)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Select, From &amp; Where</title>
+      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</guid>
+      <description>
+
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+
+&lt;p&gt;Ahora que sabe cómo acceder y examinar un conjunto de datos, ¡está listo para escribir su primera consulta SQL! Como pronto verá, las consultas SQL lo ayudarán a clasificar un conjunto de datos masivo, para recuperar solo la información que necesita.&lt;/p&gt;
+
+&lt;p&gt;Comenzaremos usando las palabras clave &lt;strong&gt;SELECT, FROM y WHERE&lt;/strong&gt; para obtener datos de columnas específicas según las condiciones que especifique.&lt;/p&gt;
+
+&lt;p&gt;Para mayor claridad, trabajaremos con un pequeño conjunto de datos imaginario &lt;em&gt;pet_records&lt;/em&gt; que contiene solo una tabla, llamada mascotas &lt;em&gt;pets&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ID&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Animal&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Dr. Harris&lt;/td&gt;
+&lt;td&gt;Rabbit&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Moon&lt;/td&gt;
+&lt;td&gt;Dog&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Ripley&lt;/td&gt;
+&lt;td&gt;Cat&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Tom&lt;/td&gt;
+&lt;td&gt;Cat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;select-from&#34;&gt;SELECT&amp;hellip;.FROM&lt;/h3&gt;
+
+&lt;p&gt;La consulta SQL más básica selecciona una sola columna de una sola tabla. Para hacer esto,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;especifique la columna que desea después de la palabra &lt;strong&gt;SELECT&lt;/strong&gt;, y luego&lt;/li&gt;
+&lt;li&gt;especifique la tabla después de la palabra &lt;strong&gt;FROM&lt;/strong&gt;.
+Por ejemplo, para seleccionar la columna &lt;em&gt;Name&lt;/em&gt; (de la tabla de mascotas &lt;em&gt;pets&lt;/em&gt; en la base de datos &lt;em&gt;pet_records&lt;/em&gt; en el proyecto bigquery-public-data), nuestra consulta aparecerá de la siguiente manera:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../c3GxYRt.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tenga en cuenta que al escribir una consulta SQL, el argumento que pasamos a FROM no está entre comillas simples o dobles (&amp;lsquo;o &amp;ldquo;). Está en comillas invertidas (`).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WHERE&lt;/strong&gt; &amp;hellip;
+Los conjuntos de datos de BigQuery son grandes, por lo que generalmente querrá devolver solo las filas que cumplan condiciones específicas. Puede hacerlo utilizando la cláusula WHERE.&lt;/p&gt;
+
+&lt;p&gt;La consulta a continuación devuelve las entradas de la columna Nombre &lt;em&gt;Name&lt;/em&gt; que están en filas donde la columna &lt;em&gt;Animal&lt;/em&gt; tiene el texto &lt;em&gt;&amp;lsquo;Cat&amp;rsquo;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../HJOT8Kb.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;: ¿Cuáles son todas las ciudades de EE. UU. En el conjunto de datos OpenAQ?
+Ahora que ya tiene lo básico, veamos un ejemplo con un conjunto de datos real. Utilizaremos un conjunto de datos OpenAQ sobre la calidad del aire.&lt;/p&gt;
+
+&lt;p&gt;Primero, configuraremos todo lo que necesitamos para ejecutar consultas y echar un vistazo rápido a las tablas que hay en nuestra base de datos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google.cloud import bigquery
+
+# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+
+# Construct a reference to the &amp;quot;openaq&amp;quot; dataset
+dataset_ref = client.dataset(&amp;quot;openaq&amp;quot;, project=&amp;quot;bigquery-public-data&amp;quot;)
+
+# API request - fetch the dataset
+dataset = client.get_dataset(dataset_ref)
+
+# List all the tables in the &amp;quot;openaq&amp;quot; dataset
+tables = list(client.list_tables(dataset))
+
+# Print names of all tables in the dataset (there&#39;s only one!)
+for table in tables:  
+    print(table.table_id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El conjunto de datos contiene solo una tabla, llamada &lt;em&gt;global_air_quality&lt;/em&gt;. Buscaremos la tabla y echaremos un vistazo a las primeras filas para ver qué tipo de datos contiene.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Construct a reference to the &amp;quot;global_air_quality&amp;quot; table
+table_ref = dataset_ref.table(&amp;quot;global_air_quality&amp;quot;)
+
+# API request - fetch the table
+table = client.get_table(table_ref)
+
+# Preview the first five lines of the &amp;quot;global_air_quality&amp;quot; table
+client.list_rows(table, max_results=5).to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;¡Todo se ve bien! Entonces, hagamos una consulta. Supongamos que queremos seleccionar todos los valores de la columna de la ciudad &lt;em&gt;city&lt;/em&gt; que están en filas donde la columna del país &lt;em&gt;country&lt;/em&gt; es &lt;em&gt;&amp;lsquo;US&amp;rsquo;&lt;/em&gt; (Para &amp;ldquo;Estados Unidos&amp;rdquo;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Query to select all the items from the &amp;quot;city&amp;quot; column where the &amp;quot;country&amp;quot; column is &#39;US&#39;
+query = &amp;quot;&amp;quot;&amp;quot;
+        SELECT city
+        FROM `bigquery-public-data.openaq.global_air_quality`
+        WHERE country = &#39;US&#39;
+        &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tómese el tiempo ahora para asegurarse de que esta consulta se alinee con lo que aprendió anteriormente.&lt;/p&gt;
+
+&lt;h3 id=&#34;enviando-la-consulta-al-conjunto-de-datos&#34;&gt;Enviando la consulta al conjunto de datos¶&lt;/h3&gt;
+
+&lt;p&gt;Estamos listos para usar esta consulta para obtener información del conjunto de datos OpenAQ. Como en el tutorial anterior, el primer paso es crear un objeto &lt;em&gt;Client&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a &amp;quot;Client&amp;quot; object
+client = bigquery.Client()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Comenzamos configurando la consulta con el método &lt;em&gt;query()&lt;/em&gt;. Ejecutamos el método con los parámetros predeterminados, pero este método también nos permite especificar configuraciones más complicadas sobre las que puede leer en la documentación. Volveremos sobre esto más tarde.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Set up the query
+query_job = client.query(query)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A continuación, ejecutamos la consulta y convertimos los resultados en un DataFrame de pandas.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# API request - run the query, and return a pandas DataFrame
+us_cities = query_job.to_dataframe()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora tenemos un DataFrame de pandas llamado &lt;em&gt;us_cities&lt;/em&gt;, que podemos usar como cualquier otro DataFrame.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# What five cities have the most measurements?
+us_cities.city.value_counts().head()
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
