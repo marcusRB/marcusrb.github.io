@@ -13,6 +13,325 @@
     </image>
     
     <item>
+      <title>Python Tutorial - Linear Regression in Python</title>
+      <link>https://www.marcusrb.com/resources/tutorial/python/pytut-linear/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/resources/tutorial/python/pytut-linear/</guid>
+      <description>&lt;p&gt;Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.&lt;/p&gt;
+
+&lt;p&gt;La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales. Ya sea que desee hacer estadísticas, aprendizaje automático o computación científica, hay buenas posibilidades de que lo necesite. Es recomendable aprenderlo primero y luego proceder hacia métodos más complejos.&lt;/p&gt;
+
+&lt;p&gt;Al final de este artículo, habrás aprendido:&lt;/p&gt;
+
+&lt;p&gt;¿Qué es la regresión lineal?
+Para qué regresión lineal se utiliza
+Cómo funciona la regresión lineal
+Cómo implementar la regresión lineal en Python, paso a paso&lt;/p&gt;
+
+&lt;p&gt;Regresión
+El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.&lt;/p&gt;
+
+&lt;p&gt;¿Qué es la regresión?
+La regresión busca relaciones entre variables.&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, puede observar a varios empleados de alguna compañía e intentar comprender cómo sus salarios dependen de las características, como la experiencia, el nivel de educación, el rol, la ciudad en la que trabajan, etc.&lt;/p&gt;
+
+&lt;p&gt;Este es un problema de regresión en el que los datos relacionados con cada empleado representan una observación. La presunción es que la experiencia, la educación, el rol y la ciudad son las características independientes, mientras que el salario depende de ellas.&lt;/p&gt;
+
+&lt;p&gt;Del mismo modo, puede intentar establecer una dependencia matemática de los precios de las casas en sus áreas, número de dormitorios, distancias al centro de la ciudad, etc.&lt;/p&gt;
+
+&lt;p&gt;En general, en el análisis de regresión, generalmente considera algún fenómeno de interés y tiene una serie de observaciones. Cada observación tiene dos o más características. Siguiendo el supuesto de que (al menos) una de las características depende de las otras, intenta establecer una relación entre ellas.&lt;/p&gt;
+
+&lt;p&gt;En otras palabras, debe encontrar una función que asigne algunas características o variables a otras lo suficientemente bien.&lt;/p&gt;
+
+&lt;p&gt;Las características dependientes se denominan variables dependientes, salidas o respuestas.&lt;/p&gt;
+
+&lt;p&gt;Las características independientes se denominan variables independientes, entradas o predictores.&lt;/p&gt;
+
+&lt;p&gt;Los problemas de regresión generalmente tienen una variable dependiente continua y sin límites. Sin embargo, las entradas pueden ser datos continuos, discretos o incluso categóricos, como género, nacionalidad, marca, etc.&lt;/p&gt;
+
+&lt;p&gt;Es una práctica común denotar las salidas con 𝑦 y las entradas con 𝑥. Si hay dos o más variables independientes, se pueden representar como el vector 𝐱 = (𝑥₁, &amp;hellip;, 𝑥ᵣ), donde 𝑟 es el número de entradas.&lt;/p&gt;
+
+&lt;p&gt;¿Cuándo necesitas regresión?
+Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.&lt;/p&gt;
+
+&lt;p&gt;La regresión también es útil cuando desea pronosticar una respuesta utilizando un nuevo conjunto de predictores. Por ejemplo, podría intentar predecir el consumo de electricidad de un hogar para la próxima hora dada la temperatura exterior, la hora del día y el número de residentes en ese hogar.&lt;/p&gt;
+
+&lt;p&gt;La regresión se usa en muchos campos diferentes: economía, ciencias de la computación, ciencias sociales, etc. Su importancia aumenta cada día con la disponibilidad de grandes cantidades de datos y una mayor conciencia del valor práctico de los datos.&lt;/p&gt;
+
+&lt;p&gt;Regresión lineal
+La regresión lineal es probablemente una de las técnicas de regresión más importantes y ampliamente utilizadas. Es uno de los métodos de regresión más simples. Una de sus principales ventajas es la facilidad de interpretación de los resultados.&lt;/p&gt;
+
+&lt;p&gt;Formulación del problema
+Al implementar la regresión lineal de alguna variable dependiente 𝑦 en el conjunto de variables independientes 𝐱 = (𝑥₁, &amp;hellip;, 𝑥ᵣ), donde 𝑟 es el número de predictores, se supone una relación lineal entre 𝑦 y 𝐱: 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + ⋯ + 𝛽ᵣ𝑥ᵣ + 𝜀. Esta ecuación es la ecuación de regresión. 𝛽₀, 𝛽₁, &amp;hellip;, 𝛽ᵣ son los coeficientes de regresión, y 𝜀 es el error aleatorio.&lt;/p&gt;
+
+&lt;p&gt;La regresión lineal calcula los estimadores de los coeficientes de regresión o simplemente los pesos predichos, denotados con 𝑏₀, 𝑏₁, &amp;hellip;, 𝑏ᵣ. Definen la función de regresión estimada 𝑓 (𝐱) = 𝑏₀ + 𝑏₁𝑥₁ + ⋯ + 𝑏ᵣ𝑥ᵣ. Esta función debe capturar las dependencias entre las entradas y salidas lo suficientemente bien.&lt;/p&gt;
+
+&lt;p&gt;La respuesta estimada o pronosticada, 𝑓 (𝐱ᵢ), para cada observación 𝑖 = 1, &amp;hellip;, 𝑛, debe estar lo más cerca posible de la respuesta real correspondiente 𝑦ᵢ. Las diferencias 𝑦ᵢ - 𝑓 (𝐱ᵢ) para todas las observaciones 𝑖 = 1, &amp;hellip;, 𝑛, se denominan residuales. La regresión se trata de determinar los mejores pesos pronosticados, es decir, los pesos correspondientes a los residuos más pequeños.&lt;/p&gt;
+
+&lt;p&gt;Para obtener los mejores pesos, generalmente minimiza la suma de los residuos cuadrados (SSR) para todas las observaciones 𝑖 = 1, &amp;hellip;, 𝑛: SSR = Σᵢ (𝑦ᵢ - 𝑓 (𝐱ᵢ)) ². Este enfoque se llama el método de mínimos cuadrados ordinarios.&lt;/p&gt;
+
+&lt;p&gt;Rendimiento de regresión
+La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, &amp;hellip;, 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.&lt;/p&gt;
+
+&lt;p&gt;El coeficiente de determinación, denotado como 𝑅², le indica qué cantidad de variación en 𝑦 puede explicarse por la dependencia de 𝐱 utilizando el modelo de regresión particular. Mayor 𝑅² indica un mejor ajuste y significa que el modelo puede explicar mejor la variación de la salida con diferentes entradas.&lt;/p&gt;
+
+&lt;p&gt;El valor 𝑅² = 1 corresponde a SSR = 0, es decir, al ajuste perfecto ya que los valores de las respuestas pronosticadas y reales se ajustan completamente entre sí.&lt;/p&gt;
+
+&lt;p&gt;Regresión lineal simple
+La regresión lineal simple o de una sola variable es el caso más simple de regresión lineal con una sola variable independiente, 𝐱 = 𝑥.&lt;/p&gt;
+
+&lt;p&gt;La siguiente figura ilustra la regresión lineal simple:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../fig-lin-reg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción</title>
+      <link>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-tidy/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-tidy/</guid>
+      <description>
+
+&lt;p&gt;La ciencia de datos es una disciplina emocionante que le permite convertir datos sin procesar en comprensión, conocimiento y conocimiento. El objetivo de &amp;ldquo;R for Data Science&amp;rdquo; es ayudarlo a aprender las herramientas más importantes en R que le permitirán hacer ciencia de datos. Después de leer este libro, tendrá las herramientas para abordar una amplia variedad de desafíos de la ciencia de datos, utilizando las mejores partes de R.&lt;/p&gt;
+
+&lt;h2 id=&#34;lo-que-vas-a-aprender&#34;&gt;Lo que vas a aprender&lt;/h2&gt;
+
+&lt;p&gt;La ciencia de datos es un campo enorme, y no hay forma de que puedas dominarlo leyendo un solo libro. El objetivo de este libro es brindarle una base sólida en las herramientas más importantes. Nuestro modelo de las herramientas necesarias en un proyecto típico de ciencia de datos se parece a esto:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`{r echo = FALSE, out.width =&amp;quot; 75% &amp;quot;}
+knitr :: include_graphics (&amp;quot;diagrams / data-science.png&amp;quot;)
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Primero debe &lt;strong&gt;importar&lt;/strong&gt; sus datos en R. Esto generalmente significa que toma los datos almacenados en un archivo, base de datos o API web, y los carga en un marco de datos en R. Si no puede ingresar sus datos en R, puede ¡No hagas ciencia de datos!&lt;/p&gt;
+
+&lt;p&gt;Una vez que haya importado sus datos, es una buena idea ponerlos en orden. Poner en orden sus datos significa almacenarlos en una forma consistente que coincida con la semántica del conjunto de datos con la forma en que se almacenan. En resumen, cuando sus datos están ordenados, cada columna es una variable y cada fila es una observación. Los datos ordenados son importantes porque la estructura consistente le permite enfocar su lucha en preguntas sobre los datos, no en luchar para obtener los datos en la forma correcta para diferentes funciones.&lt;/p&gt;
+
+&lt;p&gt;Una vez que tenga datos ordenados, un primer paso común es &lt;strong&gt;transformar&lt;/strong&gt;. La transformación incluye reducir las observaciones de interés (como todas las personas en una ciudad, o todos los datos del año pasado), crear nuevas variables que son funciones de variables existentes (como calcular la velocidad a partir de la distancia y el tiempo) y calcular un conjunto de resumen estadísticas (como recuentos o medios). Juntos, ordenar y transformar se llaman &lt;strong&gt;wrangling&lt;/strong&gt;, ¡porque obtener sus datos en una forma natural para trabajar a menudo se siente como una pelea!&lt;/p&gt;
+
+&lt;p&gt;Una vez que tenga datos ordenados con las variables que necesita, hay dos motores principales de generación de conocimiento: visualización y modelado. Estos tienen fortalezas y debilidades complementarias, por lo que cualquier análisis real se repetirá entre ellos muchas veces.&lt;/p&gt;
+
+&lt;p&gt;La visualización es una actividad fundamentalmente humana. Una buena visualización le mostrará cosas que no esperaba o planteará nuevas preguntas sobre los datos. Una buena visualización también puede indicar que está haciendo una pregunta incorrecta o que necesita recopilar datos diferentes. Las visualizaciones pueden sorprenderte, pero no escales particularmente bien porque requieren que un humano las interprete.&lt;/p&gt;
+
+&lt;p&gt;Los &lt;strong&gt;Modelos&lt;/strong&gt; son herramientas complementarias para la visualización. Una vez que haya hecho sus preguntas lo suficientemente precisas, puede usar un modelo para responderlas. Los modelos son una herramienta fundamentalmente matemática o computacional, por lo que generalmente escalan bien. Incluso cuando no lo hacen, ¡generalmente es más barato comprar más computadoras que comprar más cerebros! Pero cada modelo hace suposiciones y, por su propia naturaleza, un modelo no puede cuestionar sus propias suposiciones. Eso significa que un modelo no puede sorprenderte fundamentalmente.&lt;/p&gt;
+
+&lt;p&gt;El último paso de la ciencia de datos es &lt;strong&gt;comunicación&lt;/strong&gt;, una parte absolutamente crítica de cualquier proyecto de análisis de datos. No importa qué tan bien sus modelos y visualización lo hayan llevado a comprender los datos, a menos que también pueda comunicar sus resultados a otros.&lt;/p&gt;
+
+&lt;p&gt;Alrededor de todas estas herramientas está &lt;strong&gt;programación&lt;/strong&gt;. La programación es una herramienta transversal que utiliza en cada parte del proyecto. No es necesario ser un programador experto para ser un científico de datos, pero aprender más sobre programación vale la pena porque convertirse en un mejor programador le permite automatizar tareas comunes y resolver nuevos problemas con mayor facilidad.&lt;/p&gt;
+
+&lt;p&gt;Utilizará estas herramientas en cada proyecto de ciencia de datos, pero para la mayoría de los proyectos no son suficientes. Hay una regla aproximada de 80-20 en juego; puede abordar aproximadamente el 80% de cada proyecto utilizando las herramientas que aprenderá en este libro, pero necesitará otras herramientas para abordar el 20% restante. A lo largo de este libro, le indicaremos los recursos donde puede obtener más información.&lt;/p&gt;
+
+&lt;h2 id=&#34;cómo-está-organizado-este-libro&#34;&gt;Cómo está organizado este libro&lt;/h2&gt;
+
+&lt;p&gt;La descripción anterior de las herramientas de la ciencia de datos está organizada de manera aproximada de acuerdo con el orden en que las usa en un análisis (aunque, por supuesto, las repetirá varias veces). En nuestra experiencia, sin embargo, esta no es la mejor manera de aprenderlos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Comenzar con la ingesta de datos y el orden es subóptimo porque el 80% del tiempo
+  es rutinario y aburrido, y el otro 20% del tiempo es extraño y
+  frustrante. ¡Ese es un mal lugar para comenzar a aprender un nuevo tema! En lugar,
+  comenzaremos con la visualización y transformación de datos que ya han sido
+  importado y ordenado. De esa manera, cuando ingiere y ordena sus propios datos, su
+  la motivación se mantendrá alta porque sabes que el dolor lo vale.
+  &lt;/li&gt;
+&lt;li&gt;Algunos temas se explican mejor con otras herramientas. Por ejemplo, creemos que
+  Es más fácil entender cómo funcionan los modelos si ya conoce
+  visualización, datos ordenados y programación.
+  &lt;/li&gt;
+&lt;li&gt;Las herramientas de programación no son necesariamente interesantes por derecho propio,
+  pero le permiten abordar problemas considerablemente más desafiantes. Bien
+  darle una selección de herramientas de programación en el medio del libro, y
+  entonces verás cómo se pueden combinar con las herramientas de ciencia de datos para abordar
+  Problemas interesantes de modelado.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dentro de cada capítulo, tratamos de seguir un patrón similar: comience con algunos ejemplos motivadores para que pueda ver la imagen más grande y luego profundice en los detalles. Cada sección del libro se combina con ejercicios para ayudarlo a practicar lo que ha aprendido. Si bien es tentador saltarse los ejercicios, no hay mejor manera de aprender que practicar en problemas reales.&lt;/p&gt;
+
+&lt;h2 id=&#34;lo-que-no-aprenderás&#34;&gt;Lo que no aprenderás&lt;/h2&gt;
+
+&lt;p&gt;Hay algunos temas importantes que este libro no cubre. Creemos que es importante mantenerse centrado sin piedad en lo esencial para que pueda comenzar a trabajar lo más rápido posible. Eso significa que este libro no puede cubrir todos los temas importantes.&lt;/p&gt;
+
+&lt;h3 id=&#34;big-data&#34;&gt;Big data&lt;/h3&gt;
+
+&lt;p&gt;Este libro se centra orgullosamente en pequeños conjuntos de datos en memoria. Este es el lugar correcto para comenzar porque no puede abordar big data a menos que tenga experiencia con datos pequeños. Las herramientas que aprende en este libro manejarán fácilmente cientos de megabytes de datos, y con un poco de cuidado, generalmente puede usarlas para trabajar con 1-2 Gb de datos. Si trabaja habitualmente con datos más grandes (10-100 Gb, por ejemplo), debe obtener más información sobre &lt;a href=&#34;https://github.com/Rdatatable/data.table&#34; target=&#34;_blank&#34;&gt;data.table&lt;/a&gt;. Este libro no enseña data.table porque tiene una interfaz muy concisa que hace que sea más difícil de aprender ya que ofrece menos claves lingüísticas. Pero si está trabajando con datos de gran tamaño, la rentabilidad del rendimiento vale la pena el esfuerzo adicional requerido para aprenderlo.&lt;/p&gt;
+
+&lt;p&gt;Si sus datos son más grandes que esto, considere cuidadosamente si su problema de big data podría ser un pequeño problema de datos disfrazado. Si bien los datos completos pueden ser grandes, a menudo los datos necesarios para responder una pregunta específica son pequeños. Es posible que pueda encontrar un subconjunto, una submuestra o un resumen que se ajuste a la memoria y que aún le permita responder la pregunta que le interesa. El desafío aquí es encontrar los datos pequeños correctos, que a menudo requieren mucha iteración.&lt;/p&gt;
+
+&lt;p&gt;Otra posibilidad es que su problema de big data sea en realidad una gran cantidad de problemas de data pequeña. Cada problema individual puede caber en la memoria, pero tiene millones de ellos. Por ejemplo, es posible que desee ajustar un modelo a cada persona en su conjunto de datos. Eso sería trivial si solo tuvieras 10 o 100 personas, pero en cambio tienes un millón. Afortunadamente, cada problema es independiente de los demás (una configuración que a veces se llama vergonzosamente paralela), por lo que solo necesita un sistema (como Hadoop o Spark) que le permita enviar diferentes conjuntos de datos a diferentes computadoras para su procesamiento. Una vez que haya descubierto cómo responder la pregunta para un solo subconjunto utilizando las herramientas descritas en este libro, aprenderá nuevas herramientas como sparklyr, rhipe y ddr para resolverlo para el conjunto de datos completo.&lt;/p&gt;
+
+&lt;h3 id=&#34;python-julia-y-amigos&#34;&gt;Python, Julia y amigos&lt;/h3&gt;
+
+&lt;p&gt;En este libro, no aprenderá nada sobre Python, Julia o cualquier otro lenguaje de programación útil para la ciencia de datos. Esto no es porque pensemos que estas herramientas son malas. ¡Ellos no están! Y en la práctica, la mayoría de los equipos de ciencia de datos usan una combinación de lenguajes, a menudo al menos R y Python.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, creemos firmemente que es mejor dominar una herramienta a la vez. Mejorará más rápido si bucea profundamente, en lugar de extenderse poco a poco sobre muchos temas. Esto no significa que solo deba saber una cosa, solo que generalmente aprenderá más rápido si se apega a una cosa a la vez. Debes esforzarte por aprender cosas nuevas a lo largo de tu carrera, pero asegúrate de que tu comprensión sea sólida antes de pasar a la siguiente cosa interesante.&lt;/p&gt;
+
+&lt;p&gt;Creemos que R es un gran lugar para comenzar su viaje de ciencia de datos porque es un entorno diseñado desde cero para apoyar la ciencia de datos. R no es solo un lenguaje de programación, sino que también es un entorno interactivo para hacer ciencia de datos. Para apoyar la interacción, R es un lenguaje mucho más flexible que muchos de sus pares. Esta flexibilidad viene con sus desventajas, pero la gran ventaja es lo fácil que es desarrollar gramáticas adaptadas para partes específicas del proceso de ciencia de datos. Estos mini idiomas lo ayudan a pensar en problemas como científico de datos, al tiempo que respaldan una interacción fluida entre su cerebro y la computadora.&lt;/p&gt;
+
+&lt;h3 id=&#34;datos-no-rectangulares&#34;&gt;Datos no rectangulares&lt;/h3&gt;
+
+&lt;p&gt;Este libro se enfoca exclusivamente en datos rectangulares: colecciones de valores que están asociados con una variable y una observación. Hay muchos conjuntos de datos que no encajan naturalmente en este paradigma: incluyendo imágenes, sonidos, árboles y texto. Pero los marcos de datos rectangulares son extremadamente comunes en la ciencia y la industria, y creemos que son un gran lugar para comenzar su viaje de ciencia de datos.&lt;/p&gt;
+
+&lt;h3 id=&#34;confirmación-de-hipótesis&#34;&gt;Confirmación de hipótesis&lt;/h3&gt;
+
+&lt;p&gt;Es posible dividir el análisis de datos en dos campos: generación de hipótesis y confirmación de hipótesis (a veces llamado análisis confirmatorio). El objetivo de este libro es descaradamente la generación de hipótesis o la exploración de datos. Aquí observará profundamente los datos y, en combinación con el conocimiento de su materia, generará muchas hipótesis interesantes para ayudar a explicar por qué los datos se comportan de la manera en que lo hacen. Evalúa las hipótesis de manera informal, utilizando su escepticismo para desafiar los datos de múltiples maneras.&lt;/p&gt;
+
+&lt;p&gt;El complemento de la generación de hipótesis es la confirmación de hipótesis. La confirmación de la hipótesis es difícil por dos razones:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Necesita un modelo matemático preciso para generar datos falsificables
+    predicciones Esto a menudo requiere una considerable sofisticación estadística.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Solo puede usar una observación una vez para confirmar una hipótesis. Tan pronto como
+    lo usa más de una vez que vuelve a hacer análisis exploratorios.
+    Esto significa hacer una confirmación de hipótesis que necesita &amp;ldquo;preregistrarse&amp;rdquo;
+    (escriba de antemano) su plan de análisis, y no se desvíe de él
+    incluso cuando has visto los datos. Hablaremos un poco sobre algunos
+    estrategias que puede usar para facilitar esto en &lt;a href=&#34;# model-intro&#34;&gt;modelado&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Es común pensar en el modelado como una herramienta para la confirmación de hipótesis y la visualización como una herramienta para la generación de hipótesis. Pero esa es una falsa dicotomía: los modelos a menudo se usan para exploración, y con un poco de cuidado puede usar la visualización para confirmar. La diferencia clave es con qué frecuencia mira cada observación: si mira solo una vez, es una confirmación; si miras más de una vez, es exploración.&lt;/p&gt;
+
+&lt;h2 id=&#34;prerrequisitos&#34;&gt;Prerrequisitos&lt;/h2&gt;
+
+&lt;p&gt;Hemos hecho algunas suposiciones sobre lo que ya sabes para aprovechar al máximo este libro. En general, debe tener conocimientos numéricos y es útil si ya tiene experiencia en programación. Si nunca ha programado antes, es posible que Garrett &lt;a href=&#34;http://amzn.com/1449359019&#34; target=&#34;_blank&#34;&gt;Hands on Programming with R&lt;/a&gt; de Garrett sea un complemento útil de este libro.&lt;/p&gt;
+
+&lt;p&gt;Hay cuatro cosas que necesita para ejecutar el código en este libro: R, RStudio, una colección de paquetes R llamada &lt;strong&gt;tidyverse&lt;/strong&gt;, y un puñado de otros paquetes. Los paquetes son las unidades fundamentales del código R reproducible. Incluyen funciones reutilizables, la documentación que describe cómo usarlas y datos de muestra.&lt;/p&gt;
+
+&lt;h3 id=&#34;r&#34;&gt;R&lt;/h3&gt;
+
+&lt;p&gt;Para descargar R, vaya a CRAN, el ** c ** omprehensive ** R ** ** a ** rchive ** n ** etwork. CRAN se compone de un conjunto de servidores espejo distribuidos en todo el mundo y se utiliza para distribuir paquetes R y R. No intente elegir un espejo que esté cerca de usted: en su lugar, use el espejo en la nube, &lt;a href=&#34;https://cloud.r-project.org&#34; target=&#34;_blank&#34;&gt;https://cloud.r-project.org&lt;/a&gt;, que automáticamente lo resuelve por usted.&lt;/p&gt;
+
+&lt;p&gt;Una nueva versión principal de R sale una vez al año, y hay 2-3 lanzamientos menores cada año. Es una buena idea actualizar regularmente. La actualización puede ser una molestia, especialmente para las versiones principales, que requieren que reinstales todos tus paquetes, pero posponerlo solo lo empeora.&lt;/p&gt;
+
+&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;
+
+&lt;p&gt;RStudio es un entorno de desarrollo integrado, o IDE, para la programación R. Descargue e instálelo desde &lt;a href=&#34;http://www.rstudio.com/download&#34; target=&#34;_blank&#34;&gt;http://www.rstudio.com/download&lt;/a&gt;. RStudio se actualiza un par de veces al año. Cuando hay una nueva versión disponible, RStudio se lo informará. Es una buena idea actualizar regularmente para que pueda aprovechar las últimas y mejores funciones. Para este libro, asegúrese de tener RStudio 1.0.0.&lt;/p&gt;
+
+&lt;p&gt;Cuando inicie RStudio, verá dos regiones clave en la interfaz:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`{r echo = FALSE, out.width =&amp;quot; 75% &amp;quot;}
+knitr :: include_graphics (&amp;quot;diagrams / rstudio-console.png&amp;quot;)
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Por ahora, todo lo que necesita saber es que escribe el código R en el panel de la consola y presiona Intro para ejecutarlo. ¡Aprenderás más a medida que avanzamos!&lt;/p&gt;
+
+&lt;h3 id=&#34;el-tidyverse&#34;&gt;El tidyverse&lt;/h3&gt;
+
+&lt;p&gt;También necesitará instalar algunos paquetes de R. Un R &lt;strong&gt;paquete&lt;/strong&gt; es una colección de funciones, datos y documentación que amplía las capacidades de la base R. El uso de paquetes es clave para el uso exitoso de R. La mayoría de los paquetes que aprenderá en este libro son parte de llamado tidyverse. Los paquetes en el tidyverse comparten una filosofía común de datos y programación R, y están diseñados para trabajar juntos de forma natural.&lt;/p&gt;
+
+&lt;p&gt;Puede instalar el tidyverse completo con una sola línea de código:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`{r, eval = FALSO}
+install.packages (&amp;quot;tidyverse&amp;quot;)
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;En su propia computadora, escriba esa línea de código en la consola y luego presione Intro para ejecutarla. R descargará los paquetes de CRAN y los instalará en su computadora. Si tiene problemas para instalar, asegúrese de estar conectado a Internet y de que &lt;a href=&#34;https://cloud.r-project.org/&#34; target=&#34;_blank&#34;&gt;https://cloud.r-project.org/&lt;/a&gt; no esté bloqueado por su firewall o proxy.&lt;/p&gt;
+
+&lt;p&gt;No podrá utilizar las funciones, objetos y archivos de ayuda en un paquete hasta que lo cargue con &lt;code&gt;library ()&lt;/code&gt;. Una vez que haya instalado un paquete, puede cargarlo con la función &lt;code&gt;library ()&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{r}
+biblioteca (tidyverse)
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Esto le indica que tidyverse está cargando los paquetes ggplot2, tibble, tidyr, readr, purrr y dplyr. Estos se consideran el &lt;strong&gt;core&lt;/strong&gt; del tidyverse porque los usará en casi todos los análisis.&lt;/p&gt;
+
+&lt;p&gt;Los paquetes en el tidyverse cambian con bastante frecuencia. Puede ver si hay actualizaciones disponibles y, opcionalmente, instalarlas ejecutando &lt;code&gt;tidyverse_update ()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;otros-paquetes&#34;&gt;Otros paquetes&lt;/h3&gt;
+
+&lt;p&gt;Hay muchos otros paquetes excelentes que no forman parte del tidyverse, porque resuelven problemas en un dominio diferente o están diseñados con un conjunto diferente de principios subyacentes. Esto no los hace mejores o peores, solo diferentes. En otras palabras, el complemento al tidyverse no es el messyverse, sino muchos otros universos de paquetes interrelacionados. A medida que aborde más proyectos de ciencia de datos con R, aprenderá nuevos paquetes y nuevas formas de pensar sobre los datos.&lt;/p&gt;
+
+&lt;p&gt;En este libro usaremos tres paquetes de datos externos al tidyverse:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`{r, eval = FALSO}
+install.packages (c (&amp;quot;nycflights13&amp;quot;, &amp;quot;gapminder&amp;quot;, &amp;quot;Lahman&amp;quot;))
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Estos paquetes proporcionan datos sobre vuelos de aerolíneas, desarrollo mundial y béisbol que usaremos para ilustrar ideas clave de ciencia de datos.&lt;/p&gt;
+
+&lt;h2 id=&#34;ejecutando-código-r&#34;&gt;Ejecutando código R&lt;/h2&gt;
+
+&lt;p&gt;La sección anterior le mostró un par de ejemplos de ejecución de código R. El código en el libro se ve así:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`{r, eval = TRUE}
+1 + 2
+#&amp;gt; [1] 3
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Si ejecuta el mismo código en su consola local, se verá así:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;`
+&amp;gt; 1 + 2
+[1] 3
+&lt;/code&gt; `&lt;/p&gt;
+
+&lt;p&gt;Hay dos diferencias principales. En su consola, escribe después del &lt;code&gt;&amp;gt;&lt;/code&gt;, llamado &lt;strong&gt;prompt&lt;/strong&gt;; No mostramos el aviso en el libro. En el libro, la salida se comenta con &lt;code&gt;#&amp;gt;&lt;/code&gt;; en tu consola aparece directamente después de tu código. Estas dos diferencias significan que si está trabajando con una versión electrónica del libro, puede copiar fácilmente el código del libro y en la consola.&lt;/p&gt;
+
+&lt;p&gt;A lo largo del libro usamos un conjunto consistente de convenciones para referirnos al código:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Las funciones están en una fuente de código y seguidas de paréntesis, como &lt;code&gt;sum ()&lt;/code&gt;,
+  o &lt;code&gt;mean ()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Otros objetos R (como datos o argumentos de funciones) están en una fuente de código,
+  sin paréntesis, como &lt;code&gt;vuelos&lt;/code&gt; o&lt;code&gt;x&lt;/code&gt;.
+  &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Si queremos dejar en claro de qué paquete proviene un objeto, usaremos
+  el nombre del paquete seguido de dos puntos, como &lt;code&gt;dplyr :: mutate ()&lt;/code&gt;, o
+  &lt;code&gt;nycflights13 :: vuelos&lt;/code&gt;. Este también es un código R válido.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;obteniendo-ayuda-y-aprendiendo-más&#34;&gt;Obteniendo ayuda y aprendiendo más&lt;/h2&gt;
+
+&lt;p&gt;Este libro no es una isla; no existe un recurso único que le permita dominar R. Cuando comience a aplicar las técnicas descritas en este libro a sus propios datos, pronto encontrará preguntas que no contesto. Esta sección describe algunos consejos sobre cómo obtener ayuda y para ayudarlo a seguir aprendiendo.&lt;/p&gt;
+
+&lt;p&gt;Si te quedas atascado, comienza con Google. Normalmente, agregar &amp;ldquo;R&amp;rdquo; a una consulta es suficiente para restringirla a resultados relevantes: si la búsqueda no es útil, a menudo significa que no hay resultados específicos de R disponibles. Google es particularmente útil para mensajes de error. Si recibe un mensaje de error y no tiene idea de lo que significa, intente buscarlo en Google. Lo más probable es que alguien más haya estado confundido en el pasado, y habrá ayuda en algún lugar de la web. (Si el mensaje de error no está en inglés, ejecute &lt;code&gt;Sys.setenv (LANGUAGE =&amp;quot; en &amp;quot;)&lt;/code&gt; y vuelva a ejecutar el código; es más probable que encuentre ayuda para los mensajes de error en inglés).&lt;/p&gt;
+
+&lt;p&gt;Si Google no ayuda, intente &lt;a href=&#34;http://stackoverflow.com&#34; target=&#34;_blank&#34;&gt;stackoverflow&lt;/a&gt;. Comience por pasar un poco de tiempo buscando una respuesta existente, incluyendo &lt;code&gt;[R]&lt;/code&gt; para restringir su búsqueda a preguntas y respuestas que usen R. Si no encuentra nada útil, prepare un ejemplo reproducible mínimo o &lt;strong&gt;reprex&lt;/strong&gt;. Un buen reprex hace que sea más fácil para otras personas ayudarte, y a menudo descubrirás el problema tú mismo mientras lo haces.&lt;/p&gt;
+
+&lt;p&gt;Hay tres cosas que debe incluir para que su ejemplo sea reproducible: paquetes, datos y código requeridos.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;** Los paquetes ** deben cargarse en la parte superior del script, por lo que es fácil
+    ver cuáles necesita el ejemplo. Este es un buen momento para comprobar que estás
+    usando la última versión de cada paquete; es posible que hayas descubierto
+    Un error que se ha solucionado desde que instaló el paquete. Para paquetes
+    en tidyverse, la forma más fácil de verificar es ejecutar &lt;code&gt;tidyverse_update ()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;La forma más fácil de incluir ** datos ** en una pregunta es usar &lt;code&gt;dput ()&lt;/code&gt; para
+    generar el código R para recrearlo. Por ejemplo, para recrear los &lt;code&gt;mtcars&lt;/code&gt;
+    conjunto de datos en R, realizaría los siguientes pasos:
+  
+    1. Ejecute &lt;code&gt;dput (mtcars)&lt;/code&gt; en R
+    2. Copie la salida
+    3. En mi script reproducible, escriba &lt;code&gt;mtcars &amp;lt;-&lt;/code&gt; y luego pegue.
+    
+    Intenta encontrar el subconjunto más pequeño de tus datos que aún revela
+    el problema.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dedica un poco de tiempo a asegurarte de que tu ** código ** sea fácil para otros
+    leer:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;    * Asegúrese de haber usado espacios y que sus nombres de variables sean concisos, aún
+      informativo.
+    
+    * Use comentarios para indicar dónde radica su problema.
+    
+    * Haga todo lo posible para eliminar todo lo que no esté relacionado con el problema.
+      Cuanto más corto sea su código, más fácil será comprenderlo y
+      Más fácil es arreglarlo.&lt;/p&gt;
+
+&lt;p&gt;Termine comprobando que realmente ha hecho un ejemplo reproducible comenzando una nueva sesión de R y copiando y pegando su script.&lt;/p&gt;
+
+&lt;p&gt;También debe pasar algún tiempo preparándose para resolver los problemas antes de que ocurran. Invertir un poco de tiempo en aprender R cada día dará buenos resultados a largo plazo. Una forma es seguir lo que Hadley, Garrett y todos los demás en RStudio están haciendo en el &lt;a href=&#34;https://blog.rstudio.org&#34; target=&#34;_blank&#34;&gt;blog RStudio&lt;/a&gt;. Aquí es donde publicamos anuncios sobre nuevos paquetes, nuevas funciones de IDE y cursos presenciales. También puede seguir a Hadley (&lt;a href=&#34;https://twitter.com/hadleywickham&#34; target=&#34;_blank&#34;&gt;\ @hadleywickham&lt;/a&gt;) o Garrett (&lt;a href=&#34;https://twitter.com/statgarrett&#34; target=&#34;_blank&#34;&gt;\ @statgarrett&lt;/a&gt;) en Twitter, o seguir &lt;a href=&#34;https://twitter.com/rstudiotips&#34; target=&#34;_blank&#34;&gt;\ @rstudiotips&lt;/a&gt; para mantenerse al día con las nuevas funciones en el IDE.&lt;/p&gt;
+
+&lt;p&gt;Para mantenerse al día con la comunidad R en general, recomendamos leer &lt;a href=&#34;http://www.r-bloggers.com&#34; target=&#34;_blank&#34;&gt;http://www.r-bloggers.com&lt;/a&gt;: agrega más de 500 blogs sobre R de todo el mundo. Si eres un usuario activo de Twitter, sigue el hashtag &lt;code&gt;# rstats&lt;/code&gt;. Twitter es una de las herramientas clave que Hadley utiliza para mantenerse al día con los nuevos desarrollos en la comunidad.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Getting Started with SQL y Big Query</title>
       <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
@@ -225,6 +544,14 @@ También puede actualizar R y paquetes con el paquete de instalación.&lt;/p&gt;
 
 &lt;p&gt;Finalmente, existe la posibilidad de ejecutar R en línea (con diferentes interfaces), a través de sitios web que proporcionan una instalación de servidor R, como: &lt;a href=&#34;https://www.tutorialspoint.com/execute_r_online.php&#34; target=&#34;_blank&#34;&gt;https://www.tutorialspoint.com/execute_r_online.php&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Introducción Math for Data Science</title>
+      <link>https://www.marcusrb.com/courses/data-science/math-data-science/math-intro/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/data-science/math-data-science/math-intro/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -986,37 +1313,35 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     </item>
     
     <item>
-      <title>Example Page 1</title>
-      <link>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example1/</guid>
+      <title>Programa R para Data Science</title>
+      <link>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-program/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-program/</guid>
       <description>
 
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
 
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;El objetivo de la primera parte de este libro es ponerlo al día con las herramientas básicas de __ exploración de datos__ lo más rápido posible. La exploración de datos es el arte de mirar sus datos, generar hipótesis rápidamente, probarlas rápidamente y luego repetir una y otra vez. El objetivo de la exploración de datos es generar muchos clientes potenciales prometedores que luego puede explorar con mayor profundidad.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../data-science-explore.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;En esta parte del libro aprenderá algunas herramientas útiles que tienen una recompensa inmediata:&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;La visualización es un excelente lugar para comenzar con la programación R, porque el la recompensa es muy clara: puedes hacer tramas elegantes e informativas que ayudan Entiendes los datos. En [visualización de datos] te sumergirás en la visualización,aprender la estructura básica de un diagrama de ggplot2 y técnicas poderosas para
+    convirtiendo datos en tramas.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;La visualización por sí sola no suele ser suficiente, por lo que en [transformación de datos]
+    aprenderá los verbos clave que le permiten seleccionar variables importantes,
+    filtrar observaciones clave, crear nuevas variables y calcular resúmenes.
+  &lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Finalmente, en [análisis exploratorio de datos], combinará la visualización y transformación con tu curiosidad y escepticismo para preguntar y responder Preguntas interesantes sobre los datos.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;El modelado es una parte importante del proceso exploratorio, pero aún no tiene las habilidades para aprenderlo o aplicarlo de manera efectiva. Volveremos a ello en &lt;a href=&#34;# introducción de modelo&#34;&gt;modelado&lt;/a&gt;, una vez que esté mejor equipado con más herramientas de programación y disputas de datos.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;p&gt;Entre estos tres capítulos que le enseñan las herramientas de exploración hay tres capítulos que se centran en su flujo de trabajo de R. En [workflow: basics], [workflow: scripts] y [workflow: projects] aprenderá buenas prácticas para escribir y organizar su código R. Estos lo prepararán para el éxito a largo plazo, ya que le brindarán las herramientas para mantenerse organizado cuando aborde proyectos reales.&lt;/p&gt;
 </description>
     </item>
     
@@ -1472,41 +1797,6 @@ Google Play tiene muchos modelos para resolver diferentes problemas. Las búsque
 
 &lt;p&gt;Descripción de Google Plus
 Google Plus usa aprendizaje automático en diferentes situaciones: clasificar las publicaciones en la sección &amp;ldquo;Novedades&amp;rdquo; que ve el usuario, las publicaciones en la sección &amp;ldquo;Lo más interesante&amp;rdquo; (las publicaciones que son más populares), las personas que conoces, etc.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 2</title>
-      <link>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-data-studio/example2/</guid>
-      <description>
-
-&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
@@ -2133,6 +2423,14 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     </item>
     
     <item>
+      <title>Prácticas 3 - Matrices</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cómo funcionan los modelos</title>
       <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-1-como-funciona/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
@@ -2200,6 +2498,14 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34;&gt;Test Exámenes Google Academy for Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Prácticas 4 - Factores</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2272,10 +2578,26 @@ melbourne_data.describe()
     </item>
     
     <item>
+      <title>Prácticas 5 - Data Frames</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Caso Práctico 1 - Explorando los datos</title>
       <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 6 - Listas</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</guid>
       <description></description>
     </item>
     

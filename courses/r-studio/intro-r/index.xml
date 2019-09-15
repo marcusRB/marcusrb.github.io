@@ -777,5 +777,37 @@ ganancias_ruleta
 </description>
     </item>
     
+    <item>
+      <title>Prácticas 3 - Matrices</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 4 - Factores</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 5 - Data Frames</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prácticas 6 - Listas</title>
+      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
