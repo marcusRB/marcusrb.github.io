@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Introducción a R
 summary: En este capítulo vamos a dar nuestros primeros pasos en R. Aprenderemos a usar la consola como calculadora y a asignar variables. También aprenderemos algunos de los tipos básicos de datos en R. Comencemos!
-weight: 2
+weight: 1
 
 # Page metadata.
 title: Introducción de R

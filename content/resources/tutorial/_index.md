@@ -30,11 +30,12 @@ En esta sección se publicarán los diferentes formatos de cursos y tutoriales, 
 
 ***
 
-## Cheatsheets GIT
+### Cheatsheets GIT
 
 * [Aprender GIT](/files/pdf/git/atlassian-git-cheatsheet.pdf)
 
-## Cheatsheets R Studio
+
+### Cheatsheets R Studio
 
 * [Base R](/files/pdf/r/base-r.pdf)
 * [Rstudio IDE](/files/pdf/r/rstudio-ide.pdf)

@@ -24,7 +24,7 @@ menu:
 * **[Online courses]()**
 * **Project or software documentation**
 * **Tutorials**
-* **[Cheatsheets](/tutorial)**
+* **[Cheatsheets](/)**
 
 
 
