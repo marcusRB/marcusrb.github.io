@@ -44,6 +44,15 @@ En esta sección se publicarán los diferentes formatos de cursos y tutoriales, 
 * [Regex in R](/files/pdf/r/regex.pdf)
 * [String in R](/files/pdf/r/strings.pdf)
 
-
 * [Shiny](/files/pdf/r/shiny.pdf)
 * [Data Visualization in R](/files/pdf/r/data-visualization-2.1.pdf)
+
+
+### Cheatsheets Maths para Data Science
+
+* [Matemática para Machine Learning](/files/pdf/ds/math4ml.pdf)
+* [Álgebra lineal para Machine Learning](/files/pdf/ds/linear-algebra.pdf)
+* [Data Science Cheatsheet](/files/pdf/ds/data-science-cheatsheet.pdf)
+
+
+* [example tex doc](/files/pdf/ds/doc.tex)
