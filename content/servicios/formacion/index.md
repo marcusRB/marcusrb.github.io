@@ -22,4 +22,4 @@ Mis servicios de formación in-company serán presenciales en vuestras oficinas 
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para Google Tag Manager](../#contact)
+[Solicita información para Formación](../#contact)
