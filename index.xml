@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/</link>
       <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>MarcusRB: consultor &amp; docente Data Analytics - BI - Machine Learning</title>
@@ -2695,6 +2695,422 @@ Seleccionando con una lista de columnas, que usamos para seleccionar las &amp;ld
 &lt;/ul&gt;
 
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Entrevista] - Estudiar Data Science, profesión del momento o moda pasajera?</title>
+      <link>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</link>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</guid>
+      <description>
+
+&lt;p&gt;Tal como mencionaba The New York Times hace unos años, “Científico de datos, la profesión más sexy del siglo XXI”, el auge de esta profesión ha ido aumentado. Llevamos a cabo una entrevista a Marco Russo, consultor de datos en Paradigma y docente de varios programas y cursos de Analítica de datos, entre ellos profesor del Máster de Data Science en NEOLAND.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-el-data-science-es-algo-pasajero-o-deberíamos-tenerlo-en-cuenta-para-el-futuro&#34;&gt;entr.: El Data Science, ¿es algo pasajero o deberíamos tenerlo en cuenta para el futuro?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Antes de contestar a esta pregunta, veamos estas dos gráficas muy interesantes. La primera es la tendencia de búsqueda en España referente a dos términos (data science y ciencias de datos). El aumento del interés de búsqueda se ha duplicado en desde octubre de 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/8ykaAVOEu-ZxzAC8KDU17PAIVcDfgY1AWjcdXVlXQa2H7IofNqK8B-F5-ozxBwvzx4xKFJeEiUHzaBdfRJ28wRaIjISuuaCJlglMFIoCYfbF7AD9Gny3CS0sZKmmdxNITAcubzMq&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero en la misma medida, las búsquedas de &lt;strong&gt;Máster Data Science&lt;/strong&gt; también ha aumentado un 60%, por lo que sí hay interés de parte de los internautas de entender porque está muy demandado este puesto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/Xruu76VzbXW9-M3I_t6way9dNmJneZM0PK8jCt_htcTMWlHxng08doQswCc41mup3wBy5UhMwazh9JNzRL-Xkp33L-xzHxAzmjNedyiTRp2MnEYp1NpdpDrrDN6Fj7SqBaq7F302&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En Linkedin si queremos buscar por &lt;strong&gt;científico de datos&lt;/strong&gt; o &lt;strong&gt;data scientist&lt;/strong&gt; los resultados a nivel España con estas dos palabras dan casi unos 1500 posiciones laborales abiertas (27 de octubre 2019). Entre ellas hay posiciones de consultorías, pero sí que son las empresas que demandan esta posición, y no creo que ahora mismo la demanda supere la oferta, se necesitará profesionales y con un buen nivel formativo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-qué-ha-pasado-exactamente-en-españa-hay-una-moda-referente-a-ciencias-de-datos&#34;&gt;entr.¿Qué ha pasado exactamente en España, hay una moda referente a ciencias de datos?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No, no es una moda, quizás deberíamos pensar cosa están buscando exactamente las empresas. Las posiciones abiertas de científico de datos además de tener una buena remuneración (de promedio en España está en 37,000 euros brutos más beneficios), proyectos que pueden tener una duración de unos 2 - 3 años a más, y posiciones con niveles desde junior a senior, refiriéndome a expertise en diferentes áreas y herramientas utilizadas, quizás 2 a más de 5 años de experiencia, y entre los skills requeridos, bien aquí bastante que hablar (que conozca un sector o no, que tenga pensamiento computacional, estadístico, matemático, desarrollador en cloud, entre otras cosas). Más que moda es la realidad que están afrontando ahora las empresas. Las mayoría ha tenido que realizar años de ingesta de datos, (sí lo que llamamos Big Data). Miles de millones de bytes recogidos en una o varios repositorios (data lake), seguramente con una cierta calidad (cuestionable), en una plataforma on-premise o en cloud, y que está esperando a profesionales que de un sentido a este trabajo, respuestas, mejoras y rentabilidad. El nuevo petróleo de este decenio, serán los “datos”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/vk4j7iURahJ_N-bgoTAWtIJktnZKWdfiO6Tyyo7pitbJaBJUsi7w2Kk1Bhd7oqSwql6LYQ4UCCJzhLzz1YdfDMhQUlGDu_ZUn023FXqiD8W6rmLf6br99UAYCC6kvGaANIyslW-F&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-podría-un-científico-de-datos-solucionar-los-problemas-de-una-empresa&#34;&gt;entr. ¿Podría un científico de datos solucionar los problemas de una empresa?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Estaba leyendo un artículo (mismo escenario que ha pasado tanto en EEUU que en Europa), contaba que las empresas que no supieron organizar correctamente y gestionar proyectos de Big Data, o no tenían una planificación clara de cómo abordar un proyecto de Data Science, solamente el 15% de los proyectos logran ejecutarse. Es increíble, pensar que la parte restante, el 85% vaya a la “basura”. Por lo que, volviendo a la pregunta anterior, sí para muchas empresas ha sido una moda, no tuvieron en cuenta que los datos necesitan ser tratados de una forma, requería una inversión en tecnología e infraestructura, pero que además ya que tienen los datos, piensan que un científico de datos puede solucionar todos sus problemas de TI, o que todos los proyectos que quieren abordar sea fácil y alcanzable en poco tiempo. Creo que sigan esperando este “profesional”&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/TzUu7e7P4T892aATLfZoE9f7TIyMLKlm8VAegF014uTClypgWv04VFJQt_dks__cFgfFGNBA0UdLbyjOm7NEiXa6J3AITBWCYyga3x4m3wjmV_YBBXwf4MRUYdw5HPQGBctsukxD&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-pero-cuál-es-el-rol-de-un-científico-de-datos-en-una-organización&#34;&gt;entr: ¿Pero, cuál es el rol de un científico de datos en una organización?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Buena pregunta. Se supone que el científico de datos podría dividirse en dos figuras más, o macro-roles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;científico de datos de negocio&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;científico de datos de TI&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y porque no podría ser uno solo, uno es puramente comercial y el otro trabajaría más con la rama de ingeniería, por lo que sería más lógico en desarrollo y TI. Ahora, ambas figuras podrían coexistir en una misma organización o solamente una (dependiendo de la envergadura del proyecto, organización, team, etc). Supongamos que estamos hablando de una grande empresa de telecomunicaciones, como es obvio no podría tener un solo científico de datos, así que serían varios según el proyecto, pero tendríamos estos roles principales:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;analistas de negocio&lt;/em&gt; y &lt;em&gt;business analyst&lt;/em&gt;, (ambos tienen capacidades de entender cuál es el problema de negocio);&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;data analyst&lt;/em&gt;, (tiene el expertise de extraer información valiosa de los datos), que junto con los últimos juega un papel fundamental al estar en un punto intermedio entre negocio y TI;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;data engineer&lt;/em&gt; y &lt;em&gt;data architect&lt;/em&gt;, ambos son aquellos que organizan la infraestructura, cloud o on-premise y preparan los datos al servicio de los anteriores&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;data scientist,&lt;/em&gt; que podría coordinar, organizar, planificar el team según un proyecto determinado, y a la vez, podría descubrir nuevas fuentes de datos, enriquecer lo que ya tiene, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Podría existir el &lt;strong&gt;lead data scientist&lt;/strong&gt; o el &lt;strong&gt;CDO&lt;/strong&gt; junto con el CTO serían las figuras con más responsabilidades y liderando el departamento de data.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-cómo-es-de-importante-un-científico-de-datos-en-un-proyecto&#34;&gt;entr.: ¿Cómo es de importante un científico de datos en un proyecto?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Supongamos que necesitamos incrementar las ventas de una grande distribución, tenemos datos basado en las transacciones de los actuales clientes, y los analistas han detectado que existen patrones, además han detectado otras posibles fuentes de datos capaces de mejorar el resultado, pero no saben bien cómo introducirlos o ingestarlos, tampoco saben si añadir unas variables más, mejorarían el resultado. Podría ser un ejemplo muy básico, pero un analista de datos podría lograr a través de las técnicas de &lt;em&gt;Data Mining,&lt;/em&gt; crear modelos basados en estas transacciones, utilizando uno o más &lt;strong&gt;algoritmos de clasificación y de regresión&lt;/strong&gt; y obtener algunos de los resultados. Hay un pero, no estamos considerando las variables de otras fuentes de datos, y tampoco sabemos bien cómo llegar a ellas. Un &lt;em&gt;data engineer&lt;/em&gt; podría realizar la tarea, pero tampoco sabe si funcionará o no. Es por este motivo que un &lt;em&gt;data scientist&lt;/em&gt; al tener conocimientos (y no solo fundamentos), de Big Data, Estadística, Matemática, Minería de Datos, Algoritmos y Negocio, además de ser un muy buen &lt;em&gt;Comunicador,&lt;/em&gt; podría validar el proyecto desde otro punto de vista, modificando los algoritmos según su criterio o simplemente creando uno nuevo, mejorando el flujo de ingesta de datos, mejorando la seguridad, mejorando la velocidad y la calidad. Todo esto supondría un coste y es probable que no sea del todo factible realizarlo. Es por esto que tendrá que coordinar con los analistas de negocios para ponderar costes e ingresos del proyecto y verificar si el margen operativo valga la pena.Desde este ejemplo, podemos entender perfectamente el rol de uno científico de datos, o llamado el &lt;em&gt;Data Wizard&lt;/em&gt;, el mago de los datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/KbW77HgbxtElnSavSqKaSayOmOyhuX1iiDHpIbebhauqY5ID8xXtT2A_FOMAgRsa9KF6ukuiYx92_C-cQ3cxa6U-wjOWDW-LT54_oJpGQHyqGv3zL6ViRDinADL_ugwfvr4H5HYE&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entrev-estudiar-un-máster-de-data-science-podría-cubrir-la-actual-oferta&#34;&gt;entrev.: ¿Estudiar un Máster de Data Science podría cubrir la actual oferta?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Una parte seguramente sí, los roles son básicamente tres, &lt;em&gt;analista de datos&lt;/em&gt;, &lt;em&gt;científico de datos&lt;/em&gt; e &lt;em&gt;ingeniero de datos&lt;/em&gt;.
+El primero tiene muy buenas capacidades analíticas, dará unas primeras pinceladas a la solución del problema, deberá conocer algoritmos, estadísticas y las herramientas principales de ingesta, manipulación, limpieza y visualización de los datos.
+El último perfil es puramente técnico y desarrollador, tendrá conocimientos avanzados de desarrollo en cloud, tema de seguridad, tema de coste, arquitectura etc.
+El científico de datos, además de los otros, tendrá que realizar operaciones de nuevas creaciones de modelos, mejorar los algoritmos actuales, etc.
+Un máster está abierto a todos aquellos que tienen uno de los 3 pilares bien definidos: &lt;strong&gt;Comunicación&lt;/strong&gt;, &lt;strong&gt;Pensamiento estadístico&lt;/strong&gt; y creativo, &lt;strong&gt;Desarrollo&lt;/strong&gt;.
+Creo que con estos cualquier podría serlo, pero un máster no te convierte automáticamente en un científico de datos. Se necesita algo más que formación, pondría otras cualidades: &lt;em&gt;perseverancia&lt;/em&gt;, &lt;em&gt;constancia&lt;/em&gt; y &lt;em&gt;esfuerzo - sacrificio.&lt;/em&gt; Esta pequeña parte que nos olvidamos siempre cuando estamos cursando un máster, la continuidad de practicar desde casa, en la oficina, y ser curiosos para realizar pequeños nuevos descubrimientos y probar cosas nuevas. Todo esto nos hace mejor profesional de los datos.
+Quizás las empresas exageran un poco el término de Data Scientist, podría ser incluso un simple Consultor de datos, Especialistas en datos, etc., &lt;em&gt;pero el marketing es una arma potente de venta&lt;/em&gt;, ¿&lt;em&gt;no?&lt;/em&gt; Sin embargo, estar al día con las nuevas tecnologías, experimentar, seguir formándose y tener disciplina, es algo que finalmente tiene su recompensa.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entrev-tú-que-eres-docente-y-profesor-de-varios-cursos-y-de-un-máster-de-data-science-qué-recomendaciones-podrías-dar-a-tus-alumno-as-y-futuros&#34;&gt;entrev.:Tú que eres docente y profesor de varios cursos y de un Máster de Data Science, ¿qué recomendaciones podrías dar a tus alumno/as y futuros?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Como siempre digo, podemos disponer de miles de recursos, tanto online o como presencial, charlas, cursos, másteres, etc. Pero ahí no termina.
+Como decía antes, necesitaremos marcar unos objetivos a la hora de cursar un Mooc, leer recursos, etc. Quizás nos faltará tiempo, pero nadie se ha convertido de médico o ingeniero en pocos meses, ¿verdad?
+Es por esto que hay que considerar que estamos hablando de una formación que complementa algo que deberíamos tener. Si somos programadores, o matemáticos o ingenieros, partimos con ventajas, o no. El resto de tendrán que armarse de constancia y practicar mucho, aprender los fundamentos de estadística y matemáticas de bachillerato, eso es importante.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entrev-utilizas-alguna-metodología-que-puedas-mencionar&#34;&gt;entrev.:¿Utilizas alguna metodología que puedas mencionar?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yo adopto la archiconocida &lt;strong&gt;Learn to Doing&lt;/strong&gt;, ha funcionado conmigo y por qué no debería funcionar con el resto. Con la práctica se aprende mejor, y de una simple práctica realizada en aula (presencial o en remoto), podemos profundizar más con los recursos bibliográficos, materiales, modificar y adaptar nuestras mejoras, etc. Desde la práctica de fundamentos, casos reales y recursos para leer desde casa (¡parte importante!).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entrev-y-referente-a-la-planificación-de-estudio&#34;&gt;entrev.: Y, ¿referente a la planificación de estudio?&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;También es importante la &lt;strong&gt;planificación&lt;/strong&gt;. Para alcanzar pequeños objetivos a través de la práctica nos ayuda a entender lo que seguirá después, es importante tener una planificación, dentros de unos límites marcados y con una cierta lógica.
+El Máster de Data Science que estoy impartiendo en NEOLAND comienza con los fundamentos de las dos herramientas más utilizadas, R Studio y Python. Es probable que más adelante nos venga la curiosidad para otros lenguajes, pensaremos en Java, Javascript, Scala o Julia.
+Sigue Big Data, con la fase de ingesta, en la que deberíamos tener una visión 360º del entorno cloud, de Amazon AWS, Google Cloud Platform GCP y Microsoft Azure, mostrando cómo funciona realmente un proyecto de Big Data y de Análisis de Datos, y también cómo aplicar Auto Machine Learning.
+Los módulos de Data Mining y Deep Learning son los dos pilares más importantes del máster, así como visualizar y validar a través de los datos los modelos, interpretar sus resultados y mejorarlos con otras técnicas, además de visualizarlos. El proyecto final es el premio, lo que llevará el estudiante en su curriculum y portfolio conjuntamente con el resto de casos que realizará durante el máster. No creo que haga falta algo más, abordar demasiado sería incluso asfixiante para el alumno y no tener una visión clara de lo que será después.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Muchas gracias Marco por contestar a nuestras preguntas, desde luego queda claro que la introducción del Data Science en el ámbito empresarial, es un paso fundamental para las empresas que quieran mantenerse dentro del paradigma futuro y una gran opción para formarse en ella.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.neoland.es/blog/el_futuro_del_data_science&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparativa de plataformas Business Intelligence y análisis de datos: introducción</title>
+      <link>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</guid>
+      <description>
+
+&lt;p&gt;Uno de los retos de un analista digital es pasar por diferentes procesos de &lt;strong&gt;limpieza, exploración y análisis de contenido&lt;/strong&gt; para sacar buenas conclusiones y detectar nuevos escenarios e insights. Además, tiene que comprobar si las fuentes de datos son de dudosa calidad o no.&lt;/p&gt;
+
+&lt;p&gt;Y si hablamos de un analista digital, es muy probable que toda esa exploración pase por la herramienta más utilizada en el mundo de la analítica: &lt;strong&gt;Google Analytics&lt;/strong&gt;. Pero seguro que también estará conectado a otras fuentes como Google Sheet, un CRM o base de datos, u otros ficheros de texto, en formato csv, y más.&lt;/p&gt;
+
+&lt;p&gt;Hoy en día, &lt;strong&gt;un analista digital no solo tendrá que tener conocimientos solo de usabilidad de la web&lt;/strong&gt;, también de negocios, estadística, programación, base de datos, visualización de datos, además &lt;strong&gt;estar actualizado con las nuevas tecnologías&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Entre las herramientas que normalmente podemos incluir en nuestro &amp;ldquo;maletín&amp;rdquo; de explorador de los datos, sería la programación. Y &lt;strong&gt;algunos de nuestros aliados deben ser el lenguaje R o Python&lt;/strong&gt;, siendo &amp;ldquo;sencillos&amp;rdquo; en su aprendizaje y muy útiles a la hora de ejecutar pequeños script, ya que tienen muchas librerías open-source.&lt;/p&gt;
+
+&lt;p&gt;Veamos qué ofrecen cada uno de ellos y cómo pueden ayudarnos al análisis y visualización de datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/lenguaje-r.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;por-qué-r&#34;&gt;¿Por qué R?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R es un lenguaje generalista&lt;/strong&gt;, con diversas librerías de análisis estadístico bastante potentes que pueden suplir el campo de aplicación R, cosa que no sucede con otros lenguajes como Python, por ejemplo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R está pensado para explotar su potencial que es la &amp;ldquo;estadística&amp;rdquo;&lt;/strong&gt;. Este fantástico lenguaje &lt;strong&gt;nos permite una primera toma de contacto con los datos debido a su flexibilidad por la exploración, limpieza y análisis&lt;/strong&gt; a diferentes fuentes de datos, así como aplicar modelos y algoritmos predictivos puede ser de gran ayuda en el mundo de la análisis de datos.&lt;/p&gt;
+
+&lt;h2 id=&#34;intro-de-r-studio&#34;&gt;Intro de R Studio&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;R Studio es un entorno gráfico&lt;/strong&gt; para el lenguaje de programación R que &lt;strong&gt;facilita la creación y ejecución de scripts&lt;/strong&gt;. También simplifica la instalación de los paquetes necesarios para la ejecución de aquellos scripts que los requieran.&lt;/p&gt;
+
+&lt;p&gt;R Studio utiliza una partición de la pantalla en diferentes secciones, de forma que todos los elementos necesarios se encuentran disponibles a un solo clic, incluidos el código fuente, los datos cargados y generados por dicho código, los resultados obtenidos, los gráficos generados, etc.&lt;/p&gt;
+
+&lt;p&gt;También facilita la integración con otros sistemas para la creación de informes en diferentes formatos (principalmente HTML o PDF).&lt;/p&gt;
+
+&lt;h2 id=&#34;librería-de-google-analytics-en-r&#34;&gt;Librería de Google Analytics en R&lt;/h2&gt;
+
+&lt;p&gt;Entre las diferentes librerías en R para poder conectar y explorar los datos desde Google Analytics, hay dos en particular de lo que hablaré hoy.&lt;/p&gt;
+
+&lt;p&gt;Ambos están en el repositorio oficial del CRAN (&lt;a href=&#34;https://cran.r-project.org/package=googleAuthR&#34; target=&#34;_blank&#34;&gt;googleAuthR&lt;/a&gt; y &lt;a href=&#34;https://cran.r-project.org/web/packages/googleAnalyticsR/vignettes/googleAnalyticsR.html&#34; target=&#34;_blank&#34;&gt;googleAnalyticsR&lt;/a&gt;). Su función es que se necesitan en una el token Google Analytics, mientras el otro habilitar Google Cloud y su API, con lo cual necesitaríamos tener activados:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Google Cloud, habilitar el proyecto.&lt;/li&gt;
+&lt;li&gt;Permiso de edición de Google Analytics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Aspectos a considerar de Google Analytics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Durante la fase de exploración, consultaremos dimensiones y métricas de Google Analytics. SI no estás familiarizado con estas dos partes más importantes de analítica web, mi consejo es &lt;a href=&#34;https://support.google.com/analytics/answer/1033861?hl=es&#34; target=&#34;_blank&#34;&gt;que consultes la guía oficial&lt;/a&gt; para conocer las más representativas.&lt;/p&gt;
+
+&lt;p&gt;Si, por el contrario, ya conoces la interfaz de Analytics y quieres ir más allá, puedes consultar la tool externa de exploración de estos datos a través de la otra API de Google Analytics, &lt;a href=&#34;https://ga-dev-tools.appspot.com/query-explorer/&#34; target=&#34;_blank&#34;&gt;Query Explorer&lt;/a&gt;,** **y la extensión o &lt;a href=&#34;https://developers.google.com/analytics/solutions/google-analytics-spreadsheet-add-on&#34; target=&#34;_blank&#34;&gt;complemento para Google Sheet&lt;/a&gt; que permite tener datos directamente en una hoja de cálculo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fase de Instalación y Autorización de GA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En esta fase cargaremos los paquetes necesarios, previamente necesitaremos una &lt;strong&gt;cuenta de Google Cloud&lt;/strong&gt; (que nos vendrá bien también si en un futuro queremos utilizar Big Query).&lt;/p&gt;
+
+&lt;p&gt;Es importante tener una cuenta de Google Analytics que no sea ni demo, ni solo de lectura, ya que podría tener problemas con los permisos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cargamos las librerías y configurar los valores opcionales:&lt;/p&gt;
+
+&lt;h1 id=&#34;install-packages-googleauthr&#34;&gt;install.packages(&amp;ldquo;googleAuthR&amp;rdquo;)&lt;/h1&gt;
+
+&lt;h1 id=&#34;install-packages-googleanalyticsr&#34;&gt;install.packages(&amp;ldquo;googleAnalyticsR&amp;rdquo;)&lt;/h1&gt;
+
+&lt;p&gt;library(googleAnalyticsR)
+library(RGoogleAnalytics)
+library(ggplot2) # para representar gráficamente los datos
+library(forecast) # para las predicciones seriales
+library(&amp;ldquo;tidyverse&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Autorización GA con Google Cloud y ejecutamos&lt;/p&gt;
+
+&lt;h2 id=&#34;autorizamos-a-través-del-token-con-nuestro-account-google&#34;&gt;Autorizamos a través del token con nuestro account Google&lt;/h2&gt;
+
+&lt;p&gt;ga_auth()&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Comenzamos con la primera query de Google Analytics in R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Veamos el listado de los account de GA y la guardamos en una nueva variable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;account_list
+
+
+
+
+
+Lo que estamos realizando aquí es simplemente a través del token generado por Google Analytics para habilitar desde nuestro account de Google Analytics el listado de Cuentas, Propiedades y Vistas para poder así trabajar con una cuenta específica.  
+
+
+
+
+
+
+
+
+## EDA (Exploratory Data Analysis)  
+
+
+
+
+
+
+
+El trabajo de exploración del dataset en R requiere de varios pasos para comprobar si existen valores nulos o vacíos, discrepancias que podemos arreglar, sustituir o eliminar. A este proceso se le llama EDA.
+
+
+
+
+
+
+
+
+# Create a list of the parameters to be used in the Google Analytics query
+# Get the Sessions by Month in 2018
+gadata
+
+
+
+
+
+Podéis ver el código [en este repositorio de GitHub][7].
+
+
+
+
+
+
+
+Con nuestra pequeña query, que guardaremos en una nueva variable **gadata**, almacenaremos las sesiones en un periodo de un año, por ejemplo. Paralelamente podemos observar si existen sesiones igual a cero.
+
+
+
+
+
+
+
+Comprobado que efectivamente no existen valores nulos ni ceros, procederemos a una representación gráfica con el librería **ggplot** del paquete instalado _ggplot2._
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Representación gráfica de la dimensión date y métrica sessions&lt;/p&gt;
+
+&lt;p&gt;gadata %&amp;gt;% ggplot(aes(x=date, y=sessions)) +   geom_point()&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y si queremos visualizar cada valor por tamaño según la sesión, entonces tendríamos este:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date, y=sessions, size = sessions)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y, si además le añadimos gradación por color de más oscuro a más claro, según el tamaño de las sesiones, obtendremos esto:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date, y=sessions, size = sessions, color = sessions)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Siguiendo la misma lógica, podemos añadir otras métricas de tráfico importantes (duración media, usuarios, páginas vistas, transacciones, eventos, etc), así que para tener una idea de la evolución o tendencia por periodo, podemos representar el gráfico de líneas:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x=date,y=sessions,group=1)) +
+  geom_line() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  # some styles to rotate x-axis labels
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora sí que se nota el pico máximo entre octubre y diciembre, nos hace pensar que este tráfico puede deberse al periodo entre el pre-Black Friday y durante Navidad (si es un retail tiene lógica). Y si queremos representar la tendencia, añadimos la &lt;strong&gt;línea de tendencia&lt;/strong&gt; para que vayamos viendo la evolución del tráfico a lo largo del periodo observado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gadata %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(x = date, y = sessions) ) +
+  geom_point() +
+  geom_smooth() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con los primeros datos podemos observar que ha habido un periodo estable, con acciones puntuales (serán promociones) y el pico hasta navidad.&lt;/p&gt;
+
+&lt;p&gt;Ahora nos interesa conocer algo más de nuestros usuarios, segmentando así el tráfico según periodos más cortos.&lt;/p&gt;
+
+&lt;p&gt;Pasamos a detectar si existen diferencia durante los días de la semana y hora del día. Creamos una nuevo dataset con las métricas sesiones y duración media de sesión, por día de la semana.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Añadimos la dimensión día de la semana y fecha - solo 1er semestre
+gadata_2
+
+
+
+
+
+## Segmentos de sesiones por día de la semana, franja horaria y categorías de dispositivos  
+
+
+
+
+
+
+
+
+![][13]
+
+
+
+
+
+
+
+Podemos observar que los boxplot indicados son muy relevantes, aunque necesitamos profundizar más sobre temas de cuartiles, min y max, media y mediana.
+
+
+
+
+
+
+
+Los puntos son nuestro &amp;quot;amigos&amp;quot; **outliers, **así que en casos puntuales estos tendrán que ser excluidos en algunos modelos y análisis. Lunes, martes y miércoles a primera vista tienen el mismo impacto, al igual que viernes y sábado.
+
+
+
+
+
+
+
+## Duración media de sesión por día de la semana
+
+
+
+
+
+![][14]
+
+Los datos en la segunda métrica son expresados en segundos, y los días de la semana están según el formato anglosajón (0 = Domingo , 6 = Sábado).  
+
+
+
+
+
+
+
+
+Nos interesa ahora conocer la duración media de sesión por hora del día y el día de la semana. Una representación gráfica podría ser una matriz, con dimensiones día de la semana y hora, veamos un periodo de tiempo más corto, por ejemplo 6 meses.  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cargamos las librería correspondientes y guardamos en una nueva variable el dataframe:&lt;/p&gt;
+
+&lt;p&gt;library(&amp;ldquo;RColorBrewer&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;gadata_3&lt;/p&gt;
+
+&lt;p&gt;Podría ejecutarlo para verlo, pero para una correcta lectura de los días de la semana, sustituyamos los números por nombres, ordenando así los días de la semana:&lt;/p&gt;
+
+&lt;p&gt;gadata_3$dayOfWeekName&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-9.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con esta matriz se puede observar que las franjas horarias de 8:00 a 12:00 de lunes a viernes tienen mayor impacto por duración promedio, aunque se observan picos desde las 21:00 a las 00:00 los martes, miércoles y jueves.&lt;/p&gt;
+
+&lt;p&gt;Sábado es el día más tranquilo comenzando desde el viernes por la tarde, siguiendo hasta el domingo donde se observa un pico a partir de las 17:00 hasta las 22:00. Interesante para preparar campañas publicitarias o remarketing en estos horarios.&lt;/p&gt;
+
+&lt;p&gt;Seguimos ahora con la segmentación por categoría de dispositivos. No es lo mismo con equipo de escritorio que con móvil o tablet. Así que vamos con la creación de una nueva variable y con dimensión **deviceCategory. **&lt;/p&gt;
+
+&lt;h1 id=&#34;otra-visualización-a-realizar-e-interesante-sería-la-comparación-por-dispositivo&#34;&gt;Otra visualización a realizar e interesante, sería la comparación por dispositivo.&lt;/h1&gt;
+
+&lt;p&gt;gadata_4 %
+ggplot(aes(deviceCategory, sessions)) +&lt;br /&gt;
+  geom_bar(aes(fill = deviceCategory), stat=&amp;ldquo;identity&amp;rdquo;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# plot avgSessionDuration with `deviceCategory`
+gadata_4 %&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;%
+ggplot(aes(deviceCategory, avgSessionDuration)) +   
+  geom_bar(aes(fill = deviceCategory), stat=&amp;quot;identity&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/03/web-analytics-r-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Con la segmentación por categoría de dispositivos podemos observar que tenemos mucho tráfico entrante por móvil, pero la duración promedio es muy baja.&lt;/p&gt;
+
+&lt;p&gt;Dato interesante si queremos utilizar como medio de &amp;ldquo;prospecting&amp;rdquo; el dispositivo móvil, pero también mejorar la conversión en desktop. El objetivo es crear finalmente un &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/cual-es-el-papel-del-cro-en-un-proyecto-digital/&#34; target=&#34;_blank&#34;&gt;proyecto CRO&lt;/a&gt; y analizar muchos otros aspectos de usabilidad.&lt;/p&gt;
+
+&lt;p&gt;En este primer post hemos realizado una exploración de los datos integrando la API de Google Analytics en RStudio y como resultado unos cuantos ejemplos útiles a la hora de generar Insights.&lt;/p&gt;
+
+&lt;p&gt;En la segunda parte veremos algo más de inferencia estadística y aplicaremos algún modelo de predicción, que nos será de utilidad a la hora de buscar patrones y tendencias.&lt;/p&gt;
+
+&lt;p&gt;Si quieres tener acceso al repositorio, &lt;a href=&#34;https://github.com/paradigmadigital/Rstudio/blob/master/GA_in_Rstudio_1stPart.Rmd&#34; target=&#34;_blank&#34;&gt;puedes acceder a él a través de este link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/dev/analitica-web-r-analisis-visualizacion-datos/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/dev/analitica-web-r-analisis-visualizacion-datos/&lt;/a&gt;]&lt;/p&gt;
 </description>
     </item>
     

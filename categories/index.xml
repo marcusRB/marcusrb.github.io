@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/categories/</link>
       <atom:link href="https://www.marcusrb.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2019</copyright><lastBuildDate>Mon, 09 Sep 2019 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Categories</title>
@@ -15,8 +15,24 @@
     <item>
       <title>data science</title>
       <link>https://www.marcusrb.com/categories/data-science/</link>
-      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Analytics</title>
+      <link>https://www.marcusrb.com/categories/business-analytics/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/business-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence</title>
+      <link>https://www.marcusrb.com/categories/business-intelligence/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/business-intelligence/</guid>
       <description></description>
     </item>
     

@@ -214,31 +214,101 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2019-10-01T07:20:59+02:00</lastmod>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2019-09-11T21:10:42+02:00</lastmod>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/</loc>
-    <lastmod>2019-09-11T21:10:42+02:00</lastmod>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/curso-analisis-de-datos/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/data-science/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/estudiar-bootcamp/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/master-data-science/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/business-analytics/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/business-intelligence/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/gartner/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/power-bi/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/pytohn/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/como-convertirse-en-data-scientist/</loc>
     <lastmod>2019-09-09T17:49:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2019-09-11T21:10:42+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -254,19 +324,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/categories/data-science/</loc>
-    <lastmod>2019-09-11T21:10:42+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/tags/formacion-data-science/</loc>
-    <lastmod>2019-09-11T21:10:42+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
     <lastmod>2019-09-11T21:10:42+02:00</lastmod>
     <priority>0</priority>
   </url>
