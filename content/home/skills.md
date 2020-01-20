@@ -32,11 +32,17 @@ subtitle = ""
   name = "Programming"
   description = "60%"  
 
-[[feature]]
-  icon = "tags"
-  icon_pack = "fa"
-  name = "Tag Management"
-  description = "60%"
+  [[feature]]
+    icon = "brain"
+    icon_pack = "fas"
+    name = "Problem solving"
+    description = "99%"
+
+  [[feature]]
+    icon = "raspberry-pi"
+    icon_pack = "fab"
+    name = "Raspberry IoT"
+    description = "20%"
 
 [[feature]]
   icon = "graduation-cap"
@@ -49,5 +55,19 @@ subtitle = ""
   icon_pack = "fas"
   name = "Experiment"
   description = "100%"
+
+  [[feature]]
+    icon = "tags"
+    icon_pack = "fa"
+    name = "Tag Management"
+    description = "60%"
+
+
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "Robotics"
+  description = "30%"
 
 +++
