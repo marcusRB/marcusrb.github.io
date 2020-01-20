@@ -65,9 +65,9 @@ social:
   link: https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
- - icon: cv
-   icon_pack: ai
-   link: files/Marco_Russo_resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/Marco_Russo_resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "contact.marcusrb@gmail.com"
