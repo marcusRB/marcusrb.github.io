@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 10 años como consultor • freelance • profesor en Data Science & Digital Analyics, desarrollo Tag Management, minería de datos, machine learning y Big Data
+role: +10 años como consultor • freelance • profesor en Data Science & Digital Analyics, desarrollo Tag Management, minería de datos, machine learning y Big Data
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Economista, desde el mundo bancario, bolsa y finanza al marketing digital. Apasionado de problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera y natación, basketball. Profesor y formador desde hace más de 8 años.
+bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
 
 interests:
 - Data Analysis & Visualization

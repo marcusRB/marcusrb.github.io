@@ -4,7 +4,7 @@
 
 # SEO utils
 site_name = "MarcusRB"
-role = "10 años como consultor • freelance • profesor en Data Science & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning Big Data"
+role = "+10 años como consultor • freelance • profesor en Data Science & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning Big Data"
 author = "marcusRB"
 # set meta robots for homepage, other rules add robots in page, posts and choose combination
 # v1.0 MR 102018
@@ -179,7 +179,7 @@ sharing = true
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 0
+  engine = 1
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
