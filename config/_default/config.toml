@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "MarcusRB: consultor & docente Data Analytics - BI - Machine Learning"
+title = "MMarcusRB | consultor & profesor data analytics • AI • Big Data"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -19,7 +19,7 @@ copyright = "&copy; {year}"
 googleAnalytics = ""
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "marcusRB"
+disqusShortname = "marcus_rb"
 
 ############################
 ## Advanced options below ##

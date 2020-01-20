@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 10 años de experiencia como consultor • docente • freelance en Data & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning área Big Data
+role: 10 años como consultor • freelance • profesor en Data Science & Digital Analyics, desarrollo Tag Management, minería de datos, machine learning y Big Data
 
 # Organizations/Affiliations
 organizations:
@@ -18,27 +18,30 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Economista, desde el mundo bancario, bolsa y finanza al marketing digital. Apasionado de problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera y natación, basketball. Docente y formador desde hace más de 7 años.
+bio: Economista, desde el mundo bancario, bolsa y finanza al marketing digital. Apasionado de problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera y natación, basketball. Profesor y formador desde hace más de 8 años.
 
 interests:
--  Data Analysis & Data Mining
--  Machine Learning & Algorithms
--  Data Science & Programming
--  Google, Piwik and Adobe Analytics
--  Tag Management GTM and DTM
--  Conversion Rate Optimization
+- Data Analysis & Visualization
+- Data Mining, Stats & Algorithms  
+- Machine Learning & Artificial Intelligence
+- Data Science & Deep Learning
+- GCP - AWS - Azure cloud platforms
+- Big Data arquitectures
+- Google Marketing, Matomo and Adobe Analytics
+- Tag Management GTM and DTM
+- Conversion Rate Optimization
 
 education:
   courses:
   - course: Data Engineering for Data Science
     institution: UOC University
-    year: 2012
+    year: 2019
   - course: MEng in Artificial Intelligence
     institution: Massachusetts Institute of Technology
-    year: 2009
+    year: 2018
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
-    year: 2008
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -62,9 +65,9 @@ social:
   link: https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+ - icon: cv
+   icon_pack: ai
+   link: files/Marco_Russo_resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "contact.marcusrb@gmail.com"
@@ -75,39 +78,42 @@ user_groups:
 - Researchers
 - Visitors
 ---
+## Data
 
-  - Consultoría infraestructuras Big Data AWS-GCP.
+  - Consultoría infraestructuras Big Data AWS-GCP-Azure.
   - Data prep and processing
-  - Data mining
-  - Business Intelligence y Big Data Analyst.
-  - Data Modeling
-  - Data Visualization: Power BI - Tableau - Qlik Sense - Google Data Studio
+  - Data mining & Data Modeling
+  - Business Intelligence - Analytics y Big Data Analyst.
+  - Machine Learning & Deep Learning
+  - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
 
-## Digital Marketing Analyst
+## Digital Analyst
 
   - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
-  - Auditoría Web & SEO
-  - Implementación y Reporting Analítica digital, Tag Management, Data Analysis
-  - CRO y UX
+  - Auditoría Web & SEO técnico
+  - Creación y gestión plan Analítica digital
+  - Implementación y configuración Tag Management
+  - Visualización y Data Analysis
 
 Amplia experiencia en la gestión de grandes cuentas para diferentes clientes principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además en diferentes idiomas.
 
 ## Docente & formador in-company:
 
-En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1000 horas de formación en:
+En los últimos [8 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1500 horas de formación en:
 
 - **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
 - **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
 - **data analytics**, fundamentos y Data mining en R, machine learning Python
 - **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
+- **data science**, inteligencia artificial, machine learning, deep learning, crear material y tutoría a los estudiantes de máster y cursos de data science y data analytics.
 
 principalmente en escuelas de negocios entre ellas, EAE Business School, IIM Internacional de Marketing, IEDGE Business School, IFM Business School. Escuelas de formación presencial: AdveiSchool y Aula Creactiva. Colaborador en la UOC Universitat Oberta Catalunya
 
   - Presencial en la impartición de módulos de digital marketing & eCommerce en la Cámara de Comercio de Madrid.
-  - Seminarios, Congresos internacionales.
+  - Seminarios, Formaciones, Meetups y Congresos internacionales.
 
   PRÓXIMOS cursos:
 
   - **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
 
-  - Además estaré impartiendo un curso de Data Analytics con Excel, PowerBI y Tableau en **NEOLAND**, más info en [Neoland](https://www.neoland.es/curso-data-analytics) y el [**Máster en Data Science**](https://www.neoland.es/master-data-science?c=mad) en Madrid.
+  - máster de **Data Science y de Data Analytics** con Excel, PowerBI y Tableau en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.

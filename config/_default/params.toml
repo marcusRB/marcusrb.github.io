@@ -4,7 +4,7 @@
 
 # SEO utils
 site_name = "MarcusRB"
-role = "10 años de experiencia como consultor y docente y freelance en Data & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning en Big Data"
+role = "10 años como consultor • freelance • profesor en Data Science & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning Big Data"
 author = "marcusRB"
 # set meta robots for homepage, other rules add robots in page, posts and choose combination
 # v1.0 MR 102018
@@ -34,7 +34,7 @@ font = "marcus"
 font_size = "s"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "10 años como consultor • freelance • profesor en Data Science & Digital Analyst, desarrollo Tag Management, minería de datos, machine learning Big Data"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -186,7 +186,7 @@ sharing = true
 
   # Configuration of Disqus.
   [comments.disqus]
-    shortname = "marcusRB"  # Paste the shortname from your Disqus dashboard.
+    shortname = "marcus_rb"  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
 # Search.
