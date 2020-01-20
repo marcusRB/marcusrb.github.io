@@ -14,7 +14,7 @@ role: +10 años como consultor • freelance • profesor en Data Science & Digi
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: DSATech Consulting ltd.
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -78,6 +78,10 @@ user_groups:
 - Researchers
 - Visitors
 ---
+
+> “Torture the data, and it will confess to anything.”
+  – **Ronald Coase**
+
 ## Data
 
   - Consultoría infraestructuras Big Data AWS-GCP-Azure.
@@ -99,21 +103,45 @@ Amplia experiencia en la gestión de grandes cuentas para diferentes clientes pr
 
 ## Docente & formador in-company:
 
-En los últimos [8 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1500 horas de formación en:
+En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1500 horas de formación en:
 
 - **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
 - **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
 - **data analytics**, fundamentos y Data mining en R, machine learning Python
 - **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
 - **data science**, inteligencia artificial, machine learning, deep learning, crear material y tutoría a los estudiantes de máster y cursos de data science y data analytics.
+- **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
 
-principalmente en escuelas de negocios entre ellas, EAE Business School, IIM Internacional de Marketing, IEDGE Business School, IFM Business School. Escuelas de formación presencial: AdveiSchool y Aula Creactiva. Colaborador en la UOC Universitat Oberta Catalunya
+**escuelas de negocios**:
+- EAE Business School
+- Instituto Internacional de Marketing IIM Internacional de Marketing
+- IEDGE Business School
+- IFM Business School
+- IEBS Business School
 
-  - Presencial en la impartición de módulos de digital marketing & eCommerce en la Cámara de Comercio de Madrid.
-  - Seminarios, Formaciones, Meetups y Congresos internacionales.
+**universidades**:
+- Colaborador/Consultor en la UOC Universitat Oberta Catalunya
+- MIT Massachusetts Institute Technology
+
+**formación presencial**:
+- Neoland
+- AdveiSchool
+- Digital Brain
+- Aula Creactiva.
+
+**plataformas eLearning**:
+- Udemy
+- Tutellus
+- YouTube
+- Google Scholar
+- EdX
+- vTutor
+
+Realizando formación presencial de módulos de digital marketing & eCommerce en la Cámara de Comercio de Madrid y Seminarios, Meetups y Congresos internacionales.
+
 
   PRÓXIMOS cursos:
 
   - **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
 
-  - máster de **Data Science y de Data Analytics** con Excel, PowerBI y Tableau en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
+  - Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
