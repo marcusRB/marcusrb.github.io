@@ -15,7 +15,7 @@ role: +10 años como consultor • freelance • profesor en Data Science & Digi
 # Organizations/Affiliations
 organizations:
 - name: DSATech Consulting ltd.
-  url: ""
+  url: "www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
@@ -79,7 +79,7 @@ user_groups:
 - Visitors
 ---
 
-> “Torture the data, and it will confess to anything.”
+> “If you torture the data long enough, it will confess.”
   – **Ronald Coase**
 
 ## Data
