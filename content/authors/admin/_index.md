@@ -82,22 +82,23 @@ user_groups:
 > “If you torture the data long enough, it will confess.”
   – **Ronald Coase**
 
-## Data
+## Data specialist
 
-  - Consultoría infraestructuras Big Data AWS-GCP-Azure.
+  - Data collection
   - Data prep and processing
   - Data mining & Data Modeling
-  - Business Intelligence - Analytics y Big Data Analyst.
-  - Machine Learning & Deep Learning
+  - Business Intelligence - Analytics y Big Data Analyst
+  - AI: Machine Learning & Deep Learning
   - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
+  - Consultoría infraestructuras Big Data AWS-GCP-Azure.
 
 ## Digital Analyst
-
-  - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
-  - Auditoría Web & SEO técnico
+ 
   - Creación y gestión plan Analítica digital
   - Implementación y configuración Tag Management
   - Visualización y Data Analysis
+  - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
+  - Auditoría Web & SEO técnico
 
 Amplia experiencia en la gestión de grandes cuentas para diferentes clientes principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además en diferentes idiomas.
 
@@ -114,9 +115,9 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 
 **escuelas de negocios**:
 - EAE Business School
-- Instituto Internacional de Marketing IIM Internacional de Marketing
+- IIM Instituto Internacional de Marketing
 - IEDGE Business School
-- IFM Business School
+- IMF Business School
 - IEBS Business School
 
 **universidades**:
@@ -127,17 +128,17 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 - Neoland
 - AdveiSchool
 - Digital Brain
-- Aula Creactiva.
+- Aula Creactiva
+- Cámara de Comercio Madrid
 
 **plataformas eLearning**:
 - Udemy
-- Tutellus
 - YouTube
 - Google Scholar
 - EdX
 - vTutor
 
-Realizando formación presencial de módulos de digital marketing & eCommerce en la Cámara de Comercio de Madrid y Seminarios, Meetups y Congresos internacionales.
+Colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management.
 
 
   PRÓXIMOS cursos:
