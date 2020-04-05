@@ -5,12 +5,36 @@
     <link>https://www.marcusrb.com/tags/</link>
       <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 05 Mar 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://www.marcusrb.com/tags/</link>
     </image>
+    
+    <item>
+      <title>big query</title>
+      <link>https://www.marcusrb.com/tags/big-query/</link>
+      <pubDate>Thu, 05 Mar 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/big-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dashboard</title>
+      <link>https://www.marcusrb.com/tags/dashboard/</link>
+      <pubDate>Thu, 05 Mar 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google data studio</title>
+      <link>https://www.marcusrb.com/tags/google-data-studio/</link>
+      <pubDate>Thu, 05 Mar 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/google-data-studio/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>curso analisis de datos</title>
