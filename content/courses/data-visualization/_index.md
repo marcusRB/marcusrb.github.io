@@ -1,13 +1,13 @@
 ---
 # Course title, summary, and position.
-linktitle: Business Intelligence y Data Analytics
-summary: Learning Path de Business Intelligence, Business y Data Analytics. Material, tutoriales, documentos técnicos sobre minería de datos, exploración estadísticos.
-weight: 1
+linktitle: Data Visualization
+summary: Learning Path de Visualización de datos, se indicarán los cursos de Data Studio, Tableau y Power BI.
+weight: 2
 
 # Page metadata.
-title: Aprendizaje en Business Analytics
-date: "2019-09-02T00:00:00Z"
-lastmod: "2019-09-10T00:00:00Z"
+title: Aprendizaje en Visualización de datos
+date: "2020-04-05T00:00:00Z"
+lastmod: "2019-04-05T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  business-analytics:
+  data-visualization:
     name: Learning Path
     weight: 1
 ---
@@ -34,6 +34,6 @@ menu:
 ## Estructura programación de Business Analytics
 
 
-- [] [Introducción de SQL](intro-sql)
-- [] [Advanced SQL](advanced-sql)
-- [] [SQL Server]()
+- [] [Tableau]()
+- [] [Power BI]()
+- [x] [Google Data Studio](google-data-studio)

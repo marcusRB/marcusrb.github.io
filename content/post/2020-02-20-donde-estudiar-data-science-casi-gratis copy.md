@@ -1,6 +1,6 @@
 +++
 title = "[Entrevista] - Estudiar Data Science, profesión del momento o moda pasajera?"
-date = 2020-01-07T17:52:54+01:00
+date = 2020-02-07T17:52:54+01:00
 draft = true
 robots = "index, follow"
 url = "/entrevista-estudiar-data-science-profesion-actual-moda-pasajera"

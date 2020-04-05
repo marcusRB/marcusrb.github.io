@@ -14,7 +14,7 @@ role: +10 años como consultor • freelance • profesor en Data Science & Digi
 
 # Organizations/Affiliations
 organizations:
-- name: DSATech Consulting ltd.
+- name: DSAtech Consulting ltd.
   url: "www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
@@ -33,6 +33,9 @@ interests:
 
 education:
   courses:
+  - course: Machine Learning Databricks
+    institution: Databricks
+    year: 2020
   - course: Data Engineering for Data Science
     institution: UOC University
     year: 2019
@@ -86,32 +89,33 @@ user_groups:
 
   - Data collection
   - Data prep and processing
-  - Data mining & Data Modeling
-  - Business Intelligence - Analytics y Big Data Analyst
+  - Data mining & Data modeling
+  - Business Intelligence & Big Data Analyst
   - AI: Machine Learning & Deep Learning
   - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
-  - Consultoría infraestructuras Big Data AWS-GCP-Azure.
+  - Big Data AWS GCP Azure
 
 ## Digital Analyst
  
-  - Creación y gestión plan Analítica digital
+  - Gestión plan Analítica digital
   - Implementación y configuración Tag Management
   - Visualización y Data Analysis
-  - Consultoría y asesoría SEM (Search, Display, YouTube, Shopping, Mobile).
-  - Auditoría Web & SEO técnico
+  - Consultoría y asesoría SEO & SEM (Search, Display, YouTube, Shopping, Mobile)
 
-Amplia experiencia en la gestión de grandes cuentas para diferentes clientes principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además en diferentes idiomas.
+Experiencia en la gestión de grandes cuentas principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además gestión y data discovery en diferentes idiomas.
 
 ## Docente & formador in-company:
 
 En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1500 horas de formación en:
 
-- **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
-- **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
-- **data analytics**, fundamentos y Data mining en R, machine learning Python
-- **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
 - **data science**, inteligencia artificial, machine learning, deep learning, crear material y tutoría a los estudiantes de máster y cursos de data science y data analytics.
 - **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
+- **data analytics**, fundamentos y Data mining en R, machine learning Python
+- **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
+- **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
+- **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
+
+### Formación presencial y a distancia en:
 
 **escuelas de negocios**:
 - EAE Business School
@@ -124,12 +128,12 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 - Colaborador/Consultor en la UOC Universitat Oberta Catalunya
 - MIT Massachusetts Institute Technology
 
-**formación presencial**:
+**otros centros**:
 - Neoland
+- Fictizia
 - AdveiSchool
 - Digital Brain
 - Aula Creactiva
-- Cámara de Comercio Madrid
 
 **plataformas eLearning**:
 - Udemy
@@ -141,8 +145,10 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 Colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management.
 
 
-  PRÓXIMOS cursos:
+## PRÓXIMOS Cursos:
 
-  - **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
+- **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
 
-  - Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
+- Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
+
+- Bootcamp de **Data Science y Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)

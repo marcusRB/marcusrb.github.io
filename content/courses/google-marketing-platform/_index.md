@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Google Marketing Platform
 summary: "Recursos y documentación técnica de los cursos del ecosistema de Google: Ads, Analytics, Tag Manager, Data Studio, Optimize, Search Console"
-weight: 1
+weight: 6
 
 # Page metadata.
 title: Google Marketing Platform
@@ -40,5 +40,4 @@ Los siguientes productos están divididos en las secciones:
 * [Google Analytics](google-analytics)
 * [Google Tag Manager](google-tag-manager)
 * [Google Ads](google-ads)
-* [Google Data Studio](google-data-studio)
 * [Google Optimize](google-optimize)

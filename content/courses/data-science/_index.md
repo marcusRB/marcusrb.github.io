@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Data Science
 summary: Learning Path de Data Science. Material, tutoriales, documentos técnicos sobre aprendizaje automático, algoritmos, deep learning e inteligencia artificial.
-weight: 2
+weight: 5
 
 # Page metadata.
 title: Aprendizaje en Data Science
