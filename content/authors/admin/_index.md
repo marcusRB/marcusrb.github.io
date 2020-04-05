@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: +10 años como consultor • freelance • profesor en Data Science & Digital Analyics, desarrollo Tag Management, minería de datos, machine learning y Big Data
+role: +10 años como consultor • freelance • profesor Data Science & Digital Analyics, minería de datos, machine learning y Big Data • Data Visualization • AI enthusiast
 
 # Organizations/Affiliations
 organizations:
@@ -82,7 +82,7 @@ user_groups:
 - Visitors
 ---
 
-> “If you torture the data long enough, it will confess.”
+> *“If you torture the data long enough, it will confess.”*
   – **Ronald Coase**
 
 ## Data specialist
@@ -102,7 +102,7 @@ user_groups:
   - Visualización y Data Analysis
   - Consultoría y asesoría SEO & SEM (Search, Display, YouTube, Shopping, Mobile)
 
-Experiencia en la gestión de grandes cuentas principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además gestión y data discovery en diferentes idiomas.
+Larga experiencia en gestión de grandes cuentas principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además gestión y data discovery en diferentes idiomas.
 
 ## Docente & formador in-company:
 
@@ -118,6 +118,7 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 ### Formación presencial y a distancia en:
 
 **escuelas de negocios**:
+
 - EAE Business School
 - IIM Instituto Internacional de Marketing
 - IEDGE Business School
@@ -125,10 +126,12 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 - IEBS Business School
 
 **universidades**:
+
 - Colaborador/Consultor en la UOC Universitat Oberta Catalunya
 - MIT Massachusetts Institute Technology
 
 **otros centros**:
+
 - Neoland
 - Fictizia
 - AdveiSchool
@@ -136,19 +139,20 @@ En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digit
 - Aula Creactiva
 
 **plataformas eLearning**:
+
 - Udemy
 - YouTube
 - Google Scholar
 - EdX
 - vTutor
 
-Colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management.
+Otras colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management y Visualización de datos.
 
 
 ## PRÓXIMOS Cursos:
 
-- **Data Analysis**, y seminarios presenciales avanzados de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
+* **Data Analysis**, cursos presenciales/ a distancia de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
 
-- Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
+* Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
 
-- Bootcamp de **Data Science y Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)
+* Bootcamp de **Data Science y Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)
