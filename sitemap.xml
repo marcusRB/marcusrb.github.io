@@ -219,19 +219,60 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/5-tips-utiles-power-bi/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2020-04-05T11:07:27+02:00</lastmod>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/categories/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/data-visualization/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/dashboard/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/powerbi/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/tips/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -241,25 +282,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/categories/data-visualization/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/tags/big-query/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tags/dashboard/</loc>
     <lastmod>2020-04-05T10:35:51+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -271,24 +294,18 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
-    <lastmod>2020-04-05T10:35:51+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/categories/data-science/</loc>
-    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</loc>
     <lastmod>2020-01-07T21:35:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/curso-analisis-de-datos/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/data-science/</loc>
     <lastmod>2020-01-07T21:35:52+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -422,42 +439,32 @@
   
   <url>
     <loc>https://www.marcusrb.com/consultoria-data-analytics/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/google-data-studio/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-machine-learning/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-machine-learning/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-tableau/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/big-query/</loc>
-    <lastmod>2020-01-20T17:14:00+01:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-google-data-studio/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-visualizacion-datos/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios/tableau/</loc>
-    <lastmod>2019-10-01T07:20:59+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/consultoria-visualizacion-datos/power-bi/</loc>
-    <lastmod>2019-10-01T07:20:59+02:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-power-bi/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/servicios/</loc>
-    <lastmod>2020-01-20T17:14:00+01:00</lastmod>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -628,8 +635,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/formacion/</loc>
-    <lastmod>2019-10-01T07:20:59+02:00</lastmod>
+    <loc>https://www.marcusrb.com/servicio-formacion/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
@@ -1026,13 +1033,13 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-google-analytics/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-google-analytics/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</loc>
-    <lastmod>2019-09-04T19:50:58+02:00</lastmod>
+    <loc>https://www.marcusrb.com/consultoria-google-tag-manager/</loc>
+    <lastmod>2020-04-09T10:48:57+02:00</lastmod>
   </url>
   
   <url>
