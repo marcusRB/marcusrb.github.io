@@ -5,7 +5,7 @@ type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Gestionamos la creación de dasborad con Microsoft PowerBI"
 robots: "index, follow"
-url: "/consultoria-visualizacion-datos/power-bi"
+url: "/consultoria-power-bi/"
 ---
 
 ## ¿Qué es Microsoft Power BI?

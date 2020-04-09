@@ -6,6 +6,7 @@ date: 2019-02-19T18:31:41+00:00
 summary: "Realizo formaciones personalizadas a empresas y a escuelas de negocios de herramientas de analítica web, performance y análisis de datos"
 url: ""
 robots: "index, follow"
+url: "/servicio-formacion/"
 ---
 
 ## Docencia para cursos de posgrados, seminarios y congresos

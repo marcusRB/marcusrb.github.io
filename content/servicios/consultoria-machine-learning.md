@@ -5,6 +5,7 @@ type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Servicio que ofrece creación de algoritmos de aprendizaje automático."
 robots: "index, follow"
+url: "/consultoria-machine-learning/"
 ---
 
 ## Machine Learning and Deep Learning Consulting

@@ -5,7 +5,7 @@ type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Servicio ofrecido para la consultoría de análisis exploratorio, visualización de datos, estadísticos"
 robots: "index, follow"
-url: "/consultoria-data-analytics"
+url: "/consultoria-data-analytics/"
 ---
 
 

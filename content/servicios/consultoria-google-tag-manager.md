@@ -4,6 +4,7 @@ author: marcusRB
 type: page
 date: 2018-04-29T18:31:41+00:00
 summary: "Con una auditoria y creación de un plan de medición, pasando por la implementación en Google Tag Manager a su sitio web y app móvil para etiquetar eventos de interacción"
+url: "/consultoria-google-tag-manager/"
 ---
 
 <img src="https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png" alt="plantilla-gtm-analytics"/>

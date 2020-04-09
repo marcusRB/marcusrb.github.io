@@ -4,6 +4,7 @@ author: marcusRB
 type: page
 date: 2018-04-29T18:43:20+00:00
 summary: "Con este servicio de auditoria e correcta configuración de la herramienta de análisis web, Google Analytics"
+url: "/consultoria-google-analytics/"
 ---
 
 <img src="https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png" alt="logo_lockup_analytics_icon_vertical_black_2x"/>
