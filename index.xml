@@ -4349,6 +4349,45 @@ Buenos podemos también crear &lt;strong&gt;funciones CUSTOM JS&lt;/strong&gt; c
     </item>
     
     <item>
+      <title>Meetup - Escalando de nivel con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/talk/google_tag_manager_2/</link>
+      <pubDate>Tue, 25 Jun 2019 18:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/talk/google_tag_manager_2/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;destripando-google-tag-manager&#34;&gt;Destripando Google Tag Manager&lt;/h1&gt;
+
+&lt;p&gt;Nivel 1.&lt;/p&gt;
+
+&lt;p&gt;30 octubre 2018&lt;/p&gt;
+
+&lt;h2 id=&#34;destripando-google-tag-manager-1&#34;&gt;Destripando Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Después del primer Meetup sobre los fundamentos de Google Tag Manager, que está disponible en nuestro canal de YouTube, en este webinar vamos a realizar todo tipo de prácticas que nos permitirán conectar la interfaz más utilizada con el ecosistema de Google: Analytics, Marketing Platform como también Facebook Ads y herramientas de CRO. Pasaremos sucesivamente a las configuraciones avanzadas que nos permitirán subir de nivel y poder disponer de las métricas esenciales sin miedo de perder datos a la hora de analizar tu negocio.&lt;/p&gt;
+
+&lt;h2 id=&#34;quién-es-el-ponente&#34;&gt;¿Quién es el ponente?&lt;/h2&gt;
+
+&lt;p&gt;Marco Russo&lt;/p&gt;
+
+&lt;p&gt;Consultor y Especialista en Data &amp;amp; Machine Learning, Business Analytics y Visualización de datos en Paradigma Digital, con más de 7 años de experiencias en diferentes sectores y clientes, además profesor para importantes escuelas de negocios y colaborador en la Universitat Oberta de Catalunya. Especializado en data mining, optimización de modelos y machine learning en área del Marketing, Retail y Banca-Finanzas entre otras. Cuando no estoy jugando con IoT, datos y robótica, dedico el tiempo con mi familia y a mi deporte favorito, bici de carretera.&lt;/p&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/mWEzBtHtbmM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Analítica web con R: análisis y visualización de datos</title>
       <link>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</link>
       <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
@@ -6007,6 +6046,53 @@ En función de los destinatarios y le tipo de negocio, estos son, por ejemplo, a
 &lt;p&gt;Y tú, ¿qué herramientas utilizas para monitorizar tus objetivos empresariales?&lt;/p&gt;
 
 &lt;p&gt;(FUENTE ORIGINAL)[&lt;a href=&#34;https://www.paradigmadigital.com/techbiz/como-crear-dashboard-para-poner-en-orden-tus-metricas/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/techbiz/como-crear-dashboard-para-poner-en-orden-tus-metricas/&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meetup - Destripando Google Tag Manager</title>
+      <link>https://www.marcusrb.com/talk/google_tag_manager_1/</link>
+      <pubDate>Tue, 30 Oct 2018 18:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/talk/google_tag_manager_1/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;destripando-google-tag-manager&#34;&gt;Destripando Google Tag Manager&lt;/h1&gt;
+
+&lt;p&gt;Nivel 1.&lt;/p&gt;
+
+&lt;p&gt;30 octubre 2018&lt;/p&gt;
+
+&lt;h2 id=&#34;destripando-google-tag-manager-1&#34;&gt;Destripando Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Hemos puesto este título un poco en honor a la fiesta de Halloween, pero realmente hay cierto &amp;ldquo;miedo&amp;rdquo; al utilizar la herramienta de medición más utilizada del mundo por parte de muchos usuarios.&lt;/p&gt;
+
+&lt;p&gt;En esta ocasión le toca el turno a &amp;ldquo;Google Tag Manager&amp;rdquo;, vamos a conocer los casos típicos de uso, y no solo de la forma sencilla, gracias a nuestro experto Marco Russo.&lt;/p&gt;
+
+&lt;p&gt;Aunque generalmente es utilizada por profesionales de digital marketing y analítica digital, es una herramienta todo-terreno, válida también para realizar pruebas de performance, testing front y back-end, interactuando con el DOM, jugar con script de Google AppScript y Google Spreadsheet, etc.&lt;/p&gt;
+
+&lt;p&gt;Pretendemos dar una visión general sobre las variadas opciones de GTM, y de cómo explotarlas al máximo mostrando ideas y casos prácticos.&lt;/p&gt;
+
+&lt;p&gt;Marco Russo es consultor y especialista en Digital Data Analytics a nivel internacional trabajando para diferentes sectores industriales. Además, desde hace 6 años compagina su trabajo con la formación in-company y en diferentes escuelas de negocios y Cámara de Comercio, realizando módulos y cursos de Analytics, DataViz, CRO y Google Tag Manager. Cuando no piensa en los datos, además de compaginar su tiempo con la familia, puedes encontrarlo escalando montañas en la sierra de Madrid con su bici de carretera o en una cancha de basket.&lt;/p&gt;
+
+&lt;h2 id=&#34;quién-es-el-ponente&#34;&gt;¿Quién es el ponente?&lt;/h2&gt;
+
+&lt;p&gt;Marco Russo&lt;/p&gt;
+
+&lt;p&gt;Consultor y Especialista en Data &amp;amp; Machine Learning, Business Analytics y Visualización de datos en Paradigma Digital, con más de 7 años de experiencias en diferentes sectores y clientes, además profesor para importantes escuelas de negocios y colaborador en la Universitat Oberta de Catalunya. Especializado en data mining, optimización de modelos y machine learning en área del Marketing, Retail y Banca-Finanzas entre otras. Cuando no estoy jugando con IoT, datos y robótica, dedico el tiempo con mi familia y a mi deporte favorito, bici de carretera.&lt;/p&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/xYc69otQHbg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

@@ -219,13 +219,13 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2020-04-20T19:38:31+02:00</lastmod>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2020-04-20T19:38:31+02:00</lastmod>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,18 +306,18 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/categories/data-science/</loc>
-    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</loc>
     <lastmod>2020-01-07T21:35:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tags/curso-analisis-de-datos/</loc>
+    <lastmod>2020-01-07T21:35:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/categories/data-science/</loc>
     <lastmod>2020-01-07T21:35:52+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -550,6 +550,23 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/talk/google_tag_manager_2/</loc>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/analytics/</loc>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tags/googletagmanager/</loc>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/categories/analitica-datos/</loc>
     <lastmod>2019-06-02T21:34:17+02:00</lastmod>
     <priority>0</priority>
@@ -729,6 +746,11 @@
     <loc>https://www.marcusrb.com/tags/visualizacion-de-datos/</loc>
     <lastmod>2019-05-28T23:49:24+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/talk/google_tag_manager_1/</loc>
+    <lastmod>2020-04-20T19:54:39+02:00</lastmod>
   </url>
   
   <url>
