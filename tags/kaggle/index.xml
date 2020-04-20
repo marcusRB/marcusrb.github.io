@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
-    <link>https://www.marcusrb.com/talk/</link>
-      <atom:link href="https://www.marcusrb.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright>
+    <title>kaggle | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/tags/kaggle/</link>
+      <atom:link href="https://www.marcusrb.com/tags/kaggle/index.xml" rel="self" type="application/rss+xml" />
+    <description>kaggle</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Apr 2020 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://www.marcusrb.com/talk/</link>
+      <title>kaggle</title>
+      <link>https://www.marcusrb.com/tags/kaggle/</link>
     </image>
     
     <item>

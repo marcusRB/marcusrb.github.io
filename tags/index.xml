@@ -5,12 +5,28 @@
     <link>https://www.marcusrb.com/tags/</link>
       <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 08 Apr 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Apr 2020 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://www.marcusrb.com/tags/</link>
     </image>
+    
+    <item>
+      <title>datascience</title>
+      <link>https://www.marcusrb.com/tags/datascience/</link>
+      <pubDate>Thu, 16 Apr 2020 12:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kaggle</title>
+      <link>https://www.marcusrb.com/tags/kaggle/</link>
+      <pubDate>Thu, 16 Apr 2020 12:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/kaggle/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>dashboard</title>
@@ -117,7 +133,7 @@
     </item>
     
     <item>
-      <title>formacion data science</title>
+      <title>formación data science</title>
       <link>https://www.marcusrb.com/tags/formacion-data-science/</link>
       <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/tags/formacion-data-science/</guid>
