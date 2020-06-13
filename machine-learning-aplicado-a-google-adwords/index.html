@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>El Machine Learning aplicado a Google Ads | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'El Machine Learning aplicado a Google Ads',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/">
+  <meta property="og:title" content="El Machine Learning aplicado a Google Ads | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático"><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-04-08T20:25:16&#43;00:00">
+    
+    <meta property="article:modified_time" content="2018-04-08T20:25:16&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">El Machine Learning aplicado a Google Ads</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-04-08 20:25:16 &#43;0000 &#43;0000" itemprop="datePublished">
+<meta content="2018-04-08 20:25:16 &#43;0000 &#43;0000" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 8, 2018</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min de lectura
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/machine-learning-aplicado-a-google-adwords/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/google-ads/">Google Ads</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/&amp;text=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/&amp;t=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads&amp;body=https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/&amp;title=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads%20https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/&amp;title=El%20Machine%20Learning%20aplicado%20a%20Google%20Ads" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="pues-sí-ya-se-había-comentado-hace-muchos-años-google-adwords-utiliza-un-sistema-interno-de-machine-learning-o-en-castellano-aprendizaje-automático">Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de <strong>Machine Learning </strong>o en castellano <strong>Aprendizaje Automático,</strong> </h2>
+
+<p>solo que cuando se puso de &#8220;moda&#8221; este término es donde ahora comenzamos a ver un poco más la luz a este tema tan complicado.</p>
+
+<p>Entre muchos &#8220;profesionales&#8221; del sector PPC, y quién ya trabaja con estas herramienta ya hace años, sabemos que entre muchas dificultades que AdWords conlleva, el auto-aprendizaje se venía realizando a través de script personalizados, autogestionales o bien con reglas automatizadas. Pero cuando el <strong>Big Data </strong>empezó fuerte y se comenzó hablar de <strong>Big Query e IA o Inteligencia Artificial, </strong>entonces veíamos nuevos sistemas de pujas, nuevos sistemas de ranking y calidad, nuevas posibilidad para alcanzar los resultados y tener siempre un ROI positivo, ya que la competencia irrumpió a lo grande.</p>
+
+<p>Que yo me acuerde en 2013 cuando comencé a trabajar con cuentas de AdWords de más de 2MM € al año de inversión, veía estas posibilidades factibles, jugaba mucho con los &#8220;sistemas automatizados&#8221; de Google y me gustaba la verdad, además veía los resultados demasiados buenos. Era el único que sabía de esto o los competidores no la estaban aprovechando?</p>
+
+<p>Hasta que comencé a ver unos bajones, y luego subidas, y así altibajos durante meses y hasta semestres se veían buenas rachas y perdidas.</p>
+
+<h3 id="qué-estaba-pasando-exactamente">¿Qué estaba pasando exactamente?</h3>
+
+<p>Según leía entre foreros, la comunidad de AdWords oficial, libros técnicos, expertos de muchos años nacionales e internacionales, los cambios de las reglas en el mismo sistema de ranking y calidad comenzaban a llegar a quien no estaba acostumbrado, y sucesivamente llegarían las <strong>estrategia de pujas.</strong></p>
+
+<p>Vamos hablando un poco más de ellas. Por ejemplo en <strong>Búsquedas, Display, Shopping </strong>tenemos la posibilidad de elegir:</p>
+
+<ul>
+<li>Puja Manual o CPC manual</li>
+<li>Maximizar por Clics</li>
+<li>CPC Manual mejoradas</li>
+<li>Maximizar por Clics y opción CPC mejorado</li>
+<li>CPA objetivo</li>
+</ul>
+
+<p>Las diferencias vienen a ser si es priorizar por clics o bien priorizar por conversiones, así que elegir una estrategia u otra, nos permite optimizar también el ROI, y ¿los costes?</p>
+
+<p>Aquí la particularidad, los costes siempre y cuando alcancemos el objetivo fijado que suelen ser:</p>
+
+<ul>
+<li>branding o visibilidad de marca o per impresiones</li>
+<li>clics y tráfico</li>
+<li>clics hacía conversiones</li>
+<li>clics hacía transacciones</li>
+</ul>
+
+<h3 id="y-cuando-entra-en-juego-la-inteligencia-de-google-o-machine-learning">¿Y cuando entra en juego la <strong>Inteligencia de Google o Machine Learning?</strong></h3>
+
+<p>Si volvemos un poco más atrás en los años, recordamos que ampliaron el abanico de estrategias de pujas ya por resultado, no empresarial, sino hacía los objetivos anteriormente hablado pero más enfocado a las pujas, entonces Google AdWords sacó lo que se llama ahora <strong>Smart Bidding o </strong><strong>Pujas Inteligentes.</strong></p>
+
+<p>Veamos cuales son, en el nivel de <strong>cartera</strong>, hay:</p>
+
+<ul>
+<li><strong>CPA objetivo</strong></li>
+<li><strong>Retorno de la inversión publicitaria (ROAS) objetivo</strong></li>
+<li><strong>CPC mejorado</strong></li>
+<li><strong>Maximizar Clics</strong></li>
+<li><strong>Ranking superior objetivo</strong>.</li>
+</ul>
+
+<p>En el nivel estándar de la <strong>campaña</strong>, hay:</p>
+
+<ul>
+<li><strong>CPA objetivo</strong></li>
+<li><strong>ROAS objetivo</strong></li>
+<li><strong>CPC mejorado</strong></li>
+<li><strong>Maximizar Conversiones</strong></li>
+<li><strong>Maximizar Clics</strong></li>
+</ul>
+
+<p>Y aquí la definición oficial directamente de la guía de AdWords referente a las pujas inteligentes o smart bidding.</p>
+
+<blockquote>
+<p>AdWords Smart Bidding es un subconjunto de estrategias de pujas automáticas en las que se utiliza el <strong>aprendizaje automático</strong> para optimizar las conversiones o el valor de conversión en cada subasta, una función conocida como &#8220;pujas en el momento de la subasta&#8221;.</p>
+</blockquote>
+
+<p>Obviamente el requisito es tener habilitadas las conversiones, bueno, aquí era lógico ya que habla de objetivos de AdWords y es normal, aunque estábamos acostumbrados a recibir un mínimo de 15 conversiones en los últimos 30 días, y así creando estrategias de CPA objetivos con sinsentido alguno, y bajo los &#8220;super-consejos&#8221; de la campanillas de las Oportunidades de AdWords, nosotros puntualmente la activamos (y seguimos haciendo lo mismo).</p>
+
+<h3 id="por-qué-utilizar-las-pujas-inteligentes-de-adwords-8220-smart-bidding-8221">¿Por qué utilizar las pujas inteligentes de AdWords &#8220;Smart Bidding&#8221;?</h3>
+
+<p>Según leyendo en la guía indica lo siguiente:</p>
+
+<blockquote>
+<p>AdWords Smart Bidding ofrece cuatro ventajas clave para ahorrar tiempo y mejorar el rendimiento.</p>
+
+<h4 id="1-aprendizaje-automático-avanzado">1. Aprendizaje automático avanzado</h4>
+
+<p>Los <strong>algoritmos de aprendizaje automático</strong> basan la puja en datos a gran escala. De esta forma, puedes hacer predicciones más fiables sobre cómo diferentes importes de puja afectarían a las conversiones o a su valor. Estos algoritmos tienen en cuenta una gran cantidad de parámetros que afectan al rendimiento, muchos más de los que una sola persona o un equipo podría calcular.</p>
+
+<h4 id="2-amplia-gama-de-señales-contextuales">2. Amplia gama de señales contextuales</h4>
+
+<p>Al definir las pujas en el momento de la subasta, es posible optimizarlas teniendo en cuenta una <strong>amplia variedad de señales</strong>. Las señales son atributos identificables de un usuario o de su contexto en el momento de una subasta en particular. Entre ellos se incluyen atributos como el dispositivo y la ubicación, que están disponibles como <strong>ajustes de la puja manuale</strong>s, además de señales adicionales y combinaciones de señales exclusivas de AdWords Smart Bidding. A continuación encontrarás una lista con varias de estas señales.</p>
+</blockquote>
+
+<p>O sea habla de señales al igual que era antes, solo que con tanta competencia tenía que establecer unas &#8220;reglas&#8221; a este juego de pujas, y las señales ahora son <strong>factores de Ranking </strong>y creo que muy pocos conocerán, excepto quien trabaja codo a codo con agencias o con Google Partners.</p>
+
+<p>Las señales serán, bajo mi punto de vista, no del todo visible al ojo humano, pero si, teniendo en cuenta cuáles son, podemos establecer micro-objetivos y KPI&#8217;s, métricas de seguimientos y ver de ir ganando&#8230;o a través de herramientas externas via API&#8217;s o scripts personalizados.</p>
+
+<p>Aquí el listado de las señales visible, pero si hablar cada una de ella, tardaré mucho más de lo que tenía pensado para este post inicialmente, así que el listado está aquí, y poquito a poco hablaré de todas adjuntando mis experimentos realizados con ellas y ver de dar más luz.</p>
+
+<div class="zippy-container zippy-last">
+  <strong><a class="zippy index1 goog-zippy-expanded" tabindex="0" role="button" aria-expanded="true" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="1,19" data-stats-ignore="">Señales de pujas automáticas</a></strong>
+</div>
+
+<div class="zippy-overflow">
+  <div class="zippy-content">
+    <div class="zippy-wrapper">
+      <ul>
+        <li class="zippy-container zippy-last">
+          <a class="zippy index2 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="2,19" data-stats-ignore="">Dispositivo</a>
+        </li>
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index3 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="3,19" data-stats-ignore="">Ubicación física</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index4 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="4,19" data-stats-ignore="">Intención de ubicación</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index5 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="5,19" data-stats-ignore="">Día de la semana y hora</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index6 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="6,19" data-stats-ignore="">Lista de remarketing</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index7 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="7,19" data-stats-ignore="">Características de los anuncios</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index8 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="8,19" data-stats-ignore="">Idioma de interfaz</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index9 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="9,19" data-stats-ignore="">Navegador</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index10 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="10,19" data-stats-ignore="">Sistema operativo</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index11 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="11,19" data-stats-ignore="">Datos demográficos (Búsqueda y Display)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index12 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="12,19" data-stats-ignore="">Consulta de búsqueda real (Búsqueda y Shopping)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index13 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="13,19" data-stats-ignore="">Partner de la Red de Búsqueda (solo Búsqueda)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index14 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="14,19" data-stats-ignore="">Emplazamiento web (solo Display)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index15 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="15,19" data-stats-ignore="">Comportamiento en el sitio web (solo Display)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index16 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="16,19" data-stats-ignore="">Atributos de producto (solo Shopping)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index17 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="17,19" data-stats-ignore="">Valoraciones de aplicaciones móviles (próximamente)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index18 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="18,19" data-stats-ignore="">Competitividad del precio (próximamente disponible para Shopping)</a>
+          </div>
+        </li>
+
+        <li class="zippy-overflow">
+          <div class="zippy-content zippy-hidden" aria-hidden="true">
+            <a class="zippy index19 goog-zippy-collapsed" tabindex="0" role="button" aria-expanded="false" aria-haspopup="true" data-stats-ve="2" data-stats-imp="" data-stats-idx="19,19" data-stats-ignore="">Estacionalidad (próximamente disponible para Shopping)</a>
+          </div>
+        </li>
+      </ul>
+
+      <p>
+        Bueno está la primera parte que es la fundamental de cada cuenta y campaña, no lo veo así de raro, o sí. Claro, tiene que tener un mínimo de dificultad sino resultaría demasiado básico para ellos. Tiene en cuenta de otros factores, y para ello entrará en juego el <strong>Modelo de Atribución, </strong>que seguramente más de uno lo tendrá configurado en último clic, o ya lo estará cambiando en estos días después de recibir llamadas de Google Partners para cambiarlo.
+      </p>
+
+      <h3>
+        Controles de rendimiento flexibles
+      </h3>
+
+      <p>
+        Con las pujas de Smart Bidding de AdWords se puede establecer objetivos de rendimiento y personalizar la configuración según los propios objetivos de negocio:
+      </p>
+
+      <ul>
+        <li>
+          Optimiza las pujas de búsqueda en función de <strong>tu modelo de atribución,</strong> incluida la atribución basada en datos.
+        </li>
+        <li>
+          Define objetivos de rendimiento específicos para móviles, ordenadores y tablets con pujas de CPA objetivo (próximamente).
+        </li>
+      </ul>
+
+      <p>
+        Se está poniendo difícil ahora, ya no es fácil controlar esto, puesto que el modelo asignado se refiere a las macro-conversiones, pero y a las micro-conversiones, que pasará con ellas?
+      </p>
+
+      <p>
+        <strong>Smart Goals</strong>, te suena de algo? Claro los Objetivos Inteligentes de Google Analytics que tiene también su importancia (ignotas por muchos), útiles en algunos casos y completamente ineficientes para otros. Una vez que se activan estos objetivos inteligentes e importandos en Google AdWords, el <strong>hechizo será cumplido.</strong>
+      </p>
+
+      <p>
+        Aquí explican los <strong>Objetivos Inteligentes </strong>que se activan en Analytics:
+      </p>
+
+      <blockquote>
+        <p>
+          Medir las conversiones explícitas, tanto con el seguimiento de conversiones de AdWords como con las transacciones de comercio electrónico importadas de Analytics, es una forma excelente de optimizar las pujas, los anuncios y el sitio web. Sin embargo, si no va a medir las conversiones, la función Objetivos Inteligentes es una forma sencilla de utilizar las mejores sesiones como conversiones. Puede utilizar los objetivos inteligentes para optimizar el rendimiento de AdWords.
+        </p>
+      </blockquote>
+
+      <h3>
+        A quién están dirigidas estas funciones
+      </h3>
+
+      <p>
+        Las pujas de AdWords Smart Bidding ofrece buenos resultados para grandes y pequeñas empresas (diría a todos). Para maximizar estos resultados y dar a los <strong>algoritmos de aprendizaje automático</strong> <strong>o Machine Learning ,</strong>muchos seguirán llamarlas Inteligencia Artificial, pero no aplica para mi y ya lo explico a continuación, serán suficientes datos como para poder tomar decisiones de puja fundamentadas.
+      </p>
+
+      <blockquote>
+        <p>
+          Se recomienda que los anunciantes hayan registrado un <strong>mínimo de 30 conversiones en los últimos 30 días</strong> antes de usar el CPA objetivo. En el caso del ROAS objetivo, recomendamos 50 conversiones en los últimos 30 días.
+        </p>
+      </blockquote>
+
+      <p>
+        Digo yo, incluso mejor esperar a un mínimo de 50 o incluso 100 en los últimos 30 días, ya que serán importantes para la estabilidad de las mismas en la campañas, y con todo el trabajo de optimización que conllevará.
+      </p>
+
+      <p>
+        <strong>¿Por qué no es IA en lugar de Machine Learning?</strong>
+      </p>
+
+      <p>
+        Inteligencia Artificial no lo es porque Google en general no es capaz de hacer nada sin los &#8220;humanos&#8221;, el cuál será siempre el que <strong>enseñará </strong>como buen profesor a Google como actuar en cada situación, las query de búsquedas por ejemplos, o con las imágenes, o con las visualizaciones de los anuncios, interacciones en los sitios web taggados por Tag Manager y Google Analytics, o a través del utilizo de su herramienta de Adwords.
+      </p>
+
+      <p>
+        Te has fijado que cuando cambias algo en Adwords, el estado será &#8220;<strong>En Aprendizaje&#8221;, </strong>y tarda una semana en aprender de tus palabras, grupos, anuncios, estructura y luego irá caminando por sí solo? No? Lees a continuación<a href="https://support.google.com/adwords/answer/6263057"> este texto.</a>
+      </p>
+
+      <p>
+        No ves nada raro? Y esta imagen?
+      </p>
+
+      <p>
+        <a href="https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png"><img class="aligncenter wp-image-387 size-full" src="https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png" alt="" width="772" height="357" srcset="https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243.png 772w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-300x139.png 300w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-768x355.png 768w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-260x120.png 260w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-50x23.png 50w, https://www.marcusrb.com/img/2017/07/adwords-status-annotations-1449667243-150x69.png 150w" sizes="(max-width: 772px) 100vw, 772px" /></a>
+      </p>
+
+      <p>
+        Esta es una primera parte de mi post relacionado con el Machine Learning de Google, y aplicado al día a día de mi trabajo como consultor PPC. Una reflexión de que hay que ir aprendiendo, enseñando y sobre todo estudiar mucho para optimizar grandes cuentas (o medianas). Para rentabilizarlas hay que tener en cuenta tantos factores, hay mucha competencia y nuestro objetivo es ganarle a Google, o esto nos hace creer! Tú que opinas? Qué estrategia utilizas en Google AdWords y si el machine learning está siendo un beneficio para tu negocio.
+      </p>
+
+      <p>
+        Hasta el próximo post 😉
+      </p>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    
+
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/estrategias-pujas-inteligentes/">estrategias pujas inteligentes</a>
+  
+  <a class="badge badge-light" href="/tags/inteligencia-artificial-google/">inteligencia artificial google</a>
+  
+  <a class="badge badge-light" href="/tags/machine-learning-adwords/">machine learning adwords</a>
+  
+  <a class="badge badge-light" href="/tags/pujas-big-query/">pujas big query</a>
+  
+  <a class="badge badge-light" href="/tags/pujas-inteligentes/">pujas inteligentes</a>
+  
+  <a class="badge badge-light" href="/tags/smart-bidding/">smart bidding</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      <img class="portrait mr-3" src="https://s.gravatar.com/avatar/d68e7d64a6b67737e3bce12e40f586ce?s=200')" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://www.marcusrb.com">Marco Russo</a></h5>
+      <h6 class="card-subtitle">+10 años como consultor • freelance • profesor Data Science &amp; Digital Analyics, minería de datos, machine learning y Big Data • Data Visualization • AI enthusiast</h6>
+      <p class="card-text" itemprop="description">Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data &amp; Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/rb_marcus" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/marcusrb" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/marcusRB" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.kaggle.com/marcusrb" target="_blank" rel="noopener">
+              <i class="fab fa-kaggle"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.youtube.com/channel/UCwP4ZMmMVcXpzHLj5H3WnYw" target="_blank" rel="noopener">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/files/Marco_Russo_resume.pdf" >
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Relacionado</h3>
+        <ul>
+          
+          <li><a href="/puja-cpc-manual-automatica-maximizar-clics/">Puja CPC Manual o Automática – maximizar clics?</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/webinar-aprende-a-integrar-google-analytics-con-tag-manager/" rel="next">Webinar: Aprende a integrar Google Analytics con Tag Manager</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/" rel="prev">Webinar MarketingDirectoSchool – Detectando las necesidades de la analítica web</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

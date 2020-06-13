@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/categories/</link>
       <atom:link href="https://www.marcusrb.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 08 Apr 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 10 Jun 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Categories</title>
@@ -15,15 +15,31 @@
     <item>
       <title>Data Visualization</title>
       <link>https://www.marcusrb.com/categories/data-visualization/</link>
-      <pubDate>Wed, 08 Apr 2020 17:52:54 +0100</pubDate>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/categories/data-visualization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>data science</title>
+      <title>Analítica Digital</title>
+      <link>https://www.marcusrb.com/categories/analitica-digital/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/analitica-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag Manager</title>
+      <link>https://www.marcusrb.com/categories/tag-manager/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/categories/tag-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
       <link>https://www.marcusrb.com/categories/data-science/</link>
-      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/categories/data-science/</guid>
       <description></description>
     </item>
@@ -41,22 +57,6 @@
       <link>https://www.marcusrb.com/categories/business-intelligence/</link>
       <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/categories/business-intelligence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag Manager</title>
-      <link>https://www.marcusrb.com/categories/tag-manager/</link>
-      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/categories/tag-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>datalayer</title>
-      <link>https://www.marcusrb.com/categories/datalayer/</link>
-      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/categories/datalayer/</guid>
       <description></description>
     </item>
     
@@ -85,50 +85,10 @@
     </item>
     
     <item>
-      <title>Analítica Digital</title>
-      <link>https://www.marcusrb.com/categories/analitica-digital/</link>
-      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/categories/analitica-digital/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DataViz</title>
-      <link>https://www.marcusrb.com/categories/dataviz/</link>
-      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/categories/dataviz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Webinar</title>
-      <link>https://www.marcusrb.com/categories/webinar/</link>
-      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
-      <guid>https://www.marcusrb.com/categories/webinar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frameworks</title>
-      <link>https://www.marcusrb.com/categories/frameworks/</link>
+      <title>Desarrollo</title>
+      <link>https://www.marcusrb.com/categories/desarrollo/</link>
       <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
-      <guid>https://www.marcusrb.com/categories/frameworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programación</title>
-      <link>https://www.marcusrb.com/categories/programacion/</link>
-      <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
-      <guid>https://www.marcusrb.com/categories/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FacebookAds</title>
-      <link>https://www.marcusrb.com/categories/facebookads/</link>
-      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
-      <guid>https://www.marcusrb.com/categories/facebookads/</guid>
+      <guid>https://www.marcusrb.com/categories/desarrollo/</guid>
       <description></description>
     </item>
     
@@ -143,24 +103,24 @@
     <item>
       <title>Analítica Web</title>
       <link>https://www.marcusrb.com/categories/analitica-web/</link>
-      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      <pubDate>Tue, 15 May 2018 13:20:27 +0000</pubDate>
       <guid>https://www.marcusrb.com/categories/analitica-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Ads</title>
+      <link>https://www.marcusrb.com/categories/google-ads/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/categories/google-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Adwords</title>
       <link>https://www.marcusrb.com/categories/google-adwords/</link>
-      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <pubDate>Tue, 27 Mar 2018 14:02:53 +0000</pubDate>
       <guid>https://www.marcusrb.com/categories/google-adwords/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science &amp;amp; Big Data</title>
-      <link>https://www.marcusrb.com/categories/data-science-amp-big-data/</link>
-      <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
-      <guid>https://www.marcusrb.com/categories/data-science-amp-big-data/</guid>
       <description></description>
     </item>
     

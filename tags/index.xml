@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/tags/</link>
       <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 16 Apr 2020 12:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 10 Jun 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,42 +13,106 @@
     </image>
     
     <item>
-      <title>datascience</title>
-      <link>https://www.marcusrb.com/tags/datascience/</link>
-      <pubDate>Thu, 16 Apr 2020 12:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/datascience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kaggle</title>
-      <link>https://www.marcusrb.com/tags/kaggle/</link>
-      <pubDate>Thu, 16 Apr 2020 12:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/kaggle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>dashboard</title>
       <link>https://www.marcusrb.com/tags/dashboard/</link>
-      <pubDate>Wed, 08 Apr 2020 17:52:54 +0100</pubDate>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/tags/dashboard/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>powerbi</title>
-      <link>https://www.marcusrb.com/tags/powerbi/</link>
-      <pubDate>Wed, 08 Apr 2020 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/tags/powerbi/</guid>
+      <title>tableau</title>
+      <link>https://www.marcusrb.com/tags/tableau/</link>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/tableau/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
       <link>https://www.marcusrb.com/tags/tips/</link>
-      <pubDate>Wed, 08 Apr 2020 17:52:54 +0100</pubDate>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modelo datos</title>
+      <link>https://www.marcusrb.com/tags/modelo-datos/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/modelo-datos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powerbi</title>
+      <link>https://www.marcusrb.com/tags/powerbi/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/powerbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agilismo</title>
+      <link>https://www.marcusrb.com/tags/agilismo/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/agilismo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gobierno del dato</title>
+      <link>https://www.marcusrb.com/tags/gobierno-del-dato/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/gobierno-del-dato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google tag manager</title>
+      <link>https://www.marcusrb.com/tags/google-tag-manager/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/google-tag-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://www.marcusrb.com/tags/data-science/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kaggle</title>
+      <link>https://www.marcusrb.com/tags/kaggle/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/kaggle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://www.marcusrb.com/tags/machine-learning/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retos</title>
+      <link>https://www.marcusrb.com/tags/retos/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/retos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datascience</title>
+      <link>https://www.marcusrb.com/tags/datascience/</link>
+      <pubDate>Thu, 16 Apr 2020 12:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/datascience/</guid>
       <description></description>
     </item>
     
@@ -173,14 +237,6 @@
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://www.marcusrb.com/tags/machine-learning/</link>
-      <pubDate>Mon, 02 Sep 2019 00:00:00 +0200</pubDate>
-      <guid>https://www.marcusrb.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>escuelas negocio</title>
       <link>https://www.marcusrb.com/tags/escuelas-negocio/</link>
       <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
@@ -233,6 +289,22 @@
       <link>https://www.marcusrb.com/tags/googletagmanager/</link>
       <pubDate>Tue, 25 Jun 2019 18:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/tags/googletagmanager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook ads</title>
+      <link>https://www.marcusrb.com/tags/facebook-ads/</link>
+      <pubDate>Tue, 25 Jun 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/facebook-ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://www.marcusrb.com/tags/script/</link>
+      <pubDate>Tue, 25 Jun 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/tags/script/</guid>
       <description></description>
     </item>
     
@@ -425,14 +497,6 @@
       <link>https://www.marcusrb.com/tags/creacion-eventos/</link>
       <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
       <guid>https://www.marcusrb.com/tags/creacion-eventos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>google tag manager</title>
-      <link>https://www.marcusrb.com/tags/google-tag-manager/</link>
-      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
-      <guid>https://www.marcusrb.com/tags/google-tag-manager/</guid>
       <description></description>
     </item>
     
@@ -653,18 +717,18 @@
     </item>
     
     <item>
-      <title>adwords certificación 2018</title>
-      <link>https://www.marcusrb.com/tags/adwords-certificacion-2018/</link>
+      <title>adwords certificación</title>
+      <link>https://www.marcusrb.com/tags/adwords-certificacion/</link>
       <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/adwords-certificacion-2018/</guid>
+      <guid>https://www.marcusrb.com/tags/adwords-certificacion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>examen de adwords fundamentales</title>
-      <link>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</link>
+      <title>examen de google ads fundamentales</title>
+      <link>https://www.marcusrb.com/tags/examen-de-google-ads-fundamentales/</link>
       <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</guid>
+      <guid>https://www.marcusrb.com/tags/examen-de-google-ads-fundamentales/</guid>
       <description></description>
     </item>
     
@@ -677,10 +741,10 @@
     </item>
     
     <item>
-      <title>preguntas respuestas academy for ads 2018</title>
-      <link>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</link>
+      <title>preguntas respuestas academy for ads</title>
+      <link>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads/</link>
       <pubDate>Thu, 26 Apr 2018 15:47:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</guid>
+      <guid>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads/</guid>
       <description></description>
     </item>
     
@@ -801,6 +865,30 @@
       <link>https://www.marcusrb.com/tags/marketingdirecto/</link>
       <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
       <guid>https://www.marcusrb.com/tags/marketingdirecto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adwords certificación 2018</title>
+      <link>https://www.marcusrb.com/tags/adwords-certificacion-2018/</link>
+      <pubDate>Tue, 27 Mar 2018 14:02:53 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/adwords-certificacion-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>examen de adwords fundamentales</title>
+      <link>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</link>
+      <pubDate>Tue, 27 Mar 2018 14:02:53 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/examen-de-adwords-fundamentales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preguntas respuestas academy for ads 2018</title>
+      <link>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</link>
+      <pubDate>Tue, 27 Mar 2018 14:02:53 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/preguntas-respuestas-academy-for-ads-2018/</guid>
       <description></description>
     </item>
     

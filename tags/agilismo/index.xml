@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agilismo | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/tags/agilismo/</link>
+      <atom:link href="https://www.marcusrb.com/tags/agilismo/index.xml" rel="self" type="application/rss+xml" />
+    <description>agilismo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 20 May 2020 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>agilismo</title>
+      <link>https://www.marcusrb.com/tags/agilismo/</link>
+    </image>
+    
+    <item>
+      <title>El marco de gobernanza en Google Tag Manager</title>
+      <link>https://www.marcusrb.com/marco-gobernanza-google-tag-manager/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/marco-gobernanza-google-tag-manager/</guid>
+      <description>
+
+&lt;p&gt;Desde 2011, los gestores de etiquetas irrumpieron en los departamentos de Marketing Digital con la capacidad de absorber gran parte del trabajo realizado por desarrolladores front/back como acompañamiento en una de las tareas más tediosas: la implementación del píxel de conversión.&lt;/p&gt;
+
+&lt;p&gt;Este mismo año, &lt;strong&gt;Google&lt;/strong&gt; lanzó su propia plataforma &lt;strong&gt;Tag Manager&lt;/strong&gt;, en una prometedora versión beta, con muchas ganas de crecer y mejorar.&lt;/p&gt;
+
+&lt;p&gt;Al año siguiente salió la versión definitiva y, hasta la fecha, ha ido mejorando tanto en la usabilidad como en la propia capacidad de crear e implementar diferentes script.&lt;/p&gt;
+
+&lt;p&gt;Este gestor, adaptado a todo el público con conocimientos mínimos de diseño front (HTML, CSS, JS, etc.) permite organizar, implementar y activar las etiquetas propias y las de terceros (se calculan unas 100 hasta la fecha).&lt;/p&gt;
+
+&lt;p&gt;Este post nos adentraremos, de una forma muy general, en el universo de Google Tag Manager, su interfaz, su utilidad básica y algunas de las técnicas más utilizadas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Tag Manager es muy similar al resto de los competidores premium&lt;/strong&gt; como Tealium, Adobe DTM, IBM o Ensighten&amp;hellip; ya que comparte muchas funcionalidades, &lt;strong&gt;se diferencia de ellos en que es free&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Además, con las numerosas &lt;a href=&#34;https://www.youtube.com/results?search_query=tag+manager+paradigma+digital&#34; target=&#34;_blank&#34;&gt;guías, vídeos tutoriales, webinar&lt;/a&gt; cualquier especialista en analítica puede utilizarlo. Pero, aún así, en el año 2019, la administración de estas etiquetas siguen siendo un caos.&lt;/p&gt;
+
+&lt;p&gt;Gracias a esta herramienta, hemos pasado de esta situación diaria de cualquier profesional de Marketing&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/10/marketing-old.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;… a esta más ordenada:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/10/google-tag-manager.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-son-las-etiquetas&#34;&gt;¿Qué son las etiquetas?&lt;/h2&gt;
+
+&lt;p&gt;Vamos por pasos. Primero, ¿qué son realmente las etiquetas?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Son esos &lt;strong&gt;pequeños fragmentos de código&lt;/strong&gt; requeridos para personalizar el contenido, recopilar datos analíticos y publicar anuncios y habilitar campañas de remarketing.&lt;/li&gt;
+&lt;li&gt;Están en lenguaje JavaScript, pasan de ser esenciales para el tratamiento de los usuarios y navegantes de nuestras web y apps, otros miden el impacto y repercusión en las inversiones publicitarias.&lt;/li&gt;
+&lt;li&gt;Si las etiquetas están mal implementadas, causan distorsiones de los cálculos en las herramientas de análisis y complican aún más la tarea de &lt;strong&gt;optimización de campañas&lt;/strong&gt; o de toma de decisiones por tener resultados de los insight erróneos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cuáles-son-las-funciones-de-un-tms&#34;&gt;¿Cuáles son las funciones de un TMS?&lt;/h2&gt;
+
+&lt;p&gt;TMS se compone de una interfaz SaaS principalmente en jQuery, Go o AngularJS, que tiene un sistema de versionado tipo GIT (control de calidad QA, Jenkins).&lt;/p&gt;
+
+&lt;h3 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Las etiquetas de Digital Marketing se utilizan para agregar funcionalidad a sitios web&lt;/strong&gt;, contenido de vídeo y aplicaciones móviles.&lt;/p&gt;
+
+&lt;p&gt;Esta funcionalidad puede incluir análisis web, análisis de campañas, medición de audiencia, personalización, pruebas A/B, servidores de anuncios (DMP), retargeting de comportamiento y seguimiento de conversiones. Además, añade pruebas funcionales como detector de errores JS, timing, performance, etc.&lt;/p&gt;
+
+&lt;p&gt;Los sistemas de administración reemplazan estas etiquetas múltiples con una de un solo contenedor y, posteriormente, priorizan y &amp;ldquo;disparan&amp;rdquo; etiquetas individuales según sea apropiado en función de las reglas comerciales, los eventos de navegación y los datos conocidos.&lt;/p&gt;
+
+&lt;p&gt;La funcionalidad típica incluye el entorno de prueba (sandboxing), el seguimiento de auditoría y el control de versiones, la capacidad para probar diferentes soluciones A / B, la deduplicación de etiquetas y el acceso a los datos basados en roles.&lt;/p&gt;
+
+&lt;h3 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h3&gt;
+
+&lt;p&gt;Los beneficios de los sistemas de gestión de etiquetas incluyen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agilidad.&lt;/strong&gt; Cada vez trabajamos más con la &lt;a href=&#34;https://www.paradigmadigital.com/quienes-somos/como-lo-hacemos/metodologia/&#34; target=&#34;_blank&#34;&gt;metodología Agile&lt;/a&gt;, así que la menor dependencia de los recursos técnicos y de los ciclos de TI confiere una mayor agilidad a los usuarios empresariales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rendimiento.&lt;/strong&gt; Tiempos de carga de página reducidos gracias a la carga asíncrona de etiquetas, la carga condicional y la funcionalidad de tiempo de espera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ahorro de costes.&lt;/strong&gt; Capacidad de duplicar etiquetas utilizadas para atribuir comisiones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control de datos.&lt;/strong&gt; Capacidad para controlar la fuga de datos a terceros y cumplir con la legislación de privacidad de datos (consentimiento de cookies). Los administradores también proporcionan otra capa de abstracción para gestionar la complejidad de los sitios web grandes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vista previa segura.&lt;/strong&gt; Algunos administradores, como el de Google, incluyen un modo de vista previa que permite verificar los problemas de formato y seguridad antes de implementar etiquetas en producción.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pero, hay una parte mala también. Las etiquetas tienen una forma de aparecer inesperadamente, dejando incluso caer la web sin previo aviso o provocando errores en la recogida de los datos por un cambio en la parte frontal no comunicado.&lt;/p&gt;
+
+&lt;p&gt;Hay que tener en cuenta que estamos “modificando” el core de la web y, muchas veces, nuestro código podría ser no compatible o entrar en conflicto con algún plugin, script existente, etc.&lt;/p&gt;
+
+&lt;p&gt;Además, hay que considerar el tamaño del sitio web. Si es pequeño, el error podrá ser ínfimo, pero si hablamos de una web con cientos de miles de visitas al días, entonces, seguramente conocerás algunas de estas &lt;strong&gt;causas de errores&lt;/strong&gt; más comunes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Etiquetas &lt;strong&gt;mal configuradas&lt;/strong&gt; en el sitio web.&lt;/li&gt;
+&lt;li&gt;Etiquetas &lt;strong&gt;no autorizadas&lt;/strong&gt; en el sitio web.&lt;/li&gt;
+&lt;li&gt;Etiquetas &lt;strong&gt;duplicadas&lt;/strong&gt; en el sitio web.&lt;/li&gt;
+&lt;li&gt;Etiquetas &lt;strong&gt;que faltan&lt;/strong&gt; en el sitio web.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para arreglar esto, con millones de instancias de analíticas y etiquetas de marketing en el sitio web, ¿por dónde empezamos? Lo primero, será comenzar con el marco de gobernanza de etiquetas (Tag Governance Framework).&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-es-el-gobierno-de-etiquetas&#34;&gt;¿Qué es el gobierno de etiquetas?&lt;/h2&gt;
+
+&lt;p&gt;Al oír la palabra “gobernanza”, ¿qué es lo primero que te viene a la mente? ¿Control? ¿Vigilancia? ¿Protección? ¿Fuerza?&lt;/p&gt;
+
+&lt;p&gt;Esto es, exactamente, lo que los especialistas en marketing, analistas, arquitectos de sistema, ingenieros y desarrolladores desean para su gestor de etiquetas.&lt;/p&gt;
+
+&lt;p&gt;La gobernanza de etiquetas es una subdisciplina dentro de la &lt;strong&gt;gobernanza de datos&lt;/strong&gt;, &lt;strong&gt;centrada específicamente en los datos recopilados por etiquetas de análisis&lt;/strong&gt; y marketing digital y enviados a través de una solicitud de red.&lt;/p&gt;
+
+&lt;p&gt;Como ocurre con la gestión de etiquetas, la gobernanza es una disciplina que depende del software. De la misma manera que la verdadera gestión de etiquetas se basa en un TMS también requiere el uso de una aplicación (web, app).&lt;/p&gt;
+
+&lt;p&gt;¿Para hacer qué? Las soluciones de gobernanza analizan las solicitudes de red enviadas desde sitios web y aplicaciones en sus diversas etapas de desarrollo para identificar posibles errores de etiquetado.&lt;/p&gt;
+
+&lt;h3 id=&#34;características&#34;&gt;Características&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Escanear solicitudes de red&lt;/strong&gt;. Las soluciones de gobernanza rastrean sitios web que buscan solicitudes de red enviadas por las etiquetas. Cuando una etiqueta de medición o de marketing digital envía una solicitud, una solución de gobernanza de etiquetas capturará esos datos y los analizará en sus valores de componentes. Estos valores se comparan con reglas predefinidas para determinar si son correctas o no.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;En varias etapas de desarrollo&lt;/strong&gt;. Idealmente, cualquier empresa que implemente nuevas etiquetas en su sitio web o aplicación debería hacerlo al comienzo del ciclo de desarrollo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Una buena solución de gobernanza debería poder escanear sitios web y aplicaciones dentro de entornos de preproducción (como un entorno de preparación).&lt;/p&gt;
+
+&lt;p&gt;Al hacerlo, los equipos de tecnología pueden resolver los problemas antes de que un sitio web o aplicación se active.&lt;/p&gt;
+
+&lt;p&gt;Además, debería supervisar el rendimiento de las etiquetas en el entorno de producción, notificando a las partes interesadas apropiadas si algo sale mal.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identificar posibles errores de etiquetado&lt;/strong&gt;. Un error de etiquetado es cualquier desviación de las mejores prácticas de etiquetado o de los requisitos comerciales internos de una empresa (las reglas predefinidas que mencionamos anteriormente). Cuando una solución de gobernanza de etiquetas descubre un posible error de etiquetado, notificará a las partes interesadas apropiadas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;es-posible-la-gobernanza-manual&#34;&gt;¿Es posible la gobernanza manual?&lt;/h2&gt;
+
+&lt;p&gt;Si bien, en teoría, podría verificar manualmente los registros de la red en busca de errores de etiquetado (muchas compañías lo hacen), este proceso es altamente ineficiente y propenso a errores humanos.&lt;/p&gt;
+
+&lt;p&gt;Es &lt;strong&gt;mejor adoptar la automatización&lt;/strong&gt; y evitar un triple bypass en su implementación de etiquetado.&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-usar-una-solución-de-gobierno-de-etiquetas&#34;&gt;Por qué usar una solución de gobierno de etiquetas&lt;/h3&gt;
+
+&lt;p&gt;Con las soluciones y los procesos correctamente implementados, es posible controlar las etiquetas a escala.&lt;/p&gt;
+
+&lt;p&gt;A medida que lo hagas podrás confiar en los datos, obtener un ROI en el gasto en tecnología y hacerlo todo de manera más eficiente que si fuera de manera manual. Por esto, obtendrás las etiquetas por las que pagaste dinero.&lt;/p&gt;
+
+&lt;p&gt;Este marco abarca los componentes esenciales de un programa de gobernanza de etiquetas efectivo. En las secciones siguientes detallaré una descripción de cada fase del marco, así como la forma en que las soluciones de gobernabilidad de etiquetas juegan un papel clave para lograr los objetivos de esa fase.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/wp-content/uploads/2019/10/tag-governance-framework.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;fases-del-marco-de-gobernanza&#34;&gt;Fases del marco de gobernanza&lt;/h2&gt;
+
+&lt;h3 id=&#34;plan&#34;&gt;Plan&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;La gobernanza de etiquetas desempeña un papel importante para ayudar a las empresas a planificar su estrategia de medición&lt;/strong&gt; algo que, lamentablemente, no hacen suficientes empresas.&lt;/p&gt;
+
+&lt;h4 id=&#34;demasiadas-compañías-no-planean&#34;&gt;Demasiadas compañías no planean&lt;/h4&gt;
+
+&lt;p&gt;Según diferentes encuestas de varias consultoras, las empresas no documentan su estrategia de análisis. Esto se refleja negativamente en el rendimiento de la etiqueta y disminuye la eficiencia debido a la redundancia en las estrategias de medición.&lt;/p&gt;
+
+&lt;p&gt;Antes de comenzar a implementar etiquetas o configurar variables en su sitio, se debe crear el &lt;strong&gt;plan de etiquetado&lt;/strong&gt; o measurement plan. Este plan documenta su estrategia de medición y comercialización, esbozando qué etiqueta está haciendo qué y por qué.&lt;/p&gt;
+
+&lt;p&gt;La fase de planificación permite mapear preguntas comerciales como, por ejemplo, ¿qué segmento de nuestros clientes se convierte mejor en condiciones x?, en contra de las variables que recopilan datos relevantes.&lt;/p&gt;
+
+&lt;p&gt;El mismo principio se aplica a las etiquetas que agregan características a su sitio: deben tener un plan determinando para establecer cuándo y dónde deben implementarse.&lt;/p&gt;
+
+&lt;h4 id=&#34;construyendo-un-plan-de-etiquetado&#34;&gt;Construyendo un plan de etiquetado&lt;/h4&gt;
+
+&lt;p&gt;Los planes de etiquetado ayudan a evitar la sobrecarga de datos. Trabajando para un cliente, una vez, tuve la tarea de ayudar a convertir aproximadamente cien paneles diferentes, con alrededor de 20-30 KPI cada uno, en datos de Analytics.&lt;/p&gt;
+
+&lt;p&gt;Había tantas métricas que nadie sabía para qué servían. Ese es el resultado de una mala planificación sin una documentación clara.&lt;/p&gt;
+
+&lt;p&gt;Lo mismo puede suceder con las etiquetas y variables de análisis: las personas comienzan a medir todo tipo de cosas &lt;strong&gt;sin, realmente, tener una buena razón&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tener un plan te puede ayudar a minimizar la sobrecarga de datos porque se da un paso adicional al planificar antes de implementar. Parte de ese proceso de planificación implica descubrir lo que, actualmente, está recopilando y documentando. Hacerlo, te ayudará a reducir el peso analítico.&lt;/p&gt;
+
+&lt;p&gt;Las soluciones de gobernanza de etiquetas te permiten escanear tu sitio web para averiguar qué datos está recopilando actualmente. De esa manera, puedes evaluar lo que ya tienes implementado, lo que podría ser prescindible o cómo satisfacer las necesidades actuales sin implementar nueva tecnología.&lt;/p&gt;
+
+&lt;h3 id=&#34;comply&#34;&gt;Comply&lt;/h3&gt;
+
+&lt;p&gt;El gobierno de etiquetas puede ayudar a las empresas a realizar los cambios necesarios para cumplir con los controles internos y externos.&lt;/p&gt;
+
+&lt;h4 id=&#34;hablemos-de-gdpr&#34;&gt;Hablemos de GDPR&lt;/h4&gt;
+
+&lt;p&gt;El &lt;strong&gt;Reglamento General de Protección de Datos&lt;/strong&gt; (GDPR) ha provocado mucho pánico con respecto a la &lt;strong&gt;privacidad de datos&lt;/strong&gt; y las regulaciones de protección de datos.&lt;/p&gt;
+
+&lt;p&gt;Las personas se están acercando a estos mandatos de la manera incorrecta. Deberíamos ser más proactivos para proteger a los clientes que estamos tratando de impresionar, en lugar de hacerlo solo porque las administraciones lo han impuesto.&lt;/p&gt;
+
+&lt;h4 id=&#34;la-regla-de-oro-de-la-privacidad-de-datos&#34;&gt;La regla de oro de la privacidad de datos&lt;/h4&gt;
+
+&lt;p&gt;El otro día, un amigo estaba hablando de lo genial que era el tipo de datos que podíamos recopilar sobre las personas, pero con la advertencia de que no querría que le hicieran lo mismo.&lt;/p&gt;
+
+&lt;p&gt;Ese tipo de mentalidad puede ser peligrosa para las empresas, no solo en términos de legalidad, sino también por la óptica de la marca y, tal vez, incluso, por la ética.&lt;/p&gt;
+
+&lt;p&gt;La mayoría de los controles deben provenir de fuentes internas. Por supuesto, tenemos que cumplir externamente, pero debemos usar todo este concepto de privacidad para ser un diferenciador estratégico.&lt;/p&gt;
+
+&lt;h4 id=&#34;tag-governance-es-el-nuevo-monitor-de-sala&#34;&gt;Tag Governance es el nuevo monitor de sala&lt;/h4&gt;
+
+&lt;p&gt;Como parte del plan de etiquetado, tienes que saber exactamente qué tipos de variables debes recopilar (ID de usuario, ID de producto, etc.) y cuáles &lt;strong&gt;nunca debes recopilar&lt;/strong&gt; (SSN, dirección de correo electrónico, datos bancarios, etc.).&lt;/p&gt;
+
+&lt;p&gt;Con una solución de gobernanza de etiquetas, puedes escanear las etiquetas y variables analíticas para patrones específicos. Entonces, si un valor variable coincide con un SSN lo escuchará.&lt;/p&gt;
+
+&lt;h3 id=&#34;deploy&#34;&gt;Deploy&lt;/h3&gt;
+
+&lt;p&gt;Una empresa que aplica la gobernanza de etiquetas en &lt;strong&gt;entornos de preproducción&lt;/strong&gt; puede corregir los errores de etiquetado antes de que sean caros. Esto ocurre, justo, cuando llegan al entorno de producción.&lt;/p&gt;
+
+&lt;h4 id=&#34;no-todo-comienza-con-los-desarrolladores&#34;&gt;No todo comienza con los desarrolladores&lt;/h4&gt;
+
+&lt;p&gt;Como ya hemos establecido, los desarrolladores no son la zona cero. Hay (o debería haber) una planificación significativa que entra en una estrategia de medición y marketing antes de que los desarrolladores pongan la punta de sus dedos en su teclado mecánico.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;¿Cómo llega esa planificación al desarrollador?&lt;/strong&gt; A través del gerente de producto que debe preocuparse por los requisitos de medición igual que por otro requisito de características del producto.&lt;/p&gt;
+
+&lt;p&gt;Desafortunadamente, esta no es siempre la actitud que adoptan los gerentes de producto y el rendimiento de la etiqueta, a menudo, se relega a un segundo plano.&lt;/p&gt;
+
+&lt;p&gt;Un buen gerente de producto o arquitecto de análisis se asegurará de que el desarrollador sepa, exactamente, qué tipo de requisitos de medición de control de calidad se deben cumplir con cada característica.&lt;/p&gt;
+
+&lt;p&gt;Entonces, cuando los desarrolladores van a crear una implementación de datos tendrán pautas específicas a seguir.&lt;/p&gt;
+
+&lt;h4 id=&#34;detectando-errores-de-etiquetado-antes-de-que-sucedan&#34;&gt;Detectando errores de etiquetado antes de que sucedan&lt;/h4&gt;
+
+&lt;p&gt;¿Cómo encaja la gobernanza en el flujo de trabajo de un desarrollador? Cuando un equipo de desarrollo está equipado con una solución de gobernanza, pueden escanear sus implementaciones en un entorno de desarrollo para asegurarse de que las etiquetas y las variables de la capa de datos se llenen de acuerdo con los requisitos incluidos en el plan de etiquetado.&lt;/p&gt;
+
+&lt;p&gt;Encontrar problemas en un entorno de desarrollo tiene menos riesgo porque los datos son falsos. No está trabajando con datos reales de clientes, sino está probando cuentas.&lt;/p&gt;
+
+&lt;p&gt;No solo puede asegurarse de que sus etiquetas funcionan como se esperaba, sino que también puede probar instancias de datos personales no conformes antes de pasar a producción y molestar a alguien.&lt;/p&gt;
+
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+
+&lt;p&gt;Las soluciones de gobernanza de etiquetas brindan a los ingenieros de control de calidad herramientas para automatizar las pruebas de etiquetas en entornos de preparación.&lt;/p&gt;
+
+&lt;h4 id=&#34;qa-su-última-línea-de-defensa-antes-de-la-producción&#34;&gt;QA: su última línea de defensa antes de la producción&lt;/h4&gt;
+
+&lt;p&gt;El trabajo de este ingeniero es similar al del desarrollador, ya que está probando el rendimiento de la etiqueta con los requisitos del plan de etiquetado antes de pasar a un entorno de producción.&lt;/p&gt;
+
+&lt;p&gt;La diferencia es que el aseguramiento de la calidad llevará las pruebas de rendimiento a un nivel completamente nuevo: ejecutar pruebas iterativas en diversas condiciones.&lt;/p&gt;
+
+&lt;p&gt;Esas pruebas deben incluir etiquetas. Cuando el ingeniero verifica si un botón funciona como se esperaba, también debería estar atento para ver si ocurrió alguna medición específica.&lt;/p&gt;
+
+&lt;h4 id=&#34;un-trabajo-para-qa-no-para-analistas&#34;&gt;Un trabajo para QA, no para analistas&lt;/h4&gt;
+
+&lt;p&gt;Históricamente, los analistas y los vendedores digitales se encargaban de probar los errores de etiquetado en un entorno de producción porque sus datos estaban en juego.&lt;/p&gt;
+
+&lt;p&gt;El problema con este enfoque es que los errores de etiquetado en la producción son caros de localizar y reparar. Las empresas respondieron y comenzaron a confiar más en los ingenieros para probar los requisitos de medición durante el control de calidad.&lt;/p&gt;
+
+&lt;h4 id=&#34;gobierno-de-etiqueta-y-control-de-calidad&#34;&gt;Gobierno de etiqueta y control de calidad&lt;/h4&gt;
+
+&lt;p&gt;El ingeniero de control de calidad tiene un papel importante en las pruebas de análisis y etiquetas de marketing, como si fuera el guardián final antes de que un sitio web entre en producción.&lt;/p&gt;
+
+&lt;p&gt;Las soluciones de gobernanza de etiquetas ayudan a automatizar sus pruebas iterativas para que puedan asegurarse de que las etiquetas funcionan en diversas condiciones. Esto mantiene los ciclos de lanzamiento del sitio web ágiles, al tiempo que minimiza el código roto.&lt;/p&gt;
+
+&lt;h3 id=&#34;validate&#34;&gt;Validate&lt;/h3&gt;
+
+&lt;p&gt;Acabas de publicar una nueva versión en el entorno de producción y, ¿ahora qué? Debes asegurarte de que nada se estropeó al ponerlo en marcha.&lt;/p&gt;
+
+&lt;h4 id=&#34;algunas-etiquetas-tienen-miedo-escénico&#34;&gt;Algunas etiquetas tienen miedo escénico&lt;/h4&gt;
+
+&lt;p&gt;Cuando se activa un sitio los errores de etiquetado son comunes. Para contrarrestar el problema, los interesados en tecnología pueden asumir la responsabilidad de verificar manualmente los errores. Pero es una batalla complicada.&lt;/p&gt;
+
+&lt;p&gt;El gran tamaño de un sitio web y el volumen de etiquetas en el sitio hacen que una auditoría integral no sea realista. Además, las personas no están preparadas para escanear cantidades masivas de datos en busca de errores.&lt;/p&gt;
+
+&lt;h4 id=&#34;el-error-humano-ocurre&#34;&gt;El error humano ocurre&lt;/h4&gt;
+
+&lt;p&gt;A los humanos les gusta tomar atajos y hacer excepciones, no son sistemáticos como un programa informático.&lt;/p&gt;
+
+&lt;p&gt;Entonces, incluso, si tuviéramos los recursos humanos para verificar los errores de etiquetado en cada página de un sitio web, no obtendríamos los resultados de una prueba automatizada.&lt;/p&gt;
+
+&lt;p&gt;Reemplazar la verificación manual por una auditoría, monitoreo y validación de etiquetas puede ayudar a probar la implementación de su etiqueta a una velocidad más precisa y mucho más rápida.&lt;/p&gt;
+
+&lt;h3 id=&#34;monitor&#34;&gt;Monitor&lt;/h3&gt;
+
+&lt;p&gt;Debe supervisar el rendimiento de la etiqueta a intervalos regulares. Cuando surgen errores de etiquetado, debe ser el primero en saberlo.&lt;/p&gt;
+
+&lt;h4 id=&#34;flash-de-noticias-ruptura-de-sitios-web&#34;&gt;Flash de noticias: ruptura de sitios web&lt;/h4&gt;
+
+&lt;p&gt;En un mundo perfecto, un sitio web en pleno funcionamiento en producción nunca tendría problemas. Pero, nunca es un mundo perfecto.&lt;/p&gt;
+
+&lt;p&gt;De alguna manera, algunos datos personales volátiles lo convierten en una variable analítica o una etiqueta adicional que surge de una etiqueta de publicación de anuncios.&lt;/p&gt;
+
+&lt;p&gt;En consecuencia, debes realizar pruebas continuas en el entorno de producción para asegurarte de que todo esté de acuerdo con el plan de etiquetado que se creó hace tanto tiempo.&lt;/p&gt;
+
+&lt;h4 id=&#34;revísalo-de-nuevo-entonces-otra-vez-y-una-vez-más&#34;&gt;Revísalo de nuevo. Entonces otra vez. Y una vez más.&lt;/h4&gt;
+
+&lt;p&gt;Los errores de etiquetado aparecen en producción todo el tiempo. Pero, tampoco puede haber alguien que esté todo el tiempo monitoreando las etiquetas para asegurarse de que estén funcionando.&lt;/p&gt;
+
+&lt;p&gt;La solución de gobernanza de etiquetas puede hacer este trabajo pesado, escaneando periódicamente su sitio en vivo y verificando si hay errores de etiquetado.&lt;/p&gt;
+
+&lt;h2 id=&#34;implementación-del-marco-de-gobierno-de-etiquetas&#34;&gt;Implementación del marco de gobierno de etiquetas&lt;/h2&gt;
+
+&lt;p&gt;Cuando se implementan correctamente el análisis digital y la tecnología de marketing presentan un valor significativo para la empresa.&lt;/p&gt;
+
+&lt;p&gt;Estas tecnologías se basan en etiquetas y las etiquetas se basan en una implementación adecuada.&lt;/p&gt;
+
+&lt;p&gt;Si usas una solución automatizada para controlar las etiquetas en todas las fases del marco, puedes lograr una mayor precisión de los datos y capacidad de acción en su organización.&lt;/p&gt;
+
+&lt;p&gt;¿Cuántas etiquetas rotas tiene en su sitio web? Realmente, no puedes saberlo hasta que lo verifiques. &lt;strong&gt;¿Tu empresa o departamento de marketing o analítica cuenta con un marco de gobernanza para la gestión de etiquetas?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/dev/marco-gobernanza-google-tag-manager/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

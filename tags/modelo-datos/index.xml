@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modelo datos | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/tags/modelo-datos/</link>
+      <atom:link href="https://www.marcusrb.com/tags/modelo-datos/index.xml" rel="self" type="application/rss+xml" />
+    <description>modelo datos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 17:52:54 +0100</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>modelo datos</title>
+      <link>https://www.marcusrb.com/tags/modelo-datos/</link>
+    </image>
+    
+    <item>
+      <title>[Webinar] - Mejora tu modelo DAX - Power Query en Power BI.</title>
+      <link>https://www.marcusrb.com/webinar-tecnicas-modelado-dax-power-bi/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-tecnicas-modelado-dax-power-bi/</guid>
+      <description>&lt;p&gt;Unos de los retos más ambiciosos para un analista de datos, analista de negocio y todos aquellos que tienen pensando en realizar un cuadro de mando o dashboard, sea la herramienta comercial más utilizada (Power BI, como también Tableau, QuickSight, Locker, Qlik), también open-source o free (Data Studio), nos olvidamos de pasos que son imprenscindibles y fundamentlas, crear un modelo de datos. Claro que haría falta un ejercicio previo de Data Discovery, crear un backlog y con agilismo realizar un plan de alcance para poder llegar a un MVP (producto mínimo viable) como también una POC (prueba de concepto), pero el conocer que datos dispongamos y podemos crear nuevas medidas, campos calculados o formatear mejor nuestra tabla, es esencial.&lt;/p&gt;
+
+&lt;p&gt;En este taller de aproximadamente una hora veremos las técnicas más utilizadas y los casos de uso de las &lt;strong&gt;expresiones DAX&lt;/strong&gt;, &lt;strong&gt;modelado de datos&lt;/strong&gt; y procesos de &lt;strong&gt;ETL con Power Query en Power BI&lt;/strong&gt;, para que así puedas mejorar la visualización e interpretación de los datos.&lt;/p&gt;
+
+&lt;p&gt;Microsoft Power BI sigue un año más como líder entre las herramientas de inteligencia de negocio (fuente Gartner), y la suite sigue mejorando su aspecto tanto de usabilidad, como para enriquecer nuevas funcionalidades.&lt;/p&gt;
+
+&lt;p&gt;Unos de los aspectos más importante para no tener miedo a esta herramienta comienza con el flujo de trabajo general de extremo a extremo que utiliza Power BI, el modelado de datos. La idea de ir creando más talleres de técnicas especializadas en Power BI, como crear medidas calculadas con Data Analysis eXpressions (DAX), manipular datos con el poderoso Power Query (o como algunos lo conocen lenguaje M) y aprovechar de muchos otros servicios hasta aplicar técnicas de Machine Learning o realizar operaciones con R y Python.&lt;/p&gt;
+
+&lt;p&gt;Aunque el ponente es &amp;ldquo;homónimo&amp;rdquo; de otro gran consultor de Power BI y SQL, seguro que aprovecharás este taller para aclarar algunas dudas a la hora de modelar tus datos.&lt;/p&gt;
+
+&lt;p&gt;Si os perdisteis este evento, ¡no os preocupéis! En el vídeo que encontraréis a continuación podréis visualizar el Webinar.&lt;/p&gt;
+
+&lt;p&gt;Aquí el extracto del video, no dude de comentar y compartir!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/mejora-tus-tecnicas-de-modelado-con-dax-y-power-query-en-power-bi/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/AFTanu_iBD4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

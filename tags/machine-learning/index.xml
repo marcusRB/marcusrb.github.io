@@ -5,12 +5,82 @@
     <link>https://www.marcusrb.com/tags/machine-learning/</link>
       <atom:link href="https://www.marcusrb.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>machine learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Sat, 02 May 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>machine learning</title>
       <link>https://www.marcusrb.com/tags/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>[Webinar] - Kaggle Data Science optimización y tuneado de parámetros.</title>
+      <link>https://www.marcusrb.com/webinar-kaggle-data-science-tuneado-parametros/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-kaggle-data-science-tuneado-parametros/</guid>
+      <description>&lt;p&gt;Este Webinar es la segunda parte de la serie &amp;ldquo;Data Science con Kaggle&amp;rdquo;, donde veremos la optimización y el tuneado de parámetros de Machine Learning. Además, también participaremos en una competición de regresión y en otra de reconocimiento de imágenes en vivo con redes neuronales. Los trabajos, como siempre, serán compartidos en un repositorio en Github.&lt;/p&gt;
+
+&lt;p&gt;El único requisito que se pide, además de ver y seguir los pasos del &lt;a href=&#34;https://www.youtube.com/watch?v=UzwRO4hj8c8&#34; target=&#34;_blank&#34;&gt;webinar kaggle L1 anterior&lt;/a&gt;), es tener:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Conocimientos de técnicas de optimización de modelos de Machine Learning con Scikit-Learn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saber utilizar las diferentes librerías de Python, (ej. Pandas y Numpy).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Técnicas de preprocesamiento y manipulación de los datos.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Visualización e interpretación de insights con Matplotlib y Seaborn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imputaciones de los missing values en sus diferentes técnicas.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Representación de los resultados de machine learning, confusion matrix, multiclases, etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Subida y mejora de los resultados en la competición.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Repositorio primera parte de la serie &amp;ldquo;Data Science con Kaggle&amp;rdquo;: &lt;a href=&#34;https://github.com/marcusRB/WEBINAR_Kaggle&#34; target=&#34;_blank&#34;&gt;https://github.com/marcusRB/WEBINAR_KAGGLE&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/xu_Har6ft4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>[Webinar] - Kaggle Data Science participar retos data science.</title>
+      <link>https://www.marcusrb.com/webinar-kaggle-participar-retos-data-science/</link>
+      <pubDate>Thu, 16 Apr 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-kaggle-participar-retos-data-science/</guid>
+      <description>&lt;p&gt;Tanto si ya tienes algo de experiencia en Data Analytics como si no, no puedes perderte este evento de Data Science en el que trabajaremos directamente en la plataforma Kaggle con Python.&lt;/p&gt;
+
+&lt;p&gt;Haremos el reto más &amp;ldquo;famoso&amp;rdquo;, pero también descubriremos métodos y técnicas útiles para otros retos.&lt;/p&gt;
+
+&lt;p&gt;¡Por cierto! habrá un premio para el primero.&lt;/p&gt;
+
+&lt;p&gt;Se requiere la instalación previa en vuestro ordenador del programa Anaconda, Docker con Jupyter y Visual Studio.&lt;/p&gt;
+
+&lt;p&gt;No dudes en contactar con nosotros antes del Webinar por si necesitas instalar alguna herramienta adicional.&lt;/p&gt;
+
+&lt;p&gt;Qué veremos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Organización del entorno de trabajo.&lt;/li&gt;
+&lt;li&gt;Aplicación de Metodologías para la exploración de datos.&lt;/li&gt;
+&lt;li&gt;Entrenamiento de tu primer modelo de aprendizaje automático.&lt;/li&gt;
+&lt;li&gt;Enfrentarse a las competiciones de &amp;ldquo;Primeros pasos&amp;hellip;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Competir para maximizar los aprendizajes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Repositorio primera parte de la serie &amp;ldquo;Data Science con Kaggle&amp;rdquo;: &lt;a href=&#34;https://github.com/marcusRB/WEBINAR_Kaggle&#34; target=&#34;_blank&#34;&gt;https://github.com/marcusRB/WEBINAR_KAGGLE&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/UzwRO4hj8c8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Proyectos realizados en R Studio</title>
