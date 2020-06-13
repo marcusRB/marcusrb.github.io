@@ -1,10 +1,9 @@
 ---
-title: "Consultoría en Google Tag Manager"
-author: marcusRB
+title: "Consultoría y plan medición en Google Tag Manager"
 type: page
 date: 2018-04-29T18:31:41+00:00
 summary: "Con una auditoria y creación de un plan de medición, pasando por la implementación en Google Tag Manager a su sitio web y app móvil para etiquetar eventos de interacción"
-url: "/consultoria-google-tag-manager/"
+url: "/servicios/consultoria-google-tag-manager/"
 ---
 
 <img src="https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png" alt="plantilla-gtm-analytics"/>
@@ -35,7 +34,7 @@ Os asesoraré para que el Administrador de etiquetas de Google será realizado d
 
 ### Auditoría de Google Tag Manager
 
-Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, AdWords, FacebookAds u otros pixel de conversiones, además de todos los puntos de contacto llamados <b>micro-conversiones</b>, pasos previo a su conversión.
+Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, Google Ads, Facebook Ads u otras etiquetas o pixel de conversiones, además de todos los puntos de contacto llamados <b>micro-conversiones</b>, pasos previo a su conversión.
 
 ### Formación in-company de Google Tag Manager
 
@@ -43,7 +42,7 @@ Si tiene un equipo de marketing familiarizado con Google Analytics y sus product
 
 Mis servicios de formación in-company serán presenciales en vuestras oficinas en un máximo de 8 - 12 horas, siendo posible más horas a distancia via streaming, u online a través de la plataforma Moodle de propiedad de una escuela digital.
 
-#### ¿Está interesado en consultar o capacitarse en Google Tag Manager?
+### ¿Está interesado en consultar o capacitarse en Google Tag Manager?
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 

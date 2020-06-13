@@ -1,5 +1,5 @@
 +++
-title = "Tableau, cinco tips ue te ayudarán a mejorar tus dashboards"
+title = "Tableau, cinco tips que te ayudarán a mejorar tus dashboards"
 date = 2020-06-10T17:52:54+01:00
 draft = false
 robots = "index, follow"

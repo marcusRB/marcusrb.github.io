@@ -84,3 +84,9 @@ Por nombrar algunas cosas para las que hemos utilizado modelos estadísticos cre
 * Cálculos bayesianos: los desarrollamos para cortar y cortar los resultados de las pruebas A / B dentro de Tableau
 * Comprobaciones de impacto causal: estamos trabajando con este algoritmo para evaluar si los crecimientos o las caídas son el resultado de algo que hicimos o simplemente ruido aleatorio en los datos
 * Flujos de trabajo de Business Intelligence: programación de informes usando Python junto con tabcmd (la interfaz de línea de comando para Tableau Server)
+
+### ¿Está interesado en consultoría o capacitarse en visualización en Tableau ?
+
+Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
+
+[Solicita información para la consultoría en Tableau](../#contact)

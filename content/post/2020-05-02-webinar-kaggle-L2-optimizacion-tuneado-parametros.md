@@ -7,7 +7,7 @@ url = "/webinar-kaggle-data-science-tuneado-parametros"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["kaggle", "retos", "data science", "machine learning"]
+tags = ["kaggle", "data science", "machine learning"]
 categories = ["Data Science"]
 authors = ["marcusRB"]
 +++
@@ -33,7 +33,7 @@ El único requisito que se pide, además de ver y seguir los pasos del [webinar 
 Repositorio primera parte de la serie "Data Science con Kaggle": [https://github.com/marcusRB/WEBINAR_KAGGLE](https://github.com/marcusRB/WEBINAR_Kaggle)  
 
 
-{{< youtube xu_Har6ft4 >}}
+{{< youtube 4xu_Har6ft4 >}}
 
 
 

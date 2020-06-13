@@ -2,6 +2,7 @@
 title: Consultoría en Machine Learning
 author: marcusRB
 type: page
+draft: true
 date: 2019-09-01T18:43:20+00:00
 summary: "Servicio que ofrece creación de algoritmos de aprendizaje automático."
 robots: "index, follow"

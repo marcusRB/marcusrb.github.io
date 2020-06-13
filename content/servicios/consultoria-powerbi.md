@@ -1,11 +1,11 @@
 ---
-title: Servicio de creación dashboard y visualización de datos profesional con Power BI
+title: Consultoría optimización y análisis en Microsoft Power BI
 author: marcusRB
 type: page
 date: 2019-09-01T18:43:20+00:00
-summary: "Gestionamos la creación de dasborad con Microsoft PowerBI"
+summary: "Realizo la consultoría y optimización de DAX, Power Query y modelo de datos en la herramienta de visualización empresarial Power BI"
 robots: "index, follow"
-url: "/consultoria-power-bi/"
+url: "/servicios/consultoria-analisis-dax-power-bi/"
 ---
 
 ## ¿Qué es Microsoft Power BI?
@@ -18,7 +18,17 @@ Ha pasado algún tiempo desde que Microsoft lanzó Power BI y la forma en que la
     * Geo-mapping interactivo con Bing Maps.
     * Secuencias de comandos de expresiones de análisis de datos (DAX) para crear medidas y columnas.
 
+Vea algunos de nuestros paneles en vivo, por ejemplo, informes de panel de control de Power BI procesables
+
+![img](https://ideepeners.com/wp-content/uploads/2019/12/BI_1.jpg)
+
 ## ¿Por qué necesita Power BI?
 Permita que sus empleados y tomadores de decisiones analicen los datos más rápido con una mejor eficiencia y comprensión utilizando el servicio de análisis basado en la nube Power BI proporciona a los usuarios una amplia gama de información a través de paneles simplificados pero efectivos, informes precisos y visualizaciones atractivas, convirtiéndose así en una herramienta perfecta para dar vida a los datos.
 
 Power BI se conecta a cualquier fuente de datos y ofrece información empresarial convincente a un costo muy bajo, brindando análisis en tiempo real utilizando un tablero efectivo en varios dispositivos como computadoras de escritorio, dispositivos móviles, tabletas, etc. Microsoft Power BI está diseñado de una manera que no requiere finalización que los usuarios tengan habilidades de programación para explorar, analizar y procesar los datos para tomar decisiones comerciales mejor informadas.
+
+### ¿Está interesado en consultoría o capacitarse en visualización en Power BI ?
+
+Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
+
+[Solicita información para la consultoría en Power BI](../#contact)

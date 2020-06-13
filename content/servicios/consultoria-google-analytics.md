@@ -1,10 +1,11 @@
 ---
-title: Consultoría en Google Analytics
-author: marcusRB
-type: page
-date: 2018-04-29T18:43:20+00:00
-summary: "Con este servicio de auditoria e correcta configuración de la herramienta de análisis web, Google Analytics"
-url: "/consultoria-google-analytics/"
+title : "Consultoría en analítica digital y Google Analytics"
+type : page
+date : 2020-06-10T17:52:54+01:00
+draft : false
+robots : "index, follow"
+url : "/servicios/consultoria-auditoria-google-analytics/"
+summary : "Con el servicio de auditoria y correcta configuración de la herramienta de análisis web, Google Analytics para obtener mejores insights de tu web."
 ---
 
 <img src="https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png" alt="logo_lockup_analytics_icon_vertical_black_2x"/>
@@ -28,7 +29,7 @@ Si eres como la mayoría de los dueños de negocios, pones Google Analytics en t
 MarcusRB ofrece una solución de "hágalo por mí" que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! También ofrecemos servicios de consultoría y capacitación de Google Tag Manager para empresas de todos los tamaños.
 
 
-#### ¿Está interesado en consultar o capacitarse en Google Analytics o análisis digital?
+### ¿Está interesado en consultar o capacitarse en Google Analytics o análisis digital?
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
