@@ -9,7 +9,7 @@ canonical = "https://www.paradigmadigital.com/techbiz/comparativa-plataformas-bu
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["power bi", "gartner", "pytohn"]
-categories = ["Business Intelligence", "Business Analytics"]
+categories = ["Business Intelligence", "Business Analytics", "Data Visualization"]
 authors = ["marcusRB"]
 
 

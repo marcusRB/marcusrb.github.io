@@ -1,10 +1,10 @@
 ---
-title: 6 años cumplidos como docente de Marketing Digital y Analítica digital en España
+title: 8 años cumplidos como docente Analítica de datos en España
 author: marcusRB
 type: post
 date: 2018-03-05T22:53:10+00:00
-modified-date: 2019-02-12T22:53:10+00:00
-url: /6-anos-cumplidos-docente-marketing-digital-espana/
+modified-date: 2020-06-10T22:53:10+00:00
+url: /cumpliendo-anyos-formador-docente-analitica-datos/
 featured_image: /img/2018/03/birthday-08-234x146.jpg
 
 categories:
@@ -16,9 +16,7 @@ tags:
 summary: "Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado"
 
 ---
-[Actualizado febrero 2019] - Desde febrero 2019 ya imparto cursos a particulares desde la plataforma [Superprof](https://www.superprof.es/clases-particulares-google-analytics-tag-manager-fundamentales-hasta-avanzado-profesor-consultor-internacional-con-mas.html), con las 3 especializaciones en Google Analytics y Tag Manager, Google Ads avanzado y Data Analytics & Data Science con visualización.
-
-[actualizado septiembre 2019] - desde final de septiembre ya imparto el programa del máster de Data Science, Inteligencia Artificial y Deep Learning, Big Data en NEOLAND. Además amplio la formación en módulos a estudiantes de máster y universidades, profesionales que requieren refuerzo en Visualización de datos, Python y R para realizar modelos de datos, minería y machine learning en diferentes entornos.
+[Actualizado junio 2020] - Desde febrero 2019 ya imparto cursos a particulares desde la plataforma [Superprof](https://www.superprof.es/clases-particulares-google-analytics-tag-manager-fundamentales-hasta-avanzado-profesor-consultor-internacional-con-mas.html), con las 3 especializaciones en Google Analytics y Tag Manager, Google Ads avanzado y Data Analytics & Data Science además de las herramientas más utilizadas en Business Intelligence - Power BI, Tableau, Data Studio.
 
 ***
 
@@ -100,8 +98,9 @@ No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar c
 |Ago 2019 |Curso de visualización de datos y Google Data Studio | 10 horas - online   |KPI's digital school|
 |Sep 2019 |Máster y tutoría Data Science | 198 horas - presencial   |NEOLAND|
 |Oct 2019 |Curso de Data Analytics | 40 horas - presencial   |NEOLAND|
+|Jun 2020 |Curso de Data Visualization | 120 horas - remoto   |DataSchool|
 
 <br />
-* actualizado enero 2020
+* actualizado junio 2020
 
 Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en **[contacto conmigo](/#contactos)**.

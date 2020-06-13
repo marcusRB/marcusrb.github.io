@@ -8,7 +8,7 @@ robots = "index, follow"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-categories = ["Webinar", "Formacion"]
+categories = ["Tag Manager"]
 tags = ["seminario google tag manager","aprender fundamentos tag manager","webinar"]
 
 # Featured image

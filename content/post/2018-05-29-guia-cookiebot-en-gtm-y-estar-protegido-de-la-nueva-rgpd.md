@@ -13,7 +13,7 @@ authors = ["marcusRB"]
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["rgpd","cookies","cookiebot","alerta cookie tag manager"]
-categories = ["Analítica Web", "Tag Manager", "Digital Marketing"]
+categories = ["Tag Manager", "Digital Marketing"]
 
 
 # Featured image

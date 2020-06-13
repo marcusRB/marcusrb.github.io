@@ -1,18 +1,18 @@
 ---
-title: Preguntas y test examen de Google AdWords avanzado de Búsqueda
+title: Preguntas y test examen de Google Ads avanzado de Búsqueda
 author: marcusRB
 type: post
 date: 2018-04-26T15:47:41+00:00
-url: /test-examen-de-google-adwords-avanzado-de-busqueda/
+url: /test-examen-de-google-ads-avanzado-de-busqueda/
 featured_image: /img/2018/04/Front-PublicidadBusquedaAdwords_marcusrb_abr2017-260x146.png
 
 categories:
-  - Google Adwords
+  - Google Ads
 tags:
-  - adwords certificación 2018
-  - examen de adwords fundamentales
+  - adwords certificación
+  - examen de google ads fundamentales
   - preguntas certificación adwords
-  - preguntas respuestas academy for ads 2018
+  - preguntas respuestas academy for ads
 summary: "Después del post con las preguntas del examen de Google AdWords fundamentos, en este hay algunos de los test con las preguntas de Google Adwords Avanzado."
 ---
 

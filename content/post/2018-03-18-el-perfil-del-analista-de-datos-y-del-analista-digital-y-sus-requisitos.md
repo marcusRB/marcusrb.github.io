@@ -7,7 +7,7 @@ url: /el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/
 featured_image: /img/2018/03/33254-NZCR3C-1-146x146.jpg
 
 categories:
-  - 'Data Science &amp; Big Data'
+  - Data Science
   - Digital Marketing
 tags:
   - diferencia entre big data analyst y business analyst

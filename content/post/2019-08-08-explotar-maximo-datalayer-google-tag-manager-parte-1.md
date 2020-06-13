@@ -9,7 +9,7 @@ summary = "Hablaremos del core de google tag manager, el dataLayer o variable de
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["formacion big data", "escuelas negocio", "big data"]
-categories = ["tag manager", "datalayer"]
+categories = ["Tag Manager"]
 authors = ["marcusRB"]
 
 

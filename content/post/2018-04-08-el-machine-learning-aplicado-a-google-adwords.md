@@ -1,13 +1,13 @@
 ---
-title: El Machine Learning aplicado a Google AdWords
+title: El Machine Learning aplicado a Google Ads
 author: marcusRB
 type: post
 date: 2018-04-08T20:25:16+00:00
-url: /el-machine-learning-aplicado-a-google-adwords/
+url: /machine-learning-aplicado-a-google-adwords/
 featured_image: /img/2018/04/smart-bidding-machine-learning-adwords-marcusrb-260x116.png
 
 categories:
-  - Google Adwords
+  - Google Ads
 tags:
   - estrategias pujas inteligentes
   - inteligencia artificial google

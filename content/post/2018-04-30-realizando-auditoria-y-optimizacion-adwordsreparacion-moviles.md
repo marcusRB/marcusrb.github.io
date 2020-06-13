@@ -1,5 +1,5 @@
 ---
-title: Realizando auditoría y optimización AdWords:Reparación Móviles
+title: Auditoría en Google Ads - Reparación Móviles
 author: marcusRB
 type: post
 date: 2018-04-30T15:17:17+00:00
@@ -7,7 +7,7 @@ url: /realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/
 featured_image: /img/2018/04/auditoria-adwords-marcusrb-238x146.png
 
 categories:
-  - Google Adwords
+  - Google Ads
 tags:
   - auditoria adwords
   - gestión campañas adwords

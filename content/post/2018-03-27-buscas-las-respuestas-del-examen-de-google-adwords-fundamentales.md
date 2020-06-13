@@ -1,9 +1,9 @@
 ---
-title: ¿Buscas las respuestas del examen de Google AdWords fundamentales?
+title: ¿Buscas las respuestas del examen de Google Ads fundamentales?
 author: marcusRB
 type: post
 date: 2018-03-27T14:02:53+00:00
-url: /buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/
+url: /buscas-las-respuestas-del-examen-de-google-ads-fundamentales/
 featured_image: /img/2018/03/Front-FundamentosBusquedaAdwords_marcusrb_marzo2018-260x146.png
 
 categories:
