@@ -5,9 +5,9 @@ summary: Learning Path de Visualización de datos, se indicarán los cursos de D
 weight: 2
 
 # Page metadata.
-title: Aprendizaje en Visualización de datos
+title: Cursos y formación en Visualización de datos
 date: "2020-04-05T00:00:00Z"
-lastmod: "2019-04-05T00:00:00Z"
+lastmod: "2020-06-12T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -33,7 +33,8 @@ menu:
 
 ## Estructura programación de Business Analytics
 
-
-- [] [Tableau]()
-- [X] [Power BI](power-bi)
 - [x] [Google Data Studio](google-data-studio)
+- [x] [Power BI](power-bi)
+- [x] [Tableau](tableau)
+
+

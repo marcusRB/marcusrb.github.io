@@ -71,6 +71,18 @@ Trabajar con múltiples tablas de hechos, Usar relaciones activas e inactivas, U
 **Dashboards avanzados**
 Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de contenido web; Usando el widget de video; Mosaicos de panel de transmisión en tiempo real, integración de Power Automation y PowerApps
 
+* * *
+
+### Programas personalizados en empresas y pymes
+
+Si requieres una formación personalizada tanto sea de fundamentos que conceptos avanzados de inteligencia de negocio, SQL Server Analysis, DAX, modelado de datos y ETL con Power Query, puedo adaptar el contenido de Power BI para un mínimo de 4 personas hasta un máximo de 20.
+
+* * *
+
+### Realización de PoC (Proof of Concept) con Power BI
+También realizo pruebas de conceptos en su empresa, con una muestra de datos (también del tipo dummies), me ocupo de transformar su necesidad en un panel de control dinámico y eficiente.
+
+Se realizará una sesión de 4 horas máximo de **data discovery** y otras sesiones de detección de KPI e indicadores importantes.
 
 ### ¿Está interesado en capacitarse en Power BI ?
 
