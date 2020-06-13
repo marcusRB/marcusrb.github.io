@@ -35,5 +35,5 @@ menu:
 
 
 - [] [Tableau]()
-- [] [Power BI]()
+- [X] [Power BI](power-bi)
 - [x] [Google Data Studio](google-data-studio)
