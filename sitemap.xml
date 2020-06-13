@@ -225,6 +225,11 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/servicios/consultoria-auditoria-google-analytics/</loc>
+    <lastmod>2020-06-10T17:52:54+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/categories/data-visualization/</loc>
     <lastmod>2020-06-10T17:52:54+01:00</lastmod>
     <priority>0</priority>
@@ -239,6 +244,12 @@
   <url>
     <loc>https://www.marcusrb.com/post/</loc>
     <lastmod>2020-06-10T17:52:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/servicios/</loc>
+    <lastmod>2020-06-10T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -294,14 +305,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/servicio-formacion/</loc>
+    <loc>https://www.marcusrb.com/servicios/formacion-in-company-docencia/</loc>
     <lastmod>2020-06-01T18:31:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios/</loc>
-    <lastmod>2020-06-01T18:31:41+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -369,14 +374,14 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tags/retos/</loc>
-    <lastmod>2020-05-02T17:52:54+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.marcusrb.com/webinar-kaggle-participar-retos-data-science/</loc>
+    <lastmod>2020-04-16T17:52:54+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/webinar-kaggle-participar-retos-data-science/</loc>
+    <loc>https://www.marcusrb.com/tags/retos/</loc>
     <lastmod>2020-04-16T17:52:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -550,12 +555,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/consultoria-data-analytics/</loc>
-    <lastmod>2019-09-01T18:43:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/consultoria-machine-learning/</loc>
+    <loc>https://www.marcusrb.com/servicios/consultoria-data-analytics-business-intelligence/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
@@ -565,12 +565,12 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/consultoria-google-data-studio/</loc>
+    <loc>https://www.marcusrb.com/servicios/consultoria-google-data-studio/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/consultoria-power-bi/</loc>
+    <loc>https://www.marcusrb.com/servicios/consultoria-analisis-dax-power-bi/</loc>
     <lastmod>2019-09-01T18:43:20+00:00</lastmod>
   </url>
   
@@ -1135,12 +1135,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/consultoria-google-analytics/</loc>
-    <lastmod>2018-04-29T18:43:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/consultoria-google-tag-manager/</loc>
+    <loc>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</loc>
     <lastmod>2018-04-29T18:31:41+00:00</lastmod>
   </url>
   
