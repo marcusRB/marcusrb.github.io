@@ -5,12 +5,58 @@
     <link>https://www.marcusrb.com/servicios/</link>
       <atom:link href="https://www.marcusrb.com/servicios/index.xml" rel="self" type="application/rss+xml" />
     <description>Servicios</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Sep 2019 18:43:20 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 18:31:41 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Servicios</title>
       <link>https://www.marcusrb.com/servicios/</link>
     </image>
+    
+    <item>
+      <title>Formación in-company / docencia en escuelas de negocios</title>
+      <link>https://www.marcusrb.com/servicio-formacion/</link>
+      <pubDate>Mon, 01 Jun 2020 18:31:41 +0000</pubDate>
+      <guid>https://www.marcusrb.com/servicio-formacion/</guid>
+      <description>
+
+&lt;h2 id=&#34;docencia-para-cursos-de-posgrados-seminarios-y-congresos&#34;&gt;Docencia para cursos de posgrados, seminarios y congresos&lt;/h2&gt;
+
+&lt;p&gt;Con más de 10 años de expieriencia en sector formativo, colaboro con diferentes escuelas de negocio y universidades, así como administración públicas para realizar cursos, seminarios o participar en congresos en materia de analítica digital, analítica de datos y visualización.&lt;/p&gt;
+
+&lt;p&gt;He preparado varios programas, módulos y cursos personalizados de fundamentos hasta niveles más avanzados con duración máxima de 120 horas de formación a un público de casi 100 alumnos en algunos casos. Las formaciones pueden ser presenciales, a distancia, grabadas o en formato blended.&lt;/p&gt;
+
+&lt;p&gt;Gestiono y preparo:
+- el cuadro formativo
+- los módulos en formato presentación
+- los casos prácticos
+- los laboratorios durante las horas lectivas
+- las prácticas y soluciones
+- grabaciones&lt;/p&gt;
+
+&lt;h2 id=&#34;formación-in-company-en-analítica-de-negocio&#34;&gt;Formación in-company en Analítica de negocio&lt;/h2&gt;
+
+&lt;p&gt;Tanto si tiene un equipo de marketing familiarizado con &lt;strong&gt;Google Analytics&lt;/strong&gt; y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de &lt;strong&gt;Tag Manager&lt;/strong&gt;, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
+
+&lt;p&gt;El resto de formaciones a medidas con un mínimo de 10 horas, relacionado con herramientas de inteligencia de negocio:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sesiones de Data Discovery&lt;/li&gt;
+&lt;li&gt;Preparación de indicadores y fuentes de datos&lt;/li&gt;
+&lt;li&gt;SQL y bases de datos&lt;/li&gt;
+&lt;li&gt;Modelado de datos&lt;/li&gt;
+&lt;li&gt;ETL, preparación y transformación de datos&lt;/li&gt;
+&lt;li&gt;Visualización con Power BI, Tableau, Data Studio, AWS QuickSight (principalmente)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas, siendo posible a distancia via streaming u online a través de las plataformas habituales (Zoom, Google Meet, Teams, etc.)&lt;/p&gt;
+
+&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-analítica-de-datos-y-visualización&#34;&gt;¿Está interesado en consultar o capacitarse en Analítica de Datos y Visualización?&lt;/h4&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Formación en Datos&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Consultoría en Data Analytics</title>
@@ -179,31 +225,6 @@ Tecnologías como R y Python nos permiten trabajar con los datos en el nivel má
 &lt;p&gt;Permita que sus empleados y tomadores de decisiones analicen los datos más rápido con una mejor eficiencia y comprensión utilizando el servicio de análisis basado en la nube Power BI proporciona a los usuarios una amplia gama de información a través de paneles simplificados pero efectivos, informes precisos y visualizaciones atractivas, convirtiéndose así en una herramienta perfecta para dar vida a los datos.&lt;/p&gt;
 
 &lt;p&gt;Power BI se conecta a cualquier fuente de datos y ofrece información empresarial convincente a un costo muy bajo, brindando análisis en tiempo real utilizando un tablero efectivo en varios dispositivos como computadoras de escritorio, dispositivos móviles, tabletas, etc. Microsoft Power BI está diseñado de una manera que no requiere finalización que los usuarios tengan habilidades de programación para explorar, analizar y procesar los datos para tomar decisiones comerciales mejor informadas.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Formación in-company / docencia en escuelas de negocios</title>
-      <link>https://www.marcusrb.com/servicio-formacion/</link>
-      <pubDate>Tue, 19 Feb 2019 18:31:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicio-formacion/</guid>
-      <description>
-
-&lt;h2 id=&#34;docencia-para-cursos-de-posgrados-seminarios-y-congresos&#34;&gt;Docencia para cursos de posgrados, seminarios y congresos&lt;/h2&gt;
-
-&lt;p&gt;Sea una escuela de negocio, partners de congresos y ferias, institución pública, se ofrece la posibilidad de realizar talleres teórico-práctico de niveles básico a avanzado de análisis digital, análitica de datos y data science tanto presencial que a distancia.&lt;/p&gt;
-
-&lt;h2 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h2&gt;
-
-&lt;p&gt;Si tiene un equipo de marketing familiarizado con Google Analytics y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de Google, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
-
-&lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas en un máximo de 8 - 12 horas, siendo posible más horas a distancia via streaming, u online a través de la plataforma Moodle de propiedad de una escuela digital.&lt;/p&gt;
-
-&lt;h4 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-tag-manager&#34;&gt;¿Está interesado en consultar o capacitarse en Google Tag Manager?&lt;/h4&gt;
-
-&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Formación&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
