@@ -13,6 +13,78 @@
     </image>
     
     <item>
+      <title>Microsoft Power BI</title>
+      <link>https://www.marcusrb.com/courses/data-visualization/power-bi/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/courses/data-visualization/power-bi/</guid>
+      <description>
+
+&lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Power BI te guiaré paso a paso para obtener habilidades de Power Bi. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Power BI con éxito.&lt;/p&gt;
+
+&lt;p&gt;La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa&#34;&gt;Estructura del programa&lt;/h2&gt;
+
+&lt;h3 id=&#34;curso-fundamentales-power-bi-20-horas&#34;&gt;Curso fundamentales Power BI (~20 horas)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introducción a Analítica de datos&lt;/li&gt;
+&lt;li&gt;Business Intelligence vs Big Data&lt;/li&gt;
+&lt;li&gt;Fundamentales de Visualización de datos&lt;/li&gt;
+&lt;li&gt;Proyectos de Data Discovery y Agilismo&lt;/li&gt;
+&lt;li&gt;Introducción a Power BI y conexión a fuentes de datos&lt;/li&gt;
+&lt;li&gt;Transformación de datos con Power Query&lt;/li&gt;
+&lt;li&gt;Modelado de datos y SQL Analysis Services&lt;/li&gt;
+&lt;li&gt;DAX, funciones y mejores prácticas&lt;/li&gt;
+&lt;li&gt;Reportes y cuadro de mandos en Power BI&lt;/li&gt;
+&lt;li&gt;Power BI App y conexiones on-premise&lt;/li&gt;
+&lt;li&gt;Power BI Flow y Data Pipeline&lt;/li&gt;
+&lt;li&gt;Labs y Prácticas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;curso-avanzado-dax-y-power-query-de-power-bi-15-horas&#34;&gt;Curso avanzado DAX y Power Query de Power BI (~15 horas)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Centralización de datos&lt;/strong&gt;
+Creación de flujos de datos, configuración de puerta de enlace, actualización de flujos de datos, creación de informes a partir de flujos de datos, centralización de conjuntos de datos, certificación de conjuntos de datos, creación de informes a partir de conjuntos de datos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;El lenguaje de fórmulas de Power Query&lt;/strong&gt;
+Usando La Barra De Fórmula; Usando El Editor Avanzado; Descripción general del lenguaje M; Explorando M usando #shared&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comprensión del código generado automáticamente&lt;/strong&gt;
+Excel.Workbook; File.Contents; Table.TransformColumns; Table.TransformColumnTypes; Table.UnpivotColumns; Table.UnpivotOtherColumns&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Crear funciones personalizadas en M&lt;/strong&gt;
+Definiendo una función; Definición de parámetros de entrada; El operador de acceso; Definir el cuerpo de la función; Usando parámetros opcionales; Funciones de llamada&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Técnicas de iteración&lt;/strong&gt;
+Beneficio de generar listas; Generando listas de números; Generando listas de fechas; Generando listas alfanuméricas; Usando cada función; Aplicar una función a una lista de archivos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DAX avanzado&lt;/strong&gt;
+Usando DAX Studio; Escribir fórmulas complejas; Usando variables; Calcular promedios móviles; Cálculo de totales acumulados; Cálculos de percentiles; Creación de fórmulas avanzadas de inteligencia de tiempo; Usando múltiples tablas de fechas; Trabajando con calendarios no estándar&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trabajando con tablas calculadas&lt;/strong&gt;
+Crear tablas calculadas; Funciones DAX que devuelven tablas; La función CALCULATETABLE; La función ADDCOLUMNS; La función RESUMEN; RESUMEN con ROLLUP; VALORES y funciones DISTINCT; La función CROSSJOIN; La función TOPN; La función ROW; Usar tablas calculadas dentro del modelo de datos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usar tablas de parámetros&lt;/strong&gt;
+¿Qué es una tabla de parámetros? Cuándo usar tablas de parámetros; Usando la función HASONEVALUE; Usando la función VALUES; Crear rebanadoras personalizadas; Crear múltiples soluciones de tabla de parámetros&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Modelado y visualización de datos avanzados&lt;/strong&gt;
+Trabajar con múltiples tablas de hechos, Usar relaciones activas e inactivas, Usar la función USERELATIONSHIP, Crear propiedades visuales dinámicas, Usar BLANK () para hacer que la visibilidad sea dinámica&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dashboards avanzados&lt;/strong&gt;
+Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de contenido web; Usando el widget de video; Mosaicos de panel de transmisión en tiempo real, integración de Power Automation y PowerApps&lt;/p&gt;
+
+&lt;h3 id=&#34;está-interesado-en-capacitarse-en-power-bi&#34;&gt;¿Está interesado en capacitarse en Power BI ?&lt;/h3&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Formación en Microsoft PowerBI&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Google Data Studio</title>
       <link>https://www.marcusrb.com/courses/data-visualization/google-data-studio/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
