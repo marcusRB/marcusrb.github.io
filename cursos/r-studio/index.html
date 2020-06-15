@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Learning Path de R | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Learning Path de R. Documentos, tutoriales, cheatsheets para el aprendizaje de R Studio de básico a avanzado.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/cursos/r-studio/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Learning Path de R',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+  <link rel="alternate" href="/cursos/r-studio/index.xml" type="application/rss+xml" title="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/cursos/r-studio/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/cursos/r-studio/">
+  <meta property="og:title" content="Learning Path de R | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Learning Path de R. Documentos, tutoriales, cheatsheets para el aprendizaje de R Studio de básico a avanzado."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2019-09-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/cursos/r-studio/">Estructura Learning Path R</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cursos/r-studio/instalacion-r/">Conceptos básicos</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/cursos/r-studio/instalacion-r/">Instalación R</a>
+      </li>
+      
+      <li >
+        <a href="/cursos/r-studio/paquetes/">Paquetes</a>
+      </li>
+      
+      <li >
+        <a href="/cursos/r-studio/workspace/">Workspace</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#r-como-recursos-para-la-análisis-de-datos">R como recursos para la análisis de datos</a></li>
+<li><a href="#qué-es-r">Qué es R?</a></li>
+<li><a href="#estructura-programación-en-r">Estructura programación en R</a></li>
+</ul></li>
+<li><a href="#introducción-r-avanzado">Introducción · R. avanzado</a>
+<ul>
+<li><a href="#quién-debería-leer-este-libro">Quién debería leer este libro</a></li>
+<li><a href="#lo-que-obtendrás-de-este-libro">Lo que obtendrás de este libro</a></li>
+<li><a href="#lectura-recomendada">Lectura recomendada</a></li>
+<li><a href="#obteniendo-ayuda">Obteniendo ayuda</a></li>
+<li><a href="#agradecimientos">Agradecimientos</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Learning Path de R</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="r-como-recursos-para-la-análisis-de-datos">R como recursos para la análisis de datos</h2>
+
+<p>Gracias a la aportación de una fuerte comunidad, aquí tendré la ocasión de crear una wiki para aprender a utilizar R studio para la análisis de datos.</p>
+
+<h2 id="qué-es-r">Qué es R?</h2>
+
+<p>R es un entorno para la gestión y análisis de datos, primera exploración estadística y visualización gráfica. Es un software de oper source (su distribución tiene licencia GNU GPL) además de multiplataformas, UNIX, Linux, OSx, Windows.</p>
+
+<ul>
+<li><strong><a href="intro-r" target="_blank">Online courses</a></strong></li>
+<li><strong>Project or software documentation</strong></li>
+<li><strong>Tutorials</strong></li>
+<li><strong><a href="/tutorial">Cheatsheets</a></strong></li>
+</ul>
+
+<h2 id="estructura-programación-en-r">Estructura programación en R</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> <a href="instalacion-r" target="_blank">Instalación de R</a></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> <a href="paquetes" target="_blank">Paquetes</a></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> <a href="workspace" target="_blank">Área de trabajo</a></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Directorio de trabajo</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Comandos</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Objetos y Clases</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Vectores</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Factores</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Listas</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Índices</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Funciones</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> script</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Fórmulas</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Operadores</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Datasets de ejemplos</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> <a href="advanced-r" target="_blank">R para Data Science</a></label></li>
+</ul>
+
+<hr />
+
+<p><a href="http://adv-r.had.co.nz/Introduction.html" title="Permalink to Introduction · Advanced R." target="_blank">Fuente</a></p>
+
+<h1 id="introducción-r-avanzado">Introducción · R. avanzado</h1>
+
+<p>Estás leyendo la primera edición de Advanced R; para la última versión ver la [segunda edición] [1].</p>
+
+<p>Con más de 10 años de experiencia en programación en R, he tenido el lujo de poder pasar mucho tiempo tratando de descubrir y entender cómo funciona el lenguaje. Este libro es mi intento de transmitir lo que he aprendido para que pueda convertirse rápidamente en un programador de R efectivo. Leerlo te ayudará a evitar los errores que he cometido y los callejones sin salida que he caído, y te enseñará herramientas, técnicas y modismos útiles que pueden ayudarte a atacar muchos tipos de problemas. En el proceso, espero demostrar que, a pesar de sus peculiaridades frustrantes, R es, en esencia, un lenguaje elegante y hermoso, bien adaptado para el análisis de datos y las estadísticas.</p>
+
+<p>Si eres nuevo en R, te preguntarás qué hace que valga la pena aprender un lenguaje tan peculiar. Para mí, algunas de las mejores características son:</p>
+
+<ul>
+<li>Es gratis, de código abierto y está disponible en todas las plataformas principales. Como resultado, si realiza su análisis en R, cualquiera puede replicarlo fácilmente.</li>
+<li>Un conjunto masivo de paquetes para modelado estadístico, aprendizaje automático, visualización e importación y manipulación de datos. Independientemente del modelo o gráfico que intente hacer, es probable que alguien ya haya intentado hacerlo. Como mínimo, puedes aprender de sus esfuerzos.</li>
+<li>Herramientas de vanguardia. Los investigadores en estadística y aprendizaje automático a menudo publicarán un paquete R para acompañar sus artículos. Esto significa acceso inmediato a las últimas técnicas e implementaciones estadísticas.</li>
+<li>Soporte de lenguaje profundo para el análisis de datos. Esto incluye características como valores perdidos, marcos de datos y subconjuntos.</li>
+<li>Una comunidad fantástica. Es fácil obtener ayuda de expertos en la [lista de correo R-help] [2], [stackoverflow] [3] o en listas de correo específicas de temas como [R-SIG-mixed-models] [4] o [ggplot2 ] [5]. También puede conectarse con otros alumnos R a través de [twitter] [6], [linkedin] [7], y a través de muchos [grupos de usuarios] locales [8].</li>
+<li>Potentes herramientas para comunicar sus resultados. Los paquetes R facilitan la producción de html o pdf [informes] [9], o la creación de [sitios web interactivos] [10].</li>
+<li>Una base sólida en la programación funcional. Las ideas de la programación funcional son adecuadas para resolver muchos de los desafíos del análisis de datos. R proporciona un kit de herramientas potente y flexible que le permite escribir código conciso pero descriptivo.</li>
+<li>Un [IDE] [11] adaptado a las necesidades de análisis de datos interactivos y programación estadística.</li>
+<li>Potentes instalaciones de metaprogramación. R no es solo un lenguaje de programación, también es un entorno para el análisis interactivo de datos. Sus capacidades de metaprogramación le permiten escribir funciones mágicamente concisas y concisas y proporcionan un entorno excelente para diseñar lenguajes específicos de dominio.</li>
+<li>Diseñado para conectarse a lenguajes de programación de alto rendimiento como C, Fortran y C ++.</li>
+</ul>
+
+<p>Por supuesto, R no es perfecto. El mayor desafío de R es que la mayoría de los usuarios de R no son programadores. Esto significa que:</p>
+
+<ul>
+<li>Gran parte del código R que verá en la naturaleza está escrito a toda prisa para resolver un problema acuciante. Como resultado, el código no es muy elegante, rápido o fácil de entender. La mayoría de los usuarios no revisan su código para abordar estas deficiencias.</li>
+<li>En comparación con otros lenguajes de programación, la comunidad R tiende a centrarse más en los resultados que en los procesos. El conocimiento de las mejores prácticas de ingeniería de software es irregular: por ejemplo, no hay suficientes programadores de R que usen control de código fuente o pruebas automatizadas.</li>
+<li>La metaprogramación es una espada de doble filo. Demasiadas funciones de R usan trucos para reducir la cantidad de tipeo a costa de crear código que es difícil de entender y que puede fallar de maneras inesperadas.</li>
+<li>La inconsistencia abunda en los paquetes contribuidos, incluso dentro de la base R. Te enfrentas a más de 20 años de evolución cada vez que usas R. Aprender R puede ser difícil porque hay muchos casos especiales para recordar.</li>
+<li>R no es un lenguaje de programación particularmente rápido, y el código R mal escrito puede ser terriblemente lento. R también es un usuario despilfarrador de memoria.</li>
+</ul>
+
+<p>Personalmente, creo que estos desafíos crean una gran oportunidad para que los programadores experimentados tengan un profundo impacto positivo en R y la comunidad R. Los usuarios de R se preocupan por escribir código de alta calidad, particularmente para la investigación reproducible, pero aún no tienen las habilidades para hacerlo. Espero que este libro no solo ayude a más usuarios de R a convertirse en programadores de R, sino que también aliente a los programadores de otros idiomas a contribuir a R.</p>
+
+<h2 id="quién-debería-leer-este-libro">Quién debería leer este libro</h2>
+
+<p>Este libro está dirigido a dos audiencias complementarias:</p>
+
+<ul>
+<li>Programadores de R intermedios que desean profundizar en R y aprender nuevas estrategias para resolver diversos problemas.</li>
+<li>Programadores de otros idiomas que están aprendiendo R y quieren entender por qué R funciona de la manera que lo hace.</li>
+</ul>
+
+<p>Para aprovechar al máximo este libro, deberá haber escrito una cantidad decente de código en R u otro lenguaje de programación. Es posible que no conozca todos los detalles, pero debe estar familiarizado con el funcionamiento de las funciones en R y, aunque actualmente puede tener dificultades para usarlas de manera efectiva, debe estar familiarizado con la familia de aplicaciones (como <code>apply ()</code> y <code>lapply ()</code>).</p>
+
+<h2 id="lo-que-obtendrás-de-este-libro">Lo que obtendrás de este libro</h2>
+
+<p>Este libro describe las habilidades que creo que un programador avanzado de R debería tener: la capacidad de producir código de calidad que pueda usarse en una amplia variedad de circunstancias.</p>
+
+<p>Después de leer este libro, usted:</p>
+
+<ul>
+<li>Familiarícese con los fundamentos de R. Comprenderá los tipos de datos complejos y las mejores formas de realizar operaciones en ellos. Tendrá una comprensión profunda de cómo funcionan las funciones y podrá reconocer y utilizar los cuatro sistemas de objetos en R.</li>
+<li>Comprenda lo que significa la programación funcional y por qué es una herramienta útil para el análisis de datos. Podrá aprender rápidamente cómo usar las herramientas existentes y tener el conocimiento para crear sus propias herramientas funcionales cuando sea necesario.</li>
+<li>Aprecia la espada de doble filo de la metaprogramación. Podrá crear funciones que utilizan evaluaciones no estándar de una manera basada en principios, ahorrando escritura y creando código elegante para expresar operaciones importantes. También comprenderá los peligros de la metaprogramación y por qué debe tener cuidado con su uso.</li>
+<li>Tener una buena intuición para las operaciones en R lentas o usar mucha memoria. Sabrás cómo usar la creación de perfiles para identificar los cuellos de botella de rendimiento, y sabrás suficiente C ++ para convertir funciones R lentas en equivalentes C ++ rápidos.</li>
+<li>Se sienta cómodo leyendo y entendiendo la mayoría del código R. Reconocerá expresiones idiomáticas comunes (incluso si no las usaría usted mismo) y podrá criticar el código de los demás.</li>
+</ul>
+
+<p>Hay dos meta-técnicas que son tremendamente útiles para mejorar sus habilidades como programador de R: leer el código fuente y adoptar una mentalidad científica.</p>
+
+<p>Leer el código fuente es importante porque te ayudará a escribir un mejor código. Un gran lugar para comenzar a desarrollar esta habilidad es mirar el código fuente de las funciones y paquetes que usa con más frecuencia. Encontrarás cosas que vale la pena emular en tu propio código y desarrollarás un sentido del gusto por lo que hace un buen código R. También verá cosas que no le gustan, ya sea porque sus virtudes no son obvias o ofende su sensibilidad. Sin embargo, dicho código es valioso porque ayuda a concretar sus opiniones sobre el código bueno y el malo.</p>
+
+<p>Una mentalidad científica es extremadamente útil cuando se aprende R. Si no comprende cómo funciona algo, desarrolle una hipótesis, diseñe algunos experimentos, ejecútelos y registre los resultados. Este ejercicio es extremadamente útil ya que si no puede resolver algo y necesita ayuda, puede mostrar fácilmente a los demás lo que intentó. Además, cuando aprenda la respuesta correcta, estará mentalmente preparado para actualizar su visión del mundo. Cuando describo claramente un problema a otra persona (el arte de crear un [ejemplo reproducible] [12]), a menudo descubro la solución yo mismo.</p>
+
+<h2 id="lectura-recomendada">Lectura recomendada</h2>
+
+<p>R sigue siendo un idioma relativamente joven, y los recursos para ayudarlo a comprenderlo aún están madurando. En mi viaje personal para comprender R, me ha resultado especialmente útil utilizar recursos de otros lenguajes de programación. R tiene aspectos de lenguajes de programación tanto funcionales como orientados a objetos (OO). Aprender cómo se expresan estos conceptos en R lo ayudará a aprovechar su conocimiento existente de otros lenguajes de programación y lo ayudará a identificar áreas en las que puede mejorar.</p>
+
+<p>Para entender por qué los sistemas de objetos de R funcionan de la manera que lo hacen, encontré [_La estructura e interpretación de los programas de computadora _] <a href="SICP" target="_blank">13</a> de Harold Abelson y Gerald Jay Sussman, particularmente útil. Es un libro conciso pero profundo. Después de leerlo, sentí por primera vez que realmente podía diseñar mi propio sistema orientado a objetos. El libro fue mi primera introducción al estilo de función genérico de OO común en R. Me ayudó a comprender sus fortalezas y debilidades. SICP también habla mucho sobre programación funcional y cómo crear funciones simples que se vuelven poderosas cuando se combinan.</p>
+
+<p>Para comprender las compensaciones que R ha realizado en comparación con otros lenguajes de programación, encontré [_Conceptos, técnicas y modelos de programación de computadoras _] [14] de Peter van Roy y Sef Haridi extremadamente útiles. Me ayudó a comprender que la semántica de copiar en modificar de R hace que sea mucho más fácil razonar sobre el código, y que si bien su implementación actual no es particularmente eficiente, es un problema que se puede resolver.</p>
+
+<p>Si quieres aprender a ser un mejor programador, no hay mejor lugar al que recurrir que [_The Pragmatic Programmer _] [15] de Andrew Hunt y David Thomas. Este libro es independiente del lenguaje y proporciona excelentes consejos sobre cómo ser un mejor programador.</p>
+
+<h2 id="obteniendo-ayuda">Obteniendo ayuda</h2>
+
+<p>Actualmente, hay dos lugares principales para obtener ayuda cuando estás atascado y no puedes descubrir qué está causando el problema: [stackoverflow] [16] y la lista de correo de R-help. Puede obtener ayuda fantástica en ambos lugares, pero tienen sus propias culturas y expectativas. Por lo general, es una buena idea pasar un poco de tiempo al acecho, aprendiendo sobre las expectativas de la comunidad, antes de publicar su primera publicación.</p>
+
+<p>Algunos buenos consejos generales:</p>
+
+<ul>
+<li>Asegúrese de tener la última versión de R y del paquete (o paquetes) con los que tiene problemas. Puede ser que su problema sea el resultado de un error recientemente corregido.</li>
+<li>Pase algún tiempo creando un [ejemplo reproducible] [12]. Esto es a menudo un proceso útil por derecho propio, porque en el curso de hacer que el problema sea reproducible, a menudo descubres lo que está causando el problema.</li>
+<li>Busque problemas relacionados antes de publicar. Si alguien ya ha hecho su pregunta y ha sido respondida, es mucho más rápido para todos si usa la respuesta existente.</li>
+</ul>
+
+<h2 id="agradecimientos">Agradecimientos</h2>
+
+<p>Me gustaría agradecer a los incansables colaboradores de R-help y, más recientemente, [stackoverflow] [3]. Hay muchos para nombrar individualmente, pero me gustaría agradecer especialmente a Luke Tierney, John Chambers, Dirk Eddelbuettel, JJ Allaire y Brian Ripley por dar generosamente su tiempo y corregir mis innumerables malentendidos.</p>
+
+<p>Este libro fue [escrito al aire libre] [17], y los capítulos se anunciaron en [twitter] [18] cuando se completó. Es realmente un esfuerzo de la comunidad: muchas personas leen borradores, errores tipográficos, mejoras sugeridas y contenido contribuido. Sin esos colaboradores, el libro no sería tan bueno como es, y estoy profundamente agradecido por su ayuda. Un agradecimiento especial a Peter Li, que leyó el libro de principio a fin y proporcionó muchas soluciones. Otros colaboradores destacados fueron Aaron Schumacher, @crtahlin, Lingbing Feng, @juancentro y @johnbaums.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Sep 5, 2019</p>
+
+          
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

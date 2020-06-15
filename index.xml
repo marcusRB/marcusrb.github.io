@@ -14,9 +14,9 @@
     
     <item>
       <title>Python Tutorial - Linear Regression in Python</title>
-      <link>https://www.marcusrb.com/resources/tutorial/python/pytut-linear/</link>
+      <link>https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/resources/tutorial/python/pytut-linear/</guid>
+      <guid>https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/</guid>
       <description>&lt;p&gt;Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.&lt;/p&gt;
 
 &lt;p&gt;La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales. Ya sea que desee hacer estadísticas, aprendizaje automático o computación científica, hay buenas posibilidades de que lo necesite. Es recomendable aprenderlo primero y luego proceder hacia métodos más complejos.&lt;/p&gt;
@@ -89,9 +89,9 @@ La regresión lineal simple o de una sola variable es el caso más simple de reg
     
     <item>
       <title>Introducción</title>
-      <link>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-tidy/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-tidy/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/</guid>
       <description>
 
 &lt;p&gt;La ciencia de datos es una disciplina emocionante que le permite convertir datos sin procesar en comprensión, conocimiento y conocimiento. El objetivo de &amp;ldquo;R for Data Science&amp;rdquo; es ayudarlo a aprender las herramientas más importantes en R que le permitirán hacer ciencia de datos. Después de leer este libro, tendrá las herramientas para abordar una amplia variedad de desafíos de la ciencia de datos, utilizando las mejores partes de R.&lt;/p&gt;
@@ -333,9 +333,9 @@ install.packages (c (&amp;quot;nycflights13&amp;quot;, &amp;quot;gapminder&amp;q
     
     <item>
       <title>Getting Started with SQL y Big Query</title>
-      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</link>
+      <link>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-0-start/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-0-start/</guid>
+      <guid>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-0-start/</guid>
       <description>
 
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
@@ -473,9 +473,9 @@ client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_data
     
     <item>
       <title>Google Analytics</title>
-      <link>https://www.marcusrb.com/courses/google-marketing-platform/google-analytics/</link>
+      <link>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-analytics/</guid>
+      <guid>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -494,9 +494,9 @@ client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_data
     
     <item>
       <title>Instalación de R</title>
-      <link>https://www.marcusrb.com/courses/r-studio/instalacion-r/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/instalacion-r/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</guid>
       <description>
 
 &lt;p&gt;R es un programa de código abierto del que existen varias distribuciones, que se pueden descargar libremente. Veamos los procedimientos para instalarlo y actualizarlo.&lt;/p&gt;
@@ -548,17 +548,17 @@ También puede actualizar R y paquetes con el paquete de instalación.&lt;/p&gt;
     
     <item>
       <title>Introducción Math for Data Science</title>
-      <link>https://www.marcusrb.com/courses/data-science/math-data-science/math-intro/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/math-data-science/math-intro/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/math-data-science/math-intro/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/math-data-science/math-intro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python 101 - Introducción</title>
-      <link>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</link>
+      <link>https://www.marcusrb.com/cursos/python/py101/py101-1-intro/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/python/py101/py101-1-intro/</guid>
+      <guid>https://www.marcusrb.com/cursos/python/py101/py101-1-intro/</guid>
       <description>
 
 &lt;h1 id=&#34;introducción&#34;&gt;Introducción&lt;/h1&gt;
@@ -700,9 +700,9 @@ sns.lmplot(x = &#39;petal_length&#39;, y = &#39;petal_width&#39;, data = df
     
     <item>
       <title>Prácticas 1 - Introducción</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-intro/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-intro/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-intro/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Instrucciones&lt;/strong&gt;&lt;/p&gt;
@@ -914,9 +914,9 @@ class(mi_logica)
     
     <item>
       <title>Reglas del aprendizaje automático - Fase I</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas1/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas1/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas1/</guid>
       <description>
 
 &lt;p&gt;El objetivo de este documento es ayudar a aquellas personas con un conocimiento básico sobre aprendizaje automático a aprovechar las recomendaciones de Google para aprendizaje automático. Presenta un estilo para aprendizaje automático, similar a la guía de estilo de Google para C++ y otras guías populares para la programación práctica. Si tomaste clases de aprendizaje automático, desarrollaste un modelo de aprendizaje automático o trabajaste en uno, tienes el conocimiento necesario para leer este documento.&lt;/p&gt;
@@ -1314,9 +1314,9 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     
     <item>
       <title>Programa R para Data Science</title>
-      <link>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-program/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-program/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/advanced-r/r201-program/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-program/</guid>
       <description>
 
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
@@ -1347,17 +1347,17 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     
     <item>
       <title>Python 101 - Funciones</title>
-      <link>https://www.marcusrb.com/courses/python/py101/py101-2-funciones/</link>
+      <link>https://www.marcusrb.com/cursos/python/py101/py101-2-funciones/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/python/py101/py101-2-funciones/</guid>
+      <guid>https://www.marcusrb.com/cursos/python/py101/py101-2-funciones/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Select, From &amp; Where</title>
-      <link>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</link>
+      <link>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-1-select/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/business-analytics/intro-sql/sql101-1-select/</guid>
+      <guid>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-1-select/</guid>
       <description>
 
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
@@ -1503,9 +1503,9 @@ us_cities.city.value_counts().head()
     
     <item>
       <title>Google Tag Manager</title>
-      <link>https://www.marcusrb.com/courses/google-marketing-platform/google-tag-manager/</link>
+      <link>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-tag-manager/</guid>
+      <guid>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -1524,9 +1524,9 @@ us_cities.city.value_counts().head()
     
     <item>
       <title>Paquetes</title>
-      <link>https://www.marcusrb.com/courses/r-studio/paquetes/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/paquetes/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/paquetes/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/paquetes/</guid>
       <description>
 
 &lt;p&gt;R es un programa modular. Hay muchas funciones disponibles en la distribución estándar (consulte Instalación de R), pero se pueden agregar muchas más gracias a paquetes y complementos adicionales.&lt;/p&gt;
@@ -1594,9 +1594,9 @@ us_cities.city.value_counts().head()
     
     <item>
       <title>Reglas del aprendizaje automático - Fase II</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas2/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-0-reglas2/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas2/</guid>
       <description>
 
 &lt;h1 id=&#34;fase-ii-de-aprendizaje-automático-ingeniería-de-atributos&#34;&gt;Fase II de aprendizaje automático: Ingeniería de atributos&lt;/h1&gt;
@@ -1802,9 +1802,9 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     
     <item>
       <title>Prácticas 2 - Vectores</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-vectores/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-vectores/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-vectores/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-vectores/</guid>
       <description>
 
 &lt;h2 id=&#34;creando-vectores&#34;&gt;Creando vectores&lt;/h2&gt;
@@ -2353,9 +2353,9 @@ ganancias_ruleta
     
     <item>
       <title>Área de trabajo</title>
-      <link>https://www.marcusrb.com/courses/r-studio/workspace/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/workspace/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/workspace/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/workspace/</guid>
       <description>
 
 &lt;p&gt;El workspace es el área de trabajo de la sesión R e incluye todos los objetos en uso. En RStudio, los objetos en el espacio de trabajo se pueden explorar en el panel Entorno:&lt;/p&gt;
@@ -2424,17 +2424,17 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     
     <item>
       <title>Prácticas 3 - Matrices</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-matrices/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-matrices/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-matrices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cómo funcionan los modelos</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-1-como-funciona/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-1-como-funciona/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-1-como-funciona/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-1-como-funciona/</guid>
       <description>
 
 &lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
@@ -2481,9 +2481,9 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     
     <item>
       <title>Google Ads</title>
-      <link>https://www.marcusrb.com/courses/google-marketing-platform/google-ads/</link>
+      <link>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/google-marketing-platform/google-ads/</guid>
+      <guid>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -2501,19 +2501,27 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     </item>
     
     <item>
-      <title>Microsoft Power BI</title>
-      <link>https://www.marcusrb.com/courses/data-visualization/power-bi/</link>
+      <title>Formación en Microsoft Power BI</title>
+      <link>https://www.marcusrb.com/cursos/data-visualization/power-bi/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-visualization/power-bi/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-visualization/power-bi/</guid>
       <description>
 
 &lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Power BI te guiaré paso a paso para obtener habilidades de Power Bi. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Power BI con éxito.&lt;/p&gt;
 
 &lt;p&gt;La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
 
-&lt;h2 id=&#34;estructura-del-programa&#34;&gt;Estructura del programa&lt;/h2&gt;
+&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
 
-&lt;h3 id=&#34;curso-fundamentales-power-bi-20-horas&#34;&gt;Curso fundamentales Power BI (~20 horas)&lt;/h3&gt;
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado&lt;/p&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;curso-fundamentales-power-bi-20-horas&#34;&gt;Curso fundamentales Power BI (~20 horas)&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Introducción a Analítica de datos&lt;/li&gt;
@@ -2532,7 +2540,7 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;curso-avanzado-dax-y-power-query-de-power-bi-15-horas&#34;&gt;Curso avanzado DAX y Power Query de Power BI (~15 horas)&lt;/h3&gt;
+&lt;h2 id=&#34;curso-avanzado-dax-y-power-query-de-power-bi-15-horas&#34;&gt;Curso avanzado DAX y Power Query de Power BI (~15 horas)&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Centralización de datos&lt;/strong&gt;
 Creación de flujos de datos, configuración de puerta de enlace, actualización de flujos de datos, creación de informes a partir de flujos de datos, centralización de conjuntos de datos, certificación de conjuntos de datos, creación de informes a partir de conjuntos de datos&lt;/p&gt;
@@ -2582,15 +2590,15 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Formación en Microsoft PowerBI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/#contact&#34;&gt;Solicita información para Formación en Microsoft PowerBI&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Tableau Desktop y Tableau Prep</title>
-      <link>https://www.marcusrb.com/courses/data-visualization/tableau/</link>
+      <title>Formación Tableau Desktop y Tableau Prep</title>
+      <link>https://www.marcusrb.com/cursos/data-visualization/tableau/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-visualization/tableau/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-visualization/tableau/</guid>
       <description>
 
 &lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Tableau te guiaré paso a paso para obtener habilidades de Tableau. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Tableau con éxito.&lt;/p&gt;
@@ -2599,7 +2607,15 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
 
 &lt;h2 id=&#34;estructura-del-programa&#34;&gt;Estructura del programa&lt;/h2&gt;
 
-&lt;h3 id=&#34;curso-fundamentales-tableau-20-horas&#34;&gt;Curso fundamentales Tableau (~20 horas)&lt;/h3&gt;
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado&lt;/p&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;curso-en-tableau-public-desktop-y-prep-30-horas&#34;&gt;Curso en Tableau Public, Desktop y Prep (~30 horas)&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Introducción a Analítica de datos&lt;/li&gt;
@@ -2633,23 +2649,23 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Formación en Tableau&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/#contact&#34;&gt;Solicita información para Formación en Tableau&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Prácticas 4 - Factores</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-factores/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-factores/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-factores/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explorando los datos</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</guid>
       <description>
 
 &lt;h1 id=&#34;explorando-los-datos&#34;&gt;Explorando los datos&lt;/h1&gt;
@@ -2692,13 +2708,30 @@ melbourne_data.describe()
     </item>
     
     <item>
-      <title>Google Data Studio</title>
-      <link>https://www.marcusrb.com/courses/data-visualization/google-data-studio/</link>
+      <title>Formación en Google Data Studio</title>
+      <link>https://www.marcusrb.com/cursos/data-visualization/google-data-studio/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-visualization/google-data-studio/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-visualization/google-data-studio/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
+
+&lt;h2 id=&#34;características-data-studio&#34;&gt;Características Data Studio&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es intuitivo, rápido, flexible y permite una gran cantidad de opciones de diseño y presentación.&lt;/p&gt;
+
+&lt;p&gt;Amplia gama de conectores de datos.
+Data Studio tiene 17 conectores de datos internos y alrededor de 108 de terceros para elegir
+Funciones fáciles de usar
+Data Studio proporciona docenas de funciones matemáticas, de cadena, de fecha y otras para transformar sus datos en valores más útiles.
+Variedad de formas, imágenes y texto.
+Data Studio le permite agregar formas, imágenes y texto a sus informes y paneles para que sean más fáciles de leer.
+Niveles de permisos
+Aprovechando la tecnología Google Drive, puede administrar fácilmente a todos sus usuarios y su nivel de acceso
+Mezcla de datos, ahora una realidad
+Data Studio le permite agregar datos de múltiples fuentes para tener una vista comparativa de ellos a la vez&lt;/p&gt;
 
 &lt;p&gt;Los recursos de este curso están disponibles en:&lt;/p&gt;
 
@@ -2716,33 +2749,33 @@ melbourne_data.describe()
     
     <item>
       <title>Prácticas 5 - Data Frames</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-dataframes/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-dataframes/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-dataframes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Caso Práctico 1 - Explorando los datos</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-3-exercise-1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-3-exercise-1/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-3-exercise-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prácticas 6 - Listas</title>
-      <link>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</link>
+      <link>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-listas/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/r-studio/intro-r/r101-listas/</guid>
+      <guid>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-listas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seleccionar los datos para el modelo</title>
-      <link>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-4-datos-modelo/</link>
+      <link>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-4-datos-modelo/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/courses/data-science/intro-machine-learning/ml101-4-datos-modelo/</guid>
+      <guid>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-4-datos-modelo/</guid>
       <description>
 
 &lt;h2 id=&#34;seleccionar-datos-para-modelar&#34;&gt;Seleccionar datos para modelar&lt;/h2&gt;

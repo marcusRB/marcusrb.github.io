@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Introducción | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="La ciencia de datos es una disciplina emocionante que le permite convertir datos sin procesar en comprensión, conocimiento y conocimiento. El objetivo de &ldquo;R for Data Science&rdquo; es ayudarlo a aprender las herramientas más importantes en R que le permitirán hacer ciencia de datos. Después de leer este libro, tendrá las herramientas para abordar una amplia variedad de desafíos de la ciencia de datos, utilizando las mejores partes de R.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Introducción',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/">
+  <meta property="og:title" content="Introducción | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="La ciencia de datos es una disciplina emocionante que le permite convertir datos sin procesar en comprensión, conocimiento y conocimiento. El objetivo de &ldquo;R for Data Science&rdquo; es ayudarlo a aprender las herramientas más importantes en R que le permitirán hacer ciencia de datos. Después de leer este libro, tendrá las herramientas para abordar una amplia variedad de desafíos de la ciencia de datos, utilizando las mejores partes de R."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-09-14T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-14T00:00:00&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cursos/r-studio/advanced-r/">Estructura</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/cursos/r-studio/advanced-r/r201-tidy/">Introducción</a>
+      </li>
+      
+      <li >
+        <a href="/cursos/r-studio/advanced-r/r201-program/">Programa R para Data Science</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#lo-que-vas-a-aprender">Lo que vas a aprender</a></li>
+<li><a href="#cómo-está-organizado-este-libro">Cómo está organizado este libro</a></li>
+<li><a href="#lo-que-no-aprenderás">Lo que no aprenderás</a>
+<ul>
+<li><a href="#big-data">Big data</a></li>
+<li><a href="#python-julia-y-amigos">Python, Julia y amigos</a></li>
+<li><a href="#datos-no-rectangulares">Datos no rectangulares</a></li>
+<li><a href="#confirmación-de-hipótesis">Confirmación de hipótesis</a></li>
+</ul></li>
+<li><a href="#prerrequisitos">Prerrequisitos</a>
+<ul>
+<li><a href="#r">R</a></li>
+<li><a href="#rstudio">RStudio</a></li>
+<li><a href="#el-tidyverse">El tidyverse</a></li>
+<li><a href="#otros-paquetes">Otros paquetes</a></li>
+</ul></li>
+<li><a href="#ejecutando-código-r">Ejecutando código R</a></li>
+<li><a href="#obteniendo-ayuda-y-aprendiendo-más">Obteniendo ayuda y aprendiendo más</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Introducción</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>La ciencia de datos es una disciplina emocionante que le permite convertir datos sin procesar en comprensión, conocimiento y conocimiento. El objetivo de &ldquo;R for Data Science&rdquo; es ayudarlo a aprender las herramientas más importantes en R que le permitirán hacer ciencia de datos. Después de leer este libro, tendrá las herramientas para abordar una amplia variedad de desafíos de la ciencia de datos, utilizando las mejores partes de R.</p>
+
+<h2 id="lo-que-vas-a-aprender">Lo que vas a aprender</h2>
+
+<p>La ciencia de datos es un campo enorme, y no hay forma de que puedas dominarlo leyendo un solo libro. El objetivo de este libro es brindarle una base sólida en las herramientas más importantes. Nuestro modelo de las herramientas necesarias en un proyecto típico de ciencia de datos se parece a esto:</p>
+
+<p><code>`{r echo = FALSE, out.width =&quot; 75% &quot;}
+knitr :: include_graphics (&quot;diagrams / data-science.png&quot;)
+</code> `</p>
+
+<p>Primero debe <strong>importar</strong> sus datos en R. Esto generalmente significa que toma los datos almacenados en un archivo, base de datos o API web, y los carga en un marco de datos en R. Si no puede ingresar sus datos en R, puede ¡No hagas ciencia de datos!</p>
+
+<p>Una vez que haya importado sus datos, es una buena idea ponerlos en orden. Poner en orden sus datos significa almacenarlos en una forma consistente que coincida con la semántica del conjunto de datos con la forma en que se almacenan. En resumen, cuando sus datos están ordenados, cada columna es una variable y cada fila es una observación. Los datos ordenados son importantes porque la estructura consistente le permite enfocar su lucha en preguntas sobre los datos, no en luchar para obtener los datos en la forma correcta para diferentes funciones.</p>
+
+<p>Una vez que tenga datos ordenados, un primer paso común es <strong>transformar</strong>. La transformación incluye reducir las observaciones de interés (como todas las personas en una ciudad, o todos los datos del año pasado), crear nuevas variables que son funciones de variables existentes (como calcular la velocidad a partir de la distancia y el tiempo) y calcular un conjunto de resumen estadísticas (como recuentos o medios). Juntos, ordenar y transformar se llaman <strong>wrangling</strong>, ¡porque obtener sus datos en una forma natural para trabajar a menudo se siente como una pelea!</p>
+
+<p>Una vez que tenga datos ordenados con las variables que necesita, hay dos motores principales de generación de conocimiento: visualización y modelado. Estos tienen fortalezas y debilidades complementarias, por lo que cualquier análisis real se repetirá entre ellos muchas veces.</p>
+
+<p>La visualización es una actividad fundamentalmente humana. Una buena visualización le mostrará cosas que no esperaba o planteará nuevas preguntas sobre los datos. Una buena visualización también puede indicar que está haciendo una pregunta incorrecta o que necesita recopilar datos diferentes. Las visualizaciones pueden sorprenderte, pero no escales particularmente bien porque requieren que un humano las interprete.</p>
+
+<p>Los <strong>Modelos</strong> son herramientas complementarias para la visualización. Una vez que haya hecho sus preguntas lo suficientemente precisas, puede usar un modelo para responderlas. Los modelos son una herramienta fundamentalmente matemática o computacional, por lo que generalmente escalan bien. Incluso cuando no lo hacen, ¡generalmente es más barato comprar más computadoras que comprar más cerebros! Pero cada modelo hace suposiciones y, por su propia naturaleza, un modelo no puede cuestionar sus propias suposiciones. Eso significa que un modelo no puede sorprenderte fundamentalmente.</p>
+
+<p>El último paso de la ciencia de datos es <strong>comunicación</strong>, una parte absolutamente crítica de cualquier proyecto de análisis de datos. No importa qué tan bien sus modelos y visualización lo hayan llevado a comprender los datos, a menos que también pueda comunicar sus resultados a otros.</p>
+
+<p>Alrededor de todas estas herramientas está <strong>programación</strong>. La programación es una herramienta transversal que utiliza en cada parte del proyecto. No es necesario ser un programador experto para ser un científico de datos, pero aprender más sobre programación vale la pena porque convertirse en un mejor programador le permite automatizar tareas comunes y resolver nuevos problemas con mayor facilidad.</p>
+
+<p>Utilizará estas herramientas en cada proyecto de ciencia de datos, pero para la mayoría de los proyectos no son suficientes. Hay una regla aproximada de 80-20 en juego; puede abordar aproximadamente el 80% de cada proyecto utilizando las herramientas que aprenderá en este libro, pero necesitará otras herramientas para abordar el 20% restante. A lo largo de este libro, le indicaremos los recursos donde puede obtener más información.</p>
+
+<h2 id="cómo-está-organizado-este-libro">Cómo está organizado este libro</h2>
+
+<p>La descripción anterior de las herramientas de la ciencia de datos está organizada de manera aproximada de acuerdo con el orden en que las usa en un análisis (aunque, por supuesto, las repetirá varias veces). En nuestra experiencia, sin embargo, esta no es la mejor manera de aprenderlos:</p>
+
+<ul>
+<li>Comenzar con la ingesta de datos y el orden es subóptimo porque el 80% del tiempo
+  es rutinario y aburrido, y el otro 20% del tiempo es extraño y
+  frustrante. ¡Ese es un mal lugar para comenzar a aprender un nuevo tema! En lugar,
+  comenzaremos con la visualización y transformación de datos que ya han sido
+  importado y ordenado. De esa manera, cuando ingiere y ordena sus propios datos, su
+  la motivación se mantendrá alta porque sabes que el dolor lo vale.
+  </li>
+<li>Algunos temas se explican mejor con otras herramientas. Por ejemplo, creemos que
+  Es más fácil entender cómo funcionan los modelos si ya conoce
+  visualización, datos ordenados y programación.
+  </li>
+<li>Las herramientas de programación no son necesariamente interesantes por derecho propio,
+  pero le permiten abordar problemas considerablemente más desafiantes. Bien
+  darle una selección de herramientas de programación en el medio del libro, y
+  entonces verás cómo se pueden combinar con las herramientas de ciencia de datos para abordar
+  Problemas interesantes de modelado.</li>
+</ul>
+
+<p>Dentro de cada capítulo, tratamos de seguir un patrón similar: comience con algunos ejemplos motivadores para que pueda ver la imagen más grande y luego profundice en los detalles. Cada sección del libro se combina con ejercicios para ayudarlo a practicar lo que ha aprendido. Si bien es tentador saltarse los ejercicios, no hay mejor manera de aprender que practicar en problemas reales.</p>
+
+<h2 id="lo-que-no-aprenderás">Lo que no aprenderás</h2>
+
+<p>Hay algunos temas importantes que este libro no cubre. Creemos que es importante mantenerse centrado sin piedad en lo esencial para que pueda comenzar a trabajar lo más rápido posible. Eso significa que este libro no puede cubrir todos los temas importantes.</p>
+
+<h3 id="big-data">Big data</h3>
+
+<p>Este libro se centra orgullosamente en pequeños conjuntos de datos en memoria. Este es el lugar correcto para comenzar porque no puede abordar big data a menos que tenga experiencia con datos pequeños. Las herramientas que aprende en este libro manejarán fácilmente cientos de megabytes de datos, y con un poco de cuidado, generalmente puede usarlas para trabajar con 1-2 Gb de datos. Si trabaja habitualmente con datos más grandes (10-100 Gb, por ejemplo), debe obtener más información sobre <a href="https://github.com/Rdatatable/data.table" target="_blank">data.table</a>. Este libro no enseña data.table porque tiene una interfaz muy concisa que hace que sea más difícil de aprender ya que ofrece menos claves lingüísticas. Pero si está trabajando con datos de gran tamaño, la rentabilidad del rendimiento vale la pena el esfuerzo adicional requerido para aprenderlo.</p>
+
+<p>Si sus datos son más grandes que esto, considere cuidadosamente si su problema de big data podría ser un pequeño problema de datos disfrazado. Si bien los datos completos pueden ser grandes, a menudo los datos necesarios para responder una pregunta específica son pequeños. Es posible que pueda encontrar un subconjunto, una submuestra o un resumen que se ajuste a la memoria y que aún le permita responder la pregunta que le interesa. El desafío aquí es encontrar los datos pequeños correctos, que a menudo requieren mucha iteración.</p>
+
+<p>Otra posibilidad es que su problema de big data sea en realidad una gran cantidad de problemas de data pequeña. Cada problema individual puede caber en la memoria, pero tiene millones de ellos. Por ejemplo, es posible que desee ajustar un modelo a cada persona en su conjunto de datos. Eso sería trivial si solo tuvieras 10 o 100 personas, pero en cambio tienes un millón. Afortunadamente, cada problema es independiente de los demás (una configuración que a veces se llama vergonzosamente paralela), por lo que solo necesita un sistema (como Hadoop o Spark) que le permita enviar diferentes conjuntos de datos a diferentes computadoras para su procesamiento. Una vez que haya descubierto cómo responder la pregunta para un solo subconjunto utilizando las herramientas descritas en este libro, aprenderá nuevas herramientas como sparklyr, rhipe y ddr para resolverlo para el conjunto de datos completo.</p>
+
+<h3 id="python-julia-y-amigos">Python, Julia y amigos</h3>
+
+<p>En este libro, no aprenderá nada sobre Python, Julia o cualquier otro lenguaje de programación útil para la ciencia de datos. Esto no es porque pensemos que estas herramientas son malas. ¡Ellos no están! Y en la práctica, la mayoría de los equipos de ciencia de datos usan una combinación de lenguajes, a menudo al menos R y Python.</p>
+
+<p>Sin embargo, creemos firmemente que es mejor dominar una herramienta a la vez. Mejorará más rápido si bucea profundamente, en lugar de extenderse poco a poco sobre muchos temas. Esto no significa que solo deba saber una cosa, solo que generalmente aprenderá más rápido si se apega a una cosa a la vez. Debes esforzarte por aprender cosas nuevas a lo largo de tu carrera, pero asegúrate de que tu comprensión sea sólida antes de pasar a la siguiente cosa interesante.</p>
+
+<p>Creemos que R es un gran lugar para comenzar su viaje de ciencia de datos porque es un entorno diseñado desde cero para apoyar la ciencia de datos. R no es solo un lenguaje de programación, sino que también es un entorno interactivo para hacer ciencia de datos. Para apoyar la interacción, R es un lenguaje mucho más flexible que muchos de sus pares. Esta flexibilidad viene con sus desventajas, pero la gran ventaja es lo fácil que es desarrollar gramáticas adaptadas para partes específicas del proceso de ciencia de datos. Estos mini idiomas lo ayudan a pensar en problemas como científico de datos, al tiempo que respaldan una interacción fluida entre su cerebro y la computadora.</p>
+
+<h3 id="datos-no-rectangulares">Datos no rectangulares</h3>
+
+<p>Este libro se enfoca exclusivamente en datos rectangulares: colecciones de valores que están asociados con una variable y una observación. Hay muchos conjuntos de datos que no encajan naturalmente en este paradigma: incluyendo imágenes, sonidos, árboles y texto. Pero los marcos de datos rectangulares son extremadamente comunes en la ciencia y la industria, y creemos que son un gran lugar para comenzar su viaje de ciencia de datos.</p>
+
+<h3 id="confirmación-de-hipótesis">Confirmación de hipótesis</h3>
+
+<p>Es posible dividir el análisis de datos en dos campos: generación de hipótesis y confirmación de hipótesis (a veces llamado análisis confirmatorio). El objetivo de este libro es descaradamente la generación de hipótesis o la exploración de datos. Aquí observará profundamente los datos y, en combinación con el conocimiento de su materia, generará muchas hipótesis interesantes para ayudar a explicar por qué los datos se comportan de la manera en que lo hacen. Evalúa las hipótesis de manera informal, utilizando su escepticismo para desafiar los datos de múltiples maneras.</p>
+
+<p>El complemento de la generación de hipótesis es la confirmación de hipótesis. La confirmación de la hipótesis es difícil por dos razones:</p>
+
+<ol>
+<li><p>Necesita un modelo matemático preciso para generar datos falsificables
+    predicciones Esto a menudo requiere una considerable sofisticación estadística.</p></li>
+
+<li><p>Solo puede usar una observación una vez para confirmar una hipótesis. Tan pronto como
+    lo usa más de una vez que vuelve a hacer análisis exploratorios.
+    Esto significa hacer una confirmación de hipótesis que necesita &ldquo;preregistrarse&rdquo;
+    (escriba de antemano) su plan de análisis, y no se desvíe de él
+    incluso cuando has visto los datos. Hablaremos un poco sobre algunos
+    estrategias que puede usar para facilitar esto en <a href="# model-intro">modelado</a>.</p></li>
+</ol>
+
+<p>Es común pensar en el modelado como una herramienta para la confirmación de hipótesis y la visualización como una herramienta para la generación de hipótesis. Pero esa es una falsa dicotomía: los modelos a menudo se usan para exploración, y con un poco de cuidado puede usar la visualización para confirmar. La diferencia clave es con qué frecuencia mira cada observación: si mira solo una vez, es una confirmación; si miras más de una vez, es exploración.</p>
+
+<h2 id="prerrequisitos">Prerrequisitos</h2>
+
+<p>Hemos hecho algunas suposiciones sobre lo que ya sabes para aprovechar al máximo este libro. En general, debe tener conocimientos numéricos y es útil si ya tiene experiencia en programación. Si nunca ha programado antes, es posible que Garrett <a href="http://amzn.com/1449359019" target="_blank">Hands on Programming with R</a> de Garrett sea un complemento útil de este libro.</p>
+
+<p>Hay cuatro cosas que necesita para ejecutar el código en este libro: R, RStudio, una colección de paquetes R llamada <strong>tidyverse</strong>, y un puñado de otros paquetes. Los paquetes son las unidades fundamentales del código R reproducible. Incluyen funciones reutilizables, la documentación que describe cómo usarlas y datos de muestra.</p>
+
+<h3 id="r">R</h3>
+
+<p>Para descargar R, vaya a CRAN, el ** c ** omprehensive ** R ** ** a ** rchive ** n ** etwork. CRAN se compone de un conjunto de servidores espejo distribuidos en todo el mundo y se utiliza para distribuir paquetes R y R. No intente elegir un espejo que esté cerca de usted: en su lugar, use el espejo en la nube, <a href="https://cloud.r-project.org" target="_blank">https://cloud.r-project.org</a>, que automáticamente lo resuelve por usted.</p>
+
+<p>Una nueva versión principal de R sale una vez al año, y hay 2-3 lanzamientos menores cada año. Es una buena idea actualizar regularmente. La actualización puede ser una molestia, especialmente para las versiones principales, que requieren que reinstales todos tus paquetes, pero posponerlo solo lo empeora.</p>
+
+<h3 id="rstudio">RStudio</h3>
+
+<p>RStudio es un entorno de desarrollo integrado, o IDE, para la programación R. Descargue e instálelo desde <a href="http://www.rstudio.com/download" target="_blank">http://www.rstudio.com/download</a>. RStudio se actualiza un par de veces al año. Cuando hay una nueva versión disponible, RStudio se lo informará. Es una buena idea actualizar regularmente para que pueda aprovechar las últimas y mejores funciones. Para este libro, asegúrese de tener RStudio 1.0.0.</p>
+
+<p>Cuando inicie RStudio, verá dos regiones clave en la interfaz:</p>
+
+<p><code>`{r echo = FALSE, out.width =&quot; 75% &quot;}
+knitr :: include_graphics (&quot;diagrams / rstudio-console.png&quot;)
+</code> `</p>
+
+<p>Por ahora, todo lo que necesita saber es que escribe el código R en el panel de la consola y presiona Intro para ejecutarlo. ¡Aprenderás más a medida que avanzamos!</p>
+
+<h3 id="el-tidyverse">El tidyverse</h3>
+
+<p>También necesitará instalar algunos paquetes de R. Un R <strong>paquete</strong> es una colección de funciones, datos y documentación que amplía las capacidades de la base R. El uso de paquetes es clave para el uso exitoso de R. La mayoría de los paquetes que aprenderá en este libro son parte de llamado tidyverse. Los paquetes en el tidyverse comparten una filosofía común de datos y programación R, y están diseñados para trabajar juntos de forma natural.</p>
+
+<p>Puede instalar el tidyverse completo con una sola línea de código:</p>
+
+<p><code>`{r, eval = FALSO}
+install.packages (&quot;tidyverse&quot;)
+</code> `</p>
+
+<p>En su propia computadora, escriba esa línea de código en la consola y luego presione Intro para ejecutarla. R descargará los paquetes de CRAN y los instalará en su computadora. Si tiene problemas para instalar, asegúrese de estar conectado a Internet y de que <a href="https://cloud.r-project.org/" target="_blank">https://cloud.r-project.org/</a> no esté bloqueado por su firewall o proxy.</p>
+
+<p>No podrá utilizar las funciones, objetos y archivos de ayuda en un paquete hasta que lo cargue con <code>library ()</code>. Una vez que haya instalado un paquete, puede cargarlo con la función <code>library ()</code>:</p>
+
+<p><code>{r}
+biblioteca (tidyverse)
+</code> `</p>
+
+<p>Esto le indica que tidyverse está cargando los paquetes ggplot2, tibble, tidyr, readr, purrr y dplyr. Estos se consideran el <strong>core</strong> del tidyverse porque los usará en casi todos los análisis.</p>
+
+<p>Los paquetes en el tidyverse cambian con bastante frecuencia. Puede ver si hay actualizaciones disponibles y, opcionalmente, instalarlas ejecutando <code>tidyverse_update ()</code>.</p>
+
+<h3 id="otros-paquetes">Otros paquetes</h3>
+
+<p>Hay muchos otros paquetes excelentes que no forman parte del tidyverse, porque resuelven problemas en un dominio diferente o están diseñados con un conjunto diferente de principios subyacentes. Esto no los hace mejores o peores, solo diferentes. En otras palabras, el complemento al tidyverse no es el messyverse, sino muchos otros universos de paquetes interrelacionados. A medida que aborde más proyectos de ciencia de datos con R, aprenderá nuevos paquetes y nuevas formas de pensar sobre los datos.</p>
+
+<p>En este libro usaremos tres paquetes de datos externos al tidyverse:</p>
+
+<p><code>`{r, eval = FALSO}
+install.packages (c (&quot;nycflights13&quot;, &quot;gapminder&quot;, &quot;Lahman&quot;))
+</code> `</p>
+
+<p>Estos paquetes proporcionan datos sobre vuelos de aerolíneas, desarrollo mundial y béisbol que usaremos para ilustrar ideas clave de ciencia de datos.</p>
+
+<h2 id="ejecutando-código-r">Ejecutando código R</h2>
+
+<p>La sección anterior le mostró un par de ejemplos de ejecución de código R. El código en el libro se ve así:</p>
+
+<p><code>`{r, eval = TRUE}
+1 + 2
+#&gt; [1] 3
+</code> `</p>
+
+<p>Si ejecuta el mismo código en su consola local, se verá así:</p>
+
+<p><code>`
+&gt; 1 + 2
+[1] 3
+</code> `</p>
+
+<p>Hay dos diferencias principales. En su consola, escribe después del <code>&gt;</code>, llamado <strong>prompt</strong>; No mostramos el aviso en el libro. En el libro, la salida se comenta con <code>#&gt;</code>; en tu consola aparece directamente después de tu código. Estas dos diferencias significan que si está trabajando con una versión electrónica del libro, puede copiar fácilmente el código del libro y en la consola.</p>
+
+<p>A lo largo del libro usamos un conjunto consistente de convenciones para referirnos al código:</p>
+
+<ul>
+<li><p>Las funciones están en una fuente de código y seguidas de paréntesis, como <code>sum ()</code>,
+  o <code>mean ()</code>.</p></li>
+
+<li><p>Otros objetos R (como datos o argumentos de funciones) están en una fuente de código,
+  sin paréntesis, como <code>vuelos</code> o<code>x</code>.
+  </p></li>
+
+<li><p>Si queremos dejar en claro de qué paquete proviene un objeto, usaremos
+  el nombre del paquete seguido de dos puntos, como <code>dplyr :: mutate ()</code>, o
+  <code>nycflights13 :: vuelos</code>. Este también es un código R válido.</p></li>
+</ul>
+
+<h2 id="obteniendo-ayuda-y-aprendiendo-más">Obteniendo ayuda y aprendiendo más</h2>
+
+<p>Este libro no es una isla; no existe un recurso único que le permita dominar R. Cuando comience a aplicar las técnicas descritas en este libro a sus propios datos, pronto encontrará preguntas que no contesto. Esta sección describe algunos consejos sobre cómo obtener ayuda y para ayudarlo a seguir aprendiendo.</p>
+
+<p>Si te quedas atascado, comienza con Google. Normalmente, agregar &ldquo;R&rdquo; a una consulta es suficiente para restringirla a resultados relevantes: si la búsqueda no es útil, a menudo significa que no hay resultados específicos de R disponibles. Google es particularmente útil para mensajes de error. Si recibe un mensaje de error y no tiene idea de lo que significa, intente buscarlo en Google. Lo más probable es que alguien más haya estado confundido en el pasado, y habrá ayuda en algún lugar de la web. (Si el mensaje de error no está en inglés, ejecute <code>Sys.setenv (LANGUAGE =&quot; en &quot;)</code> y vuelva a ejecutar el código; es más probable que encuentre ayuda para los mensajes de error en inglés).</p>
+
+<p>Si Google no ayuda, intente <a href="http://stackoverflow.com" target="_blank">stackoverflow</a>. Comience por pasar un poco de tiempo buscando una respuesta existente, incluyendo <code>[R]</code> para restringir su búsqueda a preguntas y respuestas que usen R. Si no encuentra nada útil, prepare un ejemplo reproducible mínimo o <strong>reprex</strong>. Un buen reprex hace que sea más fácil para otras personas ayudarte, y a menudo descubrirás el problema tú mismo mientras lo haces.</p>
+
+<p>Hay tres cosas que debe incluir para que su ejemplo sea reproducible: paquetes, datos y código requeridos.</p>
+
+<ol>
+<li><p>** Los paquetes ** deben cargarse en la parte superior del script, por lo que es fácil
+    ver cuáles necesita el ejemplo. Este es un buen momento para comprobar que estás
+    usando la última versión de cada paquete; es posible que hayas descubierto
+    Un error que se ha solucionado desde que instaló el paquete. Para paquetes
+    en tidyverse, la forma más fácil de verificar es ejecutar <code>tidyverse_update ()</code>.</p></li>
+
+<li><p>La forma más fácil de incluir ** datos ** en una pregunta es usar <code>dput ()</code> para
+    generar el código R para recrearlo. Por ejemplo, para recrear los <code>mtcars</code>
+    conjunto de datos en R, realizaría los siguientes pasos:
+  
+    1. Ejecute <code>dput (mtcars)</code> en R
+    2. Copie la salida
+    3. En mi script reproducible, escriba <code>mtcars &lt;-</code> y luego pegue.
+    
+    Intenta encontrar el subconjunto más pequeño de tus datos que aún revela
+    el problema.</p></li>
+
+<li><p>Dedica un poco de tiempo a asegurarte de que tu ** código ** sea fácil para otros
+    leer:</p></li>
+</ol>
+
+<p>    * Asegúrese de haber usado espacios y que sus nombres de variables sean concisos, aún
+      informativo.
+    
+    * Use comentarios para indicar dónde radica su problema.
+    
+    * Haga todo lo posible para eliminar todo lo que no esté relacionado con el problema.
+      Cuanto más corto sea su código, más fácil será comprenderlo y
+      Más fácil es arreglarlo.</p>
+
+<p>Termine comprobando que realmente ha hecho un ejemplo reproducible comenzando una nueva sesión de R y copiando y pegando su script.</p>
+
+<p>También debe pasar algún tiempo preparándose para resolver los problemas antes de que ocurran. Invertir un poco de tiempo en aprender R cada día dará buenos resultados a largo plazo. Una forma es seguir lo que Hadley, Garrett y todos los demás en RStudio están haciendo en el <a href="https://blog.rstudio.org" target="_blank">blog RStudio</a>. Aquí es donde publicamos anuncios sobre nuevos paquetes, nuevas funciones de IDE y cursos presenciales. También puede seguir a Hadley (<a href="https://twitter.com/hadleywickham" target="_blank">\ @hadleywickham</a>) o Garrett (<a href="https://twitter.com/statgarrett" target="_blank">\ @statgarrett</a>) en Twitter, o seguir <a href="https://twitter.com/rstudiotips" target="_blank">\ @rstudiotips</a> para mantenerse al día con las nuevas funciones en el IDE.</p>
+
+<p>Para mantenerse al día con la comunidad R en general, recomendamos leer <a href="http://www.r-bloggers.com" target="_blank">http://www.r-bloggers.com</a>: agrega más de 500 blogs sobre R de todo el mundo. Si eres un usuario activo de Twitter, sigue el hashtag <code># rstats</code>. Twitter es una de las herramientas clave que Hadley utiliza para mantenerse al día con los nuevos desarrollos en la comunidad.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/cursos/r-studio/advanced-r/r201-program/" rel="prev">Programa R para Data Science</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Sep 14, 2019</p>
+
+          
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

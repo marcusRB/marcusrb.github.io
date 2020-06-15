@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Python Tutorial - Linear Regression in Python | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.
+La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Python Tutorial - Linear Regression in Python',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/">
+  <meta property="og:title" content="Python Tutorial - Linear Regression in Python | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.
+La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-09-15T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-15T00:00:00&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/recursos/tutorial/python/">Tutoriales de Python</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cursos/python/">Índice</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/cursos/python/py101/">Python from scratch</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/recursos/tutorial/python/pytut-linear/">Machine Learning en Python</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/recursos/tutorial/python/pytut-linear/">Regresión lineal en Python</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Python Tutorial - Linear Regression in Python</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            <p>Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.</p>
+
+<p>La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales. Ya sea que desee hacer estadísticas, aprendizaje automático o computación científica, hay buenas posibilidades de que lo necesite. Es recomendable aprenderlo primero y luego proceder hacia métodos más complejos.</p>
+
+<p>Al final de este artículo, habrás aprendido:</p>
+
+<p>¿Qué es la regresión lineal?
+Para qué regresión lineal se utiliza
+Cómo funciona la regresión lineal
+Cómo implementar la regresión lineal en Python, paso a paso</p>
+
+<p>Regresión
+El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.</p>
+
+<p>¿Qué es la regresión?
+La regresión busca relaciones entre variables.</p>
+
+<p>Por ejemplo, puede observar a varios empleados de alguna compañía e intentar comprender cómo sus salarios dependen de las características, como la experiencia, el nivel de educación, el rol, la ciudad en la que trabajan, etc.</p>
+
+<p>Este es un problema de regresión en el que los datos relacionados con cada empleado representan una observación. La presunción es que la experiencia, la educación, el rol y la ciudad son las características independientes, mientras que el salario depende de ellas.</p>
+
+<p>Del mismo modo, puede intentar establecer una dependencia matemática de los precios de las casas en sus áreas, número de dormitorios, distancias al centro de la ciudad, etc.</p>
+
+<p>En general, en el análisis de regresión, generalmente considera algún fenómeno de interés y tiene una serie de observaciones. Cada observación tiene dos o más características. Siguiendo el supuesto de que (al menos) una de las características depende de las otras, intenta establecer una relación entre ellas.</p>
+
+<p>En otras palabras, debe encontrar una función que asigne algunas características o variables a otras lo suficientemente bien.</p>
+
+<p>Las características dependientes se denominan variables dependientes, salidas o respuestas.</p>
+
+<p>Las características independientes se denominan variables independientes, entradas o predictores.</p>
+
+<p>Los problemas de regresión generalmente tienen una variable dependiente continua y sin límites. Sin embargo, las entradas pueden ser datos continuos, discretos o incluso categóricos, como género, nacionalidad, marca, etc.</p>
+
+<p>Es una práctica común denotar las salidas con 𝑦 y las entradas con 𝑥. Si hay dos o más variables independientes, se pueden representar como el vector 𝐱 = (𝑥₁, &hellip;, 𝑥ᵣ), donde 𝑟 es el número de entradas.</p>
+
+<p>¿Cuándo necesitas regresión?
+Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.</p>
+
+<p>La regresión también es útil cuando desea pronosticar una respuesta utilizando un nuevo conjunto de predictores. Por ejemplo, podría intentar predecir el consumo de electricidad de un hogar para la próxima hora dada la temperatura exterior, la hora del día y el número de residentes en ese hogar.</p>
+
+<p>La regresión se usa en muchos campos diferentes: economía, ciencias de la computación, ciencias sociales, etc. Su importancia aumenta cada día con la disponibilidad de grandes cantidades de datos y una mayor conciencia del valor práctico de los datos.</p>
+
+<p>Regresión lineal
+La regresión lineal es probablemente una de las técnicas de regresión más importantes y ampliamente utilizadas. Es uno de los métodos de regresión más simples. Una de sus principales ventajas es la facilidad de interpretación de los resultados.</p>
+
+<p>Formulación del problema
+Al implementar la regresión lineal de alguna variable dependiente 𝑦 en el conjunto de variables independientes 𝐱 = (𝑥₁, &hellip;, 𝑥ᵣ), donde 𝑟 es el número de predictores, se supone una relación lineal entre 𝑦 y 𝐱: 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + ⋯ + 𝛽ᵣ𝑥ᵣ + 𝜀. Esta ecuación es la ecuación de regresión. 𝛽₀, 𝛽₁, &hellip;, 𝛽ᵣ son los coeficientes de regresión, y 𝜀 es el error aleatorio.</p>
+
+<p>La regresión lineal calcula los estimadores de los coeficientes de regresión o simplemente los pesos predichos, denotados con 𝑏₀, 𝑏₁, &hellip;, 𝑏ᵣ. Definen la función de regresión estimada 𝑓 (𝐱) = 𝑏₀ + 𝑏₁𝑥₁ + ⋯ + 𝑏ᵣ𝑥ᵣ. Esta función debe capturar las dependencias entre las entradas y salidas lo suficientemente bien.</p>
+
+<p>La respuesta estimada o pronosticada, 𝑓 (𝐱ᵢ), para cada observación 𝑖 = 1, &hellip;, 𝑛, debe estar lo más cerca posible de la respuesta real correspondiente 𝑦ᵢ. Las diferencias 𝑦ᵢ - 𝑓 (𝐱ᵢ) para todas las observaciones 𝑖 = 1, &hellip;, 𝑛, se denominan residuales. La regresión se trata de determinar los mejores pesos pronosticados, es decir, los pesos correspondientes a los residuos más pequeños.</p>
+
+<p>Para obtener los mejores pesos, generalmente minimiza la suma de los residuos cuadrados (SSR) para todas las observaciones 𝑖 = 1, &hellip;, 𝑛: SSR = Σᵢ (𝑦ᵢ - 𝑓 (𝐱ᵢ)) ². Este enfoque se llama el método de mínimos cuadrados ordinarios.</p>
+
+<p>Rendimiento de regresión
+La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, &hellip;, 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.</p>
+
+<p>El coeficiente de determinación, denotado como 𝑅², le indica qué cantidad de variación en 𝑦 puede explicarse por la dependencia de 𝐱 utilizando el modelo de regresión particular. Mayor 𝑅² indica un mejor ajuste y significa que el modelo puede explicar mejor la variación de la salida con diferentes entradas.</p>
+
+<p>El valor 𝑅² = 1 corresponde a SSR = 0, es decir, al ajuste perfecto ya que los valores de las respuestas pronosticadas y reales se ajustan completamente entre sí.</p>
+
+<p>Regresión lineal simple
+La regresión lineal simple o de una sola variable es el caso más simple de regresión lineal con una sola variable independiente, 𝐱 = 𝑥.</p>
+
+<p>La siguiente figura ilustra la regresión lineal simple:</p>
+
+<p><img src="../fig-lin-reg.png" alt="" /></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Sep 15, 2019</p>
+
+          
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

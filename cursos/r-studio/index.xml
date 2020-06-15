@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning Path de R | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/cursos/r-studio/</link>
+      <atom:link href="https://www.marcusrb.com/cursos/r-studio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Learning Path de R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Learning Path de R</title>
+      <link>https://www.marcusrb.com/cursos/r-studio/</link>
+    </image>
+    
+    <item>
+      <title>Instalación de R</title>
+      <link>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</guid>
+      <description>
+
+&lt;p&gt;R es un programa de código abierto del que existen varias distribuciones, que se pueden descargar libremente. Veamos los procedimientos para instalarlo y actualizarlo.&lt;/p&gt;
+
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;Primero, por supuesto, debe descargar el paquete básico (70 Mb para la versión 3.3), elegir un &amp;ldquo;espejo&amp;rdquo; en &lt;a href=&#34;http://cran.r-project.org/mirrors.html&#34; target=&#34;_blank&#34;&gt;http://cran.r-project.org/mirrors.html&lt;/a&gt;, o ir directamente a:&lt;/p&gt;
+
+&lt;p&gt;espejo para sistemas Windows;
+espejos para sistemas Mac-Os;
+réplicas para sistemas Linux (Debian, Redhat, Suse, Ubuntu).
+Recientemente, Microsoft ha puesto a disposición una versión de R, de código abierto, gratuita y que tiene algunas características adicionales que facilitan la reproducibilidad de la búsqueda y el cálculo en paralelo (&lt;a href=&#34;https://mran.microsoft.com/open&#34; target=&#34;_blank&#34;&gt;https://mran.microsoft.com/open&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&#34;r-portátil&#34;&gt;R portátil&lt;/h3&gt;
+
+&lt;p&gt;En Sourgeforce.net está disponible una versión portátil de R, que se puede instalar, con todas sus características, en un soporte de memoria externa (disco duro externo, unidad flash USB, etc.). Esta versión de R se puede integrar en la suite PortableApps.&lt;/p&gt;
+
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+
+&lt;p&gt;En Windows, el software se instala ejecutando el archivo ejecutable (exe) descargado.&lt;/p&gt;
+
+&lt;p&gt;Para usar RCommander y RExcel, es preferible personalizar la instalación:&lt;/p&gt;
+
+&lt;p&gt;Ejecute el archivo ejecutable en modo administrador (haga clic en el archivo con el botón derecho del mouse y elija esta opción);
+Continúe con la instalación hasta la siguiente pantalla: ¿Desea configurar las opciones de arranque? Elige &amp;ldquo;Sí&amp;rdquo;:
+ |
+Modo de visualización: elija SDI (varias ventanas)
+Estilo de ayuda: HTML (por defecto)
+Selección de procesos adicionales: almacena el número de versión en el registro:
+ |&lt;/p&gt;
+
+&lt;h2 id=&#34;actualización&#34;&gt;Actualización&lt;/h2&gt;
+
+&lt;p&gt;La forma más fácil de actualizar R y mantener bibliotecas es:&lt;/p&gt;
+
+&lt;p&gt;instale la nueva versión (se instalará en una nueva carpeta)
+copie los paquetes instalados desde la carpeta de la biblioteca anterior a la carpeta correspondiente de la nueva instalación
+iniciar R en modo administrador (en Windows Vista y Windows7)
+ejecutar - dentro de la nueva R - el comando
+paquetes de actualización (checkBuilt = TRUE, ask = FALSE)
+desinstale la versión anterior y elimine el directorio anterior.
+También puede actualizar R y paquetes con el paquete de instalación.&lt;/p&gt;
+
+&lt;h2 id=&#34;r-en-la-web&#34;&gt;R en la web&lt;/h2&gt;
+
+&lt;p&gt;Finalmente, existe la posibilidad de ejecutar R en línea (con diferentes interfaces), a través de sitios web que proporcionan una instalación de servidor R, como: &lt;a href=&#34;https://www.tutorialspoint.com/execute_r_online.php&#34; target=&#34;_blank&#34;&gt;https://www.tutorialspoint.com/execute_r_online.php&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paquetes</title>
+      <link>https://www.marcusrb.com/cursos/r-studio/paquetes/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/r-studio/paquetes/</guid>
+      <description>
+
+&lt;p&gt;R es un programa modular. Hay muchas funciones disponibles en la distribución estándar (consulte Instalación de R), pero se pueden agregar muchas más gracias a paquetes y complementos adicionales.&lt;/p&gt;
+
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
+
+&lt;p&gt;La forma más fácil de instalar paquetes, con una conexión a Internet activa, es a través del menú R: Paquetes → Instalar paquetes.&lt;/p&gt;
+
+&lt;p&gt;A veces, el funcionamiento de un paquete depende de la presencia de otros paquetes (dependencias). Para asegurarse de instalar tanto el paquete como las dependencias, es preferible usar el comando:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;Rcmdr&amp;quot;, dependencies = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
+
+&lt;p&gt;Los paquetes adicionales no se activan automáticamente cuando se abre R, pero deben &amp;ldquo;llamarse&amp;rdquo; con la biblioteca de comandos (). Por ejemplo, para usar &lt;em&gt;RCommander&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(Rcmdr)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Al llamar a un paquete, si faltan las dependencias (cualquier paquete del que dependa), se abrirá un cuadro de diálogo que le permitirá descargarlo e instalarlo automáticamente.&lt;/p&gt;
+
+&lt;p&gt;También se pueden llamar paquetes desde el menú de la consola: Paquetes → Cargar paquete.&lt;/p&gt;
+
+&lt;h2 id=&#34;actualización&#34;&gt;Actualización&lt;/h2&gt;
+
+&lt;p&gt;Periódicamente, es necesario verificar la existencia de versiones más actualizadas de los paquetes R. Es preferible ejecutar este procedimiento desde la ventana R, y haber cerrado RCommander, que a su vez debe actualizarse.&lt;/p&gt;
+
+&lt;p&gt;Para actualizar paquetes en Windows, debe ejecutar R desde los administradores.&lt;/p&gt;
+
+&lt;p&gt;El comando para actualizar los paquetes está en el menú Paquetes (Actualizar paquetes &amp;hellip;), y el procedimiento es completamente automático: solo siga las instrucciones en pantalla.&lt;/p&gt;
+
+&lt;p&gt;También es posible actualizar los paquetes escribiendo el comando&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;update.packages()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;comandos-principales&#34;&gt;Comandos principales&lt;/h2&gt;
+
+&lt;p&gt;Para saber qué paquetes están instalados en su sistema:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para cargar la ayuda del paquete:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;help(package)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para eliminar el paquete del sistema&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;remove.packages( &amp;quot;\_nombre_paquete\_&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para averiguar dónde está instalado un archivo de paquete:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;system.file(package = &amp;quot;nombre_paquete&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para aprender más&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cran.stat.unipd.it/web/packages/&#34; target=&#34;_blank&#34;&gt;Todos los paquetes disponibles&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Área de trabajo</title>
+      <link>https://www.marcusrb.com/cursos/r-studio/workspace/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/r-studio/workspace/</guid>
+      <description>
+
+&lt;p&gt;El workspace es el área de trabajo de la sesión R e incluye todos los objetos en uso. En RStudio, los objetos en el espacio de trabajo se pueden explorar en el panel Entorno:&lt;/p&gt;
+
+&lt;p&gt;Panel de entorno RStudio [IMG]&lt;/p&gt;
+
+&lt;p&gt;R no guarda objetos relacionados con una sesión de trabajo individualmente: los conjuntos de datos y las salidas se almacenan en un solo archivo, cuyo nombre predeterminado es .RData. Este archivo es la imagen del área de trabajo activa durante una sesión.&lt;/p&gt;
+
+&lt;h2 id=&#34;guardar-y-cargar-el-espacio-de-trabajo&#34;&gt;Guardar y cargar el espacio de trabajo&lt;/h2&gt;
+
+&lt;p&gt;Al final de una sesión R, puede guardar una imagen del espacio de trabajo, que se volverá a cargar automáticamente en el próximo inicio. Ej.:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;save.image( &amp;quot;C: //.../myfile.RData&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para cargar la imagen del espacio de trabajo, use el comando de carga:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;load( &amp;quot;C: //.../myfile.RData&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El menú Archivo de R
+La imagen del espacio de trabajo también se puede guardar o cargar desde el menú R, posiblemente con un nombre elegido por el usuario (por defecto no tiene nombre: .RData).&lt;/p&gt;
+
+&lt;h2 id=&#34;enumerar-los-objetos-presentes&#34;&gt;Enumerar los objetos presentes.&lt;/h2&gt;
+
+&lt;p&gt;Para obtener una lista de los objetos y clases contenidos en el espacio de trabajo, puede usar el comando de menú Varios / Lista de objetos, o escribir el comando&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Enumere los objetos que contienen (por ejemplo: la palabra &lt;em&gt;tab&lt;/em&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls(pattern = &amp;quot;tab&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;## Eliminar los objetos&lt;/p&gt;
+
+&lt;p&gt;Para eliminar los objetos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm(objeto)
+
+# Podemos utilizar también
+remove(objeto)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;vaciar-el-área-de-trabajo&#34;&gt;Vaciar el área de trabajo.&lt;/h2&gt;
+
+&lt;p&gt;Para eliminar todos los objetos y limpiar el espacio de trabajo (corresponde a borrar el espacio de trabajo o borrar el entorno en otros programas):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm(list = ls())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Elimine los objetos que contienen (por ejemplo: la palabra &lt;em&gt;tab&lt;/em&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm(list = ls(pattern = &amp;quot;tab&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;objeto = nombre del objeto, sin comillas
+El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&gt;
+
+&lt;h2 id=&#34;área-de-trabajo-de-r-y-rcommander&#34;&gt;Área de trabajo de R y RCommander&lt;/h2&gt;
+
+&lt;p&gt;RCommander comparte el espacio de trabajo R, y los marcos de datos que forman parte del espacio de trabajo (área de trabajo) se pueden mostrar en la esquina superior izquierda (conjunto de datos o conjunto de datos).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
