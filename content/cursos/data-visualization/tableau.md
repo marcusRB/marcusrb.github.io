@@ -1,13 +1,14 @@
 ---
-title: Tableau Desktop y Tableau Prep
+title: Formación Tableau Desktop y Tableau Prep
 linktitle: Tableau
 toc: true
 type: docs
 date: "2020-06-10T00:00:00+01:00"
 draft: false
+summary: "El programa formativo de Tableau eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   data-visualization:
-    parent: Estructura
+    parent: Estructura Tableau
     weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -21,8 +22,15 @@ La aplicación de dashboard con Tableau es fácil de usar ha sido diseñada para
 
 ## Estructura del programa 
 
+La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado
 
-### Curso fundamentales Tableau (~20 horas)
+ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.
+
+* * *
+
+## Curso en Tableau Public, Desktop y Prep (~30 horas)
 
 - Introducción a Analítica de datos
 - Business Intelligence vs Big Data
@@ -54,5 +62,5 @@ Se realizará una sesión de 4 horas máximo de **data discovery** y otras sesio
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para Formación en Tableau](../#contact)
+[Solicita información para Formación en Tableau](/#contact)
 

@@ -11,7 +11,7 @@
 
   [[es.menu.main]]
     name = "Inicio"
-    url = "#about"
+    url = "#inicio"
     weight = 1
 
   [[es.menu.main]]
@@ -26,12 +26,12 @@
 
   [[es.menu.main]]
     name = "Cursos"
-    url = "/courses"
+    url = "/cursos"
     weight = 4
 
   [[es.menu.main]]
     name = "Recursos"
-    url = "/resources"
+    url = "/recursos"
     weight = 5
 
   [[es.menu.main]]

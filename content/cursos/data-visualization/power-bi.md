@@ -1,13 +1,14 @@
 ---
-title: Microsoft Power BI
+title: Formación en Microsoft Power BI
 linktitle: Power BI
 toc: true
 type: docs
 date: "2020-06-10T00:00:00+01:00"
 draft: false
+summary: "El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   data-visualization:
-    parent: Estructura
+    parent: Estructura Power BI
     weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -19,10 +20,17 @@ Con más de 10 años de experiencia en consultoría de datos y formación in-com
 La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.
 
 
-## Estructura del programa 
+## Estructura del programa y cursos
 
+La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado
 
-### Curso fundamentales Power BI (~20 horas)
+ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.
+
+* * *
+
+## Curso fundamentales Power BI (~20 horas)
 
 - Introducción a Analítica de datos
 - Business Intelligence vs Big Data
@@ -39,7 +47,7 @@ La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada par
 
 * * *
 
-### Curso avanzado DAX y Power Query de Power BI (~15 horas)
+## Curso avanzado DAX y Power Query de Power BI (~15 horas)
 
 **Centralización de datos**
 Creación de flujos de datos, configuración de puerta de enlace, actualización de flujos de datos, creación de informes a partir de flujos de datos, centralización de conjuntos de datos, certificación de conjuntos de datos, creación de informes a partir de conjuntos de datos
@@ -88,5 +96,5 @@ Se realizará una sesión de 4 horas máximo de **data discovery** y otras sesio
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para Formación en Microsoft PowerBI](../#contact)
+[Solicita información para Formación en Microsoft PowerBI](/#contact)
 

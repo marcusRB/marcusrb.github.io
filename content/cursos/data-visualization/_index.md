@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   data-visualization:
-    name: Learning Path
+    name: Learning Path Data Viz
     weight: 1
 ---
 
