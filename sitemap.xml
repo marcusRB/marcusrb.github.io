@@ -73,6 +73,11 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/gtm01/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/cursos/data-visualization/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
@@ -108,11 +113,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/cursos/r-studio/paquetes/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -130,6 +130,16 @@
   <url>
     <loc>https://www.marcusrb.com/cursos/r-studio/workspace/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/gtm02/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -675,6 +685,10 @@
   
   <url>
     <loc>https://www.marcusrb.com/recursos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/recursos/recipes-gtm/</loc>
   </url>
   
 </urlset>
