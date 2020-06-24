@@ -46,3 +46,5 @@ menu:
 
 - [x] [Introducción de Machine Learning](intro-machine-learning)
 - [x] [Matemática para Data Science](math-data-science)
+- [] [Minería de datos](data-mining)
+- [] [Datatons & competitions](competition)
