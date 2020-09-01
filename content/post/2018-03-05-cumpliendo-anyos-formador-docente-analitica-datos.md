@@ -3,7 +3,7 @@ title: 8 años como profesor de Data & Visualización
 author: marcusRB
 type: post
 date: 2018-03-05T22:53:10+00:00
-modified-date: 2020-06-10T22:53:10+00:00
+modified-date: 2020-09-01T22:53:10+00:00
 url: /cumpliendo-anyos-formador-docente-analitica-datos/
 featured_image: /img/2018/03/birthday-08-234x146.jpg
 
