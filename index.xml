@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/</link>
       <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 10 Jun 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
@@ -2821,6 +2821,31 @@ Seleccionando con una lista de columnas, que usamos para seleccionar las &amp;ld
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;X.head()
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Webinar] - Knime Automatizar tareas de Machine Learning</title>
+      <link>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</link>
+      <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</guid>
+      <description>&lt;p&gt;¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?&lt;/p&gt;
+
+&lt;p&gt;De hecho, en los últimos meses, han aparecido muchas herramientas que afirman automatizar todo o parte del proceso de ciencia de datos. ¿Cómo trabajan? ¿Podrías construir uno tú mismo? Si adopta una de estas herramientas, ¿cuánto trabajo sería necesario para adaptarlo a su propio problema y su propio conjunto de datos?&lt;/p&gt;
+
+&lt;p&gt;Por lo general, el precio a pagar por el aprendizaje automático es la pérdida de control de un modelo de &amp;ldquo;caja negra&amp;rdquo;. Lo que gana en la automatización, lo pierde en el ajuste o la interpretabilidad. Aunque dicho precio podría ser aceptable para problemas de ciencia de datos circunscritos en dominios bien definidos, podría convertirse en una limitación para problemas más complejos en una variedad más amplia de dominios. En estos casos, es deseable una cierta cantidad de interacción con el usuario final.&lt;/p&gt;
+
+&lt;p&gt;En KNIME, la herramienta que tiene parte de automatizaciones y muchas de intervención humana, utiliza una interfaz totalmente automatizada para guiar a los usuarios a través de la selección, capacitación, prueba y optimización de varios modelos de aprendizaje automático. El flujo de trabajo ha sido diseñado para que los analistas de negocios creen fácilmente soluciones de análisis predictivo aplicando su conocimiento de dominio.&lt;/p&gt;
+
+&lt;p&gt;En este Webinar mostraremos los pasos de esta aplicación explicando en detalle las técnicas utilizadas para la extracción de nuevas features, aprendizaje automático, detección de valores atípicos, selección de características, optimización de parámetros y evaluación de modelos.&lt;/p&gt;
+
+&lt;p&gt;Para este webinar la aplicación a descargar es totalmente FREE tanto para entornos Windows, MAC OSx que Linux, y disponible aquí &lt;a href=&#34;https://www.knime.com/downloads/download-knime&#34; target=&#34;_blank&#34;&gt;https://www.knime.com/downloads/download-knime&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Para acceder al evento, es necesario que te inscribas en el formulario que encontrarás al final de la página.&lt;/p&gt;
+
+&lt;p&gt;Aquí el extracto del video, no dude de comentar y compartir!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/automatizar-tareas-de-machine-learning-en-knime/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -9787,7 +9812,7 @@ dataLayer.push({&amp;lt;br /&amp;gt;
     </item>
     
     <item>
-      <title>8 años cumplidos como docente Analítica de datos en España</title>
+      <title>8 años como profesor de Data &amp; Visualización</title>
       <link>https://www.marcusrb.com/cumpliendo-anyos-formador-docente-analitica-datos/</link>
       <pubDate>Mon, 05 Mar 2018 22:53:10 +0000</pubDate>
       <guid>https://www.marcusrb.com/cumpliendo-anyos-formador-docente-analitica-datos/</guid>
@@ -9802,17 +9827,24 @@ dataLayer.push({&amp;lt;br /&amp;gt;
 &lt;ul&gt;
 &lt;li&gt;Cámara de Comercio de Madrid y delegación en Alcalá de Henares&lt;/li&gt;
 &lt;li&gt;EAE Business School&lt;/li&gt;
-&lt;li&gt;Adveischool&lt;/li&gt;
+&lt;li&gt;AdveiSchool&lt;/li&gt;
 &lt;li&gt;KPI&amp;rsquo;s escuela digital&lt;/li&gt;
 &lt;li&gt;IIM Instituto Internacional de Marketing&lt;/li&gt;
 &lt;li&gt;IFM Business School&lt;/li&gt;
 &lt;li&gt;DigitalBrain&lt;/li&gt;
 &lt;li&gt;IEDGE Business School&lt;/li&gt;
-&lt;li&gt;IEBS Business School
-y muchos más.&lt;/li&gt;
+&lt;li&gt;IEBS Business School&lt;/li&gt;
+&lt;li&gt;FICTIZIA&lt;/li&gt;
+&lt;li&gt;NEOLAND&lt;/li&gt;
+&lt;li&gt;CICE Business School&lt;/li&gt;
+&lt;li&gt;DATA School&lt;/li&gt;
+&lt;li&gt;AI School&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar con fotos, vídeos y las recensiones de aquellos cursos impartidos a lo largo de estos años y que seguiré impartiendo. Habré formado unos 500 y más estudiantes, alumnos, profesionales? Seguro!&lt;/p&gt;
+&lt;p&gt;y formación a medida a empresas.&lt;/p&gt;
+
+&lt;p&gt;No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar con fotos, vídeos y las recensiones de aquellos cursos impartidos a lo largo de estos años y que seguiré impartiendo.
+Formando a más de ~30000 estudiantes (entre profesionales y en búsqueda de mejora laboral).&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -10218,11 +10250,18 @@ y muchos más.&lt;/li&gt;
 &lt;td align=&#34;center&#34;&gt;120 horas - remoto&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;DataSchool&lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Sep 2020&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Curso de Business Intelligence&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;360 horas - remoto&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;DataSchool&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;br /&gt;
-* actualizado junio 2020&lt;/p&gt;
+* actualizado septiembre 2020&lt;/p&gt;
 
 &lt;p&gt;Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en &lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/#contactos&#34;&gt;contacto conmigo&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 </description>
