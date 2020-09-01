@@ -1,5 +1,5 @@
 ---
-title: 8 años cumplidos como docente Analítica de datos en España
+title: 8 años como profesor de Data & Visualización
 author: marcusRB
 type: post
 date: 2018-03-05T22:53:10+00:00
@@ -26,16 +26,23 @@ Aquí mi resumen de todos los cursos realizados, másters y programas de postgra
 
 - Cámara de Comercio de Madrid y delegación en Alcalá de Henares
 - EAE Business School
-- Adveischool
+- AdveiSchool
 - KPI's escuela digital
 - IIM Instituto Internacional de Marketing
 - IFM Business School
 - DigitalBrain
 - IEDGE Business School
 - IEBS Business School
-y muchos más.
+- FICTIZIA
+- NEOLAND
+- CICE Business School
+- DATA School
+- AI School
 
-No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar con fotos, vídeos y las recensiones de aquellos cursos impartidos a lo largo de estos años y que seguiré impartiendo. Habré formado unos 500 y más estudiantes, alumnos, profesionales? Seguro!
+y formación a medida a empresas.
+
+No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar con fotos, vídeos y las recensiones de aquellos cursos impartidos a lo largo de estos años y que seguiré impartiendo. 
+Formando a más de ~30000 estudiantes (entre profesionales y en búsqueda de mejora laboral).
 
 <br />
 
@@ -99,8 +106,9 @@ No ha sido fácil recolectar todos los datos, ya que me hubiera gustar aportar c
 |Sep 2019 |Máster y tutoría Data Science | 198 horas - presencial   |NEOLAND|
 |Oct 2019 |Curso de Data Analytics | 40 horas - presencial   |NEOLAND|
 |Jun 2020 |Curso de Data Visualization | 120 horas - remoto   |DataSchool|
+|Sep 2020 |Curso de Business Intelligence | 360 horas - remoto   |DataSchool|
 
 <br />
-* actualizado junio 2020
+* actualizado septiembre 2020
 
 Y si estás interesado en colaboración para seminarios presenciales o a distancia, grabados o mi presencia en eventos, meetups, podcasts o cualquier otro tipo, puedes ponerte en **[contacto conmigo](/#contactos)**.

@@ -86,11 +86,12 @@ phone = "+34 603 220 001"
 address = "Paseo Castellana 200, oficina 4, Madrid, Spain"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday - Friday 09:00 to 17:00<br>
+office_hours = """Monday - Friday 08:00 to 17:00<br>
                   for appointment"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+## appointment_url = "https://calendly.com"
+appointment_url = "https://calendar.google.com/calendar?cid=cmsyNGY3aXZvNnVqbTFjdmF0dWdoZjE2Z2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.

@@ -106,7 +106,7 @@ Larga experiencia en gestión de grandes cuentas principalmente en retail, banco
 
 ## Docente & formador in-company:
 
-En los últimos [7 años he impartido](/6-anos-cumplidos-docente-marketing-digital-espana/) +1500 horas de formación en:
+En los últimos [7 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +1500 horas de formación en:
 
 - **data science**, inteligencia artificial, machine learning, deep learning, crear material y tutoría a los estudiantes de máster y cursos de data science y data analytics.
 - **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
