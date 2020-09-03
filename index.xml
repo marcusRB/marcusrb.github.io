@@ -3262,6 +3262,41 @@ SELECT * EXCEPT(unique_session_id) FROM (
     </item>
     
     <item>
+      <title>Tutorial - Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager.</title>
+      <link>https://www.marcusrb.com/talk/bing_ads_gtm/</link>
+      <pubDate>Tue, 01 Sep 2020 18:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/talk/bing_ads_gtm/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;aprende-cómo-personalizar-el-pixel-de-bing-ads-con-google-tag-manager&#34;&gt;Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager.&lt;/h1&gt;
+
+&lt;p&gt;En este tutorial vemos como personalizar el pixel de seguimiento del segundo buscador más importante, Bing.&lt;/p&gt;
+
+&lt;p&gt;Aunque no sea muy extendido su uso, Bing Ads cada vez más está ganando posiciones de mercado, como en muchos paises europeos es tan importante más que Google (por la cuestión privacidad), siendo el canal habitual en Francia, Alemania y UK. Gracias al gesto de etiquetas Google Tag Manager, podemos sin intervención de un desarrollador implementar el pixel o los diferentes de eventos, donde necesitamos recoger las interacciones de los usuarios, eventos de usabilidad y todas aquellos relacionados con el comercio electrónico. Gracias a la etiqueta nativa presente en Google Tag Manager, podemos en pocos clics crear diferentes pixel, el principal como base, y el resto para las interacciones. Es importante contar también con el dataLayer de comercio electrónico (clásico o mejorado), para recolectar el resto de eventos específicos delos pasos del funnel, al igual que hacemos con Google Ads y Google Analytics..&lt;/p&gt;
+
+&lt;h2 id=&#34;quién-es-el-ponente&#34;&gt;¿Quién es el ponente?&lt;/h2&gt;
+
+&lt;p&gt;Marco Russo&lt;/p&gt;
+
+&lt;p&gt;Consultor y Especialista en Data &amp;amp; Machine Learning, Business Analytics y Visualización de datos en Paradigma Digital, con más de 7 años de experiencias en diferentes sectores y clientes, además profesor para importantes escuelas de negocios y colaborador en la Universitat Oberta de Catalunya. Especializado en data mining, optimización de modelos y machine learning en área del Marketing, Retail y Banca-Finanzas entre otras. Cuando no estoy jugando con IoT, datos y robótica, dedico el tiempo con mi familia y a mi deporte favorito, bici de carretera.&lt;/p&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/90OMn3m3Cxk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>[Webinar] - Knime Automatizar tareas de Machine Learning</title>
       <link>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</link>
       <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
