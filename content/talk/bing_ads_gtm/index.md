@@ -1,22 +1,22 @@
 ---
-title: Meetup - Escalando de nivel con Google Tag Manager
-event: Meetup - Escalando de nivel con Google Tag Manager
-event_url: https://www.meetup.com/es-ES/HTML5-Spain/events/255767693/
+title: Tutorial - Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager.
+event: Tutorial - Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager.
+event_url: https://www.youtube.com/watch?v=90OMn3m3Cxk
 location: Madrid, Spain
-summary: "[Meetup] Escalando de nivel con Google Tag Manager"
-abstract: "Después del primer Meetup sobre los fundamentos de Google Tag Manager, que está disponible en nuestro canal de YouTube, en este webinar vamos a realizar todo tipo de prácticas que nos permitirán conectar la interfaz más utilizada con el ecosistema de Google: Analytics, Marketing Platform como también Facebook Ads y herramientas de CRO. Pasaremos sucesivamente a las configuraciones avanzadas que nos permitirán subir de nivel y poder disponer de las métricas esenciales sin miedo de perder datos a la hora de analizar tu negocio."
+summary: "Tutorial - Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager."
+abstract: "En este tutorial vemos como personalizar el pixel de seguimiento del segundo buscador más importante, Bing."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-06-25T18:00:00Z"
-date_end: "2019-06-25T20:00:00Z"
+date: "2020-09-01T18:00:00Z"
+date_end: "2020-09-01T20:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2019-06-25T20:00:00Z"
+publishDate: "2020-09-01T20:00:00Z"
 
 authors: ["marcusRB"]
-tags: ['analytics', 'googletagmanager']
+tags: ['bingads', 'googletagmanager']
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -37,7 +37,7 @@ links:
 url_code: 
 url_pdf: 
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=mWEzBtHtbmM&t"
+url_video: "https://www.youtube.com/watch?v=90OMn3m3Cxk"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -61,19 +61,11 @@ math: false
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
 
-# Destripando Google Tag Manager
+# Aprende cómo personalizar el pixel de Bing Ads con Google Tag Manager.
 
-Nivel 1.
+En este tutorial vemos como personalizar el pixel de seguimiento del segundo buscador más importante, Bing. 
 
-30 octubre 2018
-
- 
-
-
-
-## Destripando Google Tag Manager
-
-Después del primer Meetup sobre los fundamentos de Google Tag Manager, que está disponible en nuestro canal de YouTube, en este webinar vamos a realizar todo tipo de prácticas que nos permitirán conectar la interfaz más utilizada con el ecosistema de Google: Analytics, Marketing Platform como también Facebook Ads y herramientas de CRO. Pasaremos sucesivamente a las configuraciones avanzadas que nos permitirán subir de nivel y poder disponer de las métricas esenciales sin miedo de perder datos a la hora de analizar tu negocio.
+Aunque no sea muy extendido su uso, Bing Ads cada vez más está ganando posiciones de mercado, como en muchos paises europeos es tan importante más que Google (por la cuestión privacidad), siendo el canal habitual en Francia, Alemania y UK. Gracias al gesto de etiquetas Google Tag Manager, podemos sin intervención de un desarrollador implementar el pixel o los diferentes de eventos, donde necesitamos recoger las interacciones de los usuarios, eventos de usabilidad y todas aquellos relacionados con el comercio electrónico. Gracias a la etiqueta nativa presente en Google Tag Manager, podemos en pocos clics crear diferentes pixel, el principal como base, y el resto para las interacciones. Es importante contar también con el dataLayer de comercio electrónico (clásico o mejorado), para recolectar el resto de eventos específicos delos pasos del funnel, al igual que hacemos con Google Ads y Google Analytics..
 
 ## ¿Quién es el ponente?
 
@@ -84,4 +76,4 @@ Consultor y Especialista en Data & Machine Learning, Business Analytics y Visual
 
 ## Video
 
-{{< youtube mWEzBtHtbmM >}}
+{{< youtube 90OMn3m3Cxk >}}
