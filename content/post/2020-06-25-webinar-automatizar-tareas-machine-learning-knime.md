@@ -4,13 +4,14 @@ date = 2020-06-25T17:52:54+01:00
 draft = false
 robots = "index, follow"
 url = "/webinar-automatizar-tareas-machine-learning-knime"
+canonical = "https://www.paradigmadigital.com/eventos/automatizar-tareas-de-machine-learning-en-knime/"
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["machine learning", "knime", "webinar"]
 categories = ["Data Science"]
 authors = ["marcusRB"]
-canonical = "https://www.paradigmadigital.com/eventos/automatizar-tareas-de-machine-learning-en-knime/"
+
 +++
 
 ¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?
