@@ -1,6 +1,6 @@
 ---
-title: Formación en Microsoft Power BI
-linktitle: Power BI
+title: Formación avanzada en Microsoft Power BI
+linktitle: Power BI 201
 toc: true
 type: docs
 date: "2020-06-10T00:00:00+01:00"
@@ -23,27 +23,12 @@ La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada par
 ## Estructura del programa y cursos
 
 La estructura del programa formativo se compone en dos grandes bloques:
-- fundamentos
-- avanzado
+
+- [fundamentos](/cursos/data-visualization/power-bi-101/)
+- [avanzado](/cursos/data-visualization/power-bi-201/)
 
 ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.
 
-* * *
-
-## Curso fundamentales Power BI (~20 horas)
-
-- Introducción a Analítica de datos
-- Business Intelligence vs Big Data
-- Fundamentales de Visualización de datos
-- Proyectos de Data Discovery y Agilismo
-- Introducción a Power BI y conexión a fuentes de datos
-- Transformación de datos con Power Query
-- Modelado de datos y SQL Analysis Services
-- DAX, funciones y mejores prácticas
-- Reportes y cuadro de mandos en Power BI
-- Power BI App y conexiones on-premise
-- Power BI Flow y Data Pipeline
-- Labs y Prácticas
 
 * * *
 
@@ -85,16 +70,22 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
 
 Si requieres una formación personalizada tanto sea de fundamentos que conceptos avanzados de inteligencia de negocio, SQL Server Analysis, DAX, modelado de datos y ETL con Power Query, puedo adaptar el contenido de Power BI para un mínimo de 4 personas hasta un máximo de 20.
 
-* * *
 
 ### Realización de PoC (Proof of Concept) con Power BI
 También realizo pruebas de conceptos en su empresa, con una muestra de datos (también del tipo dummies), me ocupo de transformar su necesidad en un panel de control dinámico y eficiente.
 
 Se realizará una sesión de 4 horas máximo de **data discovery** y otras sesiones de detección de KPI e indicadores importantes.
 
+***
+
 ### ¿Está interesado en capacitarse en Power BI ?
 
-Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
+Si necesitas un curso en remoto, en tu empresa o a nivel profesional puedes llamar hoy o utilizar el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para Formación en Microsoft PowerBI](/#contact)
+[Solicita información para Formación avanzada en Microsoft PowerBI](/#contact)
 
+* * *
+
+### DEMO Data Analysis con Power BI
+
+{{< vimeo 453307595 >}}

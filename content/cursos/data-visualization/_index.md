@@ -34,7 +34,8 @@ menu:
 ## Estructura programación de Business Analytics
 
 - [x] [Google Data Studio](google-data-studio)
-- [x] [Power BI](power-bi)
+- [x] [Power BI fundamentos](power-bi-101)
+- [x] [Power BI avanzado](power-bi-201)
 - [x] [Tableau](tableau)
 
 

@@ -43,3 +43,9 @@ Los recursos de este curso están disponibles en:
 Novedades de Google Data studio
 
 [google-data-studio-1](/google-data-studio/example1)
+
+* * *
+
+### DEMO Data Analysis con Google Data Studio
+
+{{< vimeo 453307594 >}}
