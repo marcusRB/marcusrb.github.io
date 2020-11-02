@@ -5,7 +5,7 @@
     <link>https://www.marcusrb.com/</link>
       <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 02 Sep 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Sat, 10 Oct 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
@@ -14,10 +14,12 @@
     
     <item>
       <title>Python Tutorial - Linear Regression in Python</title>
-      <link>https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/</link>
+      <link>https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/recursos/tutorial/python/pytut-linear/</guid>
-      <description>&lt;p&gt;Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.&lt;/p&gt;
+      <guid>https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/</guid>
+      <description>
+
+&lt;p&gt;Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.&lt;/p&gt;
 
 &lt;p&gt;La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales. Ya sea que desee hacer estadísticas, aprendizaje automático o computación científica, hay buenas posibilidades de que lo necesite. Es recomendable aprenderlo primero y luego proceder hacia métodos más complejos.&lt;/p&gt;
 
@@ -28,8 +30,9 @@ Para qué regresión lineal se utiliza
 Cómo funciona la regresión lineal
 Cómo implementar la regresión lineal en Python, paso a paso&lt;/p&gt;
 
-&lt;p&gt;Regresión
-El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.&lt;/p&gt;
+&lt;h2 id=&#34;regresión&#34;&gt;Regresión&lt;/h2&gt;
+
+&lt;p&gt;El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.&lt;/p&gt;
 
 &lt;p&gt;¿Qué es la regresión?
 La regresión busca relaciones entre variables.&lt;/p&gt;
@@ -52,8 +55,9 @@ La regresión busca relaciones entre variables.&lt;/p&gt;
 
 &lt;p&gt;Es una práctica común denotar las salidas con 𝑦 y las entradas con 𝑥. Si hay dos o más variables independientes, se pueden representar como el vector 𝐱 = (𝑥₁, &amp;hellip;, 𝑥ᵣ), donde 𝑟 es el número de entradas.&lt;/p&gt;
 
-&lt;p&gt;¿Cuándo necesitas regresión?
-Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.&lt;/p&gt;
+&lt;h2 id=&#34;cuándo-necesitas-regresión&#34;&gt;¿Cuándo necesitas regresión?&lt;/h2&gt;
+
+&lt;p&gt;Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.&lt;/p&gt;
 
 &lt;p&gt;La regresión también es útil cuando desea pronosticar una respuesta utilizando un nuevo conjunto de predictores. Por ejemplo, podría intentar predecir el consumo de electricidad de un hogar para la próxima hora dada la temperatura exterior, la hora del día y el número de residentes en ese hogar.&lt;/p&gt;
 
@@ -71,8 +75,9 @@ Al implementar la regresión lineal de alguna variable dependiente 𝑦 en el co
 
 &lt;p&gt;Para obtener los mejores pesos, generalmente minimiza la suma de los residuos cuadrados (SSR) para todas las observaciones 𝑖 = 1, &amp;hellip;, 𝑛: SSR = Σᵢ (𝑦ᵢ - 𝑓 (𝐱ᵢ)) ². Este enfoque se llama el método de mínimos cuadrados ordinarios.&lt;/p&gt;
 
-&lt;p&gt;Rendimiento de regresión
-La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, &amp;hellip;, 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.&lt;/p&gt;
+&lt;h2 id=&#34;rendimiento-de-regresión&#34;&gt;Rendimiento de regresión&lt;/h2&gt;
+
+&lt;p&gt;La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, &amp;hellip;, 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.&lt;/p&gt;
 
 &lt;p&gt;El coeficiente de determinación, denotado como 𝑅², le indica qué cantidad de variación en 𝑦 puede explicarse por la dependencia de 𝐱 utilizando el modelo de regresión particular. Mayor 𝑅² indica un mejor ajuste y significa que el modelo puede explicar mejor la variación de la salida con diferentes entradas.&lt;/p&gt;
 
@@ -2898,6 +2903,285 @@ Seleccionando con una lista de columnas, que usamos para seleccionar las &amp;ld
     </item>
     
     <item>
+      <title>[Webinar] - PoweR-Py - Integrar R y Python en Power BI</title>
+      <link>https://www.marcusrb.com/webinar-integrar-r-python-power-bi/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-integrar-r-python-power-bi/</guid>
+      <description>
+
+&lt;h1 id=&#34;cómo-integrar-r-y-python-en-tus-análisis-de-datos-de-power-bi&#34;&gt;Cómo integrar R y Python en tus análisis de datos de Power BI&lt;/h1&gt;
+
+&lt;p&gt;En este webinar veremos unas recomendaciones útiles para el uso correcto de los lenguajes de programación y estadístico más utilizados en Data Analytics, Python y R.&lt;/p&gt;
+
+&lt;p&gt;Vamos a explotar los datos en la herramienta de visualización de inteligencia de negocio Microsoft Power BI y veremos sus capacidades, límites y técnicas de uso. Cuando se usan correctamente, se logran obtener respuestas rápidas en la interpretación, validación / cálculos, análisis / inferencias estadísticos de los datos. Sin embargo, antes de usar Python / R en Power BI, hay que tener en cuenta los problemas de rendimiento y privacidad de los datos.&lt;/p&gt;
+
+&lt;p&gt;Si te perdiste el webinar, no te preocupes. Aquí tienes el vídeo de la charla. ¡Esperamos que sea de tu interés!&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZD81qN6tXYI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>¿Cómo crear campos calculados en Google Data Studio?</title>
+      <link>https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/</guid>
+      <description>
+
+&lt;h1 id=&#34;cómo-crear-campos-calculados-en-google-data-studio&#34;&gt;¿Cómo crear campos calculados en Google Data Studio?&lt;/h1&gt;
+
+&lt;p&gt;Es muy probable que ya conozcas la &lt;a href=&#34;https://www.marcusrb.com/generamos-dashboard-data-studio&#34;&gt;herramienta de visualización Google Data Studio&lt;/a&gt;, un servicio gestionado de Google alojado en la nube.&lt;/p&gt;
+
+&lt;p&gt;Hemos visto su &lt;strong&gt;gran potencial para la generación de reportes/informes y análisis de visualización&lt;/strong&gt; (que dejó su versión beta en 2018). Además, su uso no está extendido  solamente a analistas de datos o a profesionales del marketing digital  (creando informes de Google Ads, Facebook y Google Analytics), sino que  también podemos aprovecharlo para integrar diferentes fuentes de datos  como de producción (API tipo Jira u otras de project management e  integradas con Google Cloud Platform). Existe un punto común: todos  están aprovechando los campos calculados de Google Data Studio, ya que  son una herramienta súper poderosa que se debería usar.&lt;/p&gt;
+
+&lt;p&gt;Es cierto que en el contexto de la inteligencia de negocio, así como en ámbitos más técnicos, el rol de un &lt;strong&gt;analista de datos&lt;/strong&gt; debería estar familiarizado con: programación SQL y conceptos de  visualización; el funcionamiento de las APIs, resto de conectores y  entorno cloud; y con el contexto del origen de los datos.&lt;/p&gt;
+
+&lt;p&gt;Cada  herramienta de visualización tiene su complejidad a la hora de realizar  una Extracción, Transformación y Carga o ETL (Extract, Transform, Load), donde los campos calculados y la creación de nuevas medidas entran en  juego. Imagina tener unos objetivos y filtros mal configurados,  agrupaciones de contenido no retroactivas y parámetros inconsistentes en tu cuenta de Google Analytics. O, en el peor de los casos, realizar  todas las operaciones de forma manual, de manera desordenada, en hojas  de cálculo de Google o funciones de VLOOKUP con referencias que  devuelven un valor nulo&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Por estos motivos, nace la idea de realizar una &lt;strong&gt;guía completa y actualizada de los campos calculados de Google Data Studio&lt;/strong&gt;, que te será muy útil para optimizar informes y obtener mejores resultados.&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-son-los-campos-calculados-de-google-data-studio&#34;&gt;¿Qué son los campos calculados de Google Data Studio?&lt;/h2&gt;
+
+&lt;p&gt;Los campos calculados te permiten &lt;strong&gt;aplicar cálculos y otras funciones a los datos para crear nuevas métricas y dimensiones&lt;/strong&gt;. Además, &lt;strong&gt;se pueden usar para ampliar y transformar la información en sus fuentes de datos&lt;/strong&gt; y permite &lt;strong&gt;replicarlos en otras herramientas&lt;/strong&gt;, como Power BI con DAX o en Tableau.&lt;/p&gt;
+
+&lt;p&gt;Entre otras &lt;strong&gt;ventajas&lt;/strong&gt;, pueden ayudarte a:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calcular la tasa de conversión entre dos métricas.&lt;/li&gt;
+&lt;li&gt;Analizar la tasa de caída del paso del funnel.&lt;/li&gt;
+&lt;li&gt;Limpiar URLs y cadenas de texto.&lt;/li&gt;
+&lt;li&gt;Agrupación de contenidos similares.&lt;/li&gt;
+&lt;li&gt;Cálculos con sentencias condicionales.&lt;/li&gt;
+&lt;li&gt;Manipulación de fechas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Actualmente Google Data Studio &lt;strong&gt;aumenta de forma significativa el número de las funciones&lt;/strong&gt;, al igual que mejora la otra &lt;em&gt;tool&lt;/em&gt; de tratamiento de datos, Google Spreadsheets (que en su propia web &lt;a href=&#34;https://support.google.com/datastudio/answer/9152828?hl=es&#34; target=&#34;_blank&#34;&gt;indica más de 50 funciones&lt;/a&gt; y que se requieren para &lt;a href=&#34;https://www.marcusrb.com/crear-dashboard-para-poner-orden-tus-metricas/&#34;&gt;elaborar un dashboard&lt;/a&gt; más completo posible).&lt;/p&gt;
+
+&lt;h2 id=&#34;por-qué-utilizar-los-campos-calculados-en-data-studio&#34;&gt;¿Por qué utilizar los campos calculados en Data Studio?&lt;/h2&gt;
+
+&lt;p&gt;Siempre que quieras presentar datos que &lt;strong&gt;aún no están disponibles en datos de origen&lt;/strong&gt;, los campos calculados son el mejor aliado, ya que te permiten hacerlo:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Más &lt;strong&gt;bonito&lt;/strong&gt; (es decir, limpiando su informe de URL).&lt;/li&gt;
+&lt;li&gt;Más &lt;strong&gt;perspicaz&lt;/strong&gt; (es decir, concatenando nombre de host + ruta de página de destino).&lt;/li&gt;
+&lt;li&gt;Más &lt;strong&gt;procesable&lt;/strong&gt; (es decir, al relacionar los resultados con los objetivos establecidos).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Presentar los datos de la manera más fácil y sin ambigüedades es primordial si  desea que los clientes / stakeholders confíen en las recomendaciones y  tomen las medidas apropiadas al respecto.&lt;/p&gt;
+
+&lt;h2 id=&#34;cuándo-y-cómo-puedo-utilizarlos&#34;&gt;¿Cuándo y cómo puedo utilizarlos?&lt;/h2&gt;
+
+&lt;p&gt;Los puedes utilizar en cualquier tipo de gráfico. Sin embargo, solo los  campos calculados a nivel de gráfico se pueden usar en fuentes de datos  combinadas (o data blending). Por tanto, es &lt;strong&gt;importante diferenciar:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Los &lt;strong&gt;campos calculados de la fuente de datos&lt;/strong&gt; se agregan a la fuente de datos y se pueden reutilizar en otros gráficos e informes.&lt;/li&gt;
+&lt;li&gt;Los &lt;strong&gt;campos calculados a nivel de gráfico&lt;/strong&gt; solo se pueden usar en un gráfico en particular, sin embargo, funcionan con datos combinados.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;primer-campo-calculado-paso-a-paso&#34;&gt;Primer campo calculado, paso a paso&lt;/h2&gt;
+
+&lt;h3 id=&#34;planificación&#34;&gt;Planificación&lt;/h3&gt;
+
+&lt;p&gt;Antes de realizar un cuadro de mando, hay que conocer los datos y realizar una sesión de &lt;strong&gt;data discovery&lt;/strong&gt; para detectar en una matriz tipo DAFO las necesidades, dificultades,  indicadores y riesgos. Para poner un ejemplo, hagamos un inventario de  todos los KPIs que no están directamente disponibles en una sola fuente  de datos. Definamos qué fuentes de datos, dimensiones, métricas y  funciones necesitaremos para crearlas.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ejemplo:&lt;/em&gt; el sitio  web de generación de leads de su cliente tiene tres formularios de  contacto que se rastrean como objetivos separados en Google Analytics.  Sin embargo, en el dashboard se requiere que el detalle de la ‘tasa de  conversión’ del formulario de contacto para los tres objetivos sea del  formulario de contacto combinado&lt;/p&gt;
+
+&lt;p&gt;Para crear un &lt;strong&gt;campo calculado ‘tasa de conversión de objetivos’&lt;/strong&gt; (con todos los formularios de contacto), se necesitará:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Una vista de Google Analytics como fuente de datos.&lt;/li&gt;
+&lt;li&gt;Las métricas de cumplimiento de objetivos individuales y la de métrica de sesión.&lt;/li&gt;
+&lt;li&gt;Algún cálculo aritmético básico en un campo calculado que nos llevará al resultado deseado.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Un consejo:&lt;/em&gt; un error común de cualquier analista de datos es importar todos los  campos en el dashboard y comenzar a pintar, aumentando el tiempo de  respuesta de los diferentes cálculos, empeorando la performance y  obviando la creación de nuevas métricas.&lt;/p&gt;
+
+&lt;h3 id=&#34;implantación-del-campo-calculado&#34;&gt;Implantación del campo calculado&lt;/h3&gt;
+
+&lt;p&gt;Añadimos el nuevo campo calculado al data source o al gráfico. Podemos tomar  como guía esta tabla comparativa para saber cuándo utilizar uno u otro:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Campo calculado por fuente de datos&lt;/th&gt;
+&lt;th&gt;Campo calculado por gráfico&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;¿Necesita permisos al Data Source?&lt;/td&gt;
+&lt;td&gt;✔️&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;¿Necesita combinar datos?&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;✔️&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;¿Se requieren otros campos calculados?&lt;/td&gt;
+&lt;td&gt;✔️&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;¿Deberían ser utilizados en otros informes o gráficos?&lt;/td&gt;
+&lt;td&gt;✔️&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A continuación, seguimos y creamos un &lt;strong&gt;campo calculado a nivel de fuente de datos.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Añadimos cualquier gráfico al lienzo en blanco que pueda tomar múltiples  dimensiones y métricas como entradas (por ejemplo, una tabla).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hacemos click en &lt;em&gt;Add A Field&lt;/em&gt; o &lt;em&gt;Crear nuevo campo,&lt;/em&gt; tal como indica en la captura.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/e6c81a719cf146b4b50dba736b46ad63.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/1ffad5eebeb847b89ba46446237aba55.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creamos el campo calculado, utilizando una de las funciones disponibles, otro campo calculado o una medida calculada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/ee381c92351c4b8dad731df863bdf00a.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La alternativa por campo calculado aplicado al gráfico si queremos que sea &lt;em&gt;Dimensión&lt;/em&gt; o &lt;em&gt;Métrica&lt;/em&gt;, en caso del tipo gráfico, se puede realizar desde el panel indicado en la captura.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/333ef484ba8d4c7faf2a28c3689a93d9.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y, en este último caso, directamente creamos el campo calculado.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/9c32503e34ea416ca872820ed5fdbdca.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Siguiendo con el ejemplo anterior, si queremos que sea &lt;strong&gt;Tasa de conversión de objetivos&lt;/strong&gt; (todos los forms), que sea utilizado en otros informes y requerimos permisos será campo calculado del tipo Data Source.&lt;/p&gt;
+
+&lt;h3 id=&#34;añadimos-la-función&#34;&gt;Añadimos la función&lt;/h3&gt;
+
+&lt;p&gt;En el campo de &lt;em&gt;Fórmula&lt;/em&gt; podemos definir cómo deben manipularse sus dimensiones o métricas  existentes. Es posible que sea muy básico, pero siempre es útil entender cómo funciona ya que es simplemente hacer un cálculo aritmético entre  las métricas.&lt;/p&gt;
+
+&lt;p&gt;La verificación verde (check abajo de la propia  ventana) indica que la fórmula no contiene ningún error de sintaxis.  Presionamos &lt;em&gt;Guardar&lt;/em&gt; y Data Studio realizará otra comprobación de detección, pero esta vez también considerando los datos reales.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Del ejemplo anterior realizamos una operación aritmética basada en la suma  de los diferentes objetivos dividida entre las sesiones. Importante:  debemos fijarnos en el uso correcto de los paréntesis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/43a768a06dd74bf98b91d28a4ba5d7a5.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;añadimos-el-campo-a-nuestro-dashboard&#34;&gt;Añadimos el campo a nuestro dashboard&lt;/h3&gt;
+
+&lt;p&gt;Una vez realizados los pasos anteriores, guardamos y lo aplicamos en  nuestra tabla. Hay que realizar unos pequeños cambios, como tener que  indicarle el tipo de dato o campo (siendo un ratio será en formato  porcentaje).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/bf59fd0222d5419fb3567b3afaacdace.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-son-las-funciones-de-google-data-studio&#34;&gt;¿Qué son las funciones de Google Data Studio?&lt;/h2&gt;
+
+&lt;p&gt;Las funciones de Data Studio son fórmulas que se pueden usar en campos  calculados para manipular y combinar campos existentes de formas más  avanzadas y complejas de lo que permite la aritmética básica.&lt;/p&gt;
+
+&lt;p&gt;Al  igual que las fórmulas en el software de hojas de cálculo como Excel o  Google Sheets, las funciones de Data Studio tienen un propósito y una  sintaxis específicas. &lt;a href=&#34;https://support.google.com/datastudio/table/6379764?hl=es&#34; target=&#34;_blank&#34;&gt;Google las clasifica en 6 categorías&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Agregación (cómo MAX, MIN, AVG, SUM).&lt;/li&gt;
+&lt;li&gt;Aritméticos (ej. ROUND para realizar redondeo de los valores numéricos).&lt;/li&gt;
+&lt;li&gt;Fechas (ej. WEEKDAY para devolver el nombre del día de la semana).&lt;/li&gt;
+&lt;li&gt;Geográfico (ej. TOCOUNTRY para devolver el código ISO del país).&lt;/li&gt;
+&lt;li&gt;Texto (ej. CONCAT para realizar la concatenación de textos).&lt;/li&gt;
+&lt;li&gt;Otras (ej. CASE para devolver valores basados en condiciones).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;las-cinco-funciones-más-utilizadas-en-data-studio&#34;&gt;Las cinco funciones más utilizadas en Data Studio&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;UPPER/LOWER&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Para ser ordenados, organizados y tiquismiquis con nuestros datos tenemos  que utilizar categorías en mayúsculas, así como las dimensiones más  importante, y dejar el resto en minúsculas. Entonces, puedes realizar  todo esto con las funciones UPPER/LOWER que realizará la conversión de  las cadenas de textos como input, en el formato requerido.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ejemplo:&lt;/em&gt; realizar la conversión a mayúscula de los dispositivos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;UPPER(Device Category)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/3dedaaf824b3464d933ebfa08df46dcf.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;CONCAT&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;¿Necesitas unir múltiples campos de texto para que tus datos sean más  comprensibles? Si quieres combinar dos dimensiones (o convertir una  métrica en dimensión) en una columna de la tabla es un caso de uso común para la función CONCAT. Puede tener múltiples dimensiones como entradas y la función devuelve la concatenación de todos los campos.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ejemplo:&lt;/em&gt; desde un data source Google Sheets, importamos la tabla de wikipedia y concatenamos el idioma y el código.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONCAT(&amp;quot;Idioma: &amp;quot;,Language,&amp;quot;-&amp;quot;,Wiki)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/0c47ca5d586f47718de8ff6dae0b556a.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;REGEX_EXTRACT&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;¿Necesitas extraer parte de un texto?, ¿o valores numéricos que tenga un patrón?  Las expresiones regulares son muy importantes y aunque existen muchas  guías para entender su funcionamiento, os recomiendo esta &lt;a href=&#34;https://regex101.com/&#34; target=&#34;_blank&#34;&gt;guía de RegExp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ejemplo:&lt;/em&gt; extraemos solamente aquellas páginas que solo tienen un patrón google+redesign y nos devuelve la parte restante.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REGEXP_EXTRACT(Page,&#39;^/google\+redesign/(.*)+&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Input:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/257f7f2f92134df0b5d71e312209d76f.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Output:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/542f38dd74004c068f24c45a48365f4e.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;REGEX_MATCH&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Si necesitamos evaluar una cierta condición pero el input a pasar no es  exacto, entonces podemos utilizar la expresión REGEX_MATCH. Esta evalúa  la condición y devolverá un valor sea True o False, al igual que la  anterior busca la condición y devuelve el resultado.&lt;/p&gt;
+
+&lt;p&gt;Lo habitual es que sea utilizada junto con otras funciones, como para encontrar un patrón y devolver otro resultado. &lt;em&gt;Ejemplo&lt;/em&gt;, el uso del &lt;strong&gt;CASE &amp;ndash;&amp;gt; WHEN &amp;ndash;&amp;gt; THEN&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;CASE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Como hemos visto anteriormente, la función CASE indica una expresión  condicional no muy compleja, pero hay que entender bien su  funcionamiento para poder obtener el resultado final correctamente.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ejemplo:&lt;/em&gt; buscamos patrones y devolvemos un valor final.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CASEWHEN REGEXP_MATCH(Language, &amp;quot;(English|German|Dutch|Swedish)&amp;quot;)THEN &amp;quot;Germanic&amp;quot;WHEN REGEXP_MATCH(Language, &amp;quot;(Italian|French|Spanish)&amp;quot;)THEN &amp;quot;Romance&amp;quot;ELSE &amp;quot;Other family&amp;quot;END
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/9e8cd867a5084b98b35082d7faec0072.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusiones&#34;&gt;Conclusiones&lt;/h2&gt;
+
+&lt;p&gt;Este post es &lt;strong&gt;la primera parte&lt;/strong&gt; de los campos calculados en Google Data Studio. Hemos observado que en  cualquier fichero, conector o fuente de datos en esta herramienta (o  cualquier otra de visualización) será necesario primero identificar los  indicadores y sucesivamente crear las métricas o nuevas columnas.  Pronto, una &lt;strong&gt;segunda parte&lt;/strong&gt; en la que veremos ejemplos aplicados a marketing digital y más casos de uso.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Modelo de clasificación con Google Analytics y BigQuery ML</title>
       <link>https://www.marcusrb.com/construir-modelo-clasificacion-analytics-bigquery-ml/</link>
       <pubDate>Wed, 02 Sep 2020 17:52:54 +0100</pubDate>
@@ -3370,27 +3654,35 @@ SELECT * EXCEPT(unique_session_id) FROM (
     </item>
     
     <item>
-      <title>[Webinar] - Knime Automatizar tareas de Machine Learning</title>
+      <title>[Webinar] - Automatizar tareas de Machine Learning con Knime</title>
       <link>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</link>
       <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</guid>
-      <description>&lt;p&gt;¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;cómo-automatizar-tareas-de-machine-learning-en-knime&#34;&gt;Cómo automatizar tareas de Machine Learning en KNIME&lt;/h1&gt;
+
+&lt;p&gt;¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?&lt;/p&gt;
 
 &lt;p&gt;De hecho, en los últimos meses, han aparecido muchas herramientas que afirman automatizar todo o parte del proceso de ciencia de datos. ¿Cómo trabajan? ¿Podrías construir uno tú mismo? Si adopta una de estas herramientas, ¿cuánto trabajo sería necesario para adaptarlo a su propio problema y su propio conjunto de datos?&lt;/p&gt;
 
-&lt;p&gt;Por lo general, el precio a pagar por el aprendizaje automático es la pérdida de control de un modelo de &amp;ldquo;caja negra&amp;rdquo;. Lo que gana en la automatización, lo pierde en el ajuste o la interpretabilidad. Aunque dicho precio podría ser aceptable para problemas de ciencia de datos circunscritos en dominios bien definidos, podría convertirse en una limitación para problemas más complejos en una variedad más amplia de dominios. En estos casos, es deseable una cierta cantidad de interacción con el usuario final.&lt;/p&gt;
+&lt;p&gt;Por lo general, el precio a pagar por el aprendizaje automático es la pérdida de control de un modelo de &amp;ldquo;caja negra&amp;rdquo;. Lo que gana en la automatización, lo pierde en el ajuste o la interpretabilidad. Aunque dicho precio podría ser aceptable para problemas de &lt;strong&gt;ciencia de datos&lt;/strong&gt; circunscritos en dominios bien definidos, podría convertirse en una limitación para problemas más complejos en una variedad más amplia de dominios. En estos casos, es deseable una cierta cantidad de interacción con el usuario final.&lt;/p&gt;
 
-&lt;p&gt;En KNIME, la herramienta que tiene parte de automatizaciones y muchas de intervención humana, utiliza una interfaz totalmente automatizada para guiar a los usuarios a través de la selección, capacitación, prueba y optimización de varios modelos de aprendizaje automático. El flujo de trabajo ha sido diseñado para que los analistas de negocios creen fácilmente soluciones de análisis predictivo aplicando su conocimiento de dominio.&lt;/p&gt;
+&lt;p&gt;En &lt;a href=&#34;https://www.knime.com/&#34; target=&#34;_blank&#34;&gt;KNIME&lt;/a&gt;, la herramienta que tiene parte de automatizaciones y muchas de intervención humana, utiliza una interfaz totalmente automatizada para guiar a los usuarios a través de la selección, capacitación, prueba y optimización de varios modelos de &lt;strong&gt;aprendizaje automático&lt;/strong&gt;. El flujo de trabajo ha sido diseñado para que los analistas de negocios creen fácilmente soluciones de análisis predictivo aplicando su conocimiento de dominio.&lt;/p&gt;
 
 &lt;p&gt;En este Webinar mostraremos los pasos de esta aplicación explicando en detalle las técnicas utilizadas para la extracción de nuevas features, aprendizaje automático, detección de valores atípicos, selección de características, optimización de parámetros y evaluación de modelos.&lt;/p&gt;
 
-&lt;p&gt;Para este webinar la aplicación a descargar es totalmente FREE tanto para entornos Windows, MAC OSx que Linux, y disponible aquí &lt;a href=&#34;https://www.knime.com/downloads/download-knime&#34; target=&#34;_blank&#34;&gt;https://www.knime.com/downloads/download-knime&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para este webinar la aplicación a descargar es totalmente FREE tanto para entornos Windows, MacOSx que Linux, y disponible en este &lt;a href=&#34;https://www.knime.com/downloads/download-knime&#34; target=&#34;_blank&#34;&gt;enlace oficial&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Para acceder al evento, es necesario que te inscribas en el formulario que encontrarás al final de la página.&lt;/p&gt;
 
 &lt;p&gt;Aquí el extracto del video, no dude de comentar y compartir!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/automatizar-tareas-de-machine-learning-en-knime/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Nql29ug7PaA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -3608,8 +3900,6 @@ SELECT * EXCEPT(unique_session_id) FROM (
 &lt;p&gt;Si os perdisteis este evento, ¡no os preocupéis! En el vídeo que encontraréis a continuación podréis visualizar el Webinar.&lt;/p&gt;
 
 &lt;p&gt;Aquí el extracto del video, no dude de comentar y compartir!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/mejora-tus-tecnicas-de-modelado-con-dax-y-power-query-en-power-bi/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

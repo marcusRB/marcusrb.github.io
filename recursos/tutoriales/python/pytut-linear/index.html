@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
-  <title>Learning Path de Python | MarcusRB</title>
+  <title>Python Tutorial - Linear Regression in Python | MarcusRB</title>
     
 
 
@@ -35,10 +35,11 @@
   
     
   
-  <meta name="description" content="Learning Path de Python. De fundamentos de programación, material de Python básico hasta avaznado, web app en Flask y Django.">
+  <meta name="description" content="Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.
+La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/cursos/python/">
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/">
 
   
 
@@ -102,7 +103,7 @@
     <script>
       var dataLayer = window.dataLayer = window.dataLayer || [];
       dataLayer.push({
-        page:'Learning Path de Python',
+        page:'Python Tutorial - Linear Regression in Python',
         categories:''
       });
     </script>
@@ -117,14 +118,12 @@
   
 
   
-  <link rel="alternate" href="/cursos/python/index.xml" type="application/rss+xml" title="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/cursos/python/">
+  <link rel="canonical" href="https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/">
 
   
   
@@ -140,12 +139,16 @@
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
-  <meta property="og:url" content="https://www.marcusrb.com/cursos/python/">
-  <meta property="og:title" content="Learning Path de Python | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
-  <meta property="og:description" content="Learning Path de Python. De fundamentos de programación, material de Python básico hasta avaznado, web app en Flask y Django."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="og:url" content="https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/">
+  <meta property="og:title" content="Python Tutorial - Linear Regression in Python | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.
+La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-09-02T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-09-15T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-09-15T00:00:00&#43;01:00">
   
 
   
@@ -323,7 +326,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/cursos"><span>Cursos</span></a>
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
         </li>
 
         
@@ -345,7 +348,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+          <a class="nav-link  active" href="/recursos"><span>Recursos</span></a>
         </li>
 
         
@@ -434,7 +437,7 @@
 
   </div>
   
-  <div class="docs-toc-item active">
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/cursos/python/">Índice</a>
 
   </div>
@@ -448,7 +451,7 @@
     <a class="docs-toc-link" href="/recursos/tutoriales/python/pytut-linear/">Machine Learning en Python</a>
     <ul class="nav docs-sidenav">
       
-      <li >
+      <li class="active">
         <a href="/recursos/tutoriales/python/pytut-linear/">Regresión lineal en Python</a>
       </li>
       
@@ -472,9 +475,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#learning-path">Learning Path</a></li>
-<li><a href="#índice-learning-path">Índice Learning Path</a></li>
-<li><a href="#estructura-programación-de-python">Estructura programación de Python</a></li>
+<li><a href="#regresión">Regresión</a></li>
+<li><a href="#cuándo-necesitas-regresión">¿Cuándo necesitas regresión?</a></li>
+<li><a href="#rendimiento-de-regresión">Rendimiento de regresión</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -488,34 +491,81 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Learning Path de Python</h1>
+          <h1 itemprop="name">Python Tutorial - Linear Regression in Python</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h2 id="learning-path">Learning Path</h2>
+<p>Vivimos en la era de grandes cantidades de datos, computadoras potentes e inteligencia artificial. Este es solo el comienzo. La ciencia de datos y el aprendizaje automático están impulsando el reconocimiento de imágenes, el desarrollo de vehículos autónomos, las decisiones en los sectores financiero y energético, los avances en medicina, el auge de las redes sociales y más. La regresión lineal es una parte importante de esto.</p>
 
-<p>This feature can be used for publishing content such as:</p>
+<p>La regresión lineal es una de las técnicas estadísticas y de aprendizaje automático fundamentales. Ya sea que desee hacer estadísticas, aprendizaje automático o computación científica, hay buenas posibilidades de que lo necesite. Es recomendable aprenderlo primero y luego proceder hacia métodos más complejos.</p>
 
-<ul>
-<li><strong>Online courses</strong></li>
-<li><strong>Project or software documentation</strong></li>
-<li><strong>Tutorials</strong></li>
-</ul>
+<p>Al final de este artículo, habrás aprendido:</p>
 
-<hr />
+<p>¿Qué es la regresión lineal?
+Para qué regresión lineal se utiliza
+Cómo funciona la regresión lineal
+Cómo implementar la regresión lineal en Python, paso a paso</p>
 
-<h2 id="índice-learning-path">Índice Learning Path</h2>
+<h2 id="regresión">Regresión</h2>
 
-<h2 id="estructura-programación-de-python">Estructura programación de Python</h2>
+<p>El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.</p>
 
-<ul>
-<li>[] <a href="py101" target="_blank">Introducción de Python</a></li>
-<li>[] <a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers" target="_blank">Python para NO Desarrolladores</a></li>
-<li>[] <a href="py201" target="_blank">Advanced Python</a></li>
-<li>[] <a href="pandas" target="_blank">Pandas</a></li>
-<li>[] <a href="data-manipulation" target="_blank">Data Manipulation</a></li>
-</ul>
+<p>¿Qué es la regresión?
+La regresión busca relaciones entre variables.</p>
+
+<p>Por ejemplo, puede observar a varios empleados de alguna compañía e intentar comprender cómo sus salarios dependen de las características, como la experiencia, el nivel de educación, el rol, la ciudad en la que trabajan, etc.</p>
+
+<p>Este es un problema de regresión en el que los datos relacionados con cada empleado representan una observación. La presunción es que la experiencia, la educación, el rol y la ciudad son las características independientes, mientras que el salario depende de ellas.</p>
+
+<p>Del mismo modo, puede intentar establecer una dependencia matemática de los precios de las casas en sus áreas, número de dormitorios, distancias al centro de la ciudad, etc.</p>
+
+<p>En general, en el análisis de regresión, generalmente considera algún fenómeno de interés y tiene una serie de observaciones. Cada observación tiene dos o más características. Siguiendo el supuesto de que (al menos) una de las características depende de las otras, intenta establecer una relación entre ellas.</p>
+
+<p>En otras palabras, debe encontrar una función que asigne algunas características o variables a otras lo suficientemente bien.</p>
+
+<p>Las características dependientes se denominan variables dependientes, salidas o respuestas.</p>
+
+<p>Las características independientes se denominan variables independientes, entradas o predictores.</p>
+
+<p>Los problemas de regresión generalmente tienen una variable dependiente continua y sin límites. Sin embargo, las entradas pueden ser datos continuos, discretos o incluso categóricos, como género, nacionalidad, marca, etc.</p>
+
+<p>Es una práctica común denotar las salidas con 𝑦 y las entradas con 𝑥. Si hay dos o más variables independientes, se pueden representar como el vector 𝐱 = (𝑥₁, &hellip;, 𝑥ᵣ), donde 𝑟 es el número de entradas.</p>
+
+<h2 id="cuándo-necesitas-regresión">¿Cuándo necesitas regresión?</h2>
+
+<p>Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.</p>
+
+<p>La regresión también es útil cuando desea pronosticar una respuesta utilizando un nuevo conjunto de predictores. Por ejemplo, podría intentar predecir el consumo de electricidad de un hogar para la próxima hora dada la temperatura exterior, la hora del día y el número de residentes en ese hogar.</p>
+
+<p>La regresión se usa en muchos campos diferentes: economía, ciencias de la computación, ciencias sociales, etc. Su importancia aumenta cada día con la disponibilidad de grandes cantidades de datos y una mayor conciencia del valor práctico de los datos.</p>
+
+<p>Regresión lineal
+La regresión lineal es probablemente una de las técnicas de regresión más importantes y ampliamente utilizadas. Es uno de los métodos de regresión más simples. Una de sus principales ventajas es la facilidad de interpretación de los resultados.</p>
+
+<p>Formulación del problema
+Al implementar la regresión lineal de alguna variable dependiente 𝑦 en el conjunto de variables independientes 𝐱 = (𝑥₁, &hellip;, 𝑥ᵣ), donde 𝑟 es el número de predictores, se supone una relación lineal entre 𝑦 y 𝐱: 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + ⋯ + 𝛽ᵣ𝑥ᵣ + 𝜀. Esta ecuación es la ecuación de regresión. 𝛽₀, 𝛽₁, &hellip;, 𝛽ᵣ son los coeficientes de regresión, y 𝜀 es el error aleatorio.</p>
+
+<p>La regresión lineal calcula los estimadores de los coeficientes de regresión o simplemente los pesos predichos, denotados con 𝑏₀, 𝑏₁, &hellip;, 𝑏ᵣ. Definen la función de regresión estimada 𝑓 (𝐱) = 𝑏₀ + 𝑏₁𝑥₁ + ⋯ + 𝑏ᵣ𝑥ᵣ. Esta función debe capturar las dependencias entre las entradas y salidas lo suficientemente bien.</p>
+
+<p>La respuesta estimada o pronosticada, 𝑓 (𝐱ᵢ), para cada observación 𝑖 = 1, &hellip;, 𝑛, debe estar lo más cerca posible de la respuesta real correspondiente 𝑦ᵢ. Las diferencias 𝑦ᵢ - 𝑓 (𝐱ᵢ) para todas las observaciones 𝑖 = 1, &hellip;, 𝑛, se denominan residuales. La regresión se trata de determinar los mejores pesos pronosticados, es decir, los pesos correspondientes a los residuos más pequeños.</p>
+
+<p>Para obtener los mejores pesos, generalmente minimiza la suma de los residuos cuadrados (SSR) para todas las observaciones 𝑖 = 1, &hellip;, 𝑛: SSR = Σᵢ (𝑦ᵢ - 𝑓 (𝐱ᵢ)) ². Este enfoque se llama el método de mínimos cuadrados ordinarios.</p>
+
+<h2 id="rendimiento-de-regresión">Rendimiento de regresión</h2>
+
+<p>La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, &hellip;, 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.</p>
+
+<p>El coeficiente de determinación, denotado como 𝑅², le indica qué cantidad de variación en 𝑦 puede explicarse por la dependencia de 𝐱 utilizando el modelo de regresión particular. Mayor 𝑅² indica un mejor ajuste y significa que el modelo puede explicar mejor la variación de la salida con diferentes entradas.</p>
+
+<p>El valor 𝑅² = 1 corresponde a SSR = 0, es decir, al ajuste perfecto ya que los valores de las respuestas pronosticadas y reales se ajustan completamente entre sí.</p>
+
+<p>Regresión lineal simple
+La regresión lineal simple o de una sola variable es el caso más simple de regresión lineal con una sola variable independiente, 𝐱 = 𝑥.</p>
+
+<p>La siguiente figura ilustra la regresión lineal simple:</p>
+
+<p><img src="../fig-lin-reg.png" alt="" /></p>
 
           </div>
 
@@ -536,7 +586,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Última actualización el Sep 2, 2019</p>
+          <p>Última actualización el Sep 15, 2019</p>
 
           
 
