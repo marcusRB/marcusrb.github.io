@@ -23,6 +23,6 @@ menu:
 
 ## Machine Learning con Python
 
-* [] [Python Web Scraping Tutorials]
-* [] [Linear Regression in Python]
-* [] [Practical Text Classification With Python and Keras]
+* [ ] [Python Web Scraping Tutorials]
+* [ ] [Linear Regression in Python]
+* [ ] [Practical Text Classification With Python and Keras]

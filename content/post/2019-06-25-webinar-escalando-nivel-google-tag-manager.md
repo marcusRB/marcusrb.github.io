@@ -9,7 +9,7 @@ url = "/webinar-escalando-nivel-google-tag-manager"
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["google tag manager", "facebook ads", "script"]
-categories = ["Tag Manager"]
+categories = ["Tag Manager", "Webinar"]
 authors = ["marcusRB"]
 +++
 

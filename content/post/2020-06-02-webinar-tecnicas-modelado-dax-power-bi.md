@@ -8,7 +8,7 @@ url = "/webinar-tecnicas-modelado-dax-power-bi"
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["modelo datos", "powerbi", "tips"]
-categories = ["Data Visualization"]
+categories = ["Data Visualization", "Webinar"]
 authors = ["marcusRB"]
 +++
 
@@ -26,7 +26,6 @@ Si os perdisteis este evento, ¡no os preocupéis! En el vídeo que encontraréi
 
 Aquí el extracto del video, no dude de comentar y compartir!
 
-[FUENTE ORIGINAL](https://www.paradigmadigital.com/eventos/mejora-tus-tecnicas-de-modelado-con-dax-y-power-query-en-power-bi/)
 
 
 {{< youtube AFTanu_iBD4 >}}

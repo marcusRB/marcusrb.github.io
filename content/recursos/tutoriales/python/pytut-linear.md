@@ -26,7 +26,7 @@ Cómo funciona la regresión lineal
 Cómo implementar la regresión lineal en Python, paso a paso
 
 
-Regresión
+## Regresión
 El análisis de regresión es uno de los campos más importantes en estadística y aprendizaje automático. Hay muchos métodos de regresión disponibles. La regresión lineal es una de ellas.
 
 ¿Qué es la regresión?
@@ -51,7 +51,7 @@ Los problemas de regresión generalmente tienen una variable dependiente continu
 Es una práctica común denotar las salidas con 𝑦 y las entradas con 𝑥. Si hay dos o más variables independientes, se pueden representar como el vector 𝐱 = (𝑥₁, ..., 𝑥ᵣ), donde 𝑟 es el número de entradas.
 
 
-¿Cuándo necesitas regresión?
+## ¿Cuándo necesitas regresión?
 Por lo general, se necesita una regresión para responder si un fenómeno influye en el otro y cómo se relacionan varias variables. Por ejemplo, puede usarlo para determinar si y en qué medida la experiencia o el género afectan los salarios.
 
 La regresión también es útil cuando desea pronosticar una respuesta utilizando un nuevo conjunto de predictores. Por ejemplo, podría intentar predecir el consumo de electricidad de un hogar para la próxima hora dada la temperatura exterior, la hora del día y el número de residentes en ese hogar.
@@ -71,7 +71,7 @@ La respuesta estimada o pronosticada, 𝑓 (𝐱ᵢ), para cada observación �
 Para obtener los mejores pesos, generalmente minimiza la suma de los residuos cuadrados (SSR) para todas las observaciones 𝑖 = 1, ..., 𝑛: SSR = Σᵢ (𝑦ᵢ - 𝑓 (𝐱ᵢ)) ². Este enfoque se llama el método de mínimos cuadrados ordinarios.
 
 
-Rendimiento de regresión
+## Rendimiento de regresión
 La variación de las respuestas reales 𝑦ᵢ, 𝑖 = 1, ..., 𝑛, se debe en parte a la dependencia de los predictores 𝐱ᵢ. Sin embargo, también hay una variación inherente adicional de la salida.
 
 El coeficiente de determinación, denotado como 𝑅², le indica qué cantidad de variación en 𝑦 puede explicarse por la dependencia de 𝐱 utilizando el modelo de regresión particular. Mayor 𝑅² indica un mejor ajuste y significa que el modelo puede explicar mejor la variación de la salida con diferentes entradas.

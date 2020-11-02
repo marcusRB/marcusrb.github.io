@@ -8,7 +8,7 @@ url = "/webinar-kaggle-participar-retos-data-science"
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["kaggle", "retos", "machine learning"]
-categories = ["Data Science"]
+categories = ["Data Science", "Webinar"]
 authors = ["marcusRB"]
 +++
 

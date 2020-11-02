@@ -16,7 +16,7 @@ description: En la sección de tutoriales, se vincularán los diferentes proyect
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  tutorial:
+  tutoriales:
     name: Estructura de Tutoriales
     weight: 1
 ---
@@ -25,8 +25,7 @@ menu:
 En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization. Además de las documentaciones técnicas, manuales, recursos y actualizaciones. Los repositorios serán accesibles en GitHub o Bitbucket.
 
 - **[Documentación técnica de proyectos](../proyectos/)**
-- **[Cursos y formación online](../courses/#google-analytics)**
-- **[Tutoriales](../tutorial/)**
+- **[Tutoriales](../tutoriales/)**
 
 ***
 
