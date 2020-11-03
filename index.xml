@@ -478,9 +478,9 @@ client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_data
     
     <item>
       <title>Google Analytics</title>
-      <link>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</link>
+      <link>https://www.marcusrb.com/cursos-google-analytics/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</guid>
+      <guid>https://www.marcusrb.com/cursos-google-analytics/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -2465,9 +2465,9 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     
     <item>
       <title>Google Ads</title>
-      <link>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</link>
+      <link>https://www.marcusrb.com/cursos-google-ads/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</guid>
+      <guid>https://www.marcusrb.com/cursos-google-ads/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -2643,9 +2643,9 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
     
     <item>
       <title>Formación Tableau Desktop y Tableau Prep</title>
-      <link>https://www.marcusrb.com/cursos/data-visualization/tableau/</link>
+      <link>https://www.marcusrb.com/cursos-tableau/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos/data-visualization/tableau/</guid>
+      <guid>https://www.marcusrb.com/cursos-tableau/</guid>
       <description>
 
 &lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Tableau te guiaré paso a paso para obtener habilidades de Tableau. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Tableau con éxito.&lt;/p&gt;
@@ -2756,9 +2756,9 @@ melbourne_data.describe()
     
     <item>
       <title>Formación en Google Data Studio</title>
-      <link>https://www.marcusrb.com/cursos/data-visualization/google-data-studio/</link>
+      <link>https://www.marcusrb.com/cursos-google-data-studio/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos/data-visualization/google-data-studio/</guid>
+      <guid>https://www.marcusrb.com/cursos-google-data-studio/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
@@ -3688,9 +3688,9 @@ SELECT * EXCEPT(unique_session_id) FROM (
     
     <item>
       <title>Consultoría en analítica digital y Google Analytics</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-auditoria-google-analytics/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-auditoria-google-analytics/</link>
       <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-auditoria-google-analytics/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-auditoria-google-analytics/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png&#34; alt=&#34;logo_lockup_analytics_icon_vertical_black_2x&#34;/&gt;&lt;/p&gt;
@@ -3911,9 +3911,9 @@ SELECT * EXCEPT(unique_session_id) FROM (
     
     <item>
       <title>Formación in-company &amp; docencia en escuelas de negocios</title>
-      <link>https://www.marcusrb.com/servicios/formacion-in-company-docencia/</link>
+      <link>https://www.marcusrb.com/formacion-in-company-docencia-escuelas-negocio/</link>
       <pubDate>Mon, 01 Jun 2020 18:31:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/formacion-in-company-docencia/</guid>
+      <guid>https://www.marcusrb.com/formacion-in-company-docencia-escuelas-negocio/</guid>
       <description>
 
 &lt;p&gt;En los últimos 10 años, he participado en los programas formativos de muchas escuelas de negocio, universidades y centro de formación de la administración pública. He realizado servicio de tutoría, docencia de asignaturas, formación a grandes empresas, pymes - autónomos, particulares.&lt;/p&gt;
@@ -5544,12 +5544,12 @@ La mayoría de los roles estadísticos anunciados en los sitios web de trabajo e
     
     <item>
       <title>Consultoría en Data Analytics y Business Intelligence</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-data-analytics-business-intelligence/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-data-analytics-business-intelligence/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-data-analytics-business-intelligence/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-data-analytics-business-intelligence/</guid>
       <description>
 
-&lt;h2 id=&#34;data-analytics-consulting&#34;&gt;Data Analytics Consulting&lt;/h2&gt;
+&lt;h2 id=&#34;consultor-data-analytics-business-intelligence&#34;&gt;Consultor Data Analytics &amp;amp; Business Intelligence&lt;/h2&gt;
 
 &lt;p&gt;Es un concepto de suma total que incluye el análisis de datos, para las empresas y decirle que estos son los puntos absolutos que faltan en el crecimiento de su empresa y con la ayuda de estos podemos registrar un enorme crecimiento, le proporcionaré un resumen general de sus datos y generaremos un número anónimo de informes que serán un aspecto clave en el crecimiento de nuestros clientes.&lt;/p&gt;
 
@@ -5563,9 +5563,9 @@ La mayoría de los roles estadísticos anunciados en los sitios web de trabajo e
     
     <item>
       <title>Consultoría en gestión y mantenimiento dashboard en Tableau</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-auditoria-tableau/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-tableau/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-auditoria-tableau/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-tableau/</guid>
       <description>
 
 &lt;h2 id=&#34;servicio-de-consultoría-en-tableau&#34;&gt;Servicio de consultoría en Tableau&lt;/h2&gt;
@@ -5662,9 +5662,9 @@ Tecnologías como R y Python nos permiten trabajar con los datos en el nivel má
     
     <item>
       <title>Consultoría en gestión y mantenimiento reportes Google Data Studio</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-google-data-studio/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-google-data-studio/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-google-data-studio/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-google-data-studio/</guid>
       <description>
 
 &lt;h2 id=&#34;servicios-de-google-data-studio&#34;&gt;Servicios de Google Data Studio&lt;/h2&gt;
@@ -5701,9 +5701,9 @@ Data Studio le permite agregar datos de múltiples fuentes para tener una vista 
     
     <item>
       <title>Consultoría optimización y análisis en Microsoft Power BI</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-analisis-dax-power-bi/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-analisis-dax-power-bi/</link>
       <pubDate>Sun, 01 Sep 2019 18:43:20 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-analisis-dax-power-bi/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-analisis-dax-power-bi/</guid>
       <description>
 
 &lt;h2 id=&#34;qué-es-microsoft-power-bi&#34;&gt;¿Qué es Microsoft Power BI?&lt;/h2&gt;
@@ -9697,9 +9697,9 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
     
     <item>
       <title>Consultoría y plan medición en Google Tag Manager</title>
-      <link>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</link>
+      <link>https://www.marcusrb.com/servicios-consultoria-google-tag-manager/</link>
       <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios/consultoria-google-tag-manager/</guid>
+      <guid>https://www.marcusrb.com/servicios-consultoria-google-tag-manager/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png&#34; alt=&#34;plantilla-gtm-analytics&#34;/&gt;&lt;/p&gt;
