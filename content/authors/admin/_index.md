@@ -125,6 +125,7 @@ En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analit
 - IEDGE Business School
 - IMF Business School
 - IEBS Business School
+- CICE escuela profesional
 
 **universidades**:
 
@@ -144,16 +145,18 @@ En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analit
 - Udemy
 - YouTube
 - Google Scholar
-- EdX
+- EdX / Coursera
 - vTutor
 
 Otras colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management y Visualización de datos.
 
 
-## PRÓXIMOS Cursos:
+## FORMACIONES ACTUALES / FUTURAS:
 
-* **Data Analysis**, cursos presenciales/ a distancia de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).
+* Máster de **Business Intelligence**, curso presencial/remoto de Inteligencia de negocio, ETL, Power BI, SSAS, Data Integration en [CICE Business School](https://www.cice.es/master-business-intelligence/)
 
-* Máster de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/master-data-science?c=mad) presencial y online en Madrid.
+* Bootcamp de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/data-science-bootcamp) presencial y online en Madrid.
 
 * Bootcamp de **Data Science y Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)
+
+* **Data Analysis**, cursos presenciales/ a distancia de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).

@@ -3,9 +3,9 @@ title: Consultoría optimización y análisis en Microsoft Power BI
 author: marcusRB
 type: page
 date: 2019-09-01T18:43:20+00:00
-summary: "Realizo la consultoría y optimización de DAX, Power Query y modelo de datos en la herramienta de visualización empresarial Power BI"
+summary: "Consultor de inteligencia de negocio, implementación y optimización de DAX, Power Query y modelo de datos en Power BI | SQL Server | Azure"
 robots: "index, follow"
-url: "/servicios/consultoria-analisis-dax-power-bi/"
+url: "/servicios-consultoria-analisis-dax-power-bi/"
 ---
 
 ## ¿Qué es Microsoft Power BI?

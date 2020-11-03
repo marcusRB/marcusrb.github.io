@@ -5,6 +5,7 @@ toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
 draft: false
+url: "/cursos-google-data-studio"
 summary: "El programa formativo de Data Studio cubre todos los aspectos de la herramienta. Curso a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   google-marketing-platform:

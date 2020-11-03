@@ -4,7 +4,7 @@ type : page
 date : 2020-06-10T17:52:54+01:00
 draft : false
 robots : "index, follow"
-url : "/servicios/consultoria-auditoria-google-analytics/"
+url : "/servicios-consultoria-auditoria-google-analytics/"
 summary : "Con el servicio de auditoria y correcta configuración de la herramienta de análisis web, Google Analytics para obtener mejores insights de tu web."
 ---
 

@@ -3,9 +3,9 @@ title: "Formación in-company & docencia en escuelas de negocios"
 author: marcusRB
 type: page
 date: 2020-06-01T18:31:41+00:00
-summary: "Formación a medida para tu empresa o clases particulares de analítica digital, analítica de datos y visualización con Power BI, Tableau y Data Studio."
+summary: "Formación a medida para tu empresa y/o clases particulares de analítica digital, analítica de datos y visualización con Power BI, Tableau y Data Studio."
 robots: "index, follow"
-url: "/servicios/formacion-in-company-docencia/"
+url: "/formacion-in-company-docencia-escuelas-negocio/"
 ---
 
 En los últimos 10 años, he participado en los programas formativos de muchas escuelas de negocio, universidades y centro de formación de la administración pública. He realizado servicio de tutoría, docencia de asignaturas, formación a grandes empresas, pymes - autónomos, particulares.

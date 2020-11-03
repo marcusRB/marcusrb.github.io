@@ -3,9 +3,9 @@ title: Consultoría en gestión y mantenimiento dashboard en Tableau
 author: marcusRB
 type: page
 date: 2019-09-01T18:43:20+00:00
-summary: "Servicio de creación de dashboard y reporting con Tableau, PowerBI, Google Data Studio."
+summary: "Servicio de consultoría, implementación y mantenimiento cuadros de mando, dashboard y analítica avanzada con Tableau Desktop, Tableau Prep."
 robots: "index, follow"
-url: "/servicios/consultoria-auditoria-tableau/"
+url: "/servicios-consultoria-tableau/"
 ---
 
 ## Servicio de consultoría en Tableau
