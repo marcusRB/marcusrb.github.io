@@ -18,6 +18,7 @@ He preparado varios programas, módulos y cursos personalizados de fundamentos h
 
 Gestiono y preparo:
 - el cuadro formativo
+- tutoría y asesoramiento
 - los módulos en formato presentación
 - los casos prácticos
 - los laboratorios durante las horas lectivas

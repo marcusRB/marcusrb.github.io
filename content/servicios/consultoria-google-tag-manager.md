@@ -3,11 +3,8 @@ title: "Consultoría y plan medición en Google Tag Manager"
 type: page
 date: 2018-04-29T18:31:41+00:00
 summary: "Servicio de consultoría, implementación y mantenimiento con la creación de plan de medición en Google Tag Manager."
-url: "/servicios-consultoria-google-tag-manager/"
+url: "/servicios-freelance-google-analytics/"
 ---
-
-<img src="https://www.marcusrb.com/img/2018/04/plantilla-gtm-analytics.png" alt="plantilla-gtm-analytics"/>
-
 
 ## Realizar una consultoría y/o auditoría de Google Tag Manager
 

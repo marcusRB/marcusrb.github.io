@@ -5,7 +5,7 @@ type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Consultor de inteligencia de negocio, implementación y optimización de DAX, Power Query y modelo de datos en Power BI | SQL Server | Azure"
 robots: "index, follow"
-url: "/servicios-consultoria-analisis-dax-power-bi/"
+url: "/servicios-freelance-analisis-dax-power-bi/"
 ---
 
 ## ¿Qué es Microsoft Power BI?

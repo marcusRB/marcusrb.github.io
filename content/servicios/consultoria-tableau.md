@@ -1,14 +1,14 @@
 ---
-title: Consultoría en gestión y mantenimiento dashboard en Tableau
+title: Freelance en gestión y mantenimiento dashboard en Tableau
 author: marcusRB
 type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Servicio de consultoría, implementación y mantenimiento cuadros de mando, dashboard y analítica avanzada con Tableau Desktop, Tableau Prep."
 robots: "index, follow"
-url: "/servicios-consultoria-tableau/"
+url: "/servicios-freelance-tableau/"
 ---
 
-## Servicio de consultoría en Tableau
+## Servicio de consultoría freelance en Tableau
 
 Creemos en el futuro del análisis visual del mundo empresarial. Si aterrizaste aquí, probablemente estés en algún lugar del mismo camino.
 

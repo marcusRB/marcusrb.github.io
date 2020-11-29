@@ -1,14 +1,14 @@
 ---
-title: Consultoría en gestión y mantenimiento reportes Google Data Studio
+title: Consultoría freelance reportes Google Data Studio
 author: marcusRB
 type: page
 date: 2019-09-01T18:43:20+00:00
 summary: "Servicio de consultoría, implementación y mantenimiento cuadros de mando, dashboard y analítica avanzada con Google Data Studio | BigQuery"
 robots: "index, follow"
-url: "/servicios-consultoria-google-data-studio/"
+url: "/servicios-freelance-google-data-studio/"
 ---
 
-## Servicios de Google Data Studio
+## Servicios freelance de Google Data Studio
 
 Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.
 
@@ -33,8 +33,8 @@ Mezcla de datos, ahora una realidad
 Data Studio le permite agregar datos de múltiples fuentes para tener una vista comparativa de ellos a la vez
 
 
-### ¿Está interesado en consultoría o capacitarse en visualización en Google Data Studio ?
+### ¿Está interesado en servicios o capacitarse en visualización en Google Data Studio ?
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información para la consultoría en Data Studio](../#contact)
+[Solicita información para la consultoría freelance en Data Studio](../#contact)
