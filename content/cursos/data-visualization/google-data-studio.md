@@ -8,7 +8,7 @@ draft: false
 url: "/curso-google-data-studio"
 summary: "El programa formativo de Data Studio cubre todos los aspectos de la herramienta. Curso a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
-  google-marketing-platform:
+  data-visualization:
     parent: Estructura Data Studio
     weight: 4
 

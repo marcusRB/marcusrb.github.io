@@ -36,7 +36,7 @@ menu:
 - [x] [Google Data Studio](/curso-google-data-studio)
 - [x] [Power BI fundamentos](/curso-power-bi-fundamentos)
 - [x] [Power BI avanzado](/curso-power-bi-avanzado)
-- [x] [Tableau](tableau)
+- [x] [Tableau](/curso-tableau)
 - [ ] [Visualización en Python](/)
 - [ ] [Visualización en R Studio](/)
 

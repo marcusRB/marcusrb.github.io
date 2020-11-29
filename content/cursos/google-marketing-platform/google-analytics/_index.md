@@ -1,13 +1,13 @@
 ---
 # Course title, summary, and position.
-linktitle: Google Tag Manager
-summary: Learning Path de Google Tag Manager. Aprende cómo implementar etiquetas de Google y de terceros en una interfaz muy intuitiva.
-weight: 2
+linktitle: Google Analytics
+summary: Learning Path de Google Analytics. Aprende a como realizar informes, analizar e implementar eventos en Google Analytics.
+weight: 1
 
 # Page metadata.
-title: Learning Path de Google Tag Manager
+title: Learning Path de Google Analyitcs
 date: "2020-06-24T00:00:00Z"
-lastmod: "2020-06-24T00:00:00Z"
+lastmod: "2020-11-29T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  google-tag-manager:
+  google-analytics:
     name: Índice
     weight: 1
 ---
@@ -37,7 +37,7 @@ Los recursos de este curso están disponibles en:
 ## Índice Learning Path
 
 
-## Estructura programación de GTM
+## Estructura módulos Google Analytics
 
 
 - [x] [1. Introducción de GTM](gtm01)

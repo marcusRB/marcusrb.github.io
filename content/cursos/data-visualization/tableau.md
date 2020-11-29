@@ -5,7 +5,7 @@ toc: true
 type: docs
 date: "2020-06-10T00:00:00+01:00"
 draft: false
-url: "/cursos-tableau"
+url: "/curso-tableau"
 summary: "El programa formativo de Tableau eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   data-visualization:

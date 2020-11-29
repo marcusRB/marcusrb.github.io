@@ -37,7 +37,6 @@ Esta nueva marca, Google Marketing Platform, junto con los nuevos nombres y logo
 
 Los siguientes productos están divididos en las secciones:
 
-* [Google Analytics](google-analytics)
-* [Google Tag Manager](google-tag-manager)
-* [Google Ads](google-ads)
-* [Google Optimize](google-optimize)
+* [Google Analytics](/curso-google-analytics/)
+* [Google Tag Manager](/curso-google-tag-manager/)
+* [Google Ads](/curso-google-ads/)
