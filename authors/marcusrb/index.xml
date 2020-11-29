@@ -5,12 +5,49 @@
     <link>https://www.marcusrb.com/authors/marcusrb/</link>
       <atom:link href="https://www.marcusrb.com/authors/marcusrb/index.xml" rel="self" type="application/rss+xml" />
     <description>marcusRB</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Sat, 10 Oct 2020 17:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Wed, 25 Nov 2020 17:52:54 +0100</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>marcusRB</title>
       <link>https://www.marcusrb.com/authors/marcusrb/</link>
     </image>
+    
+    <item>
+      <title>[Webinar] - Visualiza Machine Learning en Power BI</title>
+      <link>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</link>
+      <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</guid>
+      <description>
+
+&lt;h1 id=&#34;cómo-visualizar-los-modelos-de-machine-learning-en-power-bi&#34;&gt;Cómo visualizar los modelos de machine learning en Power BI&lt;/h1&gt;
+
+&lt;p&gt;En este Webinar haremos un recorrido desde Azure ML a Databricks, así como BigQuery ML pasando por Knime, hasta los modelos realizados de forma nativa con scikit-learn, PyTorch con Python y R, y otras técnicas más de minería y análisis.&lt;/p&gt;
+
+&lt;p&gt;Seguramente ya has trabajado con todas estas técnicas o con algunas de ellas. Todas las opciones son válidas para mostrar los resultados de aprendizaje automático en una herramienta de visualización, como por ejemplo en Microsoft Power BI.&lt;/p&gt;
+
+&lt;p&gt;Enfocaremos el tema desde el lado del usuario y de la parte del analista de negocio. Hay diferentes maneras de conseguirlo, por lo que veremos algunas de éstas y también comentaremos las restricciones, por ejemplo, de aquellos que cuentan con licencia Pro y Premium, y también las de aquellos usuarios que siguen investigando y evaluando esta herramienta de manera gratuita.&lt;/p&gt;
+
+&lt;p&gt;Este evento tendrá una hora aprox. de duración donde veremos casos de uso, maneras de realizar dashboards y reportes y métodos para poder compartirlo con el resto de usuarios en la nube. Estará abierto a todo el mundo que tenga curiosidad acerca los datos, visualización y machine learning (en esta última parte mencionaré modelos sencillos de aplicar).&lt;/p&gt;
+
+&lt;p&gt;Para poder acceder al Webinar es necesario que te inscribas en el formulario que aparece al final de esta página. ¡Te esperamos!&lt;/p&gt;
+
+&lt;p&gt;Puedes visionar los webinars anteriores sobre machine learning y Power BI, así como consultar nuestros artículos relacionados:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/AFTanu_iBD4&#34; target=&#34;_blank&#34;&gt;https://youtu.be/AFTanu_iBD4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/mejora-tus-tecnicas-de-modelado-con-dax-y-power-query-en-power-bi/&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/eventos/mejora-tus-tecnicas-de-modelado-con-dax-y-power-query-en-power-bi/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paradigmadigital.com/eventos/automl-para-la-clasificacion-de-imagenes-entrena-modelos-sin-una-linea-de-codigo/-&#34; target=&#34;_blank&#34;&gt;https://www.paradigmadigital.com/eventos/automl-para-la-clasificacion-de-imagenes-entrena-modelos-sin-una-linea-de-codigo/-&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/marcusRB/WEBINAR_ML_PowerBI&#34; target=&#34;_blank&#34;&gt;Link oficial en GitHub&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/pmVHmQJXhwA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>[Webinar] - PoweR-Py - Integrar R y Python en Power BI</title>
