@@ -21,9 +21,17 @@
     </item>
     
     <item>
+      <title>Robert Ford</title>
+      <link>https://www.marcusrb.com/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://www.marcusrb.com/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/authors/admin/</guid>
       <description>
 
@@ -124,14 +132,6 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Analysis&lt;/strong&gt;, cursos presenciales/ a distancia de Google Tag Manager y Digital Analytics en &lt;a href=&#34;https://www.kpischool.eu&#34; target=&#34;_blank&#34;&gt;KPIschool&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>https://www.marcusrb.com/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
   </channel>
