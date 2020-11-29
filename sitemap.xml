@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</loc>
+    <loc>https://www.marcusrb.com/recursos/cheatsheets/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/curso-google-analytics/</loc>
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/recursos/tutoriales/</loc>
+    <loc>https://www.marcusrb.com/tutoriales/</loc>
     <lastmod>2019-09-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</loc>
+    <loc>https://www.marcusrb.com/curso-google-tag-manager/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,6 +104,16 @@
   
   <url>
     <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga101/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/recursos/tutoriales/unix/01-unix-intro/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/tutorial-unix/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,12 +178,17 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</loc>
+    <loc>https://www.marcusrb.com/curso-google-ads/</loc>
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga4/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/recursos/tutoriales/unix/02-sistema-ficheros/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
