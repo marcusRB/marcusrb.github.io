@@ -31,11 +31,13 @@ menu:
 ## Índice Learning Path
 
 
-## Estructura programación de Business Analytics
+### Estructura programación de Visualización de datos
 
-- [x] [Google Data Studio](google-data-studio)
-- [x] [Power BI fundamentos](power-bi-101)
-- [x] [Power BI avanzado](power-bi-201)
+- [x] [Google Data Studio](/curso-google-data-studio)
+- [x] [Power BI fundamentos](/curso-power-bi-fundamentos)
+- [x] [Power BI avanzado](/curso-power-bi-avanzado)
 - [x] [Tableau](tableau)
+- [ ] [Visualización en Python](/)
+- [ ] [Visualización en R Studio](/)
 
 

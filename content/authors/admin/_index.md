@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: +10 años como consultor • freelance • profesor Data Science & Digital Analyics, minería de datos, machine learning y Big Data • Data Visualization • AI enthusiast
+role: +10 años consultor / freelance • docente en Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Visualización de datos - AI enthusiast
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
+bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data Analysis & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
 
 interests:
 - Data Analysis & Visualization
@@ -27,9 +27,8 @@ interests:
 - Data Science & Deep Learning
 - GCP - AWS - Azure cloud platforms
 - Big Data arquitectures
-- Google Marketing, Matomo and Adobe Analytics
-- Tag Management GTM and DTM
-- Conversion Rate Optimization
+- Google Marketing y Tag Management
+- Internet of Things & Robotics
 
 education:
   courses:
@@ -85,7 +84,7 @@ user_groups:
 > *“If you torture the data long enough, it will confess.”*
   – **Ronald Coase**
 
-## Data specialist
+## Data Specialist
 
   - Data collection
   - Data prep and processing
@@ -93,28 +92,30 @@ user_groups:
   - Business Intelligence & Big Data Analyst
   - AI: Machine Learning & Deep Learning
   - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
-  - Big Data AWS GCP Azure
+  - Big Data environment AWS • GCP • Azure • Databricks
+  - Robotics & IoT
 
-## Digital Analyst
+## Analista Digital
  
   - Gestión plan Analítica digital
   - Implementación y configuración Tag Management
   - Visualización y Data Analysis
   - Consultoría y asesoría SEO & SEM (Search, Display, YouTube, Shopping, Mobile)
 
-Larga experiencia en gestión de grandes cuentas principalmente en retail, banco, finanza y seguros y corporate. Sectores industriales, comerciales nacionales en España, como también en muchos países de Europa y LATAM; además gestión y data discovery en diferentes idiomas.
+Larga experiencia en gestión de proyectos para grandes cuentas en retail, banco-finanza, seguros, energy&power, industria y corporate. Sectores industriales, comerciales nacionales en España, Europa y LATAM.
 
-## Docente & formador in-company:
+## Docente & Formador in-company:
 
-En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3000 horas de formación en:
+En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3500 horas de formación en:
 
-- **data science**, inteligencia artificial, machine learning, deep learning, crear material y tutoría a los estudiantes de máster y cursos de data science y data analytics.
+- **data science**, inteligencia artificial, machine learning, deep learning, creación material y tutoría en programas de grados, posgrados y máster, además de cursos en data science y data analytics.
 - **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
-- **data analytics**, fundamentos y Data mining en R, machine learning Python
-- **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik View.
+- **data analytics**, fundamentos y Data mining en R-Studio, Weka, Python
+- **business intelligence**, ETL: Talend, Pentaho, SSIS - Data Warehouse, SQL, modelado de datos: SSAS, DAX
+- **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik Sense, Grafana.
 - **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
 - **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
-- **business intelligence**, ETL, Data Warehouse, SQL, SSAS, DAX, Pentaho, modelado de datos
+
 
 ### Formación presencial y a distancia en:
 

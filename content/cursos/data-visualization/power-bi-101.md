@@ -5,6 +5,7 @@ toc: true
 type: docs
 date: "2020-06-10T00:00:00+01:00"
 draft: false
+url: "/curso-power-bi-fundamentos"
 summary: "El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   data-visualization:
@@ -24,14 +25,14 @@ La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada par
 
 La estructura del programa formativo se compone en dos grandes bloques:
 
-- [fundamentos](/cursos/data-visualization/power-bi-101/)
-- [avanzado](/cursos/data-visualization/power-bi-201/)
+- [Power BI fundamentos 101](/curso-power-bi-fundamentos)
+- [Power BI avanzado 201](/curso-power-bi-avanzado)
 
 ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.
 
 * * *
 
-## Curso fundamentales Power BI (~20 horas)
+## Curso de fundamentos en Power BI (~20 horas)
 
 - Introducción a Analítica de datos
 - Business Intelligence vs Big Data
