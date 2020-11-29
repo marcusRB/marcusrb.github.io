@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/</loc>
     <lastmod>2019-09-15T00:00:00+01:00</lastmod>
   </url>
@@ -43,11 +48,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos-google-analytics/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -73,7 +73,32 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-display/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-remarketing/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-search/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/gtm01/</loc>
+    <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga101/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,7 +163,12 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/</loc>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga4/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,11 +198,6 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos-google-ads/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.marcusrb.com/curso-power-bi-fundamentos/</loc>
     <lastmod>2020-06-10T00:00:00+01:00</lastmod>
   </url>
@@ -183,7 +208,7 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/cursos-tableau/</loc>
+    <loc>https://www.marcusrb.com/curso-tableau/</loc>
     <lastmod>2020-06-10T00:00:00+01:00</lastmod>
   </url>
   

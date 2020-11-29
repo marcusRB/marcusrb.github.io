@@ -477,27 +477,6 @@ client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_data
     </item>
     
     <item>
-      <title>Google Analytics</title>
-      <link>https://www.marcusrb.com/cursos-google-analytics/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos-google-analytics/</guid>
-      <description>
-
-&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
-
-&lt;p&gt;Los recursos de este curso están disponibles en:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.udemy.com/course/intro-administrador-etiquetas-tag-manager-y-analisis-web/&#34; target=&#34;_blank&#34;&gt;Cursos online fundamentos de analítica digital&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://bit.ly/2k5DQR8&#34; target=&#34;_blank&#34;&gt;Cursos online Avanzado con analítica digital&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyKk0HC7UbL6bYeNRB4M35PQ&#34; target=&#34;_blank&#34;&gt;Video-Tutoriales Google Analytics&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/&#34;&gt;Test examen Certificación Google Analytics&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://analytics.google.com/analytics/academy/&#34; target=&#34;_blank&#34;&gt;Examénes Google Academy&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Instalación de R</title>
       <link>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
@@ -2464,27 +2443,6 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     </item>
     
     <item>
-      <title>Google Ads</title>
-      <link>https://www.marcusrb.com/cursos-google-ads/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos-google-ads/</guid>
-      <description>
-
-&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
-
-&lt;p&gt;Los recursos de este curso están disponibles en:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://bit.ly/33UIyTH&#34; target=&#34;_blank&#34;&gt;Cursos online Google Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLzxNDhvkuNyJXfu6gRhDxx0JAjWzAAjbU&#34; target=&#34;_blank&#34;&gt;Video-Tutoriales Google Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://landing.google.com/academyforads/#?modal_active=none&#34; target=&#34;_blank&#34;&gt;Recursos para Google Academy for Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://academy.exceedlms.com/student/catalog/browse&#34; target=&#34;_blank&#34;&gt;Examénes Google Academy for Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/&#34;&gt;Test Exámenes Google Academy for Ads&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Formación fundamentos en Microsoft Power BI</title>
       <link>https://www.marcusrb.com/curso-power-bi-fundamentos/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
@@ -2645,9 +2603,9 @@ Agregar enlaces personalizados a un tablero de instrumentos; Usando el widget de
     
     <item>
       <title>Formación Tableau Desktop y Tableau Prep</title>
-      <link>https://www.marcusrb.com/cursos-tableau/</link>
+      <link>https://www.marcusrb.com/curso-tableau/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/cursos-tableau/</guid>
+      <guid>https://www.marcusrb.com/curso-tableau/</guid>
       <description>
 
 &lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Tableau te guiaré paso a paso para obtener habilidades de Tableau. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Tableau con éxito.&lt;/p&gt;
