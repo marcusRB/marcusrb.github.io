@@ -34,6 +34,9 @@ menu:
 ## Estructura programación de Business Analytics
 
 
-- [] [Introducción de SQL](intro-sql)
-- [] [Advanced SQL](advanced-sql)
-- [] [SQL Server]()
+- [ ] [Introducción de SQL](intro-sql)
+- [ ] [Advanced SQL](advanced-sql)
+- [ ] [SQL Server]()
+- [ ] SQL Server Integration Services
+- [ ] SQL Server Analysis Services
+- [ ] SQL Server Reporting Services

@@ -11,7 +11,7 @@ lastmod: "2020-11-29T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
-
+url: "/curso-google-ads"
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
@@ -34,12 +34,6 @@ Los recursos de este curso están disponibles en:
 
 ***
 
-## Índice Learning Path
+## Índice Learning Path de Google Ads
 
-
-## Estructura programación de GTM
-
-
-- [x] [1. Introducción de GTM](gtm01)
-- [x] [2. GTM 2](gtm02)
-
+TBD
