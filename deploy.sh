@@ -13,17 +13,17 @@ function echoitalic { #'echobold' is the function name
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "                              UPDATING WEBSITE"
-echo "                                    version 1.3"
+echo "                                    version 1.4"
 echo ""
 echoitalic "* Written by  : MarcusRB"
-echoitalic "* E-mail      : hi@marcusrb.com"
+echoitalic "* E-mail      : marcusrb@dataschool.tech"
 echoitalic "* Last update : "$(date)
-echoitalic "* Version     : v1.3"
+echoitalic "* Version     : v1.4"
 echo ""
 echoitalic "* Description : This script will set some directories, execute some things, "
 echoitalic "                and will then update the website."
 echo ""
-echo "Update v1.3 - sep2019 - add git branch develop, feature, release, hotfixes"
+echo "Update v1.4 - dic20200 - add git branch develop, feature, release, hotfixes"
 echo ""
 echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
@@ -92,7 +92,10 @@ fi
 git commit -m "$msg."
 
 # Push source and build repos.
-git push --force origin master
+git push --force origin develop
+
+# Create Pull Request
+git request-pull -u develop master
 
 # Come Back
 cd ${ROOT}
