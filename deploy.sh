@@ -96,7 +96,7 @@ git commit -m "$msg."
 git push --force origin develop
 
 # Create Pull Request
-git pull-request
+git request-pull -p https://github.com/marcusRB/marcusrb.github.io.git master:develop
 
 # Come Back
 cd ${ROOT}
