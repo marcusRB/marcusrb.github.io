@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.marcusrb.com/cursos/cloud-computing/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-aws/aws101-intro/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-gcp/gcp101-intro/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-cloud/cloud101-intro/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/recursos/cheatsheets/</loc>
     <lastmod>2020-11-29T15:30:03+01:00</lastmod>
   </url>
@@ -30,6 +50,21 @@
   <url>
     <loc>https://www.marcusrb.com/cursos/business-analytics/</loc>
     <lastmod>2020-11-29T15:30:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/fundamentos-aws/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/fundamentos-cloud-computing/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/fundamentos-google-gcp/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
   </url>
   
   <url>
@@ -283,14 +318,14 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2020-11-29T11:55:06+01:00</lastmod>
+    <loc>https://www.marcusrb.com/</loc>
+    <lastmod>2020-12-08T11:15:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2020-12-08T10:21:50+01:00</lastmod>
+    <loc>https://www.marcusrb.com/authors/</loc>
+    <lastmod>2020-11-29T11:55:06+01:00</lastmod>
     <priority>0</priority>
   </url>
   
