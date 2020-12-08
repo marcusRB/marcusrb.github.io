@@ -57,8 +57,8 @@ cd ${WEBSITE}
 rm -rvf ${WEBSITEPUBLIC}
 
 git status
-git checkout -b develop
-# git checkout develop
+git checkout -b feature-updated-x develop
+git checkout feature-updated-x
 git add -A
 git commit -m "Committing the (updated) source files."
 git push origin develop
@@ -82,6 +82,7 @@ cp -afv ${WEBSITE}/public/* .
 echo "* Add changes to git..."
 
 git status
+git checkout develop
 git add -A
 
 echo "* Commit changes..."
