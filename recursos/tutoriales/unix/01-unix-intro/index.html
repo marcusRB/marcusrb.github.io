@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>UNIX from Scratch | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Unix es una familia de sistemas operativos. La primera versión de Linux fue desarrollada a partir de 1969. Unix se caracteriza por ser portable y multitarea.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.marcusrb.com/recursos/tutoriales/unix/01-unix-intro/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'UNIX from Scratch',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+  <link rel="alternate" href="/recursos/tutoriales/unix/01-unix-intro/index.xml" type="application/rss+xml" title="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/recursos/tutoriales/unix/01-unix-intro/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/recursos/tutoriales/unix/01-unix-intro/">
+  <meta property="og:title" content="UNIX from Scratch | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Unix es una familia de sistemas operativos. La primera versión de Linux fue desarrollada a partir de 1969. Unix se caracteriza por ser portable y multitarea."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-11-29T15:30:03&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/recursos/tutoriales/unix/01-unix-intro/">Intro a Unix</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#linux">Linux</a></li>
+<li><a href="#distribuciones">Distribuciones</a></li>
+<li><a href="#software-libre">Software libre</a></li>
+</ul></li>
+<li><a href="#introducción-a-ubuntu">Introducción a Ubuntu</a>
+<ul>
+<li><a href="#los-usuarios">Los usuarios</a></li>
+<li><a href="#el-escritorio">El escritorio</a></li>
+<li><a href="#navegando-por-el-sistema-de-ficheros">Navegando por el sistema de ficheros</a></li>
+<li><a href="#ejercicios">Ejercicios</a></li>
+</ul></li>
+<li><a href="#la-terminal-de-unix">La terminal de UNIX</a>
+<ul>
+<li><a href="#ayuda">Ayuda</a></li>
+<li><a href="#completado-automático-e-historia">Completado automático e historia</a></li>
+<li><a href="#ejercicio">Ejercicio</a></li>
+</ul></li>
+<li><a href="#bibliografía">Bibliografía</a></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">UNIX from Scratch</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p><a href="https://en.wikipedia.org/wiki/Unix" target="_blank">Unix</a> es una familia de sistemas operativos. La primera versión de Linux fue desarrollada a partir de 1969. Unix se caracteriza por ser portable y multitarea.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg" target="_blank"><img src="https://bioinf.comav.upv.es/courses/unix/static/unix_history.png" alt="Unix history" /></a></p>
+
+<p>Hoy en día los sistemas operativos Unix son ampliamente utilizados en multitud de dispositivos que abarcan desde los supercomputadores más capaces hasta los teléfonos móviles más populares, pasando por los ordenadores que utilizamos diariamente en nuestros escritorios. La filosofía de los sistemas Unix se caracteriza por:</p>
+
+<ul>
+<li>un sistema de ficheros jerárquico,</li>
+<li>una gran colección de pequeños programas que pueden trabajar en serie,</li>
+<li>el uso de ficheros de texto para almacenar los datos,</li>
+<li>tratar los dispositivos como ficheros.</li>
+</ul>
+
+<p><a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a> y MacOS X son ejemplos de sistemas Unix.</p>
+
+<p><a href="http://es.wikipedia.org/wiki/Unix" target="_blank">Unix</a> es un sistema operativo portable, multitarea y multiusuario desarrollado a partir de 1969.</p>
+
+<h2 id="linux">Linux</h2>
+
+<p><a href="http://es.wikipedia.org/wiki/Linux" target="_blank">Linux</a> es una familia de sistemas operativos de tipo Unix que utilizan el kernel Linux. Linux puede instalarse en prácticamente cualquier ordenador personal además en en teléfonos móviles y supercomputadores.</p>
+
+<p><img src="https://bioinf.comav.upv.es/courses/unix/static/tux.png" alt="Tux" /></p>
+
+<p>El nombre proviene del programador original, un estudiante llamado Linus Torvals, que en 1991 completando las herramientas GNU desarrolladas por el proyecto GNU de la <a href="http://www.fsf.org/" target="_blank">Fundación del Software Libre</a>, creó la primera versión de este sistema operativo. El papel fundamental jugado por estas herramientas libres del proyecto GNU hace que este sistema operativo sea denominado también como GNU/Linux, pero en este texto utilizaremos la denominación más sencilla y corta.</p>
+
+<p>El desarrollo de Linux es uno de los ejemplos más claros de desarrollo de software libre por una comunidad dispersa de programadores. Cualquiera puede usar el sistema operativo, estudiarlo y modificarlo. Estos derechos están protegidos por la licencia <a href="http://es.wikipedia.org/wiki/GPL" target="_blank">GPL</a> (GNU General Public License).</p>
+
+<h2 id="distribuciones">Distribuciones</h2>
+
+<p>Linux, como cualquier otro sistema operativo, se compone de un gran número de piezas, que, en este caso, son desarrolladas de forma independiente por miles de programadores y proyectos. Normalmente estas piezas son integradas por un distribuidor y Linux es suministrado como una <a href="http://es.wikipedia.org/wiki/Distribución_linux" target="_blank">distribución Linux</a>. Las distribuciones Linux incluyen todo el software necesario para instalar un servidor o un escritorio. Algunas de las aplicaciones comúnmente incluidas incluyen: el navegador web Firefox y las aplicaciones de oficina LibreOffice.</p>
+
+<p>Existen cientos de distribuciones Linux. Estas distribuciones están adaptadas para usuarios o tareas específicas. Algunas de estas distribuciones están desarrolladas o apoyadas por empresas como Fedora (Red Hat) y <a href="http://www.ubuntu.com/" target="_blank">Ubuntu</a> (Canonical) mientras que otras son mantenidas por la propia comunidad de usuarios como <a href="http://www.debian.org/" target="_blank">Debian</a>.</p>
+
+<h2 id="software-libre">Software libre</h2>
+
+<p>El <a href="http://es.wikipedia.org/wiki/Software_libre" target="_blank">software libre</a> es software que puede ser utilizado, estudiado, modificado, copiado y redistribuido sin restricciones. Habitualmente el software libre suele ser además gratuito, pero ese no tiene por que ser necesariamente el caso.</p>
+
+<p><img src="https://bioinf.comav.upv.es/courses/unix/static/gpl_logo.png" alt="GPL Logo" /></p>
+
+<p>En la práctica el software libre se distribuye junto al código fuente que lo hace posible y junto a una nota en la que se explican cuales son los derechos y las obligaciones del usuario final. Esta nota se denomina licencia. El movimiento del software libre fue iniciado por Richard Stallman en 1983. Stallman decidió crear un sistema compatible con Unix completamente libre al que llamó GNU (GNU is Not Unix). Con el tiempo este sistema acabaría uniéndose al kernel de Linus para formar un sistema operativo completo.</p>
+
+<p>Dado que las aplicaciones del software libre suelen ser gratuitas, su modelo de negocio suele basarse en el cobro de los servicios de soporte al usuario y de adaptación del software.</p>
+
+<h1 id="introducción-a-ubuntu">Introducción a Ubuntu</h1>
+
+<p><a href="http://es.wikipedia.org/wiki/Ubuntu" target="_blank">Ubuntu</a> es una distribución Linux mantenida por la empresa Canonical. Está orientada a usuarios de escritorio y sus puntos fuertes son su facilidad de uso y de instalación. Aunque el escritorio es algo distinto al de Windows o Mac OS X familiarizarse con él para un usuario acostumbrado a cualquiera de los otros sistemas operativos no debería presentar muchos problemas.</p>
+
+<p><img src="https://bioinf.comav.upv.es/courses/unix/static/ubuntu_logo.png" alt="Ubuntu logo" /></p>
+
+<p>Su instalación resulta muy sencilla. Al instalarla, una gran cantidad de software se instala de forma automática para facilitar su uso como escritorio. Ejemplos de estos programas son LibreOffice o Firefox. Además de estos programas instalados por defecto una enorme cantidad de programas se encuentra disponible para ser instalados con unos pocos clicks de ratón.</p>
+
+<p>Ubuntu está basada en una distribución mantenida por la comunidad de usuarios llamada <a href="http://www.debian.org/" target="_blank">Debian</a>. El principal objetivo de Debian es crear un sistema operativo robusto que incluya la mayor proporción posible de programas libres.</p>
+
+<p><img src="https://bioinf.comav.upv.es/courses/unix/static/debian_logo.png" alt="Debian" /></p>
+
+<p>Existen numerosos manuales de utilización de Ubuntu, pero algunas de las guías más completas son la <a href="https://help.ubuntu.com/lts/ubuntu-help/index.html" target="_blank">Ubuntu Desktop Guide</a> y el manual <a href="http://ubuntu-manual.org/" target="_blank">Getting Started with Ubuntu</a>. Vamos a recorrer lo principales conceptos de este sistema operativo basandonos en este <a href="https://bioinf.comav.upv.es/courses/unix/documentacion/Getting Started with Ubuntu 16.04.pdf" target="_blank">manual</a>.</p>
+
+<h2 id="los-usuarios">Los usuarios</h2>
+
+<p>Los sistemas Unix son multiusuario, es decir soportan que varios usuarios los utilicen simultáneamente. Todos los usuarios, excepto uno, tienen unos privilegios bastante restringidos y no pueden modificar el sistema. De este modo unos usuarios se ven protegidos de las acciones de los otros.</p>
+
+<p>Existe un usuario especial llamado <em>root</em> con privilegios de administración absolutos sobre el sistema. Para realizar las tareas cotidianas nunca hay que acceder al sistema como <em>root</em>. En Ubuntu este usuario está deshabilitado por defecto y sólo se pueden adquirir los privilegios de administrador temporalmente.</p>
+
+<h2 id="el-escritorio">El escritorio</h2>
+
+<p>Todos las distribciones basadas en entronos graficos (GUI) suelen tener varios entornos de escritorio para eleguir. Los entornos de escritorio suelen diferir por:</p>
+
+<ul>
+<li>El estilo y apariencia del entorno</li>
+<li>La forma en la que los diferentes elementos se disponen en la pantalla</li>
+<li>La forma en la que el ususario navega por el escritorio</li>
+</ul>
+
+<p>En el caso de Ubuntu el entorno de escritorio por defecto se denomina Unity. Se caracteriza por tener dos barras, la denominada Menu Bar y el Launcher. El Menu Bar incorpora por una lado los menus de las aplicaciones que estań activas y, por otro, un area de indicadores que nos ofrecen informacion actualizada del sistema en todo momento. El Launcher es la barra vertical que facilita el acceso a las aplicaciones mas usadas y a su estado, además de a los discos montados y a la papelera. Además tenemos el selector de escritorios virtuales. En el launcher encontramos varias aplicaciones especiales:</p>
+
+<ul>
+<li>El menu</li>
+<li>El selector de escritorios virtuales</li>
+<li>La papelera</li>
+</ul>
+
+<p>Los escritorios virtuales sirven para ampliar la zona de trabajo. Por defecto hay 4 escritorios virtuales que amplían nuestro monitor por cuatro.</p>
+
+<h2 id="navegando-por-el-sistema-de-ficheros">Navegando por el sistema de ficheros</h2>
+
+<p>Al sistema de ficheros se accede a traves del menu. Tenemos la posibilidad de buscar en la barra de busqueda o navegar directamente por el menu. Una vez que seleccionemos la carpeta se abrirá una ventana del navegador de ficheros con la carpeta seleccionada. Por cierto, los términos carpeta y directorio son sinónimos, al igual que fichero y archivo.</p>
+
+<p>Desde el launcher también podemos acceder a nuestra carpeta personal. Este directorio personal y sus subdirectorios son los únicos lugares en los que podremos almacenar nuestros archivos personales. El resto del sistema de archivos estará restringido para funciones de administración del sistema.</p>
+
+<h2 id="ejercicios">Ejercicios</h2>
+
+<p>Para comprobar que no tenemos problemas de manejo del sistema vamos a realizar una serie de tareas:</p>
+
+<ul>
+<li>Explorar el escritorio abriendo programas, moviéndote entre escritorios virtuales, minimizando y maximizando las aplicaciones, etc.</li>
+<li>Navegar al directorio “Documentos” y comprobar si tenemos algún archivo guardado.</li>
+<li>Crear un subdirectorio llamado “curso” dentro del directorio “Documentos”.</li>
+<li>Crear un fichero de texto mediante el editor de textos gedit y guardarlo en el directorio que acabamos de crear.</li>
+<li>Copiar el fichero anterior al directorio personal.</li>
+<li>Eliminar el fichero original.</li>
+<li>Reinicia el sistema operativo.</li>
+<li>Bloquea la sesión de tu usuario y vuelve a entrar en ella</li>
+<li>Añade un nuevo usuario al sistema</li>
+<li>Sal de tu usuario actual y entra como el nuevo usuario</li>
+<li>Cambiar el password del nuevo usuario</li>
+<li>Configura el protector de pantalla para que se inicie a los 10 minutos de inactividad</li>
+<li>Modifica los ajustes de la aplicación terminal para que el tipo de letra tenga un tamaño de 11 puntos</li>
+<li>Ancla la aplicación terminal a la barra de aplicaciones y desancla el editor de hojas de cálculo LibreOffice</li>
+</ul>
+
+<h1 id="la-terminal-de-unix">La terminal de UNIX</h1>
+
+<p>La <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">Shell</a> (o terminal) es un interprete de comandos. Es simplemente un modo alternativo de controlar un ordenador basado en una interfaz de texto. La terminal nos permite ejecutar software escribiendo el nombre del programa que queremos ejecutar en la terminal. Podemos pedirle al ordenador que ejecute un programa mediante el ratón ciclando en distintos lugares del escritorio o podemos escribir una orden para conseguir el mismo objetivo. Por ejemplo, para pedirle al ordenador que nos de una lista de los archivos presentes en un directorio podemos abrir un navegador de archivos o podemos escribir en la terminal:</p>
+
+<pre><code>$ ls folder_name
+file_1.txt
+file_2.txt
+</code></pre>
+
+<p>Ninguna de las dos formas de comunicarse con el ordenador es mejor que la otra aunque en ciertas ocasiones puede resultar más conveniente utilizar una u otra Las ventajas de la línea de comandos son:</p>
+
+<ul>
+<li>Necesidad. Existe mucho software que está sólo disponible en la terminal. Esto es especialmente cierto en el área de la bioinformática.</li>
+<li>Flexibilidad. Los programas gráficos suelen ser muy adecuados para realizar la tarea para la que han sido creados, pero son difíciles de adaptar para otras tareas. Los programas diseñados para ser usados en la línea de comandos suelen ser muy versátiles.</li>
+<li>Reproducibilidad. Documentar y repetir el proceso seguido para realizar un análisis con un programa gráfico es muy costoso puesto que es difícil describir la secuencia de clicks y doble clicks que hemos realizado. Por el contrario, los procesos realizados mediante la línea de comandos son muy fáciles de documentar puesto que tan sólo debemos guardar el texto que hemos introducido en la pantalla.</li>
+<li>Fiabilidad. Los programas básicos de Unix fueron creados en los años 70 y han sido probados por innumerables usuarios por lo que se han convertido en piezas de código extraordinariamente confiables.</li>
+<li>Recursos. Las interfaces gráficas suelen consumir muchos recursos mientras que los programas que funcionan en línea de comandos suelen ser extraordinariamente livianos y rápidos. Este poco uso de recursos facilita, por ejemplo, que se utilice a través de la red.</li>
+</ul>
+
+<p>El problema de la terminal es que para poder utilizarla debemos saber previamente qué queremos hacer y cómo. Es habitual descubrir como funciona un programa con una interfaz gráfica sin tener que leer un manual, esto no sucede en la terminal.</p>
+
+<p>Para usar la línea de comandos hay que abrir una terminal. Se abrirá una terminal con un mensaje similar a:</p>
+
+<pre><code>usuario $
+</code></pre>
+
+<p>Este pequeño mensaje se denomina <em><a href="https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt" target="_blank">prompt</a></em> y el cursor parpadeante que aparece junto al él indica que el ordenador está esperando una orden. El mensaje exacto que aparece en el <em>prompt</em> puede variar ligeramente, pero en Ubuntu suele ser similar a:</p>
+
+<pre><code>usuario@ordenador:~/documentos$
+</code></pre>
+
+<p>En el <em>prompt</em> de Ubuntu se nos muestra el nombre del usuario, el nombre del ordenador y el directorio en el que nos encontramos actualmente, es decir, el directorio de trabajo actual.</p>
+
+<p>Cuando el <em>prompt</em> se muestra podemos ejecutar cualquier cosa, por ejemplo le podemos pedir que liste los ficheros mediante el comando <em>ls</em> (LiSt)::</p>
+
+<pre><code>usuario $ ls
+lista_libros.txt
+rectas_cocina/
+</code></pre>
+
+<p><em>ls</em>, como cualquier otro comando, es en realidad un programa que el ordenador ejecuta. Cuando escribimos la orden (y pulsamos enter) el programa se ejecuta. Mientras el programa está ejecutándose el <em>prompt</em> desaparece y no podemos ejecutar ningún otro comando. Pasado el tiempo el programa termina su ejecución y el <em>prompt</em> vuelve a aparecer. En el caso del comando <em>ls</em> el tiempo de ejecución es tan pequeño que suele ser imperceptible.</p>
+
+<p>Los programas suelen tener unas entradas y unas salidas. Dependiendo del caso estas pueden ser ficheros o caracteres introducidos o impresos en la pantalla. Por ejemplo, el resultado de <em>ls</em> es simplemente una lista impresa de ficheros y directorios en la interfaz de comandos.</p>
+
+<p>Normalmente el comportamiento de los programas puede ser modificado pasándoles parámetros. Por ejemplo, podríamos pedirle al programa <em>ls</em> que nos imprima una lista de ficheros más detallada escribiendo:</p>
+
+<pre><code>$ ls -l
+</code></pre>
+
+<h2 id="ayuda">Ayuda</h2>
+
+<p>Cada comando tiene unos parámetros y opciones distintos. La forma estándar de pedirles que nos enseñen cuales son estos parámetros suele ser utilizar las opciones ‘–help’, ‘-h’ o ‘-help’, aunque esto puede variar en comandos no estándar.</p>
+
+<pre><code>$ ls --help
+Modo de empleo: ls [OPCIÓN]... [FICHERO]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort.
+</code></pre>
+
+<p>Otro modo de acceder a una documentación más detallada es acceder al manual del programa utilizando el comando <em>man</em> (MANual):</p>
+
+<pre><code>$ man ls
+(para terminar pulsar &quot;q&quot;)
+</code></pre>
+
+<p><em>man</em> es un programa interactivo, cuando ejecutamos el comando el programa se abre y el <em>prompt</em> desaparece. <em>man</em> es en realidad un visor de ficheros de texto por lo que cuando lo ejecutamos la pantalla se rellena con la ayuda del programa que hemos solicitado. Podemos ir hacia abajo o hacia arriba y podemos buscar en el contenido de la ayuda. El <em>prompt</em> y la posibilidad de ejecutar otro programa no volverán a aparecer hasta que no cerremos el programa interactivo. En el caso de man para cerrar el programa hay que pulsar la tecla “q”.</p>
+
+<h2 id="completado-automático-e-historia">Completado automático e historia</h2>
+
+<p>El intérprete de comandos dispone de algunas utilidades para facilitarnos su uso. Una de las más utilizadas es el completado automático. Podemos evitarnos escribir una gran parte de los comandos haciendo uso de la tecla tabulador. Si empezamos a escribir un comando y pulsamos la tecla tabulador el sistema completará el comando por nosotros. Para probarlo creemos los ficheros datos_1.txt, datos_2.txt y tesis.txt::</p>
+
+<pre><code>~$ touch datos_1.txt
+~$ touch datos_2.txt
+~$ touch experimento.txt
+</code></pre>
+
+<p>Si ahora empezamos a escribir <em>cp e</em> y pulsamos el tabulador dos veces, el intérprete de comandos completará el comando automáticamente::</p>
+
+<pre><code>~$ cp e
+~$ cp experimento.txt
+</code></pre>
+
+<p>Si el intérprete encuentra varias alternativas completará el comando hasta el punto en el que no haya ambigüedad. Si deseamos que imprima una lista de todas las alternativas disponibles para continuar con el comando deberemos pulsar el tabulador dos veces.</p>
+
+<pre><code>~$ cp d
+$ cp datos_
+datos_1.txt  datos_2.txt
+~$ cp datos_
+</code></pre>
+
+<p>Otra de las funcionalidades que más nos pueden ayudar es la historia. El intérprete recuerda todos los comandos que hemos introducido anteriormente. Si queremos podemos obtener una lista de todo lo que hemos ejecutado utilizando el comando history. Pero lo más socorrido es simplemente utilizar los cursores arriba y abajo para revisar los comandos anteriores. Otra forma de acceder a la historia es utilizar la combinación de teclas control y r. De este modo podemos buscar comandos antiguos sencillamente.</p>
+
+<h2 id="ejercicio">Ejercicio</h2>
+
+<ul>
+<li>Lista todos los comandos que empiezan por apt</li>
+</ul>
+
+<h1 id="bibliografía">Bibliografía</h1>
+
+<p>Existen numerosas fuentes sobre la historia y la filosofía de Unix, de Linux y del software libre. Entre ellas se encuentran:</p>
+
+<ul>
+<li>Las páginas de la wikipedia sobre: <a href="http://es.wikipedia.org/wiki/Unix" target="_blank">Unix</a>, <a href="http://es.wikipedia.org/wiki/Linux" target="_blank">Linux</a>, <a href="http://es.wikipedia.org/wiki/Ubuntu" target="_blank">Ubuntu</a> y [software libre](<a href="https://bioinf.comav.upv.es/courses/unix/" target="_blank">https://bioinf.comav.upv.es/courses/unix/</a>.</li>
+<li><a href="http://www.amazon.com/Rebel-Code-Linux-Source-Revolution/dp/0738203335" target="_blank">Rebel Code</a>, un libro de Glyn Moody dedicado a la historia del movimiento del software libre.</li>
+<li><a href="http://oreilly.com/catalog/9780596001087" target="_blank">La catedral y el bazar</a> de Eric S. Raymond. Un ensayo sobre los beneficios del modelo de desarrollo asociados al software libre.</li>
+<li><a href="http://catb.org/~esr/writings/taoup/" target="_blank">The Art of Unix Programming</a> (<a href="https://bioinf.comav.upv.es/documentacion/bibliography/the_art_of_unix_programming.pdf" target="_blank">pdf</a> de Eric S. Raymond. Dedicado a la filosofía de los sistemas Unix.</li>
+<li>El excelente [Ubuntu manual](<a href="https://bioinf.comav.upv.es/courses/unix/" target="_blank">https://bioinf.comav.upv.es/courses/unix/</a> [pdf](<a href="https://bioinf.comav.upv.es/courses/unix/" target="_blank">https://bioinf.comav.upv.es/courses/unix/</a>.</li>
+<li>La documentación <a href="https://help.ubuntu.com/" target="_blank">oficial</a> y de la <a href="https://help.ubuntu.com/community" target="_blank">comunidad</a> de Ubuntu.</li>
+</ul>
+
+<p>Hay varios cursos para iniciarse en el uso de la línea de comandos de Unix, como:</p>
+
+<ul>
+<li><a href="http://en.flossmanuals.net/gnulinux" target="_blank">Put Yourself in Command</a> de la Free Software Fundation, copia en <a href="https://bioinf.comav.upv.es/courses/unix/documentacion/fsf_cmd_manual.pdf" target="_blank">pdf</a>.</li>
+<li><a href="http://linuxcommand.org/learning_the_shell.php" target="_blank">Learning the shell</a> de <a href="http://linuxcommand.org/lc3_learning_the_shell.php" target="_blank">Linuxcommand.org</a>.</li>
+<li><a href="http://rlworkman.net/howtos/rute/" target="_blank">Rute User’s Tutorial and Exposition</a> de Paul Sheer, copia en <a href="https://bioinf.comav.upv.es/courses/unix/documentacion/rute.pdf" target="_blank">pdf</a>.</li>
+<li><a href="http://oreilly.com/catalog/9780596002619" target="_blank">Learning the Unix Operating System</a>.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Nov 29, 2020</p>
+
+          
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
