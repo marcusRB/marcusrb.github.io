@@ -57,7 +57,7 @@ cd ${WEBSITE}
 rm -rvf ${WEBSITEPUBLIC}
 
 git status
-git checkout -b feature-updated-x
+git checkout -b feature-updated-x develop
 git checkout feature-updated-x
 git add -A
 git commit -m "Committing the (updated) source files."
