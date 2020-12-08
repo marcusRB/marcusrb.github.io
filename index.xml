@@ -3684,13 +3684,11 @@ SELECT * EXCEPT(unique_session_id) FROM (
     </item>
     
     <item>
-      <title>Consultor freelance de analítica digital, Google Analytics y GTM</title>
+      <title>Consultor freelance de analítica digital, Google Analytics, GA4 y GTM</title>
       <link>https://www.marcusrb.com/servicios-freelance-google-analytics/</link>
       <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/servicios-freelance-google-analytics/</guid>
       <description>
-
-&lt;p&gt;&lt;img src=&#34;https://www.marcusrb.com/img/2017/07/logo_lockup_analytics_icon_vertical_black_2x.png&#34; alt=&#34;logo_lockup_analytics_icon_vertical_black_2x&#34;/&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;como-realizar-una-consultoría-o-auditoría-de-google-analytics&#34;&gt;Como realizar una consultoría o auditoría de Google Analytics&lt;/h2&gt;
 
@@ -3702,17 +3700,60 @@ SELECT * EXCEPT(unique_session_id) FROM (
 
 &lt;p&gt;Para usar Google Analytics, simplemente hay que implementar una pequeña porción del código de JavaScript en cada página de su sitio web que desea rastrear. Relativamente hablando, esto hace que Google Analytics sea extremadamente fácil de usar y algunos sitios web se pueden configurar en menos de 30 minutos. Google Analytics se puede personalizar de varias maneras, por lo que es casi tan poderoso como muchas soluciones analíticas de sitios web pagados.&lt;/p&gt;
 
-&lt;h3 id=&#34;necesitas-ayuda-con-google-analytics&#34;&gt;¿Necesitas ayuda con Google Analytics?&lt;/h3&gt;
+&lt;h3 id=&#34;necesitas-ayuda-con-google-analytics-y-la-nueva-versión-ga4&#34;&gt;¿Necesitas ayuda con Google Analytics y la nueva versión GA4?&lt;/h3&gt;
 
 &lt;p&gt;Si eres como la mayoría de los dueños de negocios, pones Google Analytics en tu sitio web, lo miras por unos meses y luego te ocupas de otras cosas. ¿Quién tiene tiempo para ver toda esta información? ¿Suena familiar? Únete a la multitud. Una de las quejas más comunes que tienen los propietarios de negocios locales sobre los datos de análisis de marketing y Google Analytics en particular es que hay una tonelada de datos: demasiados datos y no suficientes conocimientos procesables. ¡No necesita otro informe para analizar ni una hoja de cálculo para interpretar!&lt;/p&gt;
 
-&lt;p&gt;MarcusRB ofrece una solución de &amp;ldquo;hágalo por mí&amp;rdquo; que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! También ofrecemos servicios de consultoría y capacitación de Google Tag Manager para empresas de todos los tamaños.&lt;/p&gt;
+&lt;p&gt;Te ofrezco una solución de &amp;ldquo;hágalo por mí&amp;rdquo; que ayuda a los propietarios de negocios pequeños (y no tan pequeños) a personalizar Google Analytics para satisfacer mejor sus necesidades, examinar los informes interminables para identificar los más relevantes para el cliente y convertir los datos en resultados accionables! Actualizado también a la nueva versión Google Analytics 4 o GA4, incluido Firebase Analytics.&lt;/p&gt;
 
 &lt;h3 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-analytics-o-análisis-digital&#34;&gt;¿Está interesado en consultar o capacitarse en Google Analytics o análisis digital?&lt;/h3&gt;
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Google Analytics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información para Google Analytics - GA4&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;realizar-una-consultoría-y-o-auditoría-de-google-tag-manager&#34;&gt;Realizar una consultoría y/o auditoría de Google Tag Manager&lt;/h2&gt;
+
+&lt;p&gt;Google Tag Manager, la herramienta más utilizada para etiquetar eventos e interacciones, será el rol más importante para detectar nuevos insight en tu negocio, tener claro desde principio que medir y como medirlo,&lt;/p&gt;
+
+&lt;p&gt;El Administrador de etiquetas de Google es una gran herramienta para que los dueños de negocios o los equipos de marketing vean cómo funciona su sitio web: qué áreas están funcionando, qué rendimiento tiene bajo rendimiento, qué funciones no se están usando como creía, etc. Lo vemos como una excelente forma de recopilar datos de experiencia de usuario UX &lt;b&gt;&amp;ldquo;User Experience&amp;rdquo;&lt;/b&gt;, y mejorar el ratio de conversión, CRO &lt;b&gt;&amp;ldquo;Conversion Rate Optimization&amp;rdquo;&lt;/b&gt; en vivo en su sitio de clientes reales.&lt;/p&gt;
+
+&lt;p&gt;Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, &lt;b&gt;¿qué valor tiene?&lt;/b&gt; datos proporcionan en sí mismo para obtener más de su sitio web?).&lt;/p&gt;
+
+&lt;h3 id=&#34;que-servicio-incluye-el-servicio-de-consultoría-de-tag-manager&#34;&gt;Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/h3&gt;
+
+&lt;p&gt;Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Auditoría de sitios web y mapeo de etiquetas&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Configuración y configuración&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Aplicación y monitoreo&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Formación&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;plan-de-implementación-de-tag-manager&#34;&gt;Plan de implementación de Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Google Tag Manager permite el etiquetado inmediato y la inserción de fragmentos de código a su sitio web, pero sin un experto en la mejor forma de configurarlo o vincularlo con su seguimiento actual de Google Analytics, puede parecer perdido. Realizaré la configuración y la migración de datos del Administrador de etiquetas de Google, lo que permite un seguimiento y generación de informes analíticos eficientes. En caso de ayuda, podré necesitaré apoyo de vustro departamento IT.&lt;/p&gt;
+
+&lt;p&gt;Os asesoraré para que el Administrador de etiquetas de Google será realizado de la mejor configuración junto con el mapeo de las etiquetas en función del objetivo de su sitio (lo que le permite realizar un seguimiento de todo, desde diferentes formularios de captura de clientes hasta clics de enlaces específicos).&lt;/p&gt;
+
+&lt;h3 id=&#34;auditoría-de-google-tag-manager&#34;&gt;Auditoría de Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, Google Ads, Facebook Ads u otras etiquetas o pixel de conversiones, además de todos los puntos de contacto llamados &lt;b&gt;micro-conversiones&lt;/b&gt;, pasos previo a su conversión.&lt;/p&gt;
+
+&lt;h3 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;Si tiene un equipo de marketing familiarizado con Google Analytics y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de Google, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
+
+&lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas en un máximo de 8 - 12 horas, siendo posible más horas a distancia via streaming, u online a través de la plataforma Moodle de propiedad de una escuela digital.&lt;/p&gt;
+
+&lt;h3 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-tag-manager&#34;&gt;¿Está interesado en consultar o capacitarse en Google Tag Manager?&lt;/h3&gt;
+
+&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/#contact&#34;&gt;Solicita información para Google Tag Manager&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3915,7 +3956,7 @@ SELECT * EXCEPT(unique_session_id) FROM (
 
 &lt;p&gt;En los últimos 10 años, he participado en los programas formativos de muchas escuelas de negocio, universidades y centro de formación de la administración pública. He realizado servicio de tutoría, docencia de asignaturas, formación a grandes empresas, pymes - autónomos, particulares.&lt;/p&gt;
 
-&lt;h2 id=&#34;docencia-para-cursos-de-posgrados-seminarios-y-congresos&#34;&gt;Docencia para cursos de posgrados, seminarios y congresos&lt;/h2&gt;
+&lt;h2 id=&#34;docencia-para-programas-de-posgrados-máster-cursos-y-webinar&#34;&gt;Docencia para programas de posgrados, máster, cursos y webinar.&lt;/h2&gt;
 
 &lt;p&gt;Con más de 10 años de expieriencia en sector formativo, colaboro con diferentes escuelas de negocio y universidades, así como administración públicas para realizar cursos, seminarios o participar en congresos en materia de analítica digital, analítica de datos y visualización.&lt;/p&gt;
 
@@ -3932,9 +3973,9 @@ SELECT * EXCEPT(unique_session_id) FROM (
 
 &lt;h2 id=&#34;formación-in-company-en-analítica-de-negocio&#34;&gt;Formación in-company en Analítica de negocio&lt;/h2&gt;
 
-&lt;p&gt;Tanto si tiene un equipo de marketing familiarizado con &lt;strong&gt;Google Analytics&lt;/strong&gt; y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de &lt;strong&gt;Tag Manager&lt;/strong&gt;, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
+&lt;p&gt;Tanto si tiene un equipo de marketing familiarizado con herramientas de análisis digitales como &lt;strong&gt;Google Analytics&lt;/strong&gt; y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de &lt;strong&gt;Tag Manager&lt;/strong&gt;, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web. Tengo amplia experiencia también en otras herramientas de publicidad &lt;strong&gt;Google Ads&lt;/strong&gt; y &lt;strong&gt;FacebookAds&lt;/strong&gt; , me limito a formación y sesiones de auditoría.&lt;/p&gt;
 
-&lt;p&gt;El resto de formaciones a medidas con un mínimo de 10 horas, relacionado con herramientas de inteligencia de negocio:&lt;/p&gt;
+&lt;p&gt;Para el resto de formaciones a medidas con un &lt;strong&gt;mínimo de 10 horas&lt;/strong&gt;, relacionadas con el resto de disciplinas de Data, tengo años de experiencia en profesorado y formaciones en:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sesiones de Data Discovery&lt;/li&gt;
@@ -3942,12 +3983,17 @@ SELECT * EXCEPT(unique_session_id) FROM (
 &lt;li&gt;SQL y bases de datos&lt;/li&gt;
 &lt;li&gt;Modelado de datos&lt;/li&gt;
 &lt;li&gt;ETL, preparación y transformación de datos&lt;/li&gt;
-&lt;li&gt;Visualización con Power BI, Tableau, Data Studio, AWS QuickSight (principalmente)&lt;/li&gt;
+&lt;li&gt;Visualización con Power BI, Tableau, Data Studio, AWS QuickSight&lt;/li&gt;
+&lt;li&gt;Minería de datos y Machine Learning&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Python para data science y analísis de datos, Pandas - Numpy - Scipy - Scikit-learn, visualización Matplotlib / Seaborn&lt;/li&gt;
+&lt;li&gt;R Studio&lt;/li&gt;
+&lt;li&gt;Cloud Engineer en AWS, Google Cloud Platform, Microsoft Azure y DataBricks&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas, siendo posible a distancia via streaming u online a través de las plataformas habituales (Zoom, Google Meet, Teams, etc.)&lt;/p&gt;
 
-&lt;h3 id=&#34;está-interesado-en-consultar-o-capacitarse-en-analítica-de-datos-y-visualización&#34;&gt;¿Está interesado en consultar o capacitarse en Analítica de Datos y Visualización?&lt;/h3&gt;
+&lt;h3 id=&#34;está-interesado-en-capacitarse-en-una-de-estas-disciplinas-o-quieres-contarme-algo-más&#34;&gt;¿Está interesado en capacitarse en una de estas disciplinas o quieres contarme algo más?&lt;/h3&gt;
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
@@ -5622,7 +5668,7 @@ Desarrollo de aplicaciones de pila completa&lt;/p&gt;
 
 &lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en machine learning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../#contact&#34;&gt;Solicita información en Machine Learning&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -9595,56 +9641,6 @@ return Cookiebot.consent.marketing.toString()&amp;lt;br /&amp;gt;
 &lt;p&gt;¿Dudas? Puedes comentar aquí mismo sobre su migración&lt;/p&gt;
 
 &lt;p&gt;[&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4z5jRtI-D7gjTcVAcKqP_Lf3Gdrp9a7-lTI6fer7gouhDWm1lLOMUu2KarRU7oqOUsG4KQbt-XmEp/pubhtml?widget=true&amp;amp;headers=false&lt;/a&gt;]&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Consultoría y plan medición en Google Tag Manager</title>
-      <link>https://www.marcusrb.com/servicios-freelance-google-analytics/</link>
-      <pubDate>Sun, 29 Apr 2018 18:31:41 +0000</pubDate>
-      <guid>https://www.marcusrb.com/servicios-freelance-google-analytics/</guid>
-      <description>
-
-&lt;h2 id=&#34;realizar-una-consultoría-y-o-auditoría-de-google-tag-manager&#34;&gt;Realizar una consultoría y/o auditoría de Google Tag Manager&lt;/h2&gt;
-
-&lt;p&gt;Google Tag Manager, la herramienta más utilizada para etiquetar eventos e interacciones, será el rol más importante para detectar nuevos insight en tu negocio, tener claro desde principio que medir y como medirlo,&lt;/p&gt;
-
-&lt;p&gt;El Administrador de etiquetas de Google es una gran herramienta para que los dueños de negocios o los equipos de marketing vean cómo funciona su sitio web: qué áreas están funcionando, qué rendimiento tiene bajo rendimiento, qué funciones no se están usando como creía, etc. Lo vemos como una excelente forma de recopilar datos de experiencia de usuario UX &lt;b&gt;&amp;ldquo;User Experience&amp;rdquo;&lt;/b&gt;, y mejorar el ratio de conversión, CRO &lt;b&gt;&amp;ldquo;Conversion Rate Optimization&amp;rdquo;&lt;/b&gt; en vivo en su sitio de clientes reales.&lt;/p&gt;
-
-&lt;p&gt;Google proporciona una guía de desarrollador para usar la herramienta de análisis, tengo experiencia de casi 5 años en la herramienta de analísis para grandes clientes y cuentas, además de tener un background de programad web, especializado en la configuración de Google Tag Manager, así como en el análisis de los datos que proporciona (porque, sin información accionable, &lt;b&gt;¿qué valor tiene?&lt;/b&gt; datos proporcionan en sí mismo para obtener más de su sitio web?).&lt;/p&gt;
-
-&lt;h3 id=&#34;que-servicio-incluye-el-servicio-de-consultoría-de-tag-manager&#34;&gt;Que servicio incluye el servicio de consultoría de Tag Manager?&lt;/h3&gt;
-
-&lt;p&gt;Como servicio de consultoría de Tag Manager, primero tendré que ver su objetivo empresarial y qué quieres que se analice, puedo analizar todo un sitio web, pero la pregunta sería: ¿Todos los datos valen lo mismo para su empresa? Así que ofrezco:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Auditoría de sitios web y mapeo de etiquetas&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Configuración y configuración&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Aplicación y monitoreo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Formación&lt;/br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;plan-de-implementación-de-tag-manager&#34;&gt;Plan de implementación de Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Google Tag Manager permite el etiquetado inmediato y la inserción de fragmentos de código a su sitio web, pero sin un experto en la mejor forma de configurarlo o vincularlo con su seguimiento actual de Google Analytics, puede parecer perdido. Realizaré la configuración y la migración de datos del Administrador de etiquetas de Google, lo que permite un seguimiento y generación de informes analíticos eficientes. En caso de ayuda, podré necesitaré apoyo de vustro departamento IT.&lt;/p&gt;
-
-&lt;p&gt;Os asesoraré para que el Administrador de etiquetas de Google será realizado de la mejor configuración junto con el mapeo de las etiquetas en función del objetivo de su sitio (lo que le permite realizar un seguimiento de todo, desde diferentes formularios de captura de clientes hasta clics de enlaces específicos).&lt;/p&gt;
-
-&lt;h3 id=&#34;auditoría-de-google-tag-manager&#34;&gt;Auditoría de Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Teniendo en cuenta que además de un servicio de consultoría e implementación, también podré asesorarle sobre los puntos claves para su correcta instalación, en el caso ya esté realizado el mismo por vosotros o terceros. Así que me dedicaré con este servicio a la búsqueda optima de su correcta implementación, auditando todo el proceso de recogida de los datos, hasta la correcta visualización en las etiquetas, sean de Google Analytics, Google Ads, Facebook Ads u otras etiquetas o pixel de conversiones, además de todos los puntos de contacto llamados &lt;b&gt;micro-conversiones&lt;/b&gt;, pasos previo a su conversión.&lt;/p&gt;
-
-&lt;h3 id=&#34;formación-in-company-de-google-tag-manager&#34;&gt;Formación in-company de Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;Si tiene un equipo de marketing familiarizado con Google Analytics y sus productos relacionados y solo está buscando ayuda para comenzar a implementar y usar el Administrador de etiquetas de Google, también ofrezco sesiones de capacitación personalizadas. Para estas sesiones, trabajaré con usted personalmente o en equipo para asegurarnos de que confía en su configuración y en el uso del Administrador de etiquetas de Google en su sitio. Incluso ofrezco controles de seguimiento y monitoreo después de mis capacitaciones para garantizar que se sienta cómodo con la herramienta y cómo puede desarrollarse para que coincida con el crecimiento y los cambios de su sitio web.&lt;/p&gt;
-
-&lt;p&gt;Mis servicios de formación in-company serán presenciales en vuestras oficinas en un máximo de 8 - 12 horas, siendo posible más horas a distancia via streaming, u online a través de la plataforma Moodle de propiedad de una escuela digital.&lt;/p&gt;
-
-&lt;h3 id=&#34;está-interesado-en-consultar-o-capacitarse-en-google-tag-manager&#34;&gt;¿Está interesado en consultar o capacitarse en Google Tag Manager?&lt;/h3&gt;
-
-&lt;p&gt;Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.marcusrb.com/#contact&#34;&gt;Solicita información para Google Tag Manager&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
