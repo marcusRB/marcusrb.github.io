@@ -81,4 +81,4 @@ Los problemas de escalabilidad y seguridad de los datos también deben abordarse
 
 Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!
 
-[Solicita información en machine learning](../#contact)
+[Solicita información en Machine Learning](../#contact)
