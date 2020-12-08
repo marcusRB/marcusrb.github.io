@@ -82,6 +82,7 @@ cp -afv ${WEBSITE}/public/* .
 echo "* Add changes to git..."
 
 git status
+git checkout -b develop
 git add -A
 
 echo "* Commit changes..."
