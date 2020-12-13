@@ -13,6 +13,254 @@
     </image>
     
     <item>
+      <title>Google Data Studio, ¿cómo sacarle todo el partido?</title>
+      <link>https://www.marcusrb.com/google-data-studio-como-sacarle-todo-partido/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/google-data-studio-como-sacarle-todo-partido/</guid>
+      <description>
+
+&lt;h1 id=&#34;google-data-studio-cómo-sacarle-todo-el-partido&#34;&gt;¿Google Data Studio, ¿cómo sacarle todo el partido?&lt;/h1&gt;
+
+&lt;p&gt;Hace unas semanas os mostramos &lt;a href=&#34;https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/&#34; target=&#34;_blank&#34;&gt;cómo crear campos calculados con Google Data Studio&lt;/a&gt; mediante una planificación con nuevos atributos y nuevas métricas,  mejor conocidos como &amp;ldquo;campos calculados&amp;rdquo;, y, además, cuándo crearlos.  Tenemos varias opciones de creación y, entre ellas, pusimos los ejemplos de las 5 funciones más utilizadas. Hoy os explicamos en concreto los  casos de uso y resolvemos algunas de las preguntas más frecuentes.&lt;/p&gt;
+
+&lt;h2 id=&#34;ejemplos-de-casos-de-uso-en-data-studio-con-los-campos-calculados&#34;&gt;Ejemplos de casos de uso en Data Studio con los campos calculados.&lt;/h2&gt;
+
+&lt;h3 id=&#34;ratio-de-conversión-personalizado&#34;&gt;Ratio de conversión personalizado&lt;/h3&gt;
+
+&lt;p&gt;El ratio de conversión es una métrica estándar y muy utilizada tanto en Google Analytics como en las herramientas de publicidad.&lt;/p&gt;
+
+&lt;p&gt;Cuando creamos objetivos, sean micro o macro, es muy importante definir unas  serie de métricas, entre ellas, el ratio de conversión. Muchas veces  estas métricas no proveen insights y necesitamos buscar alternativas.&lt;/p&gt;
+
+&lt;p&gt;Un ejemplo es comparar la performance de dos o más anuncios / banners de  publicidad tipo display o creatividades y obtener una KPI muy  interesante para tal fin, &lt;strong&gt;CPI o Conversión Por Impresión.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Según la fuente de datos que tengamos, sea Google Ads, Google Analytics o Facebook y similares, crearemos un nuevo &lt;strong&gt;campo calculado:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;nombre campo:&lt;/em&gt; CPI Conversión Per Impression.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;fórmula (fx):&lt;/em&gt; Conversions / Impressions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/9805bd646deb40ed8bf572e9185b9feb.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;comparar-el-tráfico-de-dispositivos-móviles-entre-países-regiones-o-áreas-geográficas&#34;&gt;Comparar el tráfico de dispositivos móviles entre países/regiones o áreas geográficas&lt;/h3&gt;
+
+&lt;p&gt;Segmentar y recopilar información al detalle de una parte de nuestros datos e  informes es la tarea más importante para un analista de datos.  Imaginemos representar gráficamente el tráfico de dispositivos móviles  según el periodo seleccionado y comparado con un periodo anterior.  ¿Quieres medir el market share?&lt;/p&gt;
+
+&lt;p&gt;El modo eficiente de realizarlo en Data Studio es a través de un conjunto de campos calculados y añadir  más datos a través de la técnica &lt;strong&gt;data blending&lt;/strong&gt; (datos  combinados). Sobre este punto se realizan videotutoriales que te  explicarán paso a paso en qué consiste y las novedades actuales. Te  recomiendo suscribirte al &lt;a href=&#34;https://www.youtube.com/user/ParadigmaTe?feature=watch&#34; target=&#34;_blank&#34;&gt;canal YouTube de Paradigma&lt;/a&gt; y seguir esta sección de &lt;a href=&#34;https://www.youtube.com/watch?v=rMW6rxxzhbk&amp;amp;list=PL2yjEVbRSX7WuyLquS1XQvdrtdvx7YVmV&#34; target=&#34;_blank&#34;&gt;Playlist de Tutoriales&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Crea los segmentos en Google Analytics (GA). Para este ejemplo he creado 5 segmentos de &lt;em&gt;Usuarios por cada Continente.&lt;/em&gt; Sucesivamente, he creado cada reporte con su segmento en Data Studio, tal como puedes apreciar en estas imágenes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/ceb2ed448c574ad1b21eb21f966c4391.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Siempre es bueno renombrar cada gráfico con las propias métricas y segmentos aplicados, como &lt;strong&gt;Usuarios Europe, Sesiones Móvil Asia,&lt;/strong&gt; etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/6ff64e13119f489080d91079f2f5219f.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Haz click en &lt;strong&gt;Data Blending&lt;/strong&gt; y este es el resultado:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/9f668110fa344b228213f955d48bf737.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Crea sucesivamente campos calculados a nivel de gráfico, como por ejemplo &lt;strong&gt;Serie temporal,&lt;/strong&gt; ya que los campos calculados a nivel de fuente de datos no son posibles con datos combinados.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/92198ba12cc548ed9e39fc1ae5ee1da6.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cambia el tipo de unidad de medida de &lt;strong&gt;Numérico&lt;/strong&gt; a &lt;strong&gt;Porcentaje&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/fed0c412a0614b1e91078cab4dda0661.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finalmente aplica estos campos calculados a las métricas de tu gráfico:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/0709537fe832414cb4f4e22126f4ac94.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ratio-de-abandono-del-funnel&#34;&gt;Ratio de abandono del funnel&lt;/h3&gt;
+
+&lt;p&gt;¿Quiere mostrar el punto de abandono del funnel de conversión? Si bien los  pasos del funnel de objetivos de Google Analytics pueden proporcionar  información, solo funcionan si todas las etapas de su embudo equivalen a una página vista, ya que se quedan limitados cuando estos se basan en  eventos&lt;/p&gt;
+
+&lt;p&gt;En nuestro ejemplo, asumimos que has creado un objetivo de Google Analytics para cada una de las etapas de su embudo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Crea un campo calculado donde se realice el ratio de abandono del embudo de conversiones de todos los pasos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/a2e38f56b77444819005d2ad4973514e.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Crea el campo calculado y lo renombras según el tipo de stage donde se aplicaría:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1-(Funnel Stage 2 (Goal 2 Completions))/Funnel Stage 1 (Goal 1 Completions)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/708587c2c3fa4635b2fca20d8dfb5b5e.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cambia la unidad de la métrica de &lt;strong&gt;Numérica&lt;/strong&gt; a &lt;strong&gt;Porcentaje.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Puedes mostrar los campos calculados creados en los reportes junto con un  gráfico de barras horizontales que muestra los números absolutos de  consecución de objetivos en la etapa del embudo como en este ejemplo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/6f772db388134ca9b4c2345639f4dd3c.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;limpieza-de-urls&#34;&gt;Limpieza de URLs&lt;/h3&gt;
+
+&lt;p&gt;Probablemente, todos nos hemos encontrado con informes que distrajeron nuestra  atención de la conclusión principal y nos vieron enfocarnos en errores  leves. Las URL inconsistentes en el informe permiten a los usuarios de  estos informes y cuadros de mando dudar de nuestras conclusiones,  incluso si el efecto de sesgo es mínimo.&lt;/p&gt;
+
+&lt;p&gt;Limpiar estas URL con  campos calculados es un ejercicio sencillo. Estamos abordando soluciones para tres escenarios comunes en los &lt;strong&gt;reportes de la dimensión de página.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Páginas reestructuradas&lt;/p&gt;
+
+&lt;p&gt;Por una razón u otra, la URL de una página ha cambiado con el tiempo. Sin  embargo, en términos de informes, ambas URL deben doblarse en una.  Supongamos para este ejercicio que &lt;strong&gt;Classic XL Backpack&lt;/strong&gt; se movió de la categoría habitual a la categoría de marca de propia de Google.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anterior URL: &lt;a href=&#34;https://your.googlemerchandisestore.com/details/Lifestyle/Bags/GGL1757_Classic&#34; target=&#34;_blank&#34;&gt;https://your.googlemerchandisestore.com/details/Lifestyle/Bags/GGL1757_Classic&lt;/a&gt; XL Backpack&lt;/li&gt;
+&lt;li&gt;Nueva URL: &lt;a href=&#34;https://your.googlemerchandisestore.com/Google/Bags/GGL1757_Classic&#34; target=&#34;_blank&#34;&gt;https://your.googlemerchandisestore.com/Google/Bags/GGL1757_Classic&lt;/a&gt; XL Backpack&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ya que en nuestro dashboard de Data Studio queremos redireccionar todo  este tráfico anterior al nuevo aplicamos la solución a través de nuestra función &lt;strong&gt;RegExp_Replace.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creamos una dimensión personalizada del tipo campo calculado.&lt;/li&gt;
+&lt;li&gt;Seleccionamos desde data source nuevo campo calculados desde campos y podemos escribir nuestra fórmula:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;REGEXP_REPLACE(Page, &#39;/details/Lifestyle/Bags/GGL1757_Classic%20XL%20Backpack*&#39;, &#39;/Google/Bags/GGL1757_Classic%20XL%20Backpack&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;urls-duplicadas&#34;&gt;URLs duplicadas&lt;/h3&gt;
+
+&lt;p&gt;¿Se puede acceder a algunas páginas a través de diferentes URL? En función  del CMS utilizado y de la configuración del servidor, no es raro que se  pueda acceder a las páginas con y sin barras diagonales finales.  Dependiendo de cómo estén vinculadas esas páginas interna y  externamente, se determinará cuánto tráfico se informa para cada  versión. Arreglar esto de forma retroactiva para los informes  garantizará la coherencia de sus datos. También es importante tener una  buena configuración de la propia herramienta de analítica que reduzca  estos errores; por ejemplo, en este post de se habla de la &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34; target=&#34;_blank&#34;&gt;guía de Google Analytics&lt;/a&gt; y cómo configurarla correctamente.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utilizamos la función en Data Studio para eliminar el forward slash o comúnmente llamada slash /.&lt;/li&gt;
+&lt;li&gt;Creamos desde Data Source un campo calculado del tipo dimensión con la función &lt;strong&gt;REGEXP_REPLACE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;REGEXP_REPLACE(Page,&amp;quot;./&amp;quot;,&amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;inconsistencia-de-mayúsculas-y-minúsculas&#34;&gt;Inconsistencia de mayúsculas y minúsculas&lt;/h3&gt;
+
+&lt;p&gt;Si el entorno de su servidor web distingue entre mayúsculas y minúsculas,  es posible que las URL aparezcan con casos incoherentes en sus informes. Dedicar unos minutos a consolidar los datos en sus paneles es un tiempo bien invertido. La otra vía sería realizar un filtro a nivel de informe desde la herramienta de analítica convirtiendo todo el tráfico entrante en mayúscula o minúscula, así reduciendo los errores y los sesgos en  los informes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vamos a utilizar la función para convertir nuestras páginas en minúsculas.&lt;/li&gt;
+&lt;li&gt;Creamos un campo calculado del tipo dimensión en nuestro data source y seleccionamos la función &lt;strong&gt;LOWER&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;Lower(page)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;separadores-en-las-urls&#34;&gt;Separadores en las URLs&lt;/h3&gt;
+
+&lt;p&gt;Ha habido mucho debate sobre los mejores separadores de palabras de URL (+ , - o _ ) desde una perspectiva de SEO. Si se trata de un sitio web  antiguo, es probable que los separadores de palabras de URL empleados  hayan cambiado con el tiempo. Ha llegado el momento de consolidarlos en  Data Studio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utilizamos la función para reemplazar todos los separadores + y _ en un guion -.&lt;/li&gt;
+&lt;li&gt;Creamos desde Data Source una nueva dimensión que nos ayude en esta tarea con la función &lt;strong&gt;REGEXP_REPLACE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;REGEXP_REPLACE(Page,&#39;(\\+|_)&#39;,&#39;-&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;eliminar-los-parámetros-en-las-urls&#34;&gt;Eliminar los parámetros en las URLs&lt;/h3&gt;
+
+&lt;p&gt;La eliminación de parámetros de consulta de una lista de URL es un caso de uso común cuando se desglosan las métricas por dimensión de página.  Esto se puede hacer con los filtros de Google Analytics para datos  futuros o nuevas configuraciones, sin embargo, no es una solución para  los datos ya recopilados.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ejemplo aplicado con la función &lt;strong&gt;REGEXP_REPLACE&lt;/strong&gt; en nuestro data source:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;REGEXP_REPLACE(page, &#39;\\?.+&#39;, &#39;&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;agrupación-de-contenidos&#34;&gt;Agrupación de contenidos&lt;/h2&gt;
+
+&lt;p&gt;¿Necesitas agrupar las métricas por tipos de contenido específicos para obtener  mejores insights? La configuración de grupos de contenido es la forma  estándar de hacer esto para datos futuros así como los actuales. También podemos aplicarlos con la ayuda de campos calculados en Google Data  Studio.
+&lt;strong&gt;Solución:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creamos la agrupación de contenidos en Data Studio.&lt;/li&gt;
+&lt;li&gt;A través de la función &lt;strong&gt;CASE&lt;/strong&gt; desde la fuente de datos, creamos una dimensión personalizada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;CASE 
+WHEN (Page=&amp;quot;/es&amp;quot; OR Page=&amp;quot;/de&amp;quot; OR Page=&amp;quot;/pt&amp;quot;) THEN &amp;quot;Inicio&amp;quot; 
+WHEN (REGEXP_MATCH(Page, &#39;^/../shop/.*&#39;)) THEN &amp;quot;Ecommerce&amp;quot;
+WHEN (REGEXP_MATCH(Page, &#39;^/../blog/.*&#39;)) THEN &amp;quot;Blog&amp;quot;
+WHEN (REGEXP_MATCH(Page, &#39;(^/../company/.*|.*empleo.*)&#39;)) THEN &amp;quot;Empresa&amp;quot;
+WHEN (REGEXP_MATCH(Page, &#39;^/../support/.*&#39;)) THEN &amp;quot;Soporte&amp;quot;
+WHEN (REGEXP_MATCH(Page, &#39;.*/contact```
+)) THEN &amp;quot;Contactos&amp;quot;
+ELSE &amp;quot;Otros&amp;quot; 
+END
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Estamos usando la función &lt;strong&gt;CASE&lt;/strong&gt; junto con la función &lt;strong&gt;REGEX_MATCH&lt;/strong&gt; para definir los grupos de contenido. El poder de las expresiones  regulares te permite definir reglas de coincidencia más complejas. Ten  en cuenta las condiciones superpuestas en las diferentes declaraciones &lt;strong&gt;WHEN:&lt;/strong&gt; la función &lt;strong&gt;CASE&lt;/strong&gt; siempre ejecutará la primera cláusula que coincida.&lt;/p&gt;
+
+&lt;p&gt;Ejemplo: la página URL &lt;em&gt;/blog/consejos-buscar-empleo&lt;/em&gt; se agrupará en la categoría &lt;strong&gt;Blog,&lt;/strong&gt; aunque también coincide con la categoría Empresa, por tener en su URL  la palabra empleo. Sin embargo, tal como hemos estructurado nuestra  función, la primera condición TRUE se ejecutará y nos devolverá el  primer resultado. Podemos personalizar todo lo mencionado anteriormente  para que se ajuste mejor a nuestro caso de uso específico.&lt;/p&gt;
+
+&lt;h2 id=&#34;preguntas-frecuentes&#34;&gt;Preguntas frecuentes&lt;/h2&gt;
+
+&lt;p&gt;Ya que me llegaron varios comentarios anteriormente a este post, intentaré resumir algunas de las preguntas más frecuentes que he ido recopilando y daré una explicación sobre el uso de las métricas calculadas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;¿Por qué existen limitaciones en cuanto a qué métricas/dimensiones puedo  utilizar de forma conjunta en un campo calculado de Google Data Studio?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Normalmente podemos utilizar métricas o dimensiones en una misma función o a un  nuevo campo calculado, pero cuando intentamos introducir las dos  conjuntamente muchas veces devuelve un error. Cuando normalmente  trabajamos con la herramienta de analitica digital, Google Analytics por ejemplo, y queremos crear campos calculados hay una lógica detrás:  puede resumir usuarios y sesiones, restar páginas vistas y dividir por  salidas si lo desea. También existe un límite de alcances que no permite realizar un resultado, por ejemplo la jerarquía habitual en analítica  digital es User &amp;gt; Sessions &amp;gt; Events. Alterar este orden conlleva a un error.&lt;/p&gt;
+
+&lt;p&gt;Los campos calculados de la fuente de datos también se  pueden utilizar en otros campos calculados del mismo tipo (dimensión  frente a métrica); sin embargo, esto no funciona con campos calculados a nivel de gráfico.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;¿Por qué no funciona mi función CASE?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Una razón que he encontrado es cuando incluí campos del tipo Fecha en mi  fórmula CASE; es decir, día de la semana. Esos campos se representan  internamente con un número en lugar del nombre del día; es decir, 1 en  lugar de lunes.
+Para resolver esto, puede usar el número en tu declaración de condición o usar el campo Nombre del día de la semana en su lugar.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;¿Por qué mi función REGEX no coincide?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Todos hemos estado allí y la resolución de problemas puede ser tediosa. Si se trata de un caso de uso de Google Analytics se puede probar su  expresión regular con los filtros avanzados en GA. Alternativamente, se  puede utilizar otras herramientas de testing. Yo utilizo esta de  Regex101 , pero hay muchas más.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;¿Puedo crear un campo calculado a partir de dos fuentes diferentes?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sí. Sin embargo, esto solo funciona en una configuración específica. En  primer lugar, deberá unir tus fuentes de datos a una fuente de datos  combinada (data blending). Luego, puedes crear un campo calculado a  nivel de gráfico (con sus limitaciones) sobre su nueva fuente de datos  combinados. Lamentablemente, no puedes crear campos calculados de fuente de datos en datos combinados.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;¿Por qué mi campo calculado está en blanco?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lo más probable es que su función de campo calculado no devuelva ningún  valor para el período de tiempo seleccionado. De forma predeterminada,  Data Studio muestra *null** en las tablas si este es el caso. Sin embargo, también se puede cambiar a nada y transformar este valor en &lt;em&gt;blank&lt;/em&gt; o &lt;em&gt;-no data-.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+
+&lt;p&gt;El uso de los &lt;strong&gt;campos calculados de Google Data Studio&lt;/strong&gt; nos ha ayudado a llevar nuestros informes al siguiente nivel. Ya sea  mediante su uso para aumentar sustancialmente el interés de las partes  interesadas y la demanda de informes personalizados o para obtener  información completamente nueva sobre sus datos son imprescindibles si  utilizas Data Studio.&lt;/p&gt;
+
+&lt;p&gt;Como especialista en marketing digital, el  éxito siempre dependerá de su capacidad para presentar datos relevantes  de la forma más intuitiva y atractiva. Los campos calculados de Data  Studio pueden ser una parte esencial para facilitar la toma de  decisiones basada en datos. Pero no se aplica solo a esta herramienta  SaaS, como analista digital, analista de datos o también si trabajas en  inteligencia de negocio, crear nuevas dimensiones y métricas es algo muy habitual. Como he mencionado en otro post sobre la &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/comparativa-plataformas-business-intelligence-introduccion/&#34; target=&#34;_blank&#34;&gt;comparativa de las diferentes plataformas de Business Intelligence&lt;/a&gt;, también podrás aplicar estas mismas técnicas si la herramienta de  visualización a utilizar será Power BI, Tableau, AWS QuickSight,  Looker&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;¿Has encontrado algo nuevo sobre los campos calculados  de Google Data Studio? Si es así, puedes comentar en este mismo post y  abrir un debate.&lt;/p&gt;
+
+&lt;p&gt;Y si desea aumentar aún más su conocimiento de  esta increíble herramienta de informes, consulte nuestro canal de  YouTube y de los &lt;a href=&#34;https://www.paradigmadigital.com/eventos/&#34; target=&#34;_blank&#34;&gt;webinar realizados&lt;/a&gt; y/o futuros.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/dev/saca-todo-el-partido-data-studio/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>[Webinar] - Visualiza Machine Learning en Power BI</title>
       <link>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</link>
       <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
