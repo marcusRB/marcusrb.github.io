@@ -1,5 +1,5 @@
 ---
-title: Cursos en remoto y online
+title: Cursos y formación en remoto
 layout: docs  # Do not modify.
 description: En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization.
 
@@ -10,9 +10,12 @@ header:
   image: ""
 ---
 
-En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization. Además de las documentaciones técnicas, manuales, recursos y actualizaciones. Los repositorios serán accesibles en GitHub o Bitbucket.
+En esta sección se ofrecen las diferentes opciones de formación y cursos (presencial, en remoto, blending), de las rutas de aprendizajes de la plataforma de **Google Marketing**, **Data Science**, **Data y Business Analytics**, **Data Visualization** y **Cloud Computing**. 
 
-* **[Cursos y formación online]()**
+Además cada sección tendrá su espacio con las documentaciones técnicas, manuales, recursos. Los repositorios serán accesibles en GitHub o Bitbucket.
+
+* **[Campus cursos KPIschool](https://campus.kpischool.eu/)**
+* **[Cursos UDEMY](https://www.udemy.com/user/marco-russo-4/)**
 
 ***
 

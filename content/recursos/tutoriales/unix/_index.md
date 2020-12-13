@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Unix
 summary: Tutorial de Unix.
-weight: 2
+weight: 1
 
 # Page metadata.
 title: Tutorial de Unix, Shell y Bash
@@ -18,14 +18,14 @@ url: "/tutorial-unix"
 # - weight: Position of link in menu.
 menu:
   unix:
-    name: Índice
+    name: Índice UNIX
     weight: 1
 ---
 
 ## Estructura recursos
 
-- [X] [Introducción a Unix](01-unix-intro)
-- [X] [Sistema de ficheros](02-sistema-ficheros)
+- [X] [Introducción a Unix](/unix/01-unix-intro)
+- [X] [Sistema de ficheros](/unix/02-sistema-ficheros)
 - [ ] [Control de procesos]
 Flujos de información
 Procesamiento de ficheros de texto

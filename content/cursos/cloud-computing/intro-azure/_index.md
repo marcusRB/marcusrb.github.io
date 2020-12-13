@@ -1,25 +1,25 @@
 ---
 # Course title, summary, and position.
-linktitle: Introducción AWS Amazon Web Services
+linktitle: Introducción a Microsoft Azure
 summary: En este capítulo vamos a dar nuestros primeros pasos en lenguaje SQL. Herramientas cuál BigQuery de Google.
 weight: 1
 
 # Page metadata.
-title: Introducción AWS
-date: "2020-12-08T00:00:00+01:00"
-lastmod: "2020-12-08T00:00:00+01:00"
+title: Introducción Azure
+date: "2019-09-02T00:00:00Z"
+lastmod: "2019-09-10T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 description: En este capítulo vamos a dar nuestros primeros pasos en lenguaje SQL. Herramientas cuál BigQuery de Google.
-url: "/fundamentos-aws"
+url: "/fundamentos-microsoft-azure"
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
   cloud-computing:
-    name: Cloud AWS
-    weight: 3
+    name: Cloud Azure
+    weight: 5
 ---
 
 **TBD**

@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: Aprendizaje en Cloud computing
 date: "2020-12-08T00:00:00Z"
-lastmod: "2019-09-10T00:00:00Z"
+lastmod: "2020-12-08T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -17,9 +17,11 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   cloud-computing:
-    name: Learning Path
+    name: Learning Path Cloud Computing
     weight: 1
 ---
+
+Recursos de Cloud Computing especificamente de los entornos de los proveedores más importantes del mercado: **Amazon Web Services AWS**, **Google Cloud Platform GCP**, **Microsoft Azure**, **Databricks**.
 
 * **[Online courses]()**
 * **Project or software documentation**

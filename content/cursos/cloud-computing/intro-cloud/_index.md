@@ -6,8 +6,8 @@ weight: 1
 
 # Page metadata.
 title: Introducción Cloud computing
-date: "2019-09-02T00:00:00Z"
-lastmod: "2019-09-10T00:00:00Z"
+date: "2020-12-08T00:00:00+01:00"
+lastmod: "2020-12-08T00:00:00+01:00"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
