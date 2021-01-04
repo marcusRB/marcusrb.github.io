@@ -1,7 +1,7 @@
 ---
 title: Recursos & Tutoriales
 layout: docs  # Do not modify.
-description: En esta sección se publicarán los diferentes tipos de recursos, materiales audio, vídeo tutoriales, repositorios en git, pdf y rutas de aprendizajes.
+description: En esta sección sse publicarán todo tipos de recursos, tutoriales y materiales (notebook, cheatsheets, ficheros ejecutables, ejemplos) de Inteligencia Artificial, Business Analytics, Visualización de datos, Digital Marketing.
 
 
 # Optional header image (relative to `/img/` folder).
@@ -10,7 +10,7 @@ header:
   image: ""
 ---
 
-En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization. Además de las documentaciones técnicas, manuales, recursos y actualizaciones. Los repositorios serán accesibles en GitHub o Bitbucket.
+En esta sección sse publicarán todo tipos de recursos, tutoriales y materiales (notebook, cheatsheets, ficheros ejecutables, ejemplos) de Inteligencia Artificial, Business Analytics, Visualización de datos, Digital Marketing, además de manuales y guías oficiales. Los repositorios serán accesibles en GitHub o Bitbucket.
 
 - **[Documentación técnica de proyectos](/proyectos/)**
 - **[Tutoriales](../tutoriales/)**

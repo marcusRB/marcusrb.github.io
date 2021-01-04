@@ -21,10 +21,9 @@ menu:
     weight: 1
 ---
 
-* **[Online courses]()**
-* **Project or software documentation**
-* **Tutorials**
-* **[Cheatsheets](/tutorial)**
+* *Project or software documentation*
+* **[Tutoriales](/tutoriales)**
+* **[Cheatsheets](/recursos/cheatsheets/)**
 
 ***
 
@@ -37,7 +36,7 @@ menu:
 - [x] [Power BI fundamentos](/curso-power-bi-fundamentos)
 - [x] [Power BI avanzado](/curso-power-bi-avanzado)
 - [x] [Tableau](/curso-tableau)
-- [ ] [Visualización en Python](/)
+- [ ] [Visualización en Python](/)
 - [ ] [Visualización en R Studio](/)
 
 

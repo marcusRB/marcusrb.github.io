@@ -12,7 +12,7 @@ draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 description: En este capítulo vamos a dar nuestros primeros pasos en lenguaje SQL. Herramientas cuál BigQuery de Google.
-url: "/fundamentos-microsoft-azure"
+url: "/microsoft-azure"
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.

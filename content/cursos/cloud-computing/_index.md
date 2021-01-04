@@ -36,4 +36,8 @@ Recursos de Cloud Computing especificamente de los entornos de los proveedores m
 ## Estructura programación de Cloud computing
 
 
-- [ ] [Introducción Cloud computing]
+- [X] [Introducción Cloud computing](/fundamentos-cloud-computing)
+- [X] [GCP - Google Cloud Platform](/gcp-google-cloud-platform)
+- [X] [AWS - Amazon Web Services](/aws-amazon-web-services)
+- [X] [Azure - Microsoft Azure](/microsoft-azure)
+- [ ] [Databricks - ]

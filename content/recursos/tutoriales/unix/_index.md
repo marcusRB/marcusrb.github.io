@@ -27,15 +27,15 @@ menu:
 - [X] [Introducción a Unix](/unix/01-unix-intro)
 - [X] [Sistema de ficheros](/unix/02-sistema-ficheros)
 - [ ] [Control de procesos]
-Flujos de información
-Procesamiento de ficheros de texto
-Expresiones regulares
-Scripts de Bash
-Administrador
-Administración de software 1
-Variables de entorno
-Administración de software 2
-Redes
+- [ ] Flujos de información
+- [ ] Procesamiento de ficheros de texto
+- [ ] Expresiones regulares
+- [ ] Scripts de Bash
+- [ ] Administrador
+- [ ] Administración de software 1
+- [ ] Variables de entorno
+- [ ] Administración de software 2
+- [ ] Redes
 
 
 
