@@ -5,12 +5,111 @@
     <link>https://www.marcusrb.com/tutoriales/</link>
       <atom:link href="https://www.marcusrb.com/tutoriales/index.xml" rel="self" type="application/rss+xml" />
     <description>Tutoriales</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>Tutoriales</title>
       <link>https://www.marcusrb.com/tutoriales/</link>
     </image>
+    
+    <item>
+      <title>Recursos de Big Data</title>
+      <link>https://www.marcusrb.com/recursos-big-data/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-big-data/</guid>
+      <description>
+
+&lt;p&gt;LOREM IPSUM&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Business Intelligence</title>
+      <link>https://www.marcusrb.com/recursos-business-intelligence/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-business-intelligence/</guid>
+      <description>
+
+&lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Tableau te guiaré paso a paso para obtener habilidades de Tableau. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Tableau con éxito.&lt;/p&gt;
+
+&lt;p&gt;La aplicación de dashboard con Tableau es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa&#34;&gt;Estructura del programa&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado&lt;/p&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Inteligencia Artificial</title>
+      <link>https://www.marcusrb.com/recursos-inteligencia-artificial/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-inteligencia-artificial/</guid>
+      <description>
+
+&lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Power BI te guiaré paso a paso para obtener habilidades de Power Bi. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Power BI con éxito.&lt;/p&gt;
+
+&lt;p&gt;La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;curso-avanzado-en-dax-y-power-query-de-power-bi-70-horas&#34;&gt;Curso avanzado en DAX y Power Query de Power BI (~70 horas)&lt;/h2&gt;
+
+&lt;p&gt;Incluye el &lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;curso de fundamentos&lt;/a&gt; 101 más:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Visualización de datos</title>
+      <link>https://www.marcusrb.com/recursos-visualizacion-datos/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-visualizacion-datos/</guid>
+      <description>
+
+&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/recursos-power-bi&#34;&gt;Guía de Microsoft Power BI&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Tableau&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Google Data Studio&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Grafana&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -5,12 +5,30 @@
     <link>https://www.marcusrb.com/</link>
       <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020</copyright><lastBuildDate>Thu, 10 Dec 2020 11:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
       <link>https://www.marcusrb.com/</link>
     </image>
+    
+    <item>
+      <title>Carga de datos en Power BI</title>
+      <link>https://www.marcusrb.com/power-bi/02-carga-datos/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/power-bi/02-carga-datos/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;https://en.wikipedia.org/wiki/File_system&#34; target=&#34;_blank&#34;&gt;sistema de archivos&lt;/a&gt; controla como se almacenan los archivos en el ordenador. Sus dos tareas principales son guardar y leer archivos previamente guardados.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Power BI</title>
+      <link>https://www.marcusrb.com/power-bi/01-intro-power-bi/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/power-bi/01-intro-power-bi/</guid>
+      <description>&lt;p&gt;TBD&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Conceptos de Amazon Web Services AWS</title>
@@ -3748,6 +3766,105 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     </item>
     
     <item>
+      <title>Recursos de Big Data</title>
+      <link>https://www.marcusrb.com/recursos-big-data/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-big-data/</guid>
+      <description>
+
+&lt;p&gt;LOREM IPSUM&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Business Intelligence</title>
+      <link>https://www.marcusrb.com/recursos-business-intelligence/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-business-intelligence/</guid>
+      <description>
+
+&lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Tableau te guiaré paso a paso para obtener habilidades de Tableau. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Tableau con éxito.&lt;/p&gt;
+
+&lt;p&gt;La aplicación de dashboard con Tableau es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa&#34;&gt;Estructura del programa&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:
+- fundamentos
+- avanzado&lt;/p&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Inteligencia Artificial</title>
+      <link>https://www.marcusrb.com/recursos-inteligencia-artificial/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-inteligencia-artificial/</guid>
+      <description>
+
+&lt;p&gt;Con más de 10 años de experiencia en consultoría de datos y formación in-company en las mejores empresas del IBEX35, pymes de Europa y continente americano, he desarrollado un estilo de enseñanza único para ayudar a los aspirantes a aprender a dominar el arte de administrar datos y crear poderosos paneles para tomar decisiones comerciales inteligentes. Cómo instructor del curso de capacitación de Power BI te guiaré paso a paso para obtener habilidades de Power Bi. Todos los temas y unidades se desglosan de una manera fácil de aprender, haciendo que el curso sea extremadamente agradable y que todos mis alumnos han logrado utilizar Power BI con éxito.&lt;/p&gt;
+
+&lt;p&gt;La aplicación de dashboard con Power BI es fácil de usar ha sido diseñada para ayudar a los usuarios, de todos los niveles de experiencia, a producir un análisis de datos perspicaz; por lo tanto, nuestro curso de capacitación de BI interactivo y muy atractivo ayuda a los candidatos en todos los departamentos a comunicar datos relacionados con el rendimiento de una manera visualmente comprensible.&lt;/p&gt;
+
+&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;curso-avanzado-en-dax-y-power-query-de-power-bi-70-horas&#34;&gt;Curso avanzado en DAX y Power Query de Power BI (~70 horas)&lt;/h2&gt;
+
+&lt;p&gt;Incluye el &lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;curso de fundamentos&lt;/a&gt; 101 más:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recursos de Visualización de datos</title>
+      <link>https://www.marcusrb.com/recursos-visualizacion-datos/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/recursos-visualizacion-datos/</guid>
+      <description>
+
+&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/recursos-power-bi&#34;&gt;Guía de Microsoft Power BI&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Tableau&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Google Data Studio&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Grafana&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Formación fundamentos en Microsoft Power BI</title>
       <link>https://www.marcusrb.com/curso-power-bi-fundamentos/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0100</pubDate>
@@ -4728,6 +4845,60 @@ Para resolver esto, puede usar el número en tu declaración de condición o usa
 &lt;p&gt;Este post es &lt;strong&gt;la primera parte&lt;/strong&gt; de los campos calculados en Google Data Studio. Hemos observado que en  cualquier fichero, conector o fuente de datos en esta herramienta (o  cualquier otra de visualización) será necesario primero identificar los  indicadores y sucesivamente crear las métricas o nuevas columnas.  Pronto, una &lt;strong&gt;segunda parte&lt;/strong&gt; en la que veremos ejemplos aplicados a marketing digital y más casos de uso.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial - Enviamos los valores de e-commerce al pixel de Google Ads con Tag Manager.</title>
+      <link>https://www.marcusrb.com/talk/google-ads-gtm/</link>
+      <pubDate>Wed, 16 Sep 2020 18:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/talk/google-ads-gtm/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;aprende-a-enviar-los-valores-de-e-commerce-al-pixel-de-google-ads-con-tag-manager&#34;&gt;Aprende a enviar los valores de e commerce al pixel de Google Ads con Tag Manager.&lt;/h1&gt;
+
+&lt;p&gt;El paso más tedioso de todos marketeros es registrar correctamente las transacciones desde la web a Google Analytics o cualquier herramienta de analítica. Pero un solo check no es suficiente para poder llevar todas tipos de personalizaciones de comercio electrónico y aprovechar las bondades del dataLayer presente en nuestro site. Un ejemplo es la personalización de los eventos de comercio electrónico mejorado a eventos, o mejor, hacía las plataforams de Advertising, como Google Ads, Facebook, Linkedin, hasta Twitter, Tik Tok y Bing Ads. Es importante tener el dataLayer implementado (bien por plugin o bien via desarrollo), y el resto lo haremos en Google Tag Manager a través de pequeñas funciones en JavaScript. ¿Estás listo para ser el ninja de Google Tag Manager? En este video tutorial te explicaremos como realizar unos pasos más habituales y el resto podrás realizarlos sin dificultades.&lt;/p&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/5sodoQlfBC8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial - crear una etiqueta en Google Tag Manager para registrar las llamadas.</title>
+      <link>https://www.marcusrb.com/talk/llamadas-gtm/</link>
+      <pubDate>Wed, 09 Sep 2020 18:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/talk/llamadas-gtm/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;aprende-a-rear-una-etiqueta-en-google-tag-manager-para-registrar-las-llamadas&#34;&gt;Aprende a rear una etiqueta en Google Tag Manager para registrar las llamadas.&lt;/h1&gt;
+
+&lt;p&gt;¿Necesitas registrar las llamadas efectuadas directamente desde la web? Con la personalización de la etiqueta de seguimiento de eventos de llamadas es posible tanto para Google Ads, como este video tutorial, como el resto de plataformas de publicidad. Aunque la etiqueta está bien escondida dentro del repositorio en Google Tag Manager, veamos como poder realizar con simples pasos su personalización y tener constancia del tráfico entrante de nuestros clientes potenciales y grabar sus interacciones correctamente para la mejor atribución de las conversiones en Google Ads u lo que sea. No hace apoyo técnico, solo una cuenta de Google Ads, Google Tag Manager y seguir los pasos del vídeo. En caso de tener otro tipo de evento, como slider o eventos tipo Ajax, entonces se requiere una personalización avanzada con la llamada a la librería de Ajax o jQuery.&lt;/p&gt;
+
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/D369iin5yJI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
