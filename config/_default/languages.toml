@@ -4,38 +4,78 @@
 
 # Configure the English version of the site.
 
-
-  # Spanish Menu
-
-  [[es.menu.main]]
-    name = "Inicio"
-    url = "#inicio"
+# Configure the English version of the site.
+[en]
+  languageCode = "en-UK"
+  contentDir = "content/en"
+  title = "MarcusRB | data specialist & professor • AI • Big Data"
+  [en.params]
+    description = "+10 yrs consultant & freelance • professor in Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Data Visualization - AI enthusiast"
+author = "marcusRB"
+  [[en.menu.main]]
+    name = "Home"
+    url = "#home"
     weight = 1
 
-  [[es.menu.main]]
-    name = "Servicios"
-    url = "/servicios"
+  [[en.menu.main]]
+    name = "Services"
+    url = "/services"
     weight = 2
 
-  [[es.menu.main]]
+  [[en.menu.main]]
     name = "Blog"
     url = "#posts"
     weight = 3
 
-  [[es.menu.main]]
-    name = "Cursos"
-    url = "/cursos"
+  [[en.menu.main]]
+    name = "Courses"
+    url = "/courses"
     weight = 4
 
-  [[es.menu.main]]
-    name = "Recursos"
-    url = "/recursos"
+  [[en.menu.main]]
+    name = "Resources"
+    url = "/resources"
     weight = 5
 
-  [[es.menu.main]]
-    name = "Contactos"
+  [[en.menu.main]]
+    name = "Contact"
     url = "#contact"
     weight = 6
+
+# Spanish Menu
+[es]
+  languageCode = "es-ES"
+  contentDir = "content/es"
+
+[[es.menu.main]]
+  name = "Inicio"
+  url = "#inicio"
+  weight = 1
+
+[[es.menu.main]]
+  name = "Servicios"
+  url = "/servicios"
+  weight = 2
+
+[[es.menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 3
+
+[[es.menu.main]]
+  name = "Cursos"
+  url = "/cursos"
+  weight = 4
+
+[[es.menu.main]]
+  name = "Recursos"
+  url = "/recursos"
+  weight = 5
+
+[[es.menu.main]]
+  name = "Contactos"
+  url = "#contactos"
+  weight = 6
 
 
 

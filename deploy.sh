@@ -13,17 +13,17 @@ function echoitalic { #'echobold' is the function name
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "                              UPDATING WEBSITE"
-echo "                                    version 1.4"
+echo "                                    version 1.5"
 echo ""
 echoitalic "* Written by  : MarcusRB"
 echoitalic "* E-mail      : marcusrb@dataschool.tech"
 echoitalic "* Last update : "$(date)
-echoitalic "* Version     : v1.4"
+echoitalic "* Version     : v1.5"
 echo ""
 echoitalic "* Description : This script will set some directories, execute some things, "
 echoitalic "                and will then update the website."
 echo ""
-echo "Update v1.4 - dic20200 - add git branch develop, feature, release, hotfixes"
+echo "Update v1.5 - jan2021 - multilingual website"
 echo ""
 echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
@@ -35,7 +35,7 @@ echobold "The following directories are set."
 
 # Mac Config
 ROOT="/Users/marcusrb/Documents/DEV"
-WEBSITE="${ROOT}/dev_hugo"
+WEBSITE="${ROOT}/dev_hugo_en"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
 

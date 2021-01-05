@@ -83,7 +83,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "hola@marcusrb.com"
 phone = "+34 603 220 001"
-address = "Paseo Castellana 200, oficina 4, Madrid, Spain"
+address = "Paseo Castellana 200, of. 4, Madrid, Spain"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Monday - Friday 08:00 to 17:00<br>
