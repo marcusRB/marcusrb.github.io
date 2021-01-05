@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Introducción a Apache Hadoop</title>
+      <link>https://www.marcusrb.com/apache-hadoop/01-intro-apache-hadoop/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/apache-hadoop/01-intro-apache-hadoop/</guid>
+      <description>&lt;p&gt;TBD&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introducción a Apache Nifi</title>
       <link>https://www.marcusrb.com/apache-nifi/01-intro-apache-nifi/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
@@ -3776,9 +3785,9 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     
     <item>
       <title>Recursos de Big Data</title>
-      <link>https://www.marcusrb.com/recursos-big-data/</link>
+      <link>https://www.marcusrb.com/big-data/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/recursos-big-data/</guid>
+      <guid>https://www.marcusrb.com/big-data/</guid>
       <description>
 
 &lt;h2 id=&#34;estructura-de-los-recursos-de-big-data&#34;&gt;Estructura de los recursos de Big Data&lt;/h2&gt;
@@ -3799,13 +3808,13 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Introducción al Big Data&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Arquitectura Lambda&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Origenes de Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Modelados de datos en Apache Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-hadoop&#34;&gt;Modelados de datos en Apache Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Hive&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Spark Streaming&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Sqoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flume&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/recursos-apache-nifi&#34;&gt;Apache Nifi&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-nifi&#34;&gt;Apache Nifi&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flink&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
