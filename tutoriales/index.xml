@@ -19,18 +19,34 @@
       <guid>https://www.marcusrb.com/recursos-big-data/</guid>
       <description>
 
-&lt;p&gt;LOREM IPSUM&lt;/p&gt;
+&lt;h2 id=&#34;estructura-de-los-recursos-de-big-data&#34;&gt;Estructura de los recursos de Big Data&lt;/h2&gt;
 
-&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+&lt;p&gt;En esta sección encontraremos los recursos y tutoriales relacionados con el mundo Big Data para los percorsos o Learning Path de:&lt;/p&gt;
 
-&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Data Engineering&lt;/li&gt;
+&lt;li&gt;Cloud Architecture&lt;/li&gt;
+&lt;li&gt;Machine Learning Engineer&lt;/li&gt;
+&lt;li&gt;Cloud Developer&lt;/li&gt;
+&lt;li&gt;Big Data Engineering&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;hr /&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Introducción al Big Data&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Arquitectura Lambda&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Origenes de Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Modelados de datos en Apache Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Hive&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Spark Streaming&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Sqoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flume&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/recursos-apache-nifi&#34;&gt;Apache Nifi&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flink&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
