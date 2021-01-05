@@ -16,17 +16,31 @@ menu:
 weight: 4
 ---
 
-LOREM IPSUM
 
+## Estructura de los recursos de Big Data
+En esta sección encontraremos los recursos y tutoriales relacionados con el mundo Big Data para los percorsos o Learning Path de:
 
-## Estructura del programa y cursos
+1. Data Engineering
+2. Cloud Architecture
+3. Machine Learning Engineer
+4. Cloud Developer
+5. Big Data Engineering
 
-La estructura del programa formativo se compone en dos grandes bloques:
+***
 
-- [Power BI fundamentos 101](/curso-power-bi-fundamentos)
-- [Power BI avanzado 201](/curso-power-bi-avanzado)
+- [ ] - [Introducción al Big Data](#)
+- [ ] - [Arquitectura Lambda](#)
+- [ ] - [Origenes de Hadoop](#)
+- [ ] - [Modelados de datos en Apache Hadoop](#)
+- [ ] - [Apache Hive](#)
+- [ ] - [Apache Spark](#)
+- [ ] - [Spark Streaming](#)
+- [ ] - [Apache Sqoop](#)
+- [ ] - [Apache Flume](#)
+- [X] - [Apache Nifi](/recursos-apache-nifi)
+- [ ] - [Kafka](#)
+- [ ] - [Apache Flink](#)
 
-ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.
 
 * * *
 

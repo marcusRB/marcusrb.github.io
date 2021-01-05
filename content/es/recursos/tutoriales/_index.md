@@ -30,17 +30,10 @@ En esta sección se publicarán los diferentes formatos de cursos y tutoriales, 
 
 ***
 
-- [ ] Servidores
-- [ ] Cloud Computing
-- [X] [UNIX](/tutorial-unix)
-- [ ] Lenguajes de programación
-- [ ] Big Data
-- [ ] Inteligencia Artificial
-- [ ] Business Intelligence
-- [ ] Docker
-- [ ] Map Reduce
-- [ ] Apache Spark
-- [ ] Apache PySpark
-- [ ] Pandas
-- [ ] NumPy
+- [ ] - [Cloud Computing](#)
+- [X] - [UNIX](/tutorial-unix)
+- [ ] - [Lenguajes de programación](#)
+- [X] - [Big Data](/recursos-big-data)
+- [ ] - [Inteligencia Artificial](#)
+- [ ] - [Business Intelligence](#)
   
