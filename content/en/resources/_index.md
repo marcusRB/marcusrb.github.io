@@ -1,5 +1,5 @@
 ---
-title: Recursos & Tutoriales
+title: Resources & Tutorials
 layout: docs  # Do not modify.
 description: En esta sección sse publicarán todo tipos de recursos, tutoriales y materiales (notebook, cheatsheets, ficheros ejecutables, ejemplos) de Inteligencia Artificial, Business Analytics, Visualización de datos, Digital Marketing.
 
