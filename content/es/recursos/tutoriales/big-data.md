@@ -5,7 +5,7 @@ toc: true
 type: docs
 date: "2021-01-04T00:00:00+01:00"
 draft: false
-url: "/recursos-big-data"
+url: "/big-data"
 summary: "El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   tutoriales:
@@ -31,13 +31,13 @@ En esta sección encontraremos los recursos y tutoriales relacionados con el mun
 - [ ] - [Introducción al Big Data](#)
 - [ ] - [Arquitectura Lambda](#)
 - [ ] - [Origenes de Hadoop](#)
-- [ ] - [Modelados de datos en Apache Hadoop](#)
+- [X] - [Modelados de datos en Apache Hadoop](/big-data/recursos-apache-hadoop)
 - [ ] - [Apache Hive](#)
 - [ ] - [Apache Spark](#)
 - [ ] - [Spark Streaming](#)
 - [ ] - [Apache Sqoop](#)
 - [ ] - [Apache Flume](#)
-- [X] - [Apache Nifi](/recursos-apache-nifi)
+- [X] - [Apache Nifi](/big-data/recursos-apache-nifi)
 - [ ] - [Kafka](#)
 - [ ] - [Apache Flink](#)
 
