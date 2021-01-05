@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Import data in Power BI | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="El sistema de archivos controla como se almacenan los archivos en el ordenador. Sus dos tareas principales son guardar y leer archivos previamente guardados.">
+
+  
+  <link rel="alternate" hreflang="en-UK" href="https://www.marcusrb.com/en/power-bi/02-import-data/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Import data in Power BI',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/en/power-bi/02-import-data/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | data specialist &amp; professor • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/en/power-bi/02-import-data/">
+  <meta property="og:title" content="Import data in Power BI | MarcusRB | data specialist &amp; professor • AI • Big Data">
+  <meta property="og:description" content="El sistema de archivos controla como se almacenan los archivos en el ordenador. Sus dos tareas principales son guardar y leer archivos previamente guardados."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="en-UK">
+  
+    
+      <meta property="article:published_time" content="2021-01-04T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-05T13:36:36&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/en/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#home"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/services"><span>Services</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/courses"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/en/power-bi-resources/">Power BI index</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/en/en/power-bi/01-intro-power-bi/">Intro a Power BI</a>
+
+  </div>
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/en/power-bi/02-import-data/">Import Data</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/en/power-bi/03-data-transformation-strategies/">Data transformation strategies</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#importing-data">Importing data</a>
+<ul>
+<li><a href="#excel-as-a-source">Excel as a source</a></li>
+<li><a href="#sql-server-as-a-source">SQL Server as a source</a></li>
+<li><a href="#web-as-a-source">Web as a source</a></li>
+</ul></li>
+<li><a href="#directquery">DirectQuery</a>
+<ul>
+<li><a href="#limitations">Limitations</a></li>
+</ul></li>
+<li><a href="#composite-models">Composite models</a></li>
+<li><a href="#live-connection">Live connection</a>
+<ul>
+<li><a href="#limitations-1">Limitations</a></li>
+</ul></li>
+<li><a href="#which-should-i-choose">Which should I choose?</a></li>
+<li><a href="#summary">Summary</a></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Import data in Power BI</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h1 id="importing-data">Importing data</h1>
+
+<p>Power BI is best known for the impressive data visualizations and dashboard capabilities it has. However, before you can begin building reports, you first need to connect to the necessary  data sources. Within Power BI Desktop, a developer has more than 130  unique data connectors to choose from, ranging from traditional file  types, database engines, big data solutions, cloud sources, data stored  on a web page, and other SaaS providers. This book will not cover all  130 connectors that are available, but it will highlight some of the  most popular.</p>
+
+<p>When establishing a connection to a data source,  you may be presented with one of three different options regarding how  your data will be treated: <strong>Import</strong>, <strong>DirectQuery</strong>, or live connection. This section will focus specifically on the Import option.</p>
+
+<p>Choosing to import data, which is the most common  option and default behavior, means that Power BI will physically extract rows of data from the selected source and store it in an in-memory  storage engine within Power BI. Power BI Desktop uses a special method  for storing data, known as xVelocity,  which is an in-memory technology that not only increases the performance of your query results, but can also highly compress the amount of space taken up by your Power BI solution. In <em>some</em> cases, the compression that takes place can even lower the required disk space by up to one-tenth of the original data source size. The xVelocity engine uses a local unseen instance of <strong>SQL Server Analysis Services</strong> (<strong>SSAS</strong>) to provide these in-memory capabilities.</p>
+
+<p>There are consequences to using the <strong>Import</strong> option within Power BI that you should also consider. These  consequences will be discussed later in this chapter, but as you read  on, consider the following:</p>
+
+<ul>
+<li>How does data that has been imported into Power BI get updated?</li>
+<li>What if I need a dashboard to show near real-time analytics?</li>
+<li>How much data can really be imported into an in-memory storage system?</li>
+</ul>
+
+<p>Now that you are familiar with the underlying  mechanics of importing data, let&rsquo;s try it out with a few of the most  common data source types, starting with Excel.</p>
+
+<h2 id="excel-as-a-source">Excel as a source</h2>
+
+<p>Believe it or not, Excel continues to be the most popular application in the world and, as such, you should expect that at some point, you will be using it as a data source:</p>
+
+<ol>
+<li><p>To get started, open Power BI Desktop and close the start up screen if it automatically appears.</p></li>
+
+<li><p>Under the <strong>Home</strong> ribbon, you will find that <strong>Get data</strong> button, which you already learned is used for selecting and configuring data sources. Selecting the down arrow next to the button will show you the most common data connectors, but selecting the center of the button will launch the full list of all available connectors. Regardless of  which way you select the button, you will find Excel at the top of both  lists.</p></li>
+
+<li><p>Navigate to and open the file called</p>
+
+<pre><code>AdventureWorksDW.xlsx
+</code></pre>
+
+<p>from this book&rsquo;s resources. This will</p></li>
+</ol>
+
+<p>launch the</p>
+
+<p>Navigator</p>
+
+<pre><code>dialog, shown in the following screenshot, which is used for selecting the objects in the Excel 
+</code></pre>
+
+<p>workbook you wish to take data from:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_02.png" alt="img" /></p>
+
+<p>Figure 1.2: The Navigator dialog is used for selecting spreadsheets or tables</p>
+
+<ol>
+<li><p>In this example, you can see six separate  spreadsheets you can choose from. Clicking once on the spreadsheet name  will give you a preview of the data it stores, while clicking the  checkbox next to the name will include it as part of the data import.  For this example, select the checkboxes next to all of the available  objects, then notice the options available at the bottom right.</p></li>
+
+<li><p>Selecting <strong>Load</strong> will immediately take the data from the selected spreadsheets and import them as  separate tables into your Power BI data model. Choosing <strong>Transform Data</strong> will launch an entirely new window called Power Query Editor, which allows you to apply business rules or transform to your data prior to  importing it. You will learn much more about Power Query Editor in <em>Chapter 2</em>, <em>Data Transformation Strategies</em>. Since you will learn more about this later, simply select <strong>Load</strong> to end this example.</p></li>
+</ol>
+
+<p>Another topic you will learn more about in <em>Chapter 7</em>, <em>Using a Cloud Deployment with the Power BI Service</em>, is the concept of data refreshes. This is important because, when  you import data into Power BI, that data remains static until another  refresh is initiated. This refresh can either be initiated manually or set on a schedule. This also requires the installation of  Data Gateway, the application in charge of securely pushing data into  Power BI Service. Feel free to skip to <em>Chapter 7</em>, <em>Using a Cloud Deployment with the Power BI Service</em>, if configuring a data refresh is a subject you need to know about now.</p>
+
+<h2 id="sql-server-as-a-source">SQL Server as a source</h2>
+
+<p>Another common source designed for relational databases is Microsoft SQL Server:</p>
+
+<ol>
+<li>To connect to SQL Server, select the</li>
+</ol>
+
+<p>Get data</p>
+
+<pre><code>button again, but this time choose 
+</code></pre>
+
+<p>SQL Server</p>
+
+<p>. The following screenshot shows that you must provide the server, but the database is optional and can be selected later:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_03.png" alt="img" /></p>
+
+<p>Figure 1.3: Establishing a connection to SQL Server</p>
+
+<ol>
+<li>On your first use of SQL server, you are asked to choose the type of</li>
+</ol>
+
+<p>Data Connectivity mode</p>
+
+<pre><code>you would like. As mentioned previously, 
+</code></pre>
+
+<p>Import</p>
+
+<pre><code>is the default mode, but you can optionally select 
+</code></pre>
+
+<p>DirectQuery</p>
+
+<p>. DirectQuery will be discussed in greater detail later in this</p>
+
+<p>chapter. Expanding the</p>
+
+<p>Advanced</p>
+
+<pre><code>options provides a way to insert a SQL statement that may be used as your source. For the 
+</code></pre>
+
+<p>following example, the</p>
+
+<p>Server</p>
+
+<pre><code>name property is the only property populated before you click 
+</code></pre>
+
+<p>OK</p>
+
+<p>:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_04.png" alt="img" /></p>
+
+<p>Figure 1.4: Providing credentials to SQL Server</p>
+
+<ol>
+<li><p>Next, you will be prompted, as shown in the  preceding screenshot, to provide the credentials you are using to  connect to the database server you provided on the previous screen.</p></li>
+
+<li><p>Click <strong>Connect</strong> after providing the proper credentials. You may be prompted with a  warning stating that Power BI is only able to access the data source  using an unencrypted connection. Click <strong>OK</strong> if you encounter this to launch the same <strong>Navigator</strong> dialog that you may remember from when you connected to Excel. Here, you will select the  tables, views, or functions within your SQL Server database that you  wish to import into your Power BI solution. Once again, the final step in this dialog allows you to choose to either <strong>Load</strong> or <strong>Transform Data</strong>.</p></li>
+</ol>
+
+<p>Now that you have a better understanding of how to connect to some of the most common data sources, let&rsquo;s look at one that is rather unique.</p>
+
+<h2 id="web-as-a-source">Web as a source</h2>
+
+<p>One pleasant surprise to many Power BI developers is the availability of a web connector. Using this connection type allows you to source data from files that are stored on a website, or even data that has been embedded into an HTML table on a web page. Using this type of connector can  often be helpful when you would like to supplement your internal  corporate data sources with information that can be publicly found on  the internet.</p>
+
+<p>For this example, imagine you are working for a  major automobile manufacturer in the United States. You have already  designed a Power BI solution using data internally available within your organization that shows historical patterns in sales trends. However,  you would like to determine whether there are any correlations in  periods of historically higher fuel prices and lower automobile sales.  Fortunately, you found that the United States Department of Labor  publicly posts the historical average consumer prices of many commonly  purchased items, including fuel prices:</p>
+
+<ol>
+<li>Now that you understand the scenario within Power BI Desktop, select the</li>
+</ol>
+
+<p>Get data</p>
+
+<pre><code>button and choose 
+</code></pre>
+
+<p>Web</p>
+
+<pre><code>as your source. You will then be prompted to provide the 
+</code></pre>
+
+<p>URL</p>
+
+<pre><code>where the data can be found. In this example, the data can be found by 
+</code></pre>
+
+<p>searching on the website</p>
+
+<p><a href="https://www.data.gov/" target="_blank">https://www.data.gov/</a></p>
+
+<p>. Alternatively, to save you some time, use the direct link:</p>
+
+<p><a href="https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline" target="_blank">https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline</a></p>
+
+<p>. Once you provide the</p>
+
+<p>URL</p>
+
+<p>, click</p>
+
+<p>OK</p>
+
+<p>, as shown in the following screenshot:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_05.png" alt="img" /></p>
+
+<p>Figure 1.5: Providing the URL where your data can be found</p>
+
+<ol>
+<li>Next, you will likely be prompted with an</li>
+</ol>
+
+<p>Access Web Content</p>
+
+<pre><code>dialog box. This is important 
+</code></pre>
+
+<p>when you are using a data source that requires someone to log in to access it. Since this</p>
+
+<p>data source does not require a login to find the data, you can simply select anonymous access, which is the default, and then click</p>
+
+<p>Connect</p>
+
+<p>, as shown in the following screenshot:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_06.png" alt="img" /></p>
+
+<p>Figure 1.6: A preview of the data is shown before you import it into Power BI</p>
+
+<ol>
+<li>Notice on the next screen that Power BI Desktop recognizes the URL you provided as a tab-delimited file. This can now easily be added to any existing data model you have designed.</li>
+</ol>
+
+<p>Now that you&rsquo;ve learned how to connect to various  data sources, it is important to discuss in more depth the different  data storage modes.</p>
+
+<h1 id="directquery">DirectQuery</h1>
+
+<p>Many of you have likely been trying to envision how you may implement these data imports in your  environment. You may have asked yourself questions such as the  following:</p>
+
+<ul>
+<li>If data imported into Power BI uses an  in-memory technology, did my company provide me with a machine that has  enough memory to handle this?</li>
+<li>Am I really going to import my source table with tens of billions of rows into memory?</li>
+<li>How do I handle the requirement of displaying results in real time from the source?</li>
+</ul>
+
+<p>These are all excellent questions that would have  many negative answers if the only way to connect to your data was by  importing your source into Power BI. Fortunately, there is another way.  Using DirectQuery, Power BI allows you to connect directly to a data  source so that no data is imported or copied into Power BI Desktop.</p>
+
+<p>Why is this a good thing? Consider the questions  that were asked at the beginning of this section. Since no data is  imported to Power BI Desktop, this means it is less important how  powerful your personal laptop is. This is because all query results  are now processed on the source server instead of your laptop. It also  means that there is no need to refresh the results in Power BI, since  any reports you design are always pointing to a live version of the data source. That&rsquo;s a huge benefit!</p>
+
+<p>The following screenshot shows a connection to a SQL Server database with the <strong>DirectQuery</strong> option selected:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_07.png" alt="img" /></p>
+
+<p>Figure 1.7: SQL Server Data Connectivity mode allows you to switch to DirectQuery mode</p>
+
+<p>Earlier in this chapter, the Data Gateway  application was mentioned as a requirement for scheduling data refreshes for sources that used the <strong>Import</strong> option. This same application is also needed with <strong>DirectQuery</strong> if your data is an on-premises source. Even though there is no  scheduled data refresh, the Data Gateway application is still required  to push on-premises data into the cloud. Again, this will be discussed  in more depth in <em>Chapter 7</em>, <em>Using a Cloud Deployment with the Power BI Service</em>.</p>
+
+<h2 id="limitations">Limitations</h2>
+
+<p>So, if DirectQuery is so great, why not choose it every time? Well, with every great feature, you will also find limitations. The first glaring limitation is that not all data sources support  DirectQuery. At the time this book was written, the following data  sources support DirectQuery in Power BI:</p>
+
+<ul>
+<li>Amazon Redshift</li>
+<li>AtScale Cubes</li>
+<li>Azure HDInsight Spark</li>
+<li>Azure SQL Database</li>
+<li>Azure SQL Data Warehouse</li>
+<li>BI Connector</li>
+<li>Denodo</li>
+<li>Dremio</li>
+<li>Essbase</li>
+<li>Exasol</li>
+<li>Google BigQuery</li>
+<li>HDInsight Interactive Query</li>
+<li>IBM DB2</li>
+<li>IBM Netezza</li>
+<li>Impala</li>
+<li>Indexima</li>
+<li>Intersystems IRIS</li>
+<li>Jethro ODBC</li>
+<li>Kyligence Enterprise</li>
+<li>MarkLogic ODBC</li>
+<li>Oracle</li>
+<li>PostgreSQL</li>
+<li>Power BI datasets</li>
+<li>QubolePresto</li>
+<li>SAP Business Warehouse Message Server</li>
+<li>SAP Business Warehouse Server</li>
+<li>SAP HANA</li>
+<li>Snowflake</li>
+<li>Spark</li>
+<li>SQL Server</li>
+<li>Teradata Database</li>
+<li>Vertica</li>
+</ul>
+
+<p>Depending on the data source you choose, there is a chance of slower query performance when using DirectQuery compared to  the default data import option. Keep in mind that when the <strong>Import</strong> option is selected, it leverages a highly sophisticated in-memory  storage engine. When selecting DirectQuery, performance will depend on  the source type you have chosen from the preceding list.</p>
+
+<p>Another limitation worth noting is that not all Power BI features are supported when you choose DirectQuery. For example, depending on the selected source, some of the Power Query Editor  features are disabled and could result in the following message: &ldquo;<strong>This step results in a query that is not supported in DirectQuery mode</strong>.&rdquo; The following screenshot shows this response:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_08.png" alt="img" /></p>
+
+<p>Figure 1.8: Certain transforms may force a user out of DirectQuery mode</p>
+
+<p>The reason for this limitation is because  DirectQuery automatically attempts to convert any Power Query steps into a query in the data source&rsquo;s native language. So, if the source of this solution was SQL Server, then Power BI would attempt to convert this  data transformation into a comparable T-SQL script. Once Power BI  realizes Power Query Editor used a function that is not compatible with  the source, the error is generated.</p>
+
+<h1 id="composite-models">Composite models</h1>
+
+<p>Occasionally, you may find it helpful for your  data model to take a hybrid approach regarding how it stores data. For  example, you want sales transactions to be displayed in near real time  on your dashboard, so you set your <code>SalesTransaction</code> table to use DirectQuery. However, your <code>Product</code> table rarely has values that are added or changed. Having values that  do not change often make it a great candidate for the imported data  storage method to take advantage of the performance benefits.</p>
+
+<p>This describes a perfect scenario for utilizing a  feature called composite models. Composite models allow a single Power  BI solution to include both DirectQuery and import table connections  within one data model. From the Power BI developer&rsquo;s perspective, you  can take advantage of the best parts of each data storage mode within  your design.</p>
+
+<p>Another effective use case for  composite models is available due to a feature called aggregations.  Leveraging aggregations is one of the best ways to manage extremely  large datasets in Power BI. You will learn more about designing  aggregations in <em>Chapter 3</em>, <em>Building the Data Model</em>.</p>
+
+<p>Within Power BI Desktop, it is clear a solution is leveraging composite models if we view the storage mode in the  bottom-right corner of the tool. Clicking this corner, shown in the  following screenshot, will allow you to switch all tables to <strong>Import</strong> mode instead. Optionally, if you need to change the storage mode of individual tables, this can be accomplished in the <strong>Model</strong> view by selecting individual tables:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_09.png" alt="img" /></p>
+
+<p>Figure 1.9: The bottom-right corner allows you to switch storage modes for the entire model</p>
+
+<p>While composite models give you the best of DirectQuery and import models, there&rsquo;s a third storage mode that is often used for data sources that are highly groomed by IT.</p>
+
+<h1 id="live-connection">Live connection</h1>
+
+<p>The basic concept of live connection is very  similar to that of DirectQuery. Just like DirectQuery, when you use a  live connection, no data is actually imported into Power BI. Instead,  your solution points directly to the  underlying data source and leverages Power BI Desktop simply as a data  visualization tool. So, if these two things are so similar, why give  them different names? The answer is because even though the basic  concept is the same, DirectQuery and live connection vary greatly.</p>
+
+<p>One difference that should quickly be noticeable  is the query performance experience. It was mentioned in a previous  section that DirectQuery can often have poor performance, depending on  the data source type. With live connection, you generally will not have  any performance problem because it is only supported by the following  types of data sources:</p>
+
+<ul>
+<li>SQL Server Analysis Services database</li>
+<li>Azure Analysis Services database</li>
+<li>Power BI datasets</li>
+</ul>
+
+<p>The reason performance does not suffer with these  data sources is because they either use the same xVelocity engine that  Power BI does, or another high-performance storage engine. To set up  your own live connection to one of these sources, you can choose the <strong>SQL Server Analysis Services database</strong> from the list of connectors after selecting <strong>Get data</strong>. The following screenshot shows that you can specify that the connection should be set to <strong>Connect live</strong>:</p>
+
+<p><img src="https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_10.png" alt="img" /></p>
+
+<p>Figure 1.10: SQL Server Analysis Services Data Connectivity mode allows you to switch to Connect live mode</p>
+
+<p>If a dataset is configured for a Live connection or DirectQuery, then you can expect automatic refreshes to occur approximately each hour by default. You can manually adjust  the refresh frequency in the Scheduled cache refresh option in the Power BI service.</p>
+
+<p>Of course, these benefits don&rsquo;t come without a cost. Let&rsquo;s discuss some of the limitations of Live connection.</p>
+
+<h2 id="limitations-1">Limitations</h2>
+
+<p>So far, this sounds great! You have now learned that you can connect directly to your data sources, without importing data into your model, and that you won&rsquo;t have significant  performance consequences. Of course, these benefits don&rsquo;t come without  giving something up, so what are the limitations of a live connection?</p>
+
+<p>What you will encounter with live connections are  limitations that are generally a result of the fact that Analysis  Services is an Enterprise BI tool. Thus, if you are going to connect to  it, then it has probably already gone through significant data cleansing and modeling by your IT team.</p>
+
+<p>Modeling capabilities such as defining  relationships are not available because these would be designed in an  Analysis Services Model. Also, Power Query Editor is not available at  all against a Live connection source.  While, at times, this may be frustrating, it does make sense that it  works this way. This is because any of the changes you may desire to  make with relationships or in the Power Query Editor should be done in  Analysis Services, not Power BI.</p>
+
+<h1 id="which-should-i-choose">Which should I choose?</h1>
+
+<p>Now that you have learned about the three  different ways to connect to your data, you are left wondering which  option is best for you. It&rsquo;s fair to say that the choice you make will  really depend on the requirements of each individual project you have.</p>
+
+<p>To summarize, some of the considerations that were mentioned in this chapter are listed in the following table:</p>
+
+<table>
+<thead>
+<tr>
+<th>Consideration</th>
+<th>Import Data</th>
+<th>DirectQuery</th>
+<th>Live connection</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Best performance</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>Best design experience</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td>Best for keeping data up to date</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>Data source availability</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td>Most scalable</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+<p>Some of the items you&rsquo;ll consider may be more important than others. So, to make this more personal, try using the <code>Data Connectivity - Decision Matrix</code> file that is included with this book. In this file, you can rank (from 1 to 10) the importance of each of these considerations to help you  choose which option is best for you.</p>
+
+<p>Since the <strong>Import Data</strong> option presents the most available features, going forward, this book primarily uses this option. In <em>Chapter 2</em>, <em>Data Transformation Strategies</em>, you will learn how to implement data transformation strategies to  ensure all the necessary business rules are applied to your data.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>Power BI provides users with a variety of methods  for connecting to data sources with natively built-in data connectors.  The connector you choose for your solution will depend on where your  data is located. Once you&rsquo;ve connected to a data source, you can decide  on what type of query mode best suits your needs. Some connectors allow  for little to no latency in your results with options like DirectQuery  or live connection. In this chapter, you learned about the benefits and  disadvantages of each query mode, and you were given a method for  weighting these options using a decision matrix.</p>
+
+<p>In the next chapter, you will learn more about how data transformations may be applied to your data import process so that incoming data will be properly cleansed.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/en/power-bi/03-data-transformation-strategies/" rel="next">Data transformation strategies</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/en/en/power-bi/01-intro-power-bi/" rel="prev">Introduction to Power BI</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 5, 2021</p>
+
+          
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/resources/tutorials/power-bi/02-import-data%20copy.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/en/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
