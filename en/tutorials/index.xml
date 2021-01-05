@@ -62,6 +62,26 @@
     </item>
     
     <item>
+      <title>Data visualizacion resourcs</title>
+      <link>https://www.marcusrb.com/en/data-visualization-resources/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/en/data-visualization-resources/</guid>
+      <description>
+
+&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/en/power-bi-resources&#34;&gt;Guía de Microsoft Power BI&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Tableau&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Google Data Studio&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Grafana&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Recursos de Inteligencia Artificial</title>
       <link>https://www.marcusrb.com/recursos-inteligencia-artificial/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
@@ -88,26 +108,6 @@
 &lt;h2 id=&#34;curso-avanzado-en-dax-y-power-query-de-power-bi-70-horas&#34;&gt;Curso avanzado en DAX y Power Query de Power BI (~70 horas)&lt;/h2&gt;
 
 &lt;p&gt;Incluye el &lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;curso de fundamentos&lt;/a&gt; 101 más:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Recursos de Visualización de datos</title>
-      <link>https://www.marcusrb.com/recursos-visualizacion-datos/</link>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/recursos-visualizacion-datos/</guid>
-      <description>
-
-&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
-
-&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/recursos-power-bi&#34;&gt;Guía de Microsoft Power BI&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Tableau&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Google Data Studio&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Grafana&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
