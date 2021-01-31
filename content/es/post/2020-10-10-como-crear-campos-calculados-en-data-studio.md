@@ -13,7 +13,7 @@ categories = ["Data Visualization"]
 authors = ["marcusRB"]
 +++
 
-# ¿Cómo crear campos calculados en Google Data Studio?
+## Guía muy útil de como crear los campos calculados en Google Data Studio.
 
 Es muy probable que ya conozcas la [herramienta de visualización Google Data Studio](/generamos-dashboard-data-studio), un servicio gestionado de Google alojado en la nube.
 

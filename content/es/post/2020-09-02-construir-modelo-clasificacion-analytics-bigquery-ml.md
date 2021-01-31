@@ -13,7 +13,7 @@ categories = ["Data Analytics"]
 authors = ["marcusRB"]
 +++
 
-# Modelo de clasificación con Google Analytics y BigQuery ML.
+## Veamos como realizar un modelo de clasificación con Google Analytics y BigQuery ML.
 
 
 Si eres analista de datos o trabajas codo a codo con el departamento de Marketing Digital, quizás sea típico en tu día a día tener que utilizar **la herramienta de análisis Google Analytics**, acompañada de otras tools de exploración de datos (hojas de cálculos, API nativas, herramientas de terceros).

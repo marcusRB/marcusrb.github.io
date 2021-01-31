@@ -13,7 +13,7 @@ authors = ["marcusRB"]
 
 +++
 
-# Cómo automatizar tareas de Machine Learning en KNIME
+## Cómo automatizar tareas de Machine Learning con la herramienta de ETL y Machine Learning, KNIME
 
 ¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?
 

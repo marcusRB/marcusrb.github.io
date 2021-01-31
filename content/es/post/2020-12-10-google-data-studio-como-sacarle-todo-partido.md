@@ -13,7 +13,6 @@ categories = ["Data Visualization"]
 authors = ["marcusRB"]
 +++
 
-# ¿Google Data Studio, ¿cómo sacarle todo el partido?
 
 Hace unas semanas os mostramos [cómo crear campos calculados con Google Data Studio](https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/) mediante una planificación con nuevos atributos y nuevas métricas,  mejor conocidos como "campos calculados", y, además, cuándo crearlos.  Tenemos varias opciones de creación y, entre ellas, pusimos los ejemplos de las 5 funciones más utilizadas. Hoy os explicamos en concreto los  casos de uso y resolvemos algunas de las preguntas más frecuentes.
 

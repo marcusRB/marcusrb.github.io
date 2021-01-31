@@ -13,6 +13,8 @@ categories = ["Data Visualization"]
 authors = ["marcusRB"]
 +++
 
+## Integramos scripts en R en nuestros cuadro de mando y dashboards de Tableau.
+
 El pasado mes de octubre presentamos un interesante webinar sobre [cómo integrar R y Python en la plataforma Power BI](https://www.paradigmadigital.com/eventos/r-y-python-en-tus-analisis-de-datos/) (y además con su propio hashtag #PoweR-Py). En este post os contamos cómo integrar la herramienta más utilizada para los analistas de datos, estadísticos y expertos en data mining, con la otra competidora de las herramientas de visualización de inteligencia de negocio, Tableau.
 
 ## ¿Por qué utilizar R en las herramientas de visualización Tableau?

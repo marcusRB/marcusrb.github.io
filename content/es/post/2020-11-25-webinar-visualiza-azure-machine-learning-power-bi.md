@@ -12,7 +12,7 @@ categories = ["Data Visualization", "Webinar", "Machine Learning"]
 authors = ["marcusRB"]
 +++
 
-# Cómo visualizar los modelos de machine learning en Power BI
+## Cómo visualizar los modelos de machine learning en Power BI
 
 En este Webinar haremos un recorrido desde Azure ML a Databricks, así como BigQuery ML pasando por Knime, hasta los modelos realizados de forma nativa con scikit-learn, PyTorch con Python y R, y otras técnicas más de minería y análisis.
 
