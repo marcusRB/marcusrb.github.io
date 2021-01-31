@@ -1,11 +1,11 @@
 ---
-title: Recursos de Inteligencia Artificial
-linktitle: Inteligencia Artificial
+title: Artificial Intelligence resources
+linktitle: Artificial Intelligence
 toc: true
 type: docs
 date: "2021-01-04T00:00:00+01:00"
 draft: true
-url: "/recursos-inteligencia-artificial"
+url: "/artificial-intelligence-resources"
 summary: "El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."
 menu:
   tutorials:

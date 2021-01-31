@@ -26,16 +26,13 @@ menu:
 
 - [X] [Introducción a Unix](/unix/01-unix-intro)
 - [X] [Sistema de ficheros](/unix/02-sistema-ficheros)
-- [ ] [Control de procesos]
-- [ ] Flujos de información
-- [ ] Procesamiento de ficheros de texto
-- [ ] Expresiones regulares
-- [ ] Scripts de Bash
-- [ ] Administrador
-- [ ] Administración de software 1
-- [ ] Variables de entorno
-- [ ] Administración de software 2
-- [ ] Redes
-
-
-
+- [X] [Control de procesos](/unix/03-procesos)
+- [X] [Flujos de información](/unix/04-flujo-informacion)
+- [X] [Procesamiento de ficheros de texto](/unix/05-procesamiento-texto)
+- [X] [Expresiones regulares](/unix/06-expresiones-regulares)
+- [X] [Scripts de Bash](/unix/07-scripts-bash)
+- [X] [Administrador](/unix/08-administrador)
+- [X] [Administración de software 1](/unix/09-administrador-software)
+- [X] [Variables de entorno](/unix/10-variables-entorno)
+- [X] [Administración de software 2](/unix/11-administracion-software-2)
+- [X] [Redes](/unix/12-redes)

@@ -1,7 +1,7 @@
 ---
-title: Cursos y formación en remoto
+title: Online courses and trainer programs
 layout: docs  # Do not modify.
-description: En esta sección se publicarán los diferentes formatos de cursos y tutoriales, de rutas de aprendizajes de la plataforma de Google Marketing, Data Science, Data y Business Analytics, Data Visualization.
+description: In this section the different formats of courses and tutorials will be published, of learning paths of the Google Marketing platform, Data Science, Data and Business Analytics, Data Visualization.
 
 
 # Optional header image (relative to `static/img/` folder).
@@ -10,15 +10,15 @@ header:
   image: ""
 ---
 
-En esta sección se ofrecen las diferentes opciones de formación y cursos (presencial, en remoto, blending), de las rutas de aprendizajes de la plataforma de **Google Marketing**, **Data Science**, **Data y Business Analytics**, **Data Visualization** y **Cloud Computing**. 
+This section offers the different training options and courses (face-to-face, remote, blending), of the learning routes of the **Google Marketing Platform**, **Data Science**, **Data and Business Analytics platform**, **Data Visualization** and **Cloud Computing**.
 
-Además cada sección tendrá su espacio con las documentaciones técnicas, manuales, recursos. Los repositorios serán accesibles en GitHub o Bitbucket.
+In addition, each section will have its space with technical documentation, manuals, resources. The repositories will be accessible on GitHub or Bitbucket.
 
-* **[Campus cursos KPIschool](https://campus.kpischool.eu/)**
-* **[Cursos UDEMY](https://www.udemy.com/user/marco-russo-4/)**
+* **[KPIschool online campus](https://campus.kpischool.eu/)**
+* **[UDEMY courses](https://www.udemy.com/user/marco-russo-4/)**
 
 ***
 
 ## Learning Path
 
-Puedes escoger tu plan de estudio según el interés en **Ciencia de datos**, **Big Data**, **Inteligencia de negocio**, ,**Análisis de datos**, **Marketing digital**.
+You can choose your study plan according to your interest in **Data Science**, **Big Data**, **Business Intelligence** and **Data Analysis**, **Digital Marketing**.
