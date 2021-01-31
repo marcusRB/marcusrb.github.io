@@ -83,8 +83,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/tutorial-unix/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <loc>https://www.marcusrb.com/unix-tutorials/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -128,13 +128,13 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/en/resources/tutorials/python/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <loc>https://www.marcusrb.com/python-tutorials/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/en/tutorials/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -160,6 +160,11 @@
   <url>
     <loc>https://www.marcusrb.com/en/courses/data-science/intro-machine-learning/ml101-0-reglas1/</loc>
     <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/databricks-tutorials/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -288,8 +293,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/recursos-big-data/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <loc>https://www.marcusrb.com/big-data-resource/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -364,7 +369,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/en/</loc>
-    <lastmod>2021-01-05T13:36:36+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -780,7 +785,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/en/courses/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>

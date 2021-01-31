@@ -5183,21 +5183,21 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
     </item>
     
     <item>
-      <title>Recursos de Big Data</title>
-      <link>https://www.marcusrb.com/recursos-big-data/</link>
+      <title>Big Data Engineer</title>
+      <link>https://www.marcusrb.com/big-data-resource/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
-      <guid>https://www.marcusrb.com/recursos-big-data/</guid>
+      <guid>https://www.marcusrb.com/big-data-resource/</guid>
       <description>
 
 &lt;p&gt;LOREM IPSUM&lt;/p&gt;
 
-&lt;h2 id=&#34;estructura-del-programa-y-cursos&#34;&gt;Estructura del programa y cursos&lt;/h2&gt;
+&lt;h2 id=&#34;program-structure&#34;&gt;Program structure&lt;/h2&gt;
 
 &lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-fundamentos&#34;&gt;Power BI fundamentos 101&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.marcusrb.com/curso-power-bi-avanzado&#34;&gt;Power BI avanzado 201&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[ ] &lt;a href=&#34;https://www.marcusrb.com/databricks-fundamentals&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;

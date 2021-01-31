@@ -78,8 +78,38 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/unix/11-administracion-software-2/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/08-administrador/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/09-administrador-software/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/recursos/cheatsheets/</loc>
     <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/03-control-procesos/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/06-expresiones-regulares/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/04-flujo-informacion/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -93,13 +123,33 @@
   </url>
   
   <url>
+    <loc>https://www.marcusrb.com/unix/05-procesamiento-texto/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/12-redes/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/07-scripts-bash/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.marcusrb.com/unix/02-sistema-ficheros/</loc>
     <lastmod>2021-01-05T12:19:21+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.marcusrb.com/tutorial-unix/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/unix/10-variables-entorno/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -303,8 +353,8 @@
   </url>
   
   <url>
-    <loc>https://www.marcusrb.com/big-data/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
+    <loc>https://www.marcusrb.com/recursos-big-data/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
@@ -389,7 +439,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -405,7 +455,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -426,7 +476,7 @@
   
   <url>
     <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -438,6 +488,11 @@
                 hreflang="es"
                 href="https://www.marcusrb.com/authors/marcusrb/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.marcusrb.com/como-integrar-script-r-dashbordards-tableau/</loc>
+    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
   </url>
   
   <url>
