@@ -261,6 +261,323 @@ Para resolver esto, puede usar el número en tu declaración de condición o usa
     </item>
     
     <item>
+      <title>¿Cómo integrar script de R en tus insights con Tableau?</title>
+      <link>https://www.marcusrb.com/como-integrar-script-r-dashbordards-tableau/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/como-integrar-script-r-dashbordards-tableau/</guid>
+      <description>
+
+&lt;p&gt;El pasado mes de octubre presentamos un interesante webinar sobre &lt;a href=&#34;https://www.paradigmadigital.com/eventos/r-y-python-en-tus-analisis-de-datos/&#34; target=&#34;_blank&#34;&gt;cómo integrar R y Python en la plataforma Power BI&lt;/a&gt; (y además con su propio hashtag #PoweR-Py). En este post os contamos cómo integrar la herramienta más utilizada para los analistas de datos, estadísticos y expertos en data mining, con la otra competidora de las herramientas de visualización de inteligencia de negocio, Tableau.&lt;/p&gt;
+
+&lt;h2 id=&#34;por-qué-utilizar-r-en-las-herramientas-de-visualización-tableau&#34;&gt;¿Por qué utilizar R en las herramientas de visualización Tableau?&lt;/h2&gt;
+
+&lt;p&gt;R es un lenguaje de análisis estadístico de código abierto. Aquí puedes ver pequeños tutoriales y casos de uso con este lenguaje en su propio entorno de R Studio, por ejemplo, analizando &lt;a href=&#34;https://www.paradigmadigital.com/dev/analitica-web-r-estadisticas-descriptivas-predictivas/&#34; target=&#34;_blank&#34;&gt;tendencias, clustering y Market Basket Analysis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La gran mayoría de casos de usos se extendieron en los años noventa, principalmente en el entorno universitario, y llegando hasta los entornos de producción de bancos, seguros y muchas empresas.&lt;/p&gt;
+
+&lt;p&gt;Con el avance de la era Big Data y la visualización de información en las empresas para la toma de decisiones, ha ido creciendo la necesidad de realizar operaciones con entornos tales como SAS, Stata, R o Python sobre las propias herramientas que aportan la visualización (como Tableau) para poder aprovechar al máximo las posibilidades de estos lenguajes, tanto para recogida de datos, transformación, limpieza y preparación para, posteriormente, poder realizar tareas típicas de un analista de datos, minería de datos y Machine Learning, visualización y descubrimiento de nuevos insights.&lt;/p&gt;
+
+&lt;p&gt;Dentro del entorno de Tableau, podemos utilizar R a través de campos calculados y aprovechar los beneficios que brindan las funciones, bibliotecas y paquetes este lenguaje. Estos cálculos invocan dinámicamente el motor R y pasan valores a través del paquete Rserve (como veremos más adelante), devolviendo así los resultados calculados a Tableau. Esta integración de R con Tableau aprovecha las capacidades analíticas estadísticas de R con el poder de visualización típica de estas herramienta &amp;ldquo;arrastrar - soltar&amp;rdquo;, como el caso de Tableau.&lt;/p&gt;
+
+&lt;h2 id=&#34;preparar-el-terreno-de-juego-entornos&#34;&gt;Preparar el terreno de juego: entornos&lt;/h2&gt;
+
+&lt;p&gt;Es importante entender el funcionamiento desde el principio, ya que puede constar enfocarlo. Normalmente, un analista de negocio (o bien un analista de datos) suele trabajar en local, donde realiza sus operaciones a través de varias herramientas interconectadas a la base de datos, repositorios en Cloud, etc. Lógicamente utilizaremos R Studio (la tool con capa visual que para el lenguaje R), para poder crear este vínculo. La realidad es que Tableau Server, la aplicación versión enterprise en la nube, se conectaría con R Server para que todo esté en la nube, securizado y sin depender de nuestro ordenador, con sus limitaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requisitos a tener en cuenta:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tableau Deskop:&lt;/strong&gt; obviamente no podemos depender de una una versión free, como la Public, así que en el caso de que no tengas la versión de pago, puedes aprovechar el &lt;a href=&#34;https://www.tableau.com/es-es/products/trial&#34; target=&#34;_blank&#34;&gt;free-trial de 15 días&lt;/a&gt; (para este caso de uso y el siguiente de Python estaría bien). Está disponibile tanto para Windows que MacOS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R / R commander:&lt;/strong&gt; es el motor de R, por lo que &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;instalaremos su versión última&lt;/a&gt; tanto en Windows / MacOS o su alternativa a través de la tool de análisis y ciencia de datos, Anaconda (aunque personalmente no la recomiendo por su peso excesivo e innecesario).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R Studio:&lt;/strong&gt; la &lt;a href=&#34;https://rstudio.com/products/rstudio/download/&#34; target=&#34;_blank&#34;&gt;tool de gestión de R&lt;/a&gt; en manera más cómoda, entorno amigable y donde podemos aprovechar al máximo nuestras tareas de minería de datos y análisis. Además, es open source y free.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;instalamos-los-paquetes-necesarios-en-r-studio&#34;&gt;Instalamos los paquetes necesarios en R Studio&lt;/h3&gt;
+
+&lt;p&gt;Simplemente nos situamos en &lt;em&gt;Packages&lt;/em&gt; y efectuamos la instalación de &lt;strong&gt;Rserve,&lt;/strong&gt; el motor que nos sirve de comunicación con Tableau.&lt;/p&gt;
+
+&lt;p&gt;La manera manual de instalar un paquete también puede ser efectuado por código:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# Instalamos Rserve
+install.packages(&amp;quot;Rserve&amp;quot;)
+
+# Cargamos la librería
+library(RServe)
+
+# Ejecutamos la sección de ayuda y comprobar sus funciones
+help(RServe)
+
+# Ejecutamos para su comprobación
+Rserve()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;En caso de que tengas error con este último comando, especialmente si estás en &lt;strong&gt;MacOS,&lt;/strong&gt; es probable que debas utilizar este comando para ejecutarlo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# Ejecutamos Rserve en Mac OSx
+Rserve::run.Rserve()
+
+# El resultado en consola será:
+&amp;gt;&amp;gt; running Rserve in this R session (pid=xxxx), 1 server(s) --
+(This session will block until Rserve is shut down)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;En este punto R Studio se quedará abierto y enviará todas sus informaciones a Tableau. Acuérdate de no cerrar la sesión de R durante la práctica con Tableau porque si perdemos la conexión ya no podemos ejecutar las funciones.&lt;/p&gt;
+
+&lt;h3 id=&#34;abrimos-tableau-desktop-y-seguimos-con-los-pasos-indicados&#34;&gt;Abrimos Tableau Desktop y seguimos con los pasos indicados:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vamos en la sección Help tal como en la captura:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/c626c49dfbec4ebb917c775c5ee92210.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seguimos los mismos pasos indicados y probamos la conexión:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/9a55fcdc5c6040f988221ffd9f2a1bba.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora podemos utilizar unas funciones que sin R ni Python sería imposible usar.&lt;/p&gt;
+
+&lt;h3 id=&#34;explicación-de-las-funciones-de-tabla&#34;&gt;Explicación de las funciones de tabla&lt;/h3&gt;
+
+&lt;p&gt;Existen 4 funciones principales asociadas a la categoría Funciones de cálculo de tablas, especiales para la conexión con R y Python y son:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SCRIPT_STR:&lt;/strong&gt; Indica un resultado de cadena de la expresión especificada. La expresión se pasa directamente a una instancia de extensión de análisis en ejecución. En las expresiones R utilizamos .argn (con un punto inicial) para hacer referencia a parámetros (.arg1, .arg2, etc.). En las expresiones de Python, utilice _argn (con un guión bajo inicial).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SCRIPT_BOOL:&lt;/strong&gt; Indica un resultado booleano de la expresión especificada. La expresión se pasa directamente a una instancia de extensión de análisis en ejecución. En las expresiones R usamos .argn (con un punto inicial) para hacer referencia a parámetros (.arg1, .arg2, etc.). En las expresiones de Python, _argn (con un guión bajo inicial).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SCRIPT_REAL:&lt;/strong&gt; Indica un resultado con un valor numérico real de la expresión especificada. La expresión se pasa directamente a una instancia de extensión de análisis en ejecución. En las expresiones R utilizamos .argn (con un punto inicial) para hacer referencia a parámetros (.arg1, .arg2, etc.). En las expresiones de Python, _argn (con un guión bajo inicial).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SCRIPT_INT:&lt;/strong&gt; Indica un número entero como resultado de la expresión especificada. La expresión se pasa directamente a una instancia de extensión de análisis en ejecución. En las expresiones R, .argn (con un punto inicial) para hacer referencia a parámetros (.arg1, .arg2, etc.). En las de Python, _argn (con un guión bajo inicial).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para estas cuatro funciones utilizaremos las muestras de ejemplo &lt;em&gt;Sample-Superstore.xlsx&lt;/em&gt; que viene por defecto en nuestro Tableau. Sucesivamente cargaremos otros dataset de ejemplo directamente desde R Studio.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo-con-la-función-script-str&#34;&gt;Demo con la función SCRIPT_STR()&lt;/h2&gt;
+
+&lt;p&gt;En esta demo veremos el uso más sencillo de esta función: cómo realizar una extracción del campo “name”. Una vez efectuada la conexión en R, abrimos un nuevo proyecto y cargamos el dataset de ejemplo. Sucesivamente creamos el primer campo calculado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# CustFirstName
+SCRIPT_STR(
+&#39;
+substr(.arg1, 1, regexpr(&amp;quot; &amp;quot;, .arg1) -1
+&#39;),
+ATTR([Customer Name])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/a7559f5b08c946bb94f750cf862e6e17.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vemos en nuestro código que la función SCRIPT_STR llama a la función &lt;em&gt;substr&lt;/em&gt; en R con &amp;ldquo;Customer Name&amp;rdquo; como argumento 1 y extrae caracteres de &amp;ldquo;Customer Name&amp;rdquo;, comenzando en la posición de carácter 1 hasta la primera aparición de espacio.&lt;/p&gt;
+
+&lt;p&gt;La función &lt;em&gt;substr()&lt;/em&gt; se utiliza para recuperar o reemplazar una subcadena de una cadena de caracteres. La sintaxis de la función es la siguiente:&lt;/p&gt;
+
+&lt;h3 id=&#34;substr-x-start-stop-donde&#34;&gt;substr (x, start, stop) donde:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;x - una cadena de caracteres.&lt;/li&gt;
+&lt;li&gt;inicio - la posición del índice en la que debe comenzar la extracción de caracteres.&lt;/li&gt;
+&lt;li&gt;stop - número de caracteres para devolver.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La función &lt;em&gt;ATTR()&lt;/em&gt; en Tableau devuelve el valor de la expresión dada si todas las filas del grupo tienen SOLO un valor único; de lo contrario, devuelve un asterisco (*). Los valores nulos se ignoran.&lt;/p&gt;
+
+&lt;h3 id=&#34;visualizamos-en-tableau&#34;&gt;Visualizamos en Tableau&lt;/h3&gt;
+
+&lt;p&gt;Una vez realizada la creación del campo calculado procedemos a utilizarlo en nuestro dashboard. Arrastramos la dimensión Customer Name en filas y la medida creada en la columna:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/142e0f3674494ca88e5d09f724851dcb.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;demo-con-la-función-script-bool&#34;&gt;Demo con la función SCRIPT_BOOL()&lt;/h2&gt;
+
+&lt;p&gt;Con el mismo dataset anterior, en fila añadimos las dimensiones State y City. Arrastramos &lt;em&gt;Sales&lt;/em&gt; y obtenemos lo siguiente.&lt;/p&gt;
+
+&lt;p&gt;Creamos ahora el nuevo campo calculado con STR_BOOL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# StateMinnesota
+SCRIPT_BOOL(
+&#39;
+grepl(&amp;quot;Minnesota&amp;quot;, .arg1, perl=TRUE)
+&#39;,
+ATTR([State])
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/d858c1c2de7b436f9f6ab663294497ec.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La función SCRIPT_BOOL llama a la función &amp;ldquo;grepl&amp;rdquo; en R, que evalúa el atributo &amp;ldquo;Estado&amp;rdquo; y devuelve &amp;ldquo;TRUE&amp;rdquo; si el atributo &amp;ldquo;Estado&amp;rdquo; tiene el valor &amp;ldquo;Minnesota&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Si la cadena contiene el patrón, la función grepl devuelve VERDADERO; de lo contrario, devuelve FALSO. Si el parámetro resulta ser un vector de cadena, la función devuelve un vector lógico (VERDADERO si es una coincidencia, de lo contrario FALSO). La sintaxis de la función:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;grepl (patrón, x, ignore.case = FALSE, perl = FALSE, fixed = FALSE, useBytes = FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;patrón&lt;/strong&gt;: expresión regular o cadena para fijo = VERDADERO&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;x&lt;/strong&gt;: string, el vector de caracteres&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ignore.case&lt;/strong&gt;: distingue entre mayúsculas y minúsculas o no&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;perl&lt;/strong&gt;: lógico. ¿Deben usarse expresiones regulares compatibles con Perl?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;fijo&lt;/strong&gt;: lógico. Si es TRUE, el patrón es una cadena que debe coincidir tal cual. Anula todos los argumentos en conflicto&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;useBytes&lt;/strong&gt;: lógico. Si es TRUE, la coincidencia se realiza byte a byte en lugar de carácter a carácter&lt;/p&gt;
+
+&lt;h3 id=&#34;visualizamos-en-tableau-1&#34;&gt;Visualizamos en Tableau&lt;/h3&gt;
+
+&lt;p&gt;Podemos utilizar el cuadro de mando anterior, el campo calculado e insertarlo en filtros. Veamos el resultado final teniendo en cuenta de seleccionar TRUE y su comportamiento con FALSE:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/1cdf8eb7d7564950aba7baddb333603a.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;demo-con-script-real&#34;&gt;Demo con SCRIPT_REAL()&lt;/h2&gt;
+
+&lt;p&gt;Para el uso de esta función utilizamos un dataset para realizar multiregression, &lt;em&gt;US-Census,&lt;/em&gt; está disponible en este &lt;a href=&#34;https://github.com/marcusRB/machine-learning-tableau&#34; target=&#34;_blank&#34;&gt;repositorio&lt;/a&gt; (es el mismo para descargar el resto de demos realizadas). Haremos uso de parámetros what-if y veamos cómo emplearlo en este ejemplo. Pasamos solo un subconjunto de filas pasadas desde Tableau en R.&lt;/p&gt;
+
+&lt;p&gt;El resultado de la predicción es un valor único, que usamos para anular el número de inscripción desconocido (representado como un valor nulo en Tableau) para el año 2013.&lt;/p&gt;
+
+&lt;p&gt;Hay que tener en cuenta que todo (medidas, dimensiones, parámetros, constantes) se pasa como vectores a R. Entonces, si su cálculo necesita escalar, simplemente puede obtener el primer elemento del vector usando [1].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Por ejemplo, nuestro .arg5 es un parámetro que está vinculado al desempleo. Lo estamos usando como .arg5 [1] para leerlo como un valor único / escalar en nuestro cálculo. Dependiendo del cálculo, leerlo como escalar .arg5 [1] vs vector .arg5.&lt;/li&gt;
+&lt;li&gt;Puede devolver resultados diferentes. Para estar seguro, es mejor usarlos como escalares si sabe que su cálculo necesita escalar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;SCRIPT_REAL(&amp;quot;
+# Creamos un dataset con 4 argumentos
+mydata &amp;lt;- data.frame(cbind(Enrollment=.arg1, HighSchoolGrads=.arg2, PerCapitaIncome=.arg3, Unemployment = .arg4))
+
+# Creamos linear modeling 
+fit &amp;lt;- lm(Enrollment[-29] ~ HighSchoolGrads[-29] + PerCapitaIncome[-29]+ Unemployment[-29],data=mydata);  mydata$Enrollment[29]&amp;lt;-predict(fit,list(HighSchoolGrads= .arg7[1], PerCapitaIncome = .arg6[1],Unemployment = .arg5[1]));mydata$Enrollment&amp;quot;,SUM([Enrollment]),SUM([HighSchoolGrads]),SUM([PerCapitaIncome]),SUM([Unemployment]),[What If - Unemployment],[What If - Income],[What If - Graduates] ) 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;p&gt;Y el resultado es este:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/a1a1b51b2ecd47c9b799c0fdcef43389.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Resumiendo, realizamos cálculos basados en parámetro.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo-con-script-int&#34;&gt;Demo con SCRIPT_INT()&lt;/h2&gt;
+
+&lt;p&gt;En esta demo utilizaremos el dataset de iris, muy conocido para los amantes de la minería de datos y Machine Learning, disponible en este &lt;a href=&#34;https://github.com/marcusRB/machine-learning-tableau&#34; target=&#34;_blank&#34;&gt;repositorio&lt;/a&gt;. Creamos las agrupaciones por clusters, por lo tanto, 4 campos calculados:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Clúster de pétalos y sépalos&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# Creamos 3 clusters
+SCRIPT_INT(
+&#39;
+    set.seed(42);
+ result &amp;lt;- kmeans(data.frame(.arg1,.arg2,.arg3,.arg4), 3);
+result$cluster;
+&#39;, 
+SUM([Petal length]),
+SUM([Petal width]),
+SUM([Sepal length]),
+SUM([Sepal width]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Total de la suma de los cuadrados:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# Total de la suma de los cuadrados
+SCRIPT_REAL(
+&#39;
+    set.seed(42);
+result &amp;lt;- kmeans(data.frame(.arg1,.arg2,.arg3,.arg4), 3);
+result$totss
+&#39;, 
+SUM([Petal length]),
+    SUM([Petal width]),
+    SUM([Sepal length]),
+    SUM([Sepal width]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Creamos el centroide del clúster del ancho de los pétalos:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# centroide ancho pétalo
+SCRIPT_REAL(
+&#39;
+    library(plyr);
+    set.seed(42);
+    result &amp;lt;- kmeans(data.frame(.arg1,.arg2,.arg3,.arg4), 3);
+    centers &amp;lt;- data.frame(result.cluster=row.names(result$centers),result$centers);
+    join(data.frame(result$cluster)[1], centers, by = &amp;quot;result.cluster&amp;quot;)[,3]
+&#39;, 
+SUM([Petal length]),
+SUM([Petal width]),
+SUM([Sepal length]),
+SUM([Sepal width]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Creamos el centroide del clúster del largo de los pétalos:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-none&#34;&gt;# centroide largo pétalo
+SCRIPT_REAL(
+&#39;
+    library(plyr);
+set.seed(42);
+result &amp;lt;- kmeans(data.frame(.arg1,.arg2,.arg3,.arg4), 3);
+centers &amp;lt;- data.frame(result.cluster=row.names(result$centers),result$centers);
+join(data.frame(result$cluster)[1], centers, by = &amp;quot;result.cluster&amp;quot;)[,2]
+&#39;, 
+SUM([Petal length]),
+SUM([Petal width]),
+SUM([Sepal length]),
+SUM([Sepal width]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy.&lt;/p&gt;
+
+&lt;h3 id=&#34;visualización-final&#34;&gt;Visualización final&lt;/h3&gt;
+
+&lt;p&gt;En la visualización incluimos los dos grupos de clústeres y el total de la suma de los cuadrados:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.paradigmadigital.com/assets/img/resize/small/77670153d43f4eec991aa5f7e3f8ff04.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Primero añadimos tanto pétalo como sépalo en columnas y filas respectivamente y seguimos con insertar los 4 campos calculados:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clúster en colores.&lt;/li&gt;
+&lt;li&gt;Total suma de cuadrados, centroide largo del pétalo, centroide ancho del pétalo en tooltips que serán nuestras etiquetas a mostrar para cada observación.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+
+&lt;p&gt;El &lt;strong&gt;uso de los campos calculados de Tableau nos ayuda a llevar nuestros informes al siguiente nivel.&lt;/strong&gt; Con la integración de script en R, podemos realizar tareas que estamos acostumbrados a realizarlas en R Studio con una interfaz y combinaciones de opciones a un nivel más alto.&lt;/p&gt;
+
+&lt;p&gt;Si durante la práctica te sientes perdido es lógico. El lenguaje R no es sencillo, y quizás deberías comenzar con algo más básico de estadística y probabilidades con tutoriales de R básico, para ir subiendo de nivel y, finalmente, utilizar otra herramienta que pueda aprovechar estas funciones avanzadas.&lt;/p&gt;
+
+&lt;p&gt;¿Has realizado algún cálculo en R y has probado a integrarlo en Tableau? Si es así, puedes comentar en este mismo post y abrir un debate. Y si te ha entrado ganas de conocer cómo funciona con Python con su #TabPy nativo, no puedes perderte el próximo post que hablaré sobre esta integración.&lt;/p&gt;
+
+&lt;p&gt;Si quieres aumentar aún más la comprensión de esta increíble herramienta de informes, consulta &lt;a href=&#34;https://www.paradigmadigital.com/eventos/&#34; target=&#34;_blank&#34;&gt;nuestro canal&lt;/a&gt; de YouTube y de los webinar realizados y/o futuros.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.paradigmadigital.com/dev/integrar-r-en-tus-dashboards-de-tableau/&#34; target=&#34;_blank&#34;&gt;FUENTE ORIGINAL&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>[Webinar] - Visualiza Machine Learning en Power BI</title>
       <link>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</link>
       <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
