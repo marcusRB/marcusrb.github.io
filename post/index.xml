@@ -19,8 +19,6 @@
       <guid>https://www.marcusrb.com/google-data-studio-como-sacarle-todo-partido/</guid>
       <description>
 
-&lt;h1 id=&#34;google-data-studio-cómo-sacarle-todo-el-partido&#34;&gt;¿Google Data Studio, ¿cómo sacarle todo el partido?&lt;/h1&gt;
-
 &lt;p&gt;Hace unas semanas os mostramos &lt;a href=&#34;https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/&#34; target=&#34;_blank&#34;&gt;cómo crear campos calculados con Google Data Studio&lt;/a&gt; mediante una planificación con nuevos atributos y nuevas métricas,  mejor conocidos como &amp;ldquo;campos calculados&amp;rdquo;, y, además, cuándo crearlos.  Tenemos varias opciones de creación y, entre ellas, pusimos los ejemplos de las 5 funciones más utilizadas. Hoy os explicamos en concreto los  casos de uso y resolvemos algunas de las preguntas más frecuentes.&lt;/p&gt;
 
 &lt;h2 id=&#34;ejemplos-de-casos-de-uso-en-data-studio-con-los-campos-calculados&#34;&gt;Ejemplos de casos de uso en Data Studio con los campos calculados.&lt;/h2&gt;
@@ -266,6 +264,8 @@ Para resolver esto, puede usar el número en tu declaración de condición o usa
       <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/como-integrar-script-r-dashbordards-tableau/</guid>
       <description>
+
+&lt;h2 id=&#34;integramos-scripts-en-r-en-nuestros-cuadro-de-mando-y-dashboards-de-tableau&#34;&gt;Integramos scripts en R en nuestros cuadro de mando y dashboards de Tableau.&lt;/h2&gt;
 
 &lt;p&gt;El pasado mes de octubre presentamos un interesante webinar sobre &lt;a href=&#34;https://www.paradigmadigital.com/eventos/r-y-python-en-tus-analisis-de-datos/&#34; target=&#34;_blank&#34;&gt;cómo integrar R y Python en la plataforma Power BI&lt;/a&gt; (y además con su propio hashtag #PoweR-Py). En este post os contamos cómo integrar la herramienta más utilizada para los analistas de datos, estadísticos y expertos en data mining, con la otra competidora de las herramientas de visualización de inteligencia de negocio, Tableau.&lt;/p&gt;
 
@@ -584,7 +584,7 @@ SUM([Sepal width]))
       <guid>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</guid>
       <description>
 
-&lt;h1 id=&#34;cómo-visualizar-los-modelos-de-machine-learning-en-power-bi&#34;&gt;Cómo visualizar los modelos de machine learning en Power BI&lt;/h1&gt;
+&lt;h2 id=&#34;cómo-visualizar-los-modelos-de-machine-learning-en-power-bi&#34;&gt;Cómo visualizar los modelos de machine learning en Power BI&lt;/h2&gt;
 
 &lt;p&gt;En este Webinar haremos un recorrido desde Azure ML a Databricks, así como BigQuery ML pasando por Knime, hasta los modelos realizados de forma nativa con scikit-learn, PyTorch con Python y R, y otras técnicas más de minería y análisis.&lt;/p&gt;
 
@@ -644,7 +644,7 @@ SUM([Sepal width]))
       <guid>https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/</guid>
       <description>
 
-&lt;h1 id=&#34;cómo-crear-campos-calculados-en-google-data-studio&#34;&gt;¿Cómo crear campos calculados en Google Data Studio?&lt;/h1&gt;
+&lt;h2 id=&#34;guía-muy-útil-de-como-crear-los-campos-calculados-en-google-data-studio&#34;&gt;Guía muy útil de como crear los campos calculados en Google Data Studio.&lt;/h2&gt;
 
 &lt;p&gt;Es muy probable que ya conozcas la &lt;a href=&#34;https://www.marcusrb.com/generamos-dashboard-data-studio&#34;&gt;herramienta de visualización Google Data Studio&lt;/a&gt;, un servicio gestionado de Google alojado en la nube.&lt;/p&gt;
 
@@ -900,7 +900,7 @@ SUM([Sepal width]))
       <guid>https://www.marcusrb.com/construir-modelo-clasificacion-analytics-bigquery-ml/</guid>
       <description>
 
-&lt;h1 id=&#34;modelo-de-clasificación-con-google-analytics-y-bigquery-ml&#34;&gt;Modelo de clasificación con Google Analytics y BigQuery ML.&lt;/h1&gt;
+&lt;h2 id=&#34;veamos-como-realizar-un-modelo-de-clasificación-con-google-analytics-y-bigquery-ml&#34;&gt;Veamos como realizar un modelo de clasificación con Google Analytics y BigQuery ML.&lt;/h2&gt;
 
 &lt;p&gt;Si eres analista de datos o trabajas codo a codo con el departamento de Marketing Digital, quizás sea típico en tu día a día tener que utilizar &lt;strong&gt;la herramienta de análisis Google Analytics&lt;/strong&gt;, acompañada de otras tools de exploración de datos (hojas de cálculos, API nativas, herramientas de terceros).&lt;/p&gt;
 
@@ -1337,7 +1337,7 @@ SELECT * EXCEPT(unique_session_id) FROM (
       <guid>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</guid>
       <description>
 
-&lt;h1 id=&#34;cómo-automatizar-tareas-de-machine-learning-en-knime&#34;&gt;Cómo automatizar tareas de Machine Learning en KNIME&lt;/h1&gt;
+&lt;h2 id=&#34;cómo-automatizar-tareas-de-machine-learning-con-la-herramienta-de-etl-y-machine-learning-knime&#34;&gt;Cómo automatizar tareas de Machine Learning con la herramienta de ETL y Machine Learning, KNIME&lt;/h2&gt;
 
 &lt;p&gt;¿Es posible automatizar completamente el ciclo de vida de la ciencia de datos? ¿Es posible construir automáticamente un modelo de aprendizaje automático a partir de un conjunto de datos?&lt;/p&gt;
 
