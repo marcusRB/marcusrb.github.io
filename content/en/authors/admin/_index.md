@@ -15,7 +15,7 @@ role: +10 yrs consultant & freelance • professor in Big Data - Data Science - 
 # Organizations/Affiliations
 organizations:
 - name: DSAtech Consulting ltd.
-  url: "www.dsatech.uk"
+  url: "https://www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Economist, from the world of banking, stock market and finance to the world of Big Data Analysis & Artificial Intelligence through digital marketing. Passionate about problem solving, data mining and data visualization. Road biking, swimming, basketball fan. Teacher and trainer for more than 8 years.
@@ -72,7 +72,7 @@ social:
   link: files/Marco_Russo_resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "contact.marcusrb@gmail.com"
+email: "hola@marcusrb.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -153,6 +153,8 @@ Other collaborations and in-company training in Machine Learning, Data Analytics
 
 
 ## InClass training:
+
+* Bootcamp of **Data Science & Machine Learning Engineering**
 
 * Master in **Business Intelligence** / course on Business Intelligence, ETL, Power BI, SSAS, Data Integration at [CICE Business School] (https://www.cice.es/master-business-intelligence /)
 
