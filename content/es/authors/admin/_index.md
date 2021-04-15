@@ -15,13 +15,13 @@ role: +10 años consultor / freelance • docente en Big Data - Data Science - M
 # Organizations/Affiliations
 organizations:
 - name: DSAtech Consulting ltd.
-  url: "www.dsatech.uk"
+  url: "https://www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data Analysis & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
 
 interests:
-- Data Analysis & Visualization
+- Data Analytics & Visualization
 - Data Mining, Stats & Algorithms  
 - Machine Learning & Artificial Intelligence
 - Data Science & Deep Learning
@@ -72,7 +72,7 @@ social:
   link: files/Marco_Russo_resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "contact.marcusrb@gmail.com"
+email: "hola@marcusrb.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -106,7 +106,7 @@ Larga experiencia en gestión de proyectos para grandes cuentas en retail, banco
 
 ## Docente & Formador in-company:
 
-En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3500 horas de formación en:
+En los últimos [9 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3500 horas de formación en:
 
 - **data science**, inteligencia artificial, machine learning, deep learning, creación material y tutoría en programas de grados, posgrados y máster, además de cursos en data science y data analytics.
 - **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
@@ -121,6 +121,7 @@ En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analit
 
 **escuelas de negocios**:
 
+- The Bridge Talent School
 - EAE Business School
 - IIM Instituto Internacional de Marketing
 - IEDGE Business School
@@ -133,13 +134,14 @@ En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analit
 - Colaborador/Consultor en la UOC Universitat Oberta Catalunya
 - MIT Massachusetts Institute Technology
 
-**otros centros**:
+**otros centros formativos**:
 
 - Neoland
 - Fictizia
 - AdveiSchool
 - Digital Brain
 - Aula Creactiva
+- Cas-Training
 
 **plataformas eLearning**:
 
@@ -152,12 +154,14 @@ En los últimos [8 años he impartido](/cumpliendo-anyos-formador-docente-analit
 Otras colaboraciones y formaciones in-company de Machine Learning, Data Analytics y Digital Analysis-Tag Management y Visualización de datos.
 
 
-## FORMACIONES ACTUALES / FUTURAS:
+## FORMACIONES PROGRAMADAS EN 2021:
+
+* Bootcamp de **Data Science & Machine Learning Engineer**, presencial en [The Bridge Talent](https://www.thebridge.tech/bootcamps/bootcamp-data-science/)
 
 * Máster de **Business Intelligence**, curso presencial/remoto de Inteligencia de negocio, ETL, Power BI, SSAS, Data Integration en [CICE Business School](https://www.cice.es/master-business-intelligence/)
 
-* Bootcamp de **Data Science y de Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/data-science-bootcamp) presencial y online en Madrid.
+* Bootcamp de **Data Science & Data Analytics**, Machine Learning, Deep Learning y Big Data en [**Máster en Data Science Neoland**](https://www.neoland.es/data-science-bootcamp) presencial y online en Madrid.
 
-* Bootcamp de **Data Science y Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)
+* Bootcamp de **Data Science & Deep Learning** en [ARTIFICIAL INTELLINGE SCHOOL](https://www.aischool.es)
 
 * **Data Analysis**, cursos presenciales/ a distancia de Google Tag Manager y Digital Analytics en [KPIschool](https://www.kpischool.eu).

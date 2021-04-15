@@ -12,7 +12,7 @@ categories = ["Data Visualization", "Webinar"]
 authors = ["marcusRB"]
 +++
 
-# Cómo integrar R y Python en tus análisis de datos de Power BI
+## Cómo integrar R y Python en tus análisis de datos de Power BI
 
 En este webinar veremos unas recomendaciones útiles para el uso correcto de los lenguajes de programación y estadístico más utilizados en Data Analytics, Python y R.
 

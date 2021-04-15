@@ -10,7 +10,7 @@
   contentDir = "content/en"
   title = "MarcusRB | data specialist & professor • AI • Big Data"
   [en.params]
-    description = "+10 yrs consultant & freelance • professor in Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Data Visualization - AI enthusiast"
+    description = "+10 yrs consultant & freelance • professor in Data Science - Machine Learning - Big Data - Business Intelligence - Digital Analytics - Data Visualization - AI enthusiast"
 author = "marcusRB"
   [[en.menu.main]]
     name = "Home"

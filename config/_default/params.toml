@@ -34,7 +34,7 @@ font = "marcus"
 font_size = "s"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "+10 años consultor • freelance • profesor en Data Science & Digital Analyst, Business Intelligence | minería de datos | machine learning & Big Data"
+description = "+10 años consultor • freelance • profesor en Data Science & BI | machine learning & Big Data | Digital Analyst"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
