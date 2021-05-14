@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index, follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow El caso de uso de propensión de compra es ampliamente aplicable a muchos sectores, comenzando obviamente de retail, finanzas, seguros y que afecta directamente a logística, compras, producción y por supuesto al departamento de marketing. En casi todos los programas de máster de Data Science se enseña mucha práctica sobre modelos de aprendizaje automático, pero teóricamente se ven pocos casos de como aplicarlos, ahí viene el reto de todos estudiantes que recién acaban un bootcamp en Neoland estudiar los diferentes pipeline de machine learning y así meter en práctica lo estudiado y finalmente entender que viene después de crear un modelo en su propio ordenador local.">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.neoland.es/blog/como-crear-una-solucion-de-propension-de-compra">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/">
+  <meta property="og:title" content="Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow El caso de uso de propensión de compra es ampliamente aplicable a muchos sectores, comenzando obviamente de retail, finanzas, seguros y que afecta directamente a logística, compras, producción y por supuesto al departamento de marketing. En casi todos los programas de máster de Data Science se enseña mucha práctica sobre modelos de aprendizaje automático, pero teóricamente se ven pocos casos de como aplicarlos, ahí viene el reto de todos estudiantes que recién acaban un bootcamp en Neoland estudiar los diferentes pipeline de machine learning y así meter en práctica lo estudiado y finalmente entender que viene después de crear un modelo en su propio ordenador local."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="es-ES">
+  
+    
+      <meta property="article:published_time" content="2021-02-21T11:52:54&#43;01:00">
+    
+    <meta property="article:modified_time" content="2021-05-14T13:36:29&#43;02:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactos"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2021-02-21 11:52:54 &#43;0100 CET" itemprop="datePublished">
+<meta content="2021-05-14 13:36:29 &#43;0200 CEST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcusrb/">marcusRB</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última actualización el
+      
+    
+    <time>May 14, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    16 min de lectura
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/kubeflow-como-crear-una-solucion-de-propension-de-compra/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="">Data Engineer</a>, <a href="">Machine Learning</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/&amp;text=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/&amp;t=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow&amp;body=https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/&amp;title=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow%20https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/&amp;title=C%c3%b3mo%20crear%20una%20soluci%c3%b3n%20de%20propensi%c3%b3n%20de%20compra%20utilizando%20BigQuery%20ML%20y%20Kubeflow" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="cómo-crear-una-solución-de-propensión-de-compra-utilizando-bigquery-ml-y-kubeflow">Cómo crear una solución de propensión de compra utilizando BigQuery ML y Kubeflow</h1>
+
+<p>El caso de uso de propensión de compra es ampliamente aplicable a muchos sectores, comenzando obviamente de retail, finanzas, seguros y que afecta directamente a logística, compras, producción y por supuesto al departamento de marketing. En casi todos los programas de máster de Data Science se enseña mucha práctica sobre modelos de aprendizaje automático, pero teóricamente se ven pocos casos de como aplicarlos, ahí viene el reto de todos estudiantes que recién acaban un bootcamp en Neoland estudiar los diferentes pipeline de machine learning y así meter en práctica lo estudiado y finalmente entender que viene después de crear un modelo en su propio ordenador local.</p>
+
+<p>En este post, explico cómo crear una solución de inicio a fin con <a href="https://cloud.google.com/bigquery-ml/docs" target="_blank">BigQuery ML</a> y <a href="https://www.kubeflow.org/docs/pipelines/overview/" target="_blank">Kubeflow Pipelines</a>, una herramienta de flujo de trabajo de operaciones de aprendizaje automático que en este ejemplo utilizaremos el notebook oficial de Google Cloud Platform utilizando un <a href="https://console.cloud.google.com/marketplace/product/obfuscated-ga360-data/obfuscated-ga360-data" target="_blank">conjunto de datos de Google Analytics</a> para determinar <strong>qué clientes tienen la propensión a comprar</strong>. La idea es de poder utilizar la solución para llegar a tus clientes objetivo en una campaña online y también offline, como también resto de campañas de digital marketing. Es un ejemplo que he realizado y que está actualmente en fase de beta en un cliente y que los estudiantes del bootcamp de Data Science en Neoland están estudiando, para que puedan usarlo cuando el cliente está navegando en un sitio web de comercio electrónico y así, paralelamente crear un recomendador de algunos productos o enviar un correo electrónico personalizado al cliente.</p>
+
+<p>Según un estudio realizado por McKinsey, el saber utilizar correctamente un caso de uso de personalización de campañas y perfilado de usuario, permite a las empresas crear entre 1 y 3 billones de dólares de facturado adicional. Aunque existen en la actualidad empresas que se encargan de recoger datos de los usuarios, (siempre cumpliendo con la RGPD), no siempre son eficientes ni generan un retorno esperado. Los modelos de propensión son importantes ya que son claves para el éxito de la atención de los cliente, utilizados correctamente pueden dirigirse de manera más eficaz a los clientes que tienen más probabilidades de comprar determinados productos.</p>
+
+<p>IMAGEN DE PORTADA COMPRA ONLINE**</p>
+
+<h2 id="una-arquitectura-de-solución-de-inicio-a-fin-y-pasos-de-implementación-habituales">Una arquitectura de solución de inicio a fin y pasos de implementación habituales</h2>
+
+<p>Veámos como funciona el todo. Primero debemos seleccionar los atributos, crearremos una etiqueta de clasificación (le indicamos si un cliente tiene la propensión a comprar), crearemos un modelo, el modelo lanzará su decisión y predicción en BigQuery con BigQuery ML. Si nunca has utilizado GCP no te preocupes, existen muchos ejemplos útiles y como crear modelos de aprendizaje automático en BigQuery mediante consultas SQL estándar. Esto significa que no necesita exportar sus datos para entrenar e implementar modelos de aprendizaje automático; al entrenar, también está implementando en el mismo paso. En combinación con el escalado automático de los recursos informáticos de BigQuery, no tendrás que preocuparse por hacer girar un clúster o crear una canalización de implementación y entrenamiento de modelos. Esto significa que ahorrará tiempo en la creación de su canal de aprendizaje automático, lo que permitirá que su empresa se centre más en el valor del aprendizaje automático en lugar de dedicar tiempo a configurar la infraestructura.</p>
+
+<p>Para automatizar este proceso de creación de modelos, se utilizará un organizador mediante <strong>Kubeflow Pipelines</strong>, una plataforma para la creación e implementación de dispositivos portátiles, flujos de trabajo escalables de aprendizaje automático (ML) basados en contenedores Docker.</p>
+
+<p>Aquí el esquema completo de la arquitectura a realizar:</p>
+
+<p><img src="/img/2021/como_funciona_kubeflow_bigqueryml.png" alt="" /></p>
+
+<p>La solución implica los siguientes pasos:</p>
+
+<ol>
+<li>Identificar la fuente de datos con el historial de compras de clientes anteriores y cargar los datos en BigQuery.</li>
+<li>Preparar los datos para las tareas de Machine Learning (ML).</li>
+<li>Crear un modelo de aprendizaje automático que determine la propensión de un cliente a comprar</li>
+<li>Unificar a los datos del cliente con un sistema CRM para recopilar detalles del cliente (por ejemplo, identificación de correo electrónico, otras informaciones del cliente, etc.)</li>
+<li>Determinar qué producto deberíamos recomendar al cliente</li>
+<li>Lanzar una campaña digital con los datos anteriores (o utilizar este modelo junto con la API de Google Ads, Facebook Ads, etc.)</li>
+<li>Gestionar el ciclo de vida de la comunicación con el cliente (por ejemplo, correo electrónico) en el CRM o similar.</li>
+<li>Redefinir el valor de vida útil del cliente a partir del resultado de la campaña.</li>
+<li>Monitorear los modelos para asegurarse de que cumplan con las expectativas.</li>
+<li>Volver a entrenar el modelo, si es necesario, basándose en un nuevo conjunto de datos o en un conjunto de datos rectificado</li>
+</ol>
+
+<p>Todos estos pasos serán explicados a continuación y aquí el link con el <a href="https://github.com/marcusRB/analytics-componentized-patterns/blob/master/retail/propensity-model/bqml/bqml_kfp_retail_propensity_to_purchase.ipynb" target="_blank">notebook oficial</a> para realizar los 3 primeros pasos de esta solución, evidentemente no pude insertar datos del CRM.</p>
+
+<h3 id="1-identificar-la-fuente-de-datos-con-el-historial-de-compras-de-clientes-anteriores-y-cargar-los-datos-en-bigquery">1. Identificar la fuente de datos con el historial de compras de clientes anteriores y cargar los datos en BigQuery.</h3>
+
+<p>Dependiendo donde se encuentren los datos en tu empresa, debemos determinar las mejores técnicas de preprocesamiento para llevar los datos a BigQuery. Podemos automatizar el preprocesamiento en una canalización de MLOps, que veremos más adelante. Para este ejemplo utilizaré solo el conjunto de datos alojados en BigQuery, que proporciona 12 meses (agosto de 2016 a agosto de 2017), son datos de Google Analytics 360 de <a href="https://www.googlemerchandisestore.com/shop.axd/Home?utm_source=Partners&amp;utm_medium=affiliate&amp;utm_campaign=Data Share Promo" target="_blank">Google Merchandise Store</a>, una tienda de comercio electrónico real que vende productos con la marca Google.</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 Home - Google Merchandise Store.png" alt="" /></p>
+
+<p>Captura de la tienda <a href="https://your.googlemerchandisestore.com/Index" target="_blank">Google Merchandise Store</a>.</p>
+
+<p>Y una muestra de consulta estandár con nuestro dataset de ejemplo de Google Analytics:</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 BigQuery – Data Science Project – Google Cloud Platform.png" alt="" /></p>
+
+<h3 id="2-preparar-los-datos-para-las-tareas-de-machine-learning-ml">2. Preparar los datos para las tareas de Machine Learning (ML).</h3>
+
+<p>Ahora que tenemos el conjunto de datos, comenzamos a preparar los datos para el desarrollo del modelo de ML. Seleccionamos los atributos (las variables indipendientes) y las etiquetas adecuadas si deseamos realizar el aprendizaje supervisado. Para este artículo, utilizaré un par de atributos con fines de demostración y solo utilizando SQL.</p>
+
+<p>La query creará una tabla para entrenar el modelo, con los atributos tasa de rebote y tiempo de sesión, (<code>bounces</code>,  <code>time_on_site</code>) y la etiqueta <code>will_buy_on_return_visit</code> que utilizaremos para crear el modelo después:</p>
+
+<pre><code class="language-sql">## follows schema from https://support.google.com/analytics/answer/3437719?hl=en&amp;ref_topic=3416089
+ 
+# select initial features and label to feed into your model
+CREATE 
+OR REPLACE TABLE even-blueprint-298618.bqml.rpm_ds_propensity_training_samples_tbl OPTIONS(
+  description = &quot;Google Store curated Data&quot;
+) AS 
+SELECT 
+  fullVisitorId, 
+  bounces, 
+  time_on_site, 
+  will_buy_on_return_visit # &lt;--- your label
+FROM 
+  # features
+  (
+    SELECT 
+      fullVisitorId, 
+      IFNULL(totals.bounces, 0) AS bounces, 
+      IFNULL(totals.timeOnSite, 0) AS time_on_site 
+    FROM 
+      `data-to-insights.ecommerce.web_analytics` 
+    WHERE 
+      totals.newVisits = 1 
+      AND date BETWEEN '20160801' 
+      AND '20170430'
+  ) # train on first 9 months
+  JOIN (
+    SELECT 
+      fullvisitorid, 
+      IF(
+        COUNTIF(
+          totals.transactions &gt; 0 
+          AND totals.newVisits IS NULL
+        ) &gt; 0, 
+        1, 
+        0
+      ) AS will_buy_on_return_visit 
+    FROM 
+      `bigquery-public-data.google_analytics_sample.*` 
+    GROUP BY 
+      fullvisitorid
+  ) USING (fullVisitorId) 
+ORDER BY 
+  time_on_site DESC # order by most time spent first
+</code></pre>
+
+<p>Aquí el resultado:</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 BigQuery – Data Science Project – bqml.png" alt="" /></p>
+
+<h3 id="3-crear-un-modelo-de-aprendizaje-automático-que-determine-la-propensión-de-un-cliente-a-comprar">3. Crear un modelo de aprendizaje automático que determine la propensión de un cliente a comprar</h3>
+
+<p>¿Qué tipo de modelo debemos utilizar? ¿Cuáles son todas las variables indipendientes a utilizar? ¿Cuál debería ser el conjunto de hiperparámetros para el modelo? Aquí llega el momento de meter en prácticas vuestras habilidades y capacidades de científicos de datos.</p>
+
+<p>En este tercer paso debemos clasificar si un cliente tiene la propensión a comprar. Por tanto, es una tarea de clasificación, y siendo un modelo de uso común, utilizaremos la regresión logística que con <a href="https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-predict" target="_blank">BigQuery ML</a> lo tenemos identificado en la documentación oficial.</p>
+
+<p>La query será similar a esta:</p>
+
+<pre><code class="language-sql">CREATE 
+OR REPLACE MODEL `bqml.rpm_bqml_model` OPTIONS(
+  MODEL_TYPE = 'logistic_reg', labels = [ 'will_buy_on_return_visit' ]
+) AS 
+SELECT 
+  * 
+EXCEPT 
+  (fullVisitorId) 
+FROM 
+  `even-blueprint-298618.bqml.rpm_ds_propensity_training_samples_tbl`
+</code></pre>
+
+<p>Una vez creado el modelo, podemos verificar qué tan bien se comporta el modelo según ciertas reglas. Hemos adoptado algunas reglas empíricas (por ejemplo, ROC-AUC&gt; 0.9) pero podemos ajustarlas según nuestras necesidades específicas.</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 BigQuery – Data Science Project – training.png" alt="" /></p>
+
+<p>La query evaluará el modelo según el valor esperado ROC AUC:</p>
+
+<pre><code class="language-sql">SELECT 
+  roc_auc, 
+  CASE WHEN roc_auc &gt;.9 THEN 'good' WHEN roc_auc &gt;.8 THEN 'fair' WHEN roc_auc &gt;.7 THEN 'decent' WHEN roc_auc &gt;.6 THEN 'not great' ELSE 'poor' END AS modelquality 
+FROM 
+  ML.EVALUATE(MODEL `bqmls.rpm_bqml_model`)
+</code></pre>
+
+<p>El resultado será el siguiente:</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 BigQuery – Data Science Project – roc_result.png" alt="" /></p>
+
+<p>¿Estámos logrando construir un buen modelo? No es fácil contestar simplemente observando un solo resultado, la curva de ROC en este ejemplo, así que lo más probable es que no… Porque el ROC_AUC del 84% se considera un scoring decente, pero no óptimo(<a href="http://gim.unmc.edu/dxtests/roc3.htm" target="_blank">http://gim.unmc.edu/dxtests/roc3.htm</a>). Se necesita mucho conocimiento del sector, ajuste de hiperparámetros, features engineering, quizás tareas de preparación y limpieza previa, creación de nuevos atributos, estudio de correlaciones, etc. para construir un buen modelo. Este no es el mejor modelo que podamos crear, pero tenemos una línea de base. Como el objetivo de este artículo es crear una canalización de un extremo a otro en lugar del rendimiento del modelo, el ajuste fino del modelo está fuera del alcance de este artículo.</p>
+
+<p>El modelo entrenado podrá ayudarte a llegar a tus clientes en una campaña tanto offline que campañas de marketing online. Así que usaremos la predicción por lotes (batch) para el primero y la predicción en línea (streaming) para el último. Además, aprovechando la plataforma de GCP, podemos usar el modelo entrenado para la predicción por lotes de un conjunto de datos grande en BigQuery, o implementar el modelo en Google Cloud AI Platform para la predicción en línea.</p>
+
+<h4 id="3a-utilizar-el-modelo-para-la-predicción-en-lotes">3a. Utilizar el modelo para la predicción en lotes</h4>
+
+<p>Para el escenario de campaña en modo offline, podemos realizar predicciones por lotes asincrónicas en un conjunto de datos grande. Creamos una tabla en BigQuery e insertamos todas los datos de entrada para las que deseamos predecir. Se creará una tabla <code>rpm_ds_propensity_prediction_input_tbl</code> en BigQuery, con cada fila como un cliente con rebotes y características de tiempo en el sitio. Luego, utilicemos el modelo entrenado para predecir todas las entradas / filas.</p>
+
+<p>La query será la siguiente:</p>
+
+<pre><code class="language-sql"># predict the inputs (rows) from the input table
+SELECT 
+fullVisitorId, predicted_will_buy_on_return_visit
+FROM
+ML.PREDICT(MODEL bqml.rpm_bqml_model,
+(
+    SELECT
+    fullVisitorId, 
+    bounces,
+    time_on_site
+    from `even-blueprint-298618.bqml.rpm_ds_propensity_training_samples_tbl`
+))
+</code></pre>
+
+<p>El resultado de esta query será similar a esta con el resultado 1 para aquellos visitantes que comprarán en la próxima sesión:</p>
+
+<p><img src="/img/2021/Screenshot_2021-01-07 BigQuery – Data Science Project – batch.png" alt="" /></p>
+
+<p>¿Crees que el modelo predice correctamente? Tal vez. Sin duda, necesitamos profundizar más. Es posible que deseamos verificar las características, los parámetros, el umbral, que en este ejemplo es de <a href="https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-predict#threshold" target="_blank">0.5 por defecto</a> en el ML.PREDICT anterior, etc. y para ajustar el modelo.</p>
+
+<h4 id="3c-utilizar-el-modelo-para-la-predicción-online">3c. Utilizar el modelo para la predicción online</h4>
+
+<p>Para el escenario de la campaña en línea, necesitamos implementar el modelo en Cloud AI Platform. Es un proceso de dos pasos. Primero, debemos exportar el modelo y luego implementarlo en Cloud AI Platform, que expone un a llamada REST y así para brindar predicción en línea.</p>
+
+<p>Aquí la sentencia para exportar el modelo de BigQuery ML a Google Cloud Storage:</p>
+
+<pre><code class="language-shell"># export the model to a Google Cloud Storage bucket
+bq extract -m rpm_ds.rpm_bqml_model gs://bqml_sa/rpm_data_set/bqml/model/export/V_1
+</code></pre>
+
+<p>En segundo lugar, debemos implementar el modelo exportado en <a href="https://cloud.google.com/ai-platform/prediction/docs" target="_blank">Cloud AI Platform Prediction</a>, que aloja el modelo entrenado, para que podamos enviar las solicitudes de predicción. Aquí se muestra el comando para implementar el modelo en Cloud AI Platform Prediction:</p>
+
+<pre><code class="language-shell"># export the model to a Google Cloud Storage bucket
+# deploy the above exported model
+gcloud ai-platform versions create --model=rpm_bqml_model V_1        --framework=tensorflow --python-version=3.7 --runtime-version=1.15        --origin=gs://bqml_sa/rpm_data_set/bqml/model/export/V_1/ --staging-bucket=gs://bqml_sa
+</code></pre>
+
+<p>Ahora podemos predecir en línea a través de una solicitud/respuesta web utilizando la aplicación web para realizar acciones en el momento, como mostrar contenido personalizado o activar un proceso asincrónico, como enviar un correo electrónico personalizado. A continuación se muestra el comando donde puede probar rápidamente la predicción en línea:</p>
+
+<pre><code># Perform online predict (create a input table with the input features)
+# create a json file (input.json) with the below content
+{&quot;bounces&quot;: 0, &quot;time_on_site&quot;: 7363}
+ 
+# use the above json to predict
+gcloud ai-platform predict --model rpm_bqml_model --version V_1 --json-instances input.json
+</code></pre>
+
+<p>El resultado será similar al siguiente:</p>
+
+<pre><code>Predicted results for {&quot;bounces&quot;: 0, &quot;time_on_site&quot;: 7363} is PREDICTED_WILL_BUY_ON_RETURN_VISIT  WILL_BUY_ON_RETURN_VISIT_PROBS             WILL_BUY_ON_RETURN_VISIT_VALUES
+['1']                               [0.9200436491721313, 0.07995635082786867]  ['1', '0']
+</code></pre>
+
+<p>En el resultado anterior, el modelo predijo que este cliente en particular tiene la propensión a comprar ya que <code>PREDICTED_WILL_BUY_ON_RETURN_VISIT</code> devuelve 1. Dada esta prueba de&rdquo; 0 &ldquo;rebotes y&rdquo; 7363 &ldquo;segundos en time_ont_site, el modelo nos dice que hay un 92% posibilidad de que tengan la propensión a comprar. Con esta información, podemos enviarle un cupón al cliente (o quizás solo queremos regalar cupones a clientes entre 0.5 y 0.8 de probabilidad, porque hay una alta probabilidad de que compren el artículo también sin incentivos).</p>
+
+<p>Por supuesto, podemos utilizar otras herramientas además de gcloud, por ejemplo (wget, curl, postman, etc.) para verificar rápidamente el endpoint del tipo REST.</p>
+
+<h3 id="4-unificar-a-los-datos-del-cliente-con-un-sistema-crm-para-recopilar-detalles-del-cliente-por-ejemplo-identificación-de-correo-electrónico-otras-informaciones-del-cliente-etc">4. Unificar a los datos del cliente con un sistema CRM para recopilar detalles del cliente (por ejemplo, identificación de correo electrónico, otras informaciones del cliente, etc.)</h3>
+
+<p>Por lo tanto, ahora podemos predecir si un cliente tiene la propensión a comprar por lotes o en línea. ¿ Y que viene ahora? Bueno, estamos usando <strong>fullvisitorid</strong> en el conjunto de datos. Necesitaremos los detalles del cliente, como la dirección de correo electrónico, porque su conjunto de datos no los tiene. La idea es recopilarlos de un sistema de gestión de relaciones con el cliente (CRM). Por lo tanto, necesitamos integrarnos con un sistema CRM para lograr el objetivo.</p>
+
+<p>Si estamos utilizando Google Analytics y GA4 versión free, hay que realizar una tarea de *matchin* para ello utilizaremos una hoja de cálculo, en caso de integración con Salesforce, será disponible en <a href="https://support.google.com/analytics/answer/9250031?hl=es" target="_blank">GA360</a>. El artículo habla sobre cómo integrar la Google Analytics 360 con Salesforce Marketing Cloud. La integración permite publicar audiencias creadas en Analytics 360 en Marketing Cloud y utilizar esas audiencias en las campañas de marketing directo por correo electrónico y SMS de Salesforce. Debemos determinar el mecanismo de integración adecuado en función de su plataforma CRM.</p>
+
+<h3 id="restos-de-pasos-de-las-solución-desde-el-5-hasta-el-último">Restos de pasos de las solución: desde el 5 hasta el último</h3>
+
+<p>El resto de los pasos de la solución se explican por sí mismos, aunque puede que no sea tan trivial integrar e interoperar los sistemas. Pero, bueno, ese es un desafío continuo en el ciclo de vida del desarrollo de software en general, ¿no es así? También podemos consultar algunas pautas a medida que los próximos pasos potenciales continúan basándose en la solución existente.</p>
+
+<h1 id="automatización-y-creación-de-un-pipeline-de-machine-learning">Automatización y creación de un pipeline de Machine Learning</h1>
+
+<p>Ahora vamos a crear un pipeline de machine learning para automatizar la solución de los pasos descritos de 1 a 3. Para ello utilizaremos Kubeflow Pipelines (KFP) y KFP administrado, <a href="https://cloud.google.com/ai-platform/pipelines/docs/" target="_blank">Cloud AI Platform Pipelines</a> en Google Cloud.</p>
+
+<p>A continuación se muestra la representación visual de los pasos de la solución, que están disponibles en el mismo notebook en github visto anteriomente.</p>
+
+<p><img src="/img/2021/propensity_purchase.png" alt="" /></p>
+
+<p>A continuación se muestra la representación visual de los pasos de las soluciones que se basan en la implementación actual:</p>
+
+<p><img src="https://miro.medium.com/max/2815/1*KOtP9tvR48ppIa6HXD0tDw.png" alt="Image for post" /></p>
+
+<p>Los tres enlaces en los diagramas anteriores son:</p>
+
+<ul>
+<li>Consulte el <a href="https://support.google.com/analytics/answer/9250031?hl=en" target="_blank">artículo</a> para tener una idea sobre cómo utilizar los clientes que tienen propensión a comprar con un sistema CRM.</li>
+<li>Consulte el <a href="https://medium.com/google-cloud/how-to-build-a-recommendation-system-on-e-commerce-data-using-bigquery-ml-df9af2b8c110" target="_blank">artículo</a>, para obtener una idea de cómo puede utilizar <strong>Matrix Factorization</strong> para recomendar productos indicado en este <a href="https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create-matrix-factorization" target="_blank">documento</a></li>
+<li>Consulte el <a href="http://infolab.stanford.edu/~ullman/mmds/ch6.pdf" target="_blank">Capítulo 6 &ldquo;Conjuntos de elementos frecuentes&rdquo;</a> del libro &ldquo;Minería de conjuntos de datos masivos&rdquo; escrito por un profesor de la Universidad de Stanford, para tener una idea de cómo crear una lista de productos de uso frecuente.</li>
+</ul>
+
+<p>A continuación, se muestra el resultado de <strong>Cloud AI Platform Pipelines</strong> cuando ejecutamos el experimento de KFP desde el notebook. Cuando ejecutamos el experimento, es muy probable que resultado no sea el mismo:</p>
+
+<p><img src="/img/2021/kfp_result.png" alt="" /></p>
+
+<p>Cada cuadro representa un componente de KFP. Puedes consultar el notebook de jupyter anterior para conocer la semántica, la sintaxis, el paso de parámetros en la función, etc.</p>
+
+<pre><code class="language-yml">* Environment Setup
+    - Setup Cloud AI Platform Pipelines (using the CloudConsole)
+    - Install KFP client
+    - Install Python packages for Google Cloud Services
+* Kubeflow Pipelines (KFP) Setup
+    - Prepare Data for the training
+        -- Create/Validate a Google Cloud Storage Bucket/Folder
+        -- Create the input table in BigQuery
+    - Train the model
+    - Evaluate the model
+    - Prepare the Model for batch prediction
+        -- Prepare a test dataset (a table)
+        -- Predict the model in BigQuery
+    - Prepare the Model for online prediction
+    - Create a new revision (for model revision management)
+        -- Export the BigQuery Model
+        -- Export the Model from BigQuery to Google Cloud Storage
+        -- Export the Training Stats to Google Cloud Storage
+        -- Export the Eval Metrics to Google Cloud Storage
+    - Deploy to Cloud AI Platform Prediction
+    - Predict the model in Cloud AI Platform Prediction
+* Data Exploration using BigQuery, Pandas, matplotlib
+* SDLC methodologies Adherence (opinionated)
+    - Variables naming conventions
+        -- Upper case Names for immutable variables
+        -- Lower case Names for mutable variables
+        -- Naming prefixes with rpm_ or RPM_
+    - Unit Tests
+    - Cleanup/Reset utility functions
+* KFP knowledge share (demonstration)
+    - Pass inputs params through function args
+    - Pass params through pipeline args
+    - Pass Output from one Component as input of another
+    - Create an external Shared Volume available to all the Comp
+    - Use built in Operators
+    - Built light weight Component
+    - Set Component not to cache
+</code></pre>
+
+<h1 id="próximos-pasos">Próximos pasos</h1>
+
+<p>Existen una serie de mejoras o alternativas que podemos utilizar para su caso de uso específico. Por ejemplo, hemos utilizado la regresión logística en este artículo pero podríamos utilizar <a href="https://cloud.google.com/bigquery-ml/docs/bigqueryml-intro#supported_models_in" target="_blank">XGBoost u otros</a>. También podemos entrenar varios modelos en paralelo y luego evaluar para decidir qué modelo funciona mejor para su escenario. Alternativamente podemos utilizar el pipeline de MLOps y dejar que BigQuery haga el trabajo pesado para encargarse de los cálculos necesarios para entrenar los modelos. Y hay mucho más.</p>
+
+<p>Ahora que tenemos el endpoint para la predicción en línea, podemos publicar la API en un desarrollo web, app y/o monitorear su uso. Una de los servicios a utilizar en este ejemplo es <a href="https://cloud.google.com/apigee/api-management" target="_blank">Google Apigee</a>, una plataforma de administración de API, por ejemplo.</p>
+
+<h1 id="determinar-qué-producto-s-debemos-recomendar-al-cliente">Determinar qué producto(s) debemos recomendar al cliente</h1>
+
+<p>Una vez que determinamos qué cliente tiene la propensión a comprar, necesitamos averiguar qué producto(s) deberíamos recomendarles. Podríamos lanzar una campaña que utilice mensajes personalizados para una base de clientes específica. Hay muchos enfoques para determinar los productos que deberíamos recomendar al cliente. Puede utilizar una técnica de <strong>Factorización de matrices</strong> o utilizando el <strong>Market Basket Analysis</strong> que como vimos anteriormente se utilizará el <em>FrequentItemSet</em> como punto de partida.</p>
+
+<p>El modelo MarketBasket también podría proporcionar un modelo de predicción de estado en línea, es decir, cuando un cliente busca (o cualquier acción equivalente como agregar al carrito de compras) el Producto A, entonces usted podría recomendar el siguiente Producto B y así sucesivamente. Como ejemplo viene utilizado uno de los estudios más interesantes, el propio cap6 del material proporcionado antes, en particular  para un retail muy conocido en EEUU, se descubrió si alguien está comprando pañales, es posible que desee recomendarles que compren cerveza. O si un cliente ha agregado tierra para macetas a su carrito, podría recomendarles comida veggie. Cuanto mejor conozca la intención del cliente, mejor podrá recomendar otros productos pertinentes. Las opciones son infinitas &hellip;y actualmente mucho retail ya lo están poniendo en práctica, (Amazon, por ejemplo).</p>
+
+<h1 id="conclusiones">Conclusiones</h1>
+
+<p>Y llegamos al final de este largo post. Aprendimos a crear un modelo de propensión con BigQuery ML y cómo organizar una flujo de ML en Kubeflow Pipelines. Nos faltaría estudiar mejor nuestro punto de partida, ya que tenemos disponible datos de Google Analytics, al cambiar el flujo de entrada debemos identificar otros atributos clave para nuestro modelo, el resto es cuestión de despliegue de servicios en cloud, lo mismo podemos realizarlo en AWS o Azure, hasta otros más específicos para trabajos de optimización de memoria en streaming, como Databricks. Finalmente hablamos de un solo pipeline, pero existen muchos más casos de uso. Espero que sea de utilidad este post para tu puesta en producción del modelo de machine learning aplicado a tu caso de uso y no dudes de comentar en caso estás utilizando otro similar o has tenido experiencia con Kubeflow.</p>
+
+<p><a href="https://www.neoland.es/blog/como-crear-una-solucion-de-propension-de-compra" target="_blank">FUENTE ORIGINAL</a></p>
+
+    </div>
+
+    
+
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">kubeflow</a>
+  
+  <a class="badge badge-light" href="">machine learning</a>
+  
+  <a class="badge badge-light" href="">flujo de datos</a>
+  
+  <a class="badge badge-light" href="">big query</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/marcusrb/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/google-data-studio-como-sacarle-todo-partido/" rel="prev">Google Data Studio, ¿cómo sacarle todo el partido?</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
