@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: +10 yrs consultant & freelance • professor in Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Data Visualization - AI enthusiast
+role: +10 yrs as Lead Data Consultant & freelance • Data Science & Machine Learning Engineer • AI Enthusiasts • Data Professor - Instructor
 
 # Organizations/Affiliations
 organizations:
@@ -69,7 +69,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/Marco_Russo_resume.pdf
+  link: files/Marco_Russo_resume_MLE.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "hola@marcusrb.com"
@@ -93,28 +93,27 @@ user_groups:
   - AI: Machine Learning & Deep Learning
   - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
   - Big Data environment AWS • GCP • Azure • Databricks
+  - Real time processing - Streaming & Batch
+  - Spark, Flink, Stork and Kafka specialist
   - Robotics & IoT
 
 ## Digital Analyst
  
-  - Digital Analytics strategic planning
+  - Digital Analytics strategic planning by Google Analytics
   - Measurement plan and Tag management implementation
   - Data Analysis & Visualization
-  - Consultant SEO & SEM (Search, Display, YouTube, Shopping, Mobile)
 
 Long experience in project management for large accounts in retail, bank-finance, insurance, energy & power, industry and corporate. National industrial and commercial sectors in Spain, Europe and LATAM.
 
 ## Professor and in-company trainer:
 
-In the last [8 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3500 hours in:
+In the last [10 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +5000 hours in:
 
 - **data science**, artificial intelligence, machine learning, deep learning, material creation and tutoring in undergraduate, postgraduate and master's programs, as well as courses in data science and data analytics.
-- **big data**, infrastructure in cloud AWS, GCP, Azure, tutorials for machine learning and I use a pipeline for ETL, Storage, Database, exploitation and visualization. Hadoop and Spark. Knime, RapidMiner, H2O, Databricks mining tools, among many.
-- **data analytics**, fundamentals and Data mining in R-Studio, Weka, Python
+- **big data**, infrastructure in cloud AWS, GCP, Azure, tutorials for machine learning and I use a pipeline for ETL, Storage, Database, exploitation and visualization. Hadoop and Spark. H2O, Databricks mining tools, among many.
+- **data analytics**, fundamentals and Data mining in R-Studio, Weka, Python. Knime, Google Analytics, Google BigQuery
 - **business intelligence**, ETL: Talend, Pentaho, SSIS - Data Warehouse, SQL, data modeling: SSAS, DAX
 - **data visualization**, data visualization and interpretation with control panel and dashboard in Google Data Studio, PowerBI, Tableau, Qlik Sense, Grafana.
-- **digital marketing**, SEO, Google Ads (ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
-- **ecommerce**, SEO, Prestashop, Wordpress, Electronic Commerce and Mobile
 
 
 ### In class training and full remote:
@@ -135,6 +134,7 @@ In the last [8 años he impartido](/cumpliendo-anyos-formador-docente-analitica-
 
 **other**:
 
+- The Bridge Talent
 - Neoland
 - Fictizia
 - AdveiSchool

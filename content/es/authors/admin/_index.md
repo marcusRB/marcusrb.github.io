@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: +10 años consultor / freelance • docente en Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Visualización de datos - AI enthusiast
+role: +10 años consultor • freelance • docente en Big Data - Data Science - Machine Learning - Business Intelligence - Digital Analytics - Visualización de datos - AI enthusiast
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://www.dsatech.uk"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Economista, desde el mundo bancario, bolsa y finanza al mundo Big Data Analysis & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 8 años.
+bio: Economista e Ingeniero Informático, comienzo con el mundo bancario, bolsa de valores y finanza al mundo Big Data Analysis & Inteligencia artificial pasando por digital marketing. Apasionado en problem solving, data mining y visualización de datos. Aficionado de ciclismo de carretera, natación, basketball. Profesor y formador desde hace más de 10 años.
 
 interests:
 - Data Analytics & Visualization
@@ -69,7 +69,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/Marco_Russo_resume.pdf
+  link: files/Marco_Russo_resume_MLE.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "hola@marcusrb.com"
@@ -84,7 +84,7 @@ user_groups:
 > *“If you torture the data long enough, it will confess.”*
   – **Ronald Coase**
 
-## Data Specialist
+## Data Specialist & Machine Learning - Data Engineer
 
   - Data collection
   - Data prep and processing
@@ -93,28 +93,27 @@ user_groups:
   - AI: Machine Learning & Deep Learning
   - Data Visualization: Power BI - Tableau - Qlik - Google Data Studio
   - Big Data environment AWS • GCP • Azure • Databricks
+  - Stream and Batch processing
+  - Spark, Flink, Stork, Kafka
   - Robotics & IoT
 
 ## Analista Digital
  
-  - Gestión plan Analítica digital
+  - Gestión plan Analítica digital Google Analytics
   - Implementación y configuración Tag Management
   - Visualización y Data Analysis
-  - Consultoría y asesoría SEO & SEM (Search, Display, YouTube, Shopping, Mobile)
 
 Larga experiencia en gestión de proyectos para grandes cuentas en retail, banco-finanza, seguros, energy&power, industria y corporate. Sectores industriales, comerciales nacionales en España, Europa y LATAM.
 
 ## Docente & Formador in-company:
 
-En los últimos [9 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +3500 horas de formación en:
+En los últimos [10 años he impartido](/cumpliendo-anyos-formador-docente-analitica-datos/) +5000 horas de formación en:
 
 - **data science**, inteligencia artificial, machine learning, deep learning, creación material y tutoría en programas de grados, posgrados y máster, además de cursos en data science y data analytics.
 - **big data**, infraestructura en cloud AWS, GCP, Azure, tutoriales para machine learning y utilizo de pipeline para ETL, Storage, Base de datos, explotación y visualización. Hadoop y Spark. Herramientas de minería Knime, RapidMiner, H2O, Databricks, entre muchos.
-- **data analytics**, fundamentos y Data mining en R-Studio, Weka, Python
+- **data analytics**, fundamentos y Data mining en R-Studio, Weka, Python. Knime, Google Analytics, Google BigQuery
 - **business intelligence**, ETL: Talend, Pentaho, SSIS - Data Warehouse, SQL, modelado de datos: SSAS, DAX
 - **data visualization**, visualización de datos e interpretación con cuadro de mando y dashboard en Google Data Studio, PowerBI, Tableau, Qlik Sense, Grafana.
-- **digital marketing**, SEO, Google Ads(ex AdWords), FacebookAds, Google Analytics, Tag Manager, Optimize.
-- **ecommerce**, SEO, Prestashop, Wordpress, Comercio Electrónico y Mobile
 
 
 ### Formación presencial y a distancia en:
@@ -136,6 +135,7 @@ En los últimos [9 años he impartido](/cumpliendo-anyos-formador-docente-analit
 
 **otros centros formativos**:
 
+- The Bridge Talent
 - Neoland
 - Fictizia
 - AdveiSchool
