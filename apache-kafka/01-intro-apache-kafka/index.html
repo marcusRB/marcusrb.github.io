@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.4.0">
 
-  <title>Recursos de Big Data | MarcusRB</title>
+  <title>Introducción a Apache Kafka | MarcusRB</title>
     
 
 
@@ -35,10 +35,10 @@
   
     
   
-  <meta name="description" content="El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial.">
+  <meta name="description" content="Recursos y materiales de Apache Kafka">
 
   
-  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/recursos-big-data/">
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/">
 
   
 
@@ -102,7 +102,7 @@
     <script>
       var dataLayer = window.dataLayer = window.dataLayer || [];
       dataLayer.push({
-        page:'Recursos de Big Data',
+        page:'Introducción a Apache Kafka',
         categories:''
       });
     </script>
@@ -122,7 +122,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.marcusrb.com/recursos-big-data/">
+  <link rel="canonical" href="https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/">
 
   
   
@@ -138,13 +138,13 @@
   <meta property="twitter:creator" content="@rb_marcus">
   
   <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
-  <meta property="og:url" content="https://www.marcusrb.com/recursos-big-data/">
-  <meta property="og:title" content="Recursos de Big Data | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
-  <meta property="og:description" content="El programa formativo de Power BI eliges entre el módulo fundamentos y avanzado a empresas, autónomos y clases privadas en modalidad remoto o presencial."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="og:url" content="https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/">
+  <meta property="og:title" content="Introducción a Apache Kafka | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Recursos y materiales de Apache Kafka"><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
   <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="es-ES">
   
     
-      <meta property="article:published_time" content="2021-01-04T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2021-07-10T00:00:00&#43;00:00">
     
     <meta property="article:modified_time" content="2021-07-14T16:22:18&#43;02:00">
   
@@ -346,7 +346,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/recursos"><span>Recursos</span></a>
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
         </li>
 
         
@@ -431,59 +431,17 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutoriales/">Estructura de Tutoriales</a>
+    <a class="docs-toc-link" href="/big-data/recursos-apache-kafka/">Índice Apache Kafka</a>
+
+  </div>
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/apache-kafka/01-intro-apache-kafka/">Introducción Apache Kafka</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/recursos-big-data/">Estructura Big Data</a>
-    <ul class="nav docs-sidenav">
-      
-      <li class="active">
-        <a href="/recursos-big-data/">Big Data</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/recursos-business-intelligence/">Estructura Business Intelligence</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/recursos-business-intelligence/">Business Intelligence</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/recursos-inteligencia-artificial/">Estructura Inteligencia Artificial</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/recursos-inteligencia-artificial/">Inteligencia Artificial</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/recursos-visualizacion-datos/">Estructura Visualización de datos</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/recursos-visualizacion-datos/">Visualización de datos</a>
-      </li>
-      
-    </ul>
-    
+    <a class="docs-toc-link" href="/apache-kafka/02-instalar-apache-kafka/">Instalar Apache Kafka</a>
 
   </div>
   
@@ -502,7 +460,11 @@
 <ul>
 <li>
 <ul>
-<li><a href="#estructura-de-los-recursos-de-big-data">Estructura de los recursos de Big Data</a></li>
+<li><a href="#qué-es-la-transmisión-de-eventos">¿Qué es la transmisión de eventos?</a></li>
+<li><a href="#para-qué-puedo-usar-la-transmisión-de-eventos">¿Para qué puedo usar la transmisión de eventos?</a></li>
+<li><a href="#apache-kafka-es-una-plataforma-de-transmisión-de-eventos-qué-significa-eso">Apache Kafka® es una plataforma de transmisión de eventos. ¿Qué significa eso?</a></li>
+<li><a href="#cómo-funciona-kafka-en-pocas-palabras">¿Cómo funciona Kafka en pocas palabras?</a></li>
+<li><a href="#conceptos-y-terminología-principales">Conceptos y terminología principales</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -516,41 +478,71 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Recursos de Big Data</h1>
+          <h1 itemprop="name">Introducción a Apache Kafka</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h2 id="estructura-de-los-recursos-de-big-data">Estructura de los recursos de Big Data</h2>
+<p>Apache Kafka es una plataforma de transmisión de eventos distribuida de código abierto utilizada por miles de empresas para canalizaciones de datos de alto rendimiento, análisis de transmisión, integración de datos y aplicaciones de misión crítica.</p>
 
-<p>En esta sección encontraremos los recursos y tutoriales relacionados con el mundo Big Data para los percorsos o Learning Path de:</p>
+<h2 id="qué-es-la-transmisión-de-eventos">¿Qué es la transmisión de eventos?</h2>
 
-<ol>
-<li>Data Engineering</li>
-<li>Cloud Architecture</li>
-<li>Machine Learning Engineer</li>
-<li>Cloud Developer</li>
-<li>Big Data Engineering</li>
-</ol>
+<p>La transmisión de eventos es el equivalente digital del sistema nervioso central del cuerpo humano. Es la base tecnológica para el mundo &lsquo;siempre activo&rsquo; donde las empresas están cada vez más definidas y automatizadas por software, y donde el usuario del software es más software.</p>
 
-<hr />
+<p>Técnicamente hablando, la transmisión de eventos es la práctica de capturar datos en tiempo real de fuentes de eventos como bases de datos, sensores, dispositivos móviles, servicios en la nube y aplicaciones de software en forma de secuencias de eventos; almacenar estos flujos de eventos de forma duradera para su posterior recuperación; manipular, procesar y reaccionar a los flujos de eventos en tiempo real y retrospectivamente; y enrutar los flujos de eventos a diferentes tecnologías de destino según sea necesario. La transmisión de eventos asegura así un flujo continuo y una interpretación de los datos para que la información correcta esté en el lugar correcto, en el momento correcto.</p>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Introducción al Big Data</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Arquitectura Lambda</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Origenes de Hadoop</a></label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> - <a href="/big-data/recursos-apache-hadoop">Modelados de datos en Apache Hadoop</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Apache Hive</a></label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> - <a href="/big-data/recursos-apache-spark">Apache Spark</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Apache Sqoop</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Apache Flume</a></label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> - <a href="/big-data/recursos-apache-nifi">Apache NiFi</a></label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> - <a href="/big-data/recursos-apache-kafka">Apache Kafka</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Apache Flink</a></label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> - <a href="#">Databricks</a></label></li>
+<h2 id="para-qué-puedo-usar-la-transmisión-de-eventos">¿Para qué puedo usar la transmisión de eventos?</h2>
+
+<p>La transmisión de eventos se aplica a una amplia variedad de casos de uso en una gran cantidad de industrias y organizaciones. Entre sus muchos ejemplos se incluyen:</p>
+
+<ul>
+<li>Procesar pagos y transacciones financieras en tiempo real, como en bolsas de valores, bancos y seguros.</li>
+<li>Para rastrear y monitorear automóviles, camiones, flotas y envíos en tiempo real, como en la logística y la industria automotriz.</li>
+<li>Para capturar y analizar continuamente datos de sensores de dispositivos de IoT u otros equipos, como en fábricas y parques eólicos.</li>
+<li>Recopilar y reaccionar de inmediato a las interacciones y los pedidos de los clientes, como en el comercio minorista, la industria hotelera y de viajes, y las aplicaciones móviles.</li>
+<li>Monitorear a los pacientes en la atención hospitalaria y predecir cambios en la condición para garantizar un tratamiento oportuno en emergencias.</li>
+<li>Conectar, almacenar y poner a disposición datos producidos por diferentes divisiones de una empresa.</li>
+<li>Servir de base para plataformas de datos, arquitecturas basadas en eventos y microservicios.</li>
 </ul>
 
-<hr />
+<h2 id="apache-kafka-es-una-plataforma-de-transmisión-de-eventos-qué-significa-eso">Apache Kafka® es una plataforma de transmisión de eventos. ¿Qué significa eso?</h2>
+
+<p>Kafka combina tres capacidades clave para que pueda implementar sus casos de uso para la transmisión de eventos de un extremo a otro con una única solución probada en batalla:</p>
+
+<ul>
+<li>Para publicar (escribir) y suscribirse a (leer) flujos de eventos, incluida la importación / exportación continua de sus datos desde otros sistemas.</li>
+<li>Para almacenar transmisiones de eventos de manera duradera y confiable durante el tiempo que desee.</li>
+<li>Procesar flujos de eventos a medida que ocurren o retrospectivamente.</li>
+</ul>
+
+<p>Y toda esta funcionalidad se proporciona de manera distribuida, altamente escalable, elástica, tolerante a fallas y segura. Kafka se puede implementar en hardware bare-metal, máquinas virtuales y contenedores, tanto en las instalaciones como en la nube. Puede elegir entre la autogestión de sus entornos Kafka y el uso de servicios totalmente gestionados ofrecidos por una variedad de proveedores.</p>
+
+<h2 id="cómo-funciona-kafka-en-pocas-palabras">¿Cómo funciona Kafka en pocas palabras?</h2>
+
+<p>Kafka es un sistema distribuido que consta de servidores y clientes que se comunican a través de un protocolo de red TCP de alto rendimiento. Se puede implementar en hardware bare-metal, máquinas virtuales y contenedores en entornos locales y en la nube.</p>
+
+<p><strong>Servidores</strong>: Kafka se ejecuta como un clúster de uno o más servidores que pueden abarcar varios centros de datos o regiones de la nube. Algunos de estos servidores forman la capa de almacenamiento, denominados intermediarios. Otros servidores ejecutan Kafka Connect para importar y exportar datos continuamente como flujos de eventos para integrar Kafka con sus sistemas existentes, como bases de datos relacionales y otros clústeres de Kafka. Para permitirle implementar casos de uso de misión crítica, un clúster de Kafka es altamente escalable y tolerante a fallas: si alguno de sus servidores falla, los otros servidores se harán cargo de su trabajo para garantizar operaciones continuas sin pérdida de datos.</p>
+
+<p><strong>Clientes</strong>: le permiten escribir aplicaciones distribuidas y microservicios que leen, escriben y procesan flujos de eventos en paralelo, a escala y de manera tolerante a fallas, incluso en el caso de problemas de red o fallas de la máquina. Kafka se envía con algunos de estos clientes incluidos, que se complementan con docenas de clientes proporcionados por la comunidad de Kafka: los clientes están disponibles para Java y Scala, incluida la biblioteca Kafka Streams de nivel superior, para Go, Python, C / C ++ y muchas otras programaciones. idiomas y API REST.</p>
+
+<h2 id="conceptos-y-terminología-principales">Conceptos y terminología principales</h2>
+
+<p>Un evento registra el hecho de que &ldquo;algo sucedió&rdquo; en el mundo o en su negocio. También se denomina registro o mensaje en la documentación. Cuando lee o escribe datos en Kafka, lo hace en forma de eventos. Conceptualmente, un evento tiene una clave, un valor, una marca de tiempo y encabezados de metadatos opcionales. Aquí hay un evento de ejemplo:</p>
+
+<pre><code>    Clave de evento: &quot;Alice&quot;
+    Valor del evento: &quot;Hizo un pago de $ 200 a Bob&quot;
+    Marca de tiempo del evento: &quot;25 de junio de 2020 a las 2:06 p.m.&quot;
+</code></pre>
+
+<p>Los <strong>productores</strong> son aquellas aplicaciones cliente que publican (escriben) eventos en Kafka, y los <strong>consumidores</strong> son aquellos que se suscriben (leen y procesan) estos eventos. En Kafka, los productores y los consumidores están completamente desacoplados y son agnósticos entre sí, lo que es un elemento de diseño clave para lograr la alta escalabilidad por la que Kafka es conocido. Por ejemplo, los productores nunca necesitan esperar a los consumidores. Kafka ofrece varias garantías, como la capacidad de procesar eventos exactamente una vez.</p>
+
+<p>Los eventos se organizan y almacenan de forma duradera en <strong>topics</strong> o temas. Muy simplificado, un tema es similar a una carpeta en un sistema de archivos, y los eventos son los archivos de esa carpeta. Un ejemplo de nombre de tema podría ser &ldquo;pagos&rdquo;. Los temas en Kafka siempre son de múltiples productores y múltiples suscriptores: un tema puede tener cero, uno o muchos productores que escriban eventos en él, así como cero, uno o muchos consumidores que se suscriban a estos eventos. Los eventos de un tema se pueden leer con la frecuencia necesaria; a diferencia de los sistemas de mensajería tradicionales, los eventos no se eliminan después del consumo. En su lugar, defina durante cuánto tiempo Kafka debe retener sus eventos a través de una configuración por tema, después de lo cual se descartarán los eventos antiguos. El rendimiento de Kafka es efectivamente constante con respecto al tamaño de los datos, por lo que almacenar datos durante mucho tiempo está perfectamente bien.</p>
+
+<p>Los temas están <strong>particionados</strong>, lo que significa que un tema se distribuye en varios <em>repositorios</em> ubicados en diferentes corredores de Kafka. Esta ubicación distribuida de sus datos es muy importante para la escalabilidad porque permite que las aplicaciones cliente lean y escriban los datos desde / hacia muchos corredores al mismo tiempo. Cuando se publica un nuevo evento en un tema, en realidad se agrega a una de las particiones del tema. Los eventos con la misma clave de evento (por ejemplo, un ID de cliente o vehículo) se escriben en la misma partición, y Kafka garantiza que cualquier consumidor de una partición de tema determinada siempre leerá los eventos de esa partición exactamente en el mismo orden en que fueron escritos.</p>
+
+<p>Para que los datos sean tolerantes a fallos y tengan alta disponibilidad, todos los temas se pueden replicar, incluso en regiones geográficas o centros de datos, de modo que siempre haya varios corredores que tengan una copia de los datos en caso de que las cosas salgan mal, usted quiere realizar el mantenimiento de los corredores, etc. Una configuración de producción común es un factor de replicación de 3, es decir, siempre habrá tres copias de sus datos. Esta replicación se realiza a nivel de particiones de tema.</p>
+
+<p>Esta cartilla debería ser suficiente para una introducción. La sección Diseño de la documentación explica los diversos conceptos de Kafka con todo detalle, si está interesado.</p>
 
           </div>
 
@@ -566,9 +558,10 @@
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Siguiente</div>
-    <a href="/recursos-business-intelligence/" rel="prev">Recursos de Business Intelligence</a>
+    <div class="meta-nav">Anterior</div>
+    <a href="/apache-kafka/02-instalar-apache-kafka/" rel="next">Instalar Apache Kafka</a>
   </div>
+  
   
 </div>
 

@@ -5,12 +5,164 @@
     <link>https://www.marcusrb.com/</link>
       <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
     <description>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-ES</language><copyright>© 2021</copyright><lastBuildDate>Sun, 21 Feb 2021 11:52:54 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-ES</language><copyright>© 2021</copyright><lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.marcusrb.com/img/icon-192.png</url>
       <title>MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
       <link>https://www.marcusrb.com/</link>
     </image>
+    
+    <item>
+      <title>Instalar Apache Kafka</title>
+      <link>https://www.marcusrb.com/apache-kafka/02-instalar-apache-kafka/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/apache-kafka/02-instalar-apache-kafka/</guid>
+      <description>
+
+&lt;h2 id=&#34;standalone-en-entorno-linux&#34;&gt;Standalone en entorno Linux&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kafka.apache.org/downloads.html&#34; target=&#34;_blank&#34;&gt;Descargar la última release de Apache Kafka&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Descomprimir el contenido:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ tar -xzf kafka_2.13-2.8.0.tgz
+$ cd kafka_2.13-2.8.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Start el entorno&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Comprobar que existe actualmente instalado Java 8+&lt;/p&gt;
+
+&lt;p&gt;Sucesivamente enviar los siguientes comandos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Start the ZooKeeper service
+# Note: Soon, ZooKeeper will no longer be required by Apache Kafka.
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Y abrir en otro terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Start the Kafka broker service
+$ bin/kafka-server-start.sh config/server.properties
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Apache Kafka</title>
+      <link>https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/</guid>
+      <description>
+
+&lt;p&gt;Apache Kafka es una plataforma de transmisión de eventos distribuida de código abierto utilizada por miles de empresas para canalizaciones de datos de alto rendimiento, análisis de transmisión, integración de datos y aplicaciones de misión crítica.&lt;/p&gt;
+
+&lt;h2 id=&#34;qué-es-la-transmisión-de-eventos&#34;&gt;¿Qué es la transmisión de eventos?&lt;/h2&gt;
+
+&lt;p&gt;La transmisión de eventos es el equivalente digital del sistema nervioso central del cuerpo humano. Es la base tecnológica para el mundo &amp;lsquo;siempre activo&amp;rsquo; donde las empresas están cada vez más definidas y automatizadas por software, y donde el usuario del software es más software.&lt;/p&gt;
+
+&lt;p&gt;Técnicamente hablando, la transmisión de eventos es la práctica de capturar datos en tiempo real de fuentes de eventos como bases de datos, sensores, dispositivos móviles, servicios en la nube y aplicaciones de software en forma de secuencias de eventos; almacenar estos flujos de eventos de forma duradera para su posterior recuperación; manipular, procesar y reaccionar a los flujos de eventos en tiempo real y retrospectivamente; y enrutar los flujos de eventos a diferentes tecnologías de destino según sea necesario. La transmisión de eventos asegura así un flujo continuo y una interpretación de los datos para que la información correcta esté en el lugar correcto, en el momento correcto.&lt;/p&gt;
+
+&lt;h2 id=&#34;para-qué-puedo-usar-la-transmisión-de-eventos&#34;&gt;¿Para qué puedo usar la transmisión de eventos?&lt;/h2&gt;
+
+&lt;p&gt;La transmisión de eventos se aplica a una amplia variedad de casos de uso en una gran cantidad de industrias y organizaciones. Entre sus muchos ejemplos se incluyen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Procesar pagos y transacciones financieras en tiempo real, como en bolsas de valores, bancos y seguros.&lt;/li&gt;
+&lt;li&gt;Para rastrear y monitorear automóviles, camiones, flotas y envíos en tiempo real, como en la logística y la industria automotriz.&lt;/li&gt;
+&lt;li&gt;Para capturar y analizar continuamente datos de sensores de dispositivos de IoT u otros equipos, como en fábricas y parques eólicos.&lt;/li&gt;
+&lt;li&gt;Recopilar y reaccionar de inmediato a las interacciones y los pedidos de los clientes, como en el comercio minorista, la industria hotelera y de viajes, y las aplicaciones móviles.&lt;/li&gt;
+&lt;li&gt;Monitorear a los pacientes en la atención hospitalaria y predecir cambios en la condición para garantizar un tratamiento oportuno en emergencias.&lt;/li&gt;
+&lt;li&gt;Conectar, almacenar y poner a disposición datos producidos por diferentes divisiones de una empresa.&lt;/li&gt;
+&lt;li&gt;Servir de base para plataformas de datos, arquitecturas basadas en eventos y microservicios.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;apache-kafka-es-una-plataforma-de-transmisión-de-eventos-qué-significa-eso&#34;&gt;Apache Kafka® es una plataforma de transmisión de eventos. ¿Qué significa eso?&lt;/h2&gt;
+
+&lt;p&gt;Kafka combina tres capacidades clave para que pueda implementar sus casos de uso para la transmisión de eventos de un extremo a otro con una única solución probada en batalla:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Para publicar (escribir) y suscribirse a (leer) flujos de eventos, incluida la importación / exportación continua de sus datos desde otros sistemas.&lt;/li&gt;
+&lt;li&gt;Para almacenar transmisiones de eventos de manera duradera y confiable durante el tiempo que desee.&lt;/li&gt;
+&lt;li&gt;Procesar flujos de eventos a medida que ocurren o retrospectivamente.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y toda esta funcionalidad se proporciona de manera distribuida, altamente escalable, elástica, tolerante a fallas y segura. Kafka se puede implementar en hardware bare-metal, máquinas virtuales y contenedores, tanto en las instalaciones como en la nube. Puede elegir entre la autogestión de sus entornos Kafka y el uso de servicios totalmente gestionados ofrecidos por una variedad de proveedores.&lt;/p&gt;
+
+&lt;h2 id=&#34;cómo-funciona-kafka-en-pocas-palabras&#34;&gt;¿Cómo funciona Kafka en pocas palabras?&lt;/h2&gt;
+
+&lt;p&gt;Kafka es un sistema distribuido que consta de servidores y clientes que se comunican a través de un protocolo de red TCP de alto rendimiento. Se puede implementar en hardware bare-metal, máquinas virtuales y contenedores en entornos locales y en la nube.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Servidores&lt;/strong&gt;: Kafka se ejecuta como un clúster de uno o más servidores que pueden abarcar varios centros de datos o regiones de la nube. Algunos de estos servidores forman la capa de almacenamiento, denominados intermediarios. Otros servidores ejecutan Kafka Connect para importar y exportar datos continuamente como flujos de eventos para integrar Kafka con sus sistemas existentes, como bases de datos relacionales y otros clústeres de Kafka. Para permitirle implementar casos de uso de misión crítica, un clúster de Kafka es altamente escalable y tolerante a fallas: si alguno de sus servidores falla, los otros servidores se harán cargo de su trabajo para garantizar operaciones continuas sin pérdida de datos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clientes&lt;/strong&gt;: le permiten escribir aplicaciones distribuidas y microservicios que leen, escriben y procesan flujos de eventos en paralelo, a escala y de manera tolerante a fallas, incluso en el caso de problemas de red o fallas de la máquina. Kafka se envía con algunos de estos clientes incluidos, que se complementan con docenas de clientes proporcionados por la comunidad de Kafka: los clientes están disponibles para Java y Scala, incluida la biblioteca Kafka Streams de nivel superior, para Go, Python, C / C ++ y muchas otras programaciones. idiomas y API REST.&lt;/p&gt;
+
+&lt;h2 id=&#34;conceptos-y-terminología-principales&#34;&gt;Conceptos y terminología principales&lt;/h2&gt;
+
+&lt;p&gt;Un evento registra el hecho de que &amp;ldquo;algo sucedió&amp;rdquo; en el mundo o en su negocio. También se denomina registro o mensaje en la documentación. Cuando lee o escribe datos en Kafka, lo hace en forma de eventos. Conceptualmente, un evento tiene una clave, un valor, una marca de tiempo y encabezados de metadatos opcionales. Aquí hay un evento de ejemplo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Clave de evento: &amp;quot;Alice&amp;quot;
+    Valor del evento: &amp;quot;Hizo un pago de $ 200 a Bob&amp;quot;
+    Marca de tiempo del evento: &amp;quot;25 de junio de 2020 a las 2:06 p.m.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Los &lt;strong&gt;productores&lt;/strong&gt; son aquellas aplicaciones cliente que publican (escriben) eventos en Kafka, y los &lt;strong&gt;consumidores&lt;/strong&gt; son aquellos que se suscriben (leen y procesan) estos eventos. En Kafka, los productores y los consumidores están completamente desacoplados y son agnósticos entre sí, lo que es un elemento de diseño clave para lograr la alta escalabilidad por la que Kafka es conocido. Por ejemplo, los productores nunca necesitan esperar a los consumidores. Kafka ofrece varias garantías, como la capacidad de procesar eventos exactamente una vez.&lt;/p&gt;
+
+&lt;p&gt;Los eventos se organizan y almacenan de forma duradera en &lt;strong&gt;topics&lt;/strong&gt; o temas. Muy simplificado, un tema es similar a una carpeta en un sistema de archivos, y los eventos son los archivos de esa carpeta. Un ejemplo de nombre de tema podría ser &amp;ldquo;pagos&amp;rdquo;. Los temas en Kafka siempre son de múltiples productores y múltiples suscriptores: un tema puede tener cero, uno o muchos productores que escriban eventos en él, así como cero, uno o muchos consumidores que se suscriban a estos eventos. Los eventos de un tema se pueden leer con la frecuencia necesaria; a diferencia de los sistemas de mensajería tradicionales, los eventos no se eliminan después del consumo. En su lugar, defina durante cuánto tiempo Kafka debe retener sus eventos a través de una configuración por tema, después de lo cual se descartarán los eventos antiguos. El rendimiento de Kafka es efectivamente constante con respecto al tamaño de los datos, por lo que almacenar datos durante mucho tiempo está perfectamente bien.&lt;/p&gt;
+
+&lt;p&gt;Los temas están &lt;strong&gt;particionados&lt;/strong&gt;, lo que significa que un tema se distribuye en varios &lt;em&gt;repositorios&lt;/em&gt; ubicados en diferentes corredores de Kafka. Esta ubicación distribuida de sus datos es muy importante para la escalabilidad porque permite que las aplicaciones cliente lean y escriban los datos desde / hacia muchos corredores al mismo tiempo. Cuando se publica un nuevo evento en un tema, en realidad se agrega a una de las particiones del tema. Los eventos con la misma clave de evento (por ejemplo, un ID de cliente o vehículo) se escriben en la misma partición, y Kafka garantiza que cualquier consumidor de una partición de tema determinada siempre leerá los eventos de esa partición exactamente en el mismo orden en que fueron escritos.&lt;/p&gt;
+
+&lt;p&gt;Para que los datos sean tolerantes a fallos y tengan alta disponibilidad, todos los temas se pueden replicar, incluso en regiones geográficas o centros de datos, de modo que siempre haya varios corredores que tengan una copia de los datos en caso de que las cosas salgan mal, usted quiere realizar el mantenimiento de los corredores, etc. Una configuración de producción común es un factor de replicación de 3, es decir, siempre habrá tres copias de sus datos. Esta replicación se realiza a nivel de particiones de tema.&lt;/p&gt;
+
+&lt;p&gt;Esta cartilla debería ser suficiente para una introducción. La sección Diseño de la documentación explica los diversos conceptos de Kafka con todo detalle, si está interesado.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Apache Spark</title>
+      <link>https://www.marcusrb.com/apache-spark/01-intro-apache-spark/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/apache-spark/01-intro-apache-spark/</guid>
+      <description>&lt;p&gt;Apache Spark es un motor de análisis unificado para el procesamiento de datos a gran escala. Proporciona API de alto nivel en Java, Scala, Python y R, y un motor optimizado que admite gráficos de ejecución general. También es compatible con un amplio conjunto de herramientas de alto nivel que incluyen Spark SQL para SQL y procesamiento de datos estructurados, MLlib para aprendizaje automático, GraphX para procesamiento de gráficos y Structured Streaming para procesamiento incremental y flujo de datos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Pandas 101</title>
+      <link>https://www.marcusrb.com/cursos/python/pandas/pandas101-1-intro/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/python/pandas/pandas101-1-intro/</guid>
+      <description>
+
+&lt;h2 id=&#34;qués-es-pandas&#34;&gt;¿Qués es Pandas?&lt;/h2&gt;
+
+&lt;p&gt;Es una biblioteca de análisis de datos de código abierto para proporcionar estructuras de datos y herramientas de análisis de datos fáciles de usar.&lt;/p&gt;
+
+&lt;h3 id=&#34;beneficios-de-pandas&#34;&gt;Beneficios de Pandas:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Muchas funcionalidades&lt;/li&gt;
+&lt;li&gt;Comunidad activa&lt;/li&gt;
+&lt;li&gt;Documentación extensa&lt;/li&gt;
+&lt;li&gt;Juega bien con otros paquetes&lt;/li&gt;
+&lt;li&gt;Construido sobre NumPy&lt;/li&gt;
+&lt;li&gt;Funciona bien con scikit-learn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;otros-enlaces-de-interés-de-pandas&#34;&gt;Otros enlaces de interés de Pandas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;pandas main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html&#34; target=&#34;_blank&#34;&gt;pandas installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/products/individual&#34; target=&#34;_blank&#34;&gt;Anaconda distribution of Python (includes pandas)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to use the IPython/Jupyter notebook (video)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Carga de datos en Power BI</title>
@@ -5122,6 +5274,39 @@ Google Plus usa aprendizaje automático en diferentes situaciones: clasificar la
     </item>
     
     <item>
+      <title>Carga de datos en Pandas</title>
+      <link>https://www.marcusrb.com/cursos/python/pandas/pandas101-2-carga/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/python/pandas/pandas101-2-carga/</guid>
+      <description>
+
+&lt;h2 id=&#34;qués-es-pandas&#34;&gt;¿Qués es Pandas?&lt;/h2&gt;
+
+&lt;p&gt;Es una biblioteca de análisis de datos de código abierto para proporcionar estructuras de datos y herramientas de análisis de datos fáciles de usar.&lt;/p&gt;
+
+&lt;h3 id=&#34;beneficios-de-pandas&#34;&gt;Beneficios de Pandas:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Muchas funcionalidades&lt;/li&gt;
+&lt;li&gt;Comunidad activa&lt;/li&gt;
+&lt;li&gt;Documentación extensa&lt;/li&gt;
+&lt;li&gt;Juega bien con otros paquetes&lt;/li&gt;
+&lt;li&gt;Construido sobre NumPy&lt;/li&gt;
+&lt;li&gt;Funciona bien con scikit-learn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;otros-enlaces-de-interés-de-pandas&#34;&gt;Otros enlaces de interés de Pandas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;pandas main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html&#34; target=&#34;_blank&#34;&gt;pandas installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/products/individual&#34; target=&#34;_blank&#34;&gt;Anaconda distribution of Python (includes pandas)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to use the IPython/Jupyter notebook (video)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Programa R para Data Science</title>
       <link>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-program/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
@@ -6294,12 +6479,11 @@ El argumento de lista especifica la lista de objetos que se eliminarán.&lt;/p&g
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Origenes de Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-hadoop&#34;&gt;Modelados de datos en Apache Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Hive&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Spark Streaming&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-spark&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Sqoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flume&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-nifi&#34;&gt;Apache NiFi&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-kafka&#34;&gt;Apache Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flink&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Databricks&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
