@@ -39,12 +39,11 @@
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Origenes de Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-hadoop&#34;&gt;Modelados de datos en Apache Hadoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Hive&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Spark Streaming&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-spark&#34;&gt;Apache Spark&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Sqoop&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flume&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-nifi&#34;&gt;Apache NiFi&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/big-data/recursos-apache-kafka&#34;&gt;Apache Kafka&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Apache Flink&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;#&#34;&gt;Databricks&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
