@@ -27,6 +27,7 @@ En esta sección se publicarán los diferentes formatos de cursos y tutoriales, 
 
 - **[Documentación técnica de proyectos](/proyectos/)**
 - **[Tutoriales](../tutoriales/)**
+- **[Certificaciones](../tutoriales/certificaciones-big-data)**
 
 ***
 
