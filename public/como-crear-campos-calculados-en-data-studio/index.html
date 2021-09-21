@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>¿Cómo crear campos calculados en Google Data Studio? | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index, follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Guía muy útil de como crear los campos calculados en Google Data Studio. Es muy probable que ya conozcas la herramienta de visualización Google Data Studio, un servicio gestionado de Google alojado en la nube.
+Hemos visto su gran potencial para la generación de reportes/informes y análisis de visualización (que dejó su versión beta en 2018). Además, su uso no está extendido solamente a analistas de datos o a profesionales del marketing digital (creando informes de Google Ads, Facebook y Google Analytics), sino que también podemos aprovecharlo para integrar diferentes fuentes de datos como de producción (API tipo Jira u otras de project management e integradas con Google Cloud Platform).">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'¿Cómo crear campos calculados en Google Data Studio?',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/">
+  <meta property="og:title" content="¿Cómo crear campos calculados en Google Data Studio? | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Guía muy útil de como crear los campos calculados en Google Data Studio. Es muy probable que ya conozcas la herramienta de visualización Google Data Studio, un servicio gestionado de Google alojado en la nube.
+Hemos visto su gran potencial para la generación de reportes/informes y análisis de visualización (que dejó su versión beta en 2018). Además, su uso no está extendido solamente a analistas de datos o a profesionales del marketing digital (creando informes de Google Ads, Facebook y Google Analytics), sino que también podemos aprovecharlo para integrar diferentes fuentes de datos como de producción (API tipo Jira u otras de project management e integradas con Google Cloud Platform)."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="es-ES">
+  
+    
+      <meta property="article:published_time" content="2020-10-10T17:52:54&#43;01:00">
+    
+    <meta property="article:modified_time" content="2021-01-31T16:18:36&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactos"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">¿Cómo crear campos calculados en Google Data Studio?</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2020-10-10 17:52:54 &#43;0100 &#43;0100" itemprop="datePublished">
+<meta content="2021-01-31 16:18:36 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marcusrb/">marcusRB</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última actualización el
+      
+    
+    <time>Jan 31, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min de lectura
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/como-crear-campos-calculados-en-data-studio/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="">Data Visualization</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/&amp;text=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/&amp;t=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?&amp;body=https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/&amp;title=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?%20https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/&amp;title=%c2%bfC%c3%b3mo%20crear%20campos%20calculados%20en%20Google%20Data%20Studio?" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="guía-muy-útil-de-como-crear-los-campos-calculados-en-google-data-studio">Guía muy útil de como crear los campos calculados en Google Data Studio.</h2>
+
+<p>Es muy probable que ya conozcas la <a href="/generamos-dashboard-data-studio">herramienta de visualización Google Data Studio</a>, un servicio gestionado de Google alojado en la nube.</p>
+
+<p>Hemos visto su <strong>gran potencial para la generación de reportes/informes y análisis de visualización</strong> (que dejó su versión beta en 2018). Además, su uso no está extendido  solamente a analistas de datos o a profesionales del marketing digital  (creando informes de Google Ads, Facebook y Google Analytics), sino que  también podemos aprovecharlo para integrar diferentes fuentes de datos  como de producción (API tipo Jira u otras de project management e  integradas con Google Cloud Platform). Existe un punto común: todos  están aprovechando los campos calculados de Google Data Studio, ya que  son una herramienta súper poderosa que se debería usar.</p>
+
+<p>Es cierto que en el contexto de la inteligencia de negocio, así como en ámbitos más técnicos, el rol de un <strong>analista de datos</strong> debería estar familiarizado con: programación SQL y conceptos de  visualización; el funcionamiento de las APIs, resto de conectores y  entorno cloud; y con el contexto del origen de los datos.</p>
+
+<p>Cada  herramienta de visualización tiene su complejidad a la hora de realizar  una Extracción, Transformación y Carga o ETL (Extract, Transform, Load), donde los campos calculados y la creación de nuevas medidas entran en  juego. Imagina tener unos objetivos y filtros mal configurados,  agrupaciones de contenido no retroactivas y parámetros inconsistentes en tu cuenta de Google Analytics. O, en el peor de los casos, realizar  todas las operaciones de forma manual, de manera desordenada, en hojas  de cálculo de Google o funciones de VLOOKUP con referencias que  devuelven un valor nulo&hellip;</p>
+
+<p>Por estos motivos, nace la idea de realizar una <strong>guía completa y actualizada de los campos calculados de Google Data Studio</strong>, que te será muy útil para optimizar informes y obtener mejores resultados.</p>
+
+<h2 id="qué-son-los-campos-calculados-de-google-data-studio">¿Qué son los campos calculados de Google Data Studio?</h2>
+
+<p>Los campos calculados te permiten <strong>aplicar cálculos y otras funciones a los datos para crear nuevas métricas y dimensiones</strong>. Además, <strong>se pueden usar para ampliar y transformar la información en sus fuentes de datos</strong> y permite <strong>replicarlos en otras herramientas</strong>, como Power BI con DAX o en Tableau.</p>
+
+<p>Entre otras <strong>ventajas</strong>, pueden ayudarte a:</p>
+
+<ul>
+<li>Calcular la tasa de conversión entre dos métricas.</li>
+<li>Analizar la tasa de caída del paso del funnel.</li>
+<li>Limpiar URLs y cadenas de texto.</li>
+<li>Agrupación de contenidos similares.</li>
+<li>Cálculos con sentencias condicionales.</li>
+<li>Manipulación de fechas.</li>
+</ul>
+
+<p>Actualmente Google Data Studio <strong>aumenta de forma significativa el número de las funciones</strong>, al igual que mejora la otra <em>tool</em> de tratamiento de datos, Google Spreadsheets (que en su propia web <a href="https://support.google.com/datastudio/answer/9152828?hl=es" target="_blank">indica más de 50 funciones</a> y que se requieren para <a href="/crear-dashboard-para-poner-orden-tus-metricas/">elaborar un dashboard</a> más completo posible).</p>
+
+<h2 id="por-qué-utilizar-los-campos-calculados-en-data-studio">¿Por qué utilizar los campos calculados en Data Studio?</h2>
+
+<p>Siempre que quieras presentar datos que <strong>aún no están disponibles en datos de origen</strong>, los campos calculados son el mejor aliado, ya que te permiten hacerlo:</p>
+
+<ul>
+<li>Más <strong>bonito</strong> (es decir, limpiando su informe de URL).</li>
+<li>Más <strong>perspicaz</strong> (es decir, concatenando nombre de host + ruta de página de destino).</li>
+<li>Más <strong>procesable</strong> (es decir, al relacionar los resultados con los objetivos establecidos).</li>
+</ul>
+
+<p>Presentar los datos de la manera más fácil y sin ambigüedades es primordial si  desea que los clientes / stakeholders confíen en las recomendaciones y  tomen las medidas apropiadas al respecto.</p>
+
+<h2 id="cuándo-y-cómo-puedo-utilizarlos">¿Cuándo y cómo puedo utilizarlos?</h2>
+
+<p>Los puedes utilizar en cualquier tipo de gráfico. Sin embargo, solo los  campos calculados a nivel de gráfico se pueden usar en fuentes de datos  combinadas (o data blending). Por tanto, es <strong>importante diferenciar:</strong></p>
+
+<ul>
+<li>Los <strong>campos calculados de la fuente de datos</strong> se agregan a la fuente de datos y se pueden reutilizar en otros gráficos e informes.</li>
+<li>Los <strong>campos calculados a nivel de gráfico</strong> solo se pueden usar en un gráfico en particular, sin embargo, funcionan con datos combinados.</li>
+</ul>
+
+<h2 id="primer-campo-calculado-paso-a-paso">Primer campo calculado, paso a paso</h2>
+
+<h3 id="planificación">Planificación</h3>
+
+<p>Antes de realizar un cuadro de mando, hay que conocer los datos y realizar una sesión de <strong>data discovery</strong> para detectar en una matriz tipo DAFO las necesidades, dificultades,  indicadores y riesgos. Para poner un ejemplo, hagamos un inventario de  todos los KPIs que no están directamente disponibles en una sola fuente  de datos. Definamos qué fuentes de datos, dimensiones, métricas y  funciones necesitaremos para crearlas.</p>
+
+<p><em>Ejemplo:</em> el sitio  web de generación de leads de su cliente tiene tres formularios de  contacto que se rastrean como objetivos separados en Google Analytics.  Sin embargo, en el dashboard se requiere que el detalle de la ‘tasa de  conversión’ del formulario de contacto para los tres objetivos sea del  formulario de contacto combinado</p>
+
+<p>Para crear un <strong>campo calculado ‘tasa de conversión de objetivos’</strong> (con todos los formularios de contacto), se necesitará:</p>
+
+<ul>
+<li>Una vista de Google Analytics como fuente de datos.</li>
+<li>Las métricas de cumplimiento de objetivos individuales y la de métrica de sesión.</li>
+<li>Algún cálculo aritmético básico en un campo calculado que nos llevará al resultado deseado.</li>
+</ul>
+
+<p><em>Un consejo:</em> un error común de cualquier analista de datos es importar todos los  campos en el dashboard y comenzar a pintar, aumentando el tiempo de  respuesta de los diferentes cálculos, empeorando la performance y  obviando la creación de nuevas métricas.</p>
+
+<h3 id="implantación-del-campo-calculado">Implantación del campo calculado</h3>
+
+<p>Añadimos el nuevo campo calculado al data source o al gráfico. Podemos tomar  como guía esta tabla comparativa para saber cuándo utilizar uno u otro:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Campo calculado por fuente de datos</th>
+<th>Campo calculado por gráfico</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>¿Necesita permisos al Data Source?</td>
+<td>✔️</td>
+<td>❌</td>
+</tr>
+
+<tr>
+<td>¿Necesita combinar datos?</td>
+<td>❌</td>
+<td>✔️</td>
+</tr>
+
+<tr>
+<td>¿Se requieren otros campos calculados?</td>
+<td>✔️</td>
+<td>❌</td>
+</tr>
+
+<tr>
+<td>¿Deberían ser utilizados en otros informes o gráficos?</td>
+<td>✔️</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+
+<p>A continuación, seguimos y creamos un <strong>campo calculado a nivel de fuente de datos.</strong></p>
+
+<p>Añadimos cualquier gráfico al lienzo en blanco que pueda tomar múltiples  dimensiones y métricas como entradas (por ejemplo, una tabla).</p>
+
+<ul>
+<li>Hacemos click en <em>Add A Field</em> o <em>Crear nuevo campo,</em> tal como indica en la captura.</li>
+</ul>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/e6c81a719cf146b4b50dba736b46ad63.png" alt="img" /></p>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/1ffad5eebeb847b89ba46446237aba55.png" alt="img" /></p>
+
+<ul>
+<li>Creamos el campo calculado, utilizando una de las funciones disponibles, otro campo calculado o una medida calculada.</li>
+</ul>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/ee381c92351c4b8dad731df863bdf00a.png" alt="img" /></p>
+
+<ul>
+<li>La alternativa por campo calculado aplicado al gráfico si queremos que sea <em>Dimensión</em> o <em>Métrica</em>, en caso del tipo gráfico, se puede realizar desde el panel indicado en la captura.</li>
+</ul>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/333ef484ba8d4c7faf2a28c3689a93d9.png" alt="img" /></p>
+
+<ul>
+<li>Y, en este último caso, directamente creamos el campo calculado.</li>
+</ul>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/9c32503e34ea416ca872820ed5fdbdca.png" alt="img" /></p>
+
+<p>Siguiendo con el ejemplo anterior, si queremos que sea <strong>Tasa de conversión de objetivos</strong> (todos los forms), que sea utilizado en otros informes y requerimos permisos será campo calculado del tipo Data Source.</p>
+
+<h3 id="añadimos-la-función">Añadimos la función</h3>
+
+<p>En el campo de <em>Fórmula</em> podemos definir cómo deben manipularse sus dimensiones o métricas  existentes. Es posible que sea muy básico, pero siempre es útil entender cómo funciona ya que es simplemente hacer un cálculo aritmético entre  las métricas.</p>
+
+<p>La verificación verde (check abajo de la propia  ventana) indica que la fórmula no contiene ningún error de sintaxis.  Presionamos <em>Guardar</em> y Data Studio realizará otra comprobación de detección, pero esta vez también considerando los datos reales.</p>
+
+<ul>
+<li>Del ejemplo anterior realizamos una operación aritmética basada en la suma  de los diferentes objetivos dividida entre las sesiones. Importante:  debemos fijarnos en el uso correcto de los paréntesis.</li>
+</ul>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/43a768a06dd74bf98b91d28a4ba5d7a5.png" alt="img" /></p>
+
+<h3 id="añadimos-el-campo-a-nuestro-dashboard">Añadimos el campo a nuestro dashboard</h3>
+
+<p>Una vez realizados los pasos anteriores, guardamos y lo aplicamos en  nuestra tabla. Hay que realizar unos pequeños cambios, como tener que  indicarle el tipo de dato o campo (siendo un ratio será en formato  porcentaje).</p>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/bf59fd0222d5419fb3567b3afaacdace.png" alt="img" /></p>
+
+<h2 id="qué-son-las-funciones-de-google-data-studio">¿Qué son las funciones de Google Data Studio?</h2>
+
+<p>Las funciones de Data Studio son fórmulas que se pueden usar en campos  calculados para manipular y combinar campos existentes de formas más  avanzadas y complejas de lo que permite la aritmética básica.</p>
+
+<p>Al  igual que las fórmulas en el software de hojas de cálculo como Excel o  Google Sheets, las funciones de Data Studio tienen un propósito y una  sintaxis específicas. <a href="https://support.google.com/datastudio/table/6379764?hl=es" target="_blank">Google las clasifica en 6 categorías</a>:</p>
+
+<ul>
+<li>Agregación (cómo MAX, MIN, AVG, SUM).</li>
+<li>Aritméticos (ej. ROUND para realizar redondeo de los valores numéricos).</li>
+<li>Fechas (ej. WEEKDAY para devolver el nombre del día de la semana).</li>
+<li>Geográfico (ej. TOCOUNTRY para devolver el código ISO del país).</li>
+<li>Texto (ej. CONCAT para realizar la concatenación de textos).</li>
+<li>Otras (ej. CASE para devolver valores basados en condiciones).</li>
+</ul>
+
+<h3 id="las-cinco-funciones-más-utilizadas-en-data-studio">Las cinco funciones más utilizadas en Data Studio</h3>
+
+<ol>
+<li><strong>UPPER/LOWER</strong></li>
+</ol>
+
+<p>Para ser ordenados, organizados y tiquismiquis con nuestros datos tenemos  que utilizar categorías en mayúsculas, así como las dimensiones más  importante, y dejar el resto en minúsculas. Entonces, puedes realizar  todo esto con las funciones UPPER/LOWER que realizará la conversión de  las cadenas de textos como input, en el formato requerido.</p>
+
+<p><em>Ejemplo:</em> realizar la conversión a mayúscula de los dispositivos.</p>
+
+<pre><code>UPPER(Device Category)
+</code></pre>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/3dedaaf824b3464d933ebfa08df46dcf.png" alt="img" /></p>
+
+<ol>
+<li><strong>CONCAT</strong></li>
+</ol>
+
+<p>¿Necesitas unir múltiples campos de texto para que tus datos sean más  comprensibles? Si quieres combinar dos dimensiones (o convertir una  métrica en dimensión) en una columna de la tabla es un caso de uso común para la función CONCAT. Puede tener múltiples dimensiones como entradas y la función devuelve la concatenación de todos los campos.</p>
+
+<p><em>Ejemplo:</em> desde un data source Google Sheets, importamos la tabla de wikipedia y concatenamos el idioma y el código.</p>
+
+<pre><code>CONCAT(&quot;Idioma: &quot;,Language,&quot;-&quot;,Wiki)
+</code></pre>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/0c47ca5d586f47718de8ff6dae0b556a.png" alt="img" /></p>
+
+<ol>
+<li><strong>REGEX_EXTRACT</strong></li>
+</ol>
+
+<p>¿Necesitas extraer parte de un texto?, ¿o valores numéricos que tenga un patrón?  Las expresiones regulares son muy importantes y aunque existen muchas  guías para entender su funcionamiento, os recomiendo esta <a href="https://regex101.com/" target="_blank">guía de RegExp</a>.</p>
+
+<p><em>Ejemplo:</em> extraemos solamente aquellas páginas que solo tienen un patrón google+redesign y nos devuelve la parte restante.</p>
+
+<pre><code>REGEXP_EXTRACT(Page,'^/google\+redesign/(.*)+')
+</code></pre>
+
+<p><em>Input:</em></p>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/257f7f2f92134df0b5d71e312209d76f.png" alt="img" /></p>
+
+<p><em>Output:</em></p>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/542f38dd74004c068f24c45a48365f4e.png" alt="img" /></p>
+
+<ol>
+<li><strong>REGEX_MATCH</strong></li>
+</ol>
+
+<p>Si necesitamos evaluar una cierta condición pero el input a pasar no es  exacto, entonces podemos utilizar la expresión REGEX_MATCH. Esta evalúa  la condición y devolverá un valor sea True o False, al igual que la  anterior busca la condición y devuelve el resultado.</p>
+
+<p>Lo habitual es que sea utilizada junto con otras funciones, como para encontrar un patrón y devolver otro resultado. <em>Ejemplo</em>, el uso del <strong>CASE &ndash;&gt; WHEN &ndash;&gt; THEN</strong>.</p>
+
+<ol>
+<li><strong>CASE</strong></li>
+</ol>
+
+<p>Como hemos visto anteriormente, la función CASE indica una expresión  condicional no muy compleja, pero hay que entender bien su  funcionamiento para poder obtener el resultado final correctamente.</p>
+
+<p><em>Ejemplo:</em> buscamos patrones y devolvemos un valor final.</p>
+
+<pre><code>CASEWHEN REGEXP_MATCH(Language, &quot;(English|German|Dutch|Swedish)&quot;)THEN &quot;Germanic&quot;WHEN REGEXP_MATCH(Language, &quot;(Italian|French|Spanish)&quot;)THEN &quot;Romance&quot;ELSE &quot;Other family&quot;END
+</code></pre>
+
+<p><img src="https://www.paradigmadigital.com/assets/img/resize/small/9e8cd867a5084b98b35082d7faec0072.png" alt="img" /></p>
+
+<h2 id="conclusiones">Conclusiones</h2>
+
+<p>Este post es <strong>la primera parte</strong> de los campos calculados en Google Data Studio. Hemos observado que en  cualquier fichero, conector o fuente de datos en esta herramienta (o  cualquier otra de visualización) será necesario primero identificar los  indicadores y sucesivamente crear las métricas o nuevas columnas.  Pronto, una <strong>segunda parte</strong> en la que veremos ejemplos aplicados a marketing digital y más casos de uso.</p>
+
+<p><a href="https://www.paradigmadigital.com/dev/como-crear-campos-calculados-en-data-studio/" target="_blank">FUENTE ORIGINAL</a></p>
+
+    </div>
+
+    
+
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">data studio</a>
+  
+  <a class="badge badge-light" href="">data visualization</a>
+  
+  <a class="badge badge-light" href="">google</a>
+  
+  <a class="badge badge-light" href="">campos calculados</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/marcusrb/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/webinar-integrar-r-python-power-bi/" rel="next">[Webinar] - PoweR-Py - Integrar R y Python en Power BI</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/construir-modelo-clasificacion-analytics-bigquery-ml/" rel="prev">Modelo de clasificación con Google Analytics y BigQuery ML</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

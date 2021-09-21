@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriales de Power BI, DAX, Power Query, Power M | MarcusRB | data specialist &amp; professor • AI • Big Data</title>
+    <link>https://www.marcusrb.com/en/power-bi-resources/</link>
+      <atom:link href="https://www.marcusrb.com/en/power-bi-resources/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutoriales de Power BI, DAX, Power Query, Power M</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-UK</language><copyright>© 2021</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Tutoriales de Power BI, DAX, Power Query, Power M</title>
+      <link>https://www.marcusrb.com/en/power-bi-resources/</link>
+    </image>
+    
+    <item>
+      <title>Data transformation strategies</title>
+      <link>https://www.marcusrb.com/en/power-bi/03-data-transformation-strategies/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/en/power-bi/03-data-transformation-strategies/</guid>
+      <description>
+
+&lt;h1 id=&#34;data-transformation-strategies&#34;&gt;Data Transformation Strategies&lt;/h1&gt;
+
+&lt;p&gt;Within any BI project, it is essential that the  data you are working with has been properly scrubbed to ensure accurate  results on your reports and dashboards. Applying data cleansing business rules, also known as transforms, is the primary method for correcting  inaccurate or malformed data, but the process can often be the most  time-consuming part of any corporate BI solution. However, the data  transformation capabilities built into Power BI are both very powerful  and user-friendly. Using the Power Query Editor, tasks that would  typically be difficult or time-consuming in an enterprise BI tool are as simple as right-clicking on a column and selecting the appropriate  transform for the field. While interacting with the user interface, the  Power Query Editor automatically writes queries using a language called M behind the scenes.&lt;/p&gt;
+
+&lt;p&gt;Through the course of this chapter, you will  explore some of the most common features of the Power Query Editor that  make it so highly regarded by its users. Since one sample dataset cannot provide all the problems you will run into, you will be provided with  several small, disparate examples to show you what is possible. This  chapter will detail the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Power Query Editor&lt;/li&gt;
+&lt;li&gt;Transform basics&lt;/li&gt;
+&lt;li&gt;Advanced data transformation options&lt;/li&gt;
+&lt;li&gt;Leveraging R&lt;/li&gt;
+&lt;li&gt;AI Insights&lt;/li&gt;
+&lt;li&gt;The M formula language&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To get started, let&amp;rsquo;s get familiar with the interface known as the Power Query Editor.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-power-query-editor&#34;&gt;The Power Query Editor&lt;/h1&gt;
+
+&lt;p&gt;The &lt;strong&gt;Power Query Editor&lt;/strong&gt; is the primary tool that you will utilize for applying transformations and cleansing processes to your data. This editor can be launched as part of  establishing a connection to your data, or by simply clicking &lt;strong&gt;Transform Data&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon of the Power BI Desktop. When the Power Query Editor is opened,  you will notice that it has its own separate environment for you to work in. The environment encapsulates a user-friendly method for working  with all of the queries that you will define. Before you dive deep into  the capabilities of the Power Query Editor, let&amp;rsquo;s first start by  reviewing the key areas of the Power Query Editor interface, as shown in &lt;em&gt;Figure 2.1&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/1.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.1: First view of the Power Query Editor&lt;/p&gt;
+
+&lt;p&gt;Following the numbered figures, let&amp;rsquo;s review some of the most important features of the Power Query Editor:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;New Source&lt;/strong&gt;: This launches the interface to establish your connection details, which is the same interface as the &lt;strong&gt;Get data&lt;/strong&gt; button that you learned about in &lt;em&gt;Chapter 1&lt;/em&gt;, &lt;em&gt;Getting Started with Importing Data Options&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Queries&lt;/strong&gt; pane: A list of all the queries that you have connected to. From here, you  can rename a query, disable the load and modify report refresh  capabilities, and organize your queries into groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Query Settings&lt;/strong&gt;: Within this pane, you can rename the query, but more importantly, you  can see and change the list of steps, or transforms, that have been  applied to your query. If you ever accidentally close this pane, you can relaunch it from the &lt;strong&gt;View&lt;/strong&gt; menu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Editor&lt;/strong&gt;: By launching the &lt;strong&gt;Advanced Editor&lt;/strong&gt;, you can see the M query that is automatically written for you by the Power Query Editor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt;: Choosing this option will close the Power Query Editor and load the results into the data model.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With this basic navigation understood, let&amp;rsquo;s start to discuss some of the basics of working with various transforms.&lt;/p&gt;
+
+&lt;h1 id=&#34;transform-basics&#34;&gt;Transform basics&lt;/h1&gt;
+
+&lt;p&gt;Applying data transformations within the Power Query Editor can be a surprisingly simple thing to do. However, there are a few things to consider as we begin this process.  The first is that there are multiple ways to solve a problem. As you  work your way through this book, the authors have tried to show you the  fastest and easiest methods of solving the problems that are presented,  but these solutions will certainly not be the only ways to reach your  goals.&lt;/p&gt;
+
+&lt;p&gt;The next thing you should understand is that every click you do inside the Power Query Editor is automatically converted  into a formula language called M. Virtually all the basic transforms you will need can be accomplished by simply interacting with the Power  Query Editor user interface, but for more complex business problems  there is a good chance you may have to modify the M queries that are  written for you by the editor. You will learn more about M later in this chapter.&lt;/p&gt;
+
+&lt;p&gt;Finally, the last important consideration to  understand is that all transforms that are created within the editor are stored in the &lt;strong&gt;Query Settings&lt;/strong&gt; pane under a section called &lt;strong&gt;Applied Steps&lt;/strong&gt;. Why is this important to know? The &lt;strong&gt;Applied Steps&lt;/strong&gt; section has many features, but here are some of the most critical to know for now:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deleting transforms&lt;/strong&gt;: If you make a mistake and need to undo a step, you can click the &lt;strong&gt;Delete&lt;/strong&gt; button next to a step.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modifying transforms&lt;/strong&gt;: This can be done with any step that has a gear icon next to it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Changing the order of transforms&lt;/strong&gt;: If you realize that it is better for one step to execute before another one, you can change the order of how the steps are executed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selecting previous steps&lt;/strong&gt;: Clicking on any step prior to the current one will allow you to see how your query results would change one step earlier in the process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With this understanding, you will now get hands-on with applying several basic transforms inside the Power Query Editor.  The goal of these first sets of examples is to get you comfortable with the Power Query Editor user interface before the more complex use cases are covered.&lt;/p&gt;
+
+&lt;h2 id=&#34;use-first-row-as-headers&#34;&gt;Use First Row as Headers&lt;/h2&gt;
+
+&lt;p&gt;Organizing column names or headers is often an important first task when managing your dataset. Providing relevant column names makes many of the downstream processes, such as building  reports, much easier. Often, column headers are automatically imported  from your data source, but sometimes you may be working with a more  unique data source that makes it difficult for Power BI to capture the  column header information. This walkthrough will show how to deal with  such a scenario:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Launch Power BI Desktop, and click &lt;strong&gt;Get data&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Choose &lt;strong&gt;Excel&lt;/strong&gt;, then navigate to and select &lt;strong&gt;Open&lt;/strong&gt; on the &lt;code&gt;Failed Bank List.xlsx&lt;/code&gt; file that is available in the book source files.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Navigator&lt;/strong&gt; window, select the table called &lt;strong&gt;Data&lt;/strong&gt;, then choose &lt;strong&gt;Transform Data&lt;/strong&gt;. When the Power Query Editor launches, you should notice that the column headers are not automatically imported. In fact, the column headers are in the first row of the data.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To push the column names that are in the first row of data to the header section, select the transform called&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Use First Row as Headers&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Home&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ribbon as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.2&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_03.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.2: Leveraging the Use First Row as Headers transform&lt;/p&gt;
+
+&lt;p&gt;Once complete, you will see the first row of the  dataset has been promoted to the column header area. This is a very  common transform that you can expect to use often with flat files. Next, let&amp;rsquo;s look at another commonly used transform, &lt;strong&gt;Remove Columns&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;remove-columns&#34;&gt;Remove Columns&lt;/h2&gt;
+
+&lt;p&gt;Often, the data sources you will connect to will include many columns that are not necessary for the solution you are designing. It is important to remove these  unnecessary columns from your dataset because these unused columns  needlessly take up space inside your data model. There are several  different methods for removing columns in the Power Query Editor. This  example will show one of these methods using the same dataset from the  previous demonstration:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Multi-select (&lt;em&gt;Ctrl&lt;/em&gt; + click) the column headers of the columns you wish to keep as part of your solution. In this scenario, select the columns &lt;strong&gt;Bank Name&lt;/strong&gt;, &lt;strong&gt;City&lt;/strong&gt;, &lt;strong&gt;ST&lt;/strong&gt;, and &lt;strong&gt;Closing Date&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With these four columns selected, right-click on any of the selected columns and choose&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Remove Other Columns&lt;/p&gt;
+
+&lt;p&gt;, as shown in&lt;/p&gt;
+
+&lt;p&gt;Figure 2.3&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_04.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.3: Selecting the Remove Other Columns transform&lt;/p&gt;
+
+&lt;p&gt;Once this transform is completed, you should be left with only the columns you need.&lt;/p&gt;
+
+&lt;p&gt;Another popular method for removing columns is clicking the &lt;strong&gt;Choose Columns&lt;/strong&gt; button on the &lt;strong&gt;Home&lt;/strong&gt; ribbon of the Power Query Editor. This option provides a list of all  the columns, and you can choose the columns you wish to keep or exclude.&lt;/p&gt;
+
+&lt;p&gt;You can also select the columns you wish to remove; right-click on one of the selected columns and click &lt;strong&gt;Remove&lt;/strong&gt;. This seems like the more obvious method. However, this option is not as user-friendly in the long run because it does not provide an option to  edit the transform in the &lt;strong&gt;Applied Steps&lt;/strong&gt; section like the first two methods do.&lt;/p&gt;
+
+&lt;p&gt;With any data cleansing tool, data type manipulation is critical and can help save you from many headaches later in the development of your solution. In the next section, you will learn about how to change data types.&lt;/p&gt;
+
+&lt;h2 id=&#34;change-type&#34;&gt;Change Type&lt;/h2&gt;
+
+&lt;p&gt;Defining column data types properly early on in your data scrubbing process can help to ensure proper business rules can be applied and data is presented properly in reports. The Power  Query Editor has various numeric, text, and date-time data types for you to choose from. In our current example, all of the data types were  automatically interpreted correctly by the Power Query Editor, but let&amp;rsquo;s look at where you could change this if necessary:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Locate the data type indicator on the column header to the left of the column name.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the data type icon, and a menu will open that allows you to choose whichever data type you desire, as shown in&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Figure 2.4&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_05.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.4: Choosing a different data type&lt;/p&gt;
+
+&lt;p&gt;Another method you can use for changing column data types is to right-click on the column you wish to change, then select &lt;strong&gt;Change Type&lt;/strong&gt; and choose the new data type. You should always be careful when  changing data types to ensure your data supports the change. For instance, if you change a column data type to a Whole Number while it has letters stored in it, Power BI will produce an error.&lt;/p&gt;
+
+&lt;p&gt;If you want to change multiple  column data types at once, you can multi-select the necessary columns,  then select the new data type from the &lt;strong&gt;Data Type&lt;/strong&gt; property on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;
+
+&lt;p&gt;Many of the transforms you will encounter in the  future are contextually based on the column data types you are working  with. For example, if you have a column that is a date, then you will be provided with special transforms that can only be executed against a  date data type, such as extracting the month name from a date column.&lt;/p&gt;
+
+&lt;p&gt;Understanding how to properly set data types in  Power BI is often the first step to using more exciting transforms. In  the next section, you will learn how Power BI can read from an example  you provide to automatically create transform rules.&lt;/p&gt;
+
+&lt;h2 id=&#34;column-from-examples&#34;&gt;Column From Examples&lt;/h2&gt;
+
+&lt;p&gt;One option that can make complex data transformations seem simple is the feature called &lt;strong&gt;Add Column From Examples&lt;/strong&gt;. Using &lt;strong&gt;Add Column From Examples&lt;/strong&gt;, you can provide the Power Query Editor with a sample of what you would  like your data to look like, and it can then automatically determine  which transforms are required to accomplish your goal. Continuing with  the same failed banks example, let&amp;rsquo;s walk through a simple example of  how to use this feature:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Find and select the &lt;strong&gt;Add Column&lt;/strong&gt; tab in the Power Query Editor ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Column From Examples&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;button and, if prompted, choose 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From All Columns&lt;/p&gt;
+
+&lt;p&gt;. This will launch a new&lt;/p&gt;
+
+&lt;p&gt;Add Column From Examples&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_06.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.5: Choosing the Column from Examples transform&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Our goal is to leverage this feature to combine the &lt;code&gt;City&lt;/code&gt; and &lt;code&gt;ST&lt;/code&gt; columns together. In the first empty cell, type &lt;code&gt;Barboursville, WV&lt;/code&gt; and then hit &lt;em&gt;Enter&lt;/em&gt;. In &lt;em&gt;Figure 2.5&lt;/em&gt; you will notice that the text you typed has automatically been  translated into an M query and applied for every row in the dataset.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once you click&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;, the transform is finalized and automatically added to the overall M  query that has been built through the user interface. The newly merged  column will be added with the rest of your columns and you can  optionally rename the column something more appropriate by  double-clicking on the column header:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![img](https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_07.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.6: Adding Column from Examples&lt;/p&gt;
+
+&lt;p&gt;As you can see, the &lt;strong&gt;Add Column from Examples&lt;/strong&gt; feature is great because you don&amp;rsquo;t have to be an expert in which  transforms are appropriate because Power BI will automatically choose  them for you!&lt;/p&gt;
+
+&lt;p&gt;Sometimes, you may encounter scenarios where the &lt;strong&gt;Add Column From Examples&lt;/strong&gt; feature needs more than one example to properly translate your example  into an M query function that accomplishes your goal. If this happens,  simply provide additional examples of how you would like the data to  appear in different rows, and the Power Query Editor should adjust to  account for outliers.&lt;/p&gt;
+
+&lt;p&gt;Now that you have learned some basic transforms, let&amp;rsquo;s explore some more complex design patterns that are still used quite frequently.&lt;/p&gt;
+
+&lt;h1 id=&#34;advanced-data-transformation-options&#34;&gt;Advanced data transformation options&lt;/h1&gt;
+
+&lt;p&gt;Now that you should be more comfortable working within the Power Query Editor, let&amp;rsquo;s take the next step and discuss more advanced options. Often, you will find the need to go beyond these basic transforms when dealing with data that requires more care. In  this section, you will learn about some common advanced transforms that  you may have a need for, which include &lt;strong&gt;Conditional Columns&lt;/strong&gt;, &lt;strong&gt;Fill Down&lt;/strong&gt;, &lt;strong&gt;Unpivot&lt;/strong&gt;, &lt;strong&gt;Merge Queries&lt;/strong&gt;, and &lt;strong&gt;Append Queries&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;conditional-columns&#34;&gt;Conditional Columns&lt;/h2&gt;
+
+&lt;p&gt;Using the Power Query Editor &lt;strong&gt;Conditional Columns&lt;/strong&gt; functionality is a great way to add new columns to your query that follow logical &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;then&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt; statements. This concept of &lt;code&gt;if&lt;/code&gt;/&lt;code&gt;then&lt;/code&gt;/&lt;code&gt;else&lt;/code&gt; is common across many programming languages, including Excel formulas.  Let&amp;rsquo;s review a real-world scenario where you would be required to do  some data cleansing on a file before it could be used. In this example,  you will be provided with a file of all the counties in the United  States, and you must create a new column that extracts the state name  from the county column and places it in its own column:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Start by connecting to the &lt;code&gt;FIPS_CountyName.txt&lt;/code&gt; file that is found in the book files using the &lt;strong&gt;Text&lt;/strong&gt;/&lt;strong&gt;CSV&lt;/strong&gt; connector.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Launch the Power Query Editor by selecting &lt;strong&gt;Transform Data&lt;/strong&gt;, then start by changing the data type of &lt;code&gt;Column1&lt;/code&gt; to &lt;strong&gt;Text&lt;/strong&gt;. When you do this, you will be prompted to replace an existing type conversion. You can accept this by clicking &lt;strong&gt;Replace current&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now, on &lt;code&gt;Column2&lt;/code&gt;, filter out the value &lt;strong&gt;UNITED STATES&lt;/strong&gt; from the column by clicking the arrow next to the column header and unchecking &lt;strong&gt;UNITED STATES&lt;/strong&gt;. Then, click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Remove the state abbreviation from&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Column2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;by right-clicking on the column header and selecting&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Split Column&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By Delimiter&lt;/p&gt;
+
+&lt;p&gt;. Choose&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; Custom &amp;ndash;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for the delimiter type, and type 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;before then clicking 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;, as shown in&lt;/p&gt;
+
+&lt;p&gt;Figure 2.7&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_08.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.7: Splitting a column based on a delimiter&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Next, rename the column names &lt;code&gt;Column1&lt;/code&gt;, &lt;code&gt;Column 2.1&lt;/code&gt;, and &lt;code&gt;Column 2.2&lt;/code&gt;, to &lt;code&gt;County Code&lt;/code&gt;, &lt;code&gt;County Name&lt;/code&gt;, and &lt;code&gt;State Abbreviation&lt;/code&gt;, respectively.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To isolate the full state name into its own column, you will need to implement &lt;strong&gt;Conditional Column&lt;/strong&gt;. Go to the &lt;strong&gt;Add Column&lt;/strong&gt; ribbon and select &lt;strong&gt;Conditional Column&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Change the&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;New column name&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;property to 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;   State Name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;and implement the logic 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;   If State Abbreviation equals null Then return County Name Else return null
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.8&lt;/p&gt;
+
+&lt;p&gt;. To return the value from another column, you must select the icon in the&lt;/p&gt;
+
+&lt;p&gt;Output&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;property, then choose 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Select a column&lt;/p&gt;
+
+&lt;p&gt;. Once this is complete, click&lt;/p&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_09.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.8: Adding a conditional column&lt;/p&gt;
+
+&lt;p&gt;This results in a new column called &lt;strong&gt;State Name&lt;/strong&gt;, which has the fully spelled-out state name only appearing on rows where the &lt;code&gt;State Abbreviation&lt;/code&gt; is &lt;code&gt;null&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_10.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.9: End result of following these steps&lt;/p&gt;
+
+&lt;p&gt;This is only setting the stage to fully scrub this dataset. To complete the data cleansing process for this file, read on  to the next section about &lt;strong&gt;Fill Down&lt;/strong&gt;. However, for the purposes of this example, you have now learned how to leverage the capabilities of the &lt;strong&gt;Conditional Column&lt;/strong&gt; transform in the Power Query Editor.&lt;/p&gt;
+
+&lt;h2 id=&#34;fill-down&#34;&gt;Fill Down&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Fill Down&lt;/strong&gt; is a rather unique transform in how it operates. By selecting &lt;strong&gt;Fill Down&lt;/strong&gt; on a particular column, a value will replace all &lt;code&gt;null&lt;/code&gt; values below it until another non-null appears. When another non-null value is present, that value will then fill down to all subsequent &lt;code&gt;null&lt;/code&gt; values. To examine this transform, you will pick up from where you left off in the &lt;strong&gt;Conditional Column&lt;/strong&gt; example in the previous section:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Right-click on the &lt;strong&gt;State Name&lt;/strong&gt; column header and select &lt;strong&gt;Transform&lt;/strong&gt; | &lt;strong&gt;Capitalize Each Word&lt;/strong&gt;. This transform should be self-explanatory.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, select the &lt;strong&gt;State Name&lt;/strong&gt; column and, in the &lt;strong&gt;Transform&lt;/strong&gt; ribbon, select &lt;strong&gt;Fill&lt;/strong&gt; | &lt;strong&gt;Down&lt;/strong&gt;. This will take the value in the &lt;strong&gt;State Name&lt;/strong&gt; column and replace all non-null values until there is another &lt;strong&gt;State Name&lt;/strong&gt; value that it can switch to. After performing this transform, scroll through the results to ensure that the value of &lt;code&gt;Alabama&lt;/code&gt; switches to &lt;code&gt;Alaska&lt;/code&gt; when appropriate.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To finish this example, filter out any&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;null
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;values that appear in the&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;State Abbreviation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;column. The final result should look like 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.10&lt;/p&gt;
+
+&lt;p&gt;, as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![img](https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_11.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.10: End result of following these steps&lt;/p&gt;
+
+&lt;p&gt;In this example, you learned how you can use &lt;strong&gt;Fill Down&lt;/strong&gt; to replace all of the &lt;code&gt;null&lt;/code&gt; values below a non-null value. You can also use &lt;strong&gt;Fill Up&lt;/strong&gt; to do the opposite, which would replace all the &lt;code&gt;null&lt;/code&gt; values above a non-null value. One important thing to note is that the data must be sorted properly for &lt;strong&gt;Fill Down&lt;/strong&gt; or &lt;strong&gt;Fill Up&lt;/strong&gt; to be successful. In the next section, you will learn about another advanced transform, known as &lt;strong&gt;Unpivot&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;unpivot&#34;&gt;Unpivot&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Unpivot&lt;/strong&gt; transform is an incredibly powerful transform that allows you to reorganize your dataset into a more structured format best suited for BI. Let&amp;rsquo;s discuss this by visualizing a practical example to help understand the purpose of &lt;strong&gt;Unpivot&lt;/strong&gt;. Imagine you are provided with a file that contains the populations of US states over the last three years, and looks as in &lt;em&gt;Figure 2.11&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_12.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.11: Example data that will cause problems in Power BI&lt;/p&gt;
+
+&lt;p&gt;The problem with data stored like this is you  cannot very easily answer simple questions. For example, how would you  answer questions like, &lt;em&gt;What was the total population for all states in the US in 2018?&lt;/em&gt; or &lt;em&gt;What was the average state population in 2016?&lt;/em&gt; With the data stored in this format, simple reports are made rather difficult to design. This is where the &lt;strong&gt;Unpivot&lt;/strong&gt; transform can be a lifesaver. Using &lt;strong&gt;Unpivot&lt;/strong&gt;, you can change this dataset into something more acceptable for an analytics project, as shown in &lt;em&gt;Figure 2.12&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_13.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.12: Results of unpivoted data&lt;/p&gt;
+
+&lt;p&gt;Data stored in this format can now easily answer  the questions posed earlier by simply dragging a few columns into your  visuals. To accomplish this in other programming languages would often require fairly complex logic, while the Power Query Editor does it in just a few clicks.&lt;/p&gt;
+
+&lt;p&gt;There are three different methods for selecting the &lt;strong&gt;Unpivot&lt;/strong&gt; transform that you should be aware of, and they include the following options:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unpivot Columns&lt;/strong&gt;: Turns any selected columns, headers into row values and the data in  those columns into a corresponding row. With this selection, any new  columns that may get added to the data source &lt;em&gt;will&lt;/em&gt; automatically be included in the &lt;strong&gt;Unpivot&lt;/strong&gt; transform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unpivot Other Columns&lt;/strong&gt;: Turns all column headers that &lt;em&gt;are not&lt;/em&gt; selected into row values and the data in those columns into a  corresponding row. With this selection, any new columns that may get  added to the data source &lt;em&gt;will&lt;/em&gt; automatically be included in the &lt;strong&gt;Unpivot&lt;/strong&gt; transform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unpivot Only Selected Columns&lt;/strong&gt;: Turns any selected columns&amp;rsquo; headers into row values and the data in  those columns into a corresponding row. With this selection, any new  columns that may get added to the data source &lt;em&gt;will not&lt;/em&gt; be included in the &lt;strong&gt;Unpivot&lt;/strong&gt; transform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;rsquo;s walk through two examples of using the &lt;strong&gt;Unpivot&lt;/strong&gt; transform to show you the first two of these methods, and provide an  understanding of how this complex problem can be solved with little  effort in Power BI. The third method mentioned for doing &lt;strong&gt;Unpivot&lt;/strong&gt; will not be shown since it&amp;rsquo;s so similar to the first option:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Launch a new instance of the Power BI Desktop, and use the Excel connector to import the workbook called&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Income Per Person.xlsx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;found in the book source files. Once you&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;select this workbook, choose the spreadsheet called&lt;/p&gt;
+
+&lt;p&gt;Data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;in the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Navigator&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window, and then select 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Transform Data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;to launch the Power Query Editor. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.13&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shows what our data looks like before the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unpivot&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;operation:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_14.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.13: Example before Unpivot is performed&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Now, make the first row of data into column headers by selecting the transform called &lt;strong&gt;Use First Row as Headers&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rename the &lt;strong&gt;GDP per capita PPP, with projections&lt;/strong&gt; column to &lt;strong&gt;Country&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you look closely at the column headers,  you can tell that most of the column names are actually years and the  values inside those columns are the income for those years. This is not  the ideal way to store this data because it would be incredibly  difficult to answer a question like, &lt;em&gt;What is the average income per person for Belgium?&lt;/em&gt; To make it easier to answer this type of question, right-click on the &lt;strong&gt;Country&lt;/strong&gt; column and select &lt;strong&gt;Unpivot Other Columns&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rename the columns &lt;code&gt;Attribute&lt;/code&gt; and &lt;code&gt;Value&lt;/code&gt; to &lt;code&gt;Year&lt;/code&gt; and &lt;code&gt;Income&lt;/code&gt;, respectively.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To finish this first example, you should also rename this query&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Income&lt;/p&gt;
+
+&lt;p&gt;. The results of these first steps can be seen in&lt;/p&gt;
+
+&lt;p&gt;Figure 2.14&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_15.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.14: Results of unpivoted data&lt;/p&gt;
+
+&lt;p&gt;This first method walked you through what can often be the fastest method for performing an &lt;strong&gt;Unpivot&lt;/strong&gt; transform, which is by using the &lt;strong&gt;Unpivot Other Columns&lt;/strong&gt; option. In this next example, you will learn how to use the &lt;strong&gt;Unpivot Columns&lt;/strong&gt; method as well:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Remain in the Power Query Editor, and select&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;New Source&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Home&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ribbon. Use the Excel connector to import the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;   Total Population.xlsx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;workbook from the book source files. Once you select this workbook, choose the spreadsheet called 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;in the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Navigator&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window, and then select 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+
+&lt;p&gt;Figure 2.15&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shows the dataset before 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unpivot&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;has been added:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_16.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.15: Example before Unpivot is performed&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Like the last example, you will again need to make the first row of data into column headers by selecting the transform called &lt;strong&gt;Use First Row as Headers&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, rename the column &lt;strong&gt;Total population&lt;/strong&gt; to &lt;strong&gt;Country&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This time, multi-select all the columns except&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Country&lt;/p&gt;
+
+&lt;p&gt;, then right-click on one of the selected columns and choose&lt;/p&gt;
+
+&lt;p&gt;Unpivot Other Columns&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.16&lt;/p&gt;
+
+&lt;p&gt;. The easiest way to multi-select these columns is to select the first column then hold&lt;/p&gt;
+
+&lt;p&gt;Shift&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;before clicking the last column:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_17.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.16: Using the Unpivot Other Columns transform&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Rename the columns from&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Attribute&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;and 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Value&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;to 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Year&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;and 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Population&lt;/p&gt;
+
+&lt;p&gt;, respectively, to see the result showing in&lt;/p&gt;
+
+&lt;p&gt;Figure 2.17&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_18.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.17: Shows the final result of these steps&lt;/p&gt;
+
+&lt;p&gt;In this section, you learned about two different methods for performing an &lt;strong&gt;Unpivot&lt;/strong&gt;. To complete the data cleansing process on these two datasets, it&amp;rsquo;s  recommended that you continue through the next section on merging  queries.&lt;/p&gt;
+
+&lt;h2 id=&#34;merge-query&#34;&gt;Merge Query&lt;/h2&gt;
+
+&lt;p&gt;Another common requirement when building BI solutions is the need to join two tables together to form a new outcome that includes some columns from both tables in the result.  Fortunately, Power BI makes this task very simple with the &lt;strong&gt;Merge Queries&lt;/strong&gt; feature. Using this feature requires that you select two tables and  then determine which column or columns will be the basis of how the two  queries are merged. After determining the appropriate columns for your  join, you will select a join type. The join types are listed here with  the description that is provided within the product:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Left Outer&lt;/strong&gt; (all rows from the first table, only matching rows from the second)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Right Outer&lt;/strong&gt; (all rows from the second table, only matching rows from the first)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full Outer&lt;/strong&gt; (all rows from both tables)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inner&lt;/strong&gt; (only matching rows from both tables)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Left Anti&lt;/strong&gt; (rows only in the first table)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Right Anti&lt;/strong&gt; (rows only in the second table)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many of you may already be very familiar with these different join terms from SQL programming you have  learned in the past. However, if these terms are new to you, I recommend reviewing &lt;em&gt;Visualizing Merge Join Types in Power BI&lt;/em&gt;, courtesy of Jason Thomas in the &lt;em&gt;Power BI Data Story Gallery&lt;/em&gt;: &lt;a href=&#34;https://community.powerbi.com/t5/Data-Stories-Gallery/Visualizing-Merge-Join-Types-in-Power-BI/m-p/219906&#34; target=&#34;_blank&#34;&gt;https://community.powerbi.com/t5/Data-Stories-Gallery/Visualizing-Merge-Join-Types-in-Power-BI/m-p/219906&lt;/a&gt;. This visual aid is a favorite of many users that are new to these concepts.&lt;/p&gt;
+
+&lt;p&gt;To examine the &lt;strong&gt;Merge Queries&lt;/strong&gt; option, you will pick up from where you left off with the &lt;strong&gt;Unpivot&lt;/strong&gt; examples in the previous section:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;With the &lt;strong&gt;Population&lt;/strong&gt; query selected, find and select &lt;strong&gt;Merge Queries&lt;/strong&gt; | &lt;strong&gt;Merge Queries as New&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the &lt;strong&gt;Merge&lt;/strong&gt; dialog box, select the &lt;strong&gt;Income&lt;/strong&gt; query from the drop-down selection in the middle of the screen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, multi-select the &lt;strong&gt;Country&lt;/strong&gt; and &lt;strong&gt;Year&lt;/strong&gt; columns on the &lt;strong&gt;Population&lt;/strong&gt; query, and do the same under the &lt;strong&gt;Income&lt;/strong&gt; query. This defines which columns will be used to join the two queries  together. Ensure that the number indicators next to the column headers  match, as demonstrated in &lt;em&gt;Figure 2.18&lt;/em&gt;. If they don&amp;rsquo;t, you could accidentally attempt to join on the incorrect columns.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, select&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Inner&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;only matching rows&lt;/p&gt;
+
+&lt;p&gt;) for&lt;/p&gt;
+
+&lt;p&gt;Join Kind&lt;/p&gt;
+
+&lt;p&gt;. This join type will return rows only when the columns you chose to join on have values that exist in both queries. Before you click&lt;/p&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;, confirm that your screen matches&lt;/p&gt;
+
+&lt;p&gt;Figure 2.18&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_19.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.18: Configuring a merge between two queries&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Once you select &lt;strong&gt;OK&lt;/strong&gt;, this will create a new query called &lt;code&gt;Merge1&lt;/code&gt; that combines the results of the two queries. Go ahead and rename this query &lt;code&gt;Country Stats&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You will also notice that there is a column called &lt;code&gt;Income&lt;/code&gt; that has a value of &lt;code&gt;Table&lt;/code&gt; for each row. This column is actually representative of the entire &lt;code&gt;Income&lt;/code&gt; query that you joined to. To choose which columns you want from this query, click the &lt;strong&gt;Expand&lt;/strong&gt; button on the column header. After clicking the &lt;strong&gt;Expand&lt;/strong&gt; button, uncheck &lt;strong&gt;Country&lt;/strong&gt;, &lt;strong&gt;Year&lt;/strong&gt;, and &lt;strong&gt;Use original column name as prefix&lt;/strong&gt;, then click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rename the column called&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Income.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Income
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+
+&lt;p&gt;Figure 2.19&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shows this step completed:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_20.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.19: Configuring a merge between two queries&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Finally, since you chose the option&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Merge Queries as New&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Step 1&lt;/p&gt;
+
+&lt;p&gt;, you can disable the load&lt;/p&gt;
+
+&lt;p&gt;option for the original queries that you started with. To do this, right-click on the&lt;/p&gt;
+
+&lt;p&gt;Income&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;query in the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Queries&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pane and click 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Enable load&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;to disable it. Do the same thing for the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Population&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;query as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.20&lt;/p&gt;
+
+&lt;p&gt;. Disabling these queries means that the only query that will be loaded into your Power BI data model is the new one, called&lt;/p&gt;
+
+&lt;p&gt;Country Stats&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_21.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.20: Uncheck to disable the loading of this query into the data model&lt;/p&gt;
+
+&lt;p&gt;To begin using this dataset in a report, you would click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt;. You will learn more about building reports in &lt;em&gt;Chapter 5&lt;/em&gt;, &lt;em&gt;Visualizing Data&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;By default, merging queries together relies on  exact matching values between your join column(s). However, you may work with data that does not always provide perfect matching values. For  example, a user enters data and misspells their country as &amp;ldquo;Unite  States&amp;rdquo; instead of &lt;code&gt;United States&lt;/code&gt;. In those cases, you may consider the more advanced feature called Fuzzy Matching. With Fuzzy Matching, Power BI can perform an approximate match and  still join on these two values based on the similarity of the values. In this section, you learned how the &lt;strong&gt;Merge Queries&lt;/strong&gt; option is ideal for joining two queries together. In the next section,  you will learn how you could solve the problem of performing a union of  two or more queries.&lt;/p&gt;
+
+&lt;h2 id=&#34;append-query&#34;&gt;Append Query&lt;/h2&gt;
+
+&lt;p&gt;Occasionally, you will work with multiple datasets that need to be appended to each other. Here&amp;rsquo;s a scenario: you work for a customer service department for a company that provides  credit or loans to customers. You are regularly provided with &lt;code&gt;.csv&lt;/code&gt; and &lt;code&gt;.xlsx&lt;/code&gt; files that give summaries of customer complaints regarding credit cards and student loans. You would like to analyze both of these data  extracts at the same time but, unfortunately, the credit card and  student loan complaints are provided in two separate files. In this  example, you will learn how to solve this problem by performing an  append operation on these two different files:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Launch a new instance of the Power BI Desktop, and use the Excel connector to import the workbook called &lt;code&gt;Student Loan Complaints.xlsx&lt;/code&gt; found in the book source files. Once you select this workbook, choose the spreadsheet called &lt;strong&gt;Student Loan Complaints&lt;/strong&gt; in the &lt;strong&gt;Navigator&lt;/strong&gt; window, and then select &lt;strong&gt;Transform Data&lt;/strong&gt; to launch the Power Query Editor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, import the credit card data by selecting &lt;strong&gt;New Source&lt;/strong&gt; | &lt;strong&gt;Text/CSV&lt;/strong&gt;, then choose the file called &lt;code&gt;Credit Card Complaints.csv&lt;/code&gt; found in the book source files. Click &lt;strong&gt;OK&lt;/strong&gt; to bring this data into the Power Query Editor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With the &lt;code&gt;Credit Card Complaints&lt;/code&gt; query selected, find and select &lt;strong&gt;Append Queries&lt;/strong&gt; | &lt;strong&gt;Append Queries as New&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Student Loan Complaints&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;as the table to append to, then select 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.21&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_22.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.21: Configuring an append between two queries&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Rename the newly created query&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All Complaints&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;and view the results as seen in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.22&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_23.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.22: Configuring an append between two queries&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Similar to the  previous example, you would likely want to disable the load option for  the original queries that you started with. To do this, right-click on  the &lt;strong&gt;Student Load Complaints&lt;/strong&gt; query in the &lt;strong&gt;Queries&lt;/strong&gt; pane and click &lt;strong&gt;Enable load&lt;/strong&gt; to disable it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do the same to the &lt;strong&gt;Credit Card Complaints&lt;/strong&gt; query, and then select &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that you have learned about the various  methods for combining data, the next section will discuss a more  advanced method of working with data using the R programming language.&lt;/p&gt;
+
+&lt;h1 id=&#34;leveraging-r&#34;&gt;Leveraging R&lt;/h1&gt;
+
+&lt;p&gt;R is a very powerful scripting language that is primarily used for advanced analytics tools, but also has several integration points within Power BI. One such  integration is the ability to apply business rules to your data with the R language. Why is that important? Well, with this capability you can  extend beyond the limits of the Power Query Editor and call functions  and libraries from R to do things that would not normally be possible.  In the next two sections, you will explore how to set up your machine to leverage R within Power BI and then walk through an example of using an R script transform.&lt;/p&gt;
+
+&lt;p&gt;There are many additional books and references you can read to learn more about the R scripting  language, but for the purposes of this book, our goal is to inform you  of what is possible when R and Power BI are combined.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation-and-configuration&#34;&gt;Installation and configuration&lt;/h2&gt;
+
+&lt;p&gt;To use R within Power BI, you must first install an R distribution for you to run and execute scripts against. In this book, we will leverage Microsoft&amp;rsquo;s distribution, Microsoft R Open. It is an open source project and free for anyone to use. Once Microsoft R Open has  been installed, you can then configure Power BI to recognize the home  directory where R libraries may be installed. Let&amp;rsquo;s walk through these  setup steps together:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigate to the website &lt;a href=&#34;https://mran.microsoft.com/download/&#34; target=&#34;_blank&#34;&gt;https://mran.microsoft.com/download/&lt;/a&gt; to download and install Microsoft R Open.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For the purposes of our example, you will select &lt;strong&gt;Download&lt;/strong&gt; next to &lt;strong&gt;Windows&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once the download has completed, run the installation and accept all default settings and user agreements.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, launch a new instance of Power BI Desktop to set up the R integration with Power BI. Click the menu options &lt;strong&gt;File&lt;/strong&gt; | &lt;strong&gt;Options and settings&lt;/strong&gt; | &lt;strong&gt;Options&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Choose the&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;R scripting&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;section and ensure that the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Detected R home directories&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;property is filled with the R instance you just installed, as shown in 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.23&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_24.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.23: Mapping the R home directories in Power BI&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Once this is completed, click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With this setup now complete, let&amp;rsquo;s see how we can take advantage of R within Power BI.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-r-script-transform&#34;&gt;The R script transform&lt;/h2&gt;
+
+&lt;p&gt;With the R distribution now installed and configured to integrate with Power BI, you are now ready to see what&amp;rsquo;s possible with these new capabilities. In this example, you will be  looking at data from the European stock market. The problem with this  dataset, which calls for it to be corrected with R, is that the file  provided to you has missing values for certain days. So, to get a more  accurate reading of the stock market, you will use an R package called &lt;code&gt;MICE&lt;/code&gt; to impute the missing values:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Before beginning in Power BI, you should ensure that the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;MICE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;library is installed and available in the R distribution you set up in  the last section. To do this, launch Microsoft R Open from your device.  This is the basic RGui that was installed for you to run R scripts with.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For many developers, the preferred method for writing &lt;code&gt;R&lt;/code&gt; scripts is a free open source tool called RStudio. RStudio includes a code editor, debugging, and visualization tools that many find easier to work with. You can download RStudio from &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;https://www.rstudio.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Type the following script in the&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;R Console&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window, and then hit 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Enter&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;       install.packages(&amp;quot;mice&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This input is illustrated in the following screenshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_25.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.24: Running the library install in RGui&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You can close the&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;R Console&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;window and return to Power BI Desktop after it returns an output like the following:        
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;   package &#39;mice&#39; successfully unpacked and MD5 sums checked.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In Power BI Desktop, start by connecting to the required data source called &lt;code&gt;EuStockMarkets_NA.csv&lt;/code&gt; from the book source files. Once you connect to the file, click &lt;strong&gt;Transform Data&lt;/strong&gt; to launch the Power Query Editor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You will notice that there are a few days missing values in the &lt;strong&gt;SMI&lt;/strong&gt; (&lt;strong&gt;Stock Market Index&lt;/strong&gt;) column. We would like to replace values that show &lt;strong&gt;NA&lt;/strong&gt; with approximate values using an R script. Go to the &lt;strong&gt;Transform&lt;/strong&gt; ribbon, and select the &lt;strong&gt;Run R Script&lt;/strong&gt; button on the far right.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Use the following R script to call the&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;MICE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;library that you recently installed to detect what the missing values in this dataset should be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   # &#39;dataset&#39; holds the input data for this script
+   library(mice)
+   tempData &amp;lt;- mice(dataset,m=1,maxit=50,meth=&#39;pmm&#39;,seed=100)
+   completedData &amp;lt;- complete(tempData,1)
+   output &amp;lt;- dataset
+   output$completedValues &amp;lt;- completedData$&amp;quot;SMI missing values&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt;. If you are prompted with a warning indicating &lt;strong&gt;Information is required about data privacy&lt;/strong&gt; click &lt;strong&gt;Continue&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, click on the hyperlink on the table value next to the &lt;code&gt;completedData&lt;/code&gt; row to see the result of the newly implemented transform for detecting missing values.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This new output has replaced the missing values  with new values that were detected based on the algorithm used within  the R script. To now build a set of report visuals on this example, you  can click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon.&lt;/p&gt;
+
+&lt;p&gt;This is just one simple way that R can be used  with Power BI. You should note that in addition to using R as a  transform, it can also be used as a data source and as a visual within  Power BI.&lt;/p&gt;
+
+&lt;p&gt;While this book highlights the programming  language R to extend the capabilities of Power BI, some might prefer  Python. Python is another programming language that allows for  extensibility into Power BI to create new  data connectors, transforms, and visuals. So, should you choose R or  Python? That depends on which you are more comfortable with. If you have already spent time learning &lt;code&gt;Python&lt;/code&gt;, then stick with that! In the next section of this chapter, you will  learn about Power BI&amp;rsquo;s AI integration features, which give you the  ability to call on components of Azure Cognitive Services with the Power Query Editor.&lt;/p&gt;
+
+&lt;h1 id=&#34;ai-insights&#34;&gt;AI Insights&lt;/h1&gt;
+
+&lt;p&gt;As you learned in the previous section, Power BI integrates and takes advantage of outside tools to enhance the capabilities within itself. That continues to be the case with the  AI Insights features. Leveraging the AI Insights capabilities gives you  the ability to tap into core features and algorithms within Azure  Cognitive Services and expose them within Power BI. So how can this be  useful to you?&lt;/p&gt;
+
+&lt;p&gt;Imagine you work for a company that runs a  vacation rentals website. Customers can book travel and post reviews of  their trips on your website. With thousands of customers and hundreds of rental homes, it can be difficult to manage all the reviews that come  in to make sure your locations are all meeting the standards your  customers expect. With AI Insights you can run algorithms that can  perform sentiment analysis, key phrase extraction, language detection,  and even image tagging. So, if you have international customers that  post reviews, you can use language detection to understand what language the post was written in. Then you can use sentiment analysis to capture whether the review was positive or negative. Finally, using phrase  extraction, you can pull out key terms in the reviews to see if the same locations continue to receive feedback regarding similar problems.  Furthermore, if your feedback system allows photos to be posted in the  reviews, the image tagging capabilities can return a list of  characteristics found in the images posted. This would allow for  automated categorization of images using AI.&lt;/p&gt;
+
+&lt;p&gt;As you can see, these are very powerful features  that take your analytics processing to the next level. There are  limitations, however, that you should be aware of before exploring these features. As of the time that this book was published, Cognitive  Services integration is only supported for Power BI Premium capacity  nodes &lt;code&gt;EM2&lt;/code&gt;, &lt;code&gt;A2&lt;/code&gt;, or &lt;code&gt;P1&lt;/code&gt; and above. This means if your company is not currently leveraging Power BI Premium, then these features are not available to you.&lt;/p&gt;
+
+&lt;p&gt;Before using the AI Insights  features in Power BI, you will need to change the capacity settings in  the Power BI admin portal to enable the AI workload. After turning on  the AI workload setting, you can also set the maximum amount of memory  you would like to give the workload. The general recommendation is a  memory limit of 20%.&lt;/p&gt;
+
+&lt;p&gt;In the next section, you will learn how to leverage an AI Insights Text Analytics feature called Sentiment Analysis.&lt;/p&gt;
+
+&lt;h2 id=&#34;sentiment-analysis-with-text-analytics&#34;&gt;Sentiment Analysis with Text Analytics&lt;/h2&gt;
+
+&lt;p&gt;The Text Analytics features within the AI Insights features can be incredible time-savers. Imagine  having to read paragraphs of information and conclude what was important or whether it was written in a positive or negative light. These are  exactly the type of things that this feature can do for you. In this  next example, you are going to test out one of these features by running a sentiment analysis algorithm on hotel reviews to see how customers  feel about staying at your hotel locations:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Launch a new instance of Power BI Desktop, and use the Excel connector to import the workbook called &lt;code&gt;Hotel Ratings.xlsx&lt;/code&gt; found in the book source files. Once you select this workbook, choose the spreadsheet called &lt;strong&gt;Reviews&lt;/strong&gt; in the &lt;strong&gt;Navigator&lt;/strong&gt; window, and then select &lt;strong&gt;Transform Data&lt;/strong&gt; to launch the Power Query Editor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;strong&gt;Text Analytics&lt;/strong&gt; on the &lt;strong&gt;Home&lt;/strong&gt; ribbon of the Power Query Editor. If this is your first time using this feature, you may be prompted to sign into a Power BI account that has  Power BI Premium capacity assigned to it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next, you will be prompted to choose which Text Analytics algorithm you would like to use. Select&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Score sentiment&lt;/p&gt;
+
+&lt;p&gt;, as shown in&lt;/p&gt;
+
+&lt;p&gt;Figure 2.25&lt;/p&gt;
+
+&lt;p&gt;, and ensure the&lt;/p&gt;
+
+&lt;p&gt;ReviewText&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;field is the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Text&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;that will be analyzed. Then click 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_26.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.25: Using the Text Analytics feature&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If prompted with a data privacy warning, click &lt;strong&gt;Continue&lt;/strong&gt; and then select &lt;strong&gt;Ignore Privacy Levels check&lt;/strong&gt; for this file before clicking &lt;strong&gt;Save&lt;/strong&gt;. This type of warning can occur when you combine two disparate sources  or services together and is to ensure it is OK for these data sources to be combined.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This transform will produce a new numeric column with a value between &lt;code&gt;0&lt;/code&gt; and &lt;code&gt;1&lt;/code&gt; for every row in the dataset. A sentiment score of &lt;code&gt;.50&lt;/code&gt; is considered neutral, while any score lower is negative and any score higher is generally positive:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_27.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.26: Results of Score sentiment&lt;/p&gt;
+
+&lt;p&gt;Looking at &lt;em&gt;Figure 2.26&lt;/em&gt;, it looks like the AI integration, with a few exceptions, did a good job determining how to rate each review.&lt;/p&gt;
+
+&lt;p&gt;Next, in the final section of this chapter, you will be introduced to the M formula language.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-m-formula-language&#34;&gt;The M formula language&lt;/h1&gt;
+
+&lt;p&gt;The Power Query Editor is the user interface that is used to design and build data imports. However,  you should also know that every transform you apply within this editor  is actually, quietly and behind the scenes, writing an M query for you.  The letter M here is a reference to the language&amp;rsquo;s data mashup  capabilities.&lt;/p&gt;
+
+&lt;p&gt;For simple solutions, it is unlikely that you will ever need to even look at the M query that is being written, but there  are some more complex cases where it&amp;rsquo;s helpful to understand how to read and write your own M. For the purposes of this book, covering just the  Power BI essentials, you will learn how to find the M query editor  within your solution and then understand how to read what it is doing  for you.&lt;/p&gt;
+
+&lt;p&gt;For the purposes of this example, you can open up  any previously built example, however, the screenshot used here is from  the very first example in this chapter on basic transforms:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Using any Power BI solution you have designed, launch the Power Query Editor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On the&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Home&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ribbon, select 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Advanced Editor&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;to see the M query that has been written by the user interface. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Figure 2.27&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shows an example of what your 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Advanced Editor&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;might show:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_28.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.27: Understanding the elements of M&lt;/p&gt;
+
+&lt;p&gt;This query has been formatted to make it easier to read. Let&amp;rsquo;s review the key elements that are present here:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The let expression&lt;/strong&gt;: Encapsulates a set of values or named expressions to be computed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Named expressions or variables&lt;/strong&gt;: The name given to a set of operations in a step. These names can be  anything, but you should note that if you wish to have a space in the  name of a step then it must be surrounded by &lt;code&gt;#&amp;quot;&amp;quot;&lt;/code&gt;. For example, if I wanted something to be called &lt;em&gt;Step 1&lt;/em&gt;, then I would have to name an expression &lt;code&gt;#&amp;quot;Step 1&amp;quot;&lt;/code&gt;. If a space is not required in the name of your step then the double quotes are not required.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M functions&lt;/strong&gt;: The operations that are used to manipulate the data source.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prior step reference&lt;/strong&gt;: The M query language generally executes its functions as serial  operations, meaning each operation is executed one after the other  sequentially. You can see this when you look at a query because each  call to an M function always references the prior-named expression, to  pick up where it left off.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The in expression&lt;/strong&gt;: Oddly, the &lt;code&gt;in&lt;/code&gt; expression is actually a reference to what the query will output. Whichever named expression is referenced in the &lt;code&gt;in&lt;/code&gt; expression will be what is returned back in the &lt;code&gt;Power Query Editor&lt;/code&gt; preview.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is important to realize that M is case-sensitive. That means if you ever make a change to a query or write one from scratch, you should be careful because there is a  difference between &amp;ldquo;a&amp;rdquo; and &amp;ldquo;A.&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;shared&#34;&gt;#shared&lt;/h2&gt;
+
+&lt;p&gt;As mentioned  previously, this book will not dive deep into writing your own M queries since that would be far beyond the essentials of Power BI. However, there is a great method for exploring the M functions that are available, and how to use them. Within the Power Query Editor, you can  use the &lt;code&gt;#shared&lt;/code&gt; function to  return documentation on every available function in the M library. Let&amp;rsquo;s walk through how you can leverage this tool:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In a new instance of Power BI Desktop, select &lt;strong&gt;Get data&lt;/strong&gt; and then choose &lt;strong&gt;Blank Query&lt;/strong&gt;. This will launch the Power Query Editor with an empty formula bar waiting for you to provide your own M.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In this formula bar, type &lt;code&gt;= #shared&lt;/code&gt;, then hit &lt;em&gt;Enter&lt;/em&gt;. Remember that M is case-sensitive so you must use a lowercase &lt;code&gt;s&lt;/code&gt; when typing &lt;code&gt;shared&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This will return a list of all the available M functions. By selecting the cell that has the hyperlink text of a  certain function, you can see documentation on how to use each function.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Figure 2.28&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shows an example of this:
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_02_29.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.28: Example of function documentation&lt;/p&gt;
+
+&lt;p&gt;This is a great method for learning what M functions are available, and how each may be used.  If you are stumped on how to solve a problem using M then make this your first stop to explore what options you have.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;In this chapter, you learned that the Power Query  Editor is an extremely powerful tool for applying business rules to  incoming data. Implementing data cleansing techniques can be as simple  as right-clicking on a column, or more complex, such as when building a  conditional column. While the Power Query Editor does have a vast  library of transforms available, you also learned that you can tap into  the capabilities of R to extend what&amp;rsquo;s possible when designing queries.  Finally, this chapter discussed the AI capabilities within the Power  Query Editor that allow you to leverage several algorithms available  within Azure Cognitive Services. In the next chapter, on building the  data model, you will learn about proper techniques for building a  well-designed Power BI data model to ensure your solutions can solve all your reporting needs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Import data in Power BI</title>
+      <link>https://www.marcusrb.com/en/power-bi/02-import-data/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/en/power-bi/02-import-data/</guid>
+      <description>
+
+&lt;h1 id=&#34;importing-data&#34;&gt;Importing data&lt;/h1&gt;
+
+&lt;p&gt;Power BI is best known for the impressive data visualizations and dashboard capabilities it has. However, before you can begin building reports, you first need to connect to the necessary  data sources. Within Power BI Desktop, a developer has more than 130  unique data connectors to choose from, ranging from traditional file  types, database engines, big data solutions, cloud sources, data stored  on a web page, and other SaaS providers. This book will not cover all  130 connectors that are available, but it will highlight some of the  most popular.&lt;/p&gt;
+
+&lt;p&gt;When establishing a connection to a data source,  you may be presented with one of three different options regarding how  your data will be treated: &lt;strong&gt;Import&lt;/strong&gt;, &lt;strong&gt;DirectQuery&lt;/strong&gt;, or live connection. This section will focus specifically on the Import option.&lt;/p&gt;
+
+&lt;p&gt;Choosing to import data, which is the most common  option and default behavior, means that Power BI will physically extract rows of data from the selected source and store it in an in-memory  storage engine within Power BI. Power BI Desktop uses a special method  for storing data, known as xVelocity,  which is an in-memory technology that not only increases the performance of your query results, but can also highly compress the amount of space taken up by your Power BI solution. In &lt;em&gt;some&lt;/em&gt; cases, the compression that takes place can even lower the required disk space by up to one-tenth of the original data source size. The xVelocity engine uses a local unseen instance of &lt;strong&gt;SQL Server Analysis Services&lt;/strong&gt; (&lt;strong&gt;SSAS&lt;/strong&gt;) to provide these in-memory capabilities.&lt;/p&gt;
+
+&lt;p&gt;There are consequences to using the &lt;strong&gt;Import&lt;/strong&gt; option within Power BI that you should also consider. These  consequences will be discussed later in this chapter, but as you read  on, consider the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How does data that has been imported into Power BI get updated?&lt;/li&gt;
+&lt;li&gt;What if I need a dashboard to show near real-time analytics?&lt;/li&gt;
+&lt;li&gt;How much data can really be imported into an in-memory storage system?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that you are familiar with the underlying  mechanics of importing data, let&amp;rsquo;s try it out with a few of the most  common data source types, starting with Excel.&lt;/p&gt;
+
+&lt;h2 id=&#34;excel-as-a-source&#34;&gt;Excel as a source&lt;/h2&gt;
+
+&lt;p&gt;Believe it or not, Excel continues to be the most popular application in the world and, as such, you should expect that at some point, you will be using it as a data source:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;To get started, open Power BI Desktop and close the start up screen if it automatically appears.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Under the &lt;strong&gt;Home&lt;/strong&gt; ribbon, you will find that &lt;strong&gt;Get data&lt;/strong&gt; button, which you already learned is used for selecting and configuring data sources. Selecting the down arrow next to the button will show you the most common data connectors, but selecting the center of the button will launch the full list of all available connectors. Regardless of  which way you select the button, you will find Excel at the top of both  lists.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Navigate to and open the file called&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;AdventureWorksDW.xlsx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;from this book&amp;rsquo;s resources. This will&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;launch the&lt;/p&gt;
+
+&lt;p&gt;Navigator&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dialog, shown in the following screenshot, which is used for selecting the objects in the Excel 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;workbook you wish to take data from:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_02.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.2: The Navigator dialog is used for selecting spreadsheets or tables&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In this example, you can see six separate  spreadsheets you can choose from. Clicking once on the spreadsheet name  will give you a preview of the data it stores, while clicking the  checkbox next to the name will include it as part of the data import.  For this example, select the checkboxes next to all of the available  objects, then notice the options available at the bottom right.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Selecting &lt;strong&gt;Load&lt;/strong&gt; will immediately take the data from the selected spreadsheets and import them as  separate tables into your Power BI data model. Choosing &lt;strong&gt;Transform Data&lt;/strong&gt; will launch an entirely new window called Power Query Editor, which allows you to apply business rules or transform to your data prior to  importing it. You will learn much more about Power Query Editor in &lt;em&gt;Chapter 2&lt;/em&gt;, &lt;em&gt;Data Transformation Strategies&lt;/em&gt;. Since you will learn more about this later, simply select &lt;strong&gt;Load&lt;/strong&gt; to end this example.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Another topic you will learn more about in &lt;em&gt;Chapter 7&lt;/em&gt;, &lt;em&gt;Using a Cloud Deployment with the Power BI Service&lt;/em&gt;, is the concept of data refreshes. This is important because, when  you import data into Power BI, that data remains static until another  refresh is initiated. This refresh can either be initiated manually or set on a schedule. This also requires the installation of  Data Gateway, the application in charge of securely pushing data into  Power BI Service. Feel free to skip to &lt;em&gt;Chapter 7&lt;/em&gt;, &lt;em&gt;Using a Cloud Deployment with the Power BI Service&lt;/em&gt;, if configuring a data refresh is a subject you need to know about now.&lt;/p&gt;
+
+&lt;h2 id=&#34;sql-server-as-a-source&#34;&gt;SQL Server as a source&lt;/h2&gt;
+
+&lt;p&gt;Another common source designed for relational databases is Microsoft SQL Server:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;To connect to SQL Server, select the&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Get data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;button again, but this time choose 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;SQL Server&lt;/p&gt;
+
+&lt;p&gt;. The following screenshot shows that you must provide the server, but the database is optional and can be selected later:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_03.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.3: Establishing a connection to SQL Server&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;On your first use of SQL server, you are asked to choose the type of&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Data Connectivity mode&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;you would like. As mentioned previously, 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Import&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;is the default mode, but you can optionally select 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;DirectQuery&lt;/p&gt;
+
+&lt;p&gt;. DirectQuery will be discussed in greater detail later in this&lt;/p&gt;
+
+&lt;p&gt;chapter. Expanding the&lt;/p&gt;
+
+&lt;p&gt;Advanced&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;options provides a way to insert a SQL statement that may be used as your source. For the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;following example, the&lt;/p&gt;
+
+&lt;p&gt;Server&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;name property is the only property populated before you click 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_04.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.4: Providing credentials to SQL Server&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Next, you will be prompted, as shown in the  preceding screenshot, to provide the credentials you are using to  connect to the database server you provided on the previous screen.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Connect&lt;/strong&gt; after providing the proper credentials. You may be prompted with a  warning stating that Power BI is only able to access the data source  using an unencrypted connection. Click &lt;strong&gt;OK&lt;/strong&gt; if you encounter this to launch the same &lt;strong&gt;Navigator&lt;/strong&gt; dialog that you may remember from when you connected to Excel. Here, you will select the  tables, views, or functions within your SQL Server database that you  wish to import into your Power BI solution. Once again, the final step in this dialog allows you to choose to either &lt;strong&gt;Load&lt;/strong&gt; or &lt;strong&gt;Transform Data&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that you have a better understanding of how to connect to some of the most common data sources, let&amp;rsquo;s look at one that is rather unique.&lt;/p&gt;
+
+&lt;h2 id=&#34;web-as-a-source&#34;&gt;Web as a source&lt;/h2&gt;
+
+&lt;p&gt;One pleasant surprise to many Power BI developers is the availability of a web connector. Using this connection type allows you to source data from files that are stored on a website, or even data that has been embedded into an HTML table on a web page. Using this type of connector can  often be helpful when you would like to supplement your internal  corporate data sources with information that can be publicly found on  the internet.&lt;/p&gt;
+
+&lt;p&gt;For this example, imagine you are working for a  major automobile manufacturer in the United States. You have already  designed a Power BI solution using data internally available within your organization that shows historical patterns in sales trends. However,  you would like to determine whether there are any correlations in  periods of historically higher fuel prices and lower automobile sales.  Fortunately, you found that the United States Department of Labor  publicly posts the historical average consumer prices of many commonly  purchased items, including fuel prices:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Now that you understand the scenario within Power BI Desktop, select the&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Get data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;button and choose 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Web&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;as your source. You will then be prompted to provide the 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;where the data can be found. In this example, the data can be found by 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;searching on the website&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.data.gov/&#34; target=&#34;_blank&#34;&gt;https://www.data.gov/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;. Alternatively, to save you some time, use the direct link:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline&#34; target=&#34;_blank&#34;&gt;https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;. Once you provide the&lt;/p&gt;
+
+&lt;p&gt;URL&lt;/p&gt;
+
+&lt;p&gt;, click&lt;/p&gt;
+
+&lt;p&gt;OK&lt;/p&gt;
+
+&lt;p&gt;, as shown in the following screenshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_05.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.5: Providing the URL where your data can be found&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Next, you will likely be prompted with an&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Access Web Content&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dialog box. This is important 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when you are using a data source that requires someone to log in to access it. Since this&lt;/p&gt;
+
+&lt;p&gt;data source does not require a login to find the data, you can simply select anonymous access, which is the default, and then click&lt;/p&gt;
+
+&lt;p&gt;Connect&lt;/p&gt;
+
+&lt;p&gt;, as shown in the following screenshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_06.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.6: A preview of the data is shown before you import it into Power BI&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Notice on the next screen that Power BI Desktop recognizes the URL you provided as a tab-delimited file. This can now easily be added to any existing data model you have designed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now that you&amp;rsquo;ve learned how to connect to various  data sources, it is important to discuss in more depth the different  data storage modes.&lt;/p&gt;
+
+&lt;h1 id=&#34;directquery&#34;&gt;DirectQuery&lt;/h1&gt;
+
+&lt;p&gt;Many of you have likely been trying to envision how you may implement these data imports in your  environment. You may have asked yourself questions such as the  following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If data imported into Power BI uses an  in-memory technology, did my company provide me with a machine that has  enough memory to handle this?&lt;/li&gt;
+&lt;li&gt;Am I really going to import my source table with tens of billions of rows into memory?&lt;/li&gt;
+&lt;li&gt;How do I handle the requirement of displaying results in real time from the source?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all excellent questions that would have  many negative answers if the only way to connect to your data was by  importing your source into Power BI. Fortunately, there is another way.  Using DirectQuery, Power BI allows you to connect directly to a data  source so that no data is imported or copied into Power BI Desktop.&lt;/p&gt;
+
+&lt;p&gt;Why is this a good thing? Consider the questions  that were asked at the beginning of this section. Since no data is  imported to Power BI Desktop, this means it is less important how  powerful your personal laptop is. This is because all query results  are now processed on the source server instead of your laptop. It also  means that there is no need to refresh the results in Power BI, since  any reports you design are always pointing to a live version of the data source. That&amp;rsquo;s a huge benefit!&lt;/p&gt;
+
+&lt;p&gt;The following screenshot shows a connection to a SQL Server database with the &lt;strong&gt;DirectQuery&lt;/strong&gt; option selected:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_07.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.7: SQL Server Data Connectivity mode allows you to switch to DirectQuery mode&lt;/p&gt;
+
+&lt;p&gt;Earlier in this chapter, the Data Gateway  application was mentioned as a requirement for scheduling data refreshes for sources that used the &lt;strong&gt;Import&lt;/strong&gt; option. This same application is also needed with &lt;strong&gt;DirectQuery&lt;/strong&gt; if your data is an on-premises source. Even though there is no  scheduled data refresh, the Data Gateway application is still required  to push on-premises data into the cloud. Again, this will be discussed  in more depth in &lt;em&gt;Chapter 7&lt;/em&gt;, &lt;em&gt;Using a Cloud Deployment with the Power BI Service&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;limitations&#34;&gt;Limitations&lt;/h2&gt;
+
+&lt;p&gt;So, if DirectQuery is so great, why not choose it every time? Well, with every great feature, you will also find limitations. The first glaring limitation is that not all data sources support  DirectQuery. At the time this book was written, the following data  sources support DirectQuery in Power BI:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon Redshift&lt;/li&gt;
+&lt;li&gt;AtScale Cubes&lt;/li&gt;
+&lt;li&gt;Azure HDInsight Spark&lt;/li&gt;
+&lt;li&gt;Azure SQL Database&lt;/li&gt;
+&lt;li&gt;Azure SQL Data Warehouse&lt;/li&gt;
+&lt;li&gt;BI Connector&lt;/li&gt;
+&lt;li&gt;Denodo&lt;/li&gt;
+&lt;li&gt;Dremio&lt;/li&gt;
+&lt;li&gt;Essbase&lt;/li&gt;
+&lt;li&gt;Exasol&lt;/li&gt;
+&lt;li&gt;Google BigQuery&lt;/li&gt;
+&lt;li&gt;HDInsight Interactive Query&lt;/li&gt;
+&lt;li&gt;IBM DB2&lt;/li&gt;
+&lt;li&gt;IBM Netezza&lt;/li&gt;
+&lt;li&gt;Impala&lt;/li&gt;
+&lt;li&gt;Indexima&lt;/li&gt;
+&lt;li&gt;Intersystems IRIS&lt;/li&gt;
+&lt;li&gt;Jethro ODBC&lt;/li&gt;
+&lt;li&gt;Kyligence Enterprise&lt;/li&gt;
+&lt;li&gt;MarkLogic ODBC&lt;/li&gt;
+&lt;li&gt;Oracle&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;Power BI datasets&lt;/li&gt;
+&lt;li&gt;QubolePresto&lt;/li&gt;
+&lt;li&gt;SAP Business Warehouse Message Server&lt;/li&gt;
+&lt;li&gt;SAP Business Warehouse Server&lt;/li&gt;
+&lt;li&gt;SAP HANA&lt;/li&gt;
+&lt;li&gt;Snowflake&lt;/li&gt;
+&lt;li&gt;Spark&lt;/li&gt;
+&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;li&gt;Teradata Database&lt;/li&gt;
+&lt;li&gt;Vertica&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on the data source you choose, there is a chance of slower query performance when using DirectQuery compared to  the default data import option. Keep in mind that when the &lt;strong&gt;Import&lt;/strong&gt; option is selected, it leverages a highly sophisticated in-memory  storage engine. When selecting DirectQuery, performance will depend on  the source type you have chosen from the preceding list.&lt;/p&gt;
+
+&lt;p&gt;Another limitation worth noting is that not all Power BI features are supported when you choose DirectQuery. For example, depending on the selected source, some of the Power Query Editor  features are disabled and could result in the following message: &amp;ldquo;&lt;strong&gt;This step results in a query that is not supported in DirectQuery mode&lt;/strong&gt;.&amp;rdquo; The following screenshot shows this response:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_08.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.8: Certain transforms may force a user out of DirectQuery mode&lt;/p&gt;
+
+&lt;p&gt;The reason for this limitation is because  DirectQuery automatically attempts to convert any Power Query steps into a query in the data source&amp;rsquo;s native language. So, if the source of this solution was SQL Server, then Power BI would attempt to convert this  data transformation into a comparable T-SQL script. Once Power BI  realizes Power Query Editor used a function that is not compatible with  the source, the error is generated.&lt;/p&gt;
+
+&lt;h1 id=&#34;composite-models&#34;&gt;Composite models&lt;/h1&gt;
+
+&lt;p&gt;Occasionally, you may find it helpful for your  data model to take a hybrid approach regarding how it stores data. For  example, you want sales transactions to be displayed in near real time  on your dashboard, so you set your &lt;code&gt;SalesTransaction&lt;/code&gt; table to use DirectQuery. However, your &lt;code&gt;Product&lt;/code&gt; table rarely has values that are added or changed. Having values that  do not change often make it a great candidate for the imported data  storage method to take advantage of the performance benefits.&lt;/p&gt;
+
+&lt;p&gt;This describes a perfect scenario for utilizing a  feature called composite models. Composite models allow a single Power  BI solution to include both DirectQuery and import table connections  within one data model. From the Power BI developer&amp;rsquo;s perspective, you  can take advantage of the best parts of each data storage mode within  your design.&lt;/p&gt;
+
+&lt;p&gt;Another effective use case for  composite models is available due to a feature called aggregations.  Leveraging aggregations is one of the best ways to manage extremely  large datasets in Power BI. You will learn more about designing  aggregations in &lt;em&gt;Chapter 3&lt;/em&gt;, &lt;em&gt;Building the Data Model&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Within Power BI Desktop, it is clear a solution is leveraging composite models if we view the storage mode in the  bottom-right corner of the tool. Clicking this corner, shown in the  following screenshot, will allow you to switch all tables to &lt;strong&gt;Import&lt;/strong&gt; mode instead. Optionally, if you need to change the storage mode of individual tables, this can be accomplished in the &lt;strong&gt;Model&lt;/strong&gt; view by selecting individual tables:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_09.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.9: The bottom-right corner allows you to switch storage modes for the entire model&lt;/p&gt;
+
+&lt;p&gt;While composite models give you the best of DirectQuery and import models, there&amp;rsquo;s a third storage mode that is often used for data sources that are highly groomed by IT.&lt;/p&gt;
+
+&lt;h1 id=&#34;live-connection&#34;&gt;Live connection&lt;/h1&gt;
+
+&lt;p&gt;The basic concept of live connection is very  similar to that of DirectQuery. Just like DirectQuery, when you use a  live connection, no data is actually imported into Power BI. Instead,  your solution points directly to the  underlying data source and leverages Power BI Desktop simply as a data  visualization tool. So, if these two things are so similar, why give  them different names? The answer is because even though the basic  concept is the same, DirectQuery and live connection vary greatly.&lt;/p&gt;
+
+&lt;p&gt;One difference that should quickly be noticeable  is the query performance experience. It was mentioned in a previous  section that DirectQuery can often have poor performance, depending on  the data source type. With live connection, you generally will not have  any performance problem because it is only supported by the following  types of data sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SQL Server Analysis Services database&lt;/li&gt;
+&lt;li&gt;Azure Analysis Services database&lt;/li&gt;
+&lt;li&gt;Power BI datasets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reason performance does not suffer with these  data sources is because they either use the same xVelocity engine that  Power BI does, or another high-performance storage engine. To set up  your own live connection to one of these sources, you can choose the &lt;strong&gt;SQL Server Analysis Services database&lt;/strong&gt; from the list of connectors after selecting &lt;strong&gt;Get data&lt;/strong&gt;. The following screenshot shows that you can specify that the connection should be set to &lt;strong&gt;Connect live&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_10.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.10: SQL Server Analysis Services Data Connectivity mode allows you to switch to Connect live mode&lt;/p&gt;
+
+&lt;p&gt;If a dataset is configured for a Live connection or DirectQuery, then you can expect automatic refreshes to occur approximately each hour by default. You can manually adjust  the refresh frequency in the Scheduled cache refresh option in the Power BI service.&lt;/p&gt;
+
+&lt;p&gt;Of course, these benefits don&amp;rsquo;t come without a cost. Let&amp;rsquo;s discuss some of the limitations of Live connection.&lt;/p&gt;
+
+&lt;h2 id=&#34;limitations-1&#34;&gt;Limitations&lt;/h2&gt;
+
+&lt;p&gt;So far, this sounds great! You have now learned that you can connect directly to your data sources, without importing data into your model, and that you won&amp;rsquo;t have significant  performance consequences. Of course, these benefits don&amp;rsquo;t come without  giving something up, so what are the limitations of a live connection?&lt;/p&gt;
+
+&lt;p&gt;What you will encounter with live connections are  limitations that are generally a result of the fact that Analysis  Services is an Enterprise BI tool. Thus, if you are going to connect to  it, then it has probably already gone through significant data cleansing and modeling by your IT team.&lt;/p&gt;
+
+&lt;p&gt;Modeling capabilities such as defining  relationships are not available because these would be designed in an  Analysis Services Model. Also, Power Query Editor is not available at  all against a Live connection source.  While, at times, this may be frustrating, it does make sense that it  works this way. This is because any of the changes you may desire to  make with relationships or in the Power Query Editor should be done in  Analysis Services, not Power BI.&lt;/p&gt;
+
+&lt;h1 id=&#34;which-should-i-choose&#34;&gt;Which should I choose?&lt;/h1&gt;
+
+&lt;p&gt;Now that you have learned about the three  different ways to connect to your data, you are left wondering which  option is best for you. It&amp;rsquo;s fair to say that the choice you make will  really depend on the requirements of each individual project you have.&lt;/p&gt;
+
+&lt;p&gt;To summarize, some of the considerations that were mentioned in this chapter are listed in the following table:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Consideration&lt;/th&gt;
+&lt;th&gt;Import Data&lt;/th&gt;
+&lt;th&gt;DirectQuery&lt;/th&gt;
+&lt;th&gt;Live connection&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Best performance&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Best design experience&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Best for keeping data up to date&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Data source availability&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Most scalable&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Some of the items you&amp;rsquo;ll consider may be more important than others. So, to make this more personal, try using the &lt;code&gt;Data Connectivity - Decision Matrix&lt;/code&gt; file that is included with this book. In this file, you can rank (from 1 to 10) the importance of each of these considerations to help you  choose which option is best for you.&lt;/p&gt;
+
+&lt;p&gt;Since the &lt;strong&gt;Import Data&lt;/strong&gt; option presents the most available features, going forward, this book primarily uses this option. In &lt;em&gt;Chapter 2&lt;/em&gt;, &lt;em&gt;Data Transformation Strategies&lt;/em&gt;, you will learn how to implement data transformation strategies to  ensure all the necessary business rules are applied to your data.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Power BI provides users with a variety of methods  for connecting to data sources with natively built-in data connectors.  The connector you choose for your solution will depend on where your  data is located. Once you&amp;rsquo;ve connected to a data source, you can decide  on what type of query mode best suits your needs. Some connectors allow  for little to no latency in your results with options like DirectQuery  or live connection. In this chapter, you learned about the benefits and  disadvantages of each query mode, and you were given a method for  weighting these options using a decision matrix.&lt;/p&gt;
+
+&lt;p&gt;In the next chapter, you will learn more about how data transformations may be applied to your data import process so that incoming data will be properly cleansed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Power BI</title>
+      <link>https://www.marcusrb.com/en/en/power-bi/01-intro-power-bi/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/en/en/power-bi/01-intro-power-bi/</guid>
+      <description>
+
+&lt;p&gt;Power BI may very well be one of the most aptly named tools ever developed by Microsoft, giving analysts and developers a powerful business intelligence and analytics playground while still packaging it in a surprisingly lightweight application. Using Microsoft Power BI, the processes of data discovery, data modeling, data visualization, and sharing are made elegantly simple using a single product. These processes are so commonplace when developing Power BI solutions that this book has adopted sections that follow this pattern. However, from your perspective, the really exciting thing may be that development problems that would previously take you weeks to solve in a corporate BI solution can now be accomplished in only hours.&lt;/p&gt;
+
+&lt;p&gt;Power BI is a Software as a Service (SaaS) offering in the Azure cloud and, as such, the Microsoft product team follows a strategy of cloud first as they develop and add new features to the product. However, this does not mean that Power BI is only available in the cloud. Microsoft presents two options for sharing your results with others. The first, most often-utilized, method is the cloud-hosted Power BI service, which is available to users for a low monthly subscription fee. The second option is the on-premises Power BI Report Server, which can be obtained through either your SQL Server Enterprise licensing with Software Assurance or a subscription level known as Power BI Premium. Both solutions require a development tool called Power BI Desktop, which is available for free, and is where you must start to design your solutions.&lt;/p&gt;
+
+&lt;p&gt;Using the Power BI Desktop application enables you to define your data discovery and data preparation steps, organize your data model, and design engaging data visualizations based on your reports. In this first chapter, the development environment will be introduced, and the data discovery process will be explored in depth. The topics detailed in this chapter include the following:&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;[ ] Getting started&lt;/li&gt;
+&lt;li&gt;[ ] Importing data&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Direct query&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Live connection&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;rsquo;s first start by learning about what you need on your machine to get started.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;Power BI Desktop is available for free and can be found via a direct download link at Power BI (&lt;a href=&#34;https://powerbi.microsoft.com/&#34; target=&#34;_blank&#34;&gt;https://powerbi.microsoft.com/&lt;/a&gt;), or by installing it as an app from Microsoft Store. There are several benefits of using  the Microsoft Store Power BI app, including automatic updates, no  requirement for admin privileges, and making it easier for planned IT  rollout of Power BI.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve downloaded, installed, and launched Power  BI Desktop, you will likely be welcomed by the start up screen, which is designed to help new users find their way. Close this start up screen  so that we can review some of the most commonly used features of the  application:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://learning.oreilly.com/library/view/microsoft-power-bi/9781800561571/Images/B16601_01_01.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.1: First view of Power BI Desktop&lt;/p&gt;
+
+&lt;p&gt;Following the preceding screenshot, let&amp;rsquo;s learn the names and purposes of some of the most important features in Power BI Desktop:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Get data&lt;/strong&gt;: Used for selecting data connectors and configuring data source details.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transform data&lt;/strong&gt;: Launches the Power Query Editor, which is used to apply data transformations to incoming data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report view&lt;/strong&gt;: Report canvas used for designing data visualizations. This is the default view that&amp;rsquo;s open when Power BI Desktop is launched.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data view&lt;/strong&gt;: Provides a view of the data in your model. This looks similar to a typical Excel spreadsheet, but it is read-only.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model view&lt;/strong&gt;: Primarily used when your data model has multiple tables and relationships that need to be defined between them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that you have a little familiarity with the  basic controls within Power BI Desktop, let&amp;rsquo;s learn about the options  you have for connecting to your various data sources.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

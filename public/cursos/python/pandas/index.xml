@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análisis de datos con Pandas | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/cursos/python/pandas/</link>
+      <atom:link href="https://www.marcusrb.com/cursos/python/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Análisis de datos con Pandas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-ES</language><copyright>© 2021</copyright><lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Análisis de datos con Pandas</title>
+      <link>https://www.marcusrb.com/cursos/python/pandas/</link>
+    </image>
+    
+    <item>
+      <title>Introducción a Pandas 101</title>
+      <link>https://www.marcusrb.com/cursos/python/pandas/pandas101-1-intro/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/python/pandas/pandas101-1-intro/</guid>
+      <description>
+
+&lt;h2 id=&#34;qués-es-pandas&#34;&gt;¿Qués es Pandas?&lt;/h2&gt;
+
+&lt;p&gt;Es una biblioteca de análisis de datos de código abierto para proporcionar estructuras de datos y herramientas de análisis de datos fáciles de usar.&lt;/p&gt;
+
+&lt;h3 id=&#34;beneficios-de-pandas&#34;&gt;Beneficios de Pandas:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Muchas funcionalidades&lt;/li&gt;
+&lt;li&gt;Comunidad activa&lt;/li&gt;
+&lt;li&gt;Documentación extensa&lt;/li&gt;
+&lt;li&gt;Juega bien con otros paquetes&lt;/li&gt;
+&lt;li&gt;Construido sobre NumPy&lt;/li&gt;
+&lt;li&gt;Funciona bien con scikit-learn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;otros-enlaces-de-interés-de-pandas&#34;&gt;Otros enlaces de interés de Pandas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;pandas main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html&#34; target=&#34;_blank&#34;&gt;pandas installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/products/individual&#34; target=&#34;_blank&#34;&gt;Anaconda distribution of Python (includes pandas)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to use the IPython/Jupyter notebook (video)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Carga de datos en Pandas</title>
+      <link>https://www.marcusrb.com/cursos/python/pandas/pandas101-2-carga/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/cursos/python/pandas/pandas101-2-carga/</guid>
+      <description>
+
+&lt;h2 id=&#34;qués-es-pandas&#34;&gt;¿Qués es Pandas?&lt;/h2&gt;
+
+&lt;p&gt;Es una biblioteca de análisis de datos de código abierto para proporcionar estructuras de datos y herramientas de análisis de datos fáciles de usar.&lt;/p&gt;
+
+&lt;h3 id=&#34;beneficios-de-pandas&#34;&gt;Beneficios de Pandas:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Muchas funcionalidades&lt;/li&gt;
+&lt;li&gt;Comunidad activa&lt;/li&gt;
+&lt;li&gt;Documentación extensa&lt;/li&gt;
+&lt;li&gt;Juega bien con otros paquetes&lt;/li&gt;
+&lt;li&gt;Construido sobre NumPy&lt;/li&gt;
+&lt;li&gt;Funciona bien con scikit-learn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;otros-enlaces-de-interés-de-pandas&#34;&gt;Otros enlaces de interés de Pandas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;pandas main page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html&#34; target=&#34;_blank&#34;&gt;pandas installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/products/individual&#34; target=&#34;_blank&#34;&gt;Anaconda distribution of Python (includes pandas)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to use the IPython/Jupyter notebook (video)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
