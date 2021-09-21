@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Freelance en gestión y mantenimiento dashboard en Tableau | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index, follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Servicio de consultoría, implementación y mantenimiento cuadros de mando, dashboard y analítica avanzada con Tableau Desktop, Tableau Prep.">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/servicios-freelance-tableau/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Freelance en gestión y mantenimiento dashboard en Tableau',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/servicios-freelance-tableau/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/servicios-freelance-tableau/">
+  <meta property="og:title" content="Freelance en gestión y mantenimiento dashboard en Tableau | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Servicio de consultoría, implementación y mantenimiento cuadros de mando, dashboard y analítica avanzada con Tableau Desktop, Tableau Prep."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="es-ES">
+  
+    
+      <meta property="article:published_time" content="2019-09-01T18:43:20&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-05T12:19:21&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactos"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Freelance en gestión y mantenimiento dashboard en Tableau</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-09-01 18:43:20 &#43;0000 &#43;0000" itemprop="datePublished">
+<meta content="2021-01-05 12:19:21 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/servicios-freelance-tableau/#disqus_thread"></a>
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.marcusrb.com/servicios-freelance-tableau/&amp;text=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.marcusrb.com/servicios-freelance-tableau/&amp;t=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau&amp;body=https://www.marcusrb.com/servicios-freelance-tableau/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.marcusrb.com/servicios-freelance-tableau/&amp;title=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau%20https://www.marcusrb.com/servicios-freelance-tableau/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.marcusrb.com/servicios-freelance-tableau/&amp;title=Freelance%20en%20gesti%c3%b3n%20y%20mantenimiento%20dashboard%20en%20Tableau" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="servicio-de-consultoría-freelance-en-tableau">Servicio de consultoría freelance en Tableau</h2>
+
+<p>Creemos en el futuro del análisis visual del mundo empresarial. Si aterrizaste aquí, probablemente estés en algún lugar del mismo camino.</p>
+
+<p>Para ayudarlo en su viaje, ofrecemos ayuda y consultoría de Tableau.</p>
+
+<p>Somos un socio de Tableau que trabajamos para ayudar a las personas a aprovechar al máximo el software y responder las preguntas correctas con datos.</p>
+
+<h2 id="por-qué-necesita-consultar-tableau">¿Por qué necesita consultar Tableau?</h2>
+
+<p>¡Aceptar asistencia no es una debilidad! Realmente creemos que un buen líder sabe cuándo pedir ayuda. Probablemente todos hemos aprendido que en algún momento podríamos usar algo de soporte.</p>
+
+<p>¡La velocidad es vital en el análisis de autoservicio! Permítanme repetirlo: ¡la velocidad es el juego!</p>
+
+<p>Si tiene la oportunidad de encontrar un consultor de Tableau que obtenga sus puntos débiles, es posible que pueda acelerar su progreso de una manera que no creía posible.</p>
+
+<p><strong>Entonces, ¿cómo podemos ayudar?</strong>
+Un enfoque creativo para la resolución de problemas. Ayuda diligente de Tableau, comunicación clara, hacer las cosas de la manera correcta.</p>
+
+<p>¡Simple como eso!</p>
+
+<h3 id="una-pasión-por-la-visualización-de-datos">Una pasión por la visualización de datos</h3>
+
+<p>Estamos trabajando con Tableau todos los días. ¡Alimentamos incansablemente a la bestia que es nuestro apetito por responder preguntas con datos!
+Nuestra experiencia profesional en análisis web nos brinda una vanguardia. Sobre todo entendemos la importancia de la corrección y la calidad de los datos.</p>
+
+<p>Creemos que cuando te apasiona algo, el trabajo se vuelve mucho más fácil. Para nosotros, ¡ni siquiera parece trabajo!
+El amor por trabajar con datos es lo que nos impulsa. Tenacidad, dedicación y creatividad son lo que obtendrá de nosotros.</p>
+
+<h3 id="business-analytics-vs-business-intelligence">Business Analytics vs. Business Intelligence</h3>
+
+<p>Creemos que puede beneficiarse de nuestro trabajo en ambas áreas. Al combinar la eficiencia (BI) con la creatividad (BA), estamos tratando de ayudar a las empresas a responder preguntas urgentes y formular otras nuevas.</p>
+
+<p>Hemos estado utilizando un amplio espectro de fuentes de datos: desde Big Data como Exasol o Vertica hasta bases de datos clásicas como MySQL o Postgres, y otras menos tradicionales como Google Analytics y conectores de datos web.</p>
+
+<h3 id="diseño-e-implementación-del-tablero-de-instrumentos">Diseño e implementación del tablero de instrumentos</h3>
+
+<p>Para nosotros, un Tableau Dashboard es solo la punta del iceberg. La regla de pasar el 80% del tiempo trabajando con los datos y el 20% en la visualización en sí se aplica a nuestro caso.</p>
+
+<p>No solo eso, sino que el principio de Pareto también es relevante para la cantidad de hojas que creamos versus cuántas guardamos en la versión final del tablero.</p>
+
+<p>¡La velocidad de probar diferentes enfoques en Tableau es fantástica! Sería una pena si no lo usáramos.</p>
+
+<p>Por lo general, comenzamos construyendo muchos gráficos diferentes (a veces cientos), y conservamos solo los que consideramos relevantes para la historia.</p>
+
+<p>Puede encontrar algunos ejemplos de visualizaciones de datos que hemos creado al final de esta página. Y algunos paneles más creativos en el perfil de Tableau Public de Dorian (nuestro jefe de Tableau).</p>
+
+<h3 id="optimización-del-rendimiento-de-tableau">Optimización del rendimiento de Tableau</h3>
+
+<p>Tenemos un estudio de caso sobre el ajuste del rendimiento de Tableau, que debe leer si tiene ~ 15 minutos disponibles.</p>
+
+<p>La idea principal es que no nos centremos únicamente en la rapidez con la que podemos hacer un tablero, sino también en lo rápido que puede responder a sus preguntas.</p>
+
+<p>Además, trabajar con grandes cantidades de datos es complicado. Sin embargo, estamos aquí para romper esos muros.</p>
+
+<h4 id="licencias-y-soporte">Licencias y soporte</h4>
+
+<p>¿Desea tomar la decisión correcta con respecto a la configuración de Tableau dentro de su organización?</p>
+
+<p>Podemos ayudarlo a descubrir cuál es la combinación correcta de:</p>
+
+<ul>
+<li>Productos de Tableau: escritorio, preparación, servidor, en línea</li>
+<li>Roles de usuario: (Creador, Explorador, Visor)</li>
+<li>Licencias: licencias básicas basadas en el usuario, análisis integrados, gestión de datos</li>
+</ul>
+
+<p>También estamos disponibles para ofrecer soporte técnico para su servidor si lo necesita.</p>
+
+<p>Uno de nuestros objetivos es ayudar a los clientes a dormir mejor. Esta parte cae directamente en esa área.</p>
+
+<p>Experiencia complementaria con R y Python
+Tecnologías como R y Python nos permiten trabajar con los datos en el nivel más cercano.</p>
+
+<p>Por nombrar algunas cosas para las que hemos utilizado modelos estadísticos creados con R junto con Tableau para duplicar el análisis:</p>
+
+<ul>
+<li>Modelos de atribución de Markov: atribución de canal de marketing más inteligente que el promedio para tiendas de comercio electrónico</li>
+<li>Pronosticar usando algoritmos que son un poco más avanzados (por ejemplo, el Profeta de Facebook) que los básicos (como el que usa Tableau)</li>
+<li>Cálculos bayesianos: los desarrollamos para cortar y cortar los resultados de las pruebas A / B dentro de Tableau</li>
+<li>Comprobaciones de impacto causal: estamos trabajando con este algoritmo para evaluar si los crecimientos o las caídas son el resultado de algo que hicimos o simplemente ruido aleatorio en los datos</li>
+<li>Flujos de trabajo de Business Intelligence: programación de informes usando Python junto con tabcmd (la interfaz de línea de comando para Tableau Server)</li>
+</ul>
+
+<h3 id="está-interesado-en-consultoría-o-capacitarse-en-visualización-en-tableau">¿Está interesado en consultoría o capacitarse en visualización en Tableau ?</h3>
+
+<p>Llámame hoy o utiliza el formulario en línea abajo indicado. Muchas gracias!</p>
+
+<p><a href="../#contact">Solicita información para la consultoría en Tableau</a></p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/servicio-freelance-data-analytics-business-intelligence/" rel="next">Freelance Data Analytics y Business Intelligence</a>
+  </div>
+  
+  
+</div>
+
+    </div>
+    
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "marcusrb" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

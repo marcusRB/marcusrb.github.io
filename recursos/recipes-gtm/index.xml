@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recursos Google Tag Manager | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data</title>
+    <link>https://www.marcusrb.com/recursos/recipes-gtm/</link>
+      <atom:link href="https://www.marcusrb.com/recursos/recipes-gtm/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recursos Google Tag Manager</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-ES</language><copyright>© 2021</copyright>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Recursos Google Tag Manager</title>
+      <link>https://www.marcusrb.com/recursos/recipes-gtm/</link>
+    </image>
+    
+  </channel>
+</rss>

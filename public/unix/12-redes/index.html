@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <title>Redes | MarcusRB</title>
+    
+
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marco Russo">
+
+  
+  <meta name="robots" content="index,follow">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Un proceso es una instancia de un programa en ejecución. Programas y procesos son entidades distintas.">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.marcusrb.com/unix/12-redes/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:200,500|Merriweather:200,300|Roboto+Mono:300,400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.561c2ba69cc8c6babcfc0393b003a821.css">
+
+  
+
+  
+  
+  
+
+  
+  
+    
+    
+    <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        page:'Redes',
+        categories:''
+      });
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MPFRNJ');</script>
+
+
+    
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.marcusrb.com/unix/12-redes/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@rb_marcus">
+  <meta property="twitter:creator" content="@rb_marcus">
+  
+  <meta property="og:site_name" content="MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:url" content="https://www.marcusrb.com/unix/12-redes/">
+  <meta property="og:title" content="Redes | MarcusRB | consultor &amp; profesor data analytics • AI • Big Data">
+  <meta property="og:description" content="Un proceso es una instancia de un programa en ejecución. Programas y procesos son entidades distintas."><meta property="og:image" content="https://www.marcusrb.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.marcusrb.com/img/icon-192.png"><meta property="og:locale" content="es-ES">
+  
+    
+      <meta property="article:published_time" content="2020-06-24T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-31T16:11:35&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  
+  
+
+
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPFRNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+  
+
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+      <a class="navbar-brand" href="/">MarcusRB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#inicio"><span>Inicio</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/servicios"><span>Servicios</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/recursos"><span>Recursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contactos"><span>Contactos</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/tutorial-unix/">Índice UNIX</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/01-unix-intro/">Intro a Unix</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/02-sistema-ficheros/">Sistema de ficheros</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/03-control-procesos/">Control de procesos</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/04-flujo-informacion/">Flujo de información</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/05-procesamiento-texto/">Procesamiento texto</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/06-expresiones-regulares/">Expresiones regulares</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/07-scripts-bash/">Scripts de bash</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/08-administrador/">Administrador</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/09-administrador-software/">Administrador de software</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/10-variables-entorno/">Variables de entorno</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/unix/11-administracion-software-2/">Administracion de software 2</a>
+
+  </div>
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/unix/12-redes/">Redes</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">En esta página</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#redes">Redes</a>
+<ul>
+<li><a href="#ip">IP</a></li>
+<li><a href="#puerto">Puerto</a></li>
+<li><a href="#direccion-estática-o-dinámicas">Direccion estática o dinámicas</a></li>
+<li><a href="#dns">DNS</a></li>
+<li><a href="#puerta-de-enlace">Puerta de enlace</a></li>
+<li><a href="#dispositivos-de-red">Dispositivos de red</a>
+<ul>
+<li><a href="#ping">Ping</a></li>
+<li><a href="#ifconfig">ifconfig</a></li>
+<li><a href="#route">route</a></li>
+<li><a href="#resolv-conf">resolv.conf</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#servicios">Servicios</a></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Redes</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h1 id="redes">Redes</h1>
+
+<ul>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#ip" target="_blank">IP</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#puerto" target="_blank">Puerto</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#direccion-esttica-o-dinmicas" target="_blank">Direccion estática o dinámicas</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#dns" target="_blank">DNS</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#puerta-de-enlace" target="_blank">Puerta de enlace</a></li>
+<li>Dispositivos de red
+
+<ul>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#ping" target="_blank">Ping</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#ifconfig" target="_blank">ifconfig</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#route" target="_blank">route</a></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#resolvconf" target="_blank">resolv.conf</a></li>
+</ul></li>
+<li><a href="https://bioinf.comav.upv.es/courses/unix/redes.html#servicios" target="_blank">Servicios</a></li>
+</ul>
+
+<p>Vamos a repasar algunos commandos genericos de Linux para poder conocer la configuracion actual del sistema.</p>
+
+<h2 id="ip">IP</h2>
+
+<p>Una dirección IP es un número que identifica un dispositivo  (computadora, tableta, portátil, smartphone) que utilice el protocolo IP (Internet Protocol).</p>
+
+<h2 id="puerto">Puerto</h2>
+
+<p>En el ámbito de Internet, un puerto es el valor que se usa, en el  modelo de la capa de transporte, para distinguir entre las múltiples  aplicaciones que se pueden conectar al mismo host, o puesto de trabajo. Aunque muchos de los puertos se asignan de manera arbitraria, ciertos  puertos se asignan, por convenio, a ciertas aplicaciones particulares o  servicios de carácter universal. Por ejemplo el puerto 80 para el  protocolo http(web).</p>
+
+<h2 id="direccion-estática-o-dinámicas">Direccion estática o dinámicas</h2>
+
+<p>Las ips se pueden configurar para que sea la que nosotros le digamos( direccion estática) o para que nos la de un servidior externo  (Direccion dinámica). Lo más comun es que la configuracion sea dinamica y que no tengamos que preocupernos sobre las diferentes  configuraciones.(DHCP)</p>
+
+<h2 id="dns">DNS</h2>
+
+<p>Cuando queremos acceder a una página web, en el ordenador no solemos  escribir la IP del ordenador donde está alojada la página. Solemos  escribir el nombre del dominio. El servicio encargado de traducir los  dominios en ips es el DNS.(Domain Name Server)</p>
+
+<p>Cuando tecleamos en el navegador google.es, lo primero que hace el  navegador es preguntarle al servidor dns cual es la IP a la que está  asociado ese dominio, cuando se la devuelve, el navegador llega al  servidor usando la IP, no el dominio.</p>
+
+<p>Para nosotros sería muy dificil recordar las ips de las diferentes  páginas webs, más aun, cuando estas están continuamente cambiando. Para  guardar la relación dominio ip, es para lo que existen los DNS.</p>
+
+<h2 id="puerta-de-enlace">Puerta de enlace</h2>
+
+<p>La pasarela (en inglés gateway) o puerta de enlace, es el dispositivo que actúa de interfaz de conexión entre aparatos o dispositivos, y  también posibilita compartir recursos entre dos o más computadoras.</p>
+
+<h2 id="dispositivos-de-red">Dispositivos de red</h2>
+
+<p>Son aquellos elementos fisicos que permiten al ordenador communicarse con otro ordenador. Existen dispositivos que permiten conectarse de  forma inalambrica y mediante cable.</p>
+
+<p>En linux a cada uno de los dispositivos se les da un identificador, y es este identificador por el cual podremos configurarlos.</p>
+
+<p>Cada dispositivo de red tiene una MAC. Es un identificador unico  entre todos los dispositivos de red que existen en el mundo. En las  redes de computadoras, la dirección MAC (siglas en inglés de media  access control; en español “control de acceso al medio”) es un  identificador de 48 bits (6 bloques hexadecimales) que corresponde de  forma única a una tarjeta o dispositivo de red. Se conoce también como  dirección física.</p>
+
+<h3 id="ping">Ping</h3>
+
+<p>Ping es una utilidad diagnostica que nos permite conocer el estado de la comunicacion entre un ordenador y otro.</p>
+
+<pre><code>~$ ping google.es
+PING google.es (216.58.201.131) 56(84) bytes of data.
+64 bytes from mad06s25-in-f3.1e100.net (216.58.201.131): icmp_seq=1 ttl=63 time=7.80 ms
+64 bytes from mad06s25-in-f3.1e100.net (216.58.201.131): icmp_seq=2 ttl=63 time=7.61 ms
+64 bytes from mad06s25-in-f3.1e100.net (216.58.201.131): icmp_seq=3 ttl=63 time=7.55 ms
+</code></pre>
+
+<p>Es muy util porque en caso de problemas de conectividad nos ayudara a diagnosticar la fuente del problema.</p>
+
+<h3 id="ifconfig">ifconfig</h3>
+
+<p>Es un programa disponible en varias versiones del sistema operativo  UNIX, que permite configurar o desplegar numerosos parámetros de las  interfaces de red, como la dirección IP o la máscara de red. Si se llama sin argumentos suele mostrar la configuración vigente de las interfaces de red activas, con detalles como la dirección MAC o el tráfico que ha  circulado por las mismas hasta el momento. Las interfaces de red en  Linux se suelen denominar eth (eth0, eth1, etc.).</p>
+
+<pre><code>~$ ifconfig
+enp0s3    Link encap:Ethernet  direcciónHW 08:00:27:33:99:e7  
+          Direc. inet:10.0.2.15  Difus.:10.0.2.255  Másc:255.255.255.0
+          Dirección inet6: fe80::9c0a:cb8b:c9d8:f705/64 Alcance:Enlace
+          ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:593738 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:107227 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000
+         Bytes RX:795191090 (795.1 MB)  TX bytes:9027221 (9.0 MB)
+
+lo        Link encap:Bucle local  
+          Direc. inet:127.0.0.1  Másc:255.0.0.0
+          Dirección inet6: ::1/128 Alcance:Anfitrión
+          ACTIVO BUCLE FUNCIONANDO  MTU:65536  Métrica:1
+          Paquetes RX:3511 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:3511 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1
+          Bytes RX:592400 (592.4 KB)  TX bytes:592400 (592.4 KB)
+</code></pre>
+
+<h3 id="route">route</h3>
+
+<p>Con el comando route, podremos saber cual es el gateway o puerta de acceso de las interfaces del ordenador.</p>
+
+<pre><code>~$ route -n
+Tabla de rutas IP del núcleo
+Destino         Pasarela        Genmask         Indic Métric Ref    Uso Interfaz
+0.0.0.0         10.0.2.2        0.0.0.0         UG    100    0        0 enp0s3
+10.0.2.0        0.0.0.0         255.255.255.0   U     100    0        0 enp0s3
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s3
+</code></pre>
+
+<h3 id="resolv-conf">resolv.conf</h3>
+
+<p>Si queremos saber cuales son las DNS que estamos utilizando, lo podemos mirar en el fichero resolf.conf</p>
+
+<pre><code>~$ cat /etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search upv.es
+</code></pre>
+
+<p>Si queremos resolver un dominio a ip, podemos usar el comando <code>host</code>.</p>
+
+<pre><code>~$ host bioinf.comav.upv.es
+bioinf.comav.upv.es is an alias for proxybioinf.comav.upv.es.
+proxybioinf.comav.upv.es has address 158.42.125.13
+proxybioinf.comav.upv.es mail is handled by 20 mxv.cc.upv.es.
+proxybioinf.comav.upv.es mail is handled by 30 mx2.cc.upv.es.
+proxybioinf.comav.upv.es mail is handled by 10 mx4.cc.upv.es.
+proxybioinf.comav.upv.es mail is handled by 50 vega.cc.upv.es.
+proxybioinf.comav.upv.es mail is handled by 10 albali.cc.upv.es.
+</code></pre>
+
+<h1 id="servicios">Servicios</h1>
+
+<p>Los servicios son una serie de procesos que se ejecutan al arrancar el ordenador y que se quedan ejecutando en <em>background</em>.</p>
+
+<p>Tenemos servicios que se encargan desde la configuracion de red como  servicios para mostrarnos las paginas web. En ubuntu y debian podemos  ver todos los servicios que estan ejecutandose con el siguiente comando:</p>
+
+<pre><code>~$ systemctl list-units
+</code></pre>
+
+<p>Podemos tambien ver el estado de un servicio concreto, iniciarlo,  pararlo o que vuelva a leer la configuracion con el commando systemctl.</p>
+
+<pre><code>~$ systemctl status cron
+● cron.service - Regular background program processing daemon
+   Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: ena
+   Active: active (running) since mar 2016-09-27 15:25:29 CEST; 23h ago
+     Docs: man:cron(8)
+ Main PID: 609 (cron)
+   CGroup: /system.slice/cron.service
+           └─609 /usr/sbin/cron -f
+
+sep 28 11:17:04 virtual CRON[2136]: pam_unix(cron:session): session opened for u
+sep 28 11:17:04 virtual CRON[2143]: (root) CMD (   cd / &amp;&amp; run-parts --report /e
+sep 28 12:17:01 virtual CRON[2535]: pam_unix(cron:session): session opened for u
+sep 28 12:17:01 virtual CRON[2536]: (root) CMD (   cd / &amp;&amp; run-parts --report /e
+sep 28 13:17:01 virtual CRON[2814]: pam_unix(cron:session): session opened for u
+sep 28 13:17:01 virtual CRON[2815]: (root) CMD (   cd / &amp;&amp; run-parts --report /e
+sep 28 13:17:01 virtual CRON[2814]: pam_unix(cron:session): session closed for u
+sep 28 14:17:01 virtual CRON[3333]: pam_unix(cron:session): session opened for u
+sep 28 14:17:01 virtual CRON[3334]: (root) CMD (   cd / &amp;&amp; run-parts --report /e
+sep 28 14:17:01 virtual CRON[3333]: pam_unix(cron:session): session closed for u
+</code></pre>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/unix/05-procesamiento-texto/" rel="next">Procesamiento texto</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/unix/07-scripts-bash/" rel="prev">Scripts de bash</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última actualización el Jan 31, 2021</p>
+
+          
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/recursos/tutoriales/unix/12-redes.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js" integrity="sha256-0w92bcB21IY5+rGI84MGj52jNfHNbXVeQLrZ0CGdjNY=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://marcusrb.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4e51017b38c7ebaadd7e25fc9503f88c.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
