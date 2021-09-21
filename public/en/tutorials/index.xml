@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials | MarcusRB | data specialist &amp; professor • AI • Big Data</title>
+    <link>https://www.marcusrb.com/en/tutorials/</link>
+      <atom:link href="https://www.marcusrb.com/en/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutorials</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-UK</language><copyright>© 2021</copyright><lastBuildDate>Mon, 02 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.marcusrb.com/img/icon-192.png</url>
+      <title>Tutorials</title>
+      <link>https://www.marcusrb.com/en/tutorials/</link>
+    </image>
+    
+    <item>
+      <title>Big Data Engineer</title>
+      <link>https://www.marcusrb.com/big-data-resource/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/big-data-resource/</guid>
+      <description>
+
+&lt;p&gt;LOREM IPSUM&lt;/p&gt;
+
+&lt;h2 id=&#34;program-structure&#34;&gt;Program structure&lt;/h2&gt;
+
+&lt;p&gt;La estructura del programa formativo se compone en dos grandes bloques:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[ ] &lt;a href=&#34;https://www.marcusrb.com/databricks-fundamentals&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ambos programas incluyen sesiones teóricas, laboratorios y casos prácticos. Así como casos reales de empresas con eventos y gestiones en entorno locales, cloud (AWS, GCP, Azure), consultas a base de datos.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data visualizacion resourcs</title>
+      <link>https://www.marcusrb.com/en/data-visualization-resources/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0100</pubDate>
+      <guid>https://www.marcusrb.com/en/data-visualization-resources/</guid>
+      <description>
+
+&lt;h2 id=&#34;estructura-recursos&#34;&gt;Estructura recursos&lt;/h2&gt;
+
+&lt;p&gt;Google Data Studio es una herramienta gratuita de visualización e informes de datos basada en la nube que se conecta a muchas fuentes de datos diferentes, y convierte esos datos en paneles informativos e informes que son fáciles de entender y compartir, y son totalmente personalizables.&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/en/power-bi-resources&#34;&gt;Guía de Microsoft Power BI&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Tableau&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Google Data Studio&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; - &lt;a href=&#34;https://www.marcusrb.com/&#34;&gt;Guía de Grafana&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
