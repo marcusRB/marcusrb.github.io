@@ -46,7 +46,7 @@ jobs:
         with:
           package_json_path: ./package.json
           run_install: false
-	  version: latest
+          version: 'latest'
 
       - name: Setup Go
         uses: actions/setup-go@v6
