@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <title>MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/</link>
-    <description>Recent content on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <description>Recent content on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
@@ -49,6 +49,16 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/projects/herheart/</guid>
       <description>B2B CDSS platform for cardiovascular risk stratification in women, targeting hospital procurement.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://www.marcusrb.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/about/</guid>
+      <description>&lt;h1 id=&#34;marco-russo&#34;&gt;Marco Russo&lt;/h1&gt;
+&lt;h2 id=&#34;ai-researcher--mlops-engineer--specialized-in-bioinformatic--health-data-science&#34;&gt;AI Researcher &amp;amp; MLOps Engineer | Specialized in Bioinformatic &amp;amp; Health Data Science&lt;/h2&gt;
+&lt;p&gt;I am a Machine Learning Engineer and AI Researcher with over a decade of cross-industry experience spanning computer science, statistics, and artificial intelligence. My professional mission is to build robust, production-grade bridges between advanced scalable cloud infrastructure (MLOps) and the frontiers of biotechnology and healthcare applications.&lt;/p&gt;
+&lt;p&gt;Currently, I am solidifying this interdisciplinary edge by completing concurrent Master of Science degrees in &lt;strong&gt;Health Data Science&lt;/strong&gt; and &lt;strong&gt;Bioinformatics &amp;amp; Biostatistics&lt;/strong&gt;. For the past 4 years, I have also shared my passion for data structures and modeling as a Data Mining Professor at the UOC, alongside my industry role engineering cloud data pipelines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <title>Tags on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/es/tags/</link>
-    <description>Recent content in Tags on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <description>Recent content in Tags on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
@@ -53,22 +53,8 @@
     <item>
       <title>Big Data</title>
       <link>https://www.marcusrb.com/es/tags/big-data/</link>
-      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/es/tags/big-data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Científico De Datos</title>
-      <link>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</link>
-      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Formación Data Science</title>
-      <link>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</link>
-      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</guid>
       <description></description>
     </item>
     <item>

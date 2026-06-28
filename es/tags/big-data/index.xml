@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Big Data on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <title>Big Data on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/es/tags/big-data/</link>
-    <description>Recent content in Big Data on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <description>Recent content in Big Data on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate>Mon, 09 Sep 2019 17:52:54 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2019 17:52:54 +0100</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/es/tags/big-data/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cómo convertirse en un científico de datos</title>
-      <link>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</link>
-      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</guid>
-      <description>La guía de ruta de aprendizaje definitiva que detalla todas las habilidades, conocimientos y capacitación que necesita para convertirse en un científico de datos</description>
-    </item>
     <item>
       <title>Cómo convertirse en un estadístico</title>
       <link>https://www.marcusrb.com/es/posts/como-convertirse-en-estadistico/</link>

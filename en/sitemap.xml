@@ -145,6 +145,18 @@
                 href="https://www.marcusrb.com/es/projects/"
                 />
   </url><url>
+    <loc>https://www.marcusrb.com/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/about/"
+                />
+  </url><url>
     <loc>https://www.marcusrb.com/archive/</loc>
     <xhtml:link
                 rel="alternate"
