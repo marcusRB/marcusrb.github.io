@@ -1,1257 +1,531 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.marcusrb.com/certificaciones-big-data/</loc>
-    <lastmod>2021-09-21T15:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/big-data/recursos-apache-spark/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/big-data/recursos-apache-kafka/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/apache-kafka/02-instalar-apache-kafka/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/apache-kafka/01-intro-apache-kafka/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/apache-spark/01-intro-apache-spark/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/pandas/pandas101-1-intro/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/big-data/recursos-apache-hadoop/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/big-data/recursos-apache-nifi/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/power-bi/02-carga-datos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/apache-hadoop/01-intro-apache-hadoop/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/apache-nifi/01-intro-apache-nifi/</loc>
-    <lastmod>2021-01-05T19:41:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/power-bi/01-intro-power-bi/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos-power-bi/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-aws/aws101-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-azure/azure101-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-gcp/gcp101-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-cloud/cloud101-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/aws-amazon-web-services/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/fundamentos-cloud-computing/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/cloud-computing/intro-aws/aws101-servicios/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/11-administracion-software-2/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/08-administrador/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/09-administrador-software/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/cheatsheets/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/03-control-procesos/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/06-expresiones-regulares/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/04-flujo-informacion/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-google-analytics/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/01-unix-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/05-procesamiento-texto/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/12-redes/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/07-scripts-bash/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/02-sistema-ficheros/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tutorial-unix/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/unix/10-variables-entorno/</loc>
-    <lastmod>2021-01-31T16:11:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/tutoriales/python/pytut-linear/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-tidy/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-0-start/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/business-analytics/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/gcp-google-cloud-platform/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/business-analytics/intro-sql/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/microsoft-azure/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tutoriales/</loc>
-    <lastmod>2021-09-21T15:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/tutoriales/python/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/instalacion-r/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/math-data-science/math-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/py101/py101-1-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-intro/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/pandas/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/pandas/pandas101-2-carga/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-display/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-remarketing/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-ads/gads-search/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/gtm01/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga101/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-visualization/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/advanced-r/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/advanced-r/r201-program/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/py101/py101-2-funciones/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/business-analytics/intro-sql/sql101-1-select/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/py101/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/paquetes/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-0-reglas2/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-vectores/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/workspace/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-tag-manager/gtm02/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-google-ads/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/google-analytics/ga4/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-matrices/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/data-mining/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/math-data-science/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/python/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-1-como-funciona/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos-big-data/</loc>
-    <lastmod>2021-07-14T16:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos-business-intelligence/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos-inteligencia-artificial/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos-visualizacion-datos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-power-bi-fundamentos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-power-bi-avanzado/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-tableau/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-factores/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-2-basic-data-exploration/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/curso-google-data-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-dataframes/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-3-exercise-1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/r-studio/intro-r/r101-listas/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/google-marketing-platform/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/data-science/intro-machine-learning/ml101-4-datos-modelo/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2021-09-21T15:17:00+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.marcusrb.com/es/posts/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/"
+                href="https://www.marcusrb.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/posts/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/categories/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/curso-analisis-de-datos/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/data-science/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/estudiar-bootcamp/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://www.marcusrb.com/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/</loc>
-    <lastmod>2021-07-11T00:01:27+02:00</lastmod>
-    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/master-data-science/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/</loc>
+    <lastmod>2020-01-07T17:52:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/authors/"
+                href="https://www.marcusrb.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/authors/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/kubeflow-como-crear-una-solucion-de-propension-de-compra/</loc>
-    <lastmod>2021-05-14T13:36:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/marcusrb/</loc>
-    <lastmod>2021-05-14T13:36:29+02:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/business-analytics/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/business-intelligence/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/gartner/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/power-bi/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pytohn/</loc>
+    <lastmod>2019-10-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/big-data/</loc>
+    <lastmod>2019-09-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</loc>
+    <lastmod>2019-09-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</loc>
+    <lastmod>2019-09-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</loc>
+    <lastmod>2019-09-09T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/como-convertirse-en-estadistico/</loc>
+    <lastmod>2019-09-03T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/estad%C3%ADstica/</loc>
+    <lastmod>2019-09-03T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/formacion-data-science/</loc>
+    <lastmod>2019-09-03T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/explotar-maximo-datalayer-google-tag-manager-parte-1/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/datalayer/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/escuelas-negocio/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/formacion-big-data/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/tag-manager/</loc>
+    <lastmod>2019-08-08T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/anal%C3%ADtica-datos/</loc>
+    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</loc>
+    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/estadistica-descriptiva/</loc>
+    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/google-analytics/</loc>
+    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/r-studio/</loc>
+    <lastmod>2019-04-30T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/anal%C3%ADtica-digital/</loc>
+    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/enhanced-ecommerce/</loc>
+    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/impulsa-tu-tienda-online-enhanced-ecommerce-google/</loc>
+    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/medici%C3%B3n-de-comercio-electronico/</loc>
+    <lastmod>2019-04-10T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/consejos-configuraci%C3%B3n/</loc>
+    <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</loc>
+    <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/medicion-analitica-web/</loc>
+    <lastmod>2019-03-20T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</loc>
+    <lastmod>2019-03-05T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/crear-dashboard-para-poner-orden-tus-metricas/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/crear-dashboards/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/cuadros-de-mando/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/dataviz/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/soluciones-business-intelligence/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/visualizaci%C3%B3n-de-datos/</loc>
+    <lastmod>2019-01-12T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/moocgtm-seminario-online-google-tag-manager/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/aprender-fundamentos-tag-manager/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/formacion/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/seminario-google-tag-manager/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/webinar/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/webinar/</loc>
+    <lastmod>2018-10-28T11:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/guia-personalizar-pixel-facebook-ads-google-tag-manager/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/creaci%C3%B3n-eventos/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/facebookads/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/google-tag-manager/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pixel-facebook-ads/</loc>
+    <lastmod>2018-10-14T13:00:19+02:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</loc>
+    <lastmod>2018-06-30T08:26:33+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/eventos-iframe-gtm/</loc>
+    <lastmod>2018-06-30T08:26:33+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/configuraci%C3%B3n-google-tag-manager/</loc>
+    <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/google-tag-manager-10-buenas-razones-para-usarlo-bien/</loc>
+    <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/mejoras-tag-manager/</loc>
+    <lastmod>2018-05-08T15:19:14+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/integrar-google-script-apps-tag-manager/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/creacion-crm-google-sheets-google-tag-manager/</loc>
+    <lastmod>2018-05-02T13:32:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/auditoria-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/google-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/optimizaci%C3%B3n-cuenta-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/webinar-optimizaci%C3%B3n-adwords/</loc>
+    <lastmod>2018-04-30T15:17:17+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</loc>
+    <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/etiquetas-google-tag-manager/</loc>
+    <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/migraci%C3%B3n-tag-manager/</loc>
+    <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/plan-implementaci%C3%B3n/</loc>
+    <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/plan-tag-manager/</loc>
+    <lastmod>2018-04-29T21:18:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/analytics-eventos/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/como-crear-eventos-dinamicos-con-google-tag-manager/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/crear-eventos-analytics/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/eventos-din%C3%A1micos-tag-manager/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/tag-manager-google/</loc>
+    <lastmod>2018-04-22T21:34:51+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/google-analytics/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/integrar-tag-manager/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/webinar-marketindirecto/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/webinar-tag-manager/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</loc>
+    <lastmod>2018-04-17T17:08:28+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/el-machine-learning-aplicado-a-google-adwords/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/estrategias-pujas-inteligentes/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/inteligencia-artificial-google/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/machine-learning-adwords/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pujas-big-query/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pujas-inteligentes/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/smart-bidding/</loc>
+    <lastmod>2018-04-08T20:25:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/analitica-web/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/anal%C3%ADtica-web/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/insight/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/marketingdirecto/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</loc>
+    <lastmod>2018-04-05T14:47:15+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/contact-form-7-formulario/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/contactform-wordpress/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/medici%C3%B3n-contact-form-7/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/medicion-formularios-contactform7-con-tag-manager/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/tag-manager-y-formulario-ajax/</loc>
+    <lastmod>2018-03-25T20:24:42+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/data-science-amp-big-data/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/diferencia-entre-big-data-analyst-y-business-analyst/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/digital-marketing/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/perfil-analista-de-datos/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/rol-analista-digital/</loc>
+    <lastmod>2018-03-18T19:11:45+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/administrador-de-etiquetas/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/eventos-google-analytics-y-tag-manager/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/implementar-tag-manager/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/que-es-una-etiqueta/</loc>
+    <lastmod>2018-03-08T11:48:16+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/profesor-docente-formador-marketing-digital/</loc>
+    <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/diferencias-formador-y-profesor/</loc>
+    <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/formador-y-docencia/</loc>
+    <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/profesor-de-digital-marketing/</loc>
+    <lastmod>2018-03-04T17:15:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</loc>
+    <lastmod>2018-03-01T16:59:59+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/categories/gener%C3%ADcos/</loc>
+    <lastmod>2018-03-01T16:59:59+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/guia-implementar-comercio-electronico-en-google-tag-manager-web/</loc>
+    <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/comercio-electr%C3%B3nico-mejorado/</loc>
+    <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/google-analytics-ecommerce/</loc>
+    <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pasos-comercio-electronico-tag-manager/</loc>
+    <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/tag-manager/</loc>
+    <lastmod>2018-01-05T14:58:24+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/beneficios-tag-manager/</loc>
+    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/que-es-google-tag-manager-y-sus-beneficios/</loc>
+    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/tag-management-system-utilidades/</loc>
+    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/ventajas-de-google-tag-manager/</loc>
+    <lastmod>2017-08-22T16:24:13+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/cuenta-adwords-agencia/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/cuenta-adwords-mcc/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/cuenta-adwords-personal/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</loc>
+    <lastmod>2017-07-23T09:40:22+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/puja-cpc-manual-automatica-maximizar-clics/</loc>
+    <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pujas-adwords/</loc>
+    <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pujas-automatica/</loc>
+    <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/pujas-manuales/</loc>
+    <lastmod>2017-06-23T09:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/archive/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/authors/marcusrb/"
+                href="https://www.marcusrb.com/archive/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/authors/marcusrb/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/archive/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/google-data-studio-como-sacarle-todo-partido/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-integrar-script-r-dashbordards-tableau/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-visualiza-azure-machine-learning-power-bi/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-integrar-r-python-power-bi/</loc>
-    <lastmod>2021-04-15T10:54:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-crear-campos-calculados-en-data-studio/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/talk/"
+                href="https://www.marcusrb.com/search/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/search/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/google-ads-gtm/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/talk/google-ads-gtm/"
+                href="https://www.marcusrb.com/contact/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/google-ads-gtm/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/contact/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/llamadas-gtm/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/courses/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/talk/llamadas-gtm/"
+                href="https://www.marcusrb.com/courses/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/llamadas-gtm/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/courses/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/construir-modelo-clasificacion-analytics-bigquery-ml/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/bing_ads_gtm/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/talk/bing_ads_gtm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/bing_ads_gtm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-automatizar-tareas-machine-learning-knime/</loc>
-    <lastmod>2021-01-31T16:18:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios-freelance-google-analytics/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/tableau-cinco-tips-mejorar-dashboard/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-tecnicas-modelado-dax-power-bi/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/formacion-in-company-docencia-escuelas-negocio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/marco-gobernanza-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-kaggle-data-science-tuneado-parametros/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-kaggle-participar-retos-data-science/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/kaggle_1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/talk/kaggle_1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/kaggle_1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/5-tips-utiles-power-bi/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/generamos-dashboard-data-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-convertirse-en-data-scientist/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-convertirse-en-estadistico/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/projects/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
                 href="https://www.marcusrb.com/projects/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/proyectos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/projects/r-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/projects/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/en/projects/r-studio/"
+                href="https://www.marcusrb.com/services/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/projects/r-studio/"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/services/"
                 />
   </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/proyectos/r-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/consultoria-freelance-machine-learning/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios-freelance-google-data-studio/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios-freelance-analisis-dax-power-bi/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicio-freelance-data-analytics-business-intelligence/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/servicios-freelance-tableau/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/explotar-maximo-datalayer-google-tag-manager-parte-1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-analytics/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/importancia-big-data-empresas/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/google_tag_manager_2/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/talk/google_tag_manager_2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/google_tag_manager_2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-escalando-nivel-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/analitica-web-rstudio-analisis-visualizacion-datos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/impulsa-tu-tienda-online-enhanced-ecommerce-google/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication_types/3/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication_types/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication_types/3/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication/preprint/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication/preprint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication/preprint/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication_types/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/projects/analisis-datos-con-r/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/projects/analisis-datos-con-r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/projects/analisis-datos-con-r/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cual-es-papel-cro-proyecto-digital/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/crear-dashboard-para-poner-orden-tus-metricas/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/talk/google_tag_manager_1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/talk/google_tag_manager_1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/talk/google_tag_manager_1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/moocgtm-seminario-online-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/adios-wordpress-bienvenido-hugo/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-personalizar-pixel-facebook-ads-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cuanto-cuesta-el-marketing-de-los-medios-sociales/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/por-que-tengo-pocas-visitas/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/google-tag-manager-10-buenas-razones-para-usarlo-bien/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/quieres-aprender-a-crear-un-crm-con-google-sheet-pasar-valores-dinamicos-con-google-tag-manager-y-tener-un-seguimiento-de-eventos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/test-examen-de-google-ads-avanzado-de-busqueda/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/como-crear-eventos-dinamicos-con-google-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/machine-learning-aplicado-a-google-adwords/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/buscas-las-respuestas-del-examen-de-google-ads-fundamentales/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/medicion-formularios-contactform7-con-tag-manager/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cumpliendo-anyos-formador-docente-analitica-datos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/profesor-docente-formador-marketing-digital/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/guia-implementar-comercio-electronico-en-google-tag-manager-web/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/medir-videos-tag-manager-parte-1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/que-es-google-tag-manager-y-sus-beneficios/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/puja-cpc-manual-automatica-maximizar-clics/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/no-conversiones-hago/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/auditoria-seo-sitio-web-puntos-analisis/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/projects/external-project/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/projects/external-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/projects/external-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/projects/internal-project/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/projects/internal-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/projects/internal-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication_types/2/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication/journal-article/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication/journal-article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication/journal-article/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/robert-ford/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/authors/robert-ford/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/authors/robert-ford/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication_types/1/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication_types/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication_types/1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication/conference-paper/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication/conference-paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication/conference-paper/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/authors/admin/</loc>
-    <lastmod>2021-07-11T00:01:27+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/tutoriales/big-data/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/cursos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/post/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/publication/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/en/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.marcusrb.com/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.marcusrb.com/recursos/recipes-gtm/</loc>
-    <lastmod>2021-01-05T12:19:21+01:00</lastmod>
-  </url>
-  
 </urlset>

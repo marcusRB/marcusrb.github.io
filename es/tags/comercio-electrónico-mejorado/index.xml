@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Comercio Electrónico Mejorado on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/comercio-electr%C3%B3nico-mejorado/</link>
+    <description>Recent content in Comercio Electrónico Mejorado on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 05 Jan 2018 14:58:24 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/comercio-electr%C3%B3nico-mejorado/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Guía] Implementar Comercio electrónico en Google Tag Manager para sitios web</title>
+      <link>https://www.marcusrb.com/es/posts/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
+      <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente</description>
+    </item>
+  </channel>
+</rss>

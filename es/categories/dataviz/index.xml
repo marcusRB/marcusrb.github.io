@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DataViz on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/categories/dataviz/</link>
+    <description>Recent content in DataViz on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 12 Jan 2019 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/categories/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como Crear Dashboard Para Poner en Orden Tus Métricas</title>
+      <link>https://www.marcusrb.com/es/posts/crear-dashboard-para-poner-orden-tus-metricas/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/crear-dashboard-para-poner-orden-tus-metricas/</guid>
+      <description>&lt;p&gt;Cada vez creo más firmemente que la gran mayoría de las empresas no &lt;strong&gt;supervisan el progreso de su negocio digital&lt;/strong&gt;. Y no me refiero solo a pequeñas empresas, sino también a grandes compañías.&lt;/p&gt;
+&lt;p&gt;Uno de los problemas con los que me he encontrado en consultorías de analítica digital es que se piensa que es un tema relegado solo a técnicos o gente de marketing.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La actividad digital, comenzando desde el marketing hasta los resultados finales de la conversión, es un elemento demasiado importante para NO ser monitoreado y controlado.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

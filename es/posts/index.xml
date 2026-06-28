@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/posts/</link>
+    <description>Recent content in Blog on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Entrevista] - Estudiar Data Science, profesión del momento o moda pasajera?</title>
+      <link>https://www.marcusrb.com/es/posts/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</link>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</guid>
+      <description>&lt;p&gt;Tal como mencionaba The New York Times hace unos años, “Científico de datos, la profesión más sexy del siglo XXI”, el auge de esta profesión ha ido aumentado. Llevamos a cabo una entrevista a Marco Russo, consultor de datos en Paradigma y docente de varios programas y cursos de Analítica de datos, entre ellos profesor del Máster de Data Science en NEOLAND.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;entr-el-data-science-es-algo-pasajero-o-deberíamos-tenerlo-en-cuenta-para-el-futuro&#34;&gt;entr.: El Data Science, ¿es algo pasajero o deberíamos tenerlo en cuenta para el futuro?&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Antes de contestar a esta pregunta, veamos estas dos gráficas muy interesantes. La primera es la tendencia de búsqueda en España referente a dos términos (data science y ciencias de datos). El aumento del interés de búsqueda se ha duplicado en desde octubre de 2018.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comparativa de plataformas Business Intelligence y análisis de datos: introducción</title>
+      <link>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</guid>
+      <description>&lt;p&gt;Uno de los retos de un analista digital es pasar por diferentes procesos de &lt;strong&gt;limpieza, exploración y análisis de contenido&lt;/strong&gt; para sacar buenas conclusiones y detectar nuevos escenarios e insights. Además, tiene que comprobar si las fuentes de datos son de dudosa calidad o no.&lt;/p&gt;
+&lt;p&gt;Y si hablamos de un analista digital, es muy probable que toda esa exploración pase por la herramienta más utilizada en el mundo de la analítica: &lt;strong&gt;Google Analytics&lt;/strong&gt;. Pero seguro que también estará conectado a otras fuentes como Google Sheet, un CRM o base de datos, u otros ficheros de texto, en formato csv, y más.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cómo convertirse en un científico de datos</title>
+      <link>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</guid>
+      <description>La guía de ruta de aprendizaje definitiva que detalla todas las habilidades, conocimientos y capacitación que necesita para convertirse en un científico de datos</description>
+    </item>
+    <item>
+      <title>Cómo convertirse en un estadístico</title>
+      <link>https://www.marcusrb.com/es/posts/como-convertirse-en-estadistico/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-convertirse-en-estadistico/</guid>
+      <description>La guía de ruta de aprendizaje definitiva que detalla todas las habilidades, conocimientos y capacitación que necesita para convertirse en un estadístico</description>
+    </item>
+    <item>
+      <title>Cómo explotar al máximo el dataLayer de Google Tag Manager: la declaración</title>
+      <link>https://www.marcusrb.com/es/posts/explotar-maximo-datalayer-google-tag-manager-parte-1/</link>
+      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/explotar-maximo-datalayer-google-tag-manager-parte-1/</guid>
+      <description>Hablaremos del core de google tag manager, el dataLayer o variable de capa de datos más importante para declarar las variables y/o escalar nuestras bases de esta herramienta de medición.</description>
+    </item>
+    <item>
+      <title>Analítica web con R: análisis y visualización de datos</title>
+      <link>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</guid>
+      <description>&lt;p&gt;Uno de los retos de un analista digital es pasar por diferentes procesos de &lt;strong&gt;limpieza, exploración y análisis de contenido&lt;/strong&gt; para sacar buenas conclusiones y detectar nuevos escenarios e insights. Además, tiene que comprobar si las fuentes de datos son de dudosa calidad o no.&lt;/p&gt;
+&lt;p&gt;Y si hablamos de un analista digital, es muy probable que toda esa exploración pase por la herramienta más utilizada en el mundo de la analítica: &lt;strong&gt;Google Analytics&lt;/strong&gt;. Pero seguro que también estará conectado a otras fuentes como Google Sheet, un CRM o base de datos, u otros ficheros de texto, en formato csv, y más.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Impulsa tu tienda online con el Enhanced Ecommerce de Google</title>
+      <link>https://www.marcusrb.com/es/posts/impulsa-tu-tienda-online-enhanced-ecommerce-google/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/impulsa-tu-tienda-online-enhanced-ecommerce-google/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Los datos procesables son la clave del éxito para una tienda de comercio electrónico&lt;/strong&gt;. Si has estado ejecutando un negocio de eCommerce, es posible que ya sepas la importancia del marketing de comercio electrónico basado en datos.&lt;/p&gt;
+&lt;p&gt;En este post vamos a ver &lt;strong&gt;los beneficios del proceso de configuración del seguimiento de comercio electrónico en Google Analytics&lt;/strong&gt;. Un proceso que también se puede aplicar incluso si hablamos de una tienda en su estado más inicial. ¡Empezamos!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (2/2)</title>
+      <link>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</guid>
+      <description>&lt;p&gt;Google Analytics lleva años siendo la herramienta de referencia en marketing no solo a nivel de extracción de métricas, sino también a la hora de comprender el comportamiento de los usuarios de nuestro sitio web.&lt;/p&gt;
+&lt;p&gt;Pero Google Analytics no deja de ser un mastodonte enorme donde obtener determinados datos es, a veces, casi una misión imposible, sobre todo si estamos empezando a trabajar con la plataforma.&lt;/p&gt;
+&lt;p&gt;Ya la semana pasada &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34;&gt;recopilamos algunos consejos que nos facilitan el uso de la herramienta&lt;/a&gt;. Hoy continuamos con otras &lt;strong&gt;5 recomendaciones que seguro que te ayudarán a exprimir al máximo Google Analytics&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (1/2)</title>
+      <link>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</link>
+      <pubDate>Tue, 05 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</guid>
+      <description>&lt;p&gt;¿Qué empresa que tenga parte de su negocio online no desea tener más tráfico? Da igual el sector al que pertenezca, su tamaño, su facturación… la respuesta siempre será sí. Y si el tráfico es de calidad, será un plus mayor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google Analytics nos proporciona una enorme cantidad de datos que podemos aprovechar para aumentar nuestro tráfico orgánico y mejorar el ranking en buscadores&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sin embargo, debemos ser conscientes de que no podemos lograr resultados de la noche a la mañana. &lt;strong&gt;El proceso de conseguir más tráfico nos va a llevar tiempo, pero la espera hará que los resultados merezcan la pena&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Como Crear Dashboard Para Poner en Orden Tus Métricas</title>
+      <link>https://www.marcusrb.com/es/posts/crear-dashboard-para-poner-orden-tus-metricas/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/crear-dashboard-para-poner-orden-tus-metricas/</guid>
+      <description>&lt;p&gt;Cada vez creo más firmemente que la gran mayoría de las empresas no &lt;strong&gt;supervisan el progreso de su negocio digital&lt;/strong&gt;. Y no me refiero solo a pequeñas empresas, sino también a grandes compañías.&lt;/p&gt;
+&lt;p&gt;Uno de los problemas con los que me he encontrado en consultorías de analítica digital es que se piensa que es un tema relegado solo a técnicos o gente de marketing.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La actividad digital, comenzando desde el marketing hasta los resultados finales de la conversión, es un elemento demasiado importante para NO ser monitoreado y controlado.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#MoocGTM Seminario Online Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/moocgtm-seminario-online-google-tag-manager/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/moocgtm-seminario-online-google-tag-manager/</guid>
+      <description>Comenzamos la nueva temporada de cursos y seminarios online, y antes de acabar el 2018 he preparado un nuevo seminario titulado #moocGTM, y hablará principalmente de los fundamentos de Google Tag Manager</description>
+    </item>
+    <item>
+      <title>[Guía] Personalizar el pixel de Facebook Ads en Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/guia-personalizar-pixel-facebook-ads-google-tag-manager/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-personalizar-pixel-facebook-ads-google-tag-manager/</guid>
+      <description>La guía completa de como personalizar el pixel de Facebook Ads a través de Google Tag Manager y sus variables de comercio electrónico mejorado.</description>
+    </item>
+    <item>
+      <title>[Guía] Mediciones de click desde un iframe con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</link>
+      <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-mediciones-de-click-desde-un-iframe-con-google-tag-manager/</guid>
+      <description>Un post sobre la medición de eventos, cuales clicks, conversiones, formularios, transacciones desde un iframe con Google Tag Manager.</description>
+    </item>
+    <item>
+      <title>Google Tag Manager: 10 buenas razones para usarlo bien</title>
+      <link>https://www.marcusrb.com/es/posts/google-tag-manager-10-buenas-razones-para-usarlo-bien/</link>
+      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/google-tag-manager-10-buenas-razones-para-usarlo-bien/</guid>
+      <description>Google Tag Manager es una de las herramientas más innovadoras en la gestión avanzada de nuestro análisis de marketing</description>
+    </item>
+    <item>
+      <title>Realizar un CRM con Google Spreadsheets con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/creacion-crm-google-sheets-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <description>Google Tag Manager es una de las herramientas más innovadoras en la gestión avanzada de nuestro análisis de marketing</description>
+    </item>
+    <item>
+      <title>Realizando auditoría y optimización AdWords:Reparación Móviles</title>
+      <link>https://www.marcusrb.com/es/posts/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/realizando-auditoria-y-optimizacion-adwordsreparacion-moviles/</guid>
+      <description>¿Quieres ver como he realizado una optimización de una cuenta AdWords para el sector de reparaciones móviles y pantallas de smartphones?</description>
+    </item>
+    <item>
+      <title>Como efectuar correctamente una migración a Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-efectuar-correctamente-una-migracion-a-google-tag-manager/</guid>
+      <description>Hoy hablaremos de como efectuar una migración correcta hacia Tag Manager sin arriesgar el trabajo de otras agencias o consultoras</description>
+    </item>
+    <item>
+      <title>Como crear eventos dinámicos con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/como-crear-eventos-dinamicos-con-google-tag-manager/</link>
+      <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-crear-eventos-dinamicos-con-google-tag-manager/</guid>
+      <description>Este post sería un resumen en formato texto, de un vídeo anterior realizado en YouTube, y está pensado como memoria para aquellos que quieren seguir todos los pasos de una creación de eventos dinámicos con Google Tag Manager</description>
+    </item>
+    <item>
+      <title>Webinar: Aprende a integrar Google Analytics con Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</link>
+      <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-aprende-a-integrar-google-analytics-con-tag-manager/</guid>
+      <description>El próximo jueves 26 Abril 2018 se grabará un nuevo webinar con MarketingDirecto School, siguiendo el anterior con el plan de medición</description>
+    </item>
+    <item>
+      <title>El Machine Learning aplicado a Google AdWords</title>
+      <link>https://www.marcusrb.com/es/posts/el-machine-learning-aplicado-a-google-adwords/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/el-machine-learning-aplicado-a-google-adwords/</guid>
+      <description>Pues sí, ya se había comentado hace muchos años, Google AdWords utiliza un sistema interno de Machine Learning o en castellano Aprendizaje Automático</description>
+    </item>
+    <item>
+      <title>Webinar MarketingDirectoSchool – Detectando las necesidades de la analítica web</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-marketingdirectoschool-detectando-las-necesidades-de-la-analitica-web/</guid>
+      <description>El pasado Jueves 22 de Marzo se emitió en directo el primer webinar de analítica web con la colaboración de MarketingDirectoSchool</description>
+    </item>
+    <item>
+      <title>Medición formularios Contact Form7 de WordPress con Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/medicion-formularios-contactform7-con-tag-manager/</link>
+      <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/medicion-formularios-contactform7-con-tag-manager/</guid>
+      <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica.</description>
+    </item>
+    <item>
+      <title>El perfil del analista de datos y del analista digital y sus requisitos</title>
+      <link>https://www.marcusrb.com/es/posts/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</link>
+      <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/el-perfil-del-analista-de-datos-y-del-analista-digital-y-sus-requisitos/</guid>
+      <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica.</description>
+    </item>
+    <item>
+      <title>Google Tag Manager, etiquetando nuestra web en menos de 30 minutos</title>
+      <link>https://www.marcusrb.com/es/posts/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/google-tag-manager-etiquetando-nuestra-web-en-menos-de-30-minutos/</guid>
+      <description>Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado</description>
+    </item>
+    <item>
+      <title>¿Profesor, docente o formador?</title>
+      <link>https://www.marcusrb.com/es/posts/profesor-docente-formador-marketing-digital/</link>
+      <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/profesor-docente-formador-marketing-digital/</guid>
+      <description>A enero 2018 he cumplido 5 años y medio como formador y docente, aunque es verdad que en muchos puestos también como profesor.</description>
+    </item>
+    <item>
+      <title>Encuesta: ¿Qué te gustaría aprender más en este momento?</title>
+      <link>https://www.marcusrb.com/es/posts/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</link>
+      <pubDate>Thu, 01 Mar 2018 16:59:59 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/encuesta-que-te-gustaria-aprender-mas-en-este-momento/</guid>
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfgVE_6ahwuVyg3zlY07xFcY2Y-wChlpWe-6csiQisxKfpgzQ/viewform?embedded=true&#34; width=&#34;760&#34; height=&#34;800&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34;&gt;Cargando&amp;#8230;&lt;/iframe&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Guía] Implementar Comercio electrónico en Google Tag Manager para sitios web</title>
+      <link>https://www.marcusrb.com/es/posts/guia-implementar-comercio-electronico-en-google-tag-manager-web/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-implementar-comercio-electronico-en-google-tag-manager-web/</guid>
+      <description>Los eventos de Comercio Electrónico o e-commerce para Google Analytics, siempre ha dado problemas y confusión a la hora de configurarlo correctamente</description>
+    </item>
+    <item>
+      <title>Qué es Google Tag Manager y sus beneficios</title>
+      <link>https://www.marcusrb.com/es/posts/que-es-google-tag-manager-y-sus-beneficios/</link>
+      <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/que-es-google-tag-manager-y-sus-beneficios/</guid>
+      <description>Mi primer post para Tag Manager es hablar sobre ella de manera sencilla, cual es su utilidad y porque todos marketero necesita formarse.</description>
+    </item>
+    <item>
+      <title>MCC vs cuenta personal – técnicas y consejos de google AdWords</title>
+      <link>https://www.marcusrb.com/es/posts/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</link>
+      <pubDate>Sun, 23 Jul 2017 09:40:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/mcc-vs-cuenta-personal-tecnicas-y-consejos-de-google-adwords/</guid>
+      <description>&lt;h2&gt;Hola, seguramente habrás leído mucho sobre AdWords y quizá si estás aquí es porqué estabas buscando trucos o consejos de Google AdWords, bueno esta era la idea de crear esta categoría, “Consejos&amp;Trucos de Adwords”&lt;/h2&gt;
+&lt;p&gt;Sobre AdWords hay mucho, pero muchisimo material online, así que pongamos un poco de orden al todo.
+Los consejos, trucos y técnicas van en orden del básico a las más avanzadas, así que no te preocupes.
+&lt;/br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Puja CPC Manual o Automática – maximizar clics?</title>
+      <link>https://www.marcusrb.com/es/posts/puja-cpc-manual-automatica-maximizar-clics/</link>
+      <pubDate>Fri, 23 Jun 2017 09:38:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/puja-cpc-manual-automatica-maximizar-clics/</guid>
+      <description>&lt;h2 id=&#34;si-hablamos-tanto-de-google-adwords-o-microsoft-bing-adcenter-después-estudiar-la-competencia-nuestro-target-palabras-claves--crear-las-diferentes-landing-page-y-pensar-al-budget-diario-yo-mensual-hay-una-parte-muy-interesante-relacionado-con-la-configuración-de-la-puja-de-nuestra-palabras-claves-automática-o-manual&#34;&gt;Si hablamos tanto de Google AdWords o Microsoft Bing AdCenter, después estudiar la competencia, nuestro target, palabras claves , crear las diferentes landing page y pensar al budget diario y/o mensual, hay una parte muy interesante relacionado con la configuración de la puja de nuestra palabras claves: automática o manual.&lt;/h2&gt;
+&lt;h3 id=&#34;cómo-funciona-una-puja&#34;&gt;Cómo funciona una puja?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;     Realmente es interesante saber como funciona, porqué es desde momento que entran en juego mucho elementos para que nuestros anuncios sean visualizados al usuario y que hagan clic, pero sobretodo aqui se decide cuanto finalmente pagamos para cada clic. El sistema de CPC, pago por clic, funciona mediante subasta, ya como la bolsa o las subastas del Estado, más o menos es lo mismo. Pero entran en juego muchos factores a la hora de entrar en la subasta, y todo esto comienza en el momento que el usuario teclea la palabra clave en el buscador.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;puja-manual&#34;&gt;Puja Manual&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;    Supongamos que somos una tienda online de bicicletas, y queremos solamente anunciar la categoría MTB. Elaboramos la campaña , grupos de anuncios y comenzamos a seleccionar las palabras claves.
+    Cuando se eligen las palabras claves, muchas de ellas ya han tenido tráfico historicamente y conservan también una calidad, si es buena o mala. La calidad de esta palabra con que comenzamos a trabjar casi siempre es un 5/10, también podría ser más alta o más baja.
+
+    Además de esto, también se calcula un coste en base a los competidores que pujaron historícamente y los actuales pujadores. Su precio se divide en dos partes: Estimación de la primera página y Estimación del top de página. Es decir tiene un coste inicial solo para aparecer en la página (desde la primera posición hasta la última, en total son 11, – 3 arriba y 8 laterales), pero también calcula la estimación para aparecer en el top 3, obviamente más cara.
+    Así que tenemos una palabra clave (concordancia amplia, frase, exacta o amplia modificada tendrá sus diferencias), una QS (nivel de calidad), un coste inicial por click.
+    Ahora bien, si queremos comenzar a “jugar”, solo tenemos que elegir el budget diario y el precio máximo que queremos pagar por cada click.
+
+    Es lógico pensar que al igual de condiciones y factores, si disponemos de 10 euros al día en una campaña, y destinamos por 10 palabras en un grupo de anuncios y cada uno tiene seleccionado un CPC máximo de 0,10eur, si tuvieramos clic, el todo llegaría hasta agotar los 10 euros (durante el día / franja horaria seleccionada u otras condiciones).
+    Tot: 10eur/0,10eur = 100 clics
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;puja-automática-maximizar-clics&#34;&gt;Puja Automática (Maximizar Clics)&lt;/h3&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;    Por puja automática definimos siempre base al budget y/o bien un coste máximo por click, automaticamente a todas las palabras de la campaña (en otra ocasión veremos como hacerlo de manera separada) y Google trabajará por nosotros.
+    Pues sí, practicamente él se encarga de “optimizar” en la mejor forma el cpc destinado a la puja, siempre teniendo en cuenta de la competencia de la keyword, de nuestra QS (quality score = nivel de calidad), CTR% historico, extensiones de anuncios y la relevancia del anuncio y de la página de destino.
+
+    No siempre funciona para todas las cuentas, de hecho no siempre es aconsejable utilizarlo para quien dispone de presupuesto”ilimitado”. Para los pequeños budget (1, 5, 10 al día), quizás es una buena opción al principio para estabilizar la primera toma de contacto con la herramienta sea Google o Bing, para que vayamonos acostumbrando a la herramienta y vamos a tener más control sobre ella, luego optaríamos con una puja manual.
+
+    A veces he estado utilizando el sistema de pujas autómatica en campañas de dificil contro, por ejemplo los mercados americanos, inglés y alemán los CPC por regla general de grandes sectores son los más cotizados y sus CPC pueden llegar hasta 40euros. Pués a través de una buena segmentación / optimización de la cuenta es posible a principio trabajar con pujas automáticas para estabilizar nuestra cuenta y luego jugar con ellas.
+    Sí, he logrado bajar CPC de 25eur a 2,50, y también aumentaron conversiones…todo es posible pero habrá que ir con cuidado.
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

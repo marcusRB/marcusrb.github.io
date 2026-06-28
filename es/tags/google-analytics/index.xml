@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Google Analytics on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/google-analytics/</link>
+    <description>Recent content in Google Analytics on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 30 Apr 2019 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analítica web con R: análisis y visualización de datos</title>
+      <link>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</guid>
+      <description>&lt;p&gt;Uno de los retos de un analista digital es pasar por diferentes procesos de &lt;strong&gt;limpieza, exploración y análisis de contenido&lt;/strong&gt; para sacar buenas conclusiones y detectar nuevos escenarios e insights. Además, tiene que comprobar si las fuentes de datos son de dudosa calidad o no.&lt;/p&gt;
+&lt;p&gt;Y si hablamos de un analista digital, es muy probable que toda esa exploración pase por la herramienta más utilizada en el mundo de la analítica: &lt;strong&gt;Google Analytics&lt;/strong&gt;. Pero seguro que también estará conectado a otras fuentes como Google Sheet, un CRM o base de datos, u otros ficheros de texto, en formato csv, y más.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Impulsa tu tienda online con el Enhanced Ecommerce de Google</title>
+      <link>https://www.marcusrb.com/es/posts/impulsa-tu-tienda-online-enhanced-ecommerce-google/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/impulsa-tu-tienda-online-enhanced-ecommerce-google/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Los datos procesables son la clave del éxito para una tienda de comercio electrónico&lt;/strong&gt;. Si has estado ejecutando un negocio de eCommerce, es posible que ya sepas la importancia del marketing de comercio electrónico basado en datos.&lt;/p&gt;
+&lt;p&gt;En este post vamos a ver &lt;strong&gt;los beneficios del proceso de configuración del seguimiento de comercio electrónico en Google Analytics&lt;/strong&gt;. Un proceso que también se puede aplicar incluso si hablamos de una tienda en su estado más inicial. ¡Empezamos!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (2/2)</title>
+      <link>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-2-2/</guid>
+      <description>&lt;p&gt;Google Analytics lleva años siendo la herramienta de referencia en marketing no solo a nivel de extracción de métricas, sino también a la hora de comprender el comportamiento de los usuarios de nuestro sitio web.&lt;/p&gt;
+&lt;p&gt;Pero Google Analytics no deja de ser un mastodonte enorme donde obtener determinados datos es, a veces, casi una misión imposible, sobre todo si estamos empezando a trabajar con la plataforma.&lt;/p&gt;
+&lt;p&gt;Ya la semana pasada &lt;a href=&#34;https://www.paradigmadigital.com/techbiz/guia-de-google-analytics-10-consejos-utiles-para-aumentar-tu-trafico-y-ranking-1-2/&#34;&gt;recopilamos algunos consejos que nos facilitan el uso de la herramienta&lt;/a&gt;. Hoy continuamos con otras &lt;strong&gt;5 recomendaciones que seguro que te ayudarán a exprimir al máximo Google Analytics&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía de Google Analytics: 10 consejos útiles para aumentar tu tráfico y ranking (1/2)</title>
+      <link>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</link>
+      <pubDate>Tue, 05 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/guia-google-analytics-10-consejos-utiles-aumentar-trafico-ranking-1-2/</guid>
+      <description>&lt;p&gt;¿Qué empresa que tenga parte de su negocio online no desea tener más tráfico? Da igual el sector al que pertenezca, su tamaño, su facturación… la respuesta siempre será sí. Y si el tráfico es de calidad, será un plus mayor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google Analytics nos proporciona una enorme cantidad de datos que podemos aprovechar para aumentar nuestro tráfico orgánico y mejorar el ranking en buscadores&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sin embargo, debemos ser conscientes de que no podemos lograr resultados de la noche a la mañana. &lt;strong&gt;El proceso de conseguir más tráfico nos va a llevar tiempo, pero la espera hará que los resultados merezcan la pena&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

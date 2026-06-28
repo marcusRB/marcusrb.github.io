@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/</link>
+    <description>Recent content in Tags on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curso Analisis De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/curso-analisis-de-datos/</link>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/curso-analisis-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estudiar Bootcamp</title>
+      <link>https://www.marcusrb.com/es/tags/estudiar-bootcamp/</link>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/estudiar-bootcamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Master Data Science</title>
+      <link>https://www.marcusrb.com/es/tags/master-data-science/</link>
+      <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/master-data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gartner</title>
+      <link>https://www.marcusrb.com/es/tags/gartner/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/gartner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Bi</title>
+      <link>https://www.marcusrb.com/es/tags/power-bi/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/power-bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytohn</title>
+      <link>https://www.marcusrb.com/es/tags/pytohn/</link>
+      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pytohn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big Data</title>
+      <link>https://www.marcusrb.com/es/tags/big-data/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Científico De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formación Data Science</title>
+      <link>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estadística</title>
+      <link>https://www.marcusrb.com/es/tags/estad%C3%ADstica/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/estad%C3%ADstica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formacion Data Science</title>
+      <link>https://www.marcusrb.com/es/tags/formacion-data-science/</link>
+      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formacion-data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Escuelas Negocio</title>
+      <link>https://www.marcusrb.com/es/tags/escuelas-negocio/</link>
+      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/escuelas-negocio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formacion Big Data</title>
+      <link>https://www.marcusrb.com/es/tags/formacion-big-data/</link>
+      <pubDate>Thu, 08 Aug 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formacion-big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estadistica Descriptiva</title>
+      <link>https://www.marcusrb.com/es/tags/estadistica-descriptiva/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/estadistica-descriptiva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/google-analytics/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R Studio</title>
+      <link>https://www.marcusrb.com/es/tags/r-studio/</link>
+      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/r-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enhanced Ecommerce</title>
+      <link>https://www.marcusrb.com/es/tags/enhanced-ecommerce/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/enhanced-ecommerce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medición De Comercio Electronico</title>
+      <link>https://www.marcusrb.com/es/tags/medici%C3%B3n-de-comercio-electronico/</link>
+      <pubDate>Wed, 10 Apr 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/medici%C3%B3n-de-comercio-electronico/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consejos Configuración</title>
+      <link>https://www.marcusrb.com/es/tags/consejos-configuraci%C3%B3n/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/consejos-configuraci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medicion Analitica Web</title>
+      <link>https://www.marcusrb.com/es/tags/medicion-analitica-web/</link>
+      <pubDate>Wed, 20 Mar 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/medicion-analitica-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear Dashboards</title>
+      <link>https://www.marcusrb.com/es/tags/crear-dashboards/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/crear-dashboards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuadros De Mando</title>
+      <link>https://www.marcusrb.com/es/tags/cuadros-de-mando/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cuadros-de-mando/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soluciones Business Intelligence</title>
+      <link>https://www.marcusrb.com/es/tags/soluciones-business-intelligence/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/soluciones-business-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualización De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/visualizaci%C3%B3n-de-datos/</link>
+      <pubDate>Sat, 12 Jan 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/visualizaci%C3%B3n-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aprender Fundamentos Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/aprender-fundamentos-tag-manager/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/aprender-fundamentos-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seminario Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/seminario-google-tag-manager/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/seminario-google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webinar</title>
+      <link>https://www.marcusrb.com/es/tags/webinar/</link>
+      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/webinar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creación Eventos</title>
+      <link>https://www.marcusrb.com/es/tags/creaci%C3%B3n-eventos/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/creaci%C3%B3n-eventos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/google-tag-manager/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pixel Facebook Ads</title>
+      <link>https://www.marcusrb.com/es/tags/pixel-facebook-ads/</link>
+      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pixel-facebook-ads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eventos Iframe Gtm</title>
+      <link>https://www.marcusrb.com/es/tags/eventos-iframe-gtm/</link>
+      <pubDate>Sat, 30 Jun 2018 08:26:33 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/eventos-iframe-gtm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Configuración Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/configuraci%C3%B3n-google-tag-manager/</link>
+      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/configuraci%C3%B3n-google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mejoras Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/mejoras-tag-manager/</link>
+      <pubDate>Tue, 08 May 2018 15:19:14 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/mejoras-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extraer Información De Formularios a Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/extraer-informaci%C3%B3n-de-formularios-a-google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrar Google Script Apps Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/integrar-google-script-apps-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/integrar-google-script-apps-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pasar Valores Dinámicos a Google Sheet</title>
+      <link>https://www.marcusrb.com/es/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pasar-valores-din%C3%A1micos-a-google-sheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Auditoria Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/auditoria-adwords/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/auditoria-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestión Campañas Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/gesti%C3%B3n-campa%C3%B1as-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimización Cuenta Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/optimizaci%C3%B3n-cuenta-adwords/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/optimizaci%C3%B3n-cuenta-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webinar Optimización Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/webinar-optimizaci%C3%B3n-adwords/</link>
+      <pubDate>Mon, 30 Apr 2018 15:17:17 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/webinar-optimizaci%C3%B3n-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Etiquetas Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/etiquetas-google-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/etiquetas-google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migración Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/migraci%C3%B3n-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/migraci%C3%B3n-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plan Implementación</title>
+      <link>https://www.marcusrb.com/es/tags/plan-implementaci%C3%B3n/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/plan-implementaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plan Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/plan-tag-manager/</link>
+      <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/plan-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analytics Eventos</title>
+      <link>https://www.marcusrb.com/es/tags/analytics-eventos/</link>
+      <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/analytics-eventos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crear Eventos Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/crear-eventos-analytics/</link>
+      <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/crear-eventos-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eventos Dinámicos Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/eventos-din%C3%A1micos-tag-manager/</link>
+      <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/eventos-din%C3%A1micos-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag Manager Google</title>
+      <link>https://www.marcusrb.com/es/tags/tag-manager-google/</link>
+      <pubDate>Sun, 22 Apr 2018 21:34:51 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tag-manager-google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrar Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/integrar-tag-manager/</link>
+      <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/integrar-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webinar Marketindirecto</title>
+      <link>https://www.marcusrb.com/es/tags/webinar-marketindirecto/</link>
+      <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/webinar-marketindirecto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webinar Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/webinar-tag-manager/</link>
+      <pubDate>Tue, 17 Apr 2018 17:08:28 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/webinar-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estrategias Pujas Inteligentes</title>
+      <link>https://www.marcusrb.com/es/tags/estrategias-pujas-inteligentes/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/estrategias-pujas-inteligentes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inteligencia Artificial Google</title>
+      <link>https://www.marcusrb.com/es/tags/inteligencia-artificial-google/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/inteligencia-artificial-google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/machine-learning-adwords/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/machine-learning-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pujas Big Query</title>
+      <link>https://www.marcusrb.com/es/tags/pujas-big-query/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pujas-big-query/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pujas Inteligentes</title>
+      <link>https://www.marcusrb.com/es/tags/pujas-inteligentes/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pujas-inteligentes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart Bidding</title>
+      <link>https://www.marcusrb.com/es/tags/smart-bidding/</link>
+      <pubDate>Sun, 08 Apr 2018 20:25:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/smart-bidding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analitica Web</title>
+      <link>https://www.marcusrb.com/es/tags/analitica-web/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/analitica-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Insight</title>
+      <link>https://www.marcusrb.com/es/tags/insight/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/insight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketingdirecto</title>
+      <link>https://www.marcusrb.com/es/tags/marketingdirecto/</link>
+      <pubDate>Thu, 05 Apr 2018 14:47:15 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/marketingdirecto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact Form 7 Formulario</title>
+      <link>https://www.marcusrb.com/es/tags/contact-form-7-formulario/</link>
+      <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/contact-form-7-formulario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contactform Wordpress</title>
+      <link>https://www.marcusrb.com/es/tags/contactform-wordpress/</link>
+      <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/contactform-wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medición Contact Form 7</title>
+      <link>https://www.marcusrb.com/es/tags/medici%C3%B3n-contact-form-7/</link>
+      <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/medici%C3%B3n-contact-form-7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag Manager Y Formulario Ajax</title>
+      <link>https://www.marcusrb.com/es/tags/tag-manager-y-formulario-ajax/</link>
+      <pubDate>Sun, 25 Mar 2018 20:24:42 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tag-manager-y-formulario-ajax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diferencia Entre Big Data Analyst Y Business Analyst</title>
+      <link>https://www.marcusrb.com/es/tags/diferencia-entre-big-data-analyst-y-business-analyst/</link>
+      <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/diferencia-entre-big-data-analyst-y-business-analyst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perfil Analista De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/perfil-analista-de-datos/</link>
+      <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/perfil-analista-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rol Analista Digital</title>
+      <link>https://www.marcusrb.com/es/tags/rol-analista-digital/</link>
+      <pubDate>Sun, 18 Mar 2018 19:11:45 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/rol-analista-digital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Administrador De Etiquetas</title>
+      <link>https://www.marcusrb.com/es/tags/administrador-de-etiquetas/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/administrador-de-etiquetas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eventos Google Analytics Y Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/eventos-google-analytics-y-tag-manager/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/eventos-google-analytics-y-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Implementar Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/implementar-tag-manager/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/implementar-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Que Es Una Etiqueta</title>
+      <link>https://www.marcusrb.com/es/tags/que-es-una-etiqueta/</link>
+      <pubDate>Thu, 08 Mar 2018 11:48:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/que-es-una-etiqueta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diferencias Formador Y Profesor</title>
+      <link>https://www.marcusrb.com/es/tags/diferencias-formador-y-profesor/</link>
+      <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/diferencias-formador-y-profesor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formador Y Docencia</title>
+      <link>https://www.marcusrb.com/es/tags/formador-y-docencia/</link>
+      <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formador-y-docencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Profesor De Digital Marketing</title>
+      <link>https://www.marcusrb.com/es/tags/profesor-de-digital-marketing/</link>
+      <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/profesor-de-digital-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comercio Electrónico Mejorado</title>
+      <link>https://www.marcusrb.com/es/tags/comercio-electr%C3%B3nico-mejorado/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/comercio-electr%C3%B3nico-mejorado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Analytics Ecommerce</title>
+      <link>https://www.marcusrb.com/es/tags/google-analytics-ecommerce/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-analytics-ecommerce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pasos Comercio Electronico Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/pasos-comercio-electronico-tag-manager/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pasos-comercio-electronico-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/tag-manager/</link>
+      <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beneficios Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/beneficios-tag-manager/</link>
+      <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/beneficios-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag Management System Utilidades</title>
+      <link>https://www.marcusrb.com/es/tags/tag-management-system-utilidades/</link>
+      <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tag-management-system-utilidades/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ventajas De Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/ventajas-de-google-tag-manager/</link>
+      <pubDate>Tue, 22 Aug 2017 16:24:13 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/ventajas-de-google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuenta Adwords Agencia</title>
+      <link>https://www.marcusrb.com/es/tags/cuenta-adwords-agencia/</link>
+      <pubDate>Sun, 23 Jul 2017 09:40:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cuenta-adwords-agencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuenta Adwords Mcc</title>
+      <link>https://www.marcusrb.com/es/tags/cuenta-adwords-mcc/</link>
+      <pubDate>Sun, 23 Jul 2017 09:40:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cuenta-adwords-mcc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuenta Adwords Personal</title>
+      <link>https://www.marcusrb.com/es/tags/cuenta-adwords-personal/</link>
+      <pubDate>Sun, 23 Jul 2017 09:40:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cuenta-adwords-personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pujas Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/pujas-adwords/</link>
+      <pubDate>Fri, 23 Jun 2017 09:38:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pujas-adwords/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pujas Automatica</title>
+      <link>https://www.marcusrb.com/es/tags/pujas-automatica/</link>
+      <pubDate>Fri, 23 Jun 2017 09:38:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pujas-automatica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pujas Manuales</title>
+      <link>https://www.marcusrb.com/es/tags/pujas-manuales/</link>
+      <pubDate>Fri, 23 Jun 2017 09:38:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pujas-manuales/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
