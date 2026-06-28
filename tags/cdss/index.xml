@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CDSS on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/cdss/</link>
+    <description>Recent content in CDSS on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/cdss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HerHeart — cardiovascular risk AI for women</title>
+      <link>https://www.marcusrb.com/projects/herheart/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/projects/herheart/</guid>
+      <description>B2B CDSS platform for cardiovascular risk stratification in women, targeting hospital procurement.</description>
+    </item>
+  </channel>
+</rss>

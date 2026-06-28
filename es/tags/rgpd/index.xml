@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rgpd on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>http://localhost:1313/es/tags/rgpd/</link>
+    <description>Recent content in Rgpd on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 29 May 2018 21:35:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/rgpd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Guía] Cookiebot en GTM y estar protegido de la nueva RGPD</title>
+      <link>http://localhost:1313/es/posts/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</link>
+      <pubDate>Tue, 29 May 2018 21:35:20 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/guia-cookiebot-en-gtm-y-estar-protegido-de-la-nueva-rgpd/</guid>
+      <description>Aquí la configuración optima con Google Tag Manager y CookieBot para estar protegido desde el 25 de Mayo con la nueva ley de protección de datos GDPR</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Formación Escuela Negocio on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>http://localhost:1313/es/tags/formaci%C3%B3n-escuela-negocio/</link>
+    <description>Recent content in Formación Escuela Negocio on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Mon, 05 Mar 2018 22:53:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/formaci%C3%B3n-escuela-negocio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 años cumplidos como docente de Marketing Digital y Analítica digital en España</title>
+      <link>http://localhost:1313/es/posts/6-anos-cumplidos-docente-marketing-digital-espana/</link>
+      <pubDate>Mon, 05 Mar 2018 22:53:10 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/6-anos-cumplidos-docente-marketing-digital-espana/</guid>
+      <description>Este plan tiene que recoger los objetivos principales de la empresa, específicos, medibles, alcanzable por supuesto, relevantes y en un tiempo prefijado</description>
+    </item>
+  </channel>
+</rss>

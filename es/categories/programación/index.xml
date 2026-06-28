@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programación on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>http://localhost:1313/es/categories/programaci%C3%B3n/</link>
+    <description>Recent content in Programación on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sun, 14 Oct 2018 19:32:17 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/categories/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós Wordpress, Bienvenido Hugo</title>
+      <link>http://localhost:1313/es/posts/adios-wordpress-bienvenido-hugo/</link>
+      <pubDate>Sun, 14 Oct 2018 19:32:17 +0200</pubDate>
+      <guid>http://localhost:1313/es/posts/adios-wordpress-bienvenido-hugo/</guid>
+      <description>Dedicaré más tiempo en profundizar algunos aspectos para ayudar al resto de usuarios que decidan acercarse a la revolución de los generadores estáticos de sitios web.</description>
+    </item>
+  </channel>
+</rss>

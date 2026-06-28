@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Integrar Google Script Apps Tag Manager on MarcusRB - Engineer, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/integrar-google-script-apps-tag-manager/</link>
+    <description>Recent content in Integrar Google Script Apps Tag Manager on MarcusRB - Engineer, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Wed, 02 May 2018 13:32:16 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/integrar-google-script-apps-tag-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Realizar un CRM con Google Spreadsheets con Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/posts/creacion-crm-google-sheets-google-tag-manager/</link>
+      <pubDate>Wed, 02 May 2018 13:32:16 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/creacion-crm-google-sheets-google-tag-manager/</guid>
+      <description>Google Tag Manager es una de las herramientas más innovadoras en la gestión avanzada de nuestro análisis de marketing</description>
+    </item>
+  </channel>
+</rss>
