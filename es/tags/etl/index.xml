@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ETL on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/etl/</link>
+    <description>Recent content in ETL on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/etl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business Intelligence y Data Analytics</title>
+      <link>https://www.marcusrb.com/es/services/training/business-analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/training/business-analytics/</guid>
+      <description>Learning path de business intelligence y data analytics sobre SQL, ETL, dashboards, modelado de datos y workflows de reporting.</description>
+    </item>
+  </channel>
+</rss>

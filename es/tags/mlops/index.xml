@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MLOps on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/mlops/</link>
+    <description>Recent content in MLOps on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consultoría en Machine Learning e IA</title>
+      <link>https://www.marcusrb.com/es/services/machine-learning-ai/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/machine-learning-ai/</guid>
+      <description>Consultoría aplicada en ML e IA para definición de problemas, preparación de datos, desarrollo de modelos, evaluación, despliegue y adopción.</description>
+    </item>
+  </channel>
+</rss>

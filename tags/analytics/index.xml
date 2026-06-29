@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Business Intelligence and Data Analytics</title>
+      <link>https://www.marcusrb.com/services/training/business-analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/business-analytics/</guid>
+      <description>Business intelligence and data analytics training path covering SQL, ETL, dashboards, data modeling, and reporting workflows.</description>
+    </item>
+    <item>
       <title>GA4 and GTM Development</title>
       <link>https://www.marcusrb.com/services/ga4-gtm-development/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
@@ -16,11 +23,11 @@
       <description>GA4 and Google Tag Manager implementation, auditing, event design, measurement planning, and tracking governance for modern websites and products.</description>
     </item>
     <item>
-      <title>Training and Executive Education</title>
-      <link>https://www.marcusrb.com/services/training/</link>
+      <title>Python for Analytics and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/python/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/services/training/</guid>
-      <description>Custom training in analytics, machine learning, AI, BI, and measurement for companies, universities, and business schools.</description>
+      <guid>https://www.marcusrb.com/services/training/python/</guid>
+      <description>Python learning path covering programming foundations, pandas, data manipulation, analytics workflows, and preparation for machine learning projects.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Digital-Marketing on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/digital-marketing/</link>
+    <description>Recent content in Digital-Marketing on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/digital-marketing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desarrollo de GA4 y GTM</title>
+      <link>https://www.marcusrb.com/es/services/ga4-gtm-development/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/ga4-gtm-development/</guid>
+      <description>Implementación, auditoría, diseño de eventos, planes de medición y gobierno de tracking con GA4 y Google Tag Manager para webs y productos digitales.</description>
+    </item>
+  </channel>
+</rss>

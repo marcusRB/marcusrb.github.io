@@ -6,8 +6,15 @@
     <description>Recent content in Python on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python for Analytics and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/python/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/python/</guid>
+      <description>Python learning path covering programming foundations, pandas, data manipulation, analytics workflows, and preparation for machine learning projects.</description>
+    </item>
     <item>
       <title>Machine Learning Engineering Bootcamp</title>
       <link>https://www.marcusrb.com/courses/ml-bootcamp/</link>

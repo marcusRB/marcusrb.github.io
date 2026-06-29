@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Digital-Analytics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/digital-analytics/</link>
+    <description>Recent content in Digital-Analytics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/digital-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Marketing Platform, GA4, and GTM</title>
+      <link>https://www.marcusrb.com/services/training/google-marketing-platform/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/google-marketing-platform/</guid>
+      <description>Training path covering Google Marketing Platform, GA4, Google Tag Manager, Google Ads, measurement planning, and digital analytics implementation.</description>
+    </item>
+  </channel>
+</rss>

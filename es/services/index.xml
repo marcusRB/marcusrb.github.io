@@ -6,6 +6,28 @@
     <description>Recent content in Servicios on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/es/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consultoría en Machine Learning e IA</title>
+      <link>https://www.marcusrb.com/es/services/machine-learning-ai/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/machine-learning-ai/</guid>
+      <description>Consultoría aplicada en ML e IA para definición de problemas, preparación de datos, desarrollo de modelos, evaluación, despliegue y adopción.</description>
+    </item>
+    <item>
+      <title>Desarrollo de GA4 y GTM</title>
+      <link>https://www.marcusrb.com/es/services/ga4-gtm-development/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/ga4-gtm-development/</guid>
+      <description>Implementación, auditoría, diseño de eventos, planes de medición y gobierno de tracking con GA4 y Google Tag Manager para webs y productos digitales.</description>
+    </item>
+    <item>
+      <title>Soporte en Bioinformática y Datos de Salud</title>
+      <link>https://www.marcusrb.com/es/services/bioinformatics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/bioinformatics/</guid>
+      <description>Soporte en bioinformática para investigación aplicada, análisis de datos de salud, datasets clínicos y flujos analíticos reproducibles.</description>
+    </item>
   </channel>
 </rss>

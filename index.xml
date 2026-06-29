@@ -16,11 +16,46 @@
       <description>Bioinformatics support for applied research, health-data analysis, clinical datasets, and reproducible analytical workflows.</description>
     </item>
     <item>
+      <title>Business Intelligence and Data Analytics</title>
+      <link>https://www.marcusrb.com/services/training/business-analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/business-analytics/</guid>
+      <description>Business intelligence and data analytics training path covering SQL, ETL, dashboards, data modeling, and reporting workflows.</description>
+    </item>
+    <item>
+      <title>Cloud Computing: AWS, GCP, Azure, and Databricks</title>
+      <link>https://www.marcusrb.com/services/training/cloud-computing/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/cloud-computing/</guid>
+      <description>Cloud computing training path covering AWS, GCP, Azure, Databricks, data pipelines, and deployment workflows for analytics and machine learning teams.</description>
+    </item>
+    <item>
+      <title>Data Science and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/data-science/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/data-science/</guid>
+      <description>Data science and machine learning learning path covering ML foundations, statistics, data mining, experimentation, and applied model workflows.</description>
+    </item>
+    <item>
+      <title>Data Visualization</title>
+      <link>https://www.marcusrb.com/services/training/data-visualization/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/data-visualization/</guid>
+      <description>Data visualization training path covering dashboard design, Power BI, Tableau, Looker Studio, and analytical storytelling for decision-making.</description>
+    </item>
+    <item>
       <title>GA4 and GTM Development</title>
       <link>https://www.marcusrb.com/services/ga4-gtm-development/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/services/ga4-gtm-development/</guid>
       <description>GA4 and Google Tag Manager implementation, auditing, event design, measurement planning, and tracking governance for modern websites and products.</description>
+    </item>
+    <item>
+      <title>Google Marketing Platform, GA4, and GTM</title>
+      <link>https://www.marcusrb.com/services/training/google-marketing-platform/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/google-marketing-platform/</guid>
+      <description>Training path covering Google Marketing Platform, GA4, Google Tag Manager, Google Ads, measurement planning, and digital analytics implementation.</description>
     </item>
     <item>
       <title>Machine Learning and AI Consulting</title>
@@ -30,11 +65,18 @@
       <description>Applied ML and AI consulting covering problem framing, data preparation, model development, evaluation, deployment, and adoption.</description>
     </item>
     <item>
-      <title>Training and Executive Education</title>
-      <link>https://www.marcusrb.com/services/training/</link>
+      <title>Python for Analytics and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/python/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/services/training/</guid>
-      <description>Custom training in analytics, machine learning, AI, BI, and measurement for companies, universities, and business schools.</description>
+      <guid>https://www.marcusrb.com/services/training/python/</guid>
+      <description>Python learning path covering programming foundations, pandas, data manipulation, analytics workflows, and preparation for machine learning projects.</description>
+    </item>
+    <item>
+      <title>R Studio and R for Data Analysis</title>
+      <link>https://www.marcusrb.com/services/training/r-studio/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/r-studio/</guid>
+      <description>R and R Studio learning path covering statistical analysis, reproducible workflows, packages, data exploration, and analytical programming.</description>
     </item>
     <item>
       <title>Machine Learning Engineering Bootcamp</title>
@@ -56,9 +98,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/about/</guid>
       <description>&lt;h1 id=&#34;marco-russo&#34;&gt;Marco Russo&lt;/h1&gt;
-&lt;h2 id=&#34;ai-researcher--mlops-engineer--specialized-in-bioinformatic--health-data-science&#34;&gt;AI Researcher &amp;amp; MLOps Engineer | Specialized in Bioinformatic &amp;amp; Health Data Science&lt;/h2&gt;
-&lt;p&gt;I am a Machine Learning Engineer and AI Researcher with over a decade of cross-industry experience spanning computer science, statistics, and artificial intelligence. My professional mission is to build robust, production-grade bridges between advanced scalable cloud infrastructure (MLOps) and the frontiers of biotechnology and healthcare applications.&lt;/p&gt;
-&lt;p&gt;Currently, I am solidifying this interdisciplinary edge by completing concurrent Master of Science degrees in &lt;strong&gt;Health Data Science&lt;/strong&gt; and &lt;strong&gt;Bioinformatics &amp;amp; Biostatistics&lt;/strong&gt;. For the past 4 years, I have also shared my passion for data structures and modeling as a Data Mining Professor at the UOC, alongside my industry role engineering cloud data pipelines.&lt;/p&gt;</description>
+&lt;h2 id=&#34;bioinformatics-mlops--applied-ai-consultant&#34;&gt;Bioinformatics, MLOps &amp;amp; Applied AI Consultant&lt;/h2&gt;
+&lt;p&gt;I work at the intersection of &lt;strong&gt;bioinformatics, machine learning, MLOps, and applied analytics&lt;/strong&gt;. Over the last decade, I have helped companies, academic environments, and product teams turn complex data problems into usable systems, reproducible workflows, and better technical decisions.&lt;/p&gt;
+&lt;p&gt;My current work is especially focused on &lt;strong&gt;health data science, clinical and biological datasets, reproducible research pipelines, and production-grade ML infrastructure&lt;/strong&gt;. Alongside delivery work, I also teach data mining and applied analytics, which keeps my approach practical, structured, and communication-oriented.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>

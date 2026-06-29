@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Analytics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/analytics/</link>
+    <description>Recent content in Analytics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business Intelligence y Data Analytics</title>
+      <link>https://www.marcusrb.com/es/services/training/business-analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/training/business-analytics/</guid>
+      <description>Learning path de business intelligence y data analytics sobre SQL, ETL, dashboards, modelado de datos y workflows de reporting.</description>
+    </item>
+    <item>
+      <title>Desarrollo de GA4 y GTM</title>
+      <link>https://www.marcusrb.com/es/services/ga4-gtm-development/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/ga4-gtm-development/</guid>
+      <description>Implementación, auditoría, diseño de eventos, planes de medición y gobierno de tracking con GA4 y Google Tag Manager para webs y productos digitales.</description>
+    </item>
+    <item>
+      <title>Python para analítica y machine learning</title>
+      <link>https://www.marcusrb.com/es/services/training/python/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/services/training/python/</guid>
+      <description>Learning path de Python sobre fundamentos de programación, pandas, manipulación de datos, workflows analíticos y preparación para proyectos de machine learning.</description>
+    </item>
+  </channel>
+</rss>

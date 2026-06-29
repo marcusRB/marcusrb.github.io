@@ -29,12 +29,5 @@
       <guid>https://www.marcusrb.com/services/machine-learning-ai/</guid>
       <description>Applied ML and AI consulting covering problem framing, data preparation, model development, evaluation, deployment, and adoption.</description>
     </item>
-    <item>
-      <title>Training and Executive Education</title>
-      <link>https://www.marcusrb.com/services/training/</link>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/services/training/</guid>
-      <description>Custom training in analytics, machine learning, AI, BI, and measurement for companies, universities, and business schools.</description>
-    </item>
   </channel>
 </rss>

@@ -6,8 +6,274 @@
     <description>Recent content in Tags on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://www.marcusrb.com/es/tags/ai/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>https://www.marcusrb.com/es/tags/aws/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://www.marcusrb.com/es/tags/azure/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BI</title>
+      <link>https://www.marcusrb.com/es/tags/bi/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bioinformatics</title>
+      <link>https://www.marcusrb.com/es/tags/bioinformatics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business-Intelligence</title>
+      <link>https://www.marcusrb.com/es/tags/business-intelligence/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/business-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clinical-Data</title>
+      <link>https://www.marcusrb.com/es/tags/clinical-data/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/clinical-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://www.marcusrb.com/es/tags/cloud/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consulting</title>
+      <link>https://www.marcusrb.com/es/tags/consulting/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/consulting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Mining</title>
+      <link>https://www.marcusrb.com/es/tags/data-mining/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Science</title>
+      <link>https://www.marcusrb.com/es/tags/data-science/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Visualization</title>
+      <link>https://www.marcusrb.com/es/tags/data-visualization/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>https://www.marcusrb.com/es/tags/databricks/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/digital-analytics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/digital-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Marketing</title>
+      <link>https://www.marcusrb.com/es/tags/digital-marketing/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/digital-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://www.marcusrb.com/es/tags/education/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ETL</title>
+      <link>https://www.marcusrb.com/es/tags/etl/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/etl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GA4</title>
+      <link>https://www.marcusrb.com/es/tags/ga4/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/ga4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GCP</title>
+      <link>https://www.marcusrb.com/es/tags/gcp/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/gcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Ads</title>
+      <link>https://www.marcusrb.com/es/tags/google-ads/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-ads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GTM</title>
+      <link>https://www.marcusrb.com/es/tags/gtm/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/gtm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Health</title>
+      <link>https://www.marcusrb.com/es/tags/health/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Looker Studio</title>
+      <link>https://www.marcusrb.com/es/tags/looker-studio/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/looker-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>https://www.marcusrb.com/es/tags/machine-learning/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Measurement</title>
+      <link>https://www.marcusrb.com/es/tags/measurement/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/measurement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MLOps</title>
+      <link>https://www.marcusrb.com/es/tags/mlops/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/mlops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Omics</title>
+      <link>https://www.marcusrb.com/es/tags/omics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/omics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>https://www.marcusrb.com/es/tags/pandas/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power BI</title>
+      <link>https://www.marcusrb.com/es/tags/power-bi/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/power-bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://www.marcusrb.com/es/tags/python/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>https://www.marcusrb.com/es/tags/r/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R Studio</title>
+      <link>https://www.marcusrb.com/es/tags/r-studio/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/r-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reproducibility</title>
+      <link>https://www.marcusrb.com/es/tags/reproducibility/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://www.marcusrb.com/es/tags/sql/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>https://www.marcusrb.com/es/tags/statistics/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tableau</title>
+      <link>https://www.marcusrb.com/es/tags/tableau/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tableau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>https://www.marcusrb.com/es/tags/training/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/training/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Curso Analisis De Datos</title>
       <link>https://www.marcusrb.com/es/tags/curso-analisis-de-datos/</link>
@@ -34,13 +300,6 @@
       <link>https://www.marcusrb.com/es/tags/gartner/</link>
       <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/es/tags/gartner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Power Bi</title>
-      <link>https://www.marcusrb.com/es/tags/power-bi/</link>
-      <pubDate>Wed, 09 Oct 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/power-bi/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +356,6 @@
       <link>https://www.marcusrb.com/es/tags/google-analytics/</link>
       <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/es/tags/google-analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R Studio</title>
-      <link>https://www.marcusrb.com/es/tags/r-studio/</link>
-      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/r-studio/</guid>
       <description></description>
     </item>
     <item>

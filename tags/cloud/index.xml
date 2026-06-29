@@ -6,8 +6,15 @@
     <description>Recent content in Cloud on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Computing: AWS, GCP, Azure, and Databricks</title>
+      <link>https://www.marcusrb.com/services/training/cloud-computing/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/cloud-computing/</guid>
+      <description>Cloud computing training path covering AWS, GCP, Azure, Databricks, data pipelines, and deployment workflows for analytics and machine learning teams.</description>
+    </item>
     <item>
       <title>Machine Learning Engineering Bootcamp</title>
       <link>https://www.marcusrb.com/courses/ml-bootcamp/</link>

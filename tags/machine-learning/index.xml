@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Data Science and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/data-science/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/services/training/data-science/</guid>
+      <description>Data science and machine learning learning path covering ML foundations, statistics, data mining, experimentation, and applied model workflows.</description>
+    </item>
+    <item>
       <title>Machine Learning and AI Consulting</title>
       <link>https://www.marcusrb.com/services/machine-learning-ai/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
@@ -16,11 +23,11 @@
       <description>Applied ML and AI consulting covering problem framing, data preparation, model development, evaluation, deployment, and adoption.</description>
     </item>
     <item>
-      <title>Training and Executive Education</title>
-      <link>https://www.marcusrb.com/services/training/</link>
+      <title>Python for Analytics and Machine Learning</title>
+      <link>https://www.marcusrb.com/services/training/python/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/services/training/</guid>
-      <description>Custom training in analytics, machine learning, AI, BI, and measurement for companies, universities, and business schools.</description>
+      <guid>https://www.marcusrb.com/services/training/python/</guid>
+      <description>Python learning path covering programming foundations, pandas, data manipulation, analytics workflows, and preparation for machine learning projects.</description>
     </item>
     <item>
       <title>Machine Learning Engineering Bootcamp</title>
