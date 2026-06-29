@@ -16,6 +16,13 @@
       <description>Learning path de R y R Studio sobre análisis estadístico, workflows reproducibles, paquetes, exploración de datos y programación analítica.</description>
     </item>
     <item>
+      <title>¿Cómo integrar script de R en tus insights con Tableau?</title>
+      <link>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</guid>
+      <description>Guía para integrar scripts de R dentro de Tableau y ampliar los dashboards con cálculos estadísticos, modelos y transformaciones analíticas avanzadas.</description>
+    </item>
+    <item>
       <title>Analítica web con R: análisis y visualización de datos</title>
       <link>https://www.marcusrb.com/es/posts/analitica-web-rstudio-analisis-visualizacion-datos/</link>
       <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>

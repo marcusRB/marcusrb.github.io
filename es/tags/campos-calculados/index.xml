@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Campos Calculados on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/campos-calculados/</link>
+    <description>Recent content in Campos Calculados on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 10 Oct 2020 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/campos-calculados/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Cómo crear campos calculados en Google Data Studio?</title>
+      <link>https://www.marcusrb.com/es/posts/como-crear-campos-calculados-en-data-studio/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-crear-campos-calculados-en-data-studio/</guid>
+      <description>Guía práctica para crear campos calculados en Google Data Studio, entender cuándo utilizarlos y aplicar funciones clave en dashboards y reporting.</description>
+    </item>
+  </channel>
+</rss>

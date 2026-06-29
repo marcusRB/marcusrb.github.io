@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data-Visualization on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <title>Data Visualization on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/es/tags/data-visualization/</link>
-    <description>Recent content in Data-Visualization on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <description>Recent content in Data Visualization on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
@@ -14,6 +14,27 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/services/training/data-visualization/</guid>
       <description>Learning path de visualización de datos sobre diseño de dashboards, Power BI, Tableau, Looker Studio y storytelling analítico para la toma de decisiones.</description>
+    </item>
+    <item>
+      <title>¿Cómo integrar script de R en tus insights con Tableau?</title>
+      <link>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</guid>
+      <description>Guía para integrar scripts de R dentro de Tableau y ampliar los dashboards con cálculos estadísticos, modelos y transformaciones analíticas avanzadas.</description>
+    </item>
+    <item>
+      <title>Google Data Studio, ¿cómo sacarle todo el partido?</title>
+      <link>https://www.marcusrb.com/es/posts/google-data-studio-como-sacarle-todo-partido/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/google-data-studio-como-sacarle-todo-partido/</guid>
+      <description>Casos de uso avanzados en Google Data Studio con campos calculados, limpieza de URLs, funnels, data blending y agrupación de contenidos para dashboards más útiles.</description>
+    </item>
+    <item>
+      <title>¿Cómo crear campos calculados en Google Data Studio?</title>
+      <link>https://www.marcusrb.com/es/posts/como-crear-campos-calculados-en-data-studio/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-crear-campos-calculados-en-data-studio/</guid>
+      <description>Guía práctica para crear campos calculados en Google Data Studio, entender cuándo utilizarlos y aplicar funciones clave en dashboards y reporting.</description>
     </item>
   </channel>
 </rss>

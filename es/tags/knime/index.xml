@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Knime on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/knime/</link>
+    <description>Recent content in Knime on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Thu, 25 Jun 2020 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/knime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Webinar] - Automatizar tareas de Machine Learning con Knime</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</link>
+      <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</guid>
+      <description>Webinar sobre automatización de tareas de machine learning con KNIME para flujos analíticos, ETL y modelos repetibles.</description>
+    </item>
+  </channel>
+</rss>

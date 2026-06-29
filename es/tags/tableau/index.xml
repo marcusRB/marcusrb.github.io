@@ -15,5 +15,19 @@
       <guid>https://www.marcusrb.com/es/services/training/data-visualization/</guid>
       <description>Learning path de visualización de datos sobre diseño de dashboards, Power BI, Tableau, Looker Studio y storytelling analítico para la toma de decisiones.</description>
     </item>
+    <item>
+      <title>¿Cómo integrar script de R en tus insights con Tableau?</title>
+      <link>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-integrar-script-r-dashbordards-tableau/</guid>
+      <description>Guía para integrar scripts de R dentro de Tableau y ampliar los dashboards con cálculos estadísticos, modelos y transformaciones analíticas avanzadas.</description>
+    </item>
+    <item>
+      <title>Tableau, cinco tips que te ayudarán a mejorar tus dashboards</title>
+      <link>https://www.marcusrb.com/es/posts/tableau-cinco-tips-mejorar-dashboard/</link>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/tableau-cinco-tips-mejorar-dashboard/</guid>
+      <description>Cinco recomendaciones prácticas para mejorar dashboards en Tableau, desde estructura visual y elección de gráficos hasta dimensiones y métricas calculadas.</description>
+    </item>
   </channel>
 </rss>

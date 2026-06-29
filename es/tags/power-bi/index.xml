@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Power BI on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <title>Power Bi on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/es/tags/power-bi/</link>
-    <description>Recent content in Power BI on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <description>Recent content in Power Bi on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
@@ -14,6 +14,27 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/services/training/data-visualization/</guid>
       <description>Learning path de visualización de datos sobre diseño de dashboards, Power BI, Tableau, Looker Studio y storytelling analítico para la toma de decisiones.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Visualiza Machine Learning en Power BI</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-visualiza-azure-machine-learning-power-bi/</link>
+      <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-visualiza-azure-machine-learning-power-bi/</guid>
+      <description>Webinar sobre cómo visualizar modelos de machine learning en Power BI, conectando Azure ML, Databricks y reporting analítico para negocio.</description>
+    </item>
+    <item>
+      <title>[Webinar] - PoweR-Py - Integrar R y Python en Power BI</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-integrar-r-python-power-bi/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-integrar-r-python-power-bi/</guid>
+      <description>Webinar sobre integración de R y Python en Power BI para enriquecer análisis, transformar datos y ampliar el alcance analítico de los dashboards.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Mejora tu modelo DAX - Power Query en Power BI.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</guid>
+      <description>Webinar sobre modelado con DAX y Power Query en Power BI para mejorar cálculos, estructura de datos y diseño analítico.</description>
     </item>
     <item>
       <title>Comparativa de plataformas Business Intelligence y análisis de datos: introducción</title>

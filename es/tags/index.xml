@@ -79,24 +79,24 @@
       <description></description>
     </item>
     <item>
-      <title>Data-Mining</title>
-      <link>https://www.marcusrb.com/es/tags/data-mining/</link>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/data-mining/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Science</title>
+      <title>Data Science</title>
       <link>https://www.marcusrb.com/es/tags/data-science/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data-Visualization</title>
+      <title>Data Visualization</title>
       <link>https://www.marcusrb.com/es/tags/data-visualization/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Mining</title>
+      <link>https://www.marcusrb.com/es/tags/data-mining/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/data-mining/</guid>
       <description></description>
     </item>
     <item>
@@ -177,7 +177,7 @@
       <description></description>
     </item>
     <item>
-      <title>Machine-Learning</title>
+      <title>Machine Learning</title>
       <link>https://www.marcusrb.com/es/tags/machine-learning/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/machine-learning/</guid>
@@ -212,7 +212,7 @@
       <description></description>
     </item>
     <item>
-      <title>Power BI</title>
+      <title>Power Bi</title>
       <link>https://www.marcusrb.com/es/tags/power-bi/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/power-bi/</guid>
@@ -275,6 +275,153 @@
       <description></description>
     </item>
     <item>
+      <title>Big Query</title>
+      <link>https://www.marcusrb.com/es/tags/big-query/</link>
+      <pubDate>Sun, 21 Feb 2021 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/big-query/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flujo De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/flujo-de-datos/</link>
+      <pubDate>Sun, 21 Feb 2021 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/flujo-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubeflow</title>
+      <link>https://www.marcusrb.com/es/tags/kubeflow/</link>
+      <pubDate>Sun, 21 Feb 2021 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/kubeflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashboard</title>
+      <link>https://www.marcusrb.com/es/tags/dashboard/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Studio</title>
+      <link>https://www.marcusrb.com/es/tags/data-studio/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/data-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://www.marcusrb.com/es/tags/google/</link>
+      <pubDate>Thu, 10 Dec 2020 11:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webinar</title>
+      <link>https://www.marcusrb.com/es/tags/webinar/</link>
+      <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/webinar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Campos Calculados</title>
+      <link>https://www.marcusrb.com/es/tags/campos-calculados/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/campos-calculados/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bigquery</title>
+      <link>https://www.marcusrb.com/es/tags/bigquery/</link>
+      <pubDate>Wed, 02 Sep 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/bigquery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/google-analytics/</link>
+      <pubDate>Wed, 02 Sep 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knime</title>
+      <link>https://www.marcusrb.com/es/tags/knime/</link>
+      <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/knime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>https://www.marcusrb.com/es/tags/tips/</link>
+      <pubDate>Wed, 10 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dax</title>
+      <link>https://www.marcusrb.com/es/tags/dax/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/dax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Query</title>
+      <link>https://www.marcusrb.com/es/tags/power-query/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/power-query/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agilismo</title>
+      <link>https://www.marcusrb.com/es/tags/agilismo/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/agilismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gobierno Del Dato</title>
+      <link>https://www.marcusrb.com/es/tags/gobierno-del-dato/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/gobierno-del-dato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/google-tag-manager/</link>
+      <pubDate>Wed, 20 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kaggle</title>
+      <link>https://www.marcusrb.com/es/tags/kaggle/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/kaggle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tuneado</title>
+      <link>https://www.marcusrb.com/es/tags/tuneado/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tuneado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powerbi</title>
+      <link>https://www.marcusrb.com/es/tags/powerbi/</link>
+      <pubDate>Wed, 08 Apr 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/powerbi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Data Studio</title>
+      <link>https://www.marcusrb.com/es/tags/google-data-studio/</link>
+      <pubDate>Thu, 05 Mar 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-data-studio/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Curso Analisis De Datos</title>
       <link>https://www.marcusrb.com/es/tags/curso-analisis-de-datos/</link>
       <pubDate>Tue, 07 Jan 2020 17:52:54 +0100</pubDate>
@@ -312,8 +459,22 @@
     <item>
       <title>Big Data</title>
       <link>https://www.marcusrb.com/es/tags/big-data/</link>
-      <pubDate>Tue, 03 Sep 2019 17:52:54 +0100</pubDate>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/es/tags/big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Científico De Datos</title>
+      <link>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/cient%C3%ADfico-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formación Data Science</title>
+      <link>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formaci%C3%B3n-data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -349,13 +510,6 @@
       <link>https://www.marcusrb.com/es/tags/estadistica-descriptiva/</link>
       <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
       <guid>https://www.marcusrb.com/es/tags/estadistica-descriptiva/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google Analytics</title>
-      <link>https://www.marcusrb.com/es/tags/google-analytics/</link>
-      <pubDate>Tue, 30 Apr 2019 17:52:54 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/google-analytics/</guid>
       <description></description>
     </item>
     <item>
@@ -429,24 +583,10 @@
       <description></description>
     </item>
     <item>
-      <title>Webinar</title>
-      <link>https://www.marcusrb.com/es/tags/webinar/</link>
-      <pubDate>Sun, 28 Oct 2018 11:59:35 +0100</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/webinar/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Creación Eventos</title>
       <link>https://www.marcusrb.com/es/tags/creaci%C3%B3n-eventos/</link>
       <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
       <guid>https://www.marcusrb.com/es/tags/creaci%C3%B3n-eventos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google Tag Manager</title>
-      <link>https://www.marcusrb.com/es/tags/google-tag-manager/</link>
-      <pubDate>Sun, 14 Oct 2018 13:00:19 +0200</pubDate>
-      <guid>https://www.marcusrb.com/es/tags/google-tag-manager/</guid>
       <description></description>
     </item>
     <item>
@@ -552,6 +692,34 @@
       <link>https://www.marcusrb.com/es/tags/plan-tag-manager/</link>
       <pubDate>Sun, 29 Apr 2018 21:18:03 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/plan-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Academy for Ads</title>
+      <link>https://www.marcusrb.com/es/tags/academy-for-ads/</link>
+      <pubDate>Thu, 26 Apr 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/academy-for-ads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adwords Certificación 2018</title>
+      <link>https://www.marcusrb.com/es/tags/adwords-certificaci%C3%B3n-2018/</link>
+      <pubDate>Thu, 26 Apr 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/adwords-certificaci%C3%B3n-2018/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Examen De Adwords Fundamentales</title>
+      <link>https://www.marcusrb.com/es/tags/examen-de-adwords-fundamentales/</link>
+      <pubDate>Thu, 26 Apr 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/examen-de-adwords-fundamentales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preguntas Certificación Adwords</title>
+      <link>https://www.marcusrb.com/es/tags/preguntas-certificaci%C3%B3n-adwords/</link>
+      <pubDate>Thu, 26 Apr 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/preguntas-certificaci%C3%B3n-adwords/</guid>
       <description></description>
     </item>
     <item>
@@ -744,6 +912,27 @@
       <description></description>
     </item>
     <item>
+      <title>Enseñanza Analítica Digital</title>
+      <link>https://www.marcusrb.com/es/tags/ense%C3%B1anza-anal%C3%ADtica-digital/</link>
+      <pubDate>Mon, 05 Mar 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/ense%C3%B1anza-anal%C3%ADtica-digital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formación Escuela Negocio</title>
+      <link>https://www.marcusrb.com/es/tags/formaci%C3%B3n-escuela-negocio/</link>
+      <pubDate>Mon, 05 Mar 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/formaci%C3%B3n-escuela-negocio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programa Formación</title>
+      <link>https://www.marcusrb.com/es/tags/programa-formaci%C3%B3n/</link>
+      <pubDate>Mon, 05 Mar 2018 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/programa-formaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Diferencias Formador Y Profesor</title>
       <link>https://www.marcusrb.com/es/tags/diferencias-formador-y-profesor/</link>
       <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
@@ -762,6 +951,34 @@
       <link>https://www.marcusrb.com/es/tags/profesor-de-digital-marketing/</link>
       <pubDate>Sun, 04 Mar 2018 17:15:13 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/profesor-de-digital-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experimentos Google Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/experimentos-google-analytics/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/experimentos-google-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Optimize</title>
+      <link>https://www.marcusrb.com/es/tags/google-optimize/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/google-optimize/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag Manager Y Optimize</title>
+      <link>https://www.marcusrb.com/es/tags/tag-manager-y-optimize/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tag-manager-y-optimize/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test Ab Google Optimize</title>
+      <link>https://www.marcusrb.com/es/tags/test-ab-google-optimize/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/test-ab-google-optimize/</guid>
       <description></description>
     </item>
     <item>
@@ -790,6 +1007,27 @@
       <link>https://www.marcusrb.com/es/tags/tag-manager/</link>
       <pubDate>Fri, 05 Jan 2018 14:58:24 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/tags/tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tracking Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/tracking-tag-manager/</link>
+      <pubDate>Sun, 24 Sep 2017 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/tracking-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Videos Tag Manager</title>
+      <link>https://www.marcusrb.com/es/tags/videos-tag-manager/</link>
+      <pubDate>Sun, 24 Sep 2017 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/videos-tag-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube Analytics</title>
+      <link>https://www.marcusrb.com/es/tags/youtube-analytics/</link>
+      <pubDate>Sun, 24 Sep 2017 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/tags/youtube-analytics/</guid>
       <description></description>
     </item>
     <item>

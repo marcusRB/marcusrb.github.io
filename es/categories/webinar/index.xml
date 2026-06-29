@@ -6,8 +6,50 @@
     <description>Recent content in Webinar on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 28 Oct 2018 11:59:35 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2020 17:52:54 +0100</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/es/categories/webinar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Webinar] - Visualiza Machine Learning en Power BI</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-visualiza-azure-machine-learning-power-bi/</link>
+      <pubDate>Wed, 25 Nov 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-visualiza-azure-machine-learning-power-bi/</guid>
+      <description>Webinar sobre cómo visualizar modelos de machine learning en Power BI, conectando Azure ML, Databricks y reporting analítico para negocio.</description>
+    </item>
+    <item>
+      <title>[Webinar] - PoweR-Py - Integrar R y Python en Power BI</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-integrar-r-python-power-bi/</link>
+      <pubDate>Sat, 10 Oct 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-integrar-r-python-power-bi/</guid>
+      <description>Webinar sobre integración de R y Python en Power BI para enriquecer análisis, transformar datos y ampliar el alcance analítico de los dashboards.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Automatizar tareas de Machine Learning con Knime</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</link>
+      <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</guid>
+      <description>Webinar sobre automatización de tareas de machine learning con KNIME para flujos analíticos, ETL y modelos repetibles.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Mejora tu modelo DAX - Power Query en Power BI.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</guid>
+      <description>Webinar sobre modelado con DAX y Power Query en Power BI para mejorar cálculos, estructura de datos y diseño analítico.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science optimización y tuneado de parámetros.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</guid>
+      <description>Segunda parte del webinar de Kaggle centrada en optimización, tuneado de parámetros y mejora de modelos en retos de data science.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science participar retos data science.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</link>
+      <pubDate>Thu, 16 Apr 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</guid>
+      <description>Webinar introductorio para empezar a participar en retos de Kaggle y utilizar competiciones como vía práctica para aprender data science.</description>
+    </item>
     <item>
       <title>#MoocGTM Seminario Online Google Tag Manager</title>
       <link>https://www.marcusrb.com/es/posts/moocgtm-seminario-online-google-tag-manager/</link>

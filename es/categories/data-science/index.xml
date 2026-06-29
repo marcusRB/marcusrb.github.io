@@ -6,8 +6,29 @@
     <description>Recent content in Data Science on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
-    <lastBuildDate>Tue, 07 Jan 2020 17:52:54 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 17:52:54 +0100</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/es/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Webinar] - Automatizar tareas de Machine Learning con Knime</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</link>
+      <pubDate>Thu, 25 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-automatizar-tareas-machine-learning-knime/</guid>
+      <description>Webinar sobre automatización de tareas de machine learning con KNIME para flujos analíticos, ETL y modelos repetibles.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science optimización y tuneado de parámetros.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</guid>
+      <description>Segunda parte del webinar de Kaggle centrada en optimización, tuneado de parámetros y mejora de modelos en retos de data science.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science participar retos data science.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</link>
+      <pubDate>Thu, 16 Apr 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</guid>
+      <description>Webinar introductorio para empezar a participar en retos de Kaggle y utilizar competiciones como vía práctica para aprender data science.</description>
+    </item>
     <item>
       <title>[Entrevista] - Estudiar Data Science, profesión del momento o moda pasajera?</title>
       <link>https://www.marcusrb.com/es/posts/entrevista-estudiar-data-science-profesion-actual-moda-pasajera/</link>
@@ -18,6 +39,13 @@
 &lt;h3 id=&#34;entr-el-data-science-es-algo-pasajero-o-deberíamos-tenerlo-en-cuenta-para-el-futuro&#34;&gt;entr.: El Data Science, ¿es algo pasajero o deberíamos tenerlo en cuenta para el futuro?&lt;/h3&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Antes de contestar a esta pregunta, veamos estas dos gráficas muy interesantes. La primera es la tendencia de búsqueda en España referente a dos términos (data science y ciencias de datos). El aumento del interés de búsqueda se ha duplicado en desde octubre de 2018.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cómo convertirse en un científico de datos</title>
+      <link>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</link>
+      <pubDate>Mon, 09 Sep 2019 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/como-convertirse-en-data-scientist/</guid>
+      <description>Ruta de aprendizaje para convertirse en científico de datos, con foco en habilidades, fundamentos, herramientas y enfoque práctico.</description>
     </item>
     <item>
       <title>Cómo convertirse en un estadístico</title>

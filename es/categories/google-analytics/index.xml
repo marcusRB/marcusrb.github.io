@@ -22,5 +22,19 @@
       <guid>https://www.marcusrb.com/es/posts/medicion-formularios-contactform7-con-tag-manager/</guid>
       <description>Dentro del plan de medición, normalmente con el marcar un objetivo empresarial y crear diferentes estrategias llegamos al punto de la implementación técnica.</description>
     </item>
+    <item>
+      <title>Integrar Google Optimize con Tag Manager – Experimentos con Analytics parte 1</title>
+      <link>https://www.marcusrb.com/es/posts/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</link>
+      <pubDate>Mon, 05 Feb 2018 12:04:22 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/integrar-google-optimize-con-tag-manager-experimentos-con-analytics-parte-1/</guid>
+      <description>Introducción a la integración entre Google Optimize, Tag Manager y Analytics para lanzar experimentos y pruebas A/B con mejor control de medición.</description>
+    </item>
+    <item>
+      <title>Nuevas variables y activadores para medir los {{videos}} en Tag Manager • Parte I</title>
+      <link>https://www.marcusrb.com/es/posts/medir-videos-tag-manager-parte-1/</link>
+      <pubDate>Sun, 24 Sep 2017 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/medir-videos-tag-manager-parte-1/</guid>
+      <description>Introducción a la medición de vídeos en Google Tag Manager con variables y activadores nativos para YouTube y tracking de interacción.</description>
+    </item>
   </channel>
 </rss>

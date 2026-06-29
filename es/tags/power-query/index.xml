@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Power Query on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/es/tags/power-query/</link>
+    <description>Recent content in Power Query on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Tue, 02 Jun 2020 17:52:54 +0100</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/es/tags/power-query/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Webinar] - Mejora tu modelo DAX - Power Query en Power BI.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</link>
+      <pubDate>Tue, 02 Jun 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-tecnicas-modelado-dax-power-bi/</guid>
+      <description>Webinar sobre modelado con DAX y Power Query en Power BI para mejorar cálculos, estructura de datos y diseño analítico.</description>
+    </item>
+  </channel>
+</rss>

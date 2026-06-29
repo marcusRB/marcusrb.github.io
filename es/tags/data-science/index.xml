@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data-Science on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <title>Data Science on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/es/tags/data-science/</link>
-    <description>Recent content in Data-Science on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <description>Recent content in Data Science on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
@@ -14,6 +14,20 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/es/services/training/data-science/</guid>
       <description>Learning path de data science y machine learning sobre fundamentos de ML, estadística, minería de datos, experimentación y workflows aplicados de modelado.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science optimización y tuneado de parámetros.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</link>
+      <pubDate>Sat, 02 May 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-data-science-tuneado-parametros/</guid>
+      <description>Segunda parte del webinar de Kaggle centrada en optimización, tuneado de parámetros y mejora de modelos en retos de data science.</description>
+    </item>
+    <item>
+      <title>[Webinar] - Kaggle Data Science participar retos data science.</title>
+      <link>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</link>
+      <pubDate>Thu, 16 Apr 2020 17:52:54 +0100</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/webinar-kaggle-participar-retos-data-science/</guid>
+      <description>Webinar introductorio para empezar a participar en retos de Kaggle y utilizar competiciones como vía práctica para aprender data science.</description>
     </item>
   </channel>
 </rss>
