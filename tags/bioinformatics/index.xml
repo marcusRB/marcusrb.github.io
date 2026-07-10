@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalable Genomic Pipeline Optimization with Nextflow and Singularity</title>
+      <link>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</guid>
+      <description>How to build and deploy reproducible, scalable NGS data analysis pipelines using Nextflow orchestration and Singularity containers.</description>
+    </item>
     <item>
       <title>Bioinformatics and Health Data Support</title>
       <link>https://www.marcusrb.com/services/bioinformatics/</link>

@@ -15,5 +15,12 @@
       <guid>https://www.marcusrb.com/services/training/cloud-computing/</guid>
       <description>Cloud computing training path covering AWS, GCP, Azure, Databricks, data pipelines, and deployment workflows for analytics and machine learning teams.</description>
     </item>
+    <item>
+      <title>Migrating ML Workloads from EC2 to Scalable Amazon EKS</title>
+      <link>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</guid>
+      <description>A practical engineering guide to transitioning rigid machine learning deployment instances into production-ready Kubernetes environments.</description>
+    </item>
   </channel>
 </rss>

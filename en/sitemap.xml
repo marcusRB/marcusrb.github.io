@@ -2,6 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.marcusrb.com/tags/bioinformatics/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/bioinformatics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/bioinformatics/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/posts/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/genomics/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/nextflow/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/singularity/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/"
+                />
+  </url><url>
     <loc>https://www.marcusrb.com/tags/ai/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -65,19 +129,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/tags/bi/"
-                />
-  </url><url>
-    <loc>https://www.marcusrb.com/tags/bioinformatics/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/bioinformatics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/bioinformatics/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/services/bioinformatics/</loc>
@@ -431,19 +482,6 @@
                 href="https://www.marcusrb.com/es/tags/machine-learning/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/tags/measurement/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -639,19 +677,6 @@
                 href="https://www.marcusrb.com/es/tags/tableau/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/tags/training/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -677,6 +702,15 @@
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/services/training/"
                 />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/cloud-infrastructure/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/kubernetes/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.marcusrb.com/tags/bootcamp/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
@@ -741,18 +775,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/archive/"
-                />
-  </url><url>
-    <loc>https://www.marcusrb.com/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/posts/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/categories/</loc>

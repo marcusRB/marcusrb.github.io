@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Genomics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/genomics/</link>
+    <description>Recent content in Genomics on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/genomics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalable Genomic Pipeline Optimization with Nextflow and Singularity</title>
+      <link>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</guid>
+      <description>How to build and deploy reproducible, scalable NGS data analysis pipelines using Nextflow orchestration and Singularity containers.</description>
+    </item>
+  </channel>
+</rss>
