@@ -184,6 +184,19 @@
                 href="https://www.marcusrb.com/es/services/training/data-science/"
                 />
   </url><url>
+    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/data-visualization/"
+                />
+  </url><url>
     <loc>https://www.marcusrb.com/es/tags/data-mining/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -208,19 +221,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/tags/data-science/"
-                />
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/data-visualization/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/databricks/</loc>
@@ -678,11 +678,8 @@
                 href="https://www.marcusrb.com/es/services/training/data-visualization/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/es/tags/big-query/</loc>
-    <lastmod>2021-02-21T11:52:54+01:00</lastmod>
-  </url><url>
     <loc>https://www.marcusrb.com/es/posts/</loc>
-    <lastmod>2021-02-21T11:52:54+01:00</lastmod>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -693,6 +690,24 @@
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/posts/"
                 />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/empresa/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/espana/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/estrategia/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/gobierno-del-dato/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/big-query/</loc>
+    <lastmod>2021-02-21T11:52:54+01:00</lastmod>
   </url><url>
     <loc>https://www.marcusrb.com/es/categories/</loc>
     <lastmod>2021-02-21T11:52:54+01:00</lastmod>
@@ -802,19 +817,6 @@
   </url><url>
     <loc>https://www.marcusrb.com/es/posts/marco-gobernanza-google-tag-manager/</loc>
     <lastmod>2020-05-20T17:52:54+01:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/gobierno-del-dato/</loc>
-    <lastmod>2020-05-20T17:52:54+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/gobierno-del-dato/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/gobierno-del-dato/"
-                />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/google-tag-manager/</loc>
     <lastmod>2020-05-20T17:52:54+01:00</lastmod>

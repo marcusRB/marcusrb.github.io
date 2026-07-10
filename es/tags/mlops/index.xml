@@ -15,5 +15,12 @@
       <guid>https://www.marcusrb.com/es/services/machine-learning-ai/</guid>
       <description>Consultoría aplicada en ML e IA para definición de problemas, preparación de datos, desarrollo de modelos, evaluación, despliegue y adopción.</description>
     </item>
+    <item>
+      <title>El Estado de MLOps en la Empresa Española en 2025</title>
+      <link>https://www.marcusrb.com/es/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/es/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</guid>
+      <description>Una lectura estratégica sobre la madurez real de MLOps en España y cómo auditar infraestructura, gobierno y despliegue sin autoengaños.</description>
+    </item>
   </channel>
 </rss>
