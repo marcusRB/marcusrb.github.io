@@ -15,5 +15,12 @@
       <guid>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</guid>
       <description>How to build and deploy reproducible, scalable NGS data analysis pipelines using Nextflow orchestration and Singularity containers.</description>
     </item>
+    <item>
+      <title>Writing Your First Production-Ready Nextflow Pipeline</title>
+      <link>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</guid>
+      <description>A practical guide to designing a first Nextflow pipeline that remains maintainable when it moves from local execution to HPC or cloud.</description>
+    </item>
   </channel>
 </rss>

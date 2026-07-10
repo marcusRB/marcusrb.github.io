@@ -22,5 +22,33 @@
       <guid>https://www.marcusrb.com/services/bioinformatics/</guid>
       <description>Bioinformatics support for applied research, health-data analysis, clinical datasets, and reproducible analytical workflows.</description>
     </item>
+    <item>
+      <title>Introduction to Graph Attention Networks in Biology</title>
+      <link>https://www.marcusrb.com/posts/2025-02-26-introduction-to-graph-attention-networks-in-biology/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-26-introduction-to-graph-attention-networks-in-biology/</guid>
+      <description>A practical introduction to Graph Attention Networks for biological data, with a focus on graph construction ideas relevant to spatial transcriptomics.</description>
+    </item>
+    <item>
+      <title>Why Docker Fails in HPC and How Singularity Fixes It</title>
+      <link>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</guid>
+      <description>A practical explanation of why Docker conflicts with shared HPC security models and how Singularity or Apptainer fit Slurm environments better.</description>
+    </item>
+    <item>
+      <title>Writing Your First Production-Ready Nextflow Pipeline</title>
+      <link>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</guid>
+      <description>A practical guide to designing a first Nextflow pipeline that remains maintainable when it moves from local execution to HPC or cloud.</description>
+    </item>
+    <item>
+      <title>Processing Single-Cell RNA-Seq Data at Scale</title>
+      <link>https://www.marcusrb.com/posts/2025-01-08-processing-single-cell-rna-seq-data-at-scale/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-08-processing-single-cell-rna-seq-data-at-scale/</guid>
+      <description>A practical guide to scaling single-cell RNA-seq analysis with Seurat and Scanpy across workstation and cluster environments.</description>
+    </item>
   </channel>
 </rss>

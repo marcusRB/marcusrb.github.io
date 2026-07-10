@@ -171,19 +171,6 @@
                 href="https://www.marcusrb.com/es/services/machine-learning-ai/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/es/tags/data-science/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/data-science/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/data-science/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/es/services/training/data-science/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -197,19 +184,6 @@
                 href="https://www.marcusrb.com/es/services/training/data-science/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/data-visualization/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/es/tags/data-mining/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -221,6 +195,32 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/tags/data-mining/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/data-science/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/data-science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/data-science/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/data-visualization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/data-visualization/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/databricks/</loc>
@@ -805,6 +805,16 @@
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/gobierno-del-dato/</loc>
     <lastmod>2020-05-20T17:52:54+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/gobierno-del-dato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/gobierno-del-dato/"
+                />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/google-tag-manager/</loc>
     <lastmod>2020-05-20T17:52:54+01:00</lastmod>
@@ -1028,21 +1038,6 @@
     <loc>https://www.marcusrb.com/es/tags/plan-tag-manager/</loc>
     <lastmod>2018-04-29T21:18:03+00:00</lastmod>
   </url><url>
-    <loc>https://www.marcusrb.com/es/tags/academy-for-ads/</loc>
-    <lastmod>2018-04-26T17:52:54+01:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/adwords-certificaci%C3%B3n-2018/</loc>
-    <lastmod>2018-04-26T17:52:54+01:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/examen-de-adwords-fundamentales/</loc>
-    <lastmod>2018-04-26T17:52:54+01:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/preguntas-certificaci%C3%B3n-adwords/</loc>
-    <lastmod>2018-04-26T17:52:54+01:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/es/posts/test-examen-de-google-adwords-avanzado-de-busqueda/</loc>
-    <lastmod>2018-04-26T17:52:54+01:00</lastmod>
-  </url><url>
     <loc>https://www.marcusrb.com/es/tags/analytics-eventos/</loc>
     <lastmod>2018-04-22T21:34:51+00:00</lastmod>
   </url><url>
@@ -1110,6 +1105,18 @@
     <lastmod>2018-04-05T14:47:15+00:00</lastmod>
   </url><url>
     <loc>https://www.marcusrb.com/es/posts/buscas-las-respuestas-del-examen-de-google-adwords-fundamentales/</loc>
+    <lastmod>2018-03-27T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/academy-for-ads/</loc>
+    <lastmod>2018-03-27T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/adwords-certificaci%C3%B3n-2018/</loc>
+    <lastmod>2018-03-27T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/examen-de-adwords-fundamentales/</loc>
+    <lastmod>2018-03-27T17:52:54+01:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/es/tags/preguntas-certificaci%C3%B3n-adwords/</loc>
     <lastmod>2018-03-27T17:52:54+01:00</lastmod>
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/contact-form-7-formulario/</loc>

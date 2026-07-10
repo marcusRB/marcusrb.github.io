@@ -6,8 +6,15 @@
     <description>Recent content on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating ML Workloads from EC2 to Scalable Amazon EKS</title>
+      <link>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</guid>
+      <description>A practical engineering guide to transitioning rigid machine learning deployment instances into production-ready Kubernetes environments.</description>
+    </item>
     <item>
       <title>Scalable Genomic Pipeline Optimization with Nextflow and Singularity</title>
       <link>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</link>
@@ -86,11 +93,67 @@
       <description>R and R Studio learning path covering statistical analysis, reproducible workflows, packages, data exploration, and analytical programming.</description>
     </item>
     <item>
-      <title>Migrating ML Workloads from EC2 to Scalable Amazon EKS</title>
-      <link>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</guid>
-      <description>A practical engineering guide to transitioning rigid machine learning deployment instances into production-ready Kubernetes environments.</description>
+      <title>Introduction to Graph Attention Networks in Biology</title>
+      <link>https://www.marcusrb.com/posts/2025-02-26-introduction-to-graph-attention-networks-in-biology/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-26-introduction-to-graph-attention-networks-in-biology/</guid>
+      <description>A practical introduction to Graph Attention Networks for biological data, with a focus on graph construction ideas relevant to spatial transcriptomics.</description>
+    </item>
+    <item>
+      <title>Infrastructure as Code for Data Engineers: Terraform Basics</title>
+      <link>https://www.marcusrb.com/posts/2025-02-19-infrastructure-as-code-for-data-engineers-terraform-basics/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-19-infrastructure-as-code-for-data-engineers-terraform-basics/</guid>
+      <description>A practical introduction to Terraform for data engineers who need to provision S3 and IAM foundations for machine learning workflows.</description>
+    </item>
+    <item>
+      <title>Why Docker Fails in HPC and How Singularity Fixes It</title>
+      <link>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</guid>
+      <description>A practical explanation of why Docker conflicts with shared HPC security models and how Singularity or Apptainer fit Slurm environments better.</description>
+    </item>
+    <item>
+      <title>Introduction to Experiment Tracking without the Overhead</title>
+      <link>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</guid>
+      <description>A pragmatic guide to setting up MLflow experiment tracking on AWS or GCP without turning a small team into platform operators.</description>
+    </item>
+    <item>
+      <title>Writing Your First Production-Ready Nextflow Pipeline</title>
+      <link>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</guid>
+      <description>A practical guide to designing a first Nextflow pipeline that remains maintainable when it moves from local execution to HPC or cloud.</description>
+    </item>
+    <item>
+      <title>El Estado de MLOps en la Empresa Española en 2025</title>
+      <link>https://www.marcusrb.com/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</guid>
+      <description>Una lectura estratégica sobre la madurez real de MLOps en España y cómo auditar infraestructura, gobierno y despliegue sin autoengaños.</description>
+    </item>
+    <item>
+      <title>Local to Multi-Node: Packaging ML Code with Docker</title>
+      <link>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</guid>
+      <description>A practical guide to packaging machine learning code with minimal Dockerfiles that run consistently from laptops to multi-node environments.</description>
+    </item>
+    <item>
+      <title>Processing Single-Cell RNA-Seq Data at Scale</title>
+      <link>https://www.marcusrb.com/posts/2025-01-08-processing-single-cell-rna-seq-data-at-scale/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-08-processing-single-cell-rna-seq-data-at-scale/</guid>
+      <description>A practical guide to scaling single-cell RNA-seq analysis with Seurat and Scanpy across workstation and cluster environments.</description>
+    </item>
+    <item>
+      <title>Setting Up a Clean CI/CD Pipeline for Python ML Packages</title>
+      <link>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</guid>
+      <description>A practical guide to building a maintainable CI/CD pipeline for Python machine learning packages using GitHub Actions and pytest.</description>
     </item>
     <item>
       <title>Machine Learning Engineering Bootcamp</title>

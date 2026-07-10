@@ -15,5 +15,12 @@
       <guid>https://www.marcusrb.com/posts/2026-06-08-genomic-pipeline-nextflow-singularity/</guid>
       <description>How to build and deploy reproducible, scalable NGS data analysis pipelines using Nextflow orchestration and Singularity containers.</description>
     </item>
+    <item>
+      <title>Why Docker Fails in HPC and How Singularity Fixes It</title>
+      <link>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</guid>
+      <description>A practical explanation of why Docker conflicts with shared HPC security models and how Singularity or Apptainer fit Slurm environments better.</description>
+    </item>
   </channel>
 </rss>

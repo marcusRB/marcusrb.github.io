@@ -16,6 +16,20 @@
       <description>Cloud computing training path covering AWS, GCP, Azure, Databricks, data pipelines, and deployment workflows for analytics and machine learning teams.</description>
     </item>
     <item>
+      <title>Local to Multi-Node: Packaging ML Code with Docker</title>
+      <link>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</guid>
+      <description>A practical guide to packaging machine learning code with minimal Dockerfiles that run consistently from laptops to multi-node environments.</description>
+    </item>
+    <item>
+      <title>Setting Up a Clean CI/CD Pipeline for Python ML Packages</title>
+      <link>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</guid>
+      <description>A practical guide to building a maintainable CI/CD pipeline for Python machine learning packages using GitHub Actions and pytest.</description>
+    </item>
+    <item>
       <title>Machine Learning Engineering Bootcamp</title>
       <link>https://www.marcusrb.com/courses/ml-bootcamp/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>

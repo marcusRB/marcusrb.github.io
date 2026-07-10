@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mlops on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <title>MLOps on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
     <link>https://www.marcusrb.com/tags/mlops/</link>
-    <description>Recent content in Mlops on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <description>Recent content in MLOps on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating ML Workloads from EC2 to Scalable Amazon EKS</title>
+      <link>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</guid>
+      <description>A practical engineering guide to transitioning rigid machine learning deployment instances into production-ready Kubernetes environments.</description>
+    </item>
     <item>
       <title>Machine Learning and AI Consulting</title>
       <link>https://www.marcusrb.com/services/machine-learning-ai/</link>
@@ -16,11 +23,39 @@
       <description>Applied ML and AI consulting covering problem framing, data preparation, model development, evaluation, deployment, and adoption.</description>
     </item>
     <item>
-      <title>Migrating ML Workloads from EC2 to Scalable Amazon EKS</title>
-      <link>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</guid>
-      <description>A practical engineering guide to transitioning rigid machine learning deployment instances into production-ready Kubernetes environments.</description>
+      <title>Infrastructure as Code for Data Engineers: Terraform Basics</title>
+      <link>https://www.marcusrb.com/posts/2025-02-19-infrastructure-as-code-for-data-engineers-terraform-basics/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-19-infrastructure-as-code-for-data-engineers-terraform-basics/</guid>
+      <description>A practical introduction to Terraform for data engineers who need to provision S3 and IAM foundations for machine learning workflows.</description>
+    </item>
+    <item>
+      <title>Introduction to Experiment Tracking without the Overhead</title>
+      <link>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</guid>
+      <description>A pragmatic guide to setting up MLflow experiment tracking on AWS or GCP without turning a small team into platform operators.</description>
+    </item>
+    <item>
+      <title>El Estado de MLOps en la Empresa Española en 2025</title>
+      <link>https://www.marcusrb.com/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</guid>
+      <description>Una lectura estratégica sobre la madurez real de MLOps en España y cómo auditar infraestructura, gobierno y despliegue sin autoengaños.</description>
+    </item>
+    <item>
+      <title>Local to Multi-Node: Packaging ML Code with Docker</title>
+      <link>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</guid>
+      <description>A practical guide to packaging machine learning code with minimal Dockerfiles that run consistently from laptops to multi-node environments.</description>
+    </item>
+    <item>
+      <title>Setting Up a Clean CI/CD Pipeline for Python ML Packages</title>
+      <link>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</guid>
+      <description>A practical guide to building a maintainable CI/CD pipeline for Python machine learning packages using GitHub Actions and pytest.</description>
     </item>
   </channel>
 </rss>

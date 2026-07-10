@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Slurm on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/slurm/</link>
+    <description>Recent content in Slurm on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/slurm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Docker Fails in HPC and How Singularity Fixes It</title>
+      <link>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</guid>
+      <description>A practical explanation of why Docker conflicts with shared HPC security models and how Singularity or Apptainer fit Slurm environments better.</description>
+    </item>
+  </channel>
+</rss>

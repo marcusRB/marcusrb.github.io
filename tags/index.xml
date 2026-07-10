@@ -6,8 +6,36 @@
     <description>Recent content in Tags on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>https://www.marcusrb.com/tags/aws/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Infrastructure</title>
+      <link>https://www.marcusrb.com/tags/cloud-infrastructure/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/cloud-infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://www.marcusrb.com/tags/kubernetes/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MLOps</title>
+      <link>https://www.marcusrb.com/tags/mlops/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/mlops/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bioinformatics</title>
       <link>https://www.marcusrb.com/tags/bioinformatics/</link>
@@ -48,13 +76,6 @@
       <link>https://www.marcusrb.com/tags/analytics/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/tags/analytics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS</title>
-      <link>https://www.marcusrb.com/tags/aws/</link>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/aws/</guid>
       <description></description>
     </item>
     <item>
@@ -212,13 +233,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mlops</title>
-      <link>https://www.marcusrb.com/tags/mlops/</link>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/mlops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Omics</title>
       <link>https://www.marcusrb.com/tags/omics/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
@@ -296,17 +310,192 @@
       <description></description>
     </item>
     <item>
-      <title>Cloud-Infrastructure</title>
-      <link>https://www.marcusrb.com/tags/cloud-infrastructure/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/cloud-infrastructure/</guid>
+      <title>Gat</title>
+      <link>https://www.marcusrb.com/tags/gat/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/gat/</guid>
       <description></description>
     </item>
     <item>
-      <title>Kubernetes</title>
-      <link>https://www.marcusrb.com/tags/kubernetes/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/kubernetes/</guid>
+      <title>Graph-Neural-Networks</title>
+      <link>https://www.marcusrb.com/tags/graph-neural-networks/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/graph-neural-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytorch-Geometric</title>
+      <link>https://www.marcusrb.com/tags/pytorch-geometric/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/pytorch-geometric/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spatial-Transcriptomics</title>
+      <link>https://www.marcusrb.com/tags/spatial-transcriptomics/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/spatial-transcriptomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://www.marcusrb.com/tags/data-engineering/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure-as-Code</title>
+      <link>https://www.marcusrb.com/tags/infrastructure-as-code/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/infrastructure-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://www.marcusrb.com/tags/terraform/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apptainer</title>
+      <link>https://www.marcusrb.com/tags/apptainer/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/apptainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hpc</title>
+      <link>https://www.marcusrb.com/tags/hpc/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slurm</title>
+      <link>https://www.marcusrb.com/tags/slurm/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/slurm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experiment-Tracking</title>
+      <link>https://www.marcusrb.com/tags/experiment-tracking/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/experiment-tracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mlflow</title>
+      <link>https://www.marcusrb.com/tags/mlflow/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/mlflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipelines</title>
+      <link>https://www.marcusrb.com/tags/pipelines/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/pipelines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflows</title>
+      <link>https://www.marcusrb.com/tags/workflows/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/workflows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empresa</title>
+      <link>https://www.marcusrb.com/tags/empresa/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/empresa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Espana</title>
+      <link>https://www.marcusrb.com/tags/espana/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/espana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estrategia</title>
+      <link>https://www.marcusrb.com/tags/estrategia/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/estrategia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gobierno-Del-Dato</title>
+      <link>https://www.marcusrb.com/tags/gobierno-del-dato/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/gobierno-del-dato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://www.marcusrb.com/tags/containers/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://www.marcusrb.com/tags/docker/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cluster-Computing</title>
+      <link>https://www.marcusrb.com/tags/cluster-computing/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/cluster-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scanpy</title>
+      <link>https://www.marcusrb.com/tags/scanpy/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/scanpy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scrna-Seq</title>
+      <link>https://www.marcusrb.com/tags/scrna-seq/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/scrna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seurat</title>
+      <link>https://www.marcusrb.com/tags/seurat/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/seurat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ci-Cd</title>
+      <link>https://www.marcusrb.com/tags/ci-cd/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Actions</title>
+      <link>https://www.marcusrb.com/tags/github-actions/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytest</title>
+      <link>https://www.marcusrb.com/tags/pytest/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/pytest/</guid>
       <description></description>
     </item>
     <item>

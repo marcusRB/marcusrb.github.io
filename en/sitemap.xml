@@ -2,6 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.marcusrb.com/tags/aws/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/aws/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/aws/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/posts/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/cloud-infrastructure/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/kubernetes/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/mlops/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/mlops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/mlops/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/"
+                />
+  </url><url>
     <loc>https://www.marcusrb.com/tags/bioinformatics/</loc>
     <lastmod>2026-07-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,34 +89,8 @@
                 href="https://www.marcusrb.com/es/tags/bioinformatics/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/posts/</loc>
-    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/posts/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/tags/genomics/</loc>
     <lastmod>2026-07-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/</loc>
-    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/"
-                />
   </url><url>
     <loc>https://www.marcusrb.com/tags/nextflow/</loc>
     <lastmod>2026-07-09T00:00:00+00:00</lastmod>
@@ -52,19 +100,6 @@
   </url><url>
     <loc>https://www.marcusrb.com/tags/singularity/</loc>
     <lastmod>2026-07-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.marcusrb.com/tags/</loc>
-    <lastmod>2026-07-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/"
-                />
   </url><url>
     <loc>https://www.marcusrb.com/tags/ai/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
@@ -90,19 +125,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/tags/analytics/"
-                />
-  </url><url>
-    <loc>https://www.marcusrb.com/tags/aws/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/aws/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/aws/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/tags/azure/</loc>
@@ -495,19 +517,6 @@
                 href="https://www.marcusrb.com/es/tags/measurement/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/tags/mlops/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/mlops/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/mlops/"
-                />
-  </url><url>
     <loc>https://www.marcusrb.com/tags/omics/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -703,14 +712,123 @@
                 href="https://www.marcusrb.com/es/services/training/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/tags/cloud-infrastructure/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/gat/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.marcusrb.com/tags/kubernetes/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <loc>https://www.marcusrb.com/tags/graph-neural-networks/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.marcusrb.com/posts/2026-06-01-migrating-ml-workloads-ec2-eks/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <loc>https://www.marcusrb.com/posts/2025-02-26-introduction-to-graph-attention-networks-in-biology/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/pytorch-geometric/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/spatial-transcriptomics/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/data-engineering/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-02-19-infrastructure-as-code-for-data-engineers-terraform-basics/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/infrastructure-as-code/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/terraform/</loc>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/apptainer/</loc>
+    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/hpc/</loc>
+    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/slurm/</loc>
+    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-02-12-why-docker-fails-in-hpc-and-how-singularity-fixes-it/</loc>
+    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/experiment-tracking/</loc>
+    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</loc>
+    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/mlflow/</loc>
+    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/pipelines/</loc>
+    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/workflows/</loc>
+    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-01-29-writing-your-first-production-ready-nextflow-pipeline/</loc>
+    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-01-22-el-estado-de-mlops-en-la-empresa-espanola-en-2025/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/empresa/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/espana/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/estrategia/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/gobierno-del-dato/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/gobierno-del-dato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/gobierno-del-dato/"
+                />
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/containers/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/docker/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/cluster-computing/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-01-08-processing-single-cell-rna-seq-data-at-scale/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/scanpy/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/scrna-seq/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/seurat/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/ci-cd/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/github-actions/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/tags/pytest/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.marcusrb.com/posts/2025-01-01-setting-up-a-clean-ci-cd-pipeline-for-python-ml-packages/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.marcusrb.com/tags/bootcamp/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>

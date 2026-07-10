@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Experiment-Tracking on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/experiment-tracking/</link>
+    <description>Recent content in Experiment-Tracking on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/experiment-tracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Experiment Tracking without the Overhead</title>
+      <link>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</guid>
+      <description>A pragmatic guide to setting up MLflow experiment tracking on AWS or GCP without turning a small team into platform operators.</description>
+    </item>
+  </channel>
+</rss>

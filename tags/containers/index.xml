@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Containers on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</title>
+    <link>https://www.marcusrb.com/tags/containers/</link>
+    <description>Recent content in Containers on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.marcusrb.com/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local to Multi-Node: Packaging ML Code with Docker</title>
+      <link>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-01-15-local-to-multi-node-packaging-ml-code-with-docker/</guid>
+      <description>A practical guide to packaging machine learning code with minimal Dockerfiles that run consistently from laptops to multi-node environments.</description>
+    </item>
+  </channel>
+</rss>

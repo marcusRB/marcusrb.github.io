@@ -15,5 +15,12 @@
       <guid>https://www.marcusrb.com/services/training/cloud-computing/</guid>
       <description>Cloud computing training path covering AWS, GCP, Azure, Databricks, data pipelines, and deployment workflows for analytics and machine learning teams.</description>
     </item>
+    <item>
+      <title>Introduction to Experiment Tracking without the Overhead</title>
+      <link>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/posts/2025-02-05-introduction-to-experiment-tracking-without-the-overhead/</guid>
+      <description>A pragmatic guide to setting up MLflow experiment tracking on AWS or GCP without turning a small team into platform operators.</description>
+    </item>
   </channel>
 </rss>
