@@ -171,6 +171,19 @@
                 href="https://www.marcusrb.com/es/services/machine-learning-ai/"
                 />
   </url><url>
+    <loc>https://www.marcusrb.com/es/tags/data-science/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.marcusrb.com/tags/data-science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://www.marcusrb.com/es/tags/data-science/"
+                />
+  </url><url>
     <loc>https://www.marcusrb.com/es/services/training/data-science/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -182,19 +195,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://www.marcusrb.com/es/services/training/data-science/"
-                />
-  </url><url>
-    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.marcusrb.com/tags/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/data-visualization/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/data-mining/</loc>
@@ -210,17 +210,17 @@
                 href="https://www.marcusrb.com/es/tags/data-mining/"
                 />
   </url><url>
-    <loc>https://www.marcusrb.com/es/tags/data-science/</loc>
+    <loc>https://www.marcusrb.com/es/tags/data-visualization/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.marcusrb.com/tags/data-science/"
+                href="https://www.marcusrb.com/tags/data-visualization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://www.marcusrb.com/es/tags/data-science/"
+                href="https://www.marcusrb.com/es/tags/data-visualization/"
                 />
   </url><url>
     <loc>https://www.marcusrb.com/es/tags/databricks/</loc>

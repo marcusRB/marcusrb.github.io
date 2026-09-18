@@ -6,8 +6,43 @@
     <description>Recent content in Tags on MarcusRB - Bioinformatics, Data Scientist &amp; Professor</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.marcusrb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bioinformatics</title>
+      <link>https://www.marcusrb.com/tags/bioinformatics/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep-Learning</title>
+      <link>https://www.marcusrb.com/tags/deep-learning/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Health-Data-Science</title>
+      <link>https://www.marcusrb.com/tags/health-data-science/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/health-data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiomics</title>
+      <link>https://www.marcusrb.com/tags/multiomics/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/multiomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytorch</title>
+      <link>https://www.marcusrb.com/tags/pytorch/</link>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.marcusrb.com/tags/pytorch/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aws</title>
       <link>https://www.marcusrb.com/tags/aws/</link>
@@ -34,13 +69,6 @@
       <link>https://www.marcusrb.com/tags/mlops/</link>
       <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://www.marcusrb.com/tags/mlops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bioinformatics</title>
-      <link>https://www.marcusrb.com/tags/bioinformatics/</link>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.marcusrb.com/tags/bioinformatics/</guid>
       <description></description>
     </item>
     <item>
